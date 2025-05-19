@@ -345,6 +345,7 @@ a:hover {
     background: #348cb2 url("images/bg.jpeg") bottom left;
     background-repeat: repeat-x;
     height: 100%;
+    background-size: cover;
     left: 0;
     opacity: 1;
     position: fixed;
@@ -468,8 +469,8 @@ a:hover {
     -ms-animation: overlay 1.5s 1.5s forwards;
     animation: overlay 1.5s 1.5s forwards;
     background-attachment: fixed, fixed;
-    background-image: url("images/overlay-pattern.png"),
-        url("images/overlay.svg");
+    background-image:
+        url("images/overlay-pattern.png"), url("images/overlay.svg");
     background-position:
         top left,
         center center;
