@@ -17,7 +17,17 @@
     .intro{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:16px;font-size:18px}
     .pick-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 12px 28px rgba(0,0,0,.24)}
     .pick-head h2{margin:4px 0 8px;font-size:30px;line-height:1.15}
+    .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
     .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--plus);letter-spacing:.12em;text-transform:uppercase}
+    .res{font:700 11px/1 Inter,system-ui,sans-serif;padding:5px 8px;border-radius:999px;border:1px solid #31508e;}
+    .res-win{color:#7CFFB3;border-color:#2f8f57;background:rgba(52,211,153,.12)}
+    .res-loss{color:#ff9ca0;border-color:#a13d47;background:rgba(239,68,68,.14)}
+    .res-pending{color:#cfe1ff;border-color:#3c5c97;background:rgba(59,130,246,.12)}
+    .tracker{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:16px}
+    .tracker-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+    .tcard{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
+    .tcard span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+    .tcard strong{font:700 16px/1.25 Inter,system-ui,sans-serif;color:#e7f0ff}
     .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 12px;padding:10px 0 2px}
     .meta-grid div{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
     .meta-grid span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
@@ -38,7 +48,7 @@
     <header>
       <div class="kicker">SportzBallz Plus Money Desk</div>
       <h1>Plus Money Picks — 2026-04-05</h1>
-      <div class="sub">Model: dutch • Updated 2026-04-05 03:11 PM</div>
+      <div class="sub">Model: dutch • Updated 2026-04-05 03:18 PM</div>
       <div class="toplinks">
         <a href="/2026-04-05.html">Full Daily Picks</a>
         <a href="/">Home</a>
@@ -46,10 +56,21 @@
     </header>
     <section class="intro">All underdog selections (positive odds) for the day, ordered by confidence.</section>
     
+        <section class="tracker">
+          <div class="tracker-grid">
+            <div class="tcard"><span>Plus Money Picks</span><strong>1</strong></div>
+            <div class="tcard"><span>Decided</span><strong>0</strong></div>
+            <div class="tcard"><span>Record</span><strong>0-0</strong></div>
+            <div class="tcard"><span>Win Rate</span><strong>—</strong></div>
+          </div>
+        </section>
+        
+    
       <article class="pick-card">
         <div class="pick-head">
           <div class="pick-num">Underdog 1</div>
           <h2>New York Mets over San Francisco Giants</h2>
+          <span class="res res-pending">PENDING</span>
         </div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+101</strong></div>
@@ -66,30 +87,6 @@
             <li><strong>New York Mets Injuries:</strong> Bo Bichette (Active), Brett Baty (Active), Brooks Raley (Active), Carson Benge (Active), Clay Holmes (Active), David Peterson (Active), Devin Williams (Active), Francisco Alvarez (Active)</li>
             <li><strong>San Francisco Giants Injuries:</strong> Adrian Houser (Active), Blade Tidwell (Active), Caleb Kilian (Active), Casey Schmitt (Active), Christian Koss (Active), Daniel Susac (Active), Erik Miller (Active), Harrison Bader (Active)</li>
             <li><strong>Line Movement:</strong> Moneyline unchanged at 101.</li>
-          </ul>
-        </details>
-      </article>
-    
-      <article class="pick-card">
-        <div class="pick-head">
-          <div class="pick-num">Underdog 2</div>
-          <h2>Colorado Rockies over Philadelphia Phillies</h2>
-        </div>
-        <div class="meta-grid">
-          <div><span>Odds</span><strong>+130</strong></div>
-          <div><span>Confidence</span><strong>0.000 (data points: 11/22)</strong></div>
-          <div><span>Pitching</span><strong>Tomoyuki Sugano vs Taijuan Walker</strong></div>
-          <div><span>Venue</span><strong>Coors Field</strong></div>
-        </div>
-        <p class="lede">Beat-writer lens: On today’s board, Colorado Rockies over Philadelphia Phillies reads more process than noise. The number (+130) and confidence profile (0.000 (data points: 11/22)) suggest a thin edge, anchored by the pitching lane (Tomoyuki Sugano vs Taijuan Walker) and supported by the model’s side-specific indicator balance. Conditions at Coors Field (Sunny, 60°F, 9 mph, In From CF) are worth tracking, but they don’t look extreme enough to override core matchup factors. Home plate assignment (Andy Fletcher) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</p>
-        <details>
-          <summary>Expanded game context</summary>
-          <ul>
-            <li><strong>Weather:</strong> Sunny, 60°F, 9 mph, In From CF</li>
-            <li><strong>Umpire Crew:</strong> Home Plate: Andy Fletcher; First Base: Cory Blaser; Second Base: Jansen Visconti; Third Base: Alex Tosi</li>
-            <li><strong>Colorado Rockies Injuries:</strong> Antonio Senzatela (Active), Brennan Bernardino (Active), Brenton Doyle (Active), Brett Sullivan (Active), Chase Dollander (Active), Edouard Julien (Active), Ezequiel Tovar (Active), Hunter Goodman (Active)</li>
-            <li><strong>Philadelphia Phillies Injuries:</strong> Aaron Nola (Active), Adolis García (Active), Alec Bohm (Active), Andrew Painter (Active), Brad Keller (Active), Brandon Marsh (Active), Bryce Harper (Active), Bryson Stott (Active)</li>
-            <li><strong>Line Movement:</strong> Moneyline moved from 138 to 130 (-8), toward the pick side.</li>
           </ul>
         </details>
       </article>
