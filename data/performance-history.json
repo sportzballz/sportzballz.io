@@ -7,10 +7,10 @@
     "losses": 4,
     "pending": 5,
     "win_rate": 63.6,
-    "plus_money_total": 0,
-    "plus_money_decided": 0,
-    "plus_money_wins": 0,
-    "plus_money_losses": 0,
-    "plus_money_win_rate": null
+    "plus_money_total": 7,
+    "plus_money_decided": 5,
+    "plus_money_wins": 4,
+    "plus_money_losses": 1,
+    "plus_money_win_rate": 80.0
   }
 ]
