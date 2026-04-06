@@ -48,6 +48,15 @@
         "profit": 0,
         "roi_pct": null,
         "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 12,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
       }
     }
   },
