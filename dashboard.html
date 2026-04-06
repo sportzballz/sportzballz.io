@@ -29,6 +29,12 @@
     .k { border:1px dashed #31508e; border-radius:10px; padding:10px; }
     .k span { display:block; color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
     .k strong { font-size:20px; }
+    .chart-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:10px; }
+    .chart-card { border:1px dashed #31508e; border-radius:10px; padding:10px; background:rgba(255,255,255,.02); }
+    .chart-card h3 { margin:0 0 6px; font-size:16px; }
+    .chart-meta { color:#cfe1ff; font-size:12px; margin-bottom:6px; }
+    .chart-foot { color:var(--muted); font-size:11px; margin-top:4px; }
+    .spark { width:100%; height:120px; display:block; }
     table { width:100%; border-collapse:collapse; }
     th, td { border-bottom:1px solid #2a3f70; padding:10px 8px; text-align:left; }
     th { color:#cfe0ff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
@@ -41,7 +47,7 @@
   <main class="wrap">
     <div class="card">
       <h1>Performance Dashboard</h1>
-      <div class="meta">Auto-tracked from published daily picks.</div>
+      <div class="meta">Auto-tracked from published daily picks. Assumption: flat <strong>$100 stake</strong> on each decided pick in each strategy bucket.</div>
       <div class="links"><a href="/">Home</a> <a href="/media-kit.html">Media Kit</a> <a href="/rate-card.html">Rate Card</a></div>
       <section class="ad-slot" data-slot="dashboard-top">
       <div class="ad-label">Sponsored</div>
@@ -49,21 +55,56 @@
       <a class="ad-cta" href="/media-kit.html">Advertise on SportzBallz</a>
     </section>
       <div class="grid">
-        <div class="k"><span>Total Picks</span><strong>16</strong></div>
-        <div class="k"><span>Decided</span><strong>11</strong></div>
-        <div class="k"><span>Overall Record</span><strong>7-4</strong></div>
-        <div class="k"><span>Overall Win %</span><strong>63.6%</strong></div>
-        <div class="k"><span>Plus Money Record</span><strong>4-1</strong></div>
-        <div class="k"><span>Plus Money Win %</span><strong>80.0%</strong></div>
+        <div class="k"><span>Total Picks Logged</span><strong>16</strong></div>
+        <div class="k"><span>All Picks Record</span><strong>9-7</strong></div>
+        <div class="k"><span>All Picks Profit</span><strong>$362.15</strong></div>
+        <div class="k"><span>All Picks ROI</span><strong>22.63%</strong></div>
+        <div class="k"><span>Plus Money Record</span><strong>6-1</strong></div>
+        <div class="k"><span>Plus Money ROI</span><strong>102.0%</strong></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin-top:0">Season Strategy Charts</h2>
+      <div class="chart-grid">
+        
+            <div class='chart-card'>
+              <h3>All Picks</h3>
+              <div class='chart-meta'>Record: 9-7 • Profit: $362.15 • ROI: 22.63%</div>
+              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#5cc9ff' stroke-width='2.5' points='10.0,110.0' /></svg>
+              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
+            </div>
+            
+            <div class='chart-card'>
+              <h3>Best Confidence Pick</h3>
+              <div class='chart-meta'>Record: 1-0 • Profit: $237.00 • ROI: 237.0%</div>
+              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#a78bfa' stroke-width='2.5' points='10.0,110.0' /></svg>
+              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
+            </div>
+            
+            <div class='chart-card'>
+              <h3>Top 3 Confidence Picks</h3>
+              <div class='chart-meta'>Record: 2-1 • Profit: $239.00 • ROI: 79.67%</div>
+              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#34d399' stroke-width='2.5' points='10.0,110.0' /></svg>
+              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
+            </div>
+            
+            <div class='chart-card'>
+              <h3>Plus Money Picks</h3>
+              <div class='chart-meta'>Record: 6-1 • Profit: $714.00 • ROI: 102.0%</div>
+              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#f59e0b' stroke-width='2.5' points='10.0,110.0' /></svg>
+              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
+            </div>
+            
       </div>
     </div>
 
     <div class="card">
       <h2 style="margin-top:0">Daily Performance</h2>
       <table>
-        <thead><tr><th>Date</th><th>Record</th><th>Win %</th><th>Plus Money</th><th>Plus %</th><th>Pending</th></tr></thead>
+        <thead><tr><th>Date</th><th>All Picks</th><th>Best Confidence</th><th>Top 3 Confidence</th><th>Plus Money</th><th>Pending</th></tr></thead>
         <tbody>
-          <tr><td><a href='/2026-04-05.html'>2026-04-05</a></td><td>7-4</td><td>63.6%</td><td>4-1</td><td>80.0%</td><td>5</td></tr>
+          <tr><td><a href='/2026-04-05.html'>2026-04-05</a></td><td>9-7 ($362.15)</td><td>1-0 ($237.00)</td><td>2-1 ($239.00)</td><td>6-1 ($714.00)</td><td>0</td></tr>
         </tbody>
       </table>
     </div>
