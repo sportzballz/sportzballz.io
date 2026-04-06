@@ -18,19 +18,4 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
-    - name: Invalidate CloudFront cache
-      continue-on-error: true
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: us-east-1
-        AWS_CF_DISTRIBUTION_ID: ${{ secrets.AWS_CF_DISTRIBUTION_ID }}
-      run: |
-        if [ -z "$AWS_CF_DISTRIBUTION_ID" ]; then
-          echo "AWS_CF_DISTRIBUTION_ID not set; skipping CloudFront invalidation"
-          exit 0
-        fi
-
-        aws cloudfront create-invalidation \
-          --distribution-id "$AWS_CF_DISTRIBUTION_ID" \
-          --paths "/*" || echo "CloudFront invalidation failed (non-blocking). Check IAM permission cloudfront:CreateInvalidation."
+    # CloudFront invalidation temporarily disabled.
