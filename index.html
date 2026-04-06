@@ -26,7 +26,10 @@
     .tagline { margin:12px 0 0; color:#d9e5ff; font-size:clamp(17px,2.2vw,24px); max-width:760px; line-height:1.35; }
     .nav-toolbar { margin-top:12px; display:grid; grid-template-columns:1.2fr 1.4fr .8fr; gap:10px; align-items:start; }
     .toolbar-group { border:1px solid #304b87; border-radius:10px; padding:10px; background:rgba(255,255,255,.03); }
-    .toolbar-title { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.1em; margin-bottom:8px; font-weight:700; }
+    .toolbar-group summary { cursor:pointer; color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.1em; font-weight:700; list-style:none; }
+    .toolbar-group summary::-webkit-details-marker { display:none; }
+    .toolbar-group[open] summary { margin-bottom:8px; }
+    .toolbar-group summary a { color:#c8dbff; text-decoration:none; font-size:11px; text-transform:uppercase; letter-spacing:.1em; font-weight:700; }
     .toolbar-links { display:flex; gap:8px; flex-wrap:wrap; }
     .toolbar-links a { color:#dfeeff; text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:7px 10px; font-size:13px; background:rgba(255,255,255,.02); }
     .toolbar-links a:hover { border-color:var(--accent); }
@@ -67,16 +70,16 @@
       <h1 class="logo">SPORT<span class="z">Z</span>BALL<span class="z">Z</span></h1>
       <p class="tagline">artificially intelligent athletic competition prognostication</p>
       <div class="nav-toolbar">
-        <div class="toolbar-group">
-          <div class="toolbar-title">Latest Daily Picks</div>
+        <details class="toolbar-group" open>
+          <summary>Latest Daily Picks</summary>
           <div class="toolbar-links">
             <a href="/2026-04-06.html">Daily Picks</a>
             <a href="/2026-04-06-plus-money.html">Plus Money Picks</a>
             <a href="/2026-04-06-run-totals.html">Run Total Picks</a>
           </div>
-        </div>
-        <div class="toolbar-group">
-          <div class="toolbar-title">Archive</div>
+        </details>
+        <details class="toolbar-group" open>
+          <summary>Archive</summary>
           
           <details class="archive-group" open>
             <summary>2026-04-06 <span class="pill">Latest</span></summary>
@@ -96,11 +99,10 @@
             </div>
           </details>
         
-        </div>
-        <div class="toolbar-group">
-          <div class="toolbar-title">Performance Dashboard</div>
-          <a class="btn" href="/dashboard.html" style="margin-top:0; background:linear-gradient(90deg,#8b5cf6,#5cc9ff);">Open Dashboard</a>
-        </div>
+        </details>
+        <details class="toolbar-group" open>
+          <summary><a href="/dashboard.html">Performance Dashboard</a></summary>
+        </details>
       </div>
     </section>
 
