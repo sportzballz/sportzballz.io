@@ -34,6 +34,24 @@
     .lede{font-size:20px;margin:12px 0 8px;color:#f2f6ff}
     .toplinks{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
     .toplinks a{display:inline-block;padding:8px 12px;border:1px solid #31508e;border-radius:9px;color:#dce8ff;text-decoration:none;font-family:Inter,system-ui,sans-serif;font-size:13px}
+    
+    .nav-toolbar { margin-top:12px; display:grid; grid-template-columns:1.2fr 1.4fr .8fr; gap:10px; align-items:start; }
+    .toolbar-group { border:1px solid #304b87; border-radius:10px; padding:10px; background:rgba(255,255,255,.03); }
+    .toolbar-group summary { cursor:pointer; color:#dff0ff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; list-style:none; text-align:center; border:1px solid #3f61a0; border-radius:10px; padding:10px 12px; background:linear-gradient(135deg, rgba(99,210,255,.18), rgba(124,255,199,.10)); }
+    .toolbar-group summary::-webkit-details-marker { display:none; }
+    .toolbar-group[open] summary { margin-bottom:8px; }
+    .toolbar-group summary a { color:#dff0ff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; }
+    .toolbar-links { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+    .toolbar-links a { color:#dfeeff; text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:7px 10px; font-size:13px; background:rgba(255,255,255,.02); }
+    .toolbar-links a:hover { border-color:var(--accent, #63d2ff); }
+    .archive-group { border:1px solid #304b87; border-radius:10px; padding:10px 12px; background:rgba(255,255,255,.02); margin-bottom:10px; }
+    .archive-group summary { cursor:pointer; font-weight:700; color:#dfeeff; }
+    .archive-links { margin-top:10px; display:grid; gap:8px; }
+    .archive-links a { color:var(--ink, #ebf1ff); text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:8px 10px; background:rgba(255,255,255,.02); }
+    .archive-links a:hover { border-color:var(--accent, #63d2ff); }
+    .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:rgba(99,210,255,.18); border:1px solid rgba(99,210,255,.35); border-radius:999px; padding:3px 7px; white-space:nowrap; }
+    @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
+
   </style>
 </head>
 <body>
@@ -41,13 +59,41 @@
     <header>
       <div class="kicker">SportzBallz Run Line Desk</div>
       <h1>Run Line Picks — 2026-04-06</h1>
-      <div class="sub">Model: dutch • Updated 2026-04-06 11:53 AM</div>
+      <div class="sub">Model: dutch • Updated 2026-04-06 12:00 PM</div>
       <div class="toplinks">
         <a href="/2026-04-06.html">Money Line</a>
         <a href="/2026-04-06-run-totals.html">Over / Under</a>
         <a href="/">Home</a>
       </div>
     </header>
+    
+      <div class="nav-toolbar">
+        <details class="toolbar-group">
+          <summary>⚾ Latest Daily Picks</summary>
+          <div class="toolbar-links">
+            <a href="/2026-04-06.html">Daily Picks</a>
+            <a href="/2026-04-06-plus-money.html">Plus Money Picks</a>
+            <a href="/2026-04-06-run-totals.html">Run Total Picks</a>
+          </div>
+        </details>
+        <details class="toolbar-group">
+          <summary>🗂️ Archive</summary>
+          
+          <details class="archive-group">
+            <summary>2026-04-06 <span class="pill">Latest</span></summary>
+            <div class="archive-links">
+              <a href="/2026-04-06.html">Daily Picks</a>
+              <a href="/2026-04-06-plus-money.html">Plus Money Picks</a>
+              <a href="/2026-04-06-run-totals.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+        </details>
+        <details class="toolbar-group">
+          <summary><a href="/dashboard.html">📊 Performance Dashboard</a></summary>
+        </details>
+      </div>
+    
     <section class="intro">Run line tab is active. Current model leans are side-based until dedicated spread-market ingestion is fully wired.</section>
     
       <article class="pick-card">
@@ -223,7 +269,7 @@
           <div><span>Pitching</span><strong>Justin Wrobleski vs Max Scherzer</strong></div>
           <div><span>Venue</span><strong>Rogers Centre</strong></div>
         </div>
-        <p class="lede">Eli Mercer (Totals Architect) — Los Angeles Dodgers over Toronto Blue Jays grades as a thin spot at -145. Confidence is 0.071 (data points: 15/28) with a 15/28 split, pitching context is Justin Wrobleski vs Max Scherzer, and signal balance leans 15 to 12. Voice: run-environment and scoring-profile specialist. At Rogers Centre, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</p>
+        <p class="lede">Eli Mercer (Totals Architect) — Los Angeles Dodgers over Toronto Blue Jays grades as a thin spot at -146. Confidence is 0.071 (data points: 15/28) with a 15/28 split, pitching context is Justin Wrobleski vs Max Scherzer, and signal balance leans 15 to 12. Voice: run-environment and scoring-profile specialist. At Rogers Centre, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</p>
       </article>
     
       <article class="pick-card">
@@ -239,7 +285,7 @@
           <div><span>Pitching</span><strong>Jacob deGrom vs Logan Gilbert</strong></div>
           <div><span>Venue</span><strong>Globe Life Field</strong></div>
         </div>
-        <p class="lede">Toby Quinn (Contrarian) — Texas Rangers over Seattle Mariners grades as a thin spot at -117. Confidence is 0.000 (data points: 14/28) with a 14/28 split, pitching context is Jacob deGrom vs Logan Gilbert, and signal balance leans 13 to 14. Voice: hunts overreactions and pricing mistakes. At Globe Life Field, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The number has moved away from the pick side, which can improve price value if you trust the underlying edge.</p>
+        <p class="lede">Toby Quinn (Contrarian) — Texas Rangers over Seattle Mariners grades as a thin spot at -118. Confidence is 0.000 (data points: 14/28) with a 14/28 split, pitching context is Jacob deGrom vs Logan Gilbert, and signal balance leans 13 to 14. Voice: hunts overreactions and pricing mistakes. At Globe Life Field, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The line has held steady, suggesting a relatively stable market view into first pitch.</p>
       </article>
     
   </main>
