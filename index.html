@@ -38,23 +38,7 @@
     .pick-tab.active { color:#081224; border-color:transparent; background:linear-gradient(90deg,var(--accent),var(--accent2)); }
     .pick-panel { display:none; }
     .pick-panel.active { display:block; }
-    .pick-card{background:#101a33;border:1px solid #273a6b;border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 12px 28px rgba(0,0,0,.24)}
-    .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-    .pick-head h3{margin:4px 0 8px;font-size:24px;line-height:1.15}
-    .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
-    .res{font:700 11px/1 Inter,system-ui,sans-serif;padding:5px 8px;border-radius:999px;border:1px solid #31508e;}
-    .res-win{color:#7CFFB3;border-color:#2f8f57;background:rgba(52,211,153,.12)}
-    .res-loss{color:#ff9ca0;border-color:#a13d47;background:rgba(239,68,68,.14)}
-    .res-pending{color:#cfe1ff;border-color:#3c5c97;background:rgba(59,130,246,.12)}
-    .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 12px;padding:10px 0 2px}
-    .meta-grid div{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
-    .meta-grid span{display:block;color:#9fb2de;font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
-    .meta-grid strong{font:600 15px/1.35 Inter,system-ui,sans-serif;color:#dce8ff}
-    .lede-inline { margin-top:8px; color:#dfe9ff; font-size:15px; line-height:1.5; }
-    details.pick-details{margin-top:8px;border-top:1px solid #264377;padding-top:8px}
-    details.pick-details summary{cursor:pointer;font:600 14px Inter,system-ui,sans-serif;color:#63d2ff}
-    details.pick-details ul{margin:10px 0 0 18px;padding:0;display:block}
-    details.pick-details li{margin:6px 0}
+    .pick-embed { width:100%; min-height:1200px; border:1px solid #2e467d; border-radius:12px; background:#0f1830; }
     .meta { font-size:14px; color:var(--muted); margin-top:10px; }
     .archive-group { border:1px solid #304b87; border-radius:10px; padding:10px 12px; background:rgba(255,255,255,.02); margin-bottom:10px; }
     .archive-group summary { cursor:pointer; font-weight:700; color:#dfeeff; }
@@ -94,481 +78,13 @@
         </div>
 
         <section id="panel-daily" class="pick-panel active" role="tabpanel">
-          
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 1</div>
-              <h3>Miami Marlins over Cincinnati Reds</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-130</strong></div>
-              <div><span>Confidence</span><strong>0.826 (data points: 21/23)</strong></div>
-              <div><span>Pitching</span><strong>Janson Junk vs Brandon Williamson</strong></div>
-              <div><span>Venue</span><strong>loanDepot park</strong></div>
-            </div>
-            <div class="lede-inline">Maya Rios (Process Coach) — Miami Marlins over Cincinnati Reds grades as a high-conviction spot at -130. Confidence is 0.826 (data points: 21/23) with a 21/23 split, pitching context is Janson Junk vs Brandon Williamson, and signal balance leans 15 to 2. Voice: calm and disciplined with bankroll awareness. At loanDepot park, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Miami Marlins Injuries:</strong> Agustín Ramírez (Active), Andrew Nardi (Active), Anthony Bender (Active), Austin Slater (Active), Calvin Faucher (Active), Chris Paddack (Active), Connor Norby (Active), Eury Pérez (Active)</li>
-                <li><strong>Cincinnati Reds Injuries:</strong> Andrew Abbott (Active), Brady Singer (Active), Brandon Williamson (Active), Brock Burke (Active), Chase Burns (Active), Connor Phillips (Active), Dane Myers (Active), Elly De La Cruz (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -120 to -130 (-10), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 2</div>
-              <h3>Milwaukee Brewers over Boston Red Sox</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-116</strong></div>
-              <div><span>Confidence</span><strong>0.652 (data points: 19/23)</strong></div>
-              <div><span>Pitching</span><strong>Brandon Woodruff vs Brayan Bello</strong></div>
-              <div><span>Venue</span><strong>Fenway Park</strong></div>
-            </div>
-            <div class="lede-inline">Mack Ledger (Market Maker) — Milwaukee Brewers over Boston Red Sox grades as a high-conviction spot at -116. Confidence is 0.652 (data points: 19/23) with a 19/23 split, pitching context is Brandon Woodruff vs Brayan Bello, and signal balance leans 15 to 3. Voice: sharp, odds-first, risk language, no fluff. Weather detail is limited from Fenway Park, so this reads primarily through pitcher profile, lineup edge, and market context. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Weather data unavailable from MLB feed at run time.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Milwaukee Brewers Injuries:</strong> Aaron Ashby (Active), Abner Uribe (Active), Angel Zerpa (Active), Blake Perkins (Active), Brandon Lockridge (Active), Brandon Sproat (Active), Brandon Woodruff (Active), Brice Turang (Active)</li>
-                <li><strong>Boston Red Sox Injuries:</strong> Andruw Monasterio (Active), Aroldis Chapman (Active), Brayan Bello (Active), Caleb Durbin (Active), Carlos Narváez (Active), Ceddanne Rafaela (Active), Connelly Early (Active), Connor Wong (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -113 to -116 (-3), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 3</div>
-              <h3>Philadelphia Phillies over San Francisco Giants</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-119</strong></div>
-              <div><span>Confidence</span><strong>0.600 (data points: 16/20)</strong></div>
-              <div><span>Pitching</span><strong>Andrew Painter vs Adrian Houser</strong></div>
-              <div><span>Venue</span><strong>Oracle Park</strong></div>
-            </div>
-            <div class="lede-inline">Eli Mercer (Totals Architect) — Philadelphia Phillies over San Francisco Giants grades as a high-conviction spot at -119. Confidence is 0.600 (data points: 16/20) with a 16/20 split, pitching context is Andrew Painter vs Adrian Houser, and signal balance leans 15 to 3. Voice: run-environment and scoring-profile specialist. Weather detail is limited from Oracle Park, so this reads primarily through pitcher profile, lineup edge, and market context. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Weather data unavailable from MLB feed at run time.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Philadelphia Phillies Injuries:</strong> Aaron Nola (Active), Adolis García (Active), Alec Bohm (Active), Andrew Painter (Active), Brad Keller (Active), Brandon Marsh (Active), Bryce Harper (Active), Bryson Stott (Active)</li>
-                <li><strong>San Francisco Giants Injuries:</strong> Adrian Houser (Active), Blade Tidwell (Active), Caleb Kilian (Active), Casey Schmitt (Active), Christian Koss (Active), Daniel Susac (Active), Erik Miller (Active), Harrison Bader (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -117 to -119 (-2), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 4</div>
-              <h3>Pittsburgh Pirates over San Diego Padres</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-133</strong></div>
-              <div><span>Confidence</span><strong>0.455 (data points: 16/22)</strong></div>
-              <div><span>Pitching</span><strong>Bubba Chandler vs Germán Márquez</strong></div>
-              <div><span>Venue</span><strong>PNC Park</strong></div>
-            </div>
-            <div class="lede-inline">Eli Mercer (Totals Architect) — Pittsburgh Pirates over San Diego Padres grades as a high-conviction spot at -133. Confidence is 0.455 (data points: 16/22) with a 16/22 split, pitching context is Bubba Chandler vs Germán Márquez, and signal balance leans 15 to 6. Voice: run-environment and scoring-profile specialist. Weather detail is limited from PNC Park, so this reads primarily through pitcher profile, lineup edge, and market context. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Weather data unavailable from MLB feed at run time.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Pittsburgh Pirates Injuries:</strong> Billy Cook (Active), Brandon Lowe (Active), Braxton Ashcraft (Active), Bryan Reynolds (Active), Bubba Chandler (Active), Carmen Mlodzinski (Active), Dennis Santana (Active), Gregory Soto (Active)</li>
-                <li><strong>San Diego Padres Injuries:</strong> Adrian Morejon (Active), Bradgley Rodriguez (Active), Bryce Johnson (Active), David Morgan (Active), Fernando Tatis Jr. (Active), Freddy Fermin (Active), Gavin Sheets (Active), Germán Márquez (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -120 to -133 (-13), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 5</div>
-              <h3>Tampa Bay Rays over Chicago Cubs</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-120</strong></div>
-              <div><span>Confidence</span><strong>0.333 (data points: 14/21)</strong></div>
-              <div><span>Pitching</span><strong>Shane McClanahan vs Jameson Taillon</strong></div>
-              <div><span>Venue</span><strong>Tropicana Field</strong></div>
-            </div>
-            <div class="lede-inline">Ivy Chen (Data Scientist) — Tampa Bay Rays over Chicago Cubs grades as a solid spot at -120. Confidence is 0.333 (data points: 14/21) with a 14/21 split, pitching context is Shane McClanahan vs Jameson Taillon, and signal balance leans 13 to 7. Voice: analytical precision and edge validation. At Tropicana Field, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The line has held steady, suggesting a relatively stable market view into first pitch.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Tampa Bay Rays Injuries:</strong> Ben Williamson (Active), Bryan Baker (Active), Carson Williams (Active), Cedric Mullins (Active), Chandler Simpson (Active), Cole Sulser (Active), Drew Rasmussen (Active), Griffin Jax (Active)</li>
-                <li><strong>Chicago Cubs Injuries:</strong> Alex Bregman (Active), Ben Brown (Active), Caleb Thielbar (Active), Carson Kelly (Active), Colin Rea (Active), Daniel Palencia (Active), Dansby Swanson (Active), Dylan Carlson (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline unchanged at -120.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 6</div>
-              <h3>Kansas City Royals over Cleveland Guardians</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-103</strong></div>
-              <div><span>Confidence</span><strong>0.185 (data points: 16/27)</strong></div>
-              <div><span>Pitching</span><strong>Michael Wacha vs Tanner Bibee</strong></div>
-              <div><span>Venue</span><strong>Progressive Field</strong></div>
-            </div>
-            <div class="lede-inline">Mack Ledger (Market Maker) — Kansas City Royals over Cleveland Guardians grades as a moderate spot at -103. Confidence is 0.185 (data points: 16/27) with a 16/27 split, pitching context is Michael Wacha vs Tanner Bibee, and signal balance leans 15 to 10. Voice: sharp, odds-first, risk language, no fluff. Weather detail is limited from Progressive Field, so this reads primarily through pitcher profile, lineup edge, and market context. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The number has moved away from the pick side, which can improve price value if you trust the underlying edge.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Weather data unavailable from MLB feed at run time.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Kansas City Royals Injuries:</strong> Alex Lange (Active), Bobby Witt Jr. (Active), Carter Jensen (Active), Cole Ragans (Active), Daniel Lynch IV (Active), Isaac Collins (Active), Jac Caglianone (Active), John Schreiber (Active)</li>
-                <li><strong>Cleveland Guardians Injuries:</strong> Angel Martínez (Active), Austin Hedges (Active), Bo Naylor (Active), Brayan Rocchio (Active), CJ Kayfus (Active), Cade Smith (Active), Chase DeLauter (Active), Connor Brogdon (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -104 to -103 (+1), away from the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 7</div>
-              <h3>Houston Astros over Colorado Rockies</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-180</strong></div>
-              <div><span>Confidence</span><strong>0.143 (data points: 12/21)</strong></div>
-              <div><span>Pitching</span><strong>Cody Bolton vs Ryan Feltner</strong></div>
-              <div><span>Venue</span><strong>Coors Field</strong></div>
-            </div>
-            <div class="lede-inline">Toby Quinn (Contrarian) — Houston Astros over Colorado Rockies grades as a moderate spot at -180. Confidence is 0.143 (data points: 12/21) with a 12/21 split, pitching context is Cody Bolton vs Ryan Feltner, and signal balance leans 12 to 8. Voice: hunts overreactions and pricing mistakes. Weather detail is limited from Coors Field, so this reads primarily through pitcher profile, lineup edge, and market context. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Weather data unavailable from MLB feed at run time.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Houston Astros Injuries:</strong> AJ Blubaugh (Active), Brice Matthews (Active), Bryan Abreu (Active), Bryan King (Active), Cam Smith (Active), Carlos Correa (Active), Christian Roa (Active), Christian Vázquez (Active)</li>
-                <li><strong>Colorado Rockies Injuries:</strong> Antonio Senzatela (Active), Brennan Bernardino (Active), Brenton Doyle (Active), Brett Sullivan (Active), Chase Dollander (Active), Edouard Julien (Active), Ezequiel Tovar (Active), Hunter Goodman (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -158 to -180 (-22), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 8</div>
-              <h3>St. Louis Cardinals over Washington Nationals</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-117</strong></div>
-              <div><span>Confidence</span><strong>0.143 (data points: 16/28)</strong></div>
-              <div><span>Pitching</span><strong>Andre Pallante vs Zack Littell</strong></div>
-              <div><span>Venue</span><strong>Nationals Park</strong></div>
-            </div>
-            <div class="lede-inline">Dex Numbers (Quant) — St. Louis Cardinals over Washington Nationals grades as a moderate spot at -117. Confidence is 0.143 (data points: 16/28) with a 16/28 split, pitching context is Andre Pallante vs Zack Littell, and signal balance leans 15 to 11. Voice: highly educated quantitative framing and probability-first language. Weather detail is limited from Nationals Park, so this reads primarily through pitcher profile, lineup edge, and market context. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Weather data unavailable from MLB feed at run time.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>St. Louis Cardinals Injuries:</strong> Alec Burleson (Active), Andre Pallante (Active), Dustin May (Active), George Soriano (Active), Gordon Graceffo (Active), Iván Herrera (Active), JJ Wetherholt (Active), Jared Shuster (Active)</li>
-                <li><strong>Washington Nationals Injuries:</strong> Andre Granillo (Active), Brad Lord (Active), Brady House (Active), CJ Abrams (Active), Cade Cavalli (Active), Cionel Pérez (Active), Clayton Beeter (Active), Cole Henry (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -110 to -117 (-7), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 9</div>
-              <h3>Minnesota Twins over Detroit Tigers</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-126</strong></div>
-              <div><span>Confidence</span><strong>0.130 (data points: 13/23)</strong></div>
-              <div><span>Pitching</span><strong>Joe Ryan vs Casey Mize</strong></div>
-              <div><span>Venue</span><strong>Target Field</strong></div>
-            </div>
-            <div class="lede-inline">Vince Valentino (Showman) — Minnesota Twins over Detroit Tigers grades as a moderate spot at -126. Confidence is 0.130 (data points: 13/23) with a 13/23 split, pitching context is Joe Ryan vs Casey Mize, and signal balance leans 12 to 10. Voice: charismatic and entertaining with bold openers. Weather detail is limited from Target Field, so this reads primarily through pitcher profile, lineup edge, and market context. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Weather data unavailable from MLB feed at run time.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Minnesota Twins Injuries:</strong> Anthony Banda (Active), Austin Martin (Active), Bailey Ober (Active), Brooks Lee (Active), Byron Buxton (Active), Cody Laweryson (Active), Cole Sands (Active), Eric Orze (Active)</li>
-                <li><strong>Detroit Tigers Injuries:</strong> Brant Hurter (Active), Casey Mize (Active), Colt Keith (Active), Connor Seabold (Active), Dillon Dingler (Active), Drew Anderson (Active), Enmanuel De Jesus (Active), Framber Valdez (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -123 to -126 (-3), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 10</div>
-              <h3>Atlanta Braves over Los Angeles Angels</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-172</strong></div>
-              <div><span>Confidence</span><strong>0.091 (data points: 12/22)</strong></div>
-              <div><span>Pitching</span><strong>Chris Sale vs José Soriano</strong></div>
-              <div><span>Venue</span><strong>Angel Stadium</strong></div>
-            </div>
-            <div class="lede-inline">Ivy Chen (Data Scientist) — Atlanta Braves over Los Angeles Angels grades as a thin spot at -172. Confidence is 0.091 (data points: 12/22) with a 12/22 split, pitching context is Chris Sale vs José Soriano, and signal balance leans 12 to 9. Voice: analytical precision and edge validation. Weather detail is limited from Angel Stadium, so this reads primarily through pitcher profile, lineup edge, and market context. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Weather data unavailable from MLB feed at run time.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Atlanta Braves Injuries:</strong> Aaron Bummer (Active), Austin Riley (Active), Bryce Elder (Active), Chris Sale (Active), Dominic Smith (Active), Drake Baldwin (Active), Dylan Lee (Active), Eli White (Active)</li>
-                <li><strong>Los Angeles Angels Injuries:</strong> Adam Frazier (Active), Brent Suter (Active), Bryce Teodosio (Active), Chase Silseth (Active), Drew Pomeranz (Active), George Klassen (Active), Jack Kochanowicz (Active), Jeimer Candelario (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -158 to -172 (-14), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 11</div>
-              <h3>Los Angeles Dodgers over Toronto Blue Jays</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-145</strong></div>
-              <div><span>Confidence</span><strong>0.071 (data points: 15/28)</strong></div>
-              <div><span>Pitching</span><strong>Justin Wrobleski vs Max Scherzer</strong></div>
-              <div><span>Venue</span><strong>Rogers Centre</strong></div>
-            </div>
-            <div class="lede-inline">Eli Mercer (Totals Architect) — Los Angeles Dodgers over Toronto Blue Jays grades as a thin spot at -145. Confidence is 0.071 (data points: 15/28) with a 15/28 split, pitching context is Justin Wrobleski vs Max Scherzer, and signal balance leans 15 to 12. Voice: run-environment and scoring-profile specialist. At Rogers Centre, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Los Angeles Dodgers Injuries:</strong> Alex Call (Active), Alex Freeland (Active), Alex Vesia (Active), Andy Pages (Active), Ben Casparius (Active), Blake Treinen (Active), Dalton Rushing (Active), Edgardo Henriquez (Active)</li>
-                <li><strong>Toronto Blue Jays Injuries:</strong> Addison Barger (Active), Andrés Giménez (Active), Austin Voth (Active), Brandon Valenzuela (Active), Braydon Fisher (Active), Daulton Varsho (Active), Davis Schneider (Active), Dylan Cease (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline moved from -139 to -145 (-6), toward the pick side.</li>
-              </ul>
-            </details>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Pick 12</div>
-              <h3>Texas Rangers over Seattle Mariners</h3>
-              <span class="res res-pending">PENDING</span>
-            </div>
-            <div class="meta-grid">
-              <div><span>Odds</span><strong>-118</strong></div>
-              <div><span>Confidence</span><strong>0.000 (data points: 14/28)</strong></div>
-              <div><span>Pitching</span><strong>Jacob deGrom vs Logan Gilbert</strong></div>
-              <div><span>Venue</span><strong>Globe Life Field</strong></div>
-            </div>
-            <div class="lede-inline">Toby Quinn (Contrarian) — Texas Rangers over Seattle Mariners grades as a thin spot at -118. Confidence is 0.000 (data points: 14/28) with a 14/28 split, pitching context is Jacob deGrom vs Logan Gilbert, and signal balance leans 13 to 14. Voice: hunts overreactions and pricing mistakes. At Globe Life Field, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Umpire assignment is unclear at publish time, so plate-profile impact remains a late variable. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The line has held steady, suggesting a relatively stable market view into first pitch.</div>
-            <details class="pick-details">
-              <summary>Expanded game context</summary>
-              <ul>
-                <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
-                <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
-                <li><strong>Texas Rangers Injuries:</strong> Andrew McCutchen (Active), Brandon Nimmo (Active), Chris Martin (Active), Cole Winn (Active), Corey Seager (Active), Danny Jansen (Active), Evan Carter (Active), Ezequiel Duran (Active)</li>
-                <li><strong>Seattle Mariners Injuries:</strong> Andrés Muñoz (Active), Brendan Donovan (Active), Bryan Woo (Active), Cal Raleigh (Active), Casey Legumina (Active), Cole Wilcox (Active), Cole Young (Active), Cooper Criswell (Active)</li>
-                <li><strong>Line Movement:</strong> Moneyline unchanged at -118.</li>
-              </ul>
-            </details>
-          </article>
-        
+          <iframe class="pick-embed" src="/2026-04-06.html" title="Daily Picks"></iframe>
         </section>
         <section id="panel-plus" class="pick-panel" role="tabpanel">
-          <p class='meta'>No plus money picks today.</p>
+          <iframe class="pick-embed" src="/2026-04-06-plus-money.html" title="Plus Money Picks"></iframe>
         </section>
         <section id="panel-totals" class="pick-panel" role="tabpanel">
-          
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 1</div>
-              <h3>Miami Marlins vs Cincinnati Reds — OVER 8.0</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 8.0</strong></div>
-              <div><span>Odds</span><strong>-105</strong></div>
-              <div><span>Confidence</span><strong>0.439</strong></div>
-              <div><span>Venue</span><strong>loanDepot park</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 8.0 in Miami Marlins vs Cincinnati Reds. Supporting context includes roof-controlled environment, offensive indicator edge.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 2</div>
-              <h3>Milwaukee Brewers vs Boston Red Sox — OVER 8.0</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 8.0</strong></div>
-              <div><span>Odds</span><strong>-110</strong></div>
-              <div><span>Confidence</span><strong>0.378</strong></div>
-              <div><span>Venue</span><strong>Fenway Park</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 8.0 in Milwaukee Brewers vs Boston Red Sox. Supporting context includes offensive indicator edge.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 3</div>
-              <h3>Philadelphia Phillies vs San Francisco Giants — OVER 8.0</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 8.0</strong></div>
-              <div><span>Odds</span><strong>-115</strong></div>
-              <div><span>Confidence</span><strong>0.36</strong></div>
-              <div><span>Venue</span><strong>Oracle Park</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 8.0 in Philadelphia Phillies vs San Francisco Giants. Supporting context includes offensive indicator edge.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 4</div>
-              <h3>Pittsburgh Pirates vs San Diego Padres — OVER 8.5</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 8.5</strong></div>
-              <div><span>Odds</span><strong>-110</strong></div>
-              <div><span>Confidence</span><strong>0.459</strong></div>
-              <div><span>Venue</span><strong>PNC Park</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 8.5 in Pittsburgh Pirates vs San Diego Padres. Supporting context includes offensive indicator edge, market moved total up.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 5</div>
-              <h3>Tampa Bay Rays vs Chicago Cubs — OVER 7.5</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 7.5</strong></div>
-              <div><span>Odds</span><strong>-120</strong></div>
-              <div><span>Confidence</span><strong>0.267</strong></div>
-              <div><span>Venue</span><strong>Tropicana Field</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 7.5 in Tampa Bay Rays vs Chicago Cubs. Supporting context includes roof-controlled environment, offensive indicator edge.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 6</div>
-              <h3>Kansas City Royals vs Cleveland Guardians — OVER 7.5</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 7.5</strong></div>
-              <div><span>Odds</span><strong>100</strong></div>
-              <div><span>Confidence</span><strong>0.065</strong></div>
-              <div><span>Venue</span><strong>Progressive Field</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 7.5 in Kansas City Royals vs Cleveland Guardians. Supporting context includes balanced conditions and market context.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 7</div>
-              <h3>Houston Astros vs Colorado Rockies — OVER 10.5</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 10.5</strong></div>
-              <div><span>Odds</span><strong>-115</strong></div>
-              <div><span>Confidence</span><strong>0.35</strong></div>
-              <div><span>Venue</span><strong>Coors Field</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 10.5 in Houston Astros vs Colorado Rockies. Supporting context includes offensive indicator edge, market moved total up.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 8</div>
-              <h3>St. Louis Cardinals vs Washington Nationals — OVER 8.0</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 8.0</strong></div>
-              <div><span>Odds</span><strong>-110</strong></div>
-              <div><span>Confidence</span><strong>0.05</strong></div>
-              <div><span>Venue</span><strong>Nationals Park</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 8.0 in St. Louis Cardinals vs Washington Nationals. Supporting context includes offensive indicator edge, market moved total down.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 9</div>
-              <h3>Minnesota Twins vs Detroit Tigers — UNDER 7.0</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>UNDER 7.0</strong></div>
-              <div><span>Odds</span><strong>-105</strong></div>
-              <div><span>Confidence</span><strong>0.045</strong></div>
-              <div><span>Venue</span><strong>Target Field</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: UNDER 7.0 in Minnesota Twins vs Detroit Tigers. Supporting context includes offensive indicator edge, market moved total down.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 10</div>
-              <h3>Atlanta Braves vs Los Angeles Angels — OVER 7.5</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 7.5</strong></div>
-              <div><span>Odds</span><strong>-120</strong></div>
-              <div><span>Confidence</span><strong>0.182</strong></div>
-              <div><span>Venue</span><strong>Angel Stadium</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 7.5 in Atlanta Braves vs Los Angeles Angels. Supporting context includes offensive indicator edge.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 11</div>
-              <h3>Los Angeles Dodgers vs Toronto Blue Jays — OVER 8.5</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 8.5</strong></div>
-              <div><span>Odds</span><strong>-125</strong></div>
-              <div><span>Confidence</span><strong>0.175</strong></div>
-              <div><span>Venue</span><strong>Rogers Centre</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 8.5 in Los Angeles Dodgers vs Toronto Blue Jays. Supporting context includes roof-controlled environment, offensive indicator edge.</div>
-          </article>
-        
-          <article class="pick-card">
-            <div class="pick-head">
-              <div class="pick-num">Run Total 12</div>
-              <h3>Texas Rangers vs Seattle Mariners — OVER 7.5</h3>
-            </div>
-            <div class="meta-grid">
-              <div><span>Lean</span><strong>OVER 7.5</strong></div>
-              <div><span>Odds</span><strong>-105</strong></div>
-              <div><span>Confidence</span><strong>0.15</strong></div>
-              <div><span>Venue</span><strong>Globe Life Field</strong></div>
-            </div>
-            <div class="lede-inline">Run-total lens: OVER 7.5 in Texas Rangers vs Seattle Mariners. Supporting context includes roof-controlled environment, offensive indicator edge.</div>
-          </article>
-        
+          <iframe class="pick-embed" src="/2026-04-06-run-totals.html" title="Run Total Picks"></iframe>
         </section>
 
         <div class="meta">Format: <code>yyyy-mm-dd.html</code></div>
@@ -612,6 +128,19 @@
     (() => {
       const tabs = Array.from(document.querySelectorAll('.pick-tab'));
       const panels = Array.from(document.querySelectorAll('.pick-panel'));
+      const iframes = Array.from(document.querySelectorAll('.pick-embed'));
+
+      function fitIframe(frame) {
+        try {
+          const doc = frame.contentDocument || frame.contentWindow.document;
+          if (!doc) return;
+          const h = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
+          frame.style.height = Math.max(900, h + 20) + 'px';
+        } catch (_e) {
+          // same-origin expected; ignore if inaccessible
+        }
+      }
+
       function activate(targetId) {
         tabs.forEach((t) => {
           const on = t.dataset.target === targetId;
@@ -619,8 +148,14 @@
           t.setAttribute('aria-selected', on ? 'true' : 'false');
         });
         panels.forEach((p) => p.classList.toggle('active', p.id === targetId));
+        const active = document.querySelector(`#${targetId} .pick-embed`);
+        if (active) setTimeout(() => fitIframe(active), 120);
       }
+
+      iframes.forEach((f) => f.addEventListener('load', () => fitIframe(f)));
       tabs.forEach((t) => t.addEventListener('click', () => activate(t.dataset.target)));
+      const first = document.querySelector('.pick-embed');
+      if (first) setTimeout(() => fitIframe(first), 200);
     })();
   </script>
 </body>
