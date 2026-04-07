@@ -109,6 +109,15 @@
         "profit": 714.0,
         "roi_pct": 102.0,
         "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 16,
+        "decided": 14,
+        "wins": 9,
+        "losses": 5,
+        "profit": 339.06,
+        "roi_pct": 24.22,
+        "stake_per_pick": 100.0
       }
     }
   }

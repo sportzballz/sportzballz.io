@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9A%BE%3C/text%3E%3C/svg%3E" />
   <title>SportzBallz | Plus Money Picks</title>
   <meta name="description" content="SportzBallz underdog MLB picks for 2026-04-05." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
@@ -22,14 +23,33 @@
     .kicker{font:600 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
     h1{margin:8px 0 10px;font-size:clamp(30px,5vw,46px);line-height:1.05}
     .sub{color:var(--muted);font-family:Inter,system-ui,sans-serif;font-size:14px}
-    .intro{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:16px;font-size:18px}
     .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:0 0 14px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
     .ad-label{font:700 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9cc4ff}
     .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
     .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
     .pick-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 12px 28px rgba(0,0,0,.24)}
     .pick-head h2{margin:4px 0 8px;font-size:30px;line-height:1.15}
+    .seo-line{font:600 12px/1.3 Inter,system-ui,sans-serif;color:#a9c6ff;letter-spacing:.02em;margin-top:2px}
     .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    
+    .nav-toolbar { margin-top:12px; display:grid; grid-template-columns:1.2fr 1.4fr .8fr; gap:10px; align-items:start; }
+    .toolbar-group { border:1px solid #304b87; border-radius:10px; padding:10px; background:rgba(255,255,255,.03); min-height:58px; display:flex; flex-direction:column; justify-content:flex-start; }
+    .toolbar-group summary { cursor:pointer; color:#dff0ff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; list-style:none; text-align:center; border:1px solid #3f61a0; border-radius:10px; padding:10px 12px; background:linear-gradient(135deg, rgba(99,210,255,.18), rgba(124,255,199,.10)); }
+    .toolbar-group summary::-webkit-details-marker { display:none; }
+    .toolbar-group[open] summary { margin-bottom:8px; }
+    .toolbar-group summary a { color:#dff0ff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; }
+    .nav-toolbar > .toolbar-group > summary { min-height:44px; display:flex; align-items:center; justify-content:center; }
+    .toolbar-links { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+    .toolbar-links a { color:#dfeeff; text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:7px 10px; font-size:13px; background:rgba(255,255,255,.02); }
+    .toolbar-links a:hover { border-color:var(--accent, #63d2ff); }
+    .archive-group { border:1px solid #304b87; border-radius:10px; padding:10px 12px; background:rgba(255,255,255,.02); margin-bottom:10px; }
+    .archive-group summary { cursor:pointer; font-weight:700; color:#dfeeff; }
+    .archive-links { margin-top:10px; display:grid; gap:8px; }
+    .archive-links a { color:var(--ink, #ebf1ff); text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:8px 10px; background:rgba(255,255,255,.02); }
+    .archive-links a:hover { border-color:var(--accent, #63d2ff); }
+    .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:rgba(99,210,255,.18); border:1px solid rgba(99,210,255,.35); border-radius:999px; padding:3px 7px; white-space:nowrap; }
+    @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
+
     .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--plus);letter-spacing:.12em;text-transform:uppercase}
     .res{font:700 11px/1 Inter,system-ui,sans-serif;padding:5px 8px;border-radius:999px;border:1px solid #31508e;}
     .res-win{color:#7CFFB3;border-color:#2f8f57;background:rgba(52,211,153,.12)}
@@ -60,13 +80,44 @@
     <header>
       <div class="kicker">SportzBallz Plus Money Desk</div>
       <h1>Plus Money Picks — 2026-04-05</h1>
-      <div class="sub">Model: dutch • Updated 2026-04-05 10:53 PM</div>
+      <div class="sub">Model: dutch • Updated 2026-04-06 09:42 PM</div>
       <div class="toplinks">
         <a href="/2026-04-05.html">Full Daily Picks</a>
         <a href="/">Home</a>
       </div>
     </header>
-    <section class="intro">All underdog selections (positive odds) for the day, ordered by confidence.</section>
+    
+      <div class="nav-toolbar">
+        <details class="toolbar-group">
+          <summary><a href="/">⚾ Latest Daily Picks</a></summary>
+        </details>
+        <details class="toolbar-group">
+          <summary>🗂️ Archive</summary>
+          
+          <details class="archive-group">
+            <summary>2026-04-06 <span class="pill">Latest</span></summary>
+            <div class="archive-links">
+              <a href="/2026-04-06.html">Daily Picks</a>
+              <a href="/2026-04-06-plus-money.html">Plus Money Picks</a>
+              <a href="/2026-04-06-run-totals.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-05</summary>
+            <div class="archive-links">
+              <a href="/2026-04-05.html">Daily Picks</a>
+              <a href="/2026-04-05-plus-money.html">Plus Money Picks</a>
+              <a href="/2026-04-05-run-totals.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+        </details>
+        <details class="toolbar-group">
+          <summary><a href="/dashboard.html">📊 Performance Dashboard</a></summary>
+        </details>
+      </div>
+    
     <section class="ad-slot" data-slot="plus-money-top">
       <div class="ad-label">Sponsored</div>
       <div class="ad-copy">Plus Money Card Sponsorship • Your brand could be here.</div>
@@ -89,6 +140,7 @@
           <h2>Miami Marlins over New York Yankees</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Miami Marlins vs New York Yankees prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+237</strong></div>
           <div><span>Confidence</span><strong>0.500 (data points: 15/20)</strong></div>
@@ -103,6 +155,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Manny Gonzalez; First Base: Tom Hanahan; Second Base: Derek Thomas; Third Base: Scott Barry</li>
             <li><strong>Miami Marlins Injuries:</strong> Agustín Ramírez (Active), Andrew Nardi (Active), Anthony Bender (Active), Austin Slater (Active), Calvin Faucher (Active), Chris Paddack (Active), Connor Norby (Active), Eury Pérez (Active)</li>
             <li><strong>New York Yankees Injuries:</strong> Aaron Judge (Active), Amed Rosario (Active), Austin Wells (Active), Ben Rice (Active), Brent Headrick (Active), Cade Winquest (Active), Cam Schlittler (Active), Camilo Doval (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 223 to 237 (+14), away from the pick side.</li>
           </ul>
         </details>
@@ -114,13 +168,14 @@
           <h2>New York Mets over San Francisco Giants</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">New York Mets vs San Francisco Giants prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+102</strong></div>
           <div><span>Confidence</span><strong>0.462 (data points: 19/26)</strong></div>
           <div><span>Pitching</span><strong>Kodai Senga vs Logan Webb</strong></div>
           <div><span>Venue</span><strong>Oracle Park</strong></div>
         </div>
-        <p class="lede">Jimmy the Grecian (Vegas Insider) — Jimmy’s book: New York Mets over San Francisco Giants grades as a high-conviction play at +102. Confidence sits at 0.462 (data points: 19/26) with a 19/26 profile, and the edge starts with Kodai Senga vs Logan Webb. This is less about headlines and more about taking a number where the baseball and the market still agree enough to fire. Conditions at Oracle Park (Sunny, 74°F, 11 mph, Varies) are worth tracking, but they don’t look extreme enough to override core matchup factors. Home plate assignment (Edwin Jimenez) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The number has moved away from the pick side, which can improve price value if you trust the underlying edge.</p>
+        <p class="lede">Willie Guan (Quant Mathematician) — Willie’s model note: For New York Mets over San Francisco Giants, the confidence estimate (0.462 (data points: 19/26)) and signal distribution (19/26) imply a high-conviction probability edge at +102. Pitch-level context (Kodai Senga vs Logan Webb) plus indicator asymmetry (15 vs 6) supports positive expected value under current pricing. Conditions at Oracle Park (Sunny, 74°F, 11 mph, Varies) are worth tracking, but they don’t look extreme enough to override core matchup factors. Home plate assignment (Edwin Jimenez) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The number has moved away from the pick side, which can improve price value if you trust the underlying edge.</p>
         <details>
           <summary>Expanded game context</summary>
           <ul>
@@ -128,6 +183,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Edwin Jimenez; First Base: Nestor Ceja; Second Base: Charlie Ramos; Third Base: David Rackley</li>
             <li><strong>New York Mets Injuries:</strong> Bo Bichette (Active), Brett Baty (Active), Brooks Raley (Active), Carson Benge (Active), Clay Holmes (Active), David Peterson (Active), Devin Williams (Active), Francisco Alvarez (Active)</li>
             <li><strong>San Francisco Giants Injuries:</strong> Adrian Houser (Active), Blade Tidwell (Active), Caleb Kilian (Active), Casey Schmitt (Active), Christian Koss (Active), Daniel Susac (Active), Erik Miller (Active), Harrison Bader (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 101 to 102 (+1), away from the pick side.</li>
           </ul>
         </details>
@@ -139,13 +196,14 @@
           <h2>San Diego Padres over Boston Red Sox</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">San Diego Padres vs Boston Red Sox prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+130</strong></div>
           <div><span>Confidence</span><strong>0.304 (data points: 15/23)</strong></div>
           <div><span>Pitching</span><strong>Walker Buehler vs Ranger Suarez</strong></div>
           <div><span>Venue</span><strong>Fenway Park</strong></div>
         </div>
-        <p class="lede">Willie Guan (Quant Mathematician) — Willie’s model note: For San Diego Padres over Boston Red Sox, the confidence estimate (0.304 (data points: 15/23)) and signal distribution (15/23) imply a solid probability edge at +130. Pitch-level context (Walker Buehler vs Ranger Suarez) plus indicator asymmetry (15 vs 7) supports positive expected value under current pricing. Conditions at Fenway Park (Overcast, 47°F, 2 mph, Out To RF) are worth tracking, but they don’t look extreme enough to override core matchup factors. Home plate assignment (Laz Diaz) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The number has moved away from the pick side, which can improve price value if you trust the underlying edge.</p>
+        <p class="lede">Joey Falcone (Stats & Vibes High-Roller) — Joey’s angle: San Diego Padres over Boston Red Sox is the kind of solid ticket you slide across the counter with a grin. Price is +130, confidence is 0.304 (data points: 15/23), and the stat split (15/23) says this isn’t just sauce. On the nerd side, San Diego Padres shows the stronger indicator stack (15 to 7) with Walker Buehler vs Ranger Suarez setting the first chapter. Conditions at Fenway Park (Overcast, 47°F, 2 mph, Out To RF) are worth tracking, but they don’t look extreme enough to override core matchup factors. Home plate assignment (Laz Diaz) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The number has moved away from the pick side, which can improve price value if you trust the underlying edge.</p>
         <details>
           <summary>Expanded game context</summary>
           <ul>
@@ -153,6 +211,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Laz Diaz; First Base: Brian O&#x27;Nora; Second Base: Chris Segal; Third Base: Erich Bacchus</li>
             <li><strong>San Diego Padres Injuries:</strong> Adrian Morejon (Active), Bradgley Rodriguez (Active), Bryce Johnson (Active), David Morgan (Active), Fernando Tatis Jr. (Active), Freddy Fermin (Active), Gavin Sheets (Active), Germán Márquez (Active)</li>
             <li><strong>Boston Red Sox Injuries:</strong> Andruw Monasterio (Active), Aroldis Chapman (Active), Brayan Bello (Active), Caleb Durbin (Active), Carlos Narváez (Active), Ceddanne Rafaela (Active), Connelly Early (Active), Connor Wong (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 129 to 130 (+1), away from the pick side.</li>
           </ul>
         </details>
@@ -164,13 +224,14 @@
           <h2>Cleveland Guardians over Chicago Cubs</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Cleveland Guardians vs Chicago Cubs prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+110</strong></div>
           <div><span>Confidence</span><strong>0.231 (data points: 16/26)</strong></div>
           <div><span>Pitching</span><strong>Parker Messick vs Shota Imanaga</strong></div>
           <div><span>Venue</span><strong>Progressive Field</strong></div>
         </div>
-        <p class="lede">Tommy Torrance (Pragmatist (Gen X)) — Tommy’s take: Cleveland Guardians over Chicago Cubs. Keep it simple: 0.231 (data points: 16/26), line at +110, and Parker Messick vs Shota Imanaga gives this spot a workable shape. It’s a moderate look with enough signal separation (15-10) to back the play without overthinking it. Weather is a real variable here (Cloudy, 44°F, 15 mph, L To R); that wind profile can materially influence run environment and ball carry. Home plate assignment (Dan Bellino) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The line has held steady, suggesting a relatively stable market view into first pitch.</p>
+        <p class="lede">Willie Guan (Quant Mathematician) — Willie’s model note: For Cleveland Guardians over Chicago Cubs, the confidence estimate (0.231 (data points: 16/26)) and signal distribution (16/26) imply a moderate probability edge at +110. Pitch-level context (Parker Messick vs Shota Imanaga) plus indicator asymmetry (15 vs 10) supports positive expected value under current pricing. Weather is a real variable here (Cloudy, 44°F, 15 mph, L To R); that wind profile can materially influence run environment and ball carry. Home plate assignment (Dan Bellino) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The line has held steady, suggesting a relatively stable market view into first pitch.</p>
         <details>
           <summary>Expanded game context</summary>
           <ul>
@@ -178,6 +239,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Dan Bellino; First Base: John Bacon; Second Base: Shane Livensparger; Third Base: Dan Merzel</li>
             <li><strong>Cleveland Guardians Injuries:</strong> Angel Martínez (Active), Austin Hedges (Active), Bo Naylor (Active), Brayan Rocchio (Active), CJ Kayfus (Active), Cade Smith (Active), Chase DeLauter (Active), Connor Brogdon (Active)</li>
             <li><strong>Chicago Cubs Injuries:</strong> Alex Bregman (Active), Ben Brown (Active), Caleb Thielbar (Active), Carson Kelly (Active), Colin Rea (Active), Daniel Palencia (Active), Dansby Swanson (Active), Dylan Carlson (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline unchanged at 110.</li>
           </ul>
         </details>
@@ -189,6 +252,7 @@
           <h2>Washington Nationals over Los Angeles Dodgers</h2>
           <span class="res res-loss">LOSS</span>
         </div>
+        <div class="seo-line">Washington Nationals vs Los Angeles Dodgers prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+145</strong></div>
           <div><span>Confidence</span><strong>0.200 (data points: 12/20)</strong></div>
@@ -203,6 +267,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Willie Traynor; First Base: Mike Muchlinski; Second Base: Gabe Morales; Third Base: Doug Eddings</li>
             <li><strong>Washington Nationals Injuries:</strong> Andre Granillo (Active), Brad Lord (Active), Brady House (Active), CJ Abrams (Active), Cade Cavalli (Active), Cionel Pérez (Active), Clayton Beeter (Active), Cole Henry (Active)</li>
             <li><strong>Los Angeles Dodgers Injuries:</strong> Alex Call (Active), Alex Freeland (Active), Alex Vesia (Active), Andy Pages (Active), Ben Casparius (Active), Blake Treinen (Active), Dalton Rushing (Active), Edgardo Henriquez (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 176 to 145 (-31), toward the pick side.</li>
           </ul>
         </details>
@@ -214,13 +280,14 @@
           <h2>Cincinnati Reds over Texas Rangers</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Cincinnati Reds vs Texas Rangers prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+105</strong></div>
           <div><span>Confidence</span><strong>0.130 (data points: 13/23)</strong></div>
           <div><span>Pitching</span><strong>Chase Burns vs Jack Leiter</strong></div>
           <div><span>Venue</span><strong>Globe Life Field</strong></div>
         </div>
-        <p class="lede">Jimmy the Grecian (Vegas Insider) — Jimmy’s book: Cincinnati Reds over Texas Rangers grades as a moderate play at +105. Confidence sits at 0.130 (data points: 13/23) with a 13/23 profile, and the edge starts with Chase Burns vs Jack Leiter. This is less about headlines and more about taking a number where the baseball and the market still agree enough to fire. At Globe Life Field, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Home plate assignment (Bill Miller) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The number has moved away from the pick side, which can improve price value if you trust the underlying edge.</p>
+        <p class="lede">Tommy Torrance (Pragmatist (Gen X)) — Tommy’s take: Cincinnati Reds over Texas Rangers. Keep it simple: 0.130 (data points: 13/23), line at +105, and Chase Burns vs Jack Leiter gives this spot a workable shape. It’s a moderate look with enough signal separation (13-9) to back the play without overthinking it. At Globe Life Field, roof conditions mute weather volatility, keeping this matchup more talent-and-execution driven. Home plate assignment (Bill Miller) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The number has moved away from the pick side, which can improve price value if you trust the underlying edge.</p>
         <details>
           <summary>Expanded game context</summary>
           <ul>
@@ -228,6 +295,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Bill Miller; First Base: Adam Hamari; Second Base: Clint Vondrak; Third Base: Todd Tichenor</li>
             <li><strong>Cincinnati Reds Injuries:</strong> Andrew Abbott (Active), Brady Singer (Active), Brandon Williamson (Active), Brock Burke (Active), Chase Burns (Active), Connor Phillips (Active), Dane Myers (Active), Elly De La Cruz (Active)</li>
             <li><strong>Texas Rangers Injuries:</strong> Andrew McCutchen (Active), Brandon Nimmo (Active), Chris Martin (Active), Cole Winn (Active), Corey Seager (Active), Danny Jansen (Active), Evan Carter (Active), Ezequiel Duran (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -105 to 105 (+210), away from the pick side.</li>
           </ul>
         </details>
@@ -239,13 +308,14 @@
           <h2>Colorado Rockies over Philadelphia Phillies</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Colorado Rockies vs Philadelphia Phillies prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+130</strong></div>
           <div><span>Confidence</span><strong>0.000 (data points: 11/22)</strong></div>
           <div><span>Pitching</span><strong>Tomoyuki Sugano vs Taijuan Walker</strong></div>
           <div><span>Venue</span><strong>Coors Field</strong></div>
         </div>
-        <p class="lede">Willie Guan (Quant Mathematician) — Willie’s model note: For Colorado Rockies over Philadelphia Phillies, the confidence estimate (0.000 (data points: 11/22)) and signal distribution (11/22) imply a thin probability edge at +130. Pitch-level context (Tomoyuki Sugano vs Taijuan Walker) plus indicator asymmetry (10 vs 11) supports positive expected value under current pricing. Conditions at Coors Field (Sunny, 60°F, 9 mph, In From CF) are worth tracking, but they don’t look extreme enough to override core matchup factors. Home plate assignment (Andy Fletcher) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</p>
+        <p class="lede">Tommy Torrance (Pragmatist (Gen X)) — Tommy’s take: Colorado Rockies over Philadelphia Phillies. Keep it simple: 0.000 (data points: 11/22), line at +130, and Tomoyuki Sugano vs Taijuan Walker gives this spot a workable shape. It’s a thin look with enough signal separation (10-11) to back the play without overthinking it. Conditions at Coors Field (Sunny, 60°F, 9 mph, In From CF) are worth tracking, but they don’t look extreme enough to override core matchup factors. Home plate assignment (Andy Fletcher) is in place, which sharp bettors will monitor for zone tendencies once game action starts. Injury load looks relatively balanced, so this projects as a baseball-context and pricing decision more than a health fade. The market has drifted toward the pick side, which supports the model read but can compress value at the margin.</p>
         <details>
           <summary>Expanded game context</summary>
           <ul>
@@ -253,6 +323,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Andy Fletcher; First Base: Cory Blaser; Second Base: Jansen Visconti; Third Base: Alex Tosi</li>
             <li><strong>Colorado Rockies Injuries:</strong> Antonio Senzatela (Active), Brennan Bernardino (Active), Brenton Doyle (Active), Brett Sullivan (Active), Chase Dollander (Active), Edouard Julien (Active), Ezequiel Tovar (Active), Hunter Goodman (Active)</li>
             <li><strong>Philadelphia Phillies Injuries:</strong> Aaron Nola (Active), Adolis García (Active), Alec Bohm (Active), Andrew Painter (Active), Brad Keller (Active), Brandon Marsh (Active), Bryce Harper (Active), Bryson Stott (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 138 to 130 (-8), toward the pick side.</li>
           </ul>
         </details>

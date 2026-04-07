@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SportzBallz | MLB Daily Notebook</title>
-  <meta name="description" content="Warm, insider-style MLB daily pick commentary from SportzBallz." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9A%BE%3C/text%3E%3C/svg%3E" />
+  <title>SportzBallz | MLB Predictions 2026-04-05 (Team vs Team)</title>
+  <meta name="description" content="MLB team vs team predictions for 2026-04-05 from SportzBallz, including confidence, odds, and matchup context." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://sportzballz.io/2026-04-05.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="SportzBallz" />
-  <meta property="og:title" content="SportzBallz MLB Picks — 2026-04-05" />
-  <meta property="og:description" content="Daily MLB picks with confidence, pricing context, plus-money and run-total analysis." />
+  <meta property="og:title" content="SportzBallz MLB Predictions — 2026-04-05" />
+  <meta property="og:description" content="Team vs team predictions for 2026-04-05 with confidence, pricing context, plus-money and run-total analysis." />
   <meta property="og:url" content="https://sportzballz.io/2026-04-05.html" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="SportzBallz MLB Picks — 2026-04-05" />
-  <meta name="twitter:description" content="Daily MLB picks with confidence, pricing context, plus-money and run-total analysis." />
+  <meta name="twitter:title" content="SportzBallz MLB Predictions — 2026-04-05" />
+  <meta name="twitter:description" content="Team vs team predictions for 2026-04-05 with confidence, pricing context, plus-money and run-total analysis." />
   <style>
     :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#5cc9ff; --accent2:#88f2c7; }
     *{box-sizing:border-box}
@@ -24,13 +25,32 @@
     .kicker{font:600 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
     h1{margin:8px 0 10px;font-size:clamp(30px,5vw,46px);line-height:1.05}
     .sub{color:var(--muted);font-family:Inter,system-ui,sans-serif;font-size:14px}
-    .intro{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:16px;font-size:18px}
     .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:0 0 14px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
     .ad-label{font:700 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9cc4ff}
     .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
     .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
+    
+    .nav-toolbar { margin-top:12px; display:grid; grid-template-columns:1.2fr 1.4fr .8fr; gap:10px; align-items:start; }
+    .toolbar-group { border:1px solid #304b87; border-radius:10px; padding:10px; background:rgba(255,255,255,.03); min-height:58px; display:flex; flex-direction:column; justify-content:flex-start; }
+    .toolbar-group summary { cursor:pointer; color:#dff0ff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; list-style:none; text-align:center; border:1px solid #3f61a0; border-radius:10px; padding:10px 12px; background:linear-gradient(135deg, rgba(99,210,255,.18), rgba(124,255,199,.10)); }
+    .toolbar-group summary::-webkit-details-marker { display:none; }
+    .toolbar-group[open] summary { margin-bottom:8px; }
+    .toolbar-group summary a { color:#dff0ff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; }
+    .nav-toolbar > .toolbar-group > summary { min-height:44px; display:flex; align-items:center; justify-content:center; }
+    .toolbar-links { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+    .toolbar-links a { color:#dfeeff; text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:7px 10px; font-size:13px; background:rgba(255,255,255,.02); }
+    .toolbar-links a:hover { border-color:var(--accent, #63d2ff); }
+    .archive-group { border:1px solid #304b87; border-radius:10px; padding:10px 12px; background:rgba(255,255,255,.02); margin-bottom:10px; }
+    .archive-group summary { cursor:pointer; font-weight:700; color:#dfeeff; }
+    .archive-links { margin-top:10px; display:grid; gap:8px; }
+    .archive-links a { color:var(--ink, #ebf1ff); text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:8px 10px; background:rgba(255,255,255,.02); }
+    .archive-links a:hover { border-color:var(--accent, #63d2ff); }
+    .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:rgba(99,210,255,.18); border:1px solid rgba(99,210,255,.35); border-radius:999px; padding:3px 7px; white-space:nowrap; }
+    @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
+
     .pick-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 12px 28px rgba(0,0,0,.24)}
     .pick-head h2{margin:4px 0 8px;font-size:30px;line-height:1.15}
+    .seo-line{font:600 12px/1.3 Inter,system-ui,sans-serif;color:#a9c6ff;letter-spacing:.02em;margin-top:2px}
     .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
     .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
     .res{font:700 11px/1 Inter,system-ui,sans-serif;padding:5px 8px;border-radius:999px;border:1px solid #31508e;}
@@ -60,9 +80,40 @@
     <header>
       <div class="kicker">SportzBallz Daily Desk</div>
       <h1>MLB Daily Notebook — 2026-04-05</h1>
-      <div class="sub">Model: dutch • Updated 2026-04-05 10:53 PM</div>
+      <div class="sub">Model: dutch • Updated 2026-04-06 09:42 PM</div>
     </header>
-    <section class="intro">Today’s card in a warmer, notebook-style voice — balancing matchup context, weather, umpire texture, and price discipline.</section>
+    
+      <div class="nav-toolbar">
+        <details class="toolbar-group">
+          <summary><a href="/">⚾ Latest Daily Picks</a></summary>
+        </details>
+        <details class="toolbar-group">
+          <summary>🗂️ Archive</summary>
+          
+          <details class="archive-group">
+            <summary>2026-04-06 <span class="pill">Latest</span></summary>
+            <div class="archive-links">
+              <a href="/2026-04-06.html">Daily Picks</a>
+              <a href="/2026-04-06-plus-money.html">Plus Money Picks</a>
+              <a href="/2026-04-06-run-totals.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-05</summary>
+            <div class="archive-links">
+              <a href="/2026-04-05.html">Daily Picks</a>
+              <a href="/2026-04-05-plus-money.html">Plus Money Picks</a>
+              <a href="/2026-04-05-run-totals.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+        </details>
+        <details class="toolbar-group">
+          <summary><a href="/dashboard.html">📊 Performance Dashboard</a></summary>
+        </details>
+      </div>
+    
     <section class="ad-slot" data-slot="daily-top">
       <div class="ad-label">Sponsored</div>
       <div class="ad-copy">Daily Notebook Sponsorship • Your brand could be here.</div>
@@ -87,6 +138,7 @@
           <h2>Miami Marlins over New York Yankees</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Miami Marlins vs New York Yankees prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+237</strong></div>
           <div><span>Confidence</span><strong>0.500 (data points: 15/20)</strong></div>
@@ -101,6 +153,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Manny Gonzalez; First Base: Tom Hanahan; Second Base: Derek Thomas; Third Base: Scott Barry</li>
             <li><strong>Miami Marlins Injuries:</strong> Agustín Ramírez (Active), Andrew Nardi (Active), Anthony Bender (Active), Austin Slater (Active), Calvin Faucher (Active), Chris Paddack (Active), Connor Norby (Active), Eury Pérez (Active)</li>
             <li><strong>New York Yankees Injuries:</strong> Aaron Judge (Active), Amed Rosario (Active), Austin Wells (Active), Ben Rice (Active), Brent Headrick (Active), Cade Winquest (Active), Cam Schlittler (Active), Camilo Doval (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 223 to 237 (+14), away from the pick side.</li>
           </ul>
         </details>
@@ -112,6 +166,7 @@
           <h2>Toronto Blue Jays over Chicago White Sox</h2>
           <span class="res res-loss">LOSS</span>
         </div>
+        <div class="seo-line">Toronto Blue Jays vs Chicago White Sox prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-167</strong></div>
           <div><span>Confidence</span><strong>0.478 (data points: 17/23)</strong></div>
@@ -126,6 +181,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Jordan Baker; First Base: Rob Drake; Second Base: Stu Scheurwater; Third Base: Junior Valentine</li>
             <li><strong>Toronto Blue Jays Injuries:</strong> Addison Barger (Active), Andrés Giménez (Active), Austin Voth (Active), Brandon Valenzuela (Active), Braydon Fisher (Active), Daulton Varsho (Active), Davis Schneider (Active), Dylan Cease (Active)</li>
             <li><strong>Chicago White Sox Injuries:</strong> Andrew Benintendi (Active), Anthony Kay (Active), Austin Hays (Active), Bryan Hudson (Active), Chase Meidroth (Active), Chris Murphy (Active), Colson Montgomery (Active), Davis Martin (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -147 to -167 (-20), toward the pick side.</li>
           </ul>
         </details>
@@ -137,6 +194,7 @@
           <h2>New York Mets over San Francisco Giants</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">New York Mets vs San Francisco Giants prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+102</strong></div>
           <div><span>Confidence</span><strong>0.462 (data points: 19/26)</strong></div>
@@ -151,6 +209,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Edwin Jimenez; First Base: Nestor Ceja; Second Base: Charlie Ramos; Third Base: David Rackley</li>
             <li><strong>New York Mets Injuries:</strong> Bo Bichette (Active), Brett Baty (Active), Brooks Raley (Active), Carson Benge (Active), Clay Holmes (Active), David Peterson (Active), Devin Williams (Active), Francisco Alvarez (Active)</li>
             <li><strong>San Francisco Giants Injuries:</strong> Adrian Houser (Active), Blade Tidwell (Active), Caleb Kilian (Active), Casey Schmitt (Active), Christian Koss (Active), Daniel Susac (Active), Erik Miller (Active), Harrison Bader (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 101 to 102 (+1), away from the pick side.</li>
           </ul>
         </details>
@@ -162,6 +222,7 @@
           <h2>Pittsburgh Pirates over Baltimore Orioles</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Pittsburgh Pirates vs Baltimore Orioles prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-124</strong></div>
           <div><span>Confidence</span><strong>0.360 (data points: 17/25)</strong></div>
@@ -176,6 +237,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: James Jean; First Base: Chad Fairchild; Second Base: Jeremie Rehak; Third Base: Dan Iassogna</li>
             <li><strong>Pittsburgh Pirates Injuries:</strong> Billy Cook (Active), Brandon Lowe (Active), Braxton Ashcraft (Active), Bryan Reynolds (Active), Bubba Chandler (Active), Carmen Mlodzinski (Active), Dennis Santana (Active), Gregory Soto (Active)</li>
             <li><strong>Baltimore Orioles Injuries:</strong> Adley Rutschman (Active), Albert Suárez (Active), Anthony Nunez (Active), Blaze Alexander (Active), Cade Povich (Active), Chris Bassitt (Active), Coby Mayo (Active), Colton Cowser (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -123 to -124 (-1), toward the pick side.</li>
           </ul>
         </details>
@@ -187,6 +250,7 @@
           <h2>San Diego Padres over Boston Red Sox</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">San Diego Padres vs Boston Red Sox prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+130</strong></div>
           <div><span>Confidence</span><strong>0.304 (data points: 15/23)</strong></div>
@@ -201,6 +265,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Laz Diaz; First Base: Brian O&#x27;Nora; Second Base: Chris Segal; Third Base: Erich Bacchus</li>
             <li><strong>San Diego Padres Injuries:</strong> Adrian Morejon (Active), Bradgley Rodriguez (Active), Bryce Johnson (Active), David Morgan (Active), Fernando Tatis Jr. (Active), Freddy Fermin (Active), Gavin Sheets (Active), Germán Márquez (Active)</li>
             <li><strong>Boston Red Sox Injuries:</strong> Andruw Monasterio (Active), Aroldis Chapman (Active), Brayan Bello (Active), Caleb Durbin (Active), Carlos Narváez (Active), Ceddanne Rafaela (Active), Connelly Early (Active), Connor Wong (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 129 to 130 (+1), away from the pick side.</li>
           </ul>
         </details>
@@ -212,6 +278,7 @@
           <h2>Detroit Tigers over St. Louis Cardinals</h2>
           <span class="res res-loss">LOSS</span>
         </div>
+        <div class="seo-line">Detroit Tigers vs St. Louis Cardinals prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-146</strong></div>
           <div><span>Confidence</span><strong>0.294 (data points: 11/17)</strong></div>
@@ -226,6 +293,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Mark Wegner; First Base: Bruce Dreckman; Second Base: Carlos Torres; Third Base: Nate Tomlinson</li>
             <li><strong>Detroit Tigers Injuries:</strong> Brant Hurter (Active), Casey Mize (Active), Colt Keith (Active), Connor Seabold (Active), Dillon Dingler (Active), Drew Anderson (Active), Enmanuel De Jesus (Active), Framber Valdez (Active)</li>
             <li><strong>St. Louis Cardinals Injuries:</strong> Alec Burleson (Active), Andre Pallante (Active), Dustin May (Active), George Soriano (Active), Gordon Graceffo (Active), Iván Herrera (Active), JJ Wetherholt (Active), Jared Shuster (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -136 to -146 (-10), toward the pick side.</li>
           </ul>
         </details>
@@ -237,6 +306,7 @@
           <h2>Cleveland Guardians over Chicago Cubs</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Cleveland Guardians vs Chicago Cubs prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+110</strong></div>
           <div><span>Confidence</span><strong>0.231 (data points: 16/26)</strong></div>
@@ -251,6 +321,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Dan Bellino; First Base: John Bacon; Second Base: Shane Livensparger; Third Base: Dan Merzel</li>
             <li><strong>Cleveland Guardians Injuries:</strong> Angel Martínez (Active), Austin Hedges (Active), Bo Naylor (Active), Brayan Rocchio (Active), CJ Kayfus (Active), Cade Smith (Active), Chase DeLauter (Active), Connor Brogdon (Active)</li>
             <li><strong>Chicago Cubs Injuries:</strong> Alex Bregman (Active), Ben Brown (Active), Caleb Thielbar (Active), Carson Kelly (Active), Colin Rea (Active), Daniel Palencia (Active), Dansby Swanson (Active), Dylan Carlson (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline unchanged at 110.</li>
           </ul>
         </details>
@@ -262,6 +334,7 @@
           <h2>Houston Astros over Athletics</h2>
           <span class="res res-loss">LOSS</span>
         </div>
+        <div class="seo-line">Houston Astros vs Athletics prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-132</strong></div>
           <div><span>Confidence</span><strong>0.231 (data points: 16/26)</strong></div>
@@ -276,6 +349,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Nic Lentz; First Base: Jacob Metz; Second Base: Edwin Moscoso; Third Base: Vic Carapazza</li>
             <li><strong>Houston Astros Injuries:</strong> AJ Blubaugh (Active), Brice Matthews (Active), Bryan Abreu (Active), Bryan King (Active), Cam Smith (Active), Carlos Correa (Active), Christian Roa (Active), Christian Vázquez (Active)</li>
             <li><strong>Athletics Injuries:</strong> Aaron Civale (Active), Andy Ibáñez (Active), Austin Wynns (Active), Brent Rooker (Active), Carlos Cortes (Active), Darell Hernaiz (Active), Denzel Clarke (Active), Elvis Alvarado (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -123 to -132 (-9), toward the pick side.</li>
           </ul>
         </details>
@@ -287,6 +362,7 @@
           <h2>Washington Nationals over Los Angeles Dodgers</h2>
           <span class="res res-loss">LOSS</span>
         </div>
+        <div class="seo-line">Washington Nationals vs Los Angeles Dodgers prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+145</strong></div>
           <div><span>Confidence</span><strong>0.200 (data points: 12/20)</strong></div>
@@ -301,6 +377,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Willie Traynor; First Base: Mike Muchlinski; Second Base: Gabe Morales; Third Base: Doug Eddings</li>
             <li><strong>Washington Nationals Injuries:</strong> Andre Granillo (Active), Brad Lord (Active), Brady House (Active), CJ Abrams (Active), Cade Cavalli (Active), Cionel Pérez (Active), Clayton Beeter (Active), Cole Henry (Active)</li>
             <li><strong>Los Angeles Dodgers Injuries:</strong> Alex Call (Active), Alex Freeland (Active), Alex Vesia (Active), Andy Pages (Active), Ben Casparius (Active), Blake Treinen (Active), Dalton Rushing (Active), Edgardo Henriquez (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 176 to 145 (-31), toward the pick side.</li>
           </ul>
         </details>
@@ -312,6 +390,7 @@
           <h2>Chicago Cubs over Cleveland Guardians</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Chicago Cubs vs Cleveland Guardians prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-132</strong></div>
           <div><span>Confidence</span><strong>0.182 (data points: 13/22)</strong></div>
@@ -326,6 +405,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Dan Bellino; First Base: John Bacon; Second Base: Shane Livensparger; Third Base: Dan Merzel</li>
             <li><strong>Chicago Cubs Injuries:</strong> Alex Bregman (Active), Ben Brown (Active), Caleb Thielbar (Active), Carson Kelly (Active), Colin Rea (Active), Daniel Palencia (Active), Dansby Swanson (Active), Dylan Carlson (Active)</li>
             <li><strong>Cleveland Guardians Injuries:</strong> Angel Martínez (Active), Austin Hedges (Active), Bo Naylor (Active), Brayan Rocchio (Active), CJ Kayfus (Active), Cade Smith (Active), Chase DeLauter (Active), Connor Brogdon (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline unchanged at -130.</li>
           </ul>
         </details>
@@ -337,6 +418,7 @@
           <h2>Kansas City Royals over Milwaukee Brewers</h2>
           <span class="res res-loss">LOSS</span>
         </div>
+        <div class="seo-line">Kansas City Royals vs Milwaukee Brewers prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-123</strong></div>
           <div><span>Confidence</span><strong>0.182 (data points: 13/22)</strong></div>
@@ -351,6 +433,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Will Little; First Base: Ryan Additon; Second Base: Ryan Wills; Third Base: Lance Barksdale</li>
             <li><strong>Kansas City Royals Injuries:</strong> Alex Lange (Active), Bobby Witt Jr. (Active), Carter Jensen (Active), Cole Ragans (Active), Daniel Lynch IV (Active), Isaac Collins (Active), Jac Caglianone (Active), John Schreiber (Active)</li>
             <li><strong>Milwaukee Brewers Injuries:</strong> Aaron Ashby (Active), Abner Uribe (Active), Angel Zerpa (Active), Blake Perkins (Active), Brandon Lockridge (Active), Brandon Sproat (Active), Brandon Woodruff (Active), Brice Turang (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -131 to -123 (+8), away from the pick side.</li>
           </ul>
         </details>
@@ -362,6 +446,7 @@
           <h2>Cincinnati Reds over Texas Rangers</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Cincinnati Reds vs Texas Rangers prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+105</strong></div>
           <div><span>Confidence</span><strong>0.130 (data points: 13/23)</strong></div>
@@ -376,6 +461,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Bill Miller; First Base: Adam Hamari; Second Base: Clint Vondrak; Third Base: Todd Tichenor</li>
             <li><strong>Cincinnati Reds Injuries:</strong> Andrew Abbott (Active), Brady Singer (Active), Brandon Williamson (Active), Brock Burke (Active), Chase Burns (Active), Connor Phillips (Active), Dane Myers (Active), Elly De La Cruz (Active)</li>
             <li><strong>Texas Rangers Injuries:</strong> Andrew McCutchen (Active), Brandon Nimmo (Active), Chris Martin (Active), Cole Winn (Active), Corey Seager (Active), Danny Jansen (Active), Evan Carter (Active), Ezequiel Duran (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -105 to 105 (+210), away from the pick side.</li>
           </ul>
         </details>
@@ -387,6 +474,7 @@
           <h2>Atlanta Braves over Arizona Diamondbacks</h2>
           <span class="res res-loss">LOSS</span>
         </div>
+        <div class="seo-line">Atlanta Braves vs Arizona Diamondbacks prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-110</strong></div>
           <div><span>Confidence</span><strong>0.091 (data points: 12/22)</strong></div>
@@ -401,6 +489,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Lance Barrett; First Base: Malachi Moore; Second Base: Mike Estabrook; Third Base: Alfonso Márquez</li>
             <li><strong>Atlanta Braves Injuries:</strong> Aaron Bummer (Active), Austin Riley (Active), Bryce Elder (Active), Chris Sale (Active), Dominic Smith (Active), Drake Baldwin (Active), Dylan Lee (Active), Eli White (Active)</li>
             <li><strong>Arizona Diamondbacks Injuries:</strong> Adrian Del Castillo (Active), Alek Thomas (Active), Andrew Hoffmann (Active), Brandon Pfaadt (Active), Carlos Santana (Active), Corbin Carroll (Active), Eduardo Rodriguez (Active), Gabriel Moreno (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -105 to -110 (-5), toward the pick side.</li>
           </ul>
         </details>
@@ -412,6 +502,7 @@
           <h2>Tampa Bay Rays over Minnesota Twins</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Tampa Bay Rays vs Minnesota Twins prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-109</strong></div>
           <div><span>Confidence</span><strong>0.091 (data points: 12/22)</strong></div>
@@ -426,6 +517,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Marvin Hudson; First Base: Tripp Gibson; Second Base: Ryan Blakney; Third Base: Nick Mahrley</li>
             <li><strong>Tampa Bay Rays Injuries:</strong> Ben Williamson (Active), Bryan Baker (Active), Carson Williams (Active), Cedric Mullins (Active), Chandler Simpson (Active), Cole Sulser (Active), Drew Rasmussen (Active), Griffin Jax (Active)</li>
             <li><strong>Minnesota Twins Injuries:</strong> Anthony Banda (Active), Austin Martin (Active), Bailey Ober (Active), Brooks Lee (Active), Byron Buxton (Active), Cody Laweryson (Active), Cole Sands (Active), Eric Orze (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 103 to -109 (-212), toward the pick side.</li>
           </ul>
         </details>
@@ -437,6 +530,7 @@
           <h2>Seattle Mariners over Los Angeles Angels</h2>
           <span class="res res-loss">LOSS</span>
         </div>
+        <div class="seo-line">Seattle Mariners vs Los Angeles Angels prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>-169</strong></div>
           <div><span>Confidence</span><strong>0.053 (data points: 10/19)</strong></div>
@@ -451,6 +545,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Adrian Johnson; First Base: Quinn Wolcott; Second Base: Ramon De Jesus; Third Base: Paul Clemons</li>
             <li><strong>Seattle Mariners Injuries:</strong> Andrés Muñoz (Active), Brendan Donovan (Active), Bryan Woo (Active), Cal Raleigh (Active), Casey Legumina (Active), Cole Wilcox (Active), Cole Young (Active), Cooper Criswell (Active)</li>
             <li><strong>Los Angeles Angels Injuries:</strong> Adam Frazier (Active), Brent Suter (Active), Bryce Teodosio (Active), Chase Silseth (Active), Drew Pomeranz (Active), George Klassen (Active), Jack Kochanowicz (Active), Jeimer Candelario (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from -168 to -169 (-1), toward the pick side.</li>
           </ul>
         </details>
@@ -462,6 +558,7 @@
           <h2>Colorado Rockies over Philadelphia Phillies</h2>
           <span class="res res-win">WIN</span>
         </div>
+        <div class="seo-line">Colorado Rockies vs Philadelphia Phillies prediction — 2026-04-05</div>
         <div class="meta-grid">
           <div><span>Odds</span><strong>+130</strong></div>
           <div><span>Confidence</span><strong>0.000 (data points: 11/22)</strong></div>
@@ -476,6 +573,8 @@
             <li><strong>Umpire Crew:</strong> Home Plate: Andy Fletcher; First Base: Cory Blaser; Second Base: Jansen Visconti; Third Base: Alex Tosi</li>
             <li><strong>Colorado Rockies Injuries:</strong> Antonio Senzatela (Active), Brennan Bernardino (Active), Brenton Doyle (Active), Brett Sullivan (Active), Chase Dollander (Active), Edouard Julien (Active), Ezequiel Tovar (Active), Hunter Goodman (Active)</li>
             <li><strong>Philadelphia Phillies Injuries:</strong> Aaron Nola (Active), Adolis García (Active), Alec Bohm (Active), Andrew Painter (Active), Brad Keller (Active), Brandon Marsh (Active), Bryce Harper (Active), Bryson Stott (Active)</li>
+            <li><strong>Starting Lineups:</strong> n/a</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
             <li><strong>Line Movement:</strong> Moneyline moved from 138 to 130 (-8), toward the pick side.</li>
           </ul>
         </details>
