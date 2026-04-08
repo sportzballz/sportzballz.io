@@ -17,7 +17,7 @@
   <style>
     :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#5cc9ff; }
     * { box-sizing:border-box; }
-    body { margin:0; background:radial-gradient(1200px 700px at 15% -10%, #1a2a55, var(--bg)); color:var(--ink); font-family:Inter,system-ui,sans-serif; }
+    body { margin:0; background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%); color:var(--ink); font-family:Inter,system-ui,sans-serif; }
     .wrap { max-width:1100px; margin:0 auto; padding:24px 16px 48px; }
     .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:14px; }
     h1 { margin:0 0 8px; font-size:34px; }
@@ -28,22 +28,22 @@
     .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
     .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
     
-    .nav-toolbar { margin-top:12px; display:grid; grid-template-columns:1.2fr 1.4fr .8fr; gap:10px; align-items:start; }
-    .toolbar-group { border:1px solid #304b87; border-radius:10px; padding:10px; background:rgba(255,255,255,.03); min-height:58px; display:flex; flex-direction:column; justify-content:flex-start; }
-    .toolbar-group summary { cursor:pointer; color:#dff0ff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; list-style:none; text-align:center; border:1px solid #3f61a0; border-radius:10px; padding:10px 12px; background:linear-gradient(135deg, rgba(99,210,255,.18), rgba(124,255,199,.10)); }
+    .nav-toolbar { margin:14px 0 18px; display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:10px; align-items:start; }
+    .toolbar-group { border:1px solid #2d446f; border-radius:12px; padding:10px; background:#0f1a30; min-height:56px; display:flex; flex-direction:column; justify-content:flex-start; }
+    .toolbar-group summary { cursor:pointer; color:#e6efff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; list-style:none; text-align:center; border:1px solid #375486; border-radius:10px; padding:10px 12px; background:#132241; }
     .toolbar-group summary::-webkit-details-marker { display:none; }
     .toolbar-group[open] summary { margin-bottom:8px; }
-    .toolbar-group summary a { color:#dff0ff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; }
+    .toolbar-group summary a { color:#e6efff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; }
     .nav-toolbar > .toolbar-group > summary { min-height:44px; display:flex; align-items:center; justify-content:center; }
     .toolbar-links { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
-    .toolbar-links a { color:#dfeeff; text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:7px 10px; font-size:13px; background:rgba(255,255,255,.02); }
+    .toolbar-links a { color:#e7f0ff; text-decoration:none; border:1px solid #355184; border-radius:8px; padding:8px 10px; font-size:13px; background:#12203d; }
     .toolbar-links a:hover { border-color:var(--accent, #63d2ff); }
-    .archive-group { border:1px solid #304b87; border-radius:10px; padding:10px 12px; background:rgba(255,255,255,.02); margin-bottom:10px; }
+    .archive-group { border:1px solid #2d446f; border-radius:10px; padding:10px 12px; background:#101c34; margin-bottom:10px; }
     .archive-group summary { cursor:pointer; font-weight:700; color:#dfeeff; }
     .archive-links { margin-top:10px; display:grid; gap:8px; }
-    .archive-links a { color:var(--ink, #ebf1ff); text-decoration:none; border:1px solid #3b5a95; border-radius:8px; padding:8px 10px; background:rgba(255,255,255,.02); }
+    .archive-links a { color:var(--ink, #ebf1ff); text-decoration:none; border:1px solid #355184; border-radius:8px; padding:8px 10px; background:#12203d; }
     .archive-links a:hover { border-color:var(--accent, #63d2ff); }
-    .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:rgba(99,210,255,.18); border:1px solid rgba(99,210,255,.35); border-radius:999px; padding:3px 7px; white-space:nowrap; }
+    .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:#1b3d67; border:1px solid #2f679f; border-radius:999px; padding:3px 7px; white-space:nowrap; }
     @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
 
     .k { border:1px dashed #31508e; border-radius:10px; padding:10px; }
