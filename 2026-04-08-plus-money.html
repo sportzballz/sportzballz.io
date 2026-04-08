@@ -78,7 +78,7 @@
     <header>
       <div class="kicker">SportzBallz Plus Money Desk</div>
       <h1>Plus Money Picks — 2026-04-08</h1>
-      <div class="sub">Model: dutch • Updated 2026-04-08 11:47 AM</div>
+      <div class="sub">Model: dutch • Updated 2026-04-08 11:56 AM</div>
     </header>
     
       <div class="nav-toolbar">
@@ -232,5 +232,17 @@
     
     <footer>Published by SportzBallz.io</footer>
   </main>
+  
+  <script>
+    (() => {
+      try {
+        const params = new URLSearchParams(window.location.search || '');
+        if (params.get('embed') === '1') {
+          document.querySelectorAll('.nav-toolbar').forEach((el) => el.remove());
+        }
+      } catch (_e) {}
+    })();
+  </script>
+
 </body>
 </html>

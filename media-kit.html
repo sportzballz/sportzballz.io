@@ -32,5 +32,17 @@
     <section class="card"><h2>Sponsorship Inventory</h2><ul><li>Homepage hero sponsor</li><li>Daily picks page sponsored placement</li><li>Plus money page sponsor</li><li>Run totals page sponsor</li><li>Dashboard sponsor</li></ul></section>
     <section class="card"><h2>Contact</h2><p>To sponsor SportzBallz, contact: <strong>ads@sportzballz.io</strong> (update as needed).</p></section>
   </main>
+  
+  <script>
+    (() => {
+      try {
+        const params = new URLSearchParams(window.location.search || '');
+        if (params.get('embed') === '1') {
+          document.querySelectorAll('.nav-toolbar').forEach((el) => el.remove());
+        }
+      } catch (_e) {}
+    })();
+  </script>
+
 </body>
 </html>

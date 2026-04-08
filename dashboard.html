@@ -188,5 +188,17 @@
       </table>
     </div>
   </main>
+  
+  <script>
+    (() => {
+      try {
+        const params = new URLSearchParams(window.location.search || '');
+        if (params.get('embed') === '1') {
+          document.querySelectorAll('.nav-toolbar').forEach((el) => el.remove());
+        }
+      } catch (_e) {}
+    })();
+  </script>
+
 </body>
 </html>

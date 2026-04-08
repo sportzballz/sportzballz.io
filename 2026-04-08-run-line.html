@@ -57,7 +57,7 @@
     <header>
       <div class="kicker">SportzBallz Run Line Desk</div>
       <h1>Run Line Picks — 2026-04-08</h1>
-      <div class="sub">Model: dutch • Updated 2026-04-08 11:47 AM</div>
+      <div class="sub">Model: dutch • Updated 2026-04-08 11:56 AM</div>
     </header>
     
       <div class="nav-toolbar">
@@ -351,5 +351,17 @@
       </article>
     
   </main>
+  
+  <script>
+    (() => {
+      try {
+        const params = new URLSearchParams(window.location.search || '');
+        if (params.get('embed') === '1') {
+          document.querySelectorAll('.nav-toolbar').forEach((el) => el.remove());
+        }
+      } catch (_e) {}
+    })();
+  </script>
+
 </body>
 </html>
