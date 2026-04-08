@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9A%BE%3C/text%3E%3C/svg%3E" />
+  <title>SportzBallz | Contact</title>
+  <meta name="description" content="Contact SportzBallz for partnerships, feedback, picks questions, and sponsorship inquiries." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://sportzballz.io/contact.html" />
+  <style>
+    :root { --bg:#060b17; --panel:#0b1328; --ink:#e6f1ff; --muted:#93a7cc; --line:#28436d; --accent:#00d1ff; --accent2:#7cff7a; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:radial-gradient(1200px 700px at 80% -10%, #1b3a7a 0%, transparent 55%), radial-gradient(900px 600px at 0% 0%, #0b4f66 0%, transparent 45%), #050a14; color:var(--ink); font-family:Inter,system-ui,sans-serif; }
+    .wrap { max-width:920px; margin:0 auto; padding:24px 16px 56px; }
+    .card { background:linear-gradient(180deg,#0a142a,#0b1730); border:1px solid #2d4f86; border-radius:16px; padding:18px; margin-bottom:14px; }
+    h1 { margin:0 0 8px; }
+    .muted { color:var(--muted); }
+    label { display:block; margin:10px 0 6px; font-size:13px; color:#cfe0ff; }
+    input, textarea { width:100%; border:1px solid #355b92; border-radius:10px; background:#0d1930; color:#edf5ff; padding:10px 12px; font:inherit; }
+    textarea { min-height:140px; resize:vertical; }
+    .row { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .btn { display:inline-block; margin-right:8px; margin-top:12px; padding:9px 13px; border-radius:10px; text-decoration:none; color:#081224; background:linear-gradient(90deg,var(--accent),var(--accent2)); font-weight:700; border:none; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Contact SportzBallz</h1>
+      <p class="muted">Questions, feedback, sponsorships, or collaboration ideas — send a note and we’ll get back to you.</p>
+      <p><strong>Email:</strong> <a href="mailto:ads@sportzballz.io?subject=SportzBallz%20Inquiry" style="color:#9fe7ff">ads@sportzballz.io</a></p>
+    </section>
+
+    <section class="card">
+      <h2 style="margin-top:0">Quick message</h2>
+      <form id="contactForm">
+        <div class="row">
+          <div><label for="name">Name</label><input id="name" required /></div>
+          <div><label for="email">Email</label><input id="email" type="email" required /></div>
+        </div>
+        <label for="topic">Topic</label><input id="topic" placeholder="Sponsorship / Feedback / Picks Question" />
+        <label for="message">Message</label><textarea id="message" required></textarea>
+        <button class="btn" type="submit">Open Email Draft</button>
+        <a class="btn" href="/">Back to Homepage</a>
+      </form>
+      <p class="muted" style="margin-top:10px">This form opens your email app with a prefilled message.</p>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('contactForm')?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const topic = document.getElementById('topic').value.trim() || 'General Inquiry';
+      const msg = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent(`SportzBallz Contact: ${topic}`);
+      const body = encodeURIComponent(`Name: ${name}
+Email: ${email}
+Topic: ${topic}
+
+Message:
+${msg}`);
+      window.location.href = `mailto:ads@sportzballz.io?subject=${subject}&body=${body}`;
+    });
+  </script>
+  
+  <script>
+    (() => {
+      try {
+        const params = new URLSearchParams(window.location.search || '');
+        if (params.get('embed') === '1') {
+          document.querySelectorAll('.nav-toolbar').forEach((el) => el.remove());
+        }
+      } catch (_e) {}
+    })();
+  </script>
+
+</body>
+</html>
