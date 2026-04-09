@@ -52,10 +52,10 @@
       "run_total_picks": {
         "total": 5,
         "decided": 1,
-        "wins": 0,
-        "losses": 1,
-        "profit": -100.0,
-        "roi_pct": -100.0,
+        "wins": 1,
+        "losses": 0,
+        "profit": 112.36,
+        "roi_pct": 112.36,
         "stake_per_pick": 100.0
       }
     }
