@@ -2,10 +2,10 @@
   {
     "date": "2026-04-11",
     "total_picks": 15,
-    "decided": 3,
+    "decided": 4,
     "wins": 0,
-    "losses": 3,
-    "pending": 12,
+    "losses": 4,
+    "pending": 11,
     "win_rate": 0.0,
     "plus_money_total": 3,
     "plus_money_decided": 2,
@@ -15,10 +15,10 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 3,
+        "decided": 4,
         "wins": 0,
-        "losses": 3,
-        "profit": -300.0,
+        "losses": 4,
+        "profit": -400.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
