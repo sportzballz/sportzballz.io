@@ -36,6 +36,12 @@
   <script>
     (() => {
       try {
+        document.querySelectorAll('[data-reload="1"]').forEach((el) => {
+          el.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.reload();
+          });
+        });
         const params = new URLSearchParams(window.location.search || '');
         if (params.get('embed') === '1') {
           document.querySelectorAll('.nav-toolbar').forEach((el) => el.remove());
