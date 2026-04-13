@@ -5,29 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9A%BE%3C/text%3E%3C/svg%3E" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <title>SportzBallz | Performance Dashboard</title>
-  <meta name="description" content="SportzBallz historical MLB pick performance, records, and plus-money metrics." />
+  <title>SportzBallz | Plus Money Picks</title>
+  <meta name="description" content="SportzBallz underdog MLB picks for 2026-04-13." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
-  <link rel="canonical" href="https://sportzballz.io/dashboard.html" />
+  <link rel="canonical" href="https://sportzballz.io/2026-04-13-plus-money.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="SportzBallz" />
-  <meta property="og:title" content="SportzBallz | Performance Dashboard" />
-  <meta property="og:description" content="Track win rates, records, and plus-money outcomes over time." />
-  <meta property="og:url" content="https://sportzballz.io/dashboard.html" />
+  <meta property="og:title" content="SportzBallz Plus Money Picks — 2026-04-13" />
+  <meta property="og:description" content="Underdog-only MLB picks with confidence and matchup context." />
+  <meta property="og:url" content="https://sportzballz.io/2026-04-13-plus-money.html" />
   <meta name="twitter:card" content="summary_large_image" />
   <style>
-    :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#5cc9ff; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%); color:var(--ink); font-family:Inter,system-ui,sans-serif; }
-    .wrap { max-width:1100px; margin:0 auto; padding:24px 16px 48px; }
-    .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:14px; }
-    h1 { margin:0 0 8px; font-size:34px; }
-    .meta { color:var(--muted); margin-bottom:8px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; }
-    .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:12px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#5cc9ff; --accent2:#88f2c7; --plus:#22c55e; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%);color:var(--ink);line-height:1.65}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+    header{background:linear-gradient(135deg, rgba(34,197,94,.20), rgba(92,201,255,.10));border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px}
+    .kicker{font:600 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+    h1{margin:8px 0 10px;font-size:clamp(30px,5vw,46px);line-height:1.05}
+    .sub{color:var(--muted);font-family:Inter,system-ui,sans-serif;font-size:14px}
+    .header-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+    .reload-btn{display:inline-block;border:1px solid #4c6db0;background:#10203b;color:#dff2ff;border-radius:10px;padding:8px 12px;font:600 12px Inter,system-ui,sans-serif;cursor:pointer;text-decoration:none}
+    .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:0 0 14px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
     .ad-label{font:700 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9cc4ff}
     .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
     .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
+    .pick-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 8px 22px rgba(2,8,24,.32)}
+    .pick-head h2{margin:4px 0 8px;font-size:27px;line-height:1.15}
+    .seo-line{font:600 12px/1.3 Inter,system-ui,sans-serif;color:#a9c6ff;letter-spacing:.02em;margin-top:2px}
+    .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
     
     .nav-toolbar { margin:14px 0 18px; display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:10px; align-items:start; }
     .toolbar-group { border:1px solid #2d446f; border-radius:12px; padding:10px; background:#0f1a30; min-height:56px; display:flex; flex-direction:column; justify-content:flex-start; }
@@ -47,21 +53,29 @@
     .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:#1b3d67; border:1px solid #2f679f; border-radius:999px; padding:3px 7px; white-space:nowrap; }
     @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
 
-    .k { border:1px dashed #31508e; border-radius:10px; padding:10px; }
-    .k span { display:block; color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
-    .k strong { font-size:20px; }
-    .chart-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:10px; }
-    .chart-card { border:1px dashed #31508e; border-radius:10px; padding:10px; background:rgba(255,255,255,.02); }
-    .chart-card h3 { margin:0 0 6px; font-size:16px; }
-    .chart-meta { color:#cfe1ff; font-size:12px; margin-bottom:6px; }
-    .chart-foot { color:var(--muted); font-size:11px; margin-top:4px; }
-    .spark { width:100%; height:120px; display:block; }
-    table { width:100%; border-collapse:collapse; }
-    th, td { border-bottom:1px solid #2a3f70; padding:10px 8px; text-align:left; }
-    th { color:#cfe0ff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
-    td { color:#e2ecff; }
-    a { color:#8ad8ff; text-decoration:none; }
-    .links a { display:inline-block; margin-right:8px; border:1px solid #31508e; border-radius:8px; padding:6px 10px; }
+    .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--plus);letter-spacing:.12em;text-transform:uppercase}
+    .res{font:700 11px/1 Inter,system-ui,sans-serif;padding:5px 8px;border-radius:999px;border:1px solid #31508e;}
+    .res-win{color:#7CFFB3;border-color:#2f8f57;background:rgba(52,211,153,.12)}
+    .res-loss{color:#ff9ca0;border-color:#a13d47;background:rgba(239,68,68,.14)}
+    .res-push{color:#fde68a;border-color:#d4a11d;background:rgba(212,161,29,.18)}
+    .res-pending{color:#cfe1ff;border-color:#3c5c97;background:rgba(59,130,246,.12)}
+    .res-inprogress{color:#fde68a;border-color:#f59e0b;background:rgba(245,158,11,.18)}
+    .tracker{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:16px}
+    .tracker-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+    .tcard{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
+    .tcard span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+    .tcard strong{font:700 16px/1.25 Inter,system-ui,sans-serif;color:#e7f0ff}
+    .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 12px;padding:10px 0 2px}
+    .meta-grid div{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
+    .meta-grid span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+    .meta-grid strong{font:600 15px/1.35 Inter,system-ui,sans-serif;color:#dce8ff}
+    .lede{font-size:18px;line-height:1.55;margin:12px 0 8px;color:#f2f6ff}
+    details{margin-top:8px;border-top:1px solid #264377;padding-top:8px}
+    summary{cursor:pointer;font:600 14px Inter,system-ui,sans-serif;color:var(--accent)}
+    ul{margin:10px 0 0 18px;padding:0}
+    li{margin:6px 0}
+    footer{margin-top:10px;color:var(--muted);font:12px Inter,system-ui,sans-serif;text-align:right}
+    @media (max-width:720px){.lede{font-size:18px} .pick-head h2{font-size:24px}}
   </style>
 <style id="preferred-theme">
     :root{--bg:#060b17!important;--panel:#0b1328!important;--ink:#e6f1ff!important;--muted:#93a7cc!important;--line:#28436d!important;--accent:#00d1ff!important;--accent2:#7cff7a!important}
@@ -83,6 +97,16 @@
 </head>
 <body>
   <main class="wrap">
+    <header>
+      <div class="header-row">
+        <div>
+          <div class="kicker">SportzBallz Plus Money Desk</div>
+          <h1>Plus Money Picks — 2026-04-13</h1>
+          <div class="sub">Model: dutch • Updated 2026-04-13 12:02 AM</div>
+        </div>
+        <a class="reload-btn" href="" data-reload="1">Reload</a>
+      </div>
+    </header>
     
       <div class="nav-toolbar">
         <details class="toolbar-group">
@@ -187,78 +211,23 @@
         </details>
       </div>
     
-    <div class="card">
-      <h1>Performance Dashboard</h1>
-      <div class="meta">Auto-tracked from published daily picks. Assumption: flat <strong>$100 stake</strong> on each decided pick in each strategy bucket.</div>
-      <div class="links"><a href="/">Home</a> <a href="/media-kit.html">Media Kit</a> <a href="/rate-card.html">Rate Card</a> <a href="/contact.html">Contact</a></div>
-      <section class="ad-slot" data-slot="dashboard-top">
+    <section class="ad-slot" data-slot="plus-money-top">
       <div class="ad-label">Sponsored</div>
-      <div class="ad-copy">Dashboard Sponsorship • Your brand could be here.</div>
+      <div class="ad-copy">Plus Money Card Sponsorship • Your brand could be here.</div>
       <a class="ad-cta" href="/media-kit.html">Advertise on SportzBallz</a>
     </section>
-      <div class="grid">
-        <div class="k"><span>Total Picks Logged</span><strong>119</strong></div>
-        <div class="k"><span>All Picks Record</span><strong>44-66</strong></div>
-        <div class="k"><span>All Picks Profit</span><strong>$-2530.35</strong></div>
-        <div class="k"><span>All Picks ROI</span><strong>-23.0%</strong></div>
-        <div class="k"><span>Plus Money Record</span><strong>12-14</strong></div>
-        <div class="k"><span>Plus Money ROI</span><strong>3.81%</strong></div>
-        <div class="k"><span>Run Totals Record</span><strong>51-27</strong></div>
-        <div class="k"><span>Run Totals ROI</span><strong>26.73%</strong></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2 style="margin-top:0">Season Strategy Charts</h2>
-      <div class="chart-grid">
+    
+        <section class="tracker">
+          <div class="tracker-grid">
+            <div class="tcard"><span>Plus Money Picks</span><strong>0</strong></div>
+            <div class="tcard"><span>Decided</span><strong>0</strong></div>
+            <div class="tcard"><span>Record</span><strong>0-0</strong></div>
+            <div class="tcard"><span>Win Rate</span><strong>—</strong></div>
+          </div>
+        </section>
         
-            <div class='chart-card'>
-              <h3>All Picks</h3>
-              <div class='chart-meta'>Record: 44-66 • Profit: $-2530.35 • ROI: -23.0%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#5cc9ff' stroke-width='2.5' points='10.0,10.4 52.5,11.1 95.0,10.0 137.5,54.7 180.0,47.5 222.5,59.8 265.0,83.6 307.5,110.0 350.0,110.0' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Best Confidence Pick</h3>
-              <div class='chart-meta'>Record: 2-5 • Profit: $-218.75 • ROI: -31.25%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#a78bfa' stroke-width='2.5' points='10.0,10.0 52.5,31.9 95.0,31.9 137.5,53.9 180.0,75.8 222.5,66.1 265.0,88.1 307.5,110.0 350.0,110.0' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Top 3 Confidence Picks</h3>
-              <div class='chart-meta'>Record: 10-11 • Profit: $-203.45 • ROI: -9.69%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#34d399' stroke-width='2.5' points='10.0,22.8 52.5,23.3 95.0,10.0 137.5,69.2 180.0,54.9 222.5,51.6 265.0,80.6 307.5,110.0 350.0,110.0' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Plus Money Picks</h3>
-              <div class='chart-meta'>Record: 12-14 • Profit: $99.00 • ROI: 3.81%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#f59e0b' stroke-width='2.5' points='10.0,10.0 52.5,10.0 95.0,26.3 137.5,58.8 180.0,14.9 222.5,14.9 265.0,63.7 307.5,110.0 350.0,110.0' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Run Total Picks</h3>
-              <div class='chart-meta'>Record: 51-27 • Profit: $2085.08 • ROI: 26.73%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#fb7185' stroke-width='2.5' points='10.0,109.7 52.5,110.0 95.0,99.7 137.5,75.9 180.0,73.2 222.5,42.5 265.0,10.0 307.5,15.4 350.0,15.4' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-      </div>
-    </div>
-
-    <div class="card">
-      <h2 style="margin-top:0">Daily Performance</h2>
-      <table>
-        <thead><tr><th>Date</th><th>All Picks</th><th>Best Confidence</th><th>Top 3 Confidence</th><th>Plus Money</th><th>Run Totals</th><th>Pending</th></tr></thead>
-        <tbody>
-          <tr><td><a href='/2026-04-13.html'>2026-04-13</a></td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>9</td></tr><tr><td><a href='/2026-04-12.html'>2026-04-12</a></td><td>4-11 ($-767.55)</td><td>0-1 ($-100.00)</td><td>1-2 ($-148.98)</td><td>1-4 ($-285.00)</td><td>0-1 ($-100.00)</td><td>0</td></tr><tr><td><a href='/2026-04-11.html'>2026-04-11</a></td><td>5-10 ($-690.22)</td><td>0-1 ($-100.00)</td><td>1-2 ($-147.09)</td><td>0-3 ($-300.00)</td><td>11-4 ($600.70)</td><td>0</td></tr><tr><td><a href='/2026-04-10.html'>2026-04-10</a></td><td>7-8 ($-355.67)</td><td>1-0 ($44.25)</td><td>2-1 ($16.71)</td><td>0-0 ($0.00)</td><td>10-5 ($569.23)</td><td>0</td></tr><tr><td><a href='/2026-04-09.html'>2026-04-09</a></td><td>4-2 ($207.89)</td><td>0-1 ($-100.00)</td><td>2-1 ($72.25)</td><td>2-0 ($270.00)</td><td>1-1 ($49.25)</td><td>0</td></tr><tr><td><a href='/2026-04-08.html'>2026-04-08</a></td><td>2-13 ($-1297.18)</td><td>0-1 ($-100.00)</td><td>0-3 ($-300.00)</td><td>0-2 ($-200.00)</td><td>4-1 ($440.69)</td><td>0</td></tr><tr><td><a href='/2026-04-07.html'>2026-04-07</a></td><td>7-8 ($32.50)</td><td>0-0 ($0.00)</td><td>1-0 ($67.57)</td><td>2-3 ($-100.00)</td><td>8-5 ($190.91)</td><td>0</td></tr><tr><td><a href='/2026-04-06.html'>2026-04-06</a></td><td>7-6 ($-22.27)</td><td>0-1 ($-100.00)</td><td>1-1 ($-2.91)</td><td>1-1 ($0.00)</td><td>7-6 ($-4.76)</td><td>0</td></tr><tr><td><a href='/2026-04-05.html'>2026-04-05</a></td><td>8-8 ($362.15)</td><td>1-0 ($237.00)</td><td>2-1 ($239.00)</td><td>6-1 ($714.00)</td><td>10-4 ($339.06)</td><td>0</td></tr>
-        </tbody>
-      </table>
-    </div>
+    <article class="pick-card"><h2>No Plus Money Picks Today</h2><p class="lede">No underdog selections met publication criteria for this slate.</p></article>
+    <footer>Published by SportzBallz.io</footer>
   </main>
   
   <script>
