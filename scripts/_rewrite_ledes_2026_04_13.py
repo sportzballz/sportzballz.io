@@ -1,0 +1,50 @@
+from pathlib import Path
+import re
+
+base=Path('/Users/asmith/.openclaw/workspace/sportzballz.io')
+
+side_ledes=[
+"Arizona at plus money is a riverboat spot with real structure behind it. Camden Yards plays deep in left-center (about 333 to left, 410 to center, 318 to right), and with a warm 79° evening plus a 9 mph breeze toward right, the park can reward disciplined opposite-field damage late. Baltimore’s lineup continuity is decent but not pristine, and that kind of small injury-management churn matters more when the game turns to middle relief. With Nelson/Kremer setting a medium-variance opening frame, the better underdog ticket is the one that can steal the swing innings.",
+"This one reads like a boardroom bet: Atlanta in a park measured around 335-400-325, where clean contact usually beats chaos. At 81° with an 8 mph wind in from right, Truist should mute cheap carry, which nudges value toward the deeper lineup and tighter run-prevention profile. Miami’s card still looks partially managed from a health/availability standpoint, and that tends to show up in late pinch-hit and leverage spots. You lay the price here because the game script favors the club with fewer weak innings.",
+"Pittsburgh’s case is old-school and simple: frontline arm, live bats, and weather that can stretch one mistake into two runs. PNC’s broad shape (about 325 to left, 399 to center, 320 to right) plus 80° air and a hard 16 mph push toward left creates crooked-inning potential once the bullpens enter. Both teams show lineup turnover that hints at active injury management, but the Pirates are better built to absorb that shuffle tonight. If this game opens up, they have the cleaner path to finishing margin.",
+"Boston fits the patient, field-position game in Minneapolis. Target Field’s roomy middle (roughly 339-403-328) paired with 69° overcast air and an 8 mph wind in from center usually rewards clubs that stack quality plate appearances instead of hunting one big fly. Minnesota’s lineup card has moved around enough to suggest some health juggling, and that often costs a run in sequencing over nine innings. In a game likely decided by who wastes fewer chances, Boston grades as the steadier side.",
+"Seattle at this number is a craftsmanship wager. T-Mobile is built for pitchers (about 331-401-326) and the roof environment removes weather randomness, so command, defense, and bullpen shape carry more weight than raw slug. Houston’s recent lineup continuity has been choppy enough to read as injury/availability drag, especially deeper in the order. In a lower-noise setting like this, the more stable run-prevention club is the right side.",
+"Take the home favorite, but with restraint and logic. Dodger Stadium (330 down each line, 395 to center) sits under cool 59° air tonight, though an 11 mph breeze to right can still turn lifted contact into quick damage. The Mets’ lineup churn has the look of ongoing health management, which narrows their margin if Peterson doesn’t get length. The Dodgers don’t need fireworks; they just need their normal six clean innings and one timely crooked number.",
+"Texas is the practical side in a park with modest corners and a long center channel (roughly 330-403-325 at Sutter Health Park). Clear 65° weather and a light crosswind should keep this game from becoming a weather coin flip. The Athletics have competed, but their lineup pattern still reflects some day-to-day health juggling, and that usually shows late when matchups tighten. Eovaldi gives Texas the cleaner runway to leverage innings seven through nine.",
+"Philadelphia is priced like the better roster and the environment agrees. Citizens Bank (about 329-401-330) plus 80° air and a 14 mph wind toward right creates a run-scoring backdrop that rewards lineups with layered power. Both clubs have some continuity noise tied to availability management, but the Phillies are better equipped to turn that into matchup advantages after the starters exit. This is less about flash and more about owning the high-leverage at-bats.",
+"St. Louis as a slight dog is a texture play. Busch’s dimensions (roughly 336-400-335) can suppress cheap pull power, but 83° warmth and a 15 mph breeze toward left put extra stress on command. Both cards show rotation from probable injury maintenance, and that raises the value of clubs that can manufacture offense without perfect health. In that kind of game, the Cardinals’ path to one-run control is believable at plus money.",
+"The Angels price is long, but the shape of the game gives them upset oxygen. Yankee Stadium’s short porches (about 318 to left, 399 to center, 314 to right) and 75° air with a 14 mph push to left can flatten talent gaps if one or two elevated balls travel. New York’s lineup turnover has looked like active injury management, which matters in late-game bench decisions. At this number, backing the dog with volatility on its side is defensible."
+]
+
+plus_ledes=[side_ledes[0],side_ledes[8],side_ledes[9]]
+
+run_total_ledes=[
+"This total leans OVER because the run environment is live from first pitch to final bullpen matchup. Citizens Bank Park (329-401-330) with 80° temperatures and a 14 mph wind to right boosts carry for both right-center and pull-side lift, and both lineups can punish middle-inning mistakes. Neither side looks fully static from a health-management standpoint, which often weakens late defensive alignment and relief sequencing. In that context, nine runs is reachable without requiring an outlier start.",
+"OVER fits the geography and the weather. PNC’s spacious shell (325-399-320) normally controls homers, but 80° air and a strong 16 mph wind out to left can turn ordinary fly contact into extra bases and extend innings. Both clubs show enough lineup churn to suggest active injury maintenance, and that can tax bench depth plus bullpen deployment by the sixth. The game doesn’t need a slugfest script to clear this number.",
+"The case for OVER is about pressure accumulation more than one big inning. Busch Stadium (336-400-335) in 83° warmth with a 15 mph breeze to left should reward hard contact and challenge command on elevated fastballs. With both teams managing some availability turnover, late-game run prevention looks less certain than the listed number implies. This projects as a game where traffic keeps rebuilding until it breaks.",
+"OVER at Yankee Stadium is always one disciplined swing away from ignition. The park’s tight corners (318-399-314) plus 75° weather and a 14 mph wind to left creates favorable carry windows for both lineups. Each side also shows signs of injury/availability management in the current card, which can erode defensive substitutions and bullpen matching late. That combination supports a total that can clear even with uneven early offense.",
+"This OVER is a weather-and-layout blend with enough depth behind it. Camden’s dimensions (333-410-318) usually demand quality contact, but 79° air and a breeze to right still raise the floor for run production. Baltimore and Arizona both arrive with slight lineup management patterns tied to player availability, and those small absences compound over nine innings. The scoring path is steady rather than explosive, which is perfect for a mid-range total.",
+"The total points up even with wind blowing in from right, because this is more about sustained traffic than cheap homers. Truist Park (335-400-325) at 81° still plays fast enough for doubles and gap pressure, and both offenses can force bullpen exposure. Miami’s lineup health posture remains somewhat managed, while Atlanta’s depth can keep pressure on every inning. That profile supports an OVER that wins through volume.",
+"Dodger Stadium totals can look quiet on paper, but tonight’s setup favors gradual scoring. The field shape (330-395-330), breeze to right, and two lineups with enough thump to capitalize on runners in motion keep seven-and-a-half from feeling high. New York’s card still reflects injury-management turnover, which can thin run-prevention options once starters exit. You’re betting on cumulative offense, not a one-team avalanche.",
+"OVER is justified by park profile plus pitching context. Sutter Health Park’s approximate dimensions (330-403-325) offer enough alley room for extra-base sequencing, and clear conditions reduce weather drag on contact quality. The Athletics’ lineup has shown day-to-day availability shifts, which can stress defensive continuity and bullpen structure in the final third. That leaves this total with multiple paths to cash.",
+"Even with cooler overcast conditions, this total still tilts OVER because the game can score in layers. Target Field (339-403-328) limits easy homers, but both offenses have enough line-drive depth to generate doubles and force high-leverage relief usage. Minnesota’s lineup pattern suggests ongoing availability management, and Boston’s approach is built to exploit tired middle innings. Eight runs is a fair baseline, with room above it.",
+"This is the trickiest OVER on the board, but still playable. T-Mobile’s pitcher-friendly geometry (331-401-326) and roof control dampen random carry, yet both clubs can manufacture through contact quality, baserunner pressure, and bullpen matchup attrition. Houston’s lineup continuity has been uneven in a way consistent with active health management, which can thin late options. The total doesn’t need fireworks—just steady offense across innings five through nine."
+]
+
+def replace_ledes(path, new_ledes):
+    text=path.read_text()
+    i=0
+    def repl(_):
+        nonlocal i
+        out=f'<p class="lede">{new_ledes[i]}</p>'
+        i+=1
+        return out
+    new_text=re.sub(r'<p class="lede">.*?</p>', repl, text, flags=re.S)
+    assert i==len(new_ledes), (path.name, i, len(new_ledes))
+    path.write_text(new_text)
+
+replace_ledes(base/'2026-04-13.html', side_ledes)
+replace_ledes(base/'2026-04-13-run-line.html', side_ledes)
+replace_ledes(base/'2026-04-13-plus-money.html', plus_ledes)
+replace_ledes(base/'2026-04-13-run-totals.html', run_total_ledes)
+print('ok')
