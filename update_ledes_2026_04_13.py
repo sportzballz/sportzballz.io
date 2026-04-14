@@ -1,0 +1,52 @@
+import re
+import pathlib
+
+base = pathlib.Path('/Users/asmith/.openclaw/workspace/sportzballz.io')
+updates = {
+    '2026-04-13.html': [
+        "Camden Yards now asks for grown-up baseball: 333 to left, 410 to center, 318 to right, with enough alley to expose a shaky relay. In 80° air and a breeze nudging balls toward right, Arizona’s gap power plays all night, especially if Corbin Carroll and Gabriel Moreno are limited but available in shorter bursts. Baltimore’s own availability list is just as crowded, and that usually shows up first in the sixth and seventh when matchup depth decides one-run games.",
+        "At Truist (335-400-325), this is less about one loud swing and more about who can win the middle innings cleanly. The weather is summer-like already—78° with a crosswind—and that favors Atlanta’s deeper bench and steadier bullpen coverage if Austin Riley and Chris Sale are managed carefully. Miami can absolutely trade punches early, but the Braves have more reliable ways to finish innings without giving away the extra ninety feet.",
+        "PNC’s dimensions (325-410-320) create long chases in both gaps, and with 79° weather plus a 14 mph wind out to left, every elevated mistake can turn into crooked numbers. Pittsburgh is better positioned for that environment because its run-prevention chain is less fragile behind Paul Skenes, even with Bryan Reynolds and other regulars on the injury report. Washington’s path is real, but it needs near-perfect sequencing for nine innings in a park that punishes imperfect command.",
+        "Target Field (339-411-328) can look spacious until a 14 mph breeze starts carrying balls toward left-center, which is exactly tonight’s script. Boston’s edge is that its pitching plan remains coherent even with Brayan Bello and Connor Wong listed active/injury-managed, while Minnesota has more moving parts around Bailey Ober and Byron Buxton. In a cool 63° game where contact quality matters more than raw power, that structural stability is worth laying a price.",
+        "T-Mobile Park keeps the atmosphere honest under a roof, so the geometry—331 to left, 401 to center, 326 to right—does most of the talking. Seattle’s advantage is practical: fewer bullpen emergency innings and cleaner defensive coverage in the big outfield, even with Cal Raleigh and Bryan Woo appearing on the availability board. Houston has enough talent to flip the game late, but this setup rewards the club that gives away fewer free outs.",
+        "Sutter Health Park (about 330-403-325) rewards teams that hold the alleys and force opponents to string hits together. In clear mid-60s weather, Texas gets the nod because the Eovaldi-to-late-relief bridge is sturdier, and their lineup can absorb managed workloads for Corey Seager and Evan Carter better than most clubs can. The Athletics have been scrappy, but this profile usually tilts toward the side with cleaner inning-to-inning command.",
+        "Citizens Bank Park stays compact down the lines (329 and 330), and with 78° air plus 16 mph out to right, routine fly balls can become loud trouble. Philadelphia’s case rests on sustained pressure: even if Bryce Harper and Alec Bohm are being monitored, that order can still force leverage relievers into stressful counts. Chicago can match slug for slug, but the Phillies are better built for the long, messy innings this weather tends to create.",
+        "Busch Stadium reads roomy at 336-400-335, yet 80° warmth and wind to left can make it play smaller once hitters adjust their launch windows. St. Louis is attractive at plus money because it can manufacture runs without waiting on a three-run homer, and its bench flexibility helps if Ivan Herrera or Alec Burleson are handled carefully. Cleveland’s talent is undeniable, but in this weather the underdog only needs one late sequencing edge to steal it.",
+        "Dodger Stadium’s nighttime layer usually dampens carry, but when a steady breeze pushes toward right, the park’s 330-line corners matter more than the cool 59° temperature. Los Angeles has the cleaner late-game map if bullpen pieces like Alex Vesia and Blake Treinen are available in planned bursts, while New York is juggling a heavier injury-management load around Peterson and key relievers. Close game, but the Dodgers own more plausible paths through the final six outs.",
+        "Yankee Stadium is still a geometry exam: short porches down the lines, deep to center, and no mercy for left-handed mistakes in a 77° wind-aided night. Taking the Angels at plus money is a depth-and-timing play; if Yusei Kikuchi can hand over a tied game, Los Angeles has enough athletic coverage to survive the big outfield angles despite Jo Adell and Jordan Romano being managed. New York’s lineup remains dangerous, but with Aaron Judge and several regulars carrying active tags, this is a spot where volatility favors the underdog ticket.",
+    ],
+    '2026-04-13-plus-money.html': [
+        "Camden Yards (333-410-318) rewards clubs that turn deep flies into doubles and then cash the next at-bat, and tonight’s warm 80° air with breeze to right helps that profile. Arizona is the plus-money side because its run creation does not depend on one superstar swing; even with Corbin Carroll and Gabriel Moreno on the report, they can pressure Baltimore’s thinner middle relief. The Orioles can still outslug anyone, but the underdog has the cleaner route through innings six to eight.",
+        "Busch at 336-400-335 usually suppresses reckless offense, yet 15 mph out to left changes the math enough for a live dog. St. Louis can steal this by stacking quality plate appearances and forcing Cleveland to cover extra outs with a taxed bridge, particularly if the Guardians are cautious with Bo Naylor and other listed regulars. The plus-money case is simple: the Cardinals need fewer perfect events to win than the market implies.",
+        "At Yankee Stadium, where one pulled fly can erase two innings of good pitching, plus money is worth chasing when the underdog can field and pitch in layers. The Angels fit that template tonight: Kikuchi’s strike-throwing profile plays in this park, and their defensive range helps with the quirky caroms despite several names on the injury sheet. With 77° weather and wind pushing to center, this game invites variance—and variance is exactly what a +152 ticket wants.",
+    ],
+    '2026-04-13-run-totals.html': [
+        "This over starts with the park and air: Citizens Bank Park’s 329/330 corners plus 16 mph out to right in 78° conditions can turn routine fly balls into extra-base traffic. Both clubs also carry enough injury-management on the pitching side to stretch bullpen roles by inning seven. That combination supports sustained scoring rather than a single fluky burst.",
+        "PNC’s deep dimensions do not automatically mean low scoring when wind is blasting out to left at 14 mph. Long alleys create doubles when outfielders play no-doubles depth, and both teams have active injury notes that can thin late command options. The over case is accumulation: two and three run pockets across several innings.",
+        "Busch is nominally pitcher-friendly, but 80° temperatures with wind to left shrink its practical run environment. St. Louis and Cleveland both arrive with enough availability concerns that bullpens may be patched together rather than scripted. That is usually fertile ground for an over, especially once benches start forcing matchup moves.",
+        "At Target Field (339-411-328), the over is less about cheap homers and more about line drives into the gaps in a wind-assisted setup. The cool overcast weather still carries well to left tonight, and both staffs have key names on active injury reports that can alter leverage plans. Expect pressure innings to arrive earlier than usual.",
+        "Camden’s modern shape and warm 80° air are over-friendly when wind is leaning to right and both lineups can run. Add in two injury-managed pitching groups, and run prevention gets harder from the middle innings forward. This total has multiple routes to cash, not just a one-team eruption.",
+        "Truist in upper-70s weather with a live crosswind tends to reward hard contact from line to line. Atlanta and Miami both have offensive contributors available despite report tags, while pitching depth on each side has enough uncertainty to invite inherited-run trouble. That profile points toward an over built on steady pressure.",
+        "Even in cool 59° weather, Dodger Stadium can play over when breeze assists toward right and both clubs are managing bullpen pieces. The park’s 330 corners still punish elevated mistakes, and late-inning matchup instability on both rosters opens the door to tack-on runs. You do not need a slugfest; you just need six productive innings combined.",
+        "Yankee Stadium totals can jump fast because the dimensions reward opposite-field carry, and tonight’s 77° air with wind to center amplifies that trait. With both teams juggling active-status regulars and relievers, the command floor in innings six through nine is less certain than usual. Over 8.5 fits the environment and the personnel context.",
+        "Sutter Health Park’s 330-403-325 footprint produces big-inning potential when defenses are asked to cover extra ground, and that gets harder as bullpens turn over. Texas and the Athletics both show enough injury-report movement to create non-ideal relief matchups. In clear weather, this total can clear on doubles and sequencing alone.",
+        "A roof game in Seattle does not kill an over; it just changes the path. At 331-401-326, T-Mobile rewards gap contact and first-to-third pressure, and both clubs have enough active injury management to make late leverage less predictable. The number is modest enough that balanced scoring from both sides gets it home.",
+    ],
+}
+
+for fname, ledes in updates.items():
+    path = base / fname
+    text = path.read_text()
+    matches = list(re.finditer(r'<p class="lede">.*?</p>', text, re.S))
+    if len(matches) != len(ledes):
+        raise SystemExit(f"{fname}: expected {len(ledes)} replacements, found {len(matches)} ledes")
+
+    out = []
+    last = 0
+    for m, new_lede in zip(matches, ledes):
+        out.append(text[last:m.start()])
+        out.append(f'<p class="lede">{new_lede}</p>')
+        last = m.end()
+    out.append(text[last:])
+    path.write_text(''.join(out))
+    print(f"updated {fname}")
