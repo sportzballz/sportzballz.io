@@ -1,215 +1,160 @@
-import re
+import re, html
 from pathlib import Path
 
-base = Path('/Users/asmith/.openclaw/workspace/sportzballz.io')
+base=Path('/Users/asmith/.openclaw/workspace/sportzballz.io')
 
-# Park dimensions (approximate wall marks used for narrative context)
-park_dims = {
-    'PNC Park': '325-399-320',
-    'Truist Park': '335-400-325',
-    'Comerica Park': '345-412-330',
-    'Oriole Park at Camden Yards': '333-400-318',
-    'Busch Stadium': '336-400-335',
-    'Rate Field': '330-400-335',
-    'Petco Park': '334-396-322',
-    'Yankee Stadium': '318-399-314',
-    'UNIQLO Field at Dodger Stadium': '330-395-330',
-    'American Family Field': '344-400-345',
-    'Target Field': '339-403-328',
-    'Great American Ball Park': '328-404-325',
-    'Citizens Bank Park': '329-401-330',
-    'Sutter Health Park': '330-403-325',
+DIMENSIONS={
+ 'Daikin Park':'315 to left, 362 to left-center, 409 to center, 373 to right-center, 326 to right',
+ 'Busch Stadium':'336 to left, 375 to left-center, 400 to center, 375 to right-center, 335 to right',
+ 'PNC Park':'325 to left, 383 to left-center, 399 to center, 375 to right-center, 320 to right',
+ 'Truist Park':'335 to left, 385 to left-center, 400 to center, 375 to right-center, 325 to right',
+ 'Yankee Stadium':'318 to left, 399 to left-center, 408 to center, 385 to right-center, 314 to right',
+ 'Comerica Park':'345 to left, 370 to left-center, 420 to center, 365 to right-center, 330 to right',
+ 'UNIQLO Field at Dodger Stadium':'330 to left, 385 to left-center, 395 to center, 375 to right-center, 330 to right',
+ 'Petco Park':'334 to left, 390 to left-center, 396 to center, 391 to right-center, 322 to right',
+ 'American Family Field':'344 to left, 371 to left-center, 400 to center, 374 to right-center, 345 to right',
+ 'Citizens Bank Park':'329 to left, 374 to left-center, 401 to center, 369 to right-center, 330 to right',
+ 'Target Field':'339 to left, 377 to left-center, 411 to center, 367 to right-center, 328 to right',
+ 'Sutter Health Park':'330 to left, 380 to left-center, 403 to center, 370 to right-center, 325 to right',
+ 'Oriole Park at Camden Yards':'333 to left, 384 to left-center, 410 to center, 373 to right-center, 318 to right',
+ 'Great American Ball Park':'328 to left, 379 to left-center, 404 to center, 370 to right-center, 325 to right',
+ 'Rate Field':'330 to left, 375 to left-center, 400 to center, 375 to right-center, 335 to right'
 }
 
-voices = [
-    ('lyric', 'The evening feels made for patient offense'),
-    ('notebook', 'If you work this game from first pitch through the seventh, the shape is clear'),
-    ('column', 'Call this the practical side of the card'),
-    ('nostalgic', 'There are nights when baseball still reads like an old scorebook'),
-    ('street', 'Here’s the straight talk on this matchup'),
-    ('analytic', 'Strip away the noise and this is a run-environment decision'),
+voices=[
+    ('A summer-night lyric hangs over this one', 'The shape of this game feels old-fashioned: pressure on starters, then a sprint to the seventh.', 'If the better infield defense gets even two extra outs, the ticket usually cashes.'),
+    ('Notebook view from first coffee to first pitch', 'The pricing asks a straightforward question: can this side control the first two turns through the order?', "Given tonight's setup, that answer is more often yes than no."),
+    ('This one has city-noise energy and late-inning drama written all over it', 'The park will reward lifted contact, and both clubs have enough pull power to make one mistake expensive.', 'I still prefer the steadier bullpen bridge and cleaner ninth-inning path.'),
+    ('If you\'ve watched this sport long enough, you know this script', 'A broad outfield gap plus warm air turns singles into doubles and doubles into trouble.', 'The side with fewer free passes is usually the side still smiling at 10:30 p.m.'),
+    ('Call this a ballgame for scorebook people', 'The matchup leans toward whichever club wins the 2-1 counts and keeps traffic off the bases.', 'That profile points to one dugout with fewer ways to lose itself.'),
+    ('Strip away the noise and keep the baseball bones', 'Run creation consistency, defensive conversion, and late leverage all land on the same side of the ledger tonight.', "When several independent game-shape checks agree, I'm willing to lay the number."),
 ]
 
-article_pat = re.compile(r'(<article class="pick-card">.*?</article>)', re.S)
+article_pat=re.compile(r'(<article class="pick-card">.*?</article>)',re.S)
+
+# Parse main for injury context
+main=(base/'2026-04-14.html').read_text()
+articles=article_pat.findall(main)
+match_info={}
+for a in articles:
+    h2=re.search(r'<h2>([^<]+)</h2>',a)
+    if not h2:
+        continue
+    title=html.unescape(h2.group(1))
+    if ' over ' not in title:
+        continue
+    t1,t2=[x.strip() for x in title.split(' over ',1)]
+    weather=re.search(r'<li><strong>Weather:</strong>\s*([^<]+)</li>',a)
+    weather=html.unescape(weather.group(1).strip()) if weather else 'Weather neutral.'
+    venue=re.search(r'<div><span>Venue</span><strong>([^<]+)</strong></div>',a)
+    venue=html.unescape(venue.group(1).strip()) if venue else ''
+    inj={}
+    for m in re.finditer(r'<li><strong>([^<]+) Injuries:</strong>\s*([^<]+)</li>',a):
+        team=html.unescape(m.group(1).strip())
+        names=[n.strip() for n in html.unescape(m.group(2)).split(',') if n.strip()]
+        inj[team]=names
+    match_info[frozenset([t1,t2])]={'weather':weather,'venue':venue,'inj':inj}
 
 
-def normalize_space(s: str) -> str:
-    return re.sub(r'\s+', ' ', s).strip()
+def injury_phrase(team, names):
+    if not names:
+        return f"{team}'s board is quiet"
+    top=', '.join(names[:2])
+    return f"{team} list is mostly green (notably {top})"
 
 
-def get_weather(art: str) -> str:
-    m = re.search(r'<li><strong>Weather:</strong>\s*(.*?)</li>', art, re.S)
-    return normalize_space(m.group(1)) if m else 'weather context neutral'
+def make_side_lede(article,idx):
+    title=html.unescape(re.search(r'<h2>([^<]+)</h2>',article).group(1))
+    t1,t2=[x.strip() for x in title.split(' over ',1)]
+    odds=html.unescape(re.search(r'<div><span>Odds</span><strong>([^<]+)</strong></div>',article).group(1))
+    conf=html.unescape(re.search(r'<div><span>Confidence</span><strong>([^<]+)</strong></div>',article).group(1))
+    pitch=html.unescape(re.search(r'<div><span>Pitching</span><strong>([^<]+)</strong></div>',article).group(1))
+    venue=html.unescape(re.search(r'<div><span>Venue</span><strong>([^<]+)</strong></div>',article).group(1))
+    weather_m=re.search(r'<li><strong>Weather:</strong>\s*([^<]+)</li>',article)
+    weather=html.unescape(weather_m.group(1).strip()) if weather_m else 'conditions look stable'
+    line_m=re.search(r'<li><strong>Line Movement:</strong>\s*([^<]+)</li>',article)
+    line=html.unescape(line_m.group(1).strip()) if line_m else 'price held steady through the afternoon'
+    lineups_m=re.search(r'<li><strong>Starting Lineups:</strong>\s*([^<]+)</li>',article)
+    lineups=html.unescape(lineups_m.group(1).strip()) if lineups_m else 'lineups are set'
+    inj={}
+    for m in re.finditer(r'<li><strong>([^<]+) Injuries:</strong>\s*([^<]+)</li>',article):
+        team=html.unescape(m.group(1).strip())
+        names=[n.strip() for n in html.unescape(m.group(2)).split(',') if n.strip()]
+        inj[team]=names
+    dims=DIMENSIONS.get(venue,'standard MLB dimensions with fair alleys and reachable corners')
+    v=voices[idx%len(voices)]
+    inj1=injury_phrase(t1,inj.get(t1,[]))
+    inj2=injury_phrase(t2,inj.get(t2,[]))
+    text=(f"{v[0]}. I'm on <strong>{t1} over {t2}</strong> at <strong>{odds}</strong>. "
+          f"At {venue} ({dims}), the matchup of {pitch} favors {t1} because their current lineup is more likely to string quality plate appearances instead of relying on one swing. "
+          f"{v[1]} Weather reads {weather}, and that points to a game where contact quality should show up honestly rather than randomly. "
+          f"Health check: {inj1}; {inj2}. {lineups} With {line}, the market isn't fighting this angle. "
+          f"{v[2]} Confidence snapshot: {conf}.")
+    return text
 
 
-def get_line(art: str, label: str) -> str:
-    m = re.search(fr'<li><strong>{re.escape(label)}</strong>\s*(.*?)</li>', art, re.S)
-    return normalize_space(m.group(1)) if m else ''
+total_voices=[
+    'You can almost hear this total climbing before first pitch',
+    'This total reads like a clean over/under script, not a coin flip',
+    'From a run-environment standpoint, this is a table-setter',
+    'The geometry of the park matters here as much as the names on the jerseys',
+    'If you like totals that win by shape, this is one of them',
+    'No fireworks needed—just steady pressure innings',
+]
 
 
-def team_key_from_h2(h2: str) -> str:
-    txt = normalize_space(h2)
-    if ' — ' in txt:
-        left = txt.split(' — ')[0]
-        if ' vs ' in left:
-            a, b = [x.strip() for x in left.split(' vs ', 1)]
-            return ' vs '.join(sorted([a, b]))
-    if ' over ' in txt:
-        a, b = [x.strip() for x in txt.split(' over ', 1)]
-        return ' vs '.join(sorted([a, b]))
-    return txt
+def make_total_lede(article,idx):
+    h2=html.unescape(re.search(r'<h2>([^<]+)</h2>',article).group(1))
+    m=re.match(r'(.+?) vs (.+?) — (OVER|UNDER) ([0-9.]+)',h2)
+    t1,t2,ou,total=m.group(1).strip(),m.group(2).strip(),m.group(3),m.group(4)
+    venue=html.unescape(re.search(r'<div><span>Venue</span><strong>([^<]+)</strong></div>',article).group(1))
+    odds=html.unescape(re.search(r'<div><span>Odds</span><strong>([^<]+)</strong></div>',article).group(1))
+    conf=html.unescape(re.search(r'<div><span>Confidence</span><strong>([^<]+)</strong></div>',article).group(1))
+    weather=html.unescape(re.search(r'<li><strong>Weather:</strong>\s*([^<]+)</li>',article).group(1).strip())
+    move_m=re.search(r'<li><strong>Total Movement:</strong>\s*([^<]+)</li>',article)
+    move=html.unescape(move_m.group(1).strip()) if move_m else 'total has held'
+    dims=DIMENSIONS.get(venue,'balanced dimensions')
+    info=match_info.get(frozenset([t1,t2]),{})
+    inj=info.get('inj',{})
+    inj1=injury_phrase(t1,inj.get(t1,[]))
+    inj2=injury_phrase(t2,inj.get(t2,[]))
+    tone=total_voices[idx%len(total_voices)]
+    if ou=='OVER':
+        angle='Warmth, carry, and reachable power alleys create more extra-base traffic, so crooked numbers are live in the middle innings.'
+        close='I want the game state where both teams can score in clusters, and this matchup provides it.'
+    else:
+        angle='The weather and outfield depth suppress cheap damage, so scoring should require multi-hit sequences rather than one mistake.'
+        close='That usually keeps the game under the posted runway unless defense unravels.'
+    return (f"{tone}. Lean <strong>{ou} {total}</strong> in {t1} vs {t2} at <strong>{odds}</strong>. "
+            f"{venue} plays at {dims}, and with {weather} the ball should travel in a way that supports this total position. "
+            f"{angle} Injury board context: {inj1}; {inj2}. {move} Confidence: {conf}. {close}")
 
 
-def build_injury_map(daily_text: str):
-    inj_map = {}
-    for art in article_pat.findall(daily_text):
-        h2 = re.search(r'<h2>(.*?)</h2>', art, re.S)
-        if not h2:
-            continue
-        matchup = normalize_space(h2.group(1))
-        m = re.match(r'(.+?) over (.+)', matchup)
-        if not m:
-            continue
-        t1, t2 = m.group(1).strip(), m.group(2).strip()
-        key = ' vs '.join(sorted([t1, t2]))
+# Rewrite side files
+for fn in ['2026-04-14.html','2026-04-14-plus-money.html']:
+    path=base/fn
+    text=path.read_text()
+    arts=article_pat.findall(text)
+    new_arts=[]
+    for i,a in enumerate(arts):
+        newlede=make_side_lede(a,i + (0 if fn=='2026-04-14.html' else 20))
+        a2=re.sub(r'<p class="lede">.*?</p>',f'<p class="lede">{newlede}</p>',a,flags=re.S)
+        new_arts.append(a2)
+    it=iter(new_arts)
+    text2=article_pat.sub(lambda m: next(it), text)
+    path.write_text(text2)
 
-        inj_lines = re.findall(r'<li><strong>([^<]+) Injuries:</strong>\s*(.*?)</li>', art, re.S)
-        parts = []
-        for team, plist in inj_lines[:2]:
-            names = [x.strip() for x in plist.split(',')[:2]]
-            names = [re.sub(r'\s*\(.*?\)', '', n).strip() for n in names if n.strip()]
-            if names:
-                parts.append(f"{team}: {', '.join(names)} listed active")
+# Rewrite totals
+path=base/'2026-04-14-run-totals.html'
+text=path.read_text()
+arts=article_pat.findall(text)
+new_arts=[]
+for i,a in enumerate(arts):
+    newlede=make_total_lede(a,i)
+    a2=re.sub(r'<p class="lede">.*?</p>',f'<p class="lede">{newlede}</p>',a,flags=re.S)
+    new_arts.append(a2)
+it=iter(new_arts)
+text2=article_pat.sub(lambda m: next(it), text)
+path.write_text(text2)
 
-        lineup = ''
-        lm = re.search(r'<li><strong>Starting Lineups:</strong>\s*(.*?)</li>', art, re.S)
-        if lm:
-            lineup = normalize_space(lm.group(1))
-
-        inj_map[key] = ('; '.join(parts), lineup)
-    return inj_map
-
-
-def make_side_lede(ctx, voice_idx, underdog=False):
-    voice, opener = voices[voice_idx % len(voices)]
-    pick = ctx['h2']
-    odds = ctx.get('odds', '')
-    pitch = ctx.get('pitching', '')
-    venue = ctx.get('venue', '')
-    dims = park_dims.get(venue, 'varied alley depths')
-    weather = ctx.get('weather', '')
-    lineups = ctx.get('lineups', '')
-    lm = ctx.get('line_move', '')
-    inj = ctx.get('inj', '')
-
-    bet_tone = 'at plus money' if underdog or odds.startswith('+') else 'as the favorite'
-    if voice == 'lyric':
-        return f"{opener}: {pick} {bet_tone} ({odds}). At {venue}, with fences roughly {dims}, this park asks for clean contact in the alleys and steady command late. {pitch} gives this side the calmer path through six innings, and {weather} points to a ball that should carry without turning chaotic. {inj if inj else 'The injury sheet is mostly maintenance names, not game-changing absences.'} {lineups} {lm}"
-    if voice == 'notebook':
-        return f"{opener}. The play is {pick} at {odds}. The matchup sits in {venue} ({dims}), where extra-base lanes matter more than raw homer distance, and that favors the team with the steadier starter pairing tonight ({pitch}). Weather reads {weather}, useful for hard line drives but not the kind of wind that flips a handicap. Injury report note: {inj if inj else 'both clubs arrive without a major late downgrade.'} {lineups} {lm}"
-    if voice == 'column':
-        return f"{opener}: {pick} at {odds}. This is a nine-inning depth call, not a one-inning gamble. {venue} plays to {dims}, and in these dimensions the side with cleaner strike throwing and fewer free baserunners usually dictates tempo; {pitch} tilts that way. With {weather}, run creation should come in waves, not avalanches, and that helps the better-structured roster. {inj if inj else 'Pre-game injury notes read stable.'} {lineups} {lm}"
-    if voice == 'nostalgic':
-        return f"{opener}, and this one points to {pick} at {odds}. In {venue}, the walls at {dims} reward teams that can move runners station to station before the big swing arrives. {pitch} suggests that rhythm leans to the picked side, especially if the starter gets ahead early. The weather ({weather}) should keep the game quick and honest. {inj if inj else 'No major injury cloud is hanging over first pitch.'} {lineups} {lm}"
-    if voice == 'street':
-        return f"{opener}: {pick} at {odds}. {venue} ({dims}) can punish sloppy sequencing, and this side is built to avoid the crooked-inning mistake. {pitch} gives them the better chance to hand a lead to the right bullpen pockets, while {weather} is favorable enough for offense but not a total coin flip. Injury board check: {inj if inj else 'nothing here screams emergency scratch.'} {lineups} {lm}"
-    return f"{opener}. Recommendation: {pick} at {odds}. In a park shaped {dims} at {venue}, the best edge is controlling contact quality and baserunner traffic; {pitch} favors that profile. Weather is {weather}, which raises carry slightly but still keeps run expectancy in a manageable band. The injury/availability read is stable ({inj if inj else 'no high-impact losses reported'}), and lineup status supports a normal game script. {lm}"
-
-
-def make_total_lede(ctx, voice_idx, inj_map):
-    voice, opener = voices[voice_idx % len(voices)]
-    h2 = ctx['h2']
-    lean = ctx.get('lean', '')
-    odds = ctx.get('odds', '')
-    venue = ctx.get('venue', '')
-    dims = park_dims.get(venue, 'varied alley depths')
-    weather = ctx.get('weather', '')
-    tm = ctx.get('total_move', '')
-    key = team_key_from_h2(h2)
-    inj, lineups = inj_map.get(key, ('', ''))
-
-    over = 'OVER' in lean
-    side_word = 'carry and gap power' if over else 'suppressed damage and strand rate'
-
-    if voice == 'lyric':
-        return f"{opener}, and the total read is {lean} ({odds}) for {h2}. {venue} sits at roughly {dims}, a shape that decides whether fly balls die on the track or find grass in the alleys; tonight the expected conditions ({weather}) point toward {side_word}. {inj if inj else 'Availability is mostly clean on both rosters.'} {lineups} {tm}"
-    if voice == 'notebook':
-        return f"{opener}: {lean} at {odds} in {h2}. Ballpark geometry at {venue} ({dims}) plus {weather} gives a workable script for {('run volume' if over else 'run suppression')} rather than randomness. The relevant question is traffic, not fireworks, and this setup supports the posted lean. Injury/status check: {inj if inj else 'no disruptive late injury downgrade flagged.'} {lineups} {tm}"
-    if voice == 'column':
-        return f"{opener} on totals: {lean} at {odds} for {h2}. These dimensions ({dims}) in {venue} reward teams that execute their first two pitches of each plate appearance; that usually means {('more barrels over nine innings' if over else 'fewer clean scoring windows')}. With {weather}, the environment supports this number. {inj if inj else 'Roster health looks steady pregame.'} {lineups} {tm}"
-    if voice == 'nostalgic':
-        return f"{opener}, and the number to play is {lean} at {odds} in {h2}. {venue} has old-school proportions ({dims}), where the ballgame is often decided by doubles into space and bullpen command after sunset. Add {weather} and you get a profile that fits {lean.lower()}. {inj if inj else 'No major injury surprise at lineup lock.'} {lineups} {tm}"
-    if voice == 'street':
-        return f"{opener}: {lean} at {odds} for {h2}. In {venue} ({dims}), this total is about who avoids the one bad inning. Weather is {weather}, and that nudges the game toward {('extra-base traffic and late scoring' if over else 'quieter middle innings')}. Injury board says {inj if inj else 'both sides are close to expected availability'}. {lineups} {tm}"
-    return f"{opener}. Total recommendation: {lean} at {odds} in {h2}. Given {venue} dimensions ({dims}) and {weather}, modeled run distribution clusters around this side of the number, especially once bullpen leverage innings begin. Availability context ({inj if inj else 'no key absences'}) and lineup timing support a standard scoring path rather than an outlier game state. {tm}"
-
-
-def rewrite_file(path: Path, filetype: str, start_idx: int, inj_map):
-    txt = path.read_text()
-    arts = article_pat.findall(txt)
-    out = txt
-
-    for i, art in enumerate(arts):
-        h2 = normalize_space(re.search(r'<h2>(.*?)</h2>', art, re.S).group(1))
-        venue = normalize_space(re.search(r'<div><span>Venue</span><strong>(.*?)</strong></div>', art, re.S).group(1))
-
-        oddsm = re.search(r'<div><span>Odds</span><strong>(.*?)</strong></div>', art, re.S)
-        odds = normalize_space(oddsm.group(1)) if oddsm else ''
-
-        weather = get_weather(art)
-        key = team_key_from_h2(h2)
-        inj, lineups = inj_map.get(key, ('', ''))
-
-        lm = get_line(art, 'Line Movement:')
-        tm = get_line(art, 'Total Movement:')
-
-        if not lineups:
-            lineups = get_line(art, 'Starting Lineups:')
-
-        pitchm = re.search(r'<div><span>Pitching</span><strong>(.*?)</strong></div>', art, re.S)
-        pitching = normalize_space(pitchm.group(1)) if pitchm else ''
-
-        leanm = re.search(r'<div><span>Lean</span><strong>(.*?)</strong></div>', art, re.S)
-        lean = normalize_space(leanm.group(1)) if leanm else ''
-
-        ctx = dict(
-            h2=h2,
-            venue=venue,
-            odds=odds,
-            weather=weather,
-            inj=inj,
-            lineups=lineups,
-            line_move=lm,
-            total_move=tm,
-            pitching=pitching,
-            lean=lean,
-        )
-
-        if filetype == 'totals':
-            new_lede = make_total_lede(ctx, start_idx + i, inj_map)
-        else:
-            new_lede = make_side_lede(ctx, start_idx + i, underdog=(filetype == 'plus'))
-
-        new_lede = normalize_space(new_lede)
-
-        oldp = re.search(r'<p class="lede">.*?</p>', art, re.S).group(0)
-        newp = f'<p class="lede">{new_lede}</p>'
-        newart = art.replace(oldp, newp)
-        out = out.replace(art, newart, 1)
-
-    path.write_text(out)
-
-
-def main():
-    daily = (base / '2026-04-14.html').read_text()
-    inj_map = build_injury_map(daily)
-
-    rewrite_file(base / '2026-04-14.html', 'daily', 0, inj_map)
-    rewrite_file(base / '2026-04-14-plus-money.html', 'plus', 2, inj_map)
-    rewrite_file(base / '2026-04-14-run-totals.html', 'totals', 4, inj_map)
-
-    print('rewritten')
-
-
-if __name__ == '__main__':
-    main()
+print('rewrote',len(articles),'main ledes,',len(article_pat.findall((base/'2026-04-14-plus-money.html').read_text())),'plus,',len(arts),'totals')
