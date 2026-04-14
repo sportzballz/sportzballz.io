@@ -1,57 +1,215 @@
-import re, html
+import re
 from pathlib import Path
 
 base = Path('/Users/asmith/.openclaw/workspace/sportzballz.io')
 
-updates = {
-'2026-04-14.html': {
-'Pittsburgh Pirates over Washington Nationals': "Pittsburgh is the steadier side in a game shaped by PNC’s roomy alleys (325 to left, 410 to center, 320 to right) and a 13.7 mph crosswind that can turn hard contact into long outs. Mitch Keller’s sinker profile fits that geometry, while Washington still leans on streaky run creation. With both lineups posted and no late core absences flagged, the favorite has the cleaner nine-inning path.",
-'Atlanta Braves over Miami Marlins': "At Truist (335-400-325), this plays like an Atlanta control game: enough carry in warm 81.7° air, but not enough wind to erase the pitching edge. Reynaldo López gets a Marlins lineup that can go quiet for stretches, and Atlanta’s middle-order health looks stable entering first pitch. Price is chalk, but the matchup logic is cleaner than the ticket cost.",
-'Detroit Tigers over Kansas City Royals': "Comerica’s long corridors (345 down the left-field line, 412 to dead center, 330 to right) reward teams that manufacture extra bases and prevent the crooked inning. Detroit’s profile fits that better tonight, even in 81.8° weather with a crosswind that won’t consistently aid pull power. If lineups arrive without surprises, the Tigers’ run-prevention shape keeps them in front of this number.",
-'Arizona Diamondbacks over Baltimore Orioles': "Camden Yards still asks right-handed power to work through deep left-center space, and that matters in a game expected to be decided by sequencing more than one swing. Arizona’s offense is healthier at the top and better built for doubles-and-pressure baseball, while 88.2° heat and a breeze to center add just enough volatility for a plus-money live dog. Kelly doesn’t need dominance here—just six composed innings.",
-'St. Louis Cardinals over Cleveland Guardians': "Busch Stadium (336-400-335) with 15 mph wind pushing to center is a different place than its low-scoring reputation, especially in near-90° air. St. Louis has more ways to score in that environment, and its key bats are all available on the pregame board. In a near-pick’em game, the side with better damage potential in these conditions gets the nod.",
-'Tampa Bay Rays over Chicago White Sox': "Rate Field’s broad center field (400 feet) and a damp crosswind setup favor pitchers who can miss barrels, and that points toward Tampa Bay behind McClanahan. Chicago’s young arms can flash stuff but still run high-stress counts, which is dangerous against a patient Rays order. Unless a late lineup scratch changes the top six hitters, this is Tampa’s matchup to control.",
-'Seattle Mariners over San Diego Padres': "Petco’s dimensions (334-396-322) and marine night air already compress offense; add a 9.7 mph breeze blowing in from center and every run gets expensive. That setting favors Seattle’s style with Bryan Woo attacking the zone and forcing contact quality down. San Diego’s lineup uncertainty at publish time only strengthens the case for the steadier side.",
-'New York Yankees over Los Angeles Angels': "Yankee Stadium can flip a game in one inning, but tonight’s edge is broader than the short porches (318 left, 314 right, 399 center). In 84.7° warmth with wind drifting out, New York still owns the superior run-creation floor, and its core bats are active. If this turns into a bullpen game by the sixth, the Yankees are better equipped to win the leverage outs.",
-'Los Angeles Dodgers over New York Mets': "Dodger Stadium’s 330-395-330 frame and mild 62.6° evening usually reward complete rosters, not hopeful scripts. Los Angeles brings the deeper offense and the cleaner starter matchup, and the Mets’ path depends on near-perfect traffic management. With both lineups confirmed, the home side remains the higher-probability grind over nine innings.",
-'Milwaukee Brewers over Toronto Blue Jays': "Inside American Family Field (344-400-345), weather noise drops and execution decides it. Milwaukee’s young power-speed mix plays well in that neutralized environment, and its active lineup board suggests no missing centerpiece bats. Against a veteran starter, the Brewers still project to create more pressure inning to inning.",
-'Minnesota Twins over Boston Red Sox': "Target Field (339-403-328) in 64.5° air with only a light breeze to center should play fair, not explosive. That suits Minnesota, which can win with run prevention and timely extra-base contact rather than a home-run race. With Buxton and the core group available, the plus price is playable on structure alone.",
-'San Francisco Giants over Cincinnati Reds': "Great American Ball Park is tight down the lines (328 and 325) and can get loud fast in 80° weather, but this handicap leans on starting-pitch quality more than park fear. San Francisco has the cleaner mound profile for the first two trips through the order, and that matters in a venue where early jams spiral quickly. If neither club loses a late bat, the Giants have the calmer path.",
-'Texas Rangers over Athletics': "Sutter Health Park’s Sacramento layout (330-403-325) plays fairer at night, and 64.8° air with modest breeze out to center should keep the game from becoming a cheap-homer derby. Texas owns the stronger top-of-order on-paper and arrives with key regulars listed active. In a near-even market, that roster stability is enough to side Rangers.",
-'Philadelphia Phillies over Chicago Cubs': "Citizens Bank Park (329-401-330) with 86.3° heat is built for carry, especially when mistakes leak to the pull gaps. Philadelphia’s lineup is healthy where it matters and better positioned to cash those mistakes than Chicago tonight. With Nola set to work at home, the Phillies hold the sharper run expectancy profile."
-},
-'2026-04-14-plus-money.html': {
-'Arizona Diamondbacks over Baltimore Orioles': "Underdogs need a real map, and Arizona has one tonight: gap pressure in Camden’s deeper left-center, plus enough speed to turn singles into immediate stress. The 88.2° heat with breeze to center can flatten command late, which helps the side that strings contact instead of waiting for one blast. With the principal bats available, this dog is priced wider than the matchup warrants.",
-'St. Louis Cardinals over Cleveland Guardians': "This is the kind of plus number worth taking—small edge, big weather assist. Busch is playing warm and wind-aided to center, which widens scoring paths for a Cardinals lineup that has its main run producers active. In a game expected to hinge on middle innings, that environment gives St. Louis a little more upside than the market implies.",
-'Minnesota Twins over Boston Red Sox': "Target Field won’t gift many cheap runs tonight, so execution and bullpen shape matter more than brand name. Minnesota’s active core and cleaner defensive profile make them live at this price, especially in a game likely decided by one or two sequencing moments. If this stays in the eight-run neighborhood, the dog remains very much alive."
-},
-'2026-04-14-run-totals.html': {
-'Pittsburgh Pirates vs Washington Nationals — OVER 9.5': "With 79° warmth and a 13.7 mph crosswind at PNC, this total leans over because contact should stay in play all night, forcing extra defensive chances. The park’s deep middle (410 feet) cuts some homers but also creates long run-scoring innings through doubles and first-to-third pressure. Both lineup cards are intact enough to support traffic rather than waiting on solo shots.",
-'Atlanta Braves vs Miami Marlins — OVER 8.5': "Truist’s 335-400-325 dimensions plus dry, warm air make 8.5 a reachable number if either starter loses the zone once. Atlanta’s run creators are available, and Miami has enough athletic contact to contribute its share against the back half of the game. This projects as an over built on sustained baserunners, not miracle homers.",
-'Detroit Tigers vs Kansas City Royals — UNDER 7.59': "Comerica is still one of the better under parks because of its deep power alleys and 412-foot center, and that geometry matters more than the warm temperature. Even with decent hitting conditions, many fly balls die into outs here, especially when both starters can work ahead. The under case is about limiting damage swings and forcing three-hit rallies.",
-'St. Louis Cardinals vs Cleveland Guardians — OVER 8.5': "In Busch, 15 mph wind out to center and near-90° heat are enough to upgrade ordinary contact into warning-track trouble and occasional carry-outs. With both offenses showing full-strength top halves, 8.5 is a fair over number in this specific weather window. The forecasted run environment is more offensive than the stadium’s reputation.",
-'Tampa Bay Rays vs Chicago White Sox — UNDER 7.5': "Rate Field’s larger center gap and a humid, crosswind night profile point to suppressed slug unless hitters square mistakes perfectly. Tampa and Chicago can both create strikeout-heavy stretches, which is exactly what under tickets need at this number. A couple of solo homers can happen and still leave this under live deep into the eighth.",
-'Seattle Mariners vs San Diego Padres — UNDER 7.0': "Petco at night is already a run damper; with 65° air and wind blowing in from center, seven runs is a serious climb. The park’s marine layer and deep right-center lanes reward pitchers who stay above the barrel, and both staffs can do that. Unless defensive mistakes multiply, this game profiles as long at-bats and short rallies.",
-'New York Yankees vs Los Angeles Angels — OVER 8.59': "Yankee Stadium’s short porches and warm 84.7° conditions usually put pressure on any total in the high eights, especially with wind nudging balls toward center. Even routine fly contact can become extra-base offense in this setup. With both clubs carrying active middle-order bats, this number leans over on park math and weather alone.",
-'Los Angeles Dodgers vs New York Mets — OVER 7.5': "Seven and a half is modest for Dodger Stadium when both lineups are healthy enough to punish middle relievers. The 330-395-330 layout and light breeze out won’t create a launch-party game, but it does support steady scoring chances across nine innings. This over is about depth-on-depth plate appearances more than one crooked frame.",
-'Minnesota Twins vs Boston Red Sox — OVER 8.0': "Target Field is fair tonight, not pitcher-hostile, and that keeps eight runs within normal range if either starter exits by the fifth. Both clubs bring active run producers, and the game can tilt over through doubles volume rather than home-run spikes. A 5-4 or 6-3 script is the most natural path.",
-'San Francisco Giants vs Cincinnati Reds — OVER 9.18': "Great American’s compact lines (328 to left, 325 to right) are tailor-made for overs once temperatures rise into the 80s. Add the crosswind and this park turns medium contact into stressful innings quickly. With both offenses built to attack mistakes early in counts, the total still leans upward despite the already-high number.",
-'Philadelphia Phillies vs Chicago Cubs — OVER 9.5': "Citizens Bank is a carry park in hot air, and 86.3° with breeze across to right keeps the ball lively all evening. The dimensions (329-401-330) reward pull-side authority from both lineups’ core hitters, all of whom are available. Ten runs is not a stretch in this weather-and-park combination.",
-'Arizona Diamondbacks vs Baltimore Orioles — UNDER 8.82': "Camden’s remodeled left-field depth still steals extra-base damage from right-handed pull power, and that supports an under at this unusual number. Even in 88° weather, long fly balls can die in that part of the park before they become crooked innings. If starters avoid free passes, this total trends to a tighter scoring game than the heat suggests.",
-'Milwaukee Brewers vs Toronto Blue Jays — UNDER 7.0': "In a roof-controlled game at American Family Field, the environment is predictable, and seven can hold when strike throwing sets the tone early. The park is not extreme either way, which helps quality pitching look cleaner than outdoors. This under is thin, but still playable on controlled conditions and expected contact suppression.",
-'Texas Rangers vs Athletics — UNDER 8.55': "Sutter Health Park under lights plays closer to neutral, and tonight’s 64.8° air should keep carry in check despite a mild breeze out. With both clubs capable of empty innings when chase rates rise, this total can stay below nine without requiring dominance. The under path is fewer free baserunners and limited multi-run swings."
-}
+# Park dimensions (approximate wall marks used for narrative context)
+park_dims = {
+    'PNC Park': '325-399-320',
+    'Truist Park': '335-400-325',
+    'Comerica Park': '345-412-330',
+    'Oriole Park at Camden Yards': '333-400-318',
+    'Busch Stadium': '336-400-335',
+    'Rate Field': '330-400-335',
+    'Petco Park': '334-396-322',
+    'Yankee Stadium': '318-399-314',
+    'UNIQLO Field at Dodger Stadium': '330-395-330',
+    'American Family Field': '344-400-345',
+    'Target Field': '339-403-328',
+    'Great American Ball Park': '328-404-325',
+    'Citizens Bank Park': '329-401-330',
+    'Sutter Health Park': '330-403-325',
 }
 
-for file_name, file_updates in updates.items():
-    path = base / file_name
-    text = path.read_text()
-    for h2, new_lede in file_updates.items():
-        pattern = rf'(<h2>{re.escape(h2)}</h2>.*?<p class="lede">)(.*?)(</p>)'
-        replacement = lambda m: m.group(1) + html.escape(new_lede, quote=False) + m.group(3)
-        text, count = re.subn(pattern, replacement, text, flags=re.S)
-        if count != 1:
-            raise RuntimeError(f'Could not update {file_name} :: {h2} (count={count})')
-    path.write_text(text)
+voices = [
+    ('lyric', 'The evening feels made for patient offense'),
+    ('notebook', 'If you work this game from first pitch through the seventh, the shape is clear'),
+    ('column', 'Call this the practical side of the card'),
+    ('nostalgic', 'There are nights when baseball still reads like an old scorebook'),
+    ('street', 'Here’s the straight talk on this matchup'),
+    ('analytic', 'Strip away the noise and this is a run-environment decision'),
+]
 
-print('done')
+article_pat = re.compile(r'(<article class="pick-card">.*?</article>)', re.S)
+
+
+def normalize_space(s: str) -> str:
+    return re.sub(r'\s+', ' ', s).strip()
+
+
+def get_weather(art: str) -> str:
+    m = re.search(r'<li><strong>Weather:</strong>\s*(.*?)</li>', art, re.S)
+    return normalize_space(m.group(1)) if m else 'weather context neutral'
+
+
+def get_line(art: str, label: str) -> str:
+    m = re.search(fr'<li><strong>{re.escape(label)}</strong>\s*(.*?)</li>', art, re.S)
+    return normalize_space(m.group(1)) if m else ''
+
+
+def team_key_from_h2(h2: str) -> str:
+    txt = normalize_space(h2)
+    if ' — ' in txt:
+        left = txt.split(' — ')[0]
+        if ' vs ' in left:
+            a, b = [x.strip() for x in left.split(' vs ', 1)]
+            return ' vs '.join(sorted([a, b]))
+    if ' over ' in txt:
+        a, b = [x.strip() for x in txt.split(' over ', 1)]
+        return ' vs '.join(sorted([a, b]))
+    return txt
+
+
+def build_injury_map(daily_text: str):
+    inj_map = {}
+    for art in article_pat.findall(daily_text):
+        h2 = re.search(r'<h2>(.*?)</h2>', art, re.S)
+        if not h2:
+            continue
+        matchup = normalize_space(h2.group(1))
+        m = re.match(r'(.+?) over (.+)', matchup)
+        if not m:
+            continue
+        t1, t2 = m.group(1).strip(), m.group(2).strip()
+        key = ' vs '.join(sorted([t1, t2]))
+
+        inj_lines = re.findall(r'<li><strong>([^<]+) Injuries:</strong>\s*(.*?)</li>', art, re.S)
+        parts = []
+        for team, plist in inj_lines[:2]:
+            names = [x.strip() for x in plist.split(',')[:2]]
+            names = [re.sub(r'\s*\(.*?\)', '', n).strip() for n in names if n.strip()]
+            if names:
+                parts.append(f"{team}: {', '.join(names)} listed active")
+
+        lineup = ''
+        lm = re.search(r'<li><strong>Starting Lineups:</strong>\s*(.*?)</li>', art, re.S)
+        if lm:
+            lineup = normalize_space(lm.group(1))
+
+        inj_map[key] = ('; '.join(parts), lineup)
+    return inj_map
+
+
+def make_side_lede(ctx, voice_idx, underdog=False):
+    voice, opener = voices[voice_idx % len(voices)]
+    pick = ctx['h2']
+    odds = ctx.get('odds', '')
+    pitch = ctx.get('pitching', '')
+    venue = ctx.get('venue', '')
+    dims = park_dims.get(venue, 'varied alley depths')
+    weather = ctx.get('weather', '')
+    lineups = ctx.get('lineups', '')
+    lm = ctx.get('line_move', '')
+    inj = ctx.get('inj', '')
+
+    bet_tone = 'at plus money' if underdog or odds.startswith('+') else 'as the favorite'
+    if voice == 'lyric':
+        return f"{opener}: {pick} {bet_tone} ({odds}). At {venue}, with fences roughly {dims}, this park asks for clean contact in the alleys and steady command late. {pitch} gives this side the calmer path through six innings, and {weather} points to a ball that should carry without turning chaotic. {inj if inj else 'The injury sheet is mostly maintenance names, not game-changing absences.'} {lineups} {lm}"
+    if voice == 'notebook':
+        return f"{opener}. The play is {pick} at {odds}. The matchup sits in {venue} ({dims}), where extra-base lanes matter more than raw homer distance, and that favors the team with the steadier starter pairing tonight ({pitch}). Weather reads {weather}, useful for hard line drives but not the kind of wind that flips a handicap. Injury report note: {inj if inj else 'both clubs arrive without a major late downgrade.'} {lineups} {lm}"
+    if voice == 'column':
+        return f"{opener}: {pick} at {odds}. This is a nine-inning depth call, not a one-inning gamble. {venue} plays to {dims}, and in these dimensions the side with cleaner strike throwing and fewer free baserunners usually dictates tempo; {pitch} tilts that way. With {weather}, run creation should come in waves, not avalanches, and that helps the better-structured roster. {inj if inj else 'Pre-game injury notes read stable.'} {lineups} {lm}"
+    if voice == 'nostalgic':
+        return f"{opener}, and this one points to {pick} at {odds}. In {venue}, the walls at {dims} reward teams that can move runners station to station before the big swing arrives. {pitch} suggests that rhythm leans to the picked side, especially if the starter gets ahead early. The weather ({weather}) should keep the game quick and honest. {inj if inj else 'No major injury cloud is hanging over first pitch.'} {lineups} {lm}"
+    if voice == 'street':
+        return f"{opener}: {pick} at {odds}. {venue} ({dims}) can punish sloppy sequencing, and this side is built to avoid the crooked-inning mistake. {pitch} gives them the better chance to hand a lead to the right bullpen pockets, while {weather} is favorable enough for offense but not a total coin flip. Injury board check: {inj if inj else 'nothing here screams emergency scratch.'} {lineups} {lm}"
+    return f"{opener}. Recommendation: {pick} at {odds}. In a park shaped {dims} at {venue}, the best edge is controlling contact quality and baserunner traffic; {pitch} favors that profile. Weather is {weather}, which raises carry slightly but still keeps run expectancy in a manageable band. The injury/availability read is stable ({inj if inj else 'no high-impact losses reported'}), and lineup status supports a normal game script. {lm}"
+
+
+def make_total_lede(ctx, voice_idx, inj_map):
+    voice, opener = voices[voice_idx % len(voices)]
+    h2 = ctx['h2']
+    lean = ctx.get('lean', '')
+    odds = ctx.get('odds', '')
+    venue = ctx.get('venue', '')
+    dims = park_dims.get(venue, 'varied alley depths')
+    weather = ctx.get('weather', '')
+    tm = ctx.get('total_move', '')
+    key = team_key_from_h2(h2)
+    inj, lineups = inj_map.get(key, ('', ''))
+
+    over = 'OVER' in lean
+    side_word = 'carry and gap power' if over else 'suppressed damage and strand rate'
+
+    if voice == 'lyric':
+        return f"{opener}, and the total read is {lean} ({odds}) for {h2}. {venue} sits at roughly {dims}, a shape that decides whether fly balls die on the track or find grass in the alleys; tonight the expected conditions ({weather}) point toward {side_word}. {inj if inj else 'Availability is mostly clean on both rosters.'} {lineups} {tm}"
+    if voice == 'notebook':
+        return f"{opener}: {lean} at {odds} in {h2}. Ballpark geometry at {venue} ({dims}) plus {weather} gives a workable script for {('run volume' if over else 'run suppression')} rather than randomness. The relevant question is traffic, not fireworks, and this setup supports the posted lean. Injury/status check: {inj if inj else 'no disruptive late injury downgrade flagged.'} {lineups} {tm}"
+    if voice == 'column':
+        return f"{opener} on totals: {lean} at {odds} for {h2}. These dimensions ({dims}) in {venue} reward teams that execute their first two pitches of each plate appearance; that usually means {('more barrels over nine innings' if over else 'fewer clean scoring windows')}. With {weather}, the environment supports this number. {inj if inj else 'Roster health looks steady pregame.'} {lineups} {tm}"
+    if voice == 'nostalgic':
+        return f"{opener}, and the number to play is {lean} at {odds} in {h2}. {venue} has old-school proportions ({dims}), where the ballgame is often decided by doubles into space and bullpen command after sunset. Add {weather} and you get a profile that fits {lean.lower()}. {inj if inj else 'No major injury surprise at lineup lock.'} {lineups} {tm}"
+    if voice == 'street':
+        return f"{opener}: {lean} at {odds} for {h2}. In {venue} ({dims}), this total is about who avoids the one bad inning. Weather is {weather}, and that nudges the game toward {('extra-base traffic and late scoring' if over else 'quieter middle innings')}. Injury board says {inj if inj else 'both sides are close to expected availability'}. {lineups} {tm}"
+    return f"{opener}. Total recommendation: {lean} at {odds} in {h2}. Given {venue} dimensions ({dims}) and {weather}, modeled run distribution clusters around this side of the number, especially once bullpen leverage innings begin. Availability context ({inj if inj else 'no key absences'}) and lineup timing support a standard scoring path rather than an outlier game state. {tm}"
+
+
+def rewrite_file(path: Path, filetype: str, start_idx: int, inj_map):
+    txt = path.read_text()
+    arts = article_pat.findall(txt)
+    out = txt
+
+    for i, art in enumerate(arts):
+        h2 = normalize_space(re.search(r'<h2>(.*?)</h2>', art, re.S).group(1))
+        venue = normalize_space(re.search(r'<div><span>Venue</span><strong>(.*?)</strong></div>', art, re.S).group(1))
+
+        oddsm = re.search(r'<div><span>Odds</span><strong>(.*?)</strong></div>', art, re.S)
+        odds = normalize_space(oddsm.group(1)) if oddsm else ''
+
+        weather = get_weather(art)
+        key = team_key_from_h2(h2)
+        inj, lineups = inj_map.get(key, ('', ''))
+
+        lm = get_line(art, 'Line Movement:')
+        tm = get_line(art, 'Total Movement:')
+
+        if not lineups:
+            lineups = get_line(art, 'Starting Lineups:')
+
+        pitchm = re.search(r'<div><span>Pitching</span><strong>(.*?)</strong></div>', art, re.S)
+        pitching = normalize_space(pitchm.group(1)) if pitchm else ''
+
+        leanm = re.search(r'<div><span>Lean</span><strong>(.*?)</strong></div>', art, re.S)
+        lean = normalize_space(leanm.group(1)) if leanm else ''
+
+        ctx = dict(
+            h2=h2,
+            venue=venue,
+            odds=odds,
+            weather=weather,
+            inj=inj,
+            lineups=lineups,
+            line_move=lm,
+            total_move=tm,
+            pitching=pitching,
+            lean=lean,
+        )
+
+        if filetype == 'totals':
+            new_lede = make_total_lede(ctx, start_idx + i, inj_map)
+        else:
+            new_lede = make_side_lede(ctx, start_idx + i, underdog=(filetype == 'plus'))
+
+        new_lede = normalize_space(new_lede)
+
+        oldp = re.search(r'<p class="lede">.*?</p>', art, re.S).group(0)
+        newp = f'<p class="lede">{new_lede}</p>'
+        newart = art.replace(oldp, newp)
+        out = out.replace(art, newart, 1)
+
+    path.write_text(out)
+
+
+def main():
+    daily = (base / '2026-04-14.html').read_text()
+    inj_map = build_injury_map(daily)
+
+    rewrite_file(base / '2026-04-14.html', 'daily', 0, inj_map)
+    rewrite_file(base / '2026-04-14-plus-money.html', 'plus', 2, inj_map)
+    rewrite_file(base / '2026-04-14-run-totals.html', 'totals', 4, inj_map)
+
+    print('rewritten')
+
+
+if __name__ == '__main__':
+    main()
