@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Mets",
-      "loser": "Chicago Cubs",
+      "winner": "New York Yankees",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 8.17,
-      "confidence": 0.639,
-      "odds": -108,
+      "line": 8.5,
+      "confidence": 0.776,
+      "odds": -100,
       "result": "PENDING",
       "profit": 0.0
     }
