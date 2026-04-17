@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Minnesota Twins",
-      "loser": "Cincinnati Reds",
+      "winner": "New York Mets",
+      "loser": "Chicago Cubs",
       "pick": "OVER",
-      "line": 7.9,
-      "confidence": 0.771,
-      "odds": -104,
+      "line": 8.17,
+      "confidence": 0.638,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
