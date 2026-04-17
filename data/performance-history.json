@@ -2,11 +2,11 @@
   {
     "date": "2026-04-16",
     "total_picks": 10,
-    "decided": 7,
-    "wins": 4,
+    "decided": 8,
+    "wins": 5,
     "losses": 3,
-    "pending": 3,
-    "win_rate": 57.1,
+    "pending": 2,
+    "win_rate": 62.5,
     "plus_money_total": 3,
     "plus_money_decided": 1,
     "plus_money_wins": 1,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 10,
-        "decided": 7,
-        "wins": 4,
+        "decided": 8,
+        "wins": 5,
         "losses": 3,
-        "profit": 58.93,
-        "roi_pct": 8.42,
+        "profit": 134.69,
+        "roi_pct": 16.84,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -51,13 +51,32 @@
       },
       "run_total_picks": {
         "total": 10,
-        "decided": 7,
+        "decided": 8,
         "wins": 4,
-        "losses": 3,
-        "profit": 63.11,
-        "roi_pct": 9.02,
+        "losses": 4,
+        "profit": -36.89,
+        "roi_pct": -4.61,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 89.29,
+        "roi_pct": 89.29,
         "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "New York Yankees",
+      "loser": "Los Angeles Angels",
+      "pick": "OVER",
+      "line": 9.77,
+      "confidence": 1.065,
+      "odds": -112,
+      "result": "WIN",
+      "profit": 89.29
     }
   },
   {
@@ -118,7 +137,26 @@
         "profit": 143.98,
         "roi_pct": 10.28,
         "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 91.74,
+        "roi_pct": 91.74,
+        "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "Philadelphia Phillies",
+      "loser": "Chicago Cubs",
+      "pick": "OVER",
+      "line": 8.95,
+      "confidence": 0.843,
+      "odds": -109,
+      "result": "WIN",
+      "profit": 91.74
     }
   },
   {
@@ -176,10 +214,29 @@
         "decided": 15,
         "wins": 6,
         "losses": 9,
-        "profit": -353.94,
-        "roi_pct": -23.6,
+        "profit": -352.23,
+        "roi_pct": -23.48,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 90.91,
+        "roi_pct": 90.91,
         "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "Philadelphia Phillies",
+      "loser": "Chicago Cubs",
+      "pick": "OVER",
+      "line": 8.65,
+      "confidence": 0.794,
+      "odds": -110,
+      "result": "WIN",
+      "profit": 90.91
     }
   },
   {
@@ -240,7 +297,26 @@
         "profit": 703.01,
         "roi_pct": 70.3,
         "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 95.24,
+        "roi_pct": 95.24,
+        "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "Philadelphia Phillies",
+      "loser": "Chicago Cubs",
+      "pick": "OVER",
+      "line": 9.5,
+      "confidence": 0.788,
+      "odds": -105,
+      "result": "WIN",
+      "profit": 95.24
     }
   },
   {
@@ -301,7 +377,26 @@
         "profit": 21.5,
         "roi_pct": 1.43,
         "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "Kansas City Royals",
+      "loser": "Chicago White Sox",
+      "pick": "UNDER",
+      "line": 8.68,
+      "confidence": 0.738,
+      "odds": -107,
+      "result": "LOSS",
+      "profit": -100.0
     }
   },
   {
@@ -357,12 +452,31 @@
       "run_total_picks": {
         "total": 15,
         "decided": 15,
-        "wins": 11,
-        "losses": 4,
-        "profit": 600.7,
-        "roi_pct": 40.05,
+        "wins": 7,
+        "losses": 8,
+        "profit": -151.09,
+        "roi_pct": -10.07,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 96.15,
+        "roi_pct": 96.15,
         "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "New York Mets",
+      "loser": "Athletics",
+      "pick": "OVER",
+      "line": 8.0,
+      "confidence": 0.504,
+      "odds": -104,
+      "result": "WIN",
+      "profit": 96.15
     }
   },
   {
@@ -420,10 +534,29 @@
         "decided": 15,
         "wins": 10,
         "losses": 5,
-        "profit": 569.23,
-        "roi_pct": 379.49,
+        "profit": 5670.6,
+        "roi_pct": 378.04,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 89.29,
+        "roi_pct": 89.29,
         "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "Philadelphia Phillies",
+      "loser": "Arizona Diamondbacks",
+      "pick": "OVER",
+      "line": 8.5,
+      "confidence": 0.621,
+      "odds": -112,
+      "result": "WIN",
+      "profit": 89.29
     }
   },
   {
@@ -479,12 +612,31 @@
       "run_total_picks": {
         "total": 2,
         "decided": 2,
-        "wins": 1,
+        "wins": 0,
+        "losses": 2,
+        "profit": -200.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
         "losses": 1,
-        "profit": 49.25,
-        "roi_pct": 24.62,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "Kansas City Royals",
+      "loser": "Chicago White Sox",
+      "pick": "OVER",
+      "line": 8.22,
+      "confidence": 0.624,
+      "odds": -18,
+      "result": "LOSS",
+      "profit": -100.0
     }
   },
   {
@@ -540,12 +692,31 @@
       "run_total_picks": {
         "total": 5,
         "decided": 5,
-        "wins": 4,
-        "losses": 1,
-        "profit": 440.69,
-        "roi_pct": 88.14,
+        "wins": 2,
+        "losses": 3,
+        "profit": 38.24,
+        "roi_pct": 7.65,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 243.9,
+        "roi_pct": 243.9,
         "stake_per_pick": 100.0
       }
+    },
+    "top_run_total_pick": {
+      "winner": "Detroit Tigers",
+      "loser": "Minnesota Twins",
+      "pick": "OVER",
+      "line": 8.17,
+      "confidence": 0.427,
+      "odds": -41,
+      "result": "WIN",
+      "profit": 243.9
     }
   },
   {
