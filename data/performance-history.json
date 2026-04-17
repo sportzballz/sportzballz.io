@@ -54,8 +54,8 @@
         "decided": 1,
         "wins": 1,
         "losses": 0,
-        "profit": 94.34,
-        "roi_pct": 94.34,
+        "profit": 95.24,
+        "roi_pct": 95.24,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -72,9 +72,9 @@
       "winner": "New York Yankees",
       "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 8.36,
+      "line": 8.38,
       "confidence": 0.776,
-      "odds": 101,
+      "odds": 100,
       "result": "PENDING",
       "profit": 0.0
     }
