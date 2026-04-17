@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Arizona Diamondbacks",
-      "loser": "Toronto Blue Jays",
+      "winner": "Minnesota Twins",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.64,
-      "confidence": 0.652,
-      "odds": -114,
+      "line": 8.0,
+      "confidence": 0.771,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     }
