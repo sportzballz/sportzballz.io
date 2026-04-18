@@ -72,9 +72,9 @@
       "winner": "Minnesota Twins",
       "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.0,
+      "line": 8.05,
       "confidence": 0.863,
-      "odds": -116,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     }
