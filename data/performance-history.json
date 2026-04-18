@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Colorado Rockies",
+      "winner": "Washington Nationals",
+      "loser": "San Francisco Giants",
       "pick": "OVER",
-      "line": 11.27,
-      "confidence": 0.851,
-      "odds": -112,
+      "line": 9.5,
+      "confidence": 0.619,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
