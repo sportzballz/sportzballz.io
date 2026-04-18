@@ -69,11 +69,11 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Washington Nationals",
-      "loser": "San Francisco Giants",
+      "winner": "Minnesota Twins",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.619,
+      "line": 8.0,
+      "confidence": 0.712,
       "odds": -114,
       "result": "PENDING",
       "profit": 0.0
