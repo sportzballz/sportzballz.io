@@ -2,11 +2,11 @@
   {
     "date": "2026-04-18",
     "total_picks": 15,
-    "decided": 13,
+    "decided": 14,
     "wins": 8,
-    "losses": 5,
-    "pending": 2,
-    "win_rate": 61.5,
+    "losses": 6,
+    "pending": 1,
+    "win_rate": 57.1,
     "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 1,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 13,
+        "decided": 14,
         "wins": 8,
-        "losses": 5,
-        "profit": 123.58,
-        "roi_pct": 9.51,
+        "losses": 6,
+        "profit": 23.58,
+        "roi_pct": 1.68,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -33,11 +33,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 2,
+        "decided": 3,
         "wins": 1,
-        "losses": 1,
-        "profit": -38.65,
-        "roi_pct": -19.32,
+        "losses": 2,
+        "profit": -138.65,
+        "roi_pct": -46.22,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 12,
+        "decided": 13,
         "wins": 8,
-        "losses": 4,
-        "profit": 318.22,
-        "roi_pct": 26.52,
+        "losses": 5,
+        "profit": 219.12,
+        "roi_pct": 16.86,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -73,7 +73,7 @@
       "loser": "Cincinnati Reds",
       "pick": "OVER",
       "line": 8.0,
-      "confidence": 0.862,
+      "confidence": 0.863,
       "odds": -111,
       "result": "WIN",
       "profit": 90.09
