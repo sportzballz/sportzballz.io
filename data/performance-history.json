@@ -2,24 +2,24 @@
   {
     "date": "2026-04-18",
     "total_picks": 15,
-    "decided": 8,
-    "wins": 5,
-    "losses": 3,
-    "pending": 7,
-    "win_rate": 62.5,
+    "decided": 13,
+    "wins": 8,
+    "losses": 5,
+    "pending": 2,
+    "win_rate": 61.5,
     "plus_money_total": 1,
-    "plus_money_decided": 0,
-    "plus_money_wins": 0,
+    "plus_money_decided": 1,
+    "plus_money_wins": 1,
     "plus_money_losses": 0,
-    "plus_money_win_rate": null,
+    "plus_money_win_rate": 100.0,
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 8,
-        "wins": 5,
-        "losses": 3,
-        "profit": 57.42,
-        "roi_pct": 7.18,
+        "decided": 13,
+        "wins": 8,
+        "losses": 5,
+        "profit": 123.58,
+        "roi_pct": 9.51,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -42,20 +42,20 @@
       },
       "plus_money_picks": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 128.0,
+        "roi_pct": 128.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 8,
-        "wins": 5,
-        "losses": 3,
-        "profit": 152.32,
-        "roi_pct": 19.04,
+        "decided": 12,
+        "wins": 8,
+        "losses": 4,
+        "profit": 318.22,
+        "roi_pct": 26.52,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -63,8 +63,8 @@
         "decided": 1,
         "wins": 1,
         "losses": 0,
-        "profit": 90.91,
-        "roi_pct": 90.91,
+        "profit": 90.09,
+        "roi_pct": 90.09,
         "stake_per_pick": 100.0
       }
     },
@@ -73,10 +73,10 @@
       "loser": "Cincinnati Reds",
       "pick": "OVER",
       "line": 8.0,
-      "confidence": 0.863,
-      "odds": -110,
+      "confidence": 0.862,
+      "odds": -111,
       "result": "WIN",
-      "profit": 90.91
+      "profit": 90.09
     }
   },
   {
