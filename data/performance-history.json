@@ -1,12 +1,92 @@
 [
   {
+    "date": "2026-04-19",
+    "total_picks": 15,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 15,
+    "win_rate": null,
+    "plus_money_total": 2,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 15,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 2,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 15,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "New York Yankees",
+      "loser": "Kansas City Royals",
+      "pick": "OVER",
+      "line": 7.77,
+      "confidence": 0.764,
+      "odds": -105,
+      "result": "PENDING",
+      "profit": 0.0
+    }
+  },
+  {
     "date": "2026-04-18",
     "total_picks": 15,
-    "decided": 14,
-    "wins": 8,
+    "decided": 15,
+    "wins": 9,
     "losses": 6,
-    "pending": 1,
-    "win_rate": 57.1,
+    "pending": 0,
+    "win_rate": 60.0,
     "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 1,
@@ -15,11 +95,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 14,
-        "wins": 8,
+        "decided": 15,
+        "wins": 9,
         "losses": 6,
-        "profit": 23.58,
-        "roi_pct": 1.68,
+        "profit": 112.08,
+        "roi_pct": 7.47,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -51,11 +131,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 13,
+        "decided": 14,
         "wins": 8,
-        "losses": 5,
-        "profit": 219.12,
-        "roi_pct": 16.86,
+        "losses": 6,
+        "profit": 119.12,
+        "roi_pct": 8.51,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
