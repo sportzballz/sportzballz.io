@@ -72,9 +72,9 @@
       "winner": "Athletics",
       "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.854,
-      "odds": -101,
+      "line": 9.41,
+      "confidence": 0.852,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     }
