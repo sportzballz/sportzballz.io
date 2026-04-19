@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Minnesota Twins",
-      "loser": "Cincinnati Reds",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.05,
-      "confidence": 0.759,
-      "odds": -116,
+      "line": 11.5,
+      "confidence": 0.77,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     }
