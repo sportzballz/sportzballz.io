@@ -69,11 +69,11 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Colorado Rockies",
+      "winner": "Athletics",
+      "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 11.5,
-      "confidence": 0.77,
+      "line": 9.36,
+      "confidence": 0.854,
       "odds": -106,
       "result": "PENDING",
       "profit": 0.0
