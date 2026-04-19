@@ -54,8 +54,8 @@
         "decided": 8,
         "wins": 5,
         "losses": 3,
-        "profit": 160.54,
-        "roi_pct": 20.07,
+        "profit": 152.32,
+        "roi_pct": 19.04,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -63,8 +63,8 @@
         "decided": 1,
         "wins": 1,
         "losses": 0,
-        "profit": 90.09,
-        "roi_pct": 90.09,
+        "profit": 90.91,
+        "roi_pct": 90.91,
         "stake_per_pick": 100.0
       }
     },
@@ -74,9 +74,9 @@
       "pick": "OVER",
       "line": 8.0,
       "confidence": 0.863,
-      "odds": -111,
+      "odds": -110,
       "result": "WIN",
-      "profit": 90.09
+      "profit": 90.91
     }
   },
   {
