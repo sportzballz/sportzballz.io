@@ -2,11 +2,11 @@
   {
     "date": "2026-04-19",
     "total_picks": 15,
-    "decided": 7,
-    "wins": 1,
-    "losses": 6,
-    "pending": 8,
-    "win_rate": 14.3,
+    "decided": 11,
+    "wins": 4,
+    "losses": 7,
+    "pending": 4,
+    "win_rate": 36.4,
     "plus_money_total": 3,
     "plus_money_decided": 2,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 7,
-        "wins": 1,
-        "losses": 6,
-        "profit": -505.66,
-        "roi_pct": -72.24,
+        "decided": 11,
+        "wins": 4,
+        "losses": 7,
+        "profit": -381.72,
+        "roi_pct": -34.7,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -33,11 +33,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
-        "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "decided": 2,
+        "wins": 1,
+        "losses": 1,
+        "profit": -34.21,
+        "roi_pct": -17.11,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 7,
-        "wins": 4,
-        "losses": 3,
-        "profit": 56.58,
-        "roi_pct": 8.08,
+        "decided": 11,
+        "wins": 6,
+        "losses": 5,
+        "profit": 41.83,
+        "roi_pct": 3.8,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -72,9 +72,9 @@
       "winner": "Athletics",
       "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 12.31,
-      "confidence": 0.833,
-      "odds": -107,
+      "line": 11.5,
+      "confidence": 0.683,
+      "odds": 245,
       "result": "PENDING",
       "profit": 0.0
     }
