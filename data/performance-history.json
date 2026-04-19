@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Kansas City Royals",
+      "winner": "Minnesota Twins",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 7.86,
-      "confidence": 0.914,
-      "odds": -112,
+      "line": 8.05,
+      "confidence": 0.759,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     }
