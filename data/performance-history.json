@@ -52,10 +52,10 @@
       "run_total_picks": {
         "total": 15,
         "decided": 7,
-        "wins": 3,
-        "losses": 4,
-        "profit": -131.14,
-        "roi_pct": -18.73,
+        "wins": 4,
+        "losses": 3,
+        "profit": 56.58,
+        "roi_pct": 8.08,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -72,9 +72,9 @@
       "winner": "Athletics",
       "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 12.12,
-      "confidence": 0.844,
-      "odds": -110,
+      "line": 12.31,
+      "confidence": 0.833,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
