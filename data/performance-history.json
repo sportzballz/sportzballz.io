@@ -54,8 +54,8 @@
         "decided": 7,
         "wins": 5,
         "losses": 2,
-        "profit": 264.85,
-        "roi_pct": 37.84,
+        "profit": 263.04,
+        "roi_pct": 37.58,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -73,7 +73,7 @@
       "loser": "Cincinnati Reds",
       "pick": "OVER",
       "line": 8.0,
-      "confidence": 0.862,
+      "confidence": 0.863,
       "odds": -110,
       "result": "WIN",
       "profit": 90.91
