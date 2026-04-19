@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -74,7 +74,7 @@
       "pick": "OVER",
       "line": 9.36,
       "confidence": 0.854,
-      "odds": -106,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
