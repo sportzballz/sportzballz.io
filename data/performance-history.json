@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "Baltimore Orioles",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.559,
-      "odds": -116,
+      "line": 11.86,
+      "confidence": 0.53,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
