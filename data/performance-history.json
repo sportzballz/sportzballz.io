@@ -7,7 +7,7 @@
     "losses": 1,
     "pending": 9,
     "win_rate": 0.0,
-    "plus_money_total": 3,
+    "plus_money_total": 2,
     "plus_money_decided": 1,
     "plus_money_wins": 0,
     "plus_money_losses": 1,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 3,
+        "total": 2,
         "decided": 1,
         "wins": 0,
         "losses": 1,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "Washington Nationals",
+      "winner": "Kansas City Royals",
+      "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.751,
-      "odds": -110,
+      "line": 9.0,
+      "confidence": 0.559,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     }
