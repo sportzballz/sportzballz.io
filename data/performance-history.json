@@ -72,9 +72,9 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 11.45,
-      "confidence": 0.835,
-      "odds": -106,
+      "line": 11.5,
+      "confidence": 0.984,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     }
