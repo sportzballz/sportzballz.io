@@ -2,24 +2,24 @@
   {
     "date": "2026-04-20",
     "total_picks": 10,
-    "decided": 0,
+    "decided": 1,
     "wins": 0,
-    "losses": 0,
-    "pending": 10,
-    "win_rate": null,
+    "losses": 1,
+    "pending": 9,
+    "win_rate": 0.0,
     "plus_money_total": 4,
-    "plus_money_decided": 0,
+    "plus_money_decided": 1,
     "plus_money_wins": 0,
-    "plus_money_losses": 0,
-    "plus_money_win_rate": null,
+    "plus_money_losses": 1,
+    "plus_money_win_rate": 0.0,
     "segments": {
       "all_picks": {
         "total": 10,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -42,41 +42,41 @@
       },
       "plus_money_picks": {
         "total": 4,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 10,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 91.74,
+        "roi_pct": 91.74,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 91.74,
+        "roi_pct": 91.74,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Colorado Rockies",
+      "winner": "Detroit Tigers",
+      "loser": "Boston Red Sox",
       "pick": "OVER",
-      "line": 11.5,
-      "confidence": 0.835,
-      "odds": -110,
-      "result": "PENDING",
-      "profit": 0.0
+      "line": 8.0,
+      "confidence": 0.853,
+      "odds": -109,
+      "result": "WIN",
+      "profit": 91.74
     }
   },
   {
