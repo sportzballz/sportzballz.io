@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 13,
+        "decided": 12,
         "wins": 7,
-        "losses": 6,
-        "profit": 39.96,
-        "roi_pct": 3.07,
+        "losses": 5,
+        "profit": 139.96,
+        "roi_pct": 11.66,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
