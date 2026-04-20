@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-04-20",
-    "total_picks": 9,
+    "total_picks": 10,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 9,
+    "pending": 10,
     "win_rate": null,
     "plus_money_total": 4,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 9,
+        "total": 10,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 9,
+        "total": 10,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -73,7 +73,7 @@
       "loser": "Colorado Rockies",
       "pick": "OVER",
       "line": 11.5,
-      "confidence": 0.984,
+      "confidence": 0.835,
       "odds": -110,
       "result": "PENDING",
       "profit": 0.0
