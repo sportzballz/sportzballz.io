@@ -60,23 +60,23 @@
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 1,
-        "wins": 1,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 91.74,
-        "roi_pct": 91.74,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "Detroit Tigers",
-      "loser": "Boston Red Sox",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.0,
-      "confidence": 0.853,
-      "odds": -109,
-      "result": "WIN",
-      "profit": 91.74
+      "line": 11.5,
+      "confidence": 0.835,
+      "odds": -112,
+      "result": "PENDING",
+      "profit": 0.0
     }
   },
   {
