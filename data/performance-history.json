@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "Baltimore Orioles",
+      "winner": "Atlanta Braves",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 9.3,
-      "confidence": 0.856,
-      "odds": -105,
+      "line": 9.0,
+      "confidence": 0.869,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
