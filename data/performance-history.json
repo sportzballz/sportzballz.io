@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cleveland Guardians",
-      "loser": "Houston Astros",
+      "winner": "Kansas City Royals",
+      "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 8.25,
-      "confidence": 0.979,
-      "odds": 101,
+      "line": 9.3,
+      "confidence": 0.856,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     }
