@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-04-21",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 1,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -72,9 +72,9 @@
       "winner": "Cleveland Guardians",
       "loser": "Houston Astros",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.679,
-      "odds": -120,
+      "line": 8.25,
+      "confidence": 0.979,
+      "odds": 101,
       "result": "PENDING",
       "profit": 0.0
     }
