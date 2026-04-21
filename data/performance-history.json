@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Colorado Rockies",
+      "winner": "Los Angeles Angels",
+      "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 11.86,
-      "confidence": 0.53,
-      "odds": -108,
+      "line": 9.5,
+      "confidence": 0.343,
+      "odds": -102,
       "result": "PENDING",
       "profit": 0.0
     }
