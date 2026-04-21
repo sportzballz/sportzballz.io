@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cleveland Guardians",
-      "loser": "Houston Astros",
+      "winner": "Atlanta Braves",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 8.0,
-      "confidence": 0.935,
-      "odds": -107,
+      "line": 9.0,
+      "confidence": 0.872,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
