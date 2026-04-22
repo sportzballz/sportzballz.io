@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9A%BE%3C/text%3E%3C/svg%3E" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <title>SportzBallz | Run Total Picks</title>
+  <meta name="description" content="SportzBallz MLB run total picks for 2026-04-22." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://sportzballz.io/2026-04-22-run-totals-polished.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SportzBallz" />
+  <meta property="og:title" content="SportzBallz Run Total Picks — 2026-04-22" />
+  <meta property="og:description" content="MLB totals leans built from confidence, pricing, weather and movement context." />
+  <meta property="og:url" content="https://sportzballz.io/2026-04-22-run-totals-polished.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <style>
+    :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#f59e0b; --accent2:#5cc9ff; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%);color:var(--ink);line-height:1.65}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+    header{background:linear-gradient(135deg, rgba(245,158,11,.20), rgba(92,201,255,.10));border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px}
+    .kicker{font:600 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+    h1{margin:8px 0 10px;font-size:clamp(30px,5vw,46px);line-height:1.05}
+    .sub{color:var(--muted);font-family:Inter,system-ui,sans-serif;font-size:14px}
+    .header-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+    .reload-btn{display:inline-block;border:1px solid #4c6db0;background:#10203b;color:#dff2ff;border-radius:10px;padding:8px 12px;font:600 12px Inter,system-ui,sans-serif;cursor:pointer;text-decoration:none}
+    .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:0 0 14px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .ad-label{font:700 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9cc4ff}
+    .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
+    .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
+    .pick-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 8px 22px rgba(2,8,24,.32)}
+    .pick-head h2{margin:4px 0 8px;font-size:27px;line-height:1.15}
+    .seo-line{font:600 12px/1.3 Inter,system-ui,sans-serif;color:#a9c6ff;letter-spacing:.02em;margin-top:2px}
+    .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .res{display:inline-flex;align-items:center;justify-content:center;padding:5px 9px;border-radius:999px;border:1px solid #35518f;font:700 11px/1 Inter,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#dce8ff;background:rgba(255,255,255,.04)}
+    .res-win{color:#7CFFB3;border-color:#2f8f57;background:rgba(52,211,153,.12)}
+    .res-loss{color:#ff9ca0;border-color:#a13d47;background:rgba(239,68,68,.14)}
+    .res-push{color:#fde68a;border-color:#d4a11d;background:rgba(212,161,29,.18)}
+    .res-pending{color:#cfe1ff;border-color:#3c5c97;background:rgba(59,130,246,.12)}
+    .res-inprogress{color:#fde68a;border-color:#f59e0b;background:rgba(245,158,11,.18)}
+    .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
+    .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 12px;padding:10px 0 2px}
+    .meta-grid div{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
+    .meta-grid span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+    .meta-grid strong{font:600 15px/1.35 Inter,system-ui,sans-serif;color:#dce8ff}
+    .lede{font-size:18px;line-height:1.55;margin:12px 0 8px;color:#f2f6ff}
+    details{margin-top:8px;border-top:1px solid #264377;padding-top:8px}
+    summary{cursor:pointer;font:600 14px Inter,system-ui,sans-serif;color:#fbbf24}
+    ul{margin:10px 0 0 18px;padding:0}
+    li{margin:6px 0}
+    
+    .nav-toolbar { margin:14px 0 18px; display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:10px; align-items:start; }
+    .toolbar-group { border:1px solid #2d446f; border-radius:12px; padding:10px; background:#0f1a30; min-height:56px; display:flex; flex-direction:column; justify-content:flex-start; }
+    .toolbar-group summary { cursor:pointer; color:#e6efff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; list-style:none; text-align:center; border:1px solid #375486; border-radius:10px; padding:10px 12px; background:#132241; }
+    .toolbar-group summary::-webkit-details-marker { display:none; }
+    .toolbar-group[open] summary { margin-bottom:8px; }
+    .toolbar-group summary a { color:#e6efff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; }
+    .nav-toolbar > .toolbar-group > summary { min-height:44px; display:flex; align-items:center; justify-content:center; }
+    .nav-toolbar > .toolbar-direct-link { min-height:44px; display:flex; align-items:center; justify-content:center; color:#e6efff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; border:1px solid #375486; border-radius:10px; padding:10px 12px; background:#132241; }
+    .nav-toolbar > .toolbar-direct-link:hover { border-color:var(--accent, #63d2ff); }
+    .toolbar-links { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+    .toolbar-links a { color:#e7f0ff; text-decoration:none; border:1px solid #355184; border-radius:8px; padding:8px 10px; font-size:13px; background:#12203d; }
+    .toolbar-links a:hover { border-color:var(--accent, #63d2ff); }
+    .archive-group { border:1px solid #2d446f; border-radius:10px; padding:10px 12px; background:#101c34; margin-bottom:10px; }
+    .archive-group summary { cursor:pointer; font-weight:700; color:#dfeeff; }
+    .archive-links { margin-top:10px; display:grid; gap:8px; }
+    .archive-links a { color:var(--ink, #ebf1ff); text-decoration:none; border:1px solid #355184; border-radius:8px; padding:8px 10px; background:#12203d; }
+    .archive-links a:hover { border-color:var(--accent, #63d2ff); }
+    .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:#1b3d67; border:1px solid #2f679f; border-radius:999px; padding:3px 7px; white-space:nowrap; }
+    @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
+
+    footer{margin-top:10px;color:var(--muted);font:12px Inter,system-ui,sans-serif;text-align:right}
+  </style>
+<style id="preferred-theme">
+    :root{--bg:#060b17!important;--panel:#0b1328!important;--ink:#e6f1ff!important;--muted:#93a7cc!important;--line:#28436d!important;--accent:#00d1ff!important;--accent2:#7cff7a!important}
+    body{background:radial-gradient(1200px 700px at 80% -10%, #1b3a7a 0%, transparent 55%), radial-gradient(900px 600px at 0% 0%, #0b4f66 0%, transparent 45%), #050a14!important}
+    .wrap{max-width:1320px!important}
+    header,.hero{background:linear-gradient(135deg,rgba(0,209,255,.14),rgba(124,255,122,.10))!important;border-color:#2f5489!important}
+    .pick-card,.card{border-radius:18px!important;border-color:#2d4f86!important;background:linear-gradient(180deg,#0a142a,#0b1730)!important;box-shadow:0 16px 40px rgba(0,0,0,.36)!important}
+    .meta-grid div,.tcard{background:rgba(255,255,255,.04)!important;border-color:#345d96!important}
+    .lede{font-size:18px!important;line-height:1.68!important;color:#f0f7ff!important}
+    h1,h2{letter-spacing:.02em!important}
+    .nav-toolbar .toolbar-group{background:rgba(11,19,40,.9)!important;border-color:#2d4f86!important}
+    .nav-toolbar .toolbar-group summary{background:linear-gradient(135deg,rgba(0,209,255,.20),rgba(124,255,122,.14))!important;border-color:#3f6daf!important}
+    .res-win{background:rgba(34,197,94,.18)!important;color:#86efac!important;border-color:#34d399!important}
+    .res-loss{background:rgba(239,68,68,.18)!important;color:#fca5a5!important;border-color:#fb7185!important}
+    .res-push{background:rgba(212,161,29,.25)!important;color:#fde68a!important;border-color:#d4a11d!important}
+    .res-pending{background:rgba(59,130,246,.18)!important;color:#bfdbfe!important;border-color:#60a5fa!important}
+    .res-inprogress{background:rgba(245,158,11,.25)!important;color:#fde68a!important;border-color:#f59e0b!important}
+    </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="header-row">
+        <div>
+          <div class="kicker">SportzBallz Totals Desk</div>
+          <h1>Run Total Picks — 2026-04-22</h1>
+          <div class="sub">Model: dutch • Updated 2026-04-22 05:17 AM</div>
+        </div>
+        <a class="reload-btn" href="" data-reload="1">Reload</a>
+      </div>
+    </header>
+    
+      <div class="nav-toolbar">
+        <a class="toolbar-group toolbar-direct-link" href="https://sportzballz.io">⚾ Latest Daily Picks</a>
+        <a class="toolbar-group toolbar-direct-link" href="/dashboard.html">📊 Performance Dashboard</a>
+        <details class="toolbar-group">
+          <summary>🗂️ Archive</summary>
+          
+          <details class="archive-group">
+            <summary>2026-04-22 <span class="pill">Latest</span></summary>
+            <div class="archive-links">
+              <a href="/2026-04-22-polished.html">Daily Picks</a>
+              <a href="/2026-04-22-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-22-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-21</summary>
+            <div class="archive-links">
+              <a href="/2026-04-21-polished.html">Daily Picks</a>
+              <a href="/2026-04-21-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-21-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-20</summary>
+            <div class="archive-links">
+              <a href="/2026-04-20-polished.html">Daily Picks</a>
+              <a href="/2026-04-20-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-20-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-19</summary>
+            <div class="archive-links">
+              <a href="/2026-04-19-polished.html">Daily Picks</a>
+              <a href="/2026-04-19-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-19-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-18</summary>
+            <div class="archive-links">
+              <a href="/2026-04-18-polished.html">Daily Picks</a>
+              <a href="/2026-04-18-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-18-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-17</summary>
+            <div class="archive-links">
+              <a href="/2026-04-17-polished.html">Daily Picks</a>
+              <a href="/2026-04-17-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-17-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-16</summary>
+            <div class="archive-links">
+              <a href="/2026-04-16-polished.html">Daily Picks</a>
+              <a href="/2026-04-16-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-16-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-15</summary>
+            <div class="archive-links">
+              <a href="/2026-04-15-polished.html">Daily Picks</a>
+              <a href="/2026-04-15-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-15-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-14</summary>
+            <div class="archive-links">
+              <a href="/2026-04-14-polished.html">Daily Picks</a>
+              <a href="/2026-04-14-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-14-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-13</summary>
+            <div class="archive-links">
+              <a href="/2026-04-13-polished.html">Daily Picks</a>
+              <a href="/2026-04-13-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-13-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-12</summary>
+            <div class="archive-links">
+              <a href="/2026-04-12-polished.html">Daily Picks</a>
+              <a href="/2026-04-12-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-12-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-11</summary>
+            <div class="archive-links">
+              <a href="/2026-04-11-polished.html">Daily Picks</a>
+              <a href="/2026-04-11-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-11-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-10</summary>
+            <div class="archive-links">
+              <a href="/2026-04-10-polished.html">Daily Picks</a>
+              <a href="/2026-04-10-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-10-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-09</summary>
+            <div class="archive-links">
+              <a href="/2026-04-09-polished.html">Daily Picks</a>
+              <a href="/2026-04-09-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-09-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-08</summary>
+            <div class="archive-links">
+              <a href="/2026-04-08-polished.html">Daily Picks</a>
+              <a href="/2026-04-08-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-08-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-07</summary>
+            <div class="archive-links">
+              <a href="/2026-04-07-polished.html">Daily Picks</a>
+              <a href="/2026-04-07-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-07-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-06</summary>
+            <div class="archive-links">
+              <a href="/2026-04-06-polished.html">Daily Picks</a>
+              <a href="/2026-04-06-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-06-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+          <details class="archive-group">
+            <summary>2026-04-05</summary>
+            <div class="archive-links">
+              <a href="/2026-04-05-polished.html">Daily Picks</a>
+              <a href="/2026-04-05-plus-money-polished.html">Plus Money Picks</a>
+              <a href="/2026-04-05-run-totals-polished.html">Run Total Picks</a>
+            </div>
+          </details>
+        
+        </details>
+      </div>
+    
+    <section class="ad-slot" data-slot="run-totals-top">
+      <div class="ad-label">Sponsored</div>
+      <div class="ad-copy">Run Totals Sponsorship • Your brand could be here.</div>
+      <a class="ad-cta" href="/media-kit.html">Advertise on SportzBallz</a>
+    </section>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 1</div>
+          <h2>Atlanta Braves vs Washington Nationals — OVER 9.0</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 9.0</strong></div>
+          <div><span>Odds</span><strong>-109</strong></div>
+          <div><span>Confidence</span><strong>0.977</strong></div>
+          <div><span>Venue</span><strong>Nationals Park</strong></div>
+        </div>
+        <p class="lede">OVER 9.0 is the recommendation in Atlanta Braves vs Washington Nationals, with the current total still leaving workable value. At -109, the pricing still supports the same total stance. Confidence is 0.977, and the board move (Total unchanged at 9.0.) does not force a change.<br><br>The visiting lineup for Atlanta Braves has a path to shape this total early through traffic and extra bases. For an over ticket, even moderate conversion with runners on is enough to keep this pace alive. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>The home lineup for Washington Nationals has enough thump/contact mix to either confirm or challenge this total quickly. If they sustain pressure through the middle innings, the over path stays in front. In this Nationals Park environment (80.5°F, Wind 10.5 mph WNW (out to RF), Humidity 29%, P.O.P. 2% (Open-Meteo fallback)), the recommendation remains OVER 9.0.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 80.5°F, Wind 10.5 mph WNW (out to RF), Humidity 29%, P.O.P. 2% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 9.0.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 2</div>
+          <h2>Kansas City Royals vs Baltimore Orioles — OVER 9.14</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 9.14</strong></div>
+          <div><span>Odds</span><strong>-108</strong></div>
+          <div><span>Confidence</span><strong>0.922</strong></div>
+          <div><span>Venue</span><strong>Kauffman Stadium</strong></div>
+        </div>
+        <p class="lede">The strongest angle here is OVER 9.14 for Kansas City Royals vs Baltimore Orioles, given how this run environment sets up. At -108, the pricing still supports the same total stance. Confidence is 0.922, and the board move (Total unchanged at 9.14.) does not force a change.<br><br>For the away offense, Kansas City Royals has enough hard-contact and baserunner pressure to influence the total by itself. For an over ticket, even moderate conversion with runners on is enough to keep this pace alive. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>The home lineup for Baltimore Orioles has enough thump/contact mix to either confirm or challenge this total quickly. If they sustain pressure through the middle innings, the over path stays in front. In this Kauffman Stadium environment (68.3°F, Wind 12.2 mph SSW (out to CF), Humidity 71%, P.O.P. 0% (Open-Meteo fallback)), the recommendation remains OVER 9.14.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 68.3°F, Wind 12.2 mph SSW (out to CF), Humidity 71%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 9.14.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 3</div>
+          <h2>Houston Astros vs Cleveland Guardians — OVER 8.0</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 8.0</strong></div>
+          <div><span>Odds</span><strong>-106</strong></div>
+          <div><span>Confidence</span><strong>0.649</strong></div>
+          <div><span>Venue</span><strong>Progressive Field</strong></div>
+        </div>
+        <p class="lede">The total play is OVER 8.0 in Houston Astros vs Cleveland Guardians, and the number still grades as attackable. At -106, the pricing still supports the same total stance. Confidence is 0.649, and the board move (Total unchanged at 8.0.) does not force a change.<br><br>From the road side, Houston Astros should manufacture scoring chances rather than waiting for one swing to carry the game. For an over ticket, even moderate conversion with runners on is enough to keep this pace alive. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>The home lineup for Cleveland Guardians has enough thump/contact mix to either confirm or challenge this total quickly. If they sustain pressure through the middle innings, the over path stays in front. In this Progressive Field environment (64.7°F, Wind 5.5 mph NNW (in from RF), Humidity 63%, P.O.P. 0% (Open-Meteo fallback)), the recommendation remains OVER 8.0.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 64.7°F, Wind 5.5 mph NNW (in from RF), Humidity 63%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 8.0.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 4</div>
+          <h2>San Diego Padres vs Colorado Rockies — OVER 11.77</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 11.77</strong></div>
+          <div><span>Odds</span><strong>-114</strong></div>
+          <div><span>Confidence</span><strong>0.614</strong></div>
+          <div><span>Venue</span><strong>Coors Field</strong></div>
+        </div>
+        <p class="lede">OVER 11.77 is the recommendation in San Diego Padres vs Colorado Rockies, with the current total still leaving workable value. At -114, the pricing still supports the same total stance. Confidence is 0.614, and the board move (Total unchanged at 11.77.) does not force a change.<br><br>The visiting lineup for San Diego Padres has a path to shape this total early through traffic and extra bases. For an over ticket, even moderate conversion with runners on is enough to keep this pace alive. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>On the home side, Colorado Rockies is the swing factor because one clean middle-innings stretch can decide this total. If they sustain pressure through the middle innings, the over path stays in front. In this Coors Field environment (78.9°F, Wind 18.6 mph WSW (out to RF), Humidity 4%, P.O.P. 0% (Open-Meteo fallback)), the recommendation remains OVER 11.77.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 78.9°F, Wind 18.6 mph WSW (out to RF), Humidity 4%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 11.77.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 5</div>
+          <h2>Arizona Diamondbacks vs Chicago White Sox — OVER 9.09</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 9.09</strong></div>
+          <div><span>Odds</span><strong>-119</strong></div>
+          <div><span>Confidence</span><strong>0.528</strong></div>
+          <div><span>Venue</span><strong>Chase Field</strong></div>
+        </div>
+        <p class="lede">I’m backing OVER 9.09 for Arizona Diamondbacks–Chicago White Sox; the game environment points to enough scoring events. At -119, the pricing still supports the same total stance. Confidence is 0.528, and the board move (Total unchanged at 9.09.) does not force a change.<br><br>From the road side, Arizona Diamondbacks should manufacture scoring chances rather than waiting for one swing to carry the game. For an over ticket, even moderate conversion with runners on is enough to keep this pace alive. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>The home lineup for Chicago White Sox has enough thump/contact mix to either confirm or challenge this total quickly. If they sustain pressure through the middle innings, the over path stays in front. In this Chase Field environment (Dome/retractable roof environment — external wind conditions not applicable.), the recommendation remains OVER 9.09.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 9.09.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 6</div>
+          <h2>New York Yankees vs Boston Red Sox — UNDER 7.5</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 7.5</strong></div>
+          <div><span>Odds</span><strong>-101</strong></div>
+          <div><span>Confidence</span><strong>0.443</strong></div>
+          <div><span>Venue</span><strong>Fenway Park</strong></div>
+        </div>
+        <p class="lede">The clearest read is UNDER 7.5 in New York Yankees vs Boston Red Sox, with enough suppression factors in play. At -101, the pricing still supports the same total stance. Confidence is 0.443, and the board move (Total unchanged at 7.5.) does not force a change.<br><br>For the away offense, New York Yankees has enough hard-contact and baserunner pressure to influence the total by itself. For an under ticket, their ability to avoid empty innings while still facing run-suppression spots is central to the handicap. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>For Boston Red Sox, the key is whether they cash runners in scoring position; that will likely settle the ticket. If they trade hard contact for quick outs, the under path strengthens immediately. In this Fenway Park environment (43.6°F, Wind 5.8 mph S (out to LF), Humidity 83%, P.O.P. 7% (Open-Meteo fallback)), the recommendation remains UNDER 7.5.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 43.6°F, Wind 5.8 mph S (out to LF), Humidity 83%, P.O.P. 7% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 7.5.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 7</div>
+          <h2>Milwaukee Brewers vs Detroit Tigers — OVER 7.86</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 7.86</strong></div>
+          <div><span>Odds</span><strong>-108</strong></div>
+          <div><span>Confidence</span><strong>0.402</strong></div>
+          <div><span>Venue</span><strong>Comerica Park</strong></div>
+        </div>
+        <p class="lede">I’m backing OVER 7.86 for Milwaukee Brewers–Detroit Tigers; the game environment points to enough scoring events. At -108, the pricing still supports the same total stance. Confidence is 0.402, and the board move (Total unchanged at 7.86.) does not force a change.<br><br>The visiting lineup for Milwaukee Brewers has a path to shape this total early through traffic and extra bases. For an over ticket, even moderate conversion with runners on is enough to keep this pace alive. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>On the home side, Detroit Tigers is the swing factor because one clean middle-innings stretch can decide this total. If they sustain pressure through the middle innings, the over path stays in front. In this Comerica Park environment (71.6°F, Wind 8.0 mph ENE (in from RF), Humidity 32%, P.O.P. 0% (Open-Meteo fallback)), the recommendation remains OVER 7.86.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 71.6°F, Wind 8.0 mph ENE (in from RF), Humidity 32%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 7.86.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 8</div>
+          <h2>Minnesota Twins vs New York Mets — UNDER 8.0</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 8.0</strong></div>
+          <div><span>Odds</span><strong>-108</strong></div>
+          <div><span>Confidence</span><strong>0.341</strong></div>
+          <div><span>Venue</span><strong>Citi Field</strong></div>
+        </div>
+        <p class="lede">UNDER 8.0 is still the right total in Minnesota Twins vs New York Mets, especially with this projected game script. At -108, the pricing still supports the same total stance. Confidence is 0.341, and the board move (Total unchanged at 8.0.) does not force a change.<br><br>Minnesota Twins brings a workable away-game scoring profile, which matters in a total this tight. For an under ticket, their ability to avoid empty innings while still facing run-suppression spots is central to the handicap. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>On the home side, New York Mets is the swing factor because one clean middle-innings stretch can decide this total. If they trade hard contact for quick outs, the under path strengthens immediately. In this Citi Field environment (49.5°F, Wind 4.8 mph E (in from LF), Humidity 84%, P.O.P. 2% (Open-Meteo fallback)), the recommendation remains UNDER 8.0.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 49.5°F, Wind 4.8 mph E (in from LF), Humidity 84%, P.O.P. 2% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 8.0.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 9</div>
+          <h2>Los Angeles Dodgers vs San Francisco Giants — UNDER 7.55</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 7.55</strong></div>
+          <div><span>Odds</span><strong>-105</strong></div>
+          <div><span>Confidence</span><strong>0.231</strong></div>
+          <div><span>Venue</span><strong>Oracle Park</strong></div>
+        </div>
+        <p class="lede">The clearest read is UNDER 7.55 in Los Angeles Dodgers vs San Francisco Giants, with enough suppression factors in play. At -105, the pricing still supports the same total stance. Confidence is 0.231, and the board move (Total unchanged at 7.55.) does not force a change.<br><br>The visiting lineup for Los Angeles Dodgers has a path to shape this total early through traffic and extra bases. For an under ticket, their ability to avoid empty innings while still facing run-suppression spots is central to the handicap. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>On the home side, San Francisco Giants is the swing factor because one clean middle-innings stretch can decide this total. If they trade hard contact for quick outs, the under path strengthens immediately. In this Oracle Park environment (58.5°F, Wind 7.0 mph W (out to CF), Humidity 71%, P.O.P. 1% (Open-Meteo fallback)), the recommendation remains UNDER 7.55.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 58.5°F, Wind 7.0 mph W (out to CF), Humidity 71%, P.O.P. 1% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 7.55.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 10</div>
+          <h2>Pittsburgh Pirates vs Texas Rangers — UNDER 8.05</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 8.05</strong></div>
+          <div><span>Odds</span><strong>-106</strong></div>
+          <div><span>Confidence</span><strong>0.21</strong></div>
+          <div><span>Venue</span><strong>Globe Life Field</strong></div>
+        </div>
+        <p class="lede">The clearest read is UNDER 8.05 in Pittsburgh Pirates vs Texas Rangers, with enough suppression factors in play. At -106, the pricing still supports the same total stance. Confidence is 0.21, and the board move (Total unchanged at 8.05.) does not force a change.<br><br>For the away offense, Pittsburgh Pirates has enough hard-contact and baserunner pressure to influence the total by itself. For an under ticket, their ability to avoid empty innings while still facing run-suppression spots is central to the handicap. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>On the home side, Texas Rangers is the swing factor because one clean middle-innings stretch can decide this total. If they trade hard contact for quick outs, the under path strengthens immediately. In this Globe Life Field environment (Dome/retractable roof environment — external wind conditions not applicable.), the recommendation remains UNDER 8.05.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 8.05.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 11</div>
+          <h2>Tampa Bay Rays vs Cincinnati Reds — OVER 8.0</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 8.0</strong></div>
+          <div><span>Odds</span><strong>-117</strong></div>
+          <div><span>Confidence</span><strong>0.202</strong></div>
+          <div><span>Venue</span><strong>Tropicana Field</strong></div>
+        </div>
+        <p class="lede">The strongest angle here is OVER 8.0 for Tampa Bay Rays vs Cincinnati Reds, given how this run environment sets up. At -117, the pricing still supports the same total stance. Confidence is 0.202, and the board move (Total unchanged at 8.0.) does not force a change.<br><br>From the road side, Tampa Bay Rays should manufacture scoring chances rather than waiting for one swing to carry the game. For an over ticket, even moderate conversion with runners on is enough to keep this pace alive. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>For Cincinnati Reds, the key is whether they cash runners in scoring position; that will likely settle the ticket. If they sustain pressure through the middle innings, the over path stays in front. In this Tropicana Field environment (Dome/retractable roof environment — external wind conditions not applicable.), the recommendation remains OVER 8.0.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 8.0.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 12</div>
+          <h2>Los Angeles Angels vs Toronto Blue Jays — UNDER 8.05</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 8.05</strong></div>
+          <div><span>Odds</span><strong>-104</strong></div>
+          <div><span>Confidence</span><strong>0.088</strong></div>
+          <div><span>Venue</span><strong>Angel Stadium</strong></div>
+        </div>
+        <p class="lede">The total leans UNDER 8.05 in Los Angeles Angels vs Toronto Blue Jays, and this number still sits a touch high for the conditions. At -104, the pricing still supports the same total stance. Confidence is 0.088, and the board move (Total unchanged at 8.05.) does not force a change.<br><br>From the road side, Los Angeles Angels should manufacture scoring chances rather than waiting for one swing to carry the game. For an under ticket, their ability to avoid empty innings while still facing run-suppression spots is central to the handicap. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>For Toronto Blue Jays, the key is whether they cash runners in scoring position; that will likely settle the ticket. If they trade hard contact for quick outs, the under path strengthens immediately. In this Angel Stadium environment (69.2°F, Wind 9.6 mph WSW (out to RF), Humidity 48%, P.O.P. 0% (Open-Meteo fallback)), the recommendation remains UNDER 8.05.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 69.2°F, Wind 9.6 mph WSW (out to RF), Humidity 48%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 8.05.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 13</div>
+          <h2>Chicago Cubs vs Philadelphia Phillies — OVER 8.45</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 8.45</strong></div>
+          <div><span>Odds</span><strong>-109</strong></div>
+          <div><span>Confidence</span><strong>0.082</strong></div>
+          <div><span>Venue</span><strong>Wrigley Field</strong></div>
+        </div>
+        <p class="lede">The strongest angle here is OVER 8.45 for Chicago Cubs vs Philadelphia Phillies, given how this run environment sets up. At -109, the pricing still supports the same total stance. Confidence is 0.082, and the board move (Total unchanged at 8.45.) does not force a change.<br><br>From the road side, Chicago Cubs should manufacture scoring chances rather than waiting for one swing to carry the game. For an over ticket, even moderate conversion with runners on is enough to keep this pace alive. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>Philadelphia Phillies is the counterweight: if they stay disciplined in leverage counts, they can move this number fast. If they sustain pressure through the middle innings, the over path stays in front. In this Wrigley Field environment (46.5°F, Wind 7.8 mph NNE (in from CF), Humidity 99%, P.O.P. 0% (Open-Meteo fallback)), the recommendation remains OVER 8.45.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 46.5°F, Wind 7.8 mph NNE (in from CF), Humidity 99%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 8.45.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 14</div>
+          <h2>Miami Marlins vs St. Louis Cardinals — UNDER 8.5</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 8.5</strong></div>
+          <div><span>Odds</span><strong>-106</strong></div>
+          <div><span>Confidence</span><strong>0.021</strong></div>
+          <div><span>Venue</span><strong>loanDepot park</strong></div>
+        </div>
+        <p class="lede">I’m on UNDER 8.5 for Miami Marlins–St. Louis Cardinals; run creation should be more fragmented than explosive tonight. At -106, the pricing still supports the same total stance. Confidence is 0.021, and the board move (Total unchanged at 8.5.) does not force a change.<br><br>From the road side, Miami Marlins should manufacture scoring chances rather than waiting for one swing to carry the game. For an under ticket, their ability to avoid empty innings while still facing run-suppression spots is central to the handicap. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>St. Louis Cardinals is the counterweight: if they stay disciplined in leverage counts, they can move this number fast. If they trade hard contact for quick outs, the under path strengthens immediately. In this loanDepot park environment (Dome/retractable roof environment — external wind conditions not applicable.), the recommendation remains UNDER 8.5.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 8.5.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 15</div>
+          <h2>Athletics vs Seattle Mariners — UNDER 7.5</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 7.5</strong></div>
+          <div><span>Odds</span><strong>-109</strong></div>
+          <div><span>Confidence</span><strong>0.017</strong></div>
+          <div><span>Venue</span><strong>T-Mobile Park</strong></div>
+        </div>
+        <p class="lede">I’m on UNDER 7.5 for Athletics–Seattle Mariners; run creation should be more fragmented than explosive tonight. At -109, the pricing still supports the same total stance. Confidence is 0.017, and the board move (Total unchanged at 7.5.) does not force a change.<br><br>For the away offense, Athletics has enough hard-contact and baserunner pressure to influence the total by itself. For an under ticket, their ability to avoid empty innings while still facing run-suppression spots is central to the handicap. Starting lineups were still pending at publish time, so the angle stays anchored to team-level tendencies.<br><br>Seattle Mariners is the counterweight: if they stay disciplined in leverage counts, they can move this number fast. If they trade hard contact for quick outs, the under path strengthens immediately. In this T-Mobile Park environment (Dome/retractable roof environment — external wind conditions not applicable.), the recommendation remains UNDER 7.5.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 7.5.</li>
+          </ul>
+        </details>
+      </article>
+    
+    <footer>Published by SportzBallz.io</footer>
+  </main>
+  
+  <script>
+    (() => {
+      try {
+        document.querySelectorAll('[data-reload="1"]').forEach((el) => {
+          el.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.reload();
+          });
+        });
+
+        const params = new URLSearchParams(window.location.search || '');
+        const isEmbed = params.get('embed') === '1';
+        if (isEmbed) {
+          document.querySelectorAll('.nav-toolbar').forEach((el) => el.remove());
+        }
+
+        if (!isEmbed && !document.querySelector('.sbz-to-top')) {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'sbz-to-top';
+          btn.textContent = 'Top';
+          btn.setAttribute('aria-label', 'Back to top');
+          btn.style.position = 'fixed';
+          btn.style.right = '16px';
+          btn.style.bottom = '16px';
+          btn.style.zIndex = '9999';
+          btn.style.border = '1px solid #4c6db0';
+          btn.style.borderRadius = '999px';
+          btn.style.padding = '9px 13px';
+          btn.style.background = '#10203b';
+          btn.style.color = '#dff2ff';
+          btn.style.font = '700 12px Inter,system-ui,sans-serif';
+          btn.style.cursor = 'pointer';
+          btn.style.boxShadow = '0 8px 20px rgba(0,0,0,.28)';
+          btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+          document.body.appendChild(btn);
+        }
+      } catch (_e) {}
+    })();
+  </script>
+
+  
+  <script>window.SBZ_HIT_ENDPOINT = "https://5pakmkcroalpibvk2y7did66pu0extmx.lambda-url.us-east-1.on.aws/";</script>
+  <script defer src="/assets/hit-counter.js"></script>
+
+</body>
+</html>
