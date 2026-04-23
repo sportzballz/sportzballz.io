@@ -72,9 +72,9 @@
       "winner": "Atlanta Braves",
       "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.754,
-      "odds": -100,
+      "line": 9.35,
+      "confidence": 0.998,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     }
