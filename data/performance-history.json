@@ -72,9 +72,9 @@
       "winner": "Atlanta Braves",
       "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.604,
-      "odds": -118,
+      "line": 9.05,
+      "confidence": 0.754,
+      "odds": -117,
       "result": "PENDING",
       "profit": 0.0
     }
@@ -82,11 +82,11 @@
   {
     "date": "2026-04-22",
     "total_picks": 15,
-    "decided": 12,
-    "wins": 9,
-    "losses": 3,
-    "pending": 3,
-    "win_rate": 75.0,
+    "decided": 15,
+    "wins": 10,
+    "losses": 5,
+    "pending": 0,
+    "win_rate": 66.7,
     "plus_money_total": 3,
     "plus_money_decided": 3,
     "plus_money_wins": 1,
@@ -95,11 +95,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 12,
-        "wins": 9,
-        "losses": 3,
-        "profit": 405.88,
-        "roi_pct": 33.82,
+        "decided": 15,
+        "wins": 10,
+        "losses": 5,
+        "profit": 271.24,
+        "roi_pct": 18.08,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -113,11 +113,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 2,
+        "decided": 3,
         "wins": 1,
-        "losses": 1,
-        "profit": -36.71,
-        "roi_pct": -18.36,
+        "losses": 2,
+        "profit": -136.71,
+        "roi_pct": -45.57,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -131,11 +131,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 12,
-        "wins": 7,
-        "losses": 5,
-        "profit": 129.27,
-        "roi_pct": 10.77,
+        "decided": 15,
+        "wins": 9,
+        "losses": 6,
+        "profit": 212.76,
+        "roi_pct": 14.18,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
