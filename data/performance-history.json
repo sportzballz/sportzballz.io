@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-04-25",
-    "total_picks": 15,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 15,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 5,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 15,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,23 +81,23 @@
   },
   {
     "date": "2026-04-24",
-    "total_picks": 14,
-    "decided": 14,
-    "wins": 9,
-    "losses": 5,
+    "total_picks": 9,
+    "decided": 9,
+    "wins": 5,
+    "losses": 4,
     "pending": 0,
-    "win_rate": 64.3,
-    "plus_money_total": 1,
-    "plus_money_decided": 1,
-    "plus_money_wins": 1,
+    "win_rate": 55.6,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
     "plus_money_losses": 0,
-    "plus_money_win_rate": 100.0,
+    "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 14,
-        "decided": 14,
-        "wins": 9,
-        "losses": 5,
+        "total": 9,
+        "decided": 9,
+        "wins": 5,
+        "losses": 4,
         "profit": 230.3,
         "roi_pct": 16.45,
         "stake_per_pick": 100.0
@@ -121,19 +121,19 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
-        "decided": 1,
-        "wins": 1,
+        "total": 0,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
         "profit": 132.0,
         "roi_pct": 132.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 14,
-        "decided": 13,
-        "wins": 5,
-        "losses": 8,
+        "total": 9,
+        "decided": 8,
+        "wins": 2,
+        "losses": 6,
         "profit": -330.15,
         "roi_pct": -25.4,
         "stake_per_pick": 100.0
