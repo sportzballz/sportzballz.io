@@ -5,29 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9A%BE%3C/text%3E%3C/svg%3E" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <title>SportzBallz | Performance Dashboard</title>
-  <meta name="description" content="SportzBallz historical MLB pick performance, records, and plus-money metrics." />
+  <title>SportzBallz | Plus Money Picks</title>
+  <meta name="description" content="SportzBallz underdog MLB picks for 2026-04-26." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
-  <link rel="canonical" href="https://sportzballz.io/dashboard.html" />
+  <link rel="canonical" href="https://sportzballz.io/2026-04-26-plus-money-polished.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="SportzBallz" />
-  <meta property="og:title" content="SportzBallz | Performance Dashboard" />
-  <meta property="og:description" content="Track win rates, records, and plus-money outcomes over time." />
-  <meta property="og:url" content="https://sportzballz.io/dashboard.html" />
+  <meta property="og:title" content="SportzBallz Plus Money Picks — 2026-04-26" />
+  <meta property="og:description" content="Underdog-only MLB picks with confidence and matchup context." />
+  <meta property="og:url" content="https://sportzballz.io/2026-04-26-plus-money-polished.html" />
   <meta name="twitter:card" content="summary_large_image" />
   <style>
-    :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#5cc9ff; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%); color:var(--ink); font-family:Inter,system-ui,sans-serif; }
-    .wrap { max-width:1100px; margin:0 auto; padding:24px 16px 48px; }
-    .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:14px; }
-    h1 { margin:0 0 8px; font-size:34px; }
-    .meta { color:var(--muted); margin-bottom:8px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; }
-    .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:12px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#5cc9ff; --accent2:#88f2c7; --plus:#22c55e; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%);color:var(--ink);line-height:1.65}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+    header{background:linear-gradient(135deg, rgba(34,197,94,.20), rgba(92,201,255,.10));border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px}
+    .kicker{font:600 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+    h1{margin:8px 0 10px;font-size:clamp(30px,5vw,46px);line-height:1.05}
+    .sub{color:var(--muted);font-family:Inter,system-ui,sans-serif;font-size:14px}
+    .header-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+    .reload-btn{display:inline-block;border:1px solid #4c6db0;background:#10203b;color:#dff2ff;border-radius:10px;padding:8px 12px;font:600 12px Inter,system-ui,sans-serif;cursor:pointer;text-decoration:none}
+    .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:0 0 14px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
     .ad-label{font:700 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9cc4ff}
     .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
     .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
+    .pick-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 8px 22px rgba(2,8,24,.32)}
+    .pick-head h2{margin:4px 0 8px;font-size:27px;line-height:1.15}
+    .seo-line{font:600 12px/1.3 Inter,system-ui,sans-serif;color:#a9c6ff;letter-spacing:.02em;margin-top:2px}
+    .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
     
     .nav-toolbar { margin:14px 0 18px; display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:10px; align-items:start; }
     .toolbar-group { border:1px solid #2d446f; border-radius:12px; padding:10px; background:#0f1a30; min-height:56px; display:flex; flex-direction:column; justify-content:flex-start; }
@@ -49,21 +55,29 @@
     .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:#1b3d67; border:1px solid #2f679f; border-radius:999px; padding:3px 7px; white-space:nowrap; }
     @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
 
-    .k { border:1px dashed #31508e; border-radius:10px; padding:10px; }
-    .k span { display:block; color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
-    .k strong { font-size:20px; }
-    .chart-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:10px; }
-    .chart-card { border:1px dashed #31508e; border-radius:10px; padding:10px; background:rgba(255,255,255,.02); }
-    .chart-card h3 { margin:0 0 6px; font-size:16px; }
-    .chart-meta { color:#cfe1ff; font-size:12px; margin-bottom:6px; }
-    .chart-foot { color:var(--muted); font-size:11px; margin-top:4px; }
-    .spark { width:100%; height:120px; display:block; }
-    table { width:100%; border-collapse:collapse; }
-    th, td { border-bottom:1px solid #2a3f70; padding:10px 8px; text-align:left; }
-    th { color:#cfe0ff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
-    td { color:#e2ecff; }
-    a { color:#8ad8ff; text-decoration:none; }
-    .links a { display:inline-block; margin-right:8px; border:1px solid #31508e; border-radius:8px; padding:6px 10px; }
+    .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--plus);letter-spacing:.12em;text-transform:uppercase}
+    .res{font:700 11px/1 Inter,system-ui,sans-serif;padding:5px 8px;border-radius:999px;border:1px solid #31508e;}
+    .res-win{color:#7CFFB3;border-color:#2f8f57;background:rgba(52,211,153,.12)}
+    .res-loss{color:#ff9ca0;border-color:#a13d47;background:rgba(239,68,68,.14)}
+    .res-push{color:#fde68a;border-color:#d4a11d;background:rgba(212,161,29,.18)}
+    .res-pending{color:#cfe1ff;border-color:#3c5c97;background:rgba(59,130,246,.12)}
+    .res-inprogress{color:#fde68a;border-color:#f59e0b;background:rgba(245,158,11,.18)}
+    .tracker{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:16px}
+    .tracker-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+    .tcard{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
+    .tcard span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+    .tcard strong{font:700 16px/1.25 Inter,system-ui,sans-serif;color:#e7f0ff}
+    .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 12px;padding:10px 0 2px}
+    .meta-grid div{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
+    .meta-grid span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+    .meta-grid strong{font:600 15px/1.35 Inter,system-ui,sans-serif;color:#dce8ff}
+    .lede{font-size:18px;line-height:1.55;margin:12px 0 8px;color:#f2f6ff}
+    details{margin-top:8px;border-top:1px solid #264377;padding-top:8px}
+    summary{cursor:pointer;font:600 14px Inter,system-ui,sans-serif;color:var(--accent)}
+    ul{margin:10px 0 0 18px;padding:0}
+    li{margin:6px 0}
+    footer{margin-top:10px;color:var(--muted);font:12px Inter,system-ui,sans-serif;text-align:right}
+    @media (max-width:720px){.lede{font-size:18px} .pick-head h2{font-size:24px}}
   </style>
 <style id="preferred-theme">
     :root{--bg:#060b17!important;--panel:#0b1328!important;--ink:#e6f1ff!important;--muted:#93a7cc!important;--line:#28436d!important;--accent:#00d1ff!important;--accent2:#7cff7a!important}
@@ -85,6 +99,16 @@
 </head>
 <body>
   <main class="wrap">
+    <header>
+      <div class="header-row">
+        <div>
+          <div class="kicker">SportzBallz Plus Money Desk</div>
+          <h1>Plus Money Picks — 2026-04-26</h1>
+          <div class="sub">Model: dutch • Updated 2026-04-26 05:12 AM</div>
+        </div>
+        <a class="reload-btn" href="" data-reload="1">Reload</a>
+      </div>
+    </header>
     
       <div class="nav-toolbar">
         <a class="toolbar-group toolbar-direct-link" href="https://sportzballz.io">⚾ Latest Daily Picks</a>
@@ -293,85 +317,79 @@
         </details>
       </div>
     
-    <div class="card">
-      <h1>Performance Dashboard</h1>
-      <div class="meta">Auto-tracked from published daily picks. Assumption: flat <strong>$100 stake</strong> on each decided pick in each strategy bucket.</div>
-      <div class="links"><a href="/">Home</a> <a href="/media-kit.html">Media Kit</a> <a href="/rate-card.html">Rate Card</a> <a href="/contact.html">Contact</a></div>
-      <section class="ad-slot" data-slot="dashboard-top">
+    <section class="ad-slot" data-slot="plus-money-top">
       <div class="ad-label">Sponsored</div>
-      <div class="ad-copy">Dashboard Sponsorship • Your brand could be here.</div>
+      <div class="ad-copy">Plus Money Card Sponsorship • Your brand could be here.</div>
       <a class="ad-cta" href="/media-kit.html">Advertise on SportzBallz</a>
     </section>
-      <div class="grid">
-        <div class="k"><span>Total Picks Logged</span><strong>292</strong></div>
-        <div class="k"><span>All Picks Record</span><strong>129-147</strong></div>
-        <div class="k"><span>All Picks Profit</span><strong>$-3681.32</strong></div>
-        <div class="k"><span>All Picks ROI</span><strong>-13.34%</strong></div>
-        <div class="k"><span>Plus Money Record</span><strong>25-32</strong></div>
-        <div class="k"><span>Plus Money ROI</span><strong>-0.12%</strong></div>
-        <div class="k"><span>Run Totals Record</span><strong>145-108</strong></div>
-        <div class="k"><span>Run Totals ROI</span><strong>10.17%</strong></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2 style="margin-top:0">Season Strategy Charts</h2>
-      <div class="chart-grid">
+    
+        <section class="tracker">
+          <div class="tracker-grid">
+            <div class="tcard"><span>Plus Money Picks</span><strong>2</strong></div>
+            <div class="tcard"><span>Decided</span><strong>0</strong></div>
+            <div class="tcard"><span>Record</span><strong>0-0</strong></div>
+            <div class="tcard"><span>Win Rate</span><strong>—</strong></div>
+          </div>
+        </section>
         
-            <div class='chart-card'>
-              <h3>All Picks</h3>
-              <div class='chart-meta'>Record: 129-147 • Profit: $-3681.32 • ROI: -13.34%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#5cc9ff' stroke-width='2.5' points='10.0,10.2 26.2,10.8 42.4,10.0 58.6,41.1 74.8,36.1 91.0,44.7 107.1,61.2 123.3,79.6 139.5,78.4 155.7,84.2 171.9,72.6 188.1,63.6 204.3,79.6 220.5,76.9 236.7,90.3 252.9,93.0 269.0,110.0 285.2,103.5 301.4,105.6 317.6,100.1 333.8,107.2 350.0,107.2' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Best Confidence Pick</h3>
-              <div class='chart-meta'>Record: 10-10 • Profit: $-96.20 • ROI: -4.81%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#a78bfa' stroke-width='2.5' points='10.0,10.0 26.2,26.0 42.4,26.0 58.6,41.9 74.8,57.9 91.0,50.8 107.1,66.8 123.3,82.7 139.5,98.7 155.7,89.3 171.9,70.9 188.1,56.5 204.3,72.5 220.5,88.4 236.7,104.4 252.9,94.0 269.0,110.0 285.2,99.9 301.4,88.2 317.6,74.0 333.8,63.2 350.0,63.2' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Top 3 Confidence Picks</h3>
-              <div class='chart-meta'>Record: 30-30 • Profit: $-704.34 • ROI: -11.74%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#34d399' stroke-width='2.5' points='10.0,15.6 26.2,15.9 42.4,10.0 58.6,36.1 74.8,29.8 91.0,28.4 107.1,41.2 123.3,54.2 139.5,67.6 155.7,61.7 171.9,41.7 188.1,51.3 204.3,63.8 220.5,75.9 236.7,87.6 252.9,86.4 269.0,98.1 285.2,110.0 301.4,106.6 317.6,100.7 333.8,97.8 350.0,97.8' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Plus Money Picks</h3>
-              <div class='chart-meta'>Record: 25-32 • Profit: $-7.00 • ROI: -0.12%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#f59e0b' stroke-width='2.5' points='10.0,10.0 26.2,10.0 42.4,23.9 58.6,51.6 74.8,14.2 91.0,14.2 107.1,55.8 123.3,95.3 139.5,102.0 155.7,70.2 171.9,67.8 188.1,20.0 204.3,75.5 220.5,57.7 236.7,68.7 252.9,66.6 269.0,66.6 285.2,74.9 301.4,88.8 317.6,70.5 333.8,110.0 350.0,110.0' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Run Total Picks</h3>
-              <div class='chart-meta'>Record: 145-108 • Profit: $2572.84 • ROI: 10.17%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#fb7185' stroke-width='2.5' points='10.0,109.8 26.2,110.0 42.4,101.5 58.6,99.8 74.8,108.7 91.0,83.3 107.1,90.1 123.3,89.1 139.5,57.7 155.7,73.5 171.9,67.0 188.1,68.9 204.3,76.0 220.5,70.7 236.7,68.9 252.9,54.2 269.0,30.2 285.2,20.7 301.4,18.7 317.6,33.5 333.8,10.0 350.0,10.0' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Top Run Total Confidence Pick</h3>
-              <div class='chart-meta'>Record: 14-4 • Profit: $1047.31 • ROI: 58.18%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#22d3ee' stroke-width='2.5' points='10.0,110.0 26.2,110.0 42.4,110.0 58.6,86.7 74.8,96.3 91.0,87.7 107.1,78.6 123.3,88.1 139.5,79.0 155.7,70.3 171.9,61.6 188.1,53.0 204.3,62.6 220.5,54.0 236.7,44.5 252.9,35.8 269.0,27.0 285.2,17.9 301.4,27.5 317.6,17.8 333.8,10.0 350.0,10.0' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-      </div>
-    </div>
-
-    <div class="card">
-      <h2 style="margin-top:0">Daily Performance</h2>
-      <table>
-        <thead><tr><th>Date</th><th>All Picks</th><th>Best Confidence</th><th>Top 3 Confidence</th><th>Plus Money</th><th>Run Totals</th><th>Top Run Total Pick</th><th>Pending</th></tr></thead>
-        <tbody>
-          <tr><td><a href='/2026-04-26-polished.html'>2026-04-26</a></td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td><a href='/2026-04-26-run-totals-polished.html'>Detroit Tigers vs Cincinnati Reds — OVER 9.0</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.623 • PENDING</span></td><td>15</td></tr><tr><td><a href='/2026-04-25-polished.html'>2026-04-25</a></td><td>6-8 ($-298.81)</td><td>1-0 ($68.03)</td><td>2-1 ($32.96)</td><td>1-4 ($-285.00)</td><td>10-4 ($525.75)</td><td><a href='/2026-04-25-run-totals-polished.html'>New York Yankees vs Houston Astros — OVER 9.25</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.756 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-24-polished.html'>2026-04-24</a></td><td>5-4 ($230.30)</td><td>1-0 ($88.50)</td><td>2-1 ($68.50)</td><td>0-0 ($132.00)</td><td>2-6 ($-330.15)</td><td><a href='/2026-04-24-run-totals-polished.html'>Detroit Tigers vs Cincinnati Reds — OVER 9.4</a><br><span style='color:#a7b7df;font-size:12px'>conf 1.011 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-23-polished.html'>2026-04-23</a></td><td>5-4 ($-87.40)</td><td>1-0 ($73.53)</td><td>2-1 ($38.46)</td><td>0-1 ($-100.00)</td><td>5-4 ($44.38)</td><td><a href='/2026-04-23-run-totals-polished.html'>Atlanta Braves vs Washington Nationals — OVER 9.4</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.998 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-22-polished.html'>2026-04-22</a></td><td>10-5 ($271.24)</td><td>1-0 ($63.29)</td><td>1-2 ($-136.71)</td><td>1-2 ($-60.00)</td><td>9-6 ($212.76)</td><td><a href='/2026-04-22-run-totals-polished.html'>Atlanta Braves vs Washington Nationals — OVER 9.17</a><br><span style='color:#a7b7df;font-size:12px'>conf 1.103 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-21-polished.html'>2026-04-21</a></td><td>4-10 ($-709.28)</td><td>0-1 ($-100.00)</td><td>1-2 ($-134.64)</td><td>0-0 ($0.00)</td><td>10-4 ($535.58)</td><td><a href='/2026-04-21-run-totals-polished.html'>Kansas City Royals vs Baltimore Orioles — OVER 9.17</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.944 • WIN</span></td><td>1</td></tr><tr><td><a href='/2026-04-20-polished.html'>2026-04-20</a></td><td>5-5 ($-110.57)</td><td>1-0 ($64.94)</td><td>2-1 ($13.72)</td><td>1-1 ($15.00)</td><td>7-3 ($329.85)</td><td><a href='/2026-04-20-run-totals-polished.html'>Detroit Tigers vs Boston Red Sox — OVER 8.0</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.853 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-19-polished.html'>2026-04-19</a></td><td>5-10 ($-560.72)</td><td>0-1 ($-100.00)</td><td>1-2 ($-134.21)</td><td>1-2 ($-79.00)</td><td>7-6 ($39.96)</td><td><a href='/2026-04-19-run-totals-polished.html'>Athletics vs Chicago White Sox — OVER 9.5</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.854 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-18-polished.html'>2026-04-18</a></td><td>9-6 ($112.08)</td><td>0-1 ($-100.00)</td><td>1-2 ($-138.65)</td><td>1-0 ($128.00)</td><td>8-6 ($119.12)</td><td><a href='/2026-04-18-run-totals-polished.html'>Minnesota Twins vs Cincinnati Reds — OVER 8.0</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.863 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-17-polished.html'>2026-04-17</a></td><td>5-10 ($-667.71)</td><td>0-1 ($-100.00)</td><td>1-2 ($-143.50)</td><td>0-4 ($-400.00)</td><td>7-8 ($-158.08)</td><td><a href='/2026-04-17-run-totals-polished.html'>New York Yankees vs Kansas City Royals — OVER 8.05</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.927 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-16-polished.html'>2026-04-16</a></td><td>7-3 ($376.69)</td><td>1-0 ($90.09)</td><td>1-2 ($-109.91)</td><td>3-0 ($345.00)</td><td>5-5 ($-42.55)</td><td><a href='/2026-04-16-run-totals-polished.html'>New York Yankees vs Los Angeles Angels — OVER 9.77</a><br><span style='color:#a7b7df;font-size:12px'>conf 1.065 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-15-polished.html'>2026-04-15</a></td><td>11-4 ($482.02)</td><td>1-0 ($115.00)</td><td>3-0 ($229.26)</td><td>2-2 ($17.00)</td><td>8-6 ($143.98)</td><td><a href='/2026-04-15-run-totals-polished.html'>Philadelphia Phillies vs Chicago Cubs — OVER 8.95</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.843 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-14-polished.html'>2026-04-14</a></td><td>7-8 ($-240.56)</td><td>1-0 ($59.17)</td><td>2-1 ($68.17)</td><td>2-0 ($229.00)</td><td>6-9 ($-352.23)</td><td><a href='/2026-04-14-run-totals-polished.html'>Philadelphia Phillies vs Chicago Cubs — OVER 8.65</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.794 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-13-polished.html'>2026-04-13</a></td><td>6-4 ($51.75)</td><td>0-1 ($-100.00)</td><td>1-2 ($-154.34)</td><td>1-2 ($-48.00)</td><td>9-1 ($703.01)</td><td><a href='/2026-04-13-run-totals-polished.html'>Philadelphia Phillies vs Chicago Cubs — OVER 9.5</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.788 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-12-polished.html'>2026-04-12</a></td><td>4-11 ($-767.55)</td><td>0-1 ($-100.00)</td><td>1-2 ($-148.98)</td><td>1-4 ($-285.00)</td><td>8-7 ($21.50)</td><td><a href='/2026-04-12-run-totals-polished.html'>Kansas City Royals vs Chicago White Sox — UNDER 8.68</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.738 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-11-polished.html'>2026-04-11</a></td><td>5-10 ($-690.22)</td><td>0-1 ($-100.00)</td><td>1-2 ($-147.09)</td><td>0-3 ($-300.00)</td><td>7-8 ($-151.09)</td><td><a href='/2026-04-11-run-totals-polished.html'>New York Mets vs Athletics — OVER 8.0</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.504 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-10-polished.html'>2026-04-10</a></td><td>7-8 ($-355.67)</td><td>1-0 ($44.25)</td><td>2-1 ($16.71)</td><td>0-0 ($0.00)</td><td>10-5 ($567.60)</td><td><a href='/2026-04-10-run-totals-polished.html'>Philadelphia Phillies vs Arizona Diamondbacks — OVER 8.5</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.621 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-09-polished.html'>2026-04-09</a></td><td>4-2 ($207.89)</td><td>0-1 ($-100.00)</td><td>2-1 ($72.25)</td><td>2-0 ($270.00)</td><td>0-2 ($-200.00)</td><td><a href='/2026-04-09-run-totals-polished.html'>Kansas City Royals vs Chicago White Sox — OVER 8.22</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.624 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-08-polished.html'>2026-04-08</a></td><td>2-13 ($-1297.18)</td><td>0-1 ($-100.00)</td><td>0-3 ($-300.00)</td><td>0-2 ($-200.00)</td><td>2-3 ($38.24)</td><td><a href='/2026-04-08-run-totals-polished.html'>Detroit Tigers vs Minnesota Twins — OVER 8.17</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.427 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-07-polished.html'>2026-04-07</a></td><td>7-8 ($32.50)</td><td>0-0 ($0.00)</td><td>1-0 ($67.57)</td><td>2-3 ($-100.00)</td><td>8-5 ($190.91)</td><td>—</td><td>0</td></tr><tr><td><a href='/2026-04-06-polished.html'>2026-04-06</a></td><td>7-6 ($-22.27)</td><td>0-1 ($-100.00)</td><td>1-1 ($-2.91)</td><td>1-1 ($0.00)</td><td>7-6 ($-4.76)</td><td>—</td><td>0</td></tr><tr><td><a href='/2026-04-05-polished.html'>2026-04-05</a></td><td>8-8 ($362.15)</td><td>1-0 ($237.00)</td><td>2-1 ($239.00)</td><td>6-1 ($714.00)</td><td>10-4 ($339.06)</td><td>—</td><td>0</td></tr>
-        </tbody>
-      </table>
-    </div>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Underdog 1</div>
+          <h2>Arizona Diamondbacks over San Diego Padres</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="seo-line">Arizona Diamondbacks vs San Diego Padres prediction — 2026-04-26 • First pitch: 4:05 PM ET</div>
+        <div class="meta-grid">
+          <div><span>Odds</span><strong>+110</strong></div>
+          <div><span>Confidence</span><strong>0.065 (data points: 15.086/28.332)</strong></div>
+          <div><span>Pitching</span><strong>Ryne Nelson vs Michael King</strong></div>
+          <div><span>Venue</span><strong>Estadio Alfredo Harp Helu</strong></div>
+        </div>
+        <p class="lede">Mack Ledger (Market Maker) — This matchup sets up this way: Arizona Diamondbacks over San Diego Padres at +110. Model confidence is 0.065 on 15.086/28.332. Price and matchup are aligned, so the read stays actionable. The preferred side grades better on run creation quality, run prevention stability, and matchup history leverage, while the opposing profile still shows volatility around run creation quality, run prevention stability, matchup history leverage, and recent form. Market movement reads: Moneyline unchanged at 110. Lineup status: Starting lineups were not announced for either team at publish time. Metrics context: Pricing context is closer to balanced; bullpen fatigue context is mostly even. Weather and crew context: 81.1°F, Wind 11.4 mph, Humidity 16%, P.O.P. 48% (Covers fallback) / Umpire crew unavailable at run time. Evaluated metrics (team-favor): confidence=0.065 (data points: 15.086/28.332); odds=+110; pitching=Ryne Nelson vs Michael King; line move=Moneyline unchanged at 110.; weather=81.1°F, Wind 11.4 mph, Humidity 16%, P.O.P. 48% (Covers fallback); umpire=Umpire crew unavailable at run time.; lineups=Starting lineups were not announced for either team at publish time.; signal-count edge=Arizona Diamondbacks (14-13); Arizona Diamondbacks favored metrics=avg, groundOuts, airOuts, doubles, triples, homeRuns (+8 more); San Diego Padres favored metrics=runs, whip, hitsPer9Inn, runsScoredPer9, homeRunsPer9, era (+7 more).</p>
+        <details>
+          <summary>Expanded game context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 81.1°F, Wind 11.4 mph, Humidity 16%, P.O.P. 48% (Covers fallback)</li>
+            <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
+            <li><strong>Arizona Diamondbacks Injuries:</strong> Adrian Del Castillo (Active), Alek Thomas (Active), Andrew Hoffmann (Active), Aramis Garcia (Active), Brandon Pfaadt (Active), Corbin Carroll (Active), Eduardo Rodriguez (Active), Geraldo Perdomo (Active)</li>
+            <li><strong>San Diego Padres Injuries:</strong> Adrian Morejon (Active), Bradgley Rodriguez (Active), Bryce Johnson (Active), David Morgan (Active), Fernando Tatis Jr. (Active), Freddy Fermin (Active), Gavin Sheets (Active), Germán Márquez (Active)</li>
+            <li><strong>Starting Lineups:</strong> Starting lineups were not announced for either team at publish time.</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
+            <li><strong>Line Movement:</strong> Moneyline unchanged at 110.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Underdog 2</div>
+          <h2>Los Angeles Angels over Kansas City Royals</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="seo-line">Los Angeles Angels vs Kansas City Royals prediction — 2026-04-26 • First pitch: 7:20 PM ET</div>
+        <div class="meta-grid">
+          <div><span>Odds</span><strong>+104</strong></div>
+          <div><span>Confidence</span><strong>0.003 (data points: 11.317/22.563000000000002)</strong></div>
+          <div><span>Pitching</span><strong>Reid Detmers vs Seth Lugo</strong></div>
+          <div><span>Venue</span><strong>Kauffman Stadium</strong></div>
+        </div>
+        <p class="lede">Toby Quinn (Contrarian) — First-pitch read: Los Angeles Angels over Kansas City Royals at +104. Model confidence is 0.003 on 11.317/22.563000000000002. Market framing still leaves room for this side to win without a perfect script. The preferred side grades better on run creation quality, run prevention stability, matchup history leverage, and recent form, while the opposing profile still shows volatility around run creation quality, run prevention stability, and matchup history leverage. Market movement reads: Moneyline unchanged at 104. Lineup status: Starting lineups were not announced for either team at publish time. Metrics context: Pricing context is closer to balanced; bullpen fatigue context is mostly even; books are tightly aligned. Weather and crew context: 74.8°F, Wind 13.0 mph SSE (out to LF), Humidity 62%, P.O.P. 26% (Open-Meteo fallback) / Umpire crew unavailable at run time. Evaluated metrics (team-favor): confidence=0.003 (data points: 11.317/22.563000000000002); odds=+104; pitching=Reid Detmers vs Seth Lugo; line move=Moneyline unchanged at 104.; weather=74.8°F, Wind 13.0 mph SSE (out to LF), Humidity 62%, P.O.P. 26% (Open-Meteo fallback); umpire=Umpire crew unavailable at run time.; lineups=Starting lineups were not announced for either team at publish time.; signal-count edge=Los Angeles Angels (11-10); Los Angeles Angels favored metrics=airOuts, runs, homeRuns, strikeoutWalkRatio, strikeoutsPer9Inn, walksPer9Inn (+5 more); Kansas City Royals favored metrics=avg, groundOuts, doubles, rbi, whip, hitsPer9Inn (+4 more).</p>
+        <details>
+          <summary>Expanded game context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 74.8°F, Wind 13.0 mph SSE (out to LF), Humidity 62%, P.O.P. 26% (Open-Meteo fallback)</li>
+            <li><strong>Umpire Crew:</strong> Umpire crew unavailable at run time.</li>
+            <li><strong>Los Angeles Angels Injuries:</strong> Adam Frazier (Active), Brent Suter (Active), Bryce Teodosio (Active), Chase Silseth (Active), Drew Pomeranz (Active), Jack Kochanowicz (Active), Jo Adell (Active), Jordan Romano (Active)</li>
+            <li><strong>Kansas City Royals Injuries:</strong> Alex Lange (Active), Bobby Witt Jr. (Active), Carter Jensen (Active), Cole Ragans (Active), Daniel Lynch IV (Active), Eli Morgan (Active), Elias Díaz (Active), Isaac Collins (Active)</li>
+            <li><strong>Starting Lineups:</strong> Starting lineups were not announced for either team at publish time.</li>
+            <li><strong>Lineup Change Impact:</strong> n/a</li>
+            <li><strong>Line Movement:</strong> Moneyline unchanged at 104.</li>
+          </ul>
+        </details>
+      </article>
+    
+    <footer>Published by SportzBallz.io</footer>
   </main>
   
   <script>
