@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Miami Marlins",
+      "winner": "Cleveland Guardians",
+      "loser": "Tampa Bay Rays",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.685,
-      "odds": -100,
+      "line": 7.75,
+      "confidence": 0.864,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     }
