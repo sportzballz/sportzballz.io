@@ -72,9 +72,9 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Miami Marlins",
       "pick": "OVER",
-      "line": 8.45,
+      "line": 8.5,
       "confidence": 0.685,
-      "odds": -106,
+      "odds": -100,
       "result": "PENDING",
       "profit": 0.0
     }
