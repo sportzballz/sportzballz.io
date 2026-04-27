@@ -72,9 +72,9 @@
       "winner": "Cleveland Guardians",
       "loser": "Tampa Bay Rays",
       "pick": "OVER",
-      "line": 7.5,
-      "confidence": 0.564,
-      "odds": -115,
+      "line": 7.55,
+      "confidence": 0.714,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
