@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Miami Marlins",
-      "pick": "OVER",
-      "line": 8.14,
-      "confidence": 0.622,
-      "odds": -108,
+      "winner": "New York Mets",
+      "loser": "Washington Nationals",
+      "pick": "UNDER",
+      "line": 7.82,
+      "confidence": 0.583,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     }
@@ -82,37 +82,46 @@
   {
     "date": "2026-04-27",
     "total_picks": 8,
-    "decided": 5,
-    "wins": 2,
-    "losses": 3,
-    "pending": 3,
-    "win_rate": 40.0,
+    "decided": 8,
+    "wins": 3,
+    "losses": 5,
+    "pending": 0,
+    "win_rate": 37.5,
     "plus_money_total": 2,
-    "plus_money_decided": 1,
+    "plus_money_decided": 2,
     "plus_money_wins": 1,
-    "plus_money_losses": 0,
-    "plus_money_win_rate": 100.0,
+    "plus_money_losses": 1,
+    "plus_money_win_rate": 50.0,
     "segments": {
       "all_picks": {
         "total": 8,
-        "decided": 5,
-        "wins": 2,
-        "losses": 3,
-        "profit": -133.65,
-        "roi_pct": -26.73,
+        "decided": 8,
+        "wins": 3,
+        "losses": 5,
+        "profit": -300.54,
+        "roi_pct": -37.57,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 33.11,
+        "roi_pct": 33.11,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
+        "decided": 3,
+        "wins": 2,
+        "losses": 1,
+        "profit": 38.11,
+        "roi_pct": 12.7,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 2,
         "decided": 2,
         "wins": 1,
         "losses": 1,
@@ -120,22 +129,13 @@
         "roi_pct": 2.5,
         "stake_per_pick": 100.0
       },
-      "plus_money_picks": {
-        "total": 2,
-        "decided": 1,
-        "wins": 1,
-        "losses": 0,
-        "profit": 105.0,
-        "roi_pct": 105.0,
-        "stake_per_pick": 100.0
-      },
       "run_total_picks": {
         "total": 8,
-        "decided": 5,
-        "wins": 2,
-        "losses": 3,
-        "profit": -111.87,
-        "roi_pct": -22.37,
+        "decided": 8,
+        "wins": 3,
+        "losses": 5,
+        "profit": -218.41,
+        "roi_pct": -27.3,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
