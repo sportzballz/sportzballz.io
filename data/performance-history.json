@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Mets",
-      "loser": "Washington Nationals",
-      "pick": "UNDER",
-      "line": 7.73,
-      "confidence": 0.781,
-      "odds": -108,
+      "winner": "Los Angeles Dodgers",
+      "loser": "Miami Marlins",
+      "pick": "OVER",
+      "line": 8.33,
+      "confidence": 0.772,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     }
