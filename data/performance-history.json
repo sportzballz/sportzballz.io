@@ -72,9 +72,9 @@
       "winner": "Seattle Mariners",
       "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 8.0,
+      "line": 8.05,
       "confidence": 0.679,
-      "odds": -115,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
