@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Houston Astros",
-      "loser": "Baltimore Orioles",
-      "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.623,
-      "odds": -104,
+      "winner": "Tampa Bay Rays",
+      "loser": "Cleveland Guardians",
+      "pick": "UNDER",
+      "line": 6.5,
+      "confidence": 0.753,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     }
