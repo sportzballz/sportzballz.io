@@ -5,29 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9A%BE%3C/text%3E%3C/svg%3E" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <title>SportzBallz | Performance Dashboard</title>
-  <meta name="description" content="SportzBallz historical MLB pick performance, records, and plus-money metrics." />
+  <title>SportzBallz | Run Total Picks</title>
+  <meta name="description" content="SportzBallz MLB run total picks for 2026-04-30." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
-  <link rel="canonical" href="https://sportzballz.io/dashboard.html" />
+  <link rel="canonical" href="https://sportzballz.io/2026-04-30-run-totals-polished.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="SportzBallz" />
-  <meta property="og:title" content="SportzBallz | Performance Dashboard" />
-  <meta property="og:description" content="Track win rates, records, and plus-money outcomes over time." />
-  <meta property="og:url" content="https://sportzballz.io/dashboard.html" />
+  <meta property="og:title" content="SportzBallz Run Total Picks — 2026-04-30" />
+  <meta property="og:description" content="MLB totals leans built from confidence, pricing, weather and movement context." />
+  <meta property="og:url" content="https://sportzballz.io/2026-04-30-run-totals-polished.html" />
   <meta name="twitter:card" content="summary_large_image" />
   <style>
-    :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#5cc9ff; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%); color:var(--ink); font-family:Inter,system-ui,sans-serif; }
-    .wrap { max-width:1100px; margin:0 auto; padding:24px 16px 48px; }
-    .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:14px; }
-    h1 { margin:0 0 8px; font-size:34px; }
-    .meta { color:var(--muted); margin-bottom:8px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; }
-    .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:12px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#f59e0b; --accent2:#5cc9ff; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%);color:var(--ink);line-height:1.65}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+    header{background:linear-gradient(135deg, rgba(245,158,11,.20), rgba(92,201,255,.10));border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px}
+    .kicker{font:600 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+    h1{margin:8px 0 10px;font-size:clamp(30px,5vw,46px);line-height:1.05}
+    .sub{color:var(--muted);font-family:Inter,system-ui,sans-serif;font-size:14px}
+    .header-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+    .reload-btn{display:inline-block;border:1px solid #4c6db0;background:#10203b;color:#dff2ff;border-radius:10px;padding:8px 12px;font:600 12px Inter,system-ui,sans-serif;cursor:pointer;text-decoration:none}
+    .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:0 0 14px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
     .ad-label{font:700 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9cc4ff}
     .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
     .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
+    .pick-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 8px 22px rgba(2,8,24,.32)}
+    .pick-head h2{margin:4px 0 8px;font-size:27px;line-height:1.15}
+    .seo-line{font:600 12px/1.3 Inter,system-ui,sans-serif;color:#a9c6ff;letter-spacing:.02em;margin-top:2px}
+    .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .res{display:inline-flex;align-items:center;justify-content:center;padding:5px 9px;border-radius:999px;border:1px solid #35518f;font:700 11px/1 Inter,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#dce8ff;background:rgba(255,255,255,.04)}
+    .res-win{color:#7CFFB3;border-color:#2f8f57;background:rgba(52,211,153,.12)}
+    .res-loss{color:#ff9ca0;border-color:#a13d47;background:rgba(239,68,68,.14)}
+    .res-push{color:#fde68a;border-color:#d4a11d;background:rgba(212,161,29,.18)}
+    .res-pending{color:#cfe1ff;border-color:#3c5c97;background:rgba(59,130,246,.12)}
+    .res-inprogress{color:#fde68a;border-color:#f59e0b;background:rgba(245,158,11,.18)}
+    .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
+    .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 12px;padding:10px 0 2px}
+    .meta-grid div{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
+    .meta-grid span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+    .meta-grid strong{font:600 15px/1.35 Inter,system-ui,sans-serif;color:#dce8ff}
+    .lede{font-size:18px;line-height:1.55;margin:12px 0 8px;color:#f2f6ff}
+    details{margin-top:8px;border-top:1px solid #264377;padding-top:8px}
+    summary{cursor:pointer;font:600 14px Inter,system-ui,sans-serif;color:#fbbf24}
+    ul{margin:10px 0 0 18px;padding:0}
+    li{margin:6px 0}
     
     .nav-toolbar { margin:14px 0 18px; display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:10px; align-items:start; }
     .toolbar-group { border:1px solid #2d446f; border-radius:12px; padding:10px; background:#0f1a30; min-height:56px; display:flex; flex-direction:column; justify-content:flex-start; }
@@ -49,21 +71,7 @@
     .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:#1b3d67; border:1px solid #2f679f; border-radius:999px; padding:3px 7px; white-space:nowrap; }
     @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
 
-    .k { border:1px dashed #31508e; border-radius:10px; padding:10px; }
-    .k span { display:block; color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
-    .k strong { font-size:20px; }
-    .chart-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:10px; }
-    .chart-card { border:1px dashed #31508e; border-radius:10px; padding:10px; background:rgba(255,255,255,.02); }
-    .chart-card h3 { margin:0 0 6px; font-size:16px; }
-    .chart-meta { color:#cfe1ff; font-size:12px; margin-bottom:6px; }
-    .chart-foot { color:var(--muted); font-size:11px; margin-top:4px; }
-    .spark { width:100%; height:120px; display:block; }
-    table { width:100%; border-collapse:collapse; }
-    th, td { border-bottom:1px solid #2a3f70; padding:10px 8px; text-align:left; }
-    th { color:#cfe0ff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
-    td { color:#e2ecff; }
-    a { color:#8ad8ff; text-decoration:none; }
-    .links a { display:inline-block; margin-right:8px; border:1px solid #31508e; border-radius:8px; padding:6px 10px; }
+    footer{margin-top:10px;color:var(--muted);font:12px Inter,system-ui,sans-serif;text-align:right}
   </style>
 <style id="preferred-theme">
     :root{--bg:#060b17!important;--panel:#0b1328!important;--ink:#e6f1ff!important;--muted:#93a7cc!important;--line:#28436d!important;--accent:#00d1ff!important;--accent2:#7cff7a!important}
@@ -85,6 +93,16 @@
 </head>
 <body>
   <main class="wrap">
+    <header>
+      <div class="header-row">
+        <div>
+          <div class="kicker">SportzBallz Totals Desk</div>
+          <h1>Run Total Picks — 2026-04-30</h1>
+          <div class="sub">Model: dutch • Updated 2026-04-30 05:07 AM</div>
+        </div>
+        <a class="reload-btn" href="" data-reload="1">Reload</a>
+      </div>
+    </header>
     
       <div class="nav-toolbar">
         <a class="toolbar-group toolbar-direct-link" href="https://sportzballz.io">⚾ Latest Daily Picks</a>
@@ -329,85 +347,220 @@
         </details>
       </div>
     
-    <div class="card">
-      <h1>Performance Dashboard</h1>
-      <div class="meta">Auto-tracked from published daily picks. Assumption: flat <strong>$100 stake</strong> on each decided pick in each strategy bucket.</div>
-      <div class="links"><a href="/">Home</a> <a href="/media-kit.html">Media Kit</a> <a href="/rate-card.html">Rate Card</a> <a href="/contact.html">Contact</a></div>
-      <section class="ad-slot" data-slot="dashboard-top">
+    <section class="ad-slot" data-slot="run-totals-top">
       <div class="ad-label">Sponsored</div>
-      <div class="ad-copy">Dashboard Sponsorship • Your brand could be here.</div>
+      <div class="ad-copy">Run Totals Sponsorship • Your brand could be here.</div>
       <a class="ad-cta" href="/media-kit.html">Advertise on SportzBallz</a>
     </section>
-      <div class="grid">
-        <div class="k"><span>Total Picks Logged</span><strong>338</strong></div>
-        <div class="k"><span>All Picks Record</span><strong>160-167</strong></div>
-        <div class="k"><span>All Picks Profit</span><strong>$-3100.79</strong></div>
-        <div class="k"><span>All Picks ROI</span><strong>-9.48%</strong></div>
-        <div class="k"><span>Plus Money Record</span><strong>32-34</strong></div>
-        <div class="k"><span>Plus Money ROI</span><strong>9.17%</strong></div>
-        <div class="k"><span>Run Totals Record</span><strong>166-137</strong></div>
-        <div class="k"><span>Run Totals ROI</span><strong>5.27%</strong></div>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2 style="margin-top:0">Season Strategy Charts</h2>
-      <div class="chart-grid">
-        
-            <div class='chart-card'>
-              <h3>All Picks</h3>
-              <div class='chart-meta'>Record: 160-167 • Profit: $-3100.79 • ROI: -9.48%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#5cc9ff' stroke-width='2.5' points='10.0,10.2 23.6,10.8 37.2,10.0 50.8,41.1 64.4,36.1 78.0,44.7 91.6,61.2 105.2,79.6 118.8,78.4 132.4,84.2 146.0,72.6 159.6,63.6 173.2,79.6 186.8,76.9 200.4,90.3 214.0,93.0 227.6,110.0 241.2,103.5 254.8,105.6 268.4,100.1 282.0,107.2 295.6,98.0 309.2,105.2 322.8,98.7 336.4,93.3 350.0,93.3' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Best Confidence Pick</h3>
-              <div class='chart-meta'>Record: 11-13 • Profit: $-363.09 • ROI: -15.13%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#a78bfa' stroke-width='2.5' points='10.0,10.0 23.6,26.0 37.2,26.0 50.8,41.9 64.4,57.9 78.0,50.8 91.6,66.8 105.2,82.7 118.8,98.7 132.4,89.3 146.0,70.9 159.6,56.5 173.2,72.5 186.8,88.4 200.4,104.4 214.0,94.0 227.6,110.0 241.2,99.9 254.8,88.2 268.4,74.0 282.0,63.2 295.6,79.1 309.2,73.9 322.8,89.8 336.4,105.8 350.0,105.8' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Top 3 Confidence Picks</h3>
-              <div class='chart-meta'>Record: 37-35 • Profit: $-651.27 • ROI: -9.05%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#34d399' stroke-width='2.5' points='10.0,15.6 23.6,15.9 37.2,10.0 50.8,36.1 64.4,29.8 78.0,28.4 91.6,41.2 105.2,54.2 118.8,67.6 132.4,61.7 146.0,41.7 159.6,51.3 173.2,63.8 186.8,75.9 200.4,87.6 214.0,86.4 227.6,98.1 241.2,110.0 254.8,106.6 268.4,100.7 282.0,97.8 295.6,92.6 309.2,89.2 322.8,101.8 336.4,93.2 350.0,93.2' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Plus Money Picks</h3>
-              <div class='chart-meta'>Record: 32-34 • Profit: $605.00 • ROI: 9.17%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#f59e0b' stroke-width='2.5' points='10.0,10.0 23.6,10.0 37.2,23.9 50.8,51.6 64.4,14.2 78.0,14.2 91.6,55.8 105.2,95.3 118.8,102.0 132.4,70.2 146.0,67.8 159.6,20.0 173.2,75.5 186.8,57.7 200.4,68.7 214.0,66.6 227.6,66.6 241.2,74.9 254.8,88.8 268.4,70.5 282.0,110.0 295.6,78.0 309.2,77.3 322.8,75.7 336.4,25.1 350.0,25.1' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Run Total Picks</h3>
-              <div class='chart-meta'>Record: 166-137 • Profit: $1597.37 • ROI: 5.27%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#fb7185' stroke-width='2.5' points='10.0,109.8 23.6,110.0 37.2,102.2 50.8,100.7 64.4,108.8 78.0,85.8 91.6,91.9 105.2,91.0 118.8,62.5 132.4,76.8 146.0,70.9 159.6,72.7 173.2,79.1 186.8,74.2 200.4,72.6 214.0,59.2 227.6,37.5 241.2,28.8 254.8,27.0 268.4,40.4 282.0,19.1 295.6,10.0 309.2,18.9 322.8,41.0 336.4,58.7 350.0,58.7' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-            <div class='chart-card'>
-              <h3>Top Run Total Confidence Pick</h3>
-              <div class='chart-meta'>Record: 15-7 • Profit: $837.40 • ROI: 38.06%</div>
-              <svg viewBox='0 0 360 120' class='spark'><line x1='10' y1='110' x2='350' y2='110' stroke='#31508e' /><polyline fill='none' stroke='#22d3ee' stroke-width='2.5' points='10.0,110.0 23.6,110.0 37.2,110.0 50.8,88.6 64.4,97.3 78.0,89.5 91.6,81.0 105.2,89.8 118.8,81.5 132.4,73.5 146.0,65.4 159.6,57.6 173.2,66.3 186.8,58.4 200.4,49.7 214.0,41.7 227.6,33.6 241.2,25.2 254.8,34.0 268.4,25.1 282.0,17.9 295.6,10.0 309.2,18.8 322.8,27.6 336.4,36.4 350.0,36.4' /></svg>
-              <div class='chart-foot'>Cumulative profit (flat $100 per decided pick)</div>
-            </div>
-            
-      </div>
-    </div>
-
-    <div class="card">
-      <h2 style="margin-top:0">Daily Performance</h2>
-      <table>
-        <thead><tr><th>Date</th><th>All Picks</th><th>Best Confidence</th><th>Top 3 Confidence</th><th>Plus Money</th><th>Run Totals</th><th>Top Run Total Pick</th><th>Pending</th></tr></thead>
-        <tbody>
-          <tr><td><a href='/2026-04-30-polished.html'>2026-04-30</a></td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td>0-0 ($0.00)</td><td><a href='/2026-04-30-run-totals-polished.html'>Toronto Blue Jays vs Minnesota Twins — OVER 7.91</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.477 • PENDING</span></td><td>9</td></tr><tr><td><a href='/2026-04-29-polished.html'>2026-04-29</a></td><td>7-5 ($225.39)</td><td>0-1 ($-100.00)</td><td>2-1 ($98.72)</td><td>3-0 ($365.00)</td><td>4-8 ($-436.30)</td><td><a href='/2026-04-29-run-totals-polished.html'>Seattle Mariners vs Minnesota Twins — OVER 8.05</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.679 • LOSS</span></td><td>1</td></tr><tr><td><a href='/2026-04-28-polished.html'>2026-04-28</a></td><td>10-5 ($268.93)</td><td>0-1 ($-100.00)</td><td>1-2 ($-144.13)</td><td>1-1 ($11.00)</td><td>5-10 ($-544.48)</td><td><a href='/2026-04-28-run-totals-polished.html'>Los Angeles Dodgers vs Miami Marlins — OVER 8.25</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.864 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-27-polished.html'>2026-04-27</a></td><td>3-5 ($-300.54)</td><td>1-0 ($33.11)</td><td>2-1 ($38.11)</td><td>1-1 ($5.00)</td><td>3-5 ($-218.41)</td><td><a href='/2026-04-27-run-totals-polished.html'>Cleveland Guardians vs Tampa Bay Rays — OVER 7.75</a><br><span style='color:#a7b7df;font-size:12px'>conf 1.070 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-26-polished.html'>2026-04-26</a></td><td>11-5 ($386.75)</td><td>0-1 ($-100.00)</td><td>2-1 ($60.37)</td><td>2-0 ($231.00)</td><td>9-6 ($223.72)</td><td><a href='/2026-04-26-run-totals-polished.html'>Houston Astros vs New York Yankees — OVER 9.5</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.707 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-25-polished.html'>2026-04-25</a></td><td>6-8 ($-298.81)</td><td>1-0 ($68.03)</td><td>2-1 ($32.96)</td><td>1-4 ($-285.00)</td><td>10-4 ($525.75)</td><td><a href='/2026-04-25-run-totals-polished.html'>New York Yankees vs Houston Astros — OVER 9.25</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.756 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-24-polished.html'>2026-04-24</a></td><td>5-4 ($230.30)</td><td>1-0 ($88.50)</td><td>2-1 ($68.50)</td><td>0-0 ($132.00)</td><td>2-6 ($-330.15)</td><td><a href='/2026-04-24-run-totals-polished.html'>Detroit Tigers vs Cincinnati Reds — OVER 9.4</a><br><span style='color:#a7b7df;font-size:12px'>conf 1.011 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-23-polished.html'>2026-04-23</a></td><td>5-4 ($-87.40)</td><td>1-0 ($73.53)</td><td>2-1 ($38.46)</td><td>0-1 ($-100.00)</td><td>5-4 ($44.38)</td><td><a href='/2026-04-23-run-totals-polished.html'>Atlanta Braves vs Washington Nationals — OVER 9.4</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.998 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-22-polished.html'>2026-04-22</a></td><td>10-5 ($271.24)</td><td>1-0 ($63.29)</td><td>1-2 ($-136.71)</td><td>1-2 ($-60.00)</td><td>9-6 ($212.76)</td><td><a href='/2026-04-22-run-totals-polished.html'>Atlanta Braves vs Washington Nationals — OVER 9.17</a><br><span style='color:#a7b7df;font-size:12px'>conf 1.103 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-21-polished.html'>2026-04-21</a></td><td>4-10 ($-709.28)</td><td>0-1 ($-100.00)</td><td>1-2 ($-134.64)</td><td>0-0 ($0.00)</td><td>10-4 ($535.58)</td><td><a href='/2026-04-21-run-totals-polished.html'>Kansas City Royals vs Baltimore Orioles — OVER 9.17</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.944 • WIN</span></td><td>1</td></tr><tr><td><a href='/2026-04-20-polished.html'>2026-04-20</a></td><td>5-5 ($-110.57)</td><td>1-0 ($64.94)</td><td>2-1 ($13.72)</td><td>1-1 ($15.00)</td><td>7-3 ($329.85)</td><td><a href='/2026-04-20-run-totals-polished.html'>Detroit Tigers vs Boston Red Sox — OVER 8.0</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.853 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-19-polished.html'>2026-04-19</a></td><td>5-10 ($-560.72)</td><td>0-1 ($-100.00)</td><td>1-2 ($-134.21)</td><td>1-2 ($-79.00)</td><td>7-6 ($39.96)</td><td><a href='/2026-04-19-run-totals-polished.html'>Athletics vs Chicago White Sox — OVER 9.5</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.854 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-18-polished.html'>2026-04-18</a></td><td>9-6 ($112.08)</td><td>0-1 ($-100.00)</td><td>1-2 ($-138.65)</td><td>1-0 ($128.00)</td><td>8-6 ($119.12)</td><td><a href='/2026-04-18-run-totals-polished.html'>Minnesota Twins vs Cincinnati Reds — OVER 8.0</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.863 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-17-polished.html'>2026-04-17</a></td><td>5-10 ($-667.71)</td><td>0-1 ($-100.00)</td><td>1-2 ($-143.50)</td><td>0-4 ($-400.00)</td><td>7-8 ($-158.08)</td><td><a href='/2026-04-17-run-totals-polished.html'>New York Yankees vs Kansas City Royals — OVER 8.05</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.927 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-16-polished.html'>2026-04-16</a></td><td>7-3 ($376.69)</td><td>1-0 ($90.09)</td><td>1-2 ($-109.91)</td><td>3-0 ($345.00)</td><td>5-5 ($-42.55)</td><td><a href='/2026-04-16-run-totals-polished.html'>New York Yankees vs Los Angeles Angels — OVER 9.77</a><br><span style='color:#a7b7df;font-size:12px'>conf 1.065 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-15-polished.html'>2026-04-15</a></td><td>11-4 ($482.02)</td><td>1-0 ($115.00)</td><td>3-0 ($229.26)</td><td>2-2 ($17.00)</td><td>8-6 ($143.98)</td><td><a href='/2026-04-15-run-totals-polished.html'>Philadelphia Phillies vs Chicago Cubs — OVER 8.95</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.843 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-14-polished.html'>2026-04-14</a></td><td>7-8 ($-240.56)</td><td>1-0 ($59.17)</td><td>2-1 ($68.17)</td><td>2-0 ($229.00)</td><td>6-9 ($-352.23)</td><td><a href='/2026-04-14-run-totals-polished.html'>Philadelphia Phillies vs Chicago Cubs — OVER 8.65</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.794 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-13-polished.html'>2026-04-13</a></td><td>6-4 ($51.75)</td><td>0-1 ($-100.00)</td><td>1-2 ($-154.34)</td><td>1-2 ($-48.00)</td><td>9-1 ($703.01)</td><td><a href='/2026-04-13-run-totals-polished.html'>Philadelphia Phillies vs Chicago Cubs — OVER 9.5</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.788 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-12-polished.html'>2026-04-12</a></td><td>4-11 ($-767.55)</td><td>0-1 ($-100.00)</td><td>1-2 ($-148.98)</td><td>1-4 ($-285.00)</td><td>8-7 ($21.50)</td><td><a href='/2026-04-12-run-totals-polished.html'>Kansas City Royals vs Chicago White Sox — UNDER 8.68</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.738 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-11-polished.html'>2026-04-11</a></td><td>5-10 ($-690.22)</td><td>0-1 ($-100.00)</td><td>1-2 ($-147.09)</td><td>0-3 ($-300.00)</td><td>7-8 ($-151.09)</td><td><a href='/2026-04-11-run-totals-polished.html'>New York Mets vs Athletics — OVER 8.0</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.504 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-10-polished.html'>2026-04-10</a></td><td>7-8 ($-355.67)</td><td>1-0 ($44.25)</td><td>2-1 ($16.71)</td><td>0-0 ($0.00)</td><td>10-5 ($567.60)</td><td><a href='/2026-04-10-run-totals-polished.html'>Philadelphia Phillies vs Arizona Diamondbacks — OVER 8.5</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.621 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-09-polished.html'>2026-04-09</a></td><td>4-2 ($207.89)</td><td>0-1 ($-100.00)</td><td>2-1 ($72.25)</td><td>2-0 ($270.00)</td><td>0-2 ($-200.00)</td><td><a href='/2026-04-09-run-totals-polished.html'>Kansas City Royals vs Chicago White Sox — OVER 8.22</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.624 • LOSS</span></td><td>0</td></tr><tr><td><a href='/2026-04-08-polished.html'>2026-04-08</a></td><td>2-13 ($-1297.18)</td><td>0-1 ($-100.00)</td><td>0-3 ($-300.00)</td><td>0-2 ($-200.00)</td><td>2-3 ($38.24)</td><td><a href='/2026-04-08-run-totals-polished.html'>Detroit Tigers vs Minnesota Twins — OVER 8.17</a><br><span style='color:#a7b7df;font-size:12px'>conf 0.427 • WIN</span></td><td>0</td></tr><tr><td><a href='/2026-04-07-polished.html'>2026-04-07</a></td><td>7-8 ($32.50)</td><td>0-0 ($0.00)</td><td>1-0 ($67.57)</td><td>2-3 ($-100.00)</td><td>8-5 ($190.91)</td><td>—</td><td>0</td></tr><tr><td><a href='/2026-04-06-polished.html'>2026-04-06</a></td><td>7-6 ($-22.27)</td><td>0-1 ($-100.00)</td><td>1-1 ($-2.91)</td><td>1-1 ($0.00)</td><td>7-6 ($-4.76)</td><td>—</td><td>0</td></tr><tr><td><a href='/2026-04-05-polished.html'>2026-04-05</a></td><td>8-8 ($362.15)</td><td>1-0 ($237.00)</td><td>2-1 ($239.00)</td><td>6-1 ($714.00)</td><td>10-4 ($339.06)</td><td>—</td><td>0</td></tr>
-        </tbody>
-      </table>
-    </div>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 1</div>
+          <h2>Toronto Blue Jays vs Minnesota Twins — OVER 7.91</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 7.91</strong></div>
+          <div><span>Odds</span><strong>-105</strong></div>
+          <div><span>Confidence</span><strong>0.477</strong></div>
+          <div><span>Venue</span><strong>Target Field</strong></div>
+          <div><span>Game Info</span><strong>Start: 7:40 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: OVER 7.91 in Toronto Blue Jays vs Minnesota Twins. Supporting context includes cool run environment, offensive indicator edge, team/park run history leans over, savant contact quality leans over.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 48.1°F, Wind 9.4 mph NNW (out to CF), Humidity 41%, P.O.P. 2% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 7.91.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 2</div>
+          <h2>Arizona Diamondbacks vs Milwaukee Brewers — OVER 7.5</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 7.5</strong></div>
+          <div><span>Odds</span><strong>-114</strong></div>
+          <div><span>Confidence</span><strong>0.316</strong></div>
+          <div><span>Venue</span><strong>American Family Field</strong></div>
+          <div><span>Game Info</span><strong>Start: 1:40 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: OVER 7.5 in Arizona Diamondbacks vs Milwaukee Brewers. Supporting context includes roof-controlled environment, offensive indicator edge, team/park run history leans over, savant hard-hit profile leans under.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 7.5.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 3</div>
+          <h2>Athletics vs Kansas City Royals — UNDER 9.68</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 9.68</strong></div>
+          <div><span>Odds</span><strong>-108</strong></div>
+          <div><span>Confidence</span><strong>0.296</strong></div>
+          <div><span>Venue</span><strong>Sutter Health Park</strong></div>
+          <div><span>Game Info</span><strong>Start: 3:05 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: UNDER 9.68 in Athletics vs Kansas City Royals. Supporting context includes team/park run history leans under, savant contact quality leans over, savant hard-hit profile leans under.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 75.6°F, Wind 3.0 mph NW (in from RF), Humidity 49%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 9.68.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 4</div>
+          <h2>Atlanta Braves vs Detroit Tigers — UNDER 8.45</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 8.45</strong></div>
+          <div><span>Odds</span><strong>-113</strong></div>
+          <div><span>Confidence</span><strong>0.273</strong></div>
+          <div><span>Venue</span><strong>Truist Park</strong></div>
+          <div><span>Game Info</span><strong>Start: 12:15 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: UNDER 8.45 in Atlanta Braves vs Detroit Tigers. Supporting context includes savant hard-hit profile leans under.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 65.7°F, Wind 9.7 mph NW (out to CF), Humidity 68%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 8.45.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 5</div>
+          <h2>Cincinnati Reds vs Colorado Rockies — OVER 9.0</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 9.0</strong></div>
+          <div><span>Odds</span><strong>-104</strong></div>
+          <div><span>Confidence</span><strong>0.237</strong></div>
+          <div><span>Venue</span><strong>Great American Ball Park</strong></div>
+          <div><span>Game Info</span><strong>Start: 12:40 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: OVER 9.0 in Cincinnati Reds vs Colorado Rockies. Supporting context includes wind-to-rf mismatches right-heavy top bats, cool run environment, offensive indicator edge, park leans hitter-friendly.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 53.3°F, Wind 8.7 mph NNW (out to RF), Humidity 60%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 9.0.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 6</div>
+          <h2>Pittsburgh Pirates vs St. Louis Cardinals — OVER 7.36</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>OVER 7.36</strong></div>
+          <div><span>Odds</span><strong>-105</strong></div>
+          <div><span>Confidence</span><strong>0.205</strong></div>
+          <div><span>Venue</span><strong>PNC Park</strong></div>
+          <div><span>Game Info</span><strong>Start: 12:35 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: OVER 7.36 in Pittsburgh Pirates vs St. Louis Cardinals. Supporting context includes cool run environment, high humidity suppresses carry, offensive indicator edge, team/park run history leans over.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 45.6°F, Wind 9.3 mph WNW (out to CF), Humidity 82%, P.O.P. 5% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 7.36.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 7</div>
+          <h2>Houston Astros vs Baltimore Orioles — UNDER 8.5</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 8.5</strong></div>
+          <div><span>Odds</span><strong>+101</strong></div>
+          <div><span>Confidence</span><strong>0.186</strong></div>
+          <div><span>Venue</span><strong>Oriole Park at Camden Yards</strong></div>
+          <div><span>Game Info</span><strong>Start: 12:35 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: UNDER 8.5 in Houston Astros vs Baltimore Orioles. Supporting context includes wind-to-rf mismatches right-heavy top bats, offensive indicator edge, market moved total down, team/park run history leans over.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 62.5°F, Wind 10.8 mph WNW (out to RF), Humidity 59%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total moved down from 9.0 to 8.5 (-0.5).</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 8</div>
+          <h2>New York Mets vs Washington Nationals — UNDER 7.59</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 7.59</strong></div>
+          <div><span>Odds</span><strong>-103</strong></div>
+          <div><span>Confidence</span><strong>0.162</strong></div>
+          <div><span>Venue</span><strong>Citi Field</strong></div>
+          <div><span>Game Info</span><strong>Start: 1:10 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: UNDER 7.59 in New York Mets vs Washington Nationals. Supporting context includes cool run environment, high humidity suppresses carry, offensive indicator edge, run context favors over.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 53.2°F, Wind 3.4 mph W (out to RF), Humidity 92%, P.O.P. 0% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 7.59.</li>
+          </ul>
+        </details>
+      </article>
+    
+      <article class="pick-card">
+        <div class="pick-head">
+          <div class="pick-num">Run Total 9</div>
+          <h2>Philadelphia Phillies vs San Francisco Giants — UNDER 6.69</h2>
+          <span class="res res-pending">PENDING</span>
+        </div>
+        <div class="meta-grid">
+          <div><span>Lean</span><strong>UNDER 6.69</strong></div>
+          <div><span>Odds</span><strong>-107</strong></div>
+          <div><span>Confidence</span><strong>0.138</strong></div>
+          <div><span>Venue</span><strong>Citizens Bank Park</strong></div>
+          <div><span>Game Info</span><strong>Start: 12:35 PM ET</strong></div>
+        </div>
+        <p class="lede">Run-total lens: UNDER 6.69 in Philadelphia Phillies vs San Francisco Giants. Supporting context includes cool run environment, high humidity suppresses carry, offensive indicator edge, park leans hitter-friendly.</p>
+        <details>
+          <summary>Expanded total context</summary>
+          <ul>
+            <li><strong>Weather:</strong> 57.0°F, Wind 6.3 mph WNW (in from RF), Humidity 86%, P.O.P. 1% (Open-Meteo fallback)</li>
+            <li><strong>Total Movement:</strong> Total unchanged at 6.69.</li>
+          </ul>
+        </details>
+      </article>
+    
+    <footer>Published by SportzBallz.io</footer>
   </main>
   
   <script>
