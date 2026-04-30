@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-04-30",
-    "total_picks": 9,
+    "total_picks": 10,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 9,
+    "pending": 10,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 9,
+        "total": 10,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 9,
+        "total": 10,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -72,9 +72,9 @@
       "winner": "Athletics",
       "loser": "Kansas City Royals",
       "pick": "UNDER",
-      "line": 9.68,
-      "confidence": 0.446,
-      "odds": -109,
+      "line": 9.5,
+      "confidence": 0.596,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     }
