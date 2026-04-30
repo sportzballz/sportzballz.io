@@ -18,8 +18,8 @@
         "decided": 6,
         "wins": 2,
         "losses": 4,
-        "profit": -266.84,
-        "roi_pct": -44.47,
+        "profit": -269.78,
+        "roi_pct": -44.96,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -33,10 +33,10 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
+        "decided": 2,
         "wins": 0,
-        "losses": 1,
-        "profit": -100.0,
+        "losses": 2,
+        "profit": -200.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
