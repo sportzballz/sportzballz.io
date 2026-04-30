@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Toronto Blue Jays",
-      "loser": "Minnesota Twins",
-      "pick": "OVER",
-      "line": 7.91,
-      "confidence": 0.477,
-      "odds": -105,
+      "winner": "Athletics",
+      "loser": "Kansas City Royals",
+      "pick": "UNDER",
+      "line": 9.64,
+      "confidence": 0.596,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
@@ -82,11 +82,11 @@
   {
     "date": "2026-04-29",
     "total_picks": 13,
-    "decided": 12,
-    "wins": 7,
+    "decided": 13,
+    "wins": 8,
     "losses": 5,
-    "pending": 1,
-    "win_rate": 58.3,
+    "pending": 0,
+    "win_rate": 61.5,
     "plus_money_total": 3,
     "plus_money_decided": 3,
     "plus_money_wins": 3,
@@ -95,11 +95,11 @@
     "segments": {
       "all_picks": {
         "total": 13,
-        "decided": 12,
-        "wins": 7,
+        "decided": 13,
+        "wins": 8,
         "losses": 5,
-        "profit": 225.39,
-        "roi_pct": 18.78,
+        "profit": 309.42,
+        "roi_pct": 23.8,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -131,11 +131,11 @@
       },
       "run_total_picks": {
         "total": 13,
-        "decided": 12,
-        "wins": 4,
+        "decided": 13,
+        "wins": 5,
         "losses": 8,
-        "profit": -436.3,
-        "roi_pct": -36.36,
+        "profit": -341.06,
+        "roi_pct": -26.24,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
