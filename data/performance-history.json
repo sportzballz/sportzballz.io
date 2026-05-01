@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Milwaukee Brewers",
-      "loser": "Washington Nationals",
+      "winner": "Atlanta Braves",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.18,
-      "confidence": 0.732,
-      "odds": -110,
+      "line": 11.0,
+      "confidence": 0.627,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     }
@@ -83,21 +83,21 @@
     "date": "2026-04-30",
     "total_picks": 11,
     "decided": 11,
-    "wins": 4,
-    "losses": 7,
+    "wins": 5,
+    "losses": 6,
     "pending": 0,
-    "win_rate": 36.4,
+    "win_rate": 45.5,
     "plus_money_total": 3,
     "plus_money_decided": 3,
-    "plus_money_wins": 0,
-    "plus_money_losses": 3,
-    "plus_money_win_rate": 0.0,
+    "plus_money_wins": 1,
+    "plus_money_losses": 2,
+    "plus_money_win_rate": 33.3,
     "segments": {
       "all_picks": {
         "total": 11,
         "decided": 11,
-        "wins": 4,
-        "losses": 7,
+        "wins": 5,
+        "losses": 6,
         "profit": -414.11,
         "roi_pct": -37.65,
         "stake_per_pick": 100.0
@@ -123,8 +123,8 @@
       "plus_money_picks": {
         "total": 3,
         "decided": 3,
-        "wins": 0,
-        "losses": 3,
+        "wins": 1,
+        "losses": 2,
         "profit": -300.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
@@ -132,8 +132,8 @@
       "run_total_picks": {
         "total": 11,
         "decided": 11,
-        "wins": 7,
-        "losses": 4,
+        "wins": 6,
+        "losses": 5,
         "profit": 251.46,
         "roi_pct": 22.86,
         "stake_per_pick": 100.0
