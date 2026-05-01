@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Milwaukee Brewers",
-      "loser": "Washington Nationals",
+      "winner": "Los Angeles Dodgers",
+      "loser": "St. Louis Cardinals",
       "pick": "OVER",
-      "line": 7.93,
-      "confidence": 0.611,
-      "odds": -106,
+      "line": 8.93,
+      "confidence": 0.825,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     }
