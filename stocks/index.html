@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <title>SportzBallz | Stocks Decision Cockpit</title>
-  <meta name="description" content="SportzBallz AI Decision Cockpit for stock analysis and trade planning." />
+  <meta name='description' content='SportzBallz AI Decision Cockpit for stock analysis and trade planning.' />
   <style>
     :root{--bg:#0b1020;--panel:#121c35;--ink:#e8efff;--muted:#9db1dc;--line:#2a3f72;--accent:#63d2ff;--good:#22c55e;--warn:#f59e0b;--bad:#ef4444}
     *{box-sizing:border-box} body{margin:0;background:radial-gradient(1000px 650px at 10% -10%, #20356f, var(--bg));color:var(--ink);font-family:Inter,system-ui,sans-serif}
@@ -16,48 +16,38 @@
     .pill{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700}
     .risk-on{background:rgba(34,197,94,.18);color:#86efac}.constructive{background:rgba(99,210,255,.18);color:#a5e4ff}
     .neutral{background:rgba(245,158,11,.18);color:#fde68a}.risk-off{background:rgba(239,68,68,.18);color:#fca5a5}
-    table{width:100%;border-collapse:collapse} th,td{padding:10px 8px;border-bottom:1px solid #2a3f70;text-align:left} th{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#cfe0ff}
+    table{width:100%;border-collapse:collapse} th,td{padding:10px 8px;border-bottom:1px solid #2a3f70;text-align:left;vertical-align:top} th{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#cfe0ff}
     .act{color:#86efac;font-weight:700}.watcha{color:#a5e4ff;font-weight:700}.watchb{color:#fde68a;font-weight:700}.pass{color:#fca5a5;font-weight:700}
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <section class="card">
+  <main class='wrap'>
+    <section class='card'>
       <h1>SportzBallz Stocks — AI Decision Cockpit</h1>
-      <p class="muted">Deterministic v1 framework. No blind calls: every idea must include context + risk plan.</p>
+      <p class='muted'>Deterministic v1 framework. No blind calls: every idea includes context + risk plan.</p>
     </section>
 
-    <section class="card">
+    <section class='card'>
       <h2>Market Regime</h2>
-      <div class="grid">
-        <div class="k"><div class="muted">Regime Score</div><div style="font-size:28px;font-weight:800">--</div></div>
-        <div class="k"><div class="muted">State</div><div><span class="pill neutral">Pending Run</span></div></div>
-        <div class="k"><div class="muted">Last Updated</div><div>Pending first publish</div></div>
+      <div class='grid'>
+        <div class='k'><div class='muted'>Regime Score</div><div style='font-size:28px;font-weight:800'>75.2</div></div>
+        <div class='k'><div class='muted'>State</div><div><span class='pill risk-on'>Risk-On Trend</span></div></div>
+        <div class='k'><div class='muted'>Last Updated</div><div>2026-05-01 02:35 PM ET</div></div>
       </div>
-      <p class="muted" style="margin-top:10px">Components: Trend 30% • Volatility 25% • Breadth 25% • Macro Pressure 20%</p>
+      <p class='muted' style='margin-top:10px'>Trend 100.0 • Volatility 59.4 • Breadth 70.0 • Macro 64.1</p>
     </section>
 
-    <section class="card">
+    <section class='card'>
       <h2>Top Opportunities</h2>
       <table>
         <thead>
           <tr><th>Ticker</th><th>Opportunity Score</th><th>Action</th><th>Why Now</th><th>Risk Plan</th></tr>
         </thead>
         <tbody>
-          <tr><td colspan="5" class="muted">No scored tickers yet. Next step: wire daily scorer and populate this table.</td></tr>
+          <tr><td><strong>GOOGL</strong></td><td>92.0</td><td class='act'>Act</td><td>• Trend structure is supportive<br>• Outperforming benchmark/peer basket<br>• Liquidity quality supports cleaner execution</td><td>Entry 384.14 / Stop 368.25 / T1 415.92 / T2 431.81 / 62 sh</td></tr><tr><td><strong>AMD</strong></td><td>89.9</td><td class='act'>Act</td><td>• Trend structure is supportive<br>• Outperforming benchmark/peer basket<br>• Liquidity quality supports cleaner execution</td><td>Entry 359.77 / Stop 335.33 / T1 408.64 / T2 433.07 / 40 sh</td></tr><tr><td><strong>UNH</strong></td><td>88.3</td><td class='act'>Act</td><td>• Trend structure is supportive<br>• Outperforming benchmark/peer basket<br>• Liquidity quality supports cleaner execution</td><td>Entry 370.07 / Stop 359.29 / T1 391.63 / T2 402.41 / 92 sh</td></tr><tr><td><strong>AMZN</strong></td><td>85.6</td><td class='act'>Act</td><td>• Trend structure is supportive<br>• Outperforming benchmark/peer basket<br>• Liquidity quality supports cleaner execution</td><td>Entry 269.39 / Stop 263.52 / T1 281.14 / T2 287.02 / 170 sh</td></tr><tr><td><strong>AVGO</strong></td><td>84.0</td><td class='act'>Act</td><td>• Trend structure is supportive<br>• Outperforming benchmark/peer basket<br>• Liquidity quality supports cleaner execution</td><td>Entry 422.11 / Stop 407.38 / T1 451.57 / T2 466.3 / 54 sh</td></tr><tr><td><strong>CRWD</strong></td><td>72.1</td><td class='watcha'>Watchlist A</td><td>• Trend structure is supportive<br>• Outperforming benchmark/peer basket<br>• Liquidity quality supports cleaner execution</td><td>Entry 455.53 / Stop 440.45 / T1 485.69 / T2 500.77 / 53 sh</td></tr><tr><td><strong>AAPL</strong></td><td>71.5</td><td class='watcha'>Watchlist A</td><td>• Trend structure is supportive<br>• Liquidity quality supports cleaner execution<br>• Catalyst/sentiment profile is constructive</td><td>Entry 280.18 / Stop 272.99 / T1 294.56 / T2 301.75 / 111 sh</td></tr><tr><td><strong>PANW</strong></td><td>69.9</td><td class='watcha'>Watchlist A</td><td>• Trend structure is supportive<br>• Liquidity quality supports cleaner execution<br>• Catalyst/sentiment profile is constructive</td><td>Entry 182.06 / Stop 176.4 / T1 193.38 / T2 199.04 / 106 sh</td></tr><tr><td><strong>TSLA</strong></td><td>67.6</td><td class='watcha'>Watchlist A</td><td>• Trend structure is supportive<br>• Liquidity quality supports cleaner execution<br>• Catalyst/sentiment profile is constructive</td><td>Entry 395.35 / Stop 378.85 / T1 428.35 / T2 444.85 / 36 sh</td></tr><tr><td><strong>LLY</strong></td><td>65.7</td><td class='watcha'>Watchlist A</td><td>• Trend structure is supportive<br>• Liquidity quality supports cleaner execution<br>• Catalyst/sentiment profile is constructive</td><td>Entry 965.1 / Stop 918.02 / T1 1059.25 / T2 1106.33 / 12 sh</td></tr><tr><td><strong>ORCL</strong></td><td>64.4</td><td class='watchb'>Watchlist B</td><td>• Outperforming benchmark/peer basket<br>• Liquidity quality supports cleaner execution</td><td>Entry 172.12 / Stop 162.83 / T1 190.7 / T2 199.99 / 64 sh</td></tr><tr><td><strong>WMT</strong></td><td>63.9</td><td class='watchb'>Watchlist B</td><td>• Trend structure is supportive<br>• Liquidity quality supports cleaner execution</td><td>Entry 131.01 / Stop 128.49 / T1 136.05 / T2 138.57 / 238 sh</td></tr><tr><td><strong>NVDA</strong></td><td>62.7</td><td class='watchb'>Watchlist B</td><td>• Trend structure is supportive<br>• Outperforming benchmark/peer basket<br>• Liquidity quality supports cleaner execution</td><td>Entry 198.88 / Stop 191.59 / T1 213.47 / T2 220.77 / 82 sh</td></tr><tr><td><strong>BA</strong></td><td>61.1</td><td class='watchb'>Watchlist B</td><td>• Trend structure is supportive<br>• Liquidity quality supports cleaner execution</td><td>Entry 228.18 / Stop 220.93 / T1 242.69 / T2 249.95 / 82 sh</td></tr><tr><td><strong>JPM</strong></td><td>60.3</td><td class='watchb'>Watchlist B</td><td>• Liquidity quality supports cleaner execution<br>• Catalyst/sentiment profile is constructive</td><td>Entry 312.89 / Stop 307.84 / T1 322.98 / T2 328.02 / 118 sh</td></tr>
         </tbody>
       </table>
-      <p class="muted" style="margin-top:10px">Action bands: 80+ Act • 65–79 Watchlist A • 50–64 Watchlist B • &lt;50 Pass</p>
-    </section>
-
-    <section class="card">
-      <h2>Risk Engine Rules</h2>
-      <ul>
-        <li>Base risk per trade: <strong>1.0% max account risk</strong></li>
-        <li>Regime multiplier: Risk-On 1.0 • Constructive 0.8 • Choppy 0.5 • Risk-Off 0.25</li>
-        <li>Setup multiplier: A+ 1.0 • A 0.8 • B 0.6</li>
-        <li>Position size = Allowed risk $ / (Entry - Stop)</li>
-      </ul>
+      <p class='muted' style='margin-top:10px'>Action bands: 80+ Act • 65–79 Watchlist A • 50–64 Watchlist B • &lt;50 Pass</p>
     </section>
   </main>
 </body>
