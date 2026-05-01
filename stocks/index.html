@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SportzBallz | Stocks Decision Cockpit</title>
+  <meta name="description" content="SportzBallz AI Decision Cockpit for stock analysis and trade planning." />
+  <style>
+    :root{--bg:#0b1020;--panel:#121c35;--ink:#e8efff;--muted:#9db1dc;--line:#2a3f72;--accent:#63d2ff;--good:#22c55e;--warn:#f59e0b;--bad:#ef4444}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(1000px 650px at 10% -10%, #20356f, var(--bg));color:var(--ink);font-family:Inter,system-ui,sans-serif}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+    h1,h2{margin:0 0 10px} .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+    .k{border:1px dashed #355184;border-radius:10px;padding:10px}
+    .pill{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700}
+    .risk-on{background:rgba(34,197,94,.18);color:#86efac}.constructive{background:rgba(99,210,255,.18);color:#a5e4ff}
+    .neutral{background:rgba(245,158,11,.18);color:#fde68a}.risk-off{background:rgba(239,68,68,.18);color:#fca5a5}
+    table{width:100%;border-collapse:collapse} th,td{padding:10px 8px;border-bottom:1px solid #2a3f70;text-align:left} th{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#cfe0ff}
+    .act{color:#86efac;font-weight:700}.watcha{color:#a5e4ff;font-weight:700}.watchb{color:#fde68a;font-weight:700}.pass{color:#fca5a5;font-weight:700}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>SportzBallz Stocks — AI Decision Cockpit</h1>
+      <p class="muted">Deterministic v1 framework. No blind calls: every idea must include context + risk plan.</p>
+    </section>
+
+    <section class="card">
+      <h2>Market Regime</h2>
+      <div class="grid">
+        <div class="k"><div class="muted">Regime Score</div><div style="font-size:28px;font-weight:800">--</div></div>
+        <div class="k"><div class="muted">State</div><div><span class="pill neutral">Pending Run</span></div></div>
+        <div class="k"><div class="muted">Last Updated</div><div>Pending first publish</div></div>
+      </div>
+      <p class="muted" style="margin-top:10px">Components: Trend 30% • Volatility 25% • Breadth 25% • Macro Pressure 20%</p>
+    </section>
+
+    <section class="card">
+      <h2>Top Opportunities</h2>
+      <table>
+        <thead>
+          <tr><th>Ticker</th><th>Opportunity Score</th><th>Action</th><th>Why Now</th><th>Risk Plan</th></tr>
+        </thead>
+        <tbody>
+          <tr><td colspan="5" class="muted">No scored tickers yet. Next step: wire daily scorer and populate this table.</td></tr>
+        </tbody>
+      </table>
+      <p class="muted" style="margin-top:10px">Action bands: 80+ Act • 65–79 Watchlist A • 50–64 Watchlist B • &lt;50 Pass</p>
+    </section>
+
+    <section class="card">
+      <h2>Risk Engine Rules</h2>
+      <ul>
+        <li>Base risk per trade: <strong>1.0% max account risk</strong></li>
+        <li>Regime multiplier: Risk-On 1.0 • Constructive 0.8 • Choppy 0.5 • Risk-Off 0.25</li>
+        <li>Setup multiplier: A+ 1.0 • A 0.8 • B 0.6</li>
+        <li>Position size = Allowed risk $ / (Entry - Stop)</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
