@@ -2,11 +2,11 @@
   {
     "date": "2026-05-01",
     "total_picks": 15,
-    "decided": 0,
-    "wins": 0,
+    "decided": 1,
+    "wins": 1,
     "losses": 0,
-    "pending": 15,
-    "win_rate": null,
+    "pending": 14,
+    "win_rate": 100.0,
     "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 67.57,
+        "roi_pct": 67.57,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 90.09,
+        "roi_pct": 90.09,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -72,9 +72,9 @@
       "winner": "Milwaukee Brewers",
       "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 8.29,
-      "confidence": 0.911,
-      "odds": -104,
+      "line": 7.93,
+      "confidence": 0.611,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     }
