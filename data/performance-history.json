@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 14,
     "win_rate": null,
-    "plus_money_total": 5,
+    "plus_money_total": 6,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 5,
+        "total": 6,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Minnesota Twins",
-      "loser": "Toronto Blue Jays",
+      "winner": "Chicago Cubs",
+      "loser": "Arizona Diamondbacks",
       "pick": "OVER",
-      "line": 7.91,
-      "confidence": 0.771,
-      "odds": -106,
+      "line": 7.5,
+      "confidence": 0.868,
+      "odds": 102,
       "result": "PENDING",
       "profit": 0.0
     }
