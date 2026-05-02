@@ -72,9 +72,9 @@
       "winner": "Chicago Cubs",
       "loser": "Arizona Diamondbacks",
       "pick": "OVER",
-      "line": 7.45,
-      "confidence": 0.748,
-      "odds": -104,
+      "line": 7.5,
+      "confidence": 0.898,
+      "odds": -102,
       "result": "PENDING",
       "profit": 0.0
     }
