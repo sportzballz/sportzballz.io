@@ -2,11 +2,11 @@
   {
     "date": "2026-05-02",
     "total_picks": 15,
-    "decided": 0,
-    "wins": 0,
+    "decided": 2,
+    "wins": 2,
     "losses": 0,
-    "pending": 15,
-    "win_rate": null,
+    "pending": 13,
+    "win_rate": 100.0,
     "plus_money_total": 6,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 0,
-        "wins": 0,
+        "decided": 2,
+        "wins": 2,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 119.09,
+        "roi_pct": 59.55,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -33,11 +33,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 58.48,
+        "roi_pct": 58.48,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 0,
-        "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "decided": 2,
+        "wins": 1,
+        "losses": 1,
+        "profit": -9.91,
+        "roi_pct": -4.96,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -72,9 +72,9 @@
       "winner": "Atlanta Braves",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 10.7,
+      "line": 10.67,
       "confidence": 0.98,
-      "odds": -108,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     }
