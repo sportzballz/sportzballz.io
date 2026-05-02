@@ -72,9 +72,9 @@
       "winner": "Atlanta Braves",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 10.75,
-      "confidence": 0.774,
-      "odds": -106,
+      "line": 10.7,
+      "confidence": 0.98,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
