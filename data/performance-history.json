@@ -1,11 +1,91 @@
 [
   {
+    "date": "2026-05-03",
+    "total_picks": 14,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 14,
+    "win_rate": null,
+    "plus_money_total": 4,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 14,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 4,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 14,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "New York Yankees",
+      "loser": "Baltimore Orioles",
+      "pick": "OVER",
+      "line": 8.64,
+      "confidence": 0.853,
+      "odds": -112,
+      "result": "PENDING",
+      "profit": 0.0
+    }
+  },
+  {
     "date": "2026-05-02",
-    "total_picks": 15,
+    "total_picks": 13,
     "decided": 13,
     "wins": 8,
     "losses": 5,
-    "pending": 2,
+    "pending": 0,
     "win_rate": 61.5,
     "plus_money_total": 6,
     "plus_money_decided": 6,
@@ -14,7 +94,7 @@
     "plus_money_win_rate": 50.0,
     "segments": {
       "all_picks": {
-        "total": 15,
+        "total": 13,
         "decided": 13,
         "wins": 8,
         "losses": 5,
@@ -50,7 +130,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
+        "total": 13,
         "decided": 12,
         "wins": 6,
         "losses": 6,
