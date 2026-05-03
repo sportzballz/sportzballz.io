@@ -72,21 +72,21 @@
       "winner": "New York Yankees",
       "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 8.64,
-      "confidence": 0.853,
-      "odds": -112,
+      "line": 8.68,
+      "confidence": 1.003,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     }
   },
   {
     "date": "2026-05-02",
-    "total_picks": 13,
-    "decided": 13,
+    "total_picks": 15,
+    "decided": 15,
     "wins": 8,
-    "losses": 5,
+    "losses": 7,
     "pending": 0,
-    "win_rate": 61.5,
+    "win_rate": 53.3,
     "plus_money_total": 6,
     "plus_money_decided": 6,
     "plus_money_wins": 3,
@@ -94,12 +94,12 @@
     "plus_money_win_rate": 50.0,
     "segments": {
       "all_picks": {
-        "total": 13,
-        "decided": 13,
+        "total": 15,
+        "decided": 15,
         "wins": 8,
-        "losses": 5,
-        "profit": 166.43,
-        "roi_pct": 12.8,
+        "losses": 7,
+        "profit": -33.57,
+        "roi_pct": -2.24,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -130,12 +130,12 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
-        "decided": 12,
+        "total": 15,
+        "decided": 14,
         "wins": 6,
-        "losses": 6,
-        "profit": -51.82,
-        "roi_pct": -4.32,
+        "losses": 8,
+        "profit": -251.82,
+        "roi_pct": -17.99,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
