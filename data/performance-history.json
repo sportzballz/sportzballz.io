@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Houston Astros",
-      "loser": "Los Angeles Dodgers",
+      "winner": "New York Yankees",
+      "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.809,
-      "odds": -112,
+      "line": 8.5,
+      "confidence": 0.863,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
