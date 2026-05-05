@@ -2,11 +2,11 @@
   {
     "date": "2026-05-04",
     "total_picks": 12,
-    "decided": 5,
-    "wins": 4,
-    "losses": 1,
-    "pending": 7,
-    "win_rate": 80.0,
+    "decided": 7,
+    "wins": 5,
+    "losses": 2,
+    "pending": 5,
+    "win_rate": 71.4,
     "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,29 +15,29 @@
     "segments": {
       "all_picks": {
         "total": 12,
-        "decided": 5,
-        "wins": 4,
-        "losses": 1,
-        "profit": 218.86,
-        "roi_pct": 43.77,
+        "decided": 7,
+        "wins": 5,
+        "losses": 2,
+        "profit": 164.94,
+        "roi_pct": 23.56,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 46.08,
+        "roi_pct": 46.08,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 2,
-        "wins": 2,
+        "decided": 3,
+        "wins": 3,
         "losses": 0,
-        "profit": 158.15,
-        "roi_pct": 79.08,
+        "profit": 204.23,
+        "roi_pct": 68.08,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,20 +51,20 @@
       },
       "run_total_picks": {
         "total": 12,
-        "decided": 4,
-        "wins": 3,
-        "losses": 1,
-        "profit": 170.33,
-        "roi_pct": 42.58,
+        "decided": 6,
+        "wins": 4,
+        "losses": 2,
+        "profit": 163.79,
+        "roi_pct": 27.3,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 93.46,
+        "roi_pct": 93.46,
         "stake_per_pick": 100.0
       }
     },
@@ -75,8 +75,8 @@
       "line": 8.5,
       "confidence": 0.864,
       "odds": -107,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "WIN",
+      "profit": 93.46
     }
   },
   {
