@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 14,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Washington Nationals",
-      "loser": "Minnesota Twins",
+      "winner": "Detroit Tigers",
+      "loser": "Boston Red Sox",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.674,
-      "odds": -105,
+      "line": 8.41,
+      "confidence": 0.684,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
