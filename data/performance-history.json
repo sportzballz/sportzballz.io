@@ -1,20 +1,100 @@
 [
   {
-    "date": "2026-05-04",
-    "total_picks": 12,
-    "decided": 9,
-    "wins": 6,
-    "losses": 3,
-    "pending": 3,
-    "win_rate": 66.7,
-    "plus_money_total": 1,
+    "date": "2026-05-05",
+    "total_picks": 15,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 15,
+    "win_rate": null,
+    "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 12,
+        "total": 15,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 2,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 15,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "San Francisco Giants",
+      "loser": "San Diego Padres",
+      "pick": "UNDER",
+      "line": 7.5,
+      "confidence": 0.823,
+      "odds": -119,
+      "result": "PENDING",
+      "profit": 0.0
+    }
+  },
+  {
+    "date": "2026-05-04",
+    "total_picks": 9,
+    "decided": 9,
+    "wins": 6,
+    "losses": 3,
+    "pending": 0,
+    "win_rate": 66.7,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 9,
         "decided": 9,
         "wins": 6,
         "losses": 3,
@@ -41,7 +121,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
+        "total": 0,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +130,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 12,
+        "total": 9,
         "decided": 8,
         "wins": 6,
         "losses": 2,
