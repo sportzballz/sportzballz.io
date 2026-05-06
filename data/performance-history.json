@@ -2,11 +2,11 @@
   {
     "date": "2026-05-06",
     "total_picks": 15,
-    "decided": 4,
-    "wins": 3,
-    "losses": 1,
-    "pending": 11,
-    "win_rate": 75.0,
+    "decided": 6,
+    "wins": 4,
+    "losses": 2,
+    "pending": 9,
+    "win_rate": 66.7,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 4,
-        "wins": 3,
-        "losses": 1,
-        "profit": 114.94,
-        "roi_pct": 28.73,
+        "decided": 6,
+        "wins": 4,
+        "losses": 2,
+        "profit": 90.7,
+        "roi_pct": 15.12,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -33,11 +33,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
+        "decided": 2,
         "wins": 1,
-        "losses": 0,
-        "profit": 93.46,
-        "roi_pct": 93.46,
+        "losses": 1,
+        "profit": -6.54,
+        "roi_pct": -3.27,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 4,
-        "wins": 4,
-        "losses": 0,
-        "profit": 369.9,
-        "roi_pct": 92.47,
+        "decided": 6,
+        "wins": 5,
+        "losses": 1,
+        "profit": 365.14,
+        "roi_pct": 60.86,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "Cleveland Guardians",
+      "winner": "Chicago Cubs",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.787,
-      "odds": -111,
+      "line": 8.5,
+      "confidence": 0.757,
+      "odds": -121,
       "result": "PENDING",
       "profit": 0.0
     }
