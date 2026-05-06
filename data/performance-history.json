@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Pittsburgh Pirates",
-      "loser": "Arizona Diamondbacks",
+      "winner": "Kansas City Royals",
+      "loser": "Cleveland Guardians",
       "pick": "OVER",
-      "line": 8.58,
-      "confidence": 0.7,
-      "odds": -117,
+      "line": 9.0,
+      "confidence": 0.787,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     }
