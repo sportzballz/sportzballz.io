@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 1,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Texas Rangers",
+      "winner": "Chicago Cubs",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.656,
-      "odds": -119,
+      "line": 8.0,
+      "confidence": 0.608,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     }
