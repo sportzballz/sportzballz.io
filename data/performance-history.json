@@ -2,11 +2,11 @@
   {
     "date": "2026-05-06",
     "total_picks": 15,
-    "decided": 1,
+    "decided": 2,
     "wins": 1,
-    "losses": 0,
-    "pending": 14,
-    "win_rate": 100.0,
+    "losses": 1,
+    "pending": 13,
+    "win_rate": 50.0,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 1,
+        "decided": 2,
         "wins": 1,
-        "losses": 0,
-        "profit": 75.19,
-        "roi_pct": 75.19,
+        "losses": 1,
+        "profit": -24.81,
+        "roi_pct": -12.4,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 1,
-        "wins": 1,
+        "decided": 2,
+        "wins": 2,
         "losses": 0,
-        "profit": 96.15,
-        "roi_pct": 96.15,
+        "profit": 190.49,
+        "roi_pct": 95.25,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Pittsburgh Pirates",
-      "loser": "Arizona Diamondbacks",
+      "winner": "Chicago Cubs",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.62,
-      "confidence": 0.7,
-      "odds": -116,
+      "line": 8.5,
+      "confidence": 0.757,
+      "odds": -121,
       "result": "PENDING",
       "profit": 0.0
     }
