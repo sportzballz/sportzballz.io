@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Chicago Cubs",
-      "loser": "Cincinnati Reds",
+      "winner": "New York Yankees",
+      "loser": "Texas Rangers",
       "pick": "OVER",
-      "line": 8.0,
-      "confidence": 0.608,
-      "odds": -106,
+      "line": 8.5,
+      "confidence": 0.656,
+      "odds": -119,
       "result": "PENDING",
       "profit": 0.0
     }
