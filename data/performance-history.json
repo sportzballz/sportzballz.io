@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Houston Astros",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Arizona Diamondbacks",
       "pick": "OVER",
-      "line": 8.77,
-      "confidence": 0.509,
-      "odds": -110,
+      "line": 8.62,
+      "confidence": 0.7,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     }
