@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Mets",
-      "loser": "Colorado Rockies",
+      "winner": "Kansas City Royals",
+      "loser": "Cleveland Guardians",
       "pick": "OVER",
-      "line": 10.95,
-      "confidence": 0.862,
-      "odds": -107,
+      "line": 9.45,
+      "confidence": 0.977,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
