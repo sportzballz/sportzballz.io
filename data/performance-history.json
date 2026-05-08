@@ -72,9 +72,9 @@
       "winner": "Houston Astros",
       "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 9.41,
-      "confidence": 0.95,
-      "odds": -105,
+      "line": 9.0,
+      "confidence": 0.8,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     }
