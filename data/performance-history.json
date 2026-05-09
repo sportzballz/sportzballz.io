@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-05-09",
-    "total_picks": 15,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 15,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 4,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 15,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
