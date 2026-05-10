@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Colorado Rockies",
+      "winner": "Houston Astros",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.745,
-      "odds": -108,
+      "line": 9.14,
+      "confidence": 0.894,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
