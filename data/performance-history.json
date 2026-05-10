@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Houston Astros",
-      "loser": "Cincinnati Reds",
+      "winner": "Philadelphia Phillies",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.826,
-      "odds": -118,
+      "line": 8.5,
+      "confidence": 0.745,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     }
