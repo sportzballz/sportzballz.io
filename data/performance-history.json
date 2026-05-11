@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Baltimore Orioles",
+      "winner": "Tampa Bay Rays",
+      "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 8.95,
-      "confidence": 0.708,
-      "odds": -103,
+      "line": 7.5,
+      "confidence": 0.539,
+      "odds": 101,
       "result": "PENDING",
       "profit": 0.0
     }
