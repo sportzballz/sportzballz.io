@@ -72,9 +72,9 @@
       "winner": "New York Yankees",
       "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 8.95,
+      "line": 9.0,
       "confidence": 0.678,
-      "odds": -106,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     }
