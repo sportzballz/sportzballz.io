@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-05-11",
-    "total_picks": 5,
+    "total_picks": 6,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 5,
+    "pending": 6,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 5,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 5,
+        "total": 6,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 5,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 5,
+        "total": 6,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -72,9 +72,9 @@
       "winner": "New York Yankees",
       "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 8.95,
+      "line": 9.0,
       "confidence": 0.708,
-      "odds": -105,
+      "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     }
