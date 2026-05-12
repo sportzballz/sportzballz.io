@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-05-12",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 3,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "San Francisco Giants",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.55,
-      "confidence": 0.71,
-      "odds": -109,
+      "line": 7.5,
+      "confidence": 0.684,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     }
