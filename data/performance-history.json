@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "San Francisco Giants",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.7,
-      "confidence": 0.71,
-      "odds": -114,
+      "line": 7.5,
+      "confidence": 0.684,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     }
