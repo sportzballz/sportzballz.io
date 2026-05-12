@@ -72,9 +72,9 @@
       "winner": "Los Angeles Dodgers",
       "loser": "San Francisco Giants",
       "pick": "OVER",
-      "line": 8.73,
+      "line": 8.7,
       "confidence": 0.71,
-      "odds": -113,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
@@ -82,24 +82,24 @@
   {
     "date": "2026-05-11",
     "total_picks": 6,
-    "decided": 5,
-    "wins": 2,
+    "decided": 6,
+    "wins": 3,
     "losses": 3,
-    "pending": 1,
-    "win_rate": 40.0,
+    "pending": 0,
+    "win_rate": 50.0,
     "plus_money_total": 4,
-    "plus_money_decided": 3,
-    "plus_money_wins": 1,
+    "plus_money_decided": 4,
+    "plus_money_wins": 2,
     "plus_money_losses": 2,
-    "plus_money_win_rate": 33.3,
+    "plus_money_win_rate": 50.0,
     "segments": {
       "all_picks": {
         "total": 6,
-        "decided": 5,
-        "wins": 2,
+        "decided": 6,
+        "wins": 3,
         "losses": 3,
-        "profit": -103.54,
-        "roi_pct": -20.71,
+        "profit": 57.46,
+        "roi_pct": 9.58,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -122,20 +122,20 @@
       },
       "plus_money_picks": {
         "total": 4,
-        "decided": 3,
-        "wins": 1,
+        "decided": 4,
+        "wins": 2,
         "losses": 2,
-        "profit": -97.0,
-        "roi_pct": -32.33,
+        "profit": 64.0,
+        "roi_pct": 16.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 6,
-        "decided": 5,
-        "wins": 2,
+        "decided": 6,
+        "wins": 3,
         "losses": 3,
-        "profit": -117.94,
-        "roi_pct": -23.59,
+        "profit": -29.45,
+        "roi_pct": -4.91,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
