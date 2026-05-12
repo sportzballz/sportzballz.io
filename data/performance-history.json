@@ -72,9 +72,9 @@
       "winner": "Pittsburgh Pirates",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.25,
-      "confidence": 0.802,
-      "odds": -114,
+      "line": 8.2,
+      "confidence": 0.952,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     }
