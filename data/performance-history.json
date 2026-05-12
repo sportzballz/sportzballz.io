@@ -72,9 +72,9 @@
       "winner": "Los Angeles Dodgers",
       "loser": "San Francisco Giants",
       "pick": "OVER",
-      "line": 8.25,
+      "line": 8.0,
       "confidence": 0.71,
-      "odds": -113,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
