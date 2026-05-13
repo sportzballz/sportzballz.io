@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Houston Astros",
-      "loser": "Seattle Mariners",
+      "winner": "Cincinnati Reds",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 9.05,
-      "confidence": 0.654,
-      "odds": -117,
+      "line": 9.23,
+      "confidence": 0.626,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     }
