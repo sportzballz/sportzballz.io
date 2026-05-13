@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cincinnati Reds",
-      "loser": "Washington Nationals",
+      "winner": "Los Angeles Dodgers",
+      "loser": "San Francisco Giants",
       "pick": "OVER",
-      "line": 9.23,
-      "confidence": 0.626,
-      "odds": -113,
+      "line": 8.5,
+      "confidence": 0.68,
+      "odds": 107,
       "result": "PENDING",
       "profit": 0.0
     }
