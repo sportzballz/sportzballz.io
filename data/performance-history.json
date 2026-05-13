@@ -69,24 +69,24 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "San Francisco Giants",
+      "winner": "Houston Astros",
+      "loser": "Seattle Mariners",
       "pick": "OVER",
-      "line": 7.95,
-      "confidence": 0.83,
-      "odds": -107,
+      "line": 9.09,
+      "confidence": 0.654,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     }
   },
   {
     "date": "2026-05-12",
-    "total_picks": 15,
-    "decided": 15,
+    "total_picks": 13,
+    "decided": 13,
     "wins": 7,
-    "losses": 8,
+    "losses": 6,
     "pending": 0,
-    "win_rate": 46.7,
+    "win_rate": 53.8,
     "plus_money_total": 4,
     "plus_money_decided": 4,
     "plus_money_wins": 0,
@@ -94,10 +94,10 @@
     "plus_money_win_rate": 0.0,
     "segments": {
       "all_picks": {
-        "total": 15,
-        "decided": 15,
+        "total": 13,
+        "decided": 13,
         "wins": 7,
-        "losses": 8,
+        "losses": 6,
         "profit": -322.0,
         "roi_pct": -21.47,
         "stake_per_pick": 100.0
@@ -130,9 +130,9 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
-        "decided": 14,
-        "wins": 9,
+        "total": 13,
+        "decided": 13,
+        "wins": 8,
         "losses": 5,
         "profit": 341.35,
         "roi_pct": 24.38,
