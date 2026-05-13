@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "San Francisco Giants",
+      "winner": "Kansas City Royals",
+      "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.68,
-      "odds": 107,
+      "line": 8.38,
+      "confidence": 0.708,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
