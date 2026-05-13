@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Houston Astros",
-      "loser": "Seattle Mariners",
+      "winner": "Los Angeles Dodgers",
+      "loser": "San Francisco Giants",
       "pick": "OVER",
-      "line": 9.09,
-      "confidence": 0.654,
-      "odds": -112,
+      "line": 7.64,
+      "confidence": 0.68,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
