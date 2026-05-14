@@ -2,11 +2,11 @@
   {
     "date": "2026-05-14",
     "total_picks": 11,
-    "decided": 0,
-    "wins": 0,
+    "decided": 1,
+    "wins": 1,
     "losses": 0,
-    "pending": 11,
-    "win_rate": null,
+    "pending": 10,
+    "win_rate": 100.0,
     "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,29 +15,29 @@
     "segments": {
       "all_picks": {
         "total": 11,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 58.48,
+        "roi_pct": 58.48,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 58.48,
+        "roi_pct": 58.48,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 58.48,
+        "roi_pct": 58.48,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,20 +51,20 @@
       },
       "run_total_picks": {
         "total": 11,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 86.96,
+        "roi_pct": 86.96,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 86.96,
+        "roi_pct": 86.96,
         "stake_per_pick": 100.0
       }
     },
@@ -75,8 +75,8 @@
       "line": 7.59,
       "confidence": 0.715,
       "odds": -115,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "WIN",
+      "profit": 86.96
     }
   },
   {
