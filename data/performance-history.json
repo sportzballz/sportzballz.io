@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cincinnati Reds",
-      "loser": "Washington Nationals",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.14,
-      "confidence": 0.8,
-      "odds": -110,
+      "line": 7.59,
+      "confidence": 0.715,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     }
