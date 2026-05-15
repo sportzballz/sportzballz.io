@@ -72,9 +72,9 @@
       "winner": "Athletics",
       "loser": "San Francisco Giants",
       "pick": "OVER",
-      "line": 9.59,
+      "line": 10.0,
       "confidence": 0.865,
-      "odds": -113,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
