@@ -1,25 +1,105 @@
 [
   {
+    "date": "2026-05-15",
+    "total_picks": 14,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 14,
+    "win_rate": null,
+    "plus_money_total": 4,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 14,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 4,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 14,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Athletics",
+      "loser": "San Francisco Giants",
+      "pick": "OVER",
+      "line": 9.55,
+      "confidence": 0.716,
+      "odds": -114,
+      "result": "PENDING",
+      "profit": 0.0
+    }
+  },
+  {
     "date": "2026-05-14",
-    "total_picks": 11,
-    "decided": 10,
+    "total_picks": 8,
+    "decided": 8,
     "wins": 8,
-    "losses": 2,
-    "pending": 1,
-    "win_rate": 80.0,
-    "plus_money_total": 2,
-    "plus_money_decided": 2,
-    "plus_money_wins": 2,
+    "losses": 0,
+    "pending": 0,
+    "win_rate": 100.0,
+    "plus_money_total": 1,
+    "plus_money_decided": 1,
+    "plus_money_wins": 1,
     "plus_money_losses": 0,
     "plus_money_win_rate": 100.0,
     "segments": {
       "all_picks": {
-        "total": 11,
-        "decided": 10,
+        "total": 8,
+        "decided": 8,
         "wins": 8,
-        "losses": 2,
-        "profit": 448.36,
-        "roi_pct": 44.84,
+        "losses": 0,
+        "profit": 505.83,
+        "roi_pct": 45.98,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -41,21 +121,21 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
-        "decided": 2,
-        "wins": 2,
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
         "profit": 207.0,
         "roi_pct": 103.5,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 11,
-        "decided": 10,
-        "wins": 6,
+        "total": 8,
+        "decided": 8,
+        "wins": 4,
         "losses": 4,
-        "profit": 145.19,
-        "roi_pct": 14.52,
+        "profit": 45.19,
+        "roi_pct": 4.11,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
