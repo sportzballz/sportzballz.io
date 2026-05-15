@@ -24,11 +24,11 @@
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 58.48,
+        "roi_pct": 58.48,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
