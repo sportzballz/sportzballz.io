@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Athletics",
-      "loser": "San Francisco Giants",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Philadelphia Phillies",
       "pick": "OVER",
-      "line": 9.71,
-      "confidence": 0.838,
-      "odds": -114,
+      "line": 8.29,
+      "confidence": 0.76,
+      "odds": 100,
       "result": "PENDING",
       "profit": 0.0
     }
