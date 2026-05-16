@@ -7,7 +7,7 @@
     "losses": 1,
     "pending": 13,
     "win_rate": 50.0,
-    "plus_money_total": 5,
+    "plus_money_total": 4,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 5,
+        "total": 4,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Washington Nationals",
-      "loser": "Baltimore Orioles",
+      "winner": "Chicago White Sox",
+      "loser": "Chicago Cubs",
       "pick": "OVER",
-      "line": 10.1,
-      "confidence": 0.682,
-      "odds": -116,
+      "line": 8.5,
+      "confidence": 0.797,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
