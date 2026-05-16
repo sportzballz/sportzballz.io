@@ -72,21 +72,21 @@
       "winner": "Pittsburgh Pirates",
       "loser": "Philadelphia Phillies",
       "pick": "OVER",
-      "line": 8.05,
-      "confidence": 0.756,
-      "odds": -115,
+      "line": 8.45,
+      "confidence": 0.606,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     }
   },
   {
     "date": "2026-05-15",
-    "total_picks": 15,
-    "decided": 15,
-    "wins": 7,
-    "losses": 8,
+    "total_picks": 12,
+    "decided": 12,
+    "wins": 5,
+    "losses": 7,
     "pending": 0,
-    "win_rate": 46.7,
+    "win_rate": 41.7,
     "plus_money_total": 4,
     "plus_money_decided": 4,
     "plus_money_wins": 1,
@@ -94,10 +94,10 @@
     "plus_money_win_rate": 25.0,
     "segments": {
       "all_picks": {
-        "total": 15,
-        "decided": 15,
-        "wins": 7,
-        "losses": 8,
+        "total": 12,
+        "decided": 12,
+        "wins": 5,
+        "losses": 7,
         "profit": -240.08,
         "roi_pct": -16.01,
         "stake_per_pick": 100.0
@@ -130,10 +130,10 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
-        "decided": 14,
-        "wins": 3,
-        "losses": 11,
+        "total": 12,
+        "decided": 11,
+        "wins": 2,
+        "losses": 9,
         "profit": -822.66,
         "roi_pct": -58.76,
         "stake_per_pick": 100.0
