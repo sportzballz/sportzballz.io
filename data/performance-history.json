@@ -72,9 +72,9 @@
       "winner": "Pittsburgh Pirates",
       "loser": "Philadelphia Phillies",
       "pick": "OVER",
-      "line": 8.45,
-      "confidence": 0.606,
-      "odds": -111,
+      "line": 8.5,
+      "confidence": 0.756,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     }
