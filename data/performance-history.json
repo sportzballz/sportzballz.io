@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Chicago White Sox",
-      "loser": "Chicago Cubs",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Philadelphia Phillies",
       "pick": "OVER",
-      "line": 8.32,
-      "confidence": 0.752,
-      "odds": -117,
+      "line": 8.05,
+      "confidence": 0.756,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     }
