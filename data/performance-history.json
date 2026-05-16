@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Pittsburgh Pirates",
+      "winner": "Washington Nationals",
+      "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 8.36,
-      "confidence": 0.831,
-      "odds": -109,
+      "line": 10.1,
+      "confidence": 0.682,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     }
