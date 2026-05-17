@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Chicago White Sox",
-      "loser": "Chicago Cubs",
+      "winner": "St. Louis Cardinals",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.789,
-      "odds": -114,
+      "line": 9.05,
+      "confidence": 0.929,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     }
