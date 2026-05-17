@@ -72,9 +72,9 @@
       "winner": "St. Louis Cardinals",
       "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.779,
-      "odds": -122,
+      "line": 9.09,
+      "confidence": 0.929,
+      "odds": -117,
       "result": "PENDING",
       "profit": 0.0
     }
