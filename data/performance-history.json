@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "St. Louis Cardinals",
-      "loser": "Kansas City Royals",
+      "winner": "Chicago White Sox",
+      "loser": "Chicago Cubs",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.779,
-      "odds": -116,
+      "line": 8.5,
+      "confidence": 0.789,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
@@ -82,24 +82,24 @@
   {
     "date": "2026-05-16",
     "total_picks": 15,
-    "decided": 13,
-    "wins": 7,
+    "decided": 15,
+    "wins": 9,
     "losses": 6,
-    "pending": 2,
-    "win_rate": 53.8,
+    "pending": 0,
+    "win_rate": 60.0,
     "plus_money_total": 4,
-    "plus_money_decided": 3,
-    "plus_money_wins": 2,
+    "plus_money_decided": 4,
+    "plus_money_wins": 3,
     "plus_money_losses": 1,
-    "plus_money_win_rate": 66.7,
+    "plus_money_win_rate": 75.0,
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 13,
-        "wins": 7,
+        "decided": 15,
+        "wins": 9,
         "losses": 6,
-        "profit": 17.25,
-        "roi_pct": 1.33,
+        "profit": 204.78,
+        "roi_pct": 13.65,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -122,20 +122,20 @@
       },
       "plus_money_picks": {
         "total": 4,
-        "decided": 3,
-        "wins": 2,
+        "decided": 4,
+        "wins": 3,
         "losses": 1,
-        "profit": 107.0,
-        "roi_pct": 35.67,
+        "profit": 221.0,
+        "roi_pct": 55.25,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 13,
-        "wins": 7,
-        "losses": 6,
-        "profit": 54.09,
-        "roi_pct": 4.16,
+        "decided": 15,
+        "wins": 8,
+        "losses": 7,
+        "profit": 45.84,
+        "roi_pct": 3.06,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
