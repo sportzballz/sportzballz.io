@@ -72,9 +72,9 @@
       "winner": "New York Yankees",
       "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 8.7,
-      "confidence": 1.008,
-      "odds": -113,
+      "line": 8.64,
+      "confidence": 0.859,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     }
