@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Toronto Blue Jays",
+      "winner": "New York Mets",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 8.64,
-      "confidence": 0.859,
-      "odds": -116,
+      "line": 9.0,
+      "confidence": 0.699,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     }
