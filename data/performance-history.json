@@ -2,11 +2,11 @@
   {
     "date": "2026-05-18",
     "total_picks": 14,
-    "decided": 7,
-    "wins": 5,
-    "losses": 2,
-    "pending": 7,
-    "win_rate": 71.4,
+    "decided": 9,
+    "wins": 6,
+    "losses": 3,
+    "pending": 5,
+    "win_rate": 66.7,
     "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 7,
-        "wins": 5,
-        "losses": 2,
-        "profit": 174.95,
-        "roi_pct": 24.99,
+        "decided": 9,
+        "wins": 6,
+        "losses": 3,
+        "profit": 145.37,
+        "roi_pct": 16.15,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -33,11 +33,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 2,
+        "decided": 3,
         "wins": 2,
-        "losses": 0,
-        "profit": 116.38,
-        "roi_pct": 58.19,
+        "losses": 1,
+        "profit": 16.38,
+        "roi_pct": 5.46,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 7,
-        "wins": 3,
-        "losses": 4,
-        "profit": -119.42,
-        "roi_pct": -17.06,
+        "decided": 9,
+        "wins": 4,
+        "losses": 5,
+        "profit": -132.46,
+        "roi_pct": -14.72,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
