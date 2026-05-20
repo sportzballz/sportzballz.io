@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-05-20",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 2,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -72,21 +72,21 @@
       "winner": "New York Mets",
       "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.794,
-      "odds": -112,
+      "line": 9.55,
+      "confidence": 0.944,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     }
   },
   {
     "date": "2026-05-19",
-    "total_picks": 15,
-    "decided": 15,
-    "wins": 8,
-    "losses": 7,
+    "total_picks": 11,
+    "decided": 11,
+    "wins": 6,
+    "losses": 5,
     "pending": 0,
-    "win_rate": 53.3,
+    "win_rate": 54.5,
     "plus_money_total": 2,
     "plus_money_decided": 2,
     "plus_money_wins": 1,
@@ -94,10 +94,10 @@
     "plus_money_win_rate": 50.0,
     "segments": {
       "all_picks": {
-        "total": 15,
-        "decided": 15,
-        "wins": 8,
-        "losses": 7,
+        "total": 11,
+        "decided": 11,
+        "wins": 6,
+        "losses": 5,
         "profit": -62.19,
         "roi_pct": -4.15,
         "stake_per_pick": 100.0
@@ -130,10 +130,10 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
-        "decided": 14,
-        "wins": 6,
-        "losses": 8,
+        "total": 11,
+        "decided": 10,
+        "wins": 5,
+        "losses": 5,
         "profit": -241.04,
         "roi_pct": -17.22,
         "stake_per_pick": 100.0
