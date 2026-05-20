@@ -2,11 +2,11 @@
   {
     "date": "2026-05-20",
     "total_picks": 14,
-    "decided": 3,
+    "decided": 4,
     "wins": 3,
-    "losses": 0,
-    "pending": 11,
-    "win_rate": 100.0,
+    "losses": 1,
+    "pending": 10,
+    "win_rate": 75.0,
     "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 1,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 3,
+        "decided": 4,
         "wins": 3,
-        "losses": 0,
-        "profit": 287.21,
-        "roi_pct": 95.74,
+        "losses": 1,
+        "profit": 187.21,
+        "roi_pct": 46.8,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 3,
-        "wins": 2,
+        "decided": 4,
+        "wins": 3,
         "losses": 1,
-        "profit": 73.16,
-        "roi_pct": 24.39,
+        "profit": 161.66,
+        "roi_pct": 40.41,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Toronto Blue Jays",
+      "winner": "Milwaukee Brewers",
+      "loser": "Chicago Cubs",
       "pick": "OVER",
-      "line": 8.25,
-      "confidence": 0.551,
-      "odds": -106,
+      "line": 6.5,
+      "confidence": 0.585,
+      "odds": -101,
       "result": "PENDING",
       "profit": 0.0
     }
