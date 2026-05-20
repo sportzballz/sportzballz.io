@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Mets",
-      "loser": "Washington Nationals",
-      "pick": "OVER",
-      "line": 9.55,
-      "confidence": 1.244,
-      "odds": -113,
+      "winner": "Los Angeles Dodgers",
+      "loser": "San Diego Padres",
+      "pick": "UNDER",
+      "line": 7.41,
+      "confidence": 0.931,
+      "odds": -120,
       "result": "PENDING",
       "profit": 0.0
     }
