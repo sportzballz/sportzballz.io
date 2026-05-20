@@ -2,11 +2,11 @@
   {
     "date": "2026-05-20",
     "total_picks": 14,
-    "decided": 5,
-    "wins": 4,
+    "decided": 6,
+    "wins": 5,
     "losses": 1,
-    "pending": 9,
-    "win_rate": 80.0,
+    "pending": 8,
+    "win_rate": 83.3,
     "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 1,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 5,
-        "wins": 4,
+        "decided": 6,
+        "wins": 5,
         "losses": 1,
-        "profit": 269.85,
-        "roi_pct": 53.97,
+        "profit": 339.78,
+        "roi_pct": 56.63,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 5,
-        "wins": 3,
+        "decided": 6,
+        "wins": 4,
         "losses": 2,
-        "profit": 61.66,
-        "roi_pct": 12.33,
+        "profit": 161.66,
+        "roi_pct": 26.94,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "San Diego Padres",
-      "pick": "UNDER",
-      "line": 7.45,
-      "confidence": 0.634,
-      "odds": -118,
+      "winner": "Milwaukee Brewers",
+      "loser": "Chicago Cubs",
+      "pick": "OVER",
+      "line": 6.5,
+      "confidence": 0.585,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     }
