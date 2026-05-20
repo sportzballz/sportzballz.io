@@ -1,11 +1,91 @@
 [
   {
+    "date": "2026-05-20",
+    "total_picks": 13,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 13,
+    "win_rate": null,
+    "plus_money_total": 2,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 13,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 2,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 13,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "New York Mets",
+      "loser": "Washington Nationals",
+      "pick": "OVER",
+      "line": 9.5,
+      "confidence": 0.794,
+      "odds": -112,
+      "result": "PENDING",
+      "profit": 0.0
+    }
+  },
+  {
     "date": "2026-05-19",
-    "total_picks": 15,
+    "total_picks": 11,
     "decided": 11,
     "wins": 6,
     "losses": 5,
-    "pending": 4,
+    "pending": 0,
     "win_rate": 54.5,
     "plus_money_total": 2,
     "plus_money_decided": 2,
@@ -14,7 +94,7 @@
     "plus_money_win_rate": 50.0,
     "segments": {
       "all_picks": {
-        "total": 15,
+        "total": 11,
         "decided": 11,
         "wins": 6,
         "losses": 5,
@@ -50,7 +130,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
+        "total": 11,
         "decided": 10,
         "wins": 5,
         "losses": 5,
