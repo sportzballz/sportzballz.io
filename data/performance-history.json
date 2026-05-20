@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "San Diego Padres",
-      "pick": "UNDER",
-      "line": 7.5,
-      "confidence": 0.634,
-      "odds": -120,
+      "winner": "New York Yankees",
+      "loser": "Toronto Blue Jays",
+      "pick": "OVER",
+      "line": 8.25,
+      "confidence": 0.551,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     }
