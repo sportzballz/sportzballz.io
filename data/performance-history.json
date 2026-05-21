@@ -72,9 +72,9 @@
       "winner": "Detroit Tigers",
       "loser": "Cleveland Guardians",
       "pick": "UNDER",
-      "line": 7.05,
+      "line": 7.0,
       "confidence": 0.654,
-      "odds": -104,
+      "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     }
