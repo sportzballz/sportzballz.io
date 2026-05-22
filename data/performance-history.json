@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Cleveland Guardians",
+      "winner": "Cincinnati Reds",
+      "loser": "St. Louis Cardinals",
       "pick": "OVER",
-      "line": 7.38,
-      "confidence": 0.802,
-      "odds": -111,
+      "line": 9.5,
+      "confidence": 0.978,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     }
