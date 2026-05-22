@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Tampa Bay Rays",
+      "winner": "Philadelphia Phillies",
+      "loser": "Cleveland Guardians",
       "pick": "OVER",
-      "line": 7.86,
-      "confidence": 0.696,
-      "odds": -105,
+      "line": 7.67,
+      "confidence": 0.716,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     }
