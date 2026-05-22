@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-05-22",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 1,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -73,7 +73,7 @@
       "loser": "Cleveland Guardians",
       "pick": "OVER",
       "line": 7.38,
-      "confidence": 0.716,
+      "confidence": 0.802,
       "odds": -111,
       "result": "PENDING",
       "profit": 0.0
