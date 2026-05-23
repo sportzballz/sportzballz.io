@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 14,
     "win_rate": null,
-    "plus_money_total": 3,
+    "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 3,
+        "total": 2,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -72,9 +72,9 @@
       "winner": "Atlanta Braves",
       "loser": "Washington Nationals",
       "pick": "UNDER",
-      "line": 8.55,
-      "confidence": 0.799,
-      "odds": -109,
+      "line": 8.5,
+      "confidence": 0.797,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
