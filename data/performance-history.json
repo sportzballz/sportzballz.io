@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "Washington Nationals",
+      "winner": "Milwaukee Brewers",
+      "loser": "Los Angeles Dodgers",
       "pick": "UNDER",
-      "line": 8.75,
-      "confidence": 0.797,
-      "odds": -104,
+      "line": 8.38,
+      "confidence": 0.686,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     }
