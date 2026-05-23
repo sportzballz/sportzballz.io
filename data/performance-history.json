@@ -1,20 +1,100 @@
 [
   {
+    "date": "2026-05-23",
+    "total_picks": 16,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 16,
+    "win_rate": null,
+    "plus_money_total": 4,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 16,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 4,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 16,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Cincinnati Reds",
+      "loser": "St. Louis Cardinals",
+      "pick": "OVER",
+      "line": 9.5,
+      "confidence": 0.676,
+      "odds": -106,
+      "result": "PENDING",
+      "profit": 0.0
+    }
+  },
+  {
     "date": "2026-05-22",
-    "total_picks": 15,
+    "total_picks": 10,
     "decided": 10,
     "wins": 4,
     "losses": 6,
-    "pending": 5,
+    "pending": 0,
     "win_rate": 40.0,
-    "plus_money_total": 2,
+    "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 0,
     "plus_money_losses": 1,
     "plus_money_win_rate": 0.0,
     "segments": {
       "all_picks": {
-        "total": 15,
+        "total": 10,
         "decided": 10,
         "wins": 4,
         "losses": 6,
@@ -41,7 +121,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 1,
         "decided": 1,
         "wins": 0,
         "losses": 1,
@@ -50,7 +130,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
+        "total": 10,
         "decided": 9,
         "wins": 3,
         "losses": 6,
