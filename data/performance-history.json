@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-05-23",
-    "total_picks": 15,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 15,
+    "pending": 14,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 15,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -73,7 +73,7 @@
       "loser": "Washington Nationals",
       "pick": "UNDER",
       "line": 8.55,
-      "confidence": 0.649,
+      "confidence": 0.799,
       "odds": -109,
       "result": "PENDING",
       "profit": 0.0
