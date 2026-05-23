@@ -8,10 +8,10 @@
     "pending": 13,
     "win_rate": 0.0,
     "plus_money_total": 3,
-    "plus_money_decided": 0,
+    "plus_money_decided": 1,
     "plus_money_wins": 0,
-    "plus_money_losses": 0,
-    "plus_money_win_rate": null,
+    "plus_money_losses": 1,
+    "plus_money_win_rate": 0.0,
     "segments": {
       "all_picks": {
         "total": 14,
@@ -42,11 +42,11 @@
       },
       "plus_money_picks": {
         "total": 3,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
