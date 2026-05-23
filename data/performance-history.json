@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-05-23",
-    "total_picks": 16,
+    "total_picks": 15,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 16,
+    "pending": 15,
     "win_rate": null,
     "plus_money_total": 4,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 16,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 16,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,35 +69,35 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Milwaukee Brewers",
-      "loser": "Los Angeles Dodgers",
+      "winner": "Atlanta Braves",
+      "loser": "Washington Nationals",
       "pick": "UNDER",
-      "line": 9.0,
-      "confidence": 0.536,
-      "odds": -117,
+      "line": 8.55,
+      "confidence": 0.799,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
   },
   {
     "date": "2026-05-22",
-    "total_picks": 15,
-    "decided": 14,
-    "wins": 5,
-    "losses": 9,
-    "pending": 1,
-    "win_rate": 35.7,
-    "plus_money_total": 2,
-    "plus_money_decided": 2,
+    "total_picks": 10,
+    "decided": 10,
+    "wins": 4,
+    "losses": 6,
+    "pending": 0,
+    "win_rate": 40.0,
+    "plus_money_total": 1,
+    "plus_money_decided": 1,
     "plus_money_wins": 0,
-    "plus_money_losses": 2,
+    "plus_money_losses": 1,
     "plus_money_win_rate": 0.0,
     "segments": {
       "all_picks": {
-        "total": 15,
-        "decided": 14,
-        "wins": 5,
-        "losses": 9,
+        "total": 10,
+        "decided": 10,
+        "wins": 4,
+        "losses": 6,
         "profit": -523.74,
         "roi_pct": -37.41,
         "stake_per_pick": 100.0
@@ -121,19 +121,19 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
-        "decided": 2,
+        "total": 1,
+        "decided": 1,
         "wins": 0,
-        "losses": 2,
+        "losses": 1,
         "profit": -200.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
-        "decided": 13,
-        "wins": 4,
-        "losses": 9,
+        "total": 10,
+        "decided": 9,
+        "wins": 3,
+        "losses": 6,
         "profit": -523.04,
         "roi_pct": -40.23,
         "stake_per_pick": 100.0
