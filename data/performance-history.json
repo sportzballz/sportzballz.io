@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cincinnati Reds",
-      "loser": "St. Louis Cardinals",
+      "winner": "New York Yankees",
+      "loser": "Tampa Bay Rays",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.676,
-      "odds": -106,
+      "line": 7.05,
+      "confidence": 0.63,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     }
