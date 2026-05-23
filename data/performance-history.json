@@ -2,12 +2,12 @@
   {
     "date": "2026-05-23",
     "total_picks": 14,
-    "decided": 0,
+    "decided": 1,
     "wins": 0,
-    "losses": 0,
-    "pending": 14,
-    "win_rate": null,
-    "plus_money_total": 2,
+    "losses": 1,
+    "pending": 13,
+    "win_rate": 0.0,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Milwaukee Brewers",
-      "loser": "Los Angeles Dodgers",
+      "winner": "Atlanta Braves",
+      "loser": "Washington Nationals",
       "pick": "UNDER",
-      "line": 8.4,
-      "confidence": 0.686,
-      "odds": -115,
+      "line": 8.5,
+      "confidence": 0.647,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     }
