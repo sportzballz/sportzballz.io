@@ -2,11 +2,11 @@
   {
     "date": "2026-05-23",
     "total_picks": 14,
-    "decided": 8,
-    "wins": 2,
+    "decided": 9,
+    "wins": 3,
     "losses": 6,
-    "pending": 6,
-    "win_rate": 25.0,
+    "pending": 5,
+    "win_rate": 33.3,
     "plus_money_total": 2,
     "plus_money_decided": 1,
     "plus_money_wins": 1,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 8,
-        "wins": 2,
+        "decided": 9,
+        "wins": 3,
         "losses": 6,
-        "profit": -403.5,
-        "roi_pct": -50.44,
+        "profit": -345.02,
+        "roi_pct": -38.34,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -34,10 +34,10 @@
       "top3_confidence_picks": {
         "total": 3,
         "decided": 2,
-        "wins": 1,
-        "losses": 1,
-        "profit": -11.5,
-        "roi_pct": -5.75,
+        "wins": 2,
+        "losses": 0,
+        "profit": 146.98,
+        "roi_pct": 73.49,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,32 +51,32 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 8,
+        "decided": 9,
         "wins": 5,
-        "losses": 3,
-        "profit": 159.61,
-        "roi_pct": 19.95,
+        "losses": 4,
+        "profit": 59.61,
+        "roi_pct": 6.62,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 1,
-        "wins": 1,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 91.74,
-        "roi_pct": 91.74,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "Washington Nationals",
-      "pick": "UNDER",
-      "line": 8.5,
-      "confidence": 0.647,
-      "odds": -109,
-      "result": "WIN",
-      "profit": 91.74
+      "winner": "Arizona Diamondbacks",
+      "loser": "Colorado Rockies",
+      "pick": "OVER",
+      "line": 9.44,
+      "confidence": 0.653,
+      "odds": -105,
+      "result": "PENDING",
+      "profit": 0.0
     }
   },
   {
