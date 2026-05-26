@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Kansas City Royals",
+      "winner": "Washington Nationals",
+      "loser": "Cleveland Guardians",
       "pick": "OVER",
-      "line": 8.55,
-      "confidence": 0.564,
-      "odds": -117,
+      "line": 8.25,
+      "confidence": 0.763,
+      "odds": 102,
       "result": "PENDING",
       "profit": 0.0
     }
