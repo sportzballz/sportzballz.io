@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Minnesota Twins",
-      "loser": "Chicago White Sox",
+      "winner": "New York Yankees",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 7.55,
-      "confidence": 0.676,
-      "odds": -114,
+      "line": 8.5,
+      "confidence": 0.564,
+      "odds": -118,
       "result": "PENDING",
       "profit": 0.0
     }
