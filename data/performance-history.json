@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Minnesota Twins",
-      "loser": "Chicago White Sox",
+      "winner": "Washington Nationals",
+      "loser": "Cleveland Guardians",
       "pick": "OVER",
       "line": 8.25,
-      "confidence": 0.783,
-      "odds": -109,
+      "confidence": 0.763,
+      "odds": 103,
       "result": "PENDING",
       "profit": 0.0
     }
