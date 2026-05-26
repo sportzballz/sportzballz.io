@@ -73,7 +73,7 @@
       "loser": "Kansas City Royals",
       "pick": "OVER",
       "line": 8.68,
-      "confidence": 0.714,
+      "confidence": 0.564,
       "odds": -114,
       "result": "PENDING",
       "profit": 0.0
@@ -81,12 +81,12 @@
   },
   {
     "date": "2026-05-25",
-    "total_picks": 11,
-    "decided": 11,
-    "wins": 4,
+    "total_picks": 13,
+    "decided": 13,
+    "wins": 6,
     "losses": 7,
     "pending": 0,
-    "win_rate": 36.4,
+    "win_rate": 46.2,
     "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 1,
@@ -94,12 +94,12 @@
     "plus_money_win_rate": 100.0,
     "segments": {
       "all_picks": {
-        "total": 11,
-        "decided": 11,
-        "wins": 4,
+        "total": 13,
+        "decided": 13,
+        "wins": 6,
         "losses": 7,
-        "profit": -382.01,
-        "roi_pct": -34.73,
+        "profit": -263.03,
+        "roi_pct": -20.23,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -130,12 +130,12 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 11,
-        "decided": 10,
-        "wins": 5,
-        "losses": 5,
-        "profit": -30.91,
-        "roi_pct": -3.09,
+        "total": 13,
+        "decided": 12,
+        "wins": 6,
+        "losses": 6,
+        "profit": -37.45,
+        "roi_pct": -3.12,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
