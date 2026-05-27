@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-05-27",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 14,
     "win_rate": null,
-    "plus_money_total": 1,
+    "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
+        "total": 0,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "Boston Red Sox",
+      "winner": "New York Yankees",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 8.45,
-      "confidence": 0.882,
-      "odds": -105,
+      "line": 9.0,
+      "confidence": 0.797,
+      "odds": -101,
       "result": "PENDING",
       "profit": 0.0
     }
