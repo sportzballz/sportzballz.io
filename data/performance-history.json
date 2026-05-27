@@ -2,11 +2,11 @@
   {
     "date": "2026-05-27",
     "total_picks": 15,
-    "decided": 0,
-    "wins": 0,
+    "decided": 3,
+    "wins": 3,
     "losses": 0,
-    "pending": 15,
-    "win_rate": null,
+    "pending": 12,
+    "win_rate": 100.0,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 0,
-        "wins": 0,
+        "decided": 3,
+        "wins": 3,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 177.05,
+        "roi_pct": 59.02,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -51,11 +51,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 0,
-        "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "decided": 3,
+        "wins": 1,
+        "losses": 2,
+        "profit": -105.66,
+        "roi_pct": -35.22,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cleveland Guardians",
-      "loser": "Washington Nationals",
+      "winner": "Atlanta Braves",
+      "loser": "Boston Red Sox",
       "pick": "OVER",
-      "line": 7.86,
-      "confidence": 0.832,
-      "odds": -105,
+      "line": 8.23,
+      "confidence": 0.952,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     }
