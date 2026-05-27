@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Colorado Rockies",
+      "winner": "Atlanta Braves",
+      "loser": "Boston Red Sox",
       "pick": "OVER",
-      "line": 8.09,
-      "confidence": 0.744,
-      "odds": -114,
+      "line": 8.45,
+      "confidence": 0.882,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     }
