@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cleveland Guardians",
-      "loser": "Washington Nationals",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 7.86,
-      "confidence": 0.685,
-      "odds": -106,
+      "line": 8.09,
+      "confidence": 0.744,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     }
@@ -82,11 +82,11 @@
   {
     "date": "2026-05-26",
     "total_picks": 15,
-    "decided": 11,
-    "wins": 9,
-    "losses": 2,
-    "pending": 4,
-    "win_rate": 81.8,
+    "decided": 15,
+    "wins": 11,
+    "losses": 4,
+    "pending": 0,
+    "win_rate": 73.3,
     "plus_money_total": 2,
     "plus_money_decided": 2,
     "plus_money_wins": 2,
@@ -95,11 +95,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 11,
-        "wins": 9,
-        "losses": 2,
-        "profit": 549.56,
-        "roi_pct": 49.96,
+        "decided": 15,
+        "wins": 11,
+        "losses": 4,
+        "profit": 488.84,
+        "roi_pct": 32.59,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -113,11 +113,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
-        "wins": 1,
-        "losses": 0,
-        "profit": 49.75,
-        "roi_pct": 49.75,
+        "decided": 3,
+        "wins": 2,
+        "losses": 1,
+        "profit": 46.84,
+        "roi_pct": 15.61,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -131,11 +131,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 11,
-        "wins": 7,
-        "losses": 4,
-        "profit": 233.11,
-        "roi_pct": 21.19,
+        "decided": 15,
+        "wins": 9,
+        "losses": 6,
+        "profit": 217.76,
+        "roi_pct": 14.52,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
