@@ -60,23 +60,23 @@
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "Boston Red Sox",
+      "winner": "Cleveland Guardians",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 8.23,
-      "confidence": 0.952,
-      "odds": -111,
-      "result": "PENDING",
-      "profit": 0.0
+      "line": 7.86,
+      "confidence": 0.832,
+      "odds": -105,
+      "result": "LOSS",
+      "profit": -100.0
     }
   },
   {
