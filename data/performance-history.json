@@ -72,9 +72,9 @@
       "winner": "Chicago White Sox",
       "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 7.5,
-      "confidence": 0.712,
-      "odds": -111,
+      "line": 7.55,
+      "confidence": 0.606,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     }
