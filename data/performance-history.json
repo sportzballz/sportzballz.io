@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Toronto Blue Jays",
-      "loser": "Baltimore Orioles",
+      "winner": "Chicago White Sox",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.497,
-      "odds": -117,
+      "line": 7.5,
+      "confidence": 0.712,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     }
