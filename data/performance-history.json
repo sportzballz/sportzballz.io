@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "San Francisco Giants",
-      "loser": "Colorado Rockies",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 10.5,
-      "confidence": 0.681,
-      "odds": -119,
+      "line": 8.25,
+      "confidence": 0.805,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     }
