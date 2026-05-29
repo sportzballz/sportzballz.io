@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "San Francisco Giants",
-      "loser": "Colorado Rockies",
+      "winner": "Cincinnati Reds",
+      "loser": "Atlanta Braves",
       "pick": "OVER",
-      "line": 10.5,
-      "confidence": 0.831,
-      "odds": -114,
+      "line": 9.5,
+      "confidence": 0.76,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     }
