@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "Cincinnati Reds",
+      "winner": "San Diego Padres",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.754,
-      "odds": -103,
+      "line": 9.25,
+      "confidence": 0.697,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     }
