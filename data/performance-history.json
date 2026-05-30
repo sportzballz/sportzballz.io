@@ -2,24 +2,24 @@
   {
     "date": "2026-05-29",
     "total_picks": 15,
-    "decided": 6,
-    "wins": 2,
-    "losses": 4,
-    "pending": 9,
-    "win_rate": 33.3,
+    "decided": 10,
+    "wins": 3,
+    "losses": 7,
+    "pending": 5,
+    "win_rate": 30.0,
     "plus_money_total": 6,
-    "plus_money_decided": 4,
+    "plus_money_decided": 5,
     "plus_money_wins": 1,
-    "plus_money_losses": 3,
-    "plus_money_win_rate": 25.0,
+    "plus_money_losses": 4,
+    "plus_money_win_rate": 20.0,
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 6,
-        "wins": 2,
-        "losses": 4,
-        "profit": -220.01,
-        "roi_pct": -36.67,
+        "decided": 10,
+        "wins": 3,
+        "losses": 7,
+        "profit": -420.01,
+        "roi_pct": -42.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -33,38 +33,38 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
+        "decided": 2,
         "wins": 0,
-        "losses": 1,
-        "profit": -100.0,
+        "losses": 2,
+        "profit": -200.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
         "total": 6,
-        "decided": 4,
+        "decided": 5,
         "wins": 1,
-        "losses": 3,
-        "profit": -193.0,
-        "roi_pct": -48.25,
+        "losses": 4,
+        "profit": -293.0,
+        "roi_pct": -58.6,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 5,
-        "wins": 5,
-        "losses": 0,
-        "profit": 481.07,
-        "roi_pct": 96.21,
+        "decided": 9,
+        "wins": 7,
+        "losses": 2,
+        "profit": 478.16,
+        "roi_pct": 53.13,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 97.09,
+        "roi_pct": 97.09,
         "stake_per_pick": 100.0
       }
     },
@@ -75,8 +75,8 @@
       "line": 7.38,
       "confidence": 0.738,
       "odds": -103,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "WIN",
+      "profit": 97.09
     }
   },
   {
