@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Athletics",
+      "winner": "Atlanta Braves",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 10.25,
-      "confidence": 0.859,
-      "odds": 102,
+      "line": 8.5,
+      "confidence": 0.797,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     }
@@ -82,11 +82,11 @@
   {
     "date": "2026-05-30",
     "total_picks": 15,
-    "decided": 11,
-    "wins": 6,
-    "losses": 5,
-    "pending": 4,
-    "win_rate": 54.5,
+    "decided": 15,
+    "wins": 7,
+    "losses": 8,
+    "pending": 0,
+    "win_rate": 46.7,
     "plus_money_total": 2,
     "plus_money_decided": 2,
     "plus_money_wins": 1,
@@ -95,29 +95,29 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 11,
-        "wins": 6,
-        "losses": 5,
-        "profit": 10.89,
-        "roi_pct": 0.99,
+        "decided": 15,
+        "wins": 7,
+        "losses": 8,
+        "profit": -222.44,
+        "roi_pct": -14.83,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
+        "decided": 3,
         "wins": 1,
-        "losses": 0,
-        "profit": 74.07,
-        "roi_pct": 74.07,
+        "losses": 2,
+        "profit": -125.93,
+        "roi_pct": -41.98,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -131,20 +131,20 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 11,
-        "wins": 7,
-        "losses": 4,
-        "profit": 239.51,
-        "roi_pct": 21.77,
+        "decided": 15,
+        "wins": 9,
+        "losses": 6,
+        "profit": 217.88,
+        "roi_pct": 14.53,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 94.34,
+        "roi_pct": 94.34,
         "stake_per_pick": 100.0
       }
     },
@@ -155,8 +155,8 @@
       "line": 10.94,
       "confidence": 0.917,
       "odds": -106,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "WIN",
+      "profit": 94.34
     }
   },
   {
