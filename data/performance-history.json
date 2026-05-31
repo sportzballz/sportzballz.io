@@ -7,7 +7,7 @@
     "losses": 5,
     "pending": 6,
     "win_rate": 44.4,
-    "plus_money_total": 3,
+    "plus_money_total": 2,
     "plus_money_decided": 2,
     "plus_money_wins": 1,
     "plus_money_losses": 1,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 3,
+        "total": 2,
         "decided": 2,
         "wins": 1,
         "losses": 1,
