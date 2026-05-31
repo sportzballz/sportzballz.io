@@ -69,12 +69,12 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "Cincinnati Reds",
+      "winner": "New York Yankees",
+      "loser": "Athletics",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.797,
-      "odds": -116,
+      "line": 10.25,
+      "confidence": 0.859,
+      "odds": 102,
       "result": "PENDING",
       "profit": 0.0
     }
