@@ -72,22 +72,22 @@
       "winner": "Cincinnati Reds",
       "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 9.45,
+      "line": 9.5,
       "confidence": 0.824,
-      "odds": -105,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-01",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.89,
       "conf_close": 0.824,
       "conf_max": 1.04,
       "conf_min": 0.824,
       "delta_close_open": -0.066,
       "intraday_range": 0.216,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 1,
