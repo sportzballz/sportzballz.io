@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-06-01",
-    "total_picks": 8,
+    "total_picks": 9,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 8,
+    "pending": 9,
     "win_rate": null,
-    "plus_money_total": 1,
+    "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 8,
+        "total": 9,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
+        "total": 2,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 8,
+        "total": 9,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -72,22 +72,22 @@
       "winner": "Cincinnati Reds",
       "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.824,
-      "odds": -104,
+      "line": 9.0,
+      "confidence": 0.821,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-01",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 0.89,
-      "conf_close": 0.824,
+      "conf_close": 0.821,
       "conf_max": 1.04,
-      "conf_min": 0.824,
-      "delta_close_open": -0.066,
-      "intraday_range": 0.216,
-      "pick_changes": 5
+      "conf_min": 0.821,
+      "delta_close_open": -0.069,
+      "intraday_range": 0.219,
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 1,
