@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 14,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 2,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -72,22 +72,22 @@
       "winner": "Colorado Rockies",
       "loser": "Los Angeles Angels",
       "pick": "OVER",
-      "line": 8.55,
+      "line": 8.75,
       "confidence": 0.759,
-      "odds": -119,
+      "odds": -118,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-02",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.678,
       "conf_close": 0.759,
       "conf_max": 0.759,
       "conf_min": 0.678,
       "delta_close_open": 0.081,
       "intraday_range": 0.081,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 2,
