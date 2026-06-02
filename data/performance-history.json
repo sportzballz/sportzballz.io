@@ -69,25 +69,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Miami Marlins",
-      "loser": "Washington Nationals",
-      "pick": "OVER",
+      "winner": "Houston Astros",
+      "loser": "Pittsburgh Pirates",
+      "pick": "UNDER",
       "line": 9.0,
-      "confidence": 0.678,
-      "odds": -119,
+      "confidence": 0.724,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-02",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.678,
-      "conf_close": 0.678,
-      "conf_max": 0.678,
+      "conf_close": 0.724,
+      "conf_max": 0.724,
       "conf_min": 0.678,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.046,
+      "intraday_range": 0.046,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 2,
@@ -128,24 +128,24 @@
   {
     "date": "2026-06-01",
     "total_picks": 9,
-    "decided": 6,
+    "decided": 9,
     "wins": 3,
-    "losses": 3,
-    "pending": 3,
-    "win_rate": 50.0,
+    "losses": 6,
+    "pending": 0,
+    "win_rate": 33.3,
     "plus_money_total": 3,
-    "plus_money_decided": 2,
+    "plus_money_decided": 3,
     "plus_money_wins": 1,
-    "plus_money_losses": 1,
-    "plus_money_win_rate": 50.0,
+    "plus_money_losses": 2,
+    "plus_money_win_rate": 33.3,
     "segments": {
       "all_picks": {
         "total": 9,
-        "decided": 6,
+        "decided": 9,
         "wins": 3,
-        "losses": 3,
-        "profit": -25.75,
-        "roi_pct": -4.29,
+        "losses": 6,
+        "profit": -325.75,
+        "roi_pct": -36.19,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -168,20 +168,20 @@
       },
       "plus_money_picks": {
         "total": 3,
-        "decided": 2,
+        "decided": 3,
         "wins": 1,
-        "losses": 1,
-        "profit": 35.0,
-        "roi_pct": 17.5,
+        "losses": 2,
+        "profit": -65.0,
+        "roi_pct": -21.67,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 9,
-        "decided": 6,
-        "wins": 4,
-        "losses": 2,
-        "profit": 168.87,
-        "roi_pct": 28.15,
+        "decided": 9,
+        "wins": 5,
+        "losses": 4,
+        "profit": 53.62,
+        "roi_pct": 5.96,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -206,7 +206,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-01",
-      "snapshots": 77,
+      "snapshots": 78,
       "conf_open": 0.89,
       "conf_close": 0.821,
       "conf_max": 1.04,
