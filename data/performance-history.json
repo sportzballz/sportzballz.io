@@ -69,25 +69,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Colorado Rockies",
-      "loser": "Los Angeles Angels",
+      "winner": "Chicago White Sox",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 8.75,
-      "confidence": 0.759,
-      "odds": -118,
+      "line": 8.5,
+      "confidence": 0.763,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-02",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.678,
-      "conf_close": 0.759,
-      "conf_max": 0.759,
+      "conf_close": 0.763,
+      "conf_max": 0.763,
       "conf_min": 0.678,
-      "delta_close_open": 0.081,
-      "intraday_range": 0.081,
-      "pick_changes": 5
+      "delta_close_open": 0.085,
+      "intraday_range": 0.085,
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 2,
