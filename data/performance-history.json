@@ -69,25 +69,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Houston Astros",
-      "loser": "Pittsburgh Pirates",
-      "pick": "UNDER",
-      "line": 9.0,
-      "confidence": 0.724,
-      "odds": -112,
+      "winner": "Colorado Rockies",
+      "loser": "Los Angeles Angels",
+      "pick": "OVER",
+      "line": 8.55,
+      "confidence": 0.759,
+      "odds": -117,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-02",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.678,
-      "conf_close": 0.724,
-      "conf_max": 0.724,
+      "conf_close": 0.759,
+      "conf_max": 0.759,
       "conf_min": 0.678,
-      "delta_close_open": 0.046,
-      "intraday_range": 0.046,
-      "pick_changes": 1
+      "delta_close_open": 0.081,
+      "intraday_range": 0.081,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 2,
