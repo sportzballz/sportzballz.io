@@ -69,25 +69,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Minnesota Twins",
-      "loser": "Chicago White Sox",
+      "winner": "Cincinnati Reds",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 8.59,
-      "confidence": 0.743,
-      "odds": -113,
+      "line": 8.45,
+      "confidence": 0.77,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-03",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.77,
-      "conf_close": 0.743,
+      "conf_close": 0.77,
       "conf_max": 0.77,
       "conf_min": 0.743,
-      "delta_close_open": -0.027,
+      "delta_close_open": 0.0,
       "intraday_range": 0.027,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 3,
