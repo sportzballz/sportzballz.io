@@ -69,25 +69,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Miami Marlins",
-      "loser": "Washington Nationals",
+      "winner": "Minnesota Twins",
+      "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 8.32,
-      "confidence": 0.847,
-      "odds": -106,
+      "line": 9.0,
+      "confidence": 0.712,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-03",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.77,
-      "conf_close": 0.847,
+      "conf_close": 0.712,
       "conf_max": 0.847,
       "conf_min": 0.709,
-      "delta_close_open": 0.077,
+      "delta_close_open": -0.058,
       "intraday_range": 0.138,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 3,
