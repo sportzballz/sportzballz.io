@@ -2,11 +2,11 @@
   {
     "date": "2026-06-04",
     "total_picks": 9,
-    "decided": 0,
-    "wins": 0,
+    "decided": 1,
+    "wins": 1,
     "losses": 0,
-    "pending": 9,
-    "win_rate": null,
+    "pending": 8,
+    "win_rate": 100.0,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 9,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 0.0,
+        "roi_pct": 0.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -33,11 +33,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 0.0,
+        "roi_pct": 0.0,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -51,20 +51,20 @@
       },
       "run_total_picks": {
         "total": 9,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 91.74,
+        "roi_pct": 91.74,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 91.74,
+        "roi_pct": 91.74,
         "stake_per_pick": 100.0
       }
     },
@@ -75,12 +75,12 @@
       "line": 8.5,
       "confidence": 0.596,
       "odds": -109,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "WIN",
+      "profit": 91.74
     },
     "intraday_top_run_total": {
       "date": "2026-06-04",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.557,
       "conf_close": 0.596,
       "conf_max": 0.857,
@@ -90,14 +90,14 @@
       "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 4,
+      "sample_days": 5,
       "delta_buckets": {
         "flat": {
-          "days": 2,
-          "wins": 0,
+          "days": 3,
+          "wins": 1,
           "losses": 2,
-          "profit": -200.0,
-          "win_rate_pct": 0.0
+          "profit": -108.26,
+          "win_rate_pct": 33.3
         },
         "down_big": {
           "days": 1,
@@ -123,11 +123,11 @@
           "win_rate_pct": 0.0
         },
         "high_range": {
-          "days": 2,
-          "wins": 1,
+          "days": 3,
+          "wins": 2,
           "losses": 1,
-          "profit": -9.09,
-          "win_rate_pct": 50.0
+          "profit": 82.65,
+          "win_rate_pct": 66.7
         },
         "medium_range": {
           "days": 1,
