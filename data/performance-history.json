@@ -72,22 +72,22 @@
       "winner": "Chicago Cubs",
       "loser": "Athletics",
       "pick": "OVER",
-      "line": 10.35,
+      "line": 10.45,
       "confidence": 0.857,
-      "odds": -110,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-04",
-      "snapshots": 18,
+      "snapshots": 21,
       "conf_open": 0.557,
       "conf_close": 0.857,
       "conf_max": 0.857,
       "conf_min": 0.533,
       "delta_close_open": 0.3,
       "intraday_range": 0.324,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 4,
