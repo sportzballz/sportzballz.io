@@ -60,44 +60,44 @@
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 1,
-        "wins": 1,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 91.74,
-        "roi_pct": 91.74,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "San Diego Padres",
+      "winner": "Chicago Cubs",
+      "loser": "Athletics",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.596,
-      "odds": -109,
-      "result": "WIN",
-      "profit": 91.74
+      "line": 10.09,
+      "confidence": 0.737,
+      "odds": -115,
+      "result": "PENDING",
+      "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-04",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.557,
-      "conf_close": 0.596,
+      "conf_close": 0.737,
       "conf_max": 0.857,
       "conf_min": 0.533,
-      "delta_close_open": 0.039,
+      "delta_close_open": 0.18,
       "intraday_range": 0.324,
-      "pick_changes": 7
+      "pick_changes": 8
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 5,
+      "sample_days": 4,
       "delta_buckets": {
         "flat": {
-          "days": 3,
-          "wins": 1,
+          "days": 2,
+          "wins": 0,
           "losses": 2,
-          "profit": -108.26,
-          "win_rate_pct": 33.3
+          "profit": -200.0,
+          "win_rate_pct": 0.0
         },
         "down_big": {
           "days": 1,
@@ -123,11 +123,11 @@
           "win_rate_pct": 0.0
         },
         "high_range": {
-          "days": 3,
-          "wins": 2,
+          "days": 2,
+          "wins": 1,
           "losses": 1,
-          "profit": 82.65,
-          "win_rate_pct": 66.7
+          "profit": -9.09,
+          "win_rate_pct": 50.0
         },
         "medium_range": {
           "days": 1,
