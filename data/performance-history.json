@@ -69,25 +69,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Chicago Cubs",
-      "loser": "Athletics",
+      "winner": "Philadelphia Phillies",
+      "loser": "San Diego Padres",
       "pick": "OVER",
-      "line": 10.45,
-      "confidence": 0.857,
+      "line": 8.5,
+      "confidence": 0.596,
       "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-04",
-      "snapshots": 21,
+      "snapshots": 24,
       "conf_open": 0.557,
-      "conf_close": 0.857,
+      "conf_close": 0.596,
       "conf_max": 0.857,
       "conf_min": 0.533,
-      "delta_close_open": 0.3,
+      "delta_close_open": 0.039,
       "intraday_range": 0.324,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 4,
