@@ -72,22 +72,22 @@
       "winner": "New York Yankees",
       "loser": "Boston Red Sox",
       "pick": "OVER",
-      "line": 8.12,
+      "line": 8.25,
       "confidence": 0.626,
-      "odds": -112,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-05",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 0.633,
       "conf_close": 0.626,
       "conf_max": 0.901,
       "conf_min": 0.601,
       "delta_close_open": -0.007,
       "intraday_range": 0.3,
-      "pick_changes": 8
+      "pick_changes": 9
     },
     "intraday_top_run_total_impact": {
       "sample_days": 5,
