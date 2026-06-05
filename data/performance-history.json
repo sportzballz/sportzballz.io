@@ -72,7 +72,7 @@
       "winner": "Milwaukee Brewers",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 11.8,
+      "line": 11.77,
       "confidence": 0.751,
       "odds": -112,
       "result": "PENDING",
@@ -80,14 +80,14 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-05",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.633,
       "conf_close": 0.751,
       "conf_max": 0.901,
       "conf_min": 0.601,
       "delta_close_open": 0.118,
       "intraday_range": 0.3,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 5,
