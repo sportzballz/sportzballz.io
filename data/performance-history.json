@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-06-05",
-    "total_picks": 14,
+    "total_picks": 15,
     "decided": 1,
     "wins": 0,
     "losses": 1,
-    "pending": 13,
+    "pending": 14,
     "win_rate": 0.0,
-    "plus_money_total": 0,
+    "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 1,
         "wins": 0,
         "losses": 1,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 1,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 1,
         "wins": 1,
         "losses": 0,
@@ -69,25 +69,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Boston Red Sox",
+      "winner": "Los Angeles Angels",
+      "loser": "Los Angeles Dodgers",
       "pick": "OVER",
-      "line": 8.25,
-      "confidence": 0.626,
-      "odds": -111,
+      "line": 8.5,
+      "confidence": 0.706,
+      "odds": -119,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-05",
-      "snapshots": 54,
+      "snapshots": 57,
       "conf_open": 0.633,
-      "conf_close": 0.626,
+      "conf_close": 0.706,
       "conf_max": 0.901,
       "conf_min": 0.601,
-      "delta_close_open": -0.007,
+      "delta_close_open": 0.073,
       "intraday_range": 0.3,
-      "pick_changes": 9
+      "pick_changes": 10
     },
     "intraday_top_run_total_impact": {
       "sample_days": 5,
