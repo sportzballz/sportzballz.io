@@ -69,25 +69,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Chicago White Sox",
-      "loser": "Philadelphia Phillies",
+      "winner": "Milwaukee Brewers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.633,
-      "odds": -111,
+      "line": 11.5,
+      "confidence": 0.601,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-05",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.633,
-      "conf_close": 0.633,
+      "conf_close": 0.601,
       "conf_max": 0.633,
-      "conf_min": 0.633,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.601,
+      "delta_close_open": -0.032,
+      "intraday_range": 0.032,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 5,
@@ -142,11 +142,11 @@
   {
     "date": "2026-06-04",
     "total_picks": 9,
-    "decided": 7,
-    "wins": 4,
-    "losses": 3,
-    "pending": 2,
-    "win_rate": 57.1,
+    "decided": 9,
+    "wins": 5,
+    "losses": 4,
+    "pending": 0,
+    "win_rate": 55.6,
     "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 1,
@@ -155,11 +155,11 @@
     "segments": {
       "all_picks": {
         "total": 9,
-        "decided": 7,
-        "wins": 4,
-        "losses": 3,
-        "profit": -20.1,
-        "roi_pct": -2.87,
+        "decided": 9,
+        "wins": 5,
+        "losses": 4,
+        "profit": -120.1,
+        "roi_pct": -13.34,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -191,11 +191,11 @@
       },
       "run_total_picks": {
         "total": 9,
-        "decided": 7,
-        "wins": 3,
+        "decided": 9,
+        "wins": 5,
         "losses": 4,
-        "profit": -124.01,
-        "roi_pct": -17.72,
+        "profit": 54.79,
+        "roi_pct": 6.09,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -220,7 +220,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-04",
-      "snapshots": 83,
+      "snapshots": 84,
       "conf_open": 0.557,
       "conf_close": 0.737,
       "conf_max": 0.857,
