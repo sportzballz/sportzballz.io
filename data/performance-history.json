@@ -72,22 +72,22 @@
       "winner": "Chicago White Sox",
       "loser": "Philadelphia Phillies",
       "pick": "OVER",
-      "line": 9.75,
+      "line": 9.73,
       "confidence": 1.066,
-      "odds": -112,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-06",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 1.066,
       "conf_close": 1.066,
       "conf_max": 1.066,
       "conf_min": 1.066,
       "delta_close_open": 0.0,
       "intraday_range": 0.0,
-      "pick_changes": 0
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 6,
