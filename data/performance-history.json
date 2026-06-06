@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 14,
     "win_rate": null,
-    "plus_money_total": 0,
+    "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 2,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "Chicago White Sox",
       "loser": "Philadelphia Phillies",
       "pick": "OVER",
-      "line": 9.95,
-      "confidence": 1.217,
-      "odds": -111,
+      "line": 9.9,
+      "confidence": 1.212,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-06",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 1.066,
-      "conf_close": 1.217,
+      "conf_close": 1.212,
       "conf_max": 1.366,
       "conf_min": 1.066,
-      "delta_close_open": 0.151,
+      "delta_close_open": 0.146,
       "intraday_range": 0.3,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 6,
