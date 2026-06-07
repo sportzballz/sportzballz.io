@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "San Francisco Giants",
-      "loser": "Chicago Cubs",
+      "winner": "Milwaukee Brewers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.0,
-      "confidence": 0.824,
-      "odds": -105,
+      "line": 11.5,
+      "confidence": 0.892,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-07",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.824,
-      "conf_close": 0.824,
-      "conf_max": 0.824,
+      "conf_close": 0.892,
+      "conf_max": 0.892,
       "conf_min": 0.824,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.068,
+      "intraday_range": 0.068,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 7,

@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-05-31",
+    "snapshots": 36,
+    "conf_open": 0.769,
+    "conf_close": 0.769,
+    "conf_max": 0.769,
+    "conf_min": 0.769,
+    "delta_close_open": 0.0,
+    "intraday_range": 0.0,
+    "pick_changes": 0
+  },
+  {
+    "date": "2026-06-01",
+    "snapshots": 78,
+    "conf_open": 0.89,
+    "conf_close": 0.821,
+    "conf_max": 1.04,
+    "conf_min": 0.821,
+    "delta_close_open": -0.069,
+    "intraday_range": 0.219,
+    "pick_changes": 6
+  },
+  {
+    "date": "2026-06-02",
+    "snapshots": 78,
+    "conf_open": 0.678,
+    "conf_close": 0.763,
+    "conf_max": 0.763,
+    "conf_min": 0.678,
+    "delta_close_open": 0.085,
+    "intraday_range": 0.085,
+    "pick_changes": 6
+  },
+  {
+    "date": "2026-06-03",
+    "snapshots": 86,
+    "conf_open": 0.77,
+    "conf_close": 0.797,
+    "conf_max": 0.847,
+    "conf_min": 0.709,
+    "delta_close_open": 0.027,
+    "intraday_range": 0.138,
+    "pick_changes": 8
+  },
+  {
+    "date": "2026-06-04",
+    "snapshots": 84,
+    "conf_open": 0.557,
+    "conf_close": 0.737,
+    "conf_max": 0.857,
+    "conf_min": 0.533,
+    "delta_close_open": 0.18,
+    "intraday_range": 0.324,
+    "pick_changes": 12
+  },
+  {
+    "date": "2026-06-05",
+    "snapshots": 77,
+    "conf_open": 0.633,
+    "conf_close": 0.626,
+    "conf_max": 0.901,
+    "conf_min": 0.601,
+    "delta_close_open": -0.007,
+    "intraday_range": 0.3,
+    "pick_changes": 11
+  },
+  {
+    "date": "2026-06-06",
+    "snapshots": 67,
+    "conf_open": 1.066,
+    "conf_close": 1.212,
+    "conf_max": 1.366,
+    "conf_min": 1.066,
+    "delta_close_open": 0.146,
+    "intraday_range": 0.3,
+    "pick_changes": 4
+  },
+  {
+    "date": "2026-06-07",
+    "snapshots": 9,
+    "conf_open": 0.824,
+    "conf_close": 0.892,
+    "conf_max": 0.892,
+    "conf_min": 0.824,
+    "delta_close_open": 0.068,
+    "intraday_range": 0.068,
+    "pick_changes": 1
+  }
+]
