@@ -2,11 +2,11 @@
   {
     "date": "2026-06-07",
     "total_picks": 15,
-    "decided": 3,
-    "wins": 3,
-    "losses": 0,
-    "pending": 12,
-    "win_rate": 100.0,
+    "decided": 6,
+    "wins": 5,
+    "losses": 1,
+    "pending": 9,
+    "win_rate": 83.3,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 3,
-        "wins": 3,
-        "losses": 0,
-        "profit": 159.26,
-        "roi_pct": 53.09,
+        "decided": 6,
+        "wins": 5,
+        "losses": 1,
+        "profit": 200.36,
+        "roi_pct": 33.39,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -42,11 +42,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 3,
-        "wins": 2,
+        "decided": 6,
+        "wins": 5,
         "losses": 1,
-        "profit": 81.95,
-        "roi_pct": 27.32,
+        "profit": 343.1,
+        "roi_pct": 57.18,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Milwaukee Brewers",
-      "loser": "Colorado Rockies",
+      "winner": "San Francisco Giants",
+      "loser": "Chicago Cubs",
       "pick": "OVER",
-      "line": 11.5,
-      "confidence": 0.892,
-      "odds": -111,
+      "line": 8.0,
+      "confidence": 0.906,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-07",
-      "snapshots": 33,
+      "snapshots": 36,
       "conf_open": 0.824,
-      "conf_close": 0.892,
-      "conf_max": 0.892,
+      "conf_close": 0.906,
+      "conf_max": 0.906,
       "conf_min": 0.824,
-      "delta_close_open": 0.068,
-      "intraday_range": 0.068,
-      "pick_changes": 1
+      "delta_close_open": 0.082,
+      "intraday_range": 0.082,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 7,
