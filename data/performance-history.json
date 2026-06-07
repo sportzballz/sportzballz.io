@@ -1,12 +1,12 @@
 [
   {
     "date": "2026-06-06",
-    "total_picks": 15,
-    "decided": 5,
-    "wins": 4,
-    "losses": 1,
-    "pending": 10,
-    "win_rate": 80.0,
+    "total_picks": 14,
+    "decided": 10,
+    "wins": 5,
+    "losses": 5,
+    "pending": 4,
+    "win_rate": 50.0,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -14,12 +14,12 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 15,
-        "decided": 5,
-        "wins": 4,
-        "losses": 1,
-        "profit": -100.0,
-        "roi_pct": -20.0,
+        "total": 14,
+        "decided": 10,
+        "wins": 5,
+        "losses": 5,
+        "profit": -500.0,
+        "roi_pct": -50.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -59,21 +59,21 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
-        "decided": 5,
-        "wins": 2,
-        "losses": 3,
-        "profit": -120.54,
-        "roi_pct": -24.11,
+        "total": 14,
+        "decided": 10,
+        "wins": 4,
+        "losses": 6,
+        "profit": -236.2,
+        "roi_pct": -23.62,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       }
     },
@@ -84,12 +84,12 @@
       "line": 9.9,
       "confidence": 1.212,
       "odds": -104,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "LOSS",
+      "profit": -100.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-06",
-      "snapshots": 57,
+      "snapshots": 60,
       "conf_open": 1.066,
       "conf_close": 1.212,
       "conf_max": 1.366,
@@ -99,7 +99,7 @@
       "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 6,
+      "sample_days": 7,
       "delta_buckets": {
         "flat": {
           "days": 3,
@@ -116,11 +116,11 @@
           "win_rate_pct": 100.0
         },
         "up_big": {
-          "days": 2,
+          "days": 3,
           "wins": 2,
-          "losses": 0,
-          "profit": 173.93,
-          "win_rate_pct": 100.0
+          "losses": 1,
+          "profit": 73.93,
+          "win_rate_pct": 66.7
         }
       },
       "range_buckets": {
@@ -132,11 +132,11 @@
           "win_rate_pct": 0.0
         },
         "high_range": {
-          "days": 4,
+          "days": 5,
           "wins": 2,
-          "losses": 2,
-          "profit": -22.88,
-          "win_rate_pct": 50.0
+          "losses": 3,
+          "profit": -122.88,
+          "win_rate_pct": 40.0
         },
         "medium_range": {
           "days": 1,
