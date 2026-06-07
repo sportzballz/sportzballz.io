@@ -2,11 +2,11 @@
   {
     "date": "2026-06-07",
     "total_picks": 15,
-    "decided": 12,
-    "wins": 11,
+    "decided": 13,
+    "wins": 12,
     "losses": 1,
-    "pending": 3,
-    "win_rate": 91.7,
+    "pending": 2,
+    "win_rate": 92.3,
     "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 12,
-        "wins": 11,
+        "decided": 13,
+        "wins": 12,
         "losses": 1,
-        "profit": 702.9,
-        "roi_pct": 58.58,
+        "profit": 792.99,
+        "roi_pct": 61.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 12,
+        "decided": 13,
         "wins": 8,
-        "losses": 4,
-        "profit": 306.43,
-        "roi_pct": 25.54,
+        "losses": 5,
+        "profit": 206.43,
+        "roi_pct": 15.88,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -81,22 +81,22 @@
       "winner": "San Francisco Giants",
       "loser": "Chicago Cubs",
       "pick": "OVER",
-      "line": 8.09,
+      "line": 8.05,
       "confidence": 1.056,
-      "odds": -109,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-07",
-      "snapshots": 48,
+      "snapshots": 51,
       "conf_open": 0.824,
       "conf_close": 1.056,
       "conf_max": 1.056,
       "conf_min": 0.824,
       "delta_close_open": 0.232,
       "intraday_range": 0.232,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 7,
