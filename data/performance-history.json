@@ -2,11 +2,11 @@
   {
     "date": "2026-06-07",
     "total_picks": 15,
-    "decided": 11,
-    "wins": 10,
+    "decided": 12,
+    "wins": 11,
     "losses": 1,
-    "pending": 4,
-    "win_rate": 90.9,
+    "pending": 3,
+    "win_rate": 91.7,
     "plus_money_total": 1,
     "plus_money_decided": 1,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 11,
-        "wins": 10,
+        "decided": 12,
+        "wins": 11,
         "losses": 1,
-        "profit": 649.42,
-        "roi_pct": 59.04,
+        "profit": 702.9,
+        "roi_pct": 58.58,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -60,46 +60,46 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 11,
-        "wins": 7,
+        "decided": 12,
+        "wins": 8,
         "losses": 4,
-        "profit": 216.34,
-        "roi_pct": 19.67,
+        "profit": 306.43,
+        "roi_pct": 25.54,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 90.09,
+        "roi_pct": 90.09,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "San Francisco Giants",
-      "loser": "Chicago Cubs",
+      "winner": "Milwaukee Brewers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.0,
-      "confidence": 0.906,
-      "odds": -106,
-      "result": "PENDING",
-      "profit": 0.0
+      "line": 11.5,
+      "confidence": 0.892,
+      "odds": -111,
+      "result": "WIN",
+      "profit": 90.09
     },
     "intraday_top_run_total": {
       "date": "2026-06-07",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 0.824,
-      "conf_close": 0.906,
+      "conf_close": 0.892,
       "conf_max": 0.906,
       "conf_min": 0.824,
-      "delta_close_open": 0.082,
+      "delta_close_open": 0.068,
       "intraday_range": 0.082,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 7,
+      "sample_days": 8,
       "delta_buckets": {
         "flat": {
           "days": 3,
@@ -116,11 +116,11 @@
           "win_rate_pct": 100.0
         },
         "up_big": {
-          "days": 3,
-          "wins": 2,
+          "days": 4,
+          "wins": 3,
           "losses": 1,
-          "profit": 73.93,
-          "win_rate_pct": 66.7
+          "profit": 164.02,
+          "win_rate_pct": 75.0
         }
       },
       "range_buckets": {
@@ -139,10 +139,10 @@
           "win_rate_pct": 40.0
         },
         "medium_range": {
-          "days": 1,
-          "wins": 1,
+          "days": 2,
+          "wins": 2,
           "losses": 0,
-          "profit": 87.72,
+          "profit": 177.81,
           "win_rate_pct": 100.0
         }
       }

@@ -546,3 +546,6 @@
 {"timestamp_et": "2026-06-07 18:07:23", "date": "2026-06-07", "winner": "San Francisco Giants", "loser": "Chicago Cubs", "pick": "OVER", "line": 8.0, "confidence": 0.906, "odds": -106, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-06-07 18:07:24", "date": "2026-06-07", "winner": "San Francisco Giants", "loser": "Chicago Cubs", "pick": "OVER", "line": 8.0, "confidence": 0.906, "odds": -106, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-06-07 18:07:39", "date": "2026-06-07", "winner": "San Francisco Giants", "loser": "Chicago Cubs", "pick": "OVER", "line": 8.0, "confidence": 0.906, "odds": -106, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-07 18:42:24", "date": "2026-06-07", "winner": "Milwaukee Brewers", "loser": "Colorado Rockies", "pick": "OVER", "line": 11.5, "confidence": 0.892, "odds": -111, "result": "WIN", "profit": 90.09}
+{"timestamp_et": "2026-06-07 18:42:25", "date": "2026-06-07", "winner": "Milwaukee Brewers", "loser": "Colorado Rockies", "pick": "OVER", "line": 11.5, "confidence": 0.892, "odds": -111, "result": "WIN", "profit": 90.09}
+{"timestamp_et": "2026-06-07 18:42:40", "date": "2026-06-07", "winner": "Milwaukee Brewers", "loser": "Colorado Rockies", "pick": "OVER", "line": 11.5, "confidence": 0.892, "odds": -111, "result": "WIN", "profit": 90.09}
