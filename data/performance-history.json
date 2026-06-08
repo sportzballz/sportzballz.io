@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Toronto Blue Jays",
+      "winner": "Milwaukee Brewers",
+      "loser": "Athletics",
       "pick": "OVER",
-      "line": 7.5,
-      "confidence": 0.59,
-      "odds": -104,
+      "line": 11.5,
+      "confidence": 0.644,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-08",
-      "snapshots": 54,
+      "snapshots": 57,
       "conf_open": 0.47,
-      "conf_close": 0.59,
-      "conf_max": 0.592,
+      "conf_close": 0.644,
+      "conf_max": 0.644,
       "conf_min": 0.47,
-      "delta_close_open": 0.12,
-      "intraday_range": 0.122,
-      "pick_changes": 8
+      "delta_close_open": 0.174,
+      "intraday_range": 0.174,
+      "pick_changes": 9
     },
     "intraday_top_run_total_impact": {
       "sample_days": 8,
