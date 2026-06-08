@@ -78,7 +78,7 @@
   },
   {
     "date": "2026-06-07",
-    "snapshots": 64,
+    "snapshots": 65,
     "conf_open": 0.824,
     "conf_close": 1.056,
     "conf_max": 1.056,
@@ -89,13 +89,13 @@
   },
   {
     "date": "2026-06-08",
-    "snapshots": 6,
+    "snapshots": 9,
     "conf_open": 0.47,
-    "conf_close": 0.553,
+    "conf_close": 0.47,
     "conf_max": 0.553,
     "conf_min": 0.47,
-    "delta_close_open": 0.083,
+    "delta_close_open": 0.0,
     "intraday_range": 0.083,
-    "pick_changes": 1
+    "pick_changes": 2
   }
 ]
