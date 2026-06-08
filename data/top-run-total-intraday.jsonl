@@ -566,3 +566,5 @@
 {"timestamp_et": "2026-06-07 22:12:27", "date": "2026-06-07", "winner": "San Francisco Giants", "loser": "Chicago Cubs", "pick": "OVER", "line": 8.05, "confidence": 1.056, "odds": -113, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-06-07 23:08:25", "date": "2026-06-07", "winner": "San Francisco Giants", "loser": "Chicago Cubs", "pick": "OVER", "line": 8.05, "confidence": 1.056, "odds": -113, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-06-07 23:08:40", "date": "2026-06-07", "winner": "San Francisco Giants", "loser": "Chicago Cubs", "pick": "OVER", "line": 8.05, "confidence": 1.056, "odds": -113, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-07 23:54:15", "date": "2026-06-07", "winner": "San Francisco Giants", "loser": "Chicago Cubs", "pick": "OVER", "line": 8.05, "confidence": 1.056, "odds": -113, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-06-07 23:54:31", "date": "2026-06-07", "winner": "San Francisco Giants", "loser": "Chicago Cubs", "pick": "OVER", "line": 8.05, "confidence": 1.056, "odds": -113, "result": "LOSS", "profit": -100.0}
