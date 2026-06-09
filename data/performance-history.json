@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 3,
+    "plus_money_total": 4,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 3,
+        "total": 4,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "Athletics",
       "loser": "Milwaukee Brewers",
       "pick": "OVER",
-      "line": 13.05,
+      "line": 14.25,
       "confidence": 0.912,
-      "odds": -116,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-09",
-      "snapshots": 37,
+      "snapshots": 40,
       "conf_open": 0.771,
       "conf_close": 0.912,
       "conf_max": 1.071,
       "conf_min": 0.771,
       "delta_close_open": 0.141,
       "intraday_range": 0.3,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 9,
