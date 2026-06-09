@@ -81,22 +81,22 @@
       "winner": "New York Yankees",
       "loser": "Cleveland Guardians",
       "pick": "OVER",
-      "line": 8.32,
+      "line": 8.5,
       "confidence": 1.071,
-      "odds": -117,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-09",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.771,
       "conf_close": 1.071,
       "conf_max": 1.071,
       "conf_min": 0.771,
       "delta_close_open": 0.3,
       "intraday_range": 0.3,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 9,
