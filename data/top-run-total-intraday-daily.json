@@ -111,12 +111,12 @@
   },
   {
     "date": "2026-06-10",
-    "snapshots": 30,
+    "snapshots": 33,
     "conf_open": 1.13,
-    "conf_close": 1.28,
+    "conf_close": 1.13,
     "conf_max": 1.28,
     "conf_min": 1.13,
-    "delta_close_open": 0.15,
+    "delta_close_open": 0.0,
     "intraday_range": 0.15,
     "pick_changes": 3
   }
