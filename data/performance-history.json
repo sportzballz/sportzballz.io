@@ -1,25 +1,25 @@
 [
   {
     "date": "2026-06-10",
-    "total_picks": 13,
-    "decided": 0,
-    "wins": 0,
-    "losses": 0,
+    "total_picks": 15,
+    "decided": 2,
+    "wins": 1,
+    "losses": 1,
     "pending": 13,
-    "win_rate": null,
-    "plus_money_total": 1,
+    "win_rate": 50.0,
+    "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
-        "decided": 0,
-        "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "total": 15,
+        "decided": 2,
+        "wins": 1,
+        "losses": 1,
+        "profit": -38.27,
+        "roi_pct": -19.14,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -42,15 +42,15 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 61.73,
+        "roi_pct": 61.73,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
+        "total": 0,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,12 +59,12 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
-        "decided": 0,
-        "wins": 0,
+        "total": 15,
+        "decided": 2,
+        "wins": 2,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 187.21,
+        "roi_pct": 93.61,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Pittsburgh Pirates",
       "pick": "OVER",
-      "line": 8.75,
+      "line": 8.79,
       "confidence": 1.13,
-      "odds": -118,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-10",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 1.13,
       "conf_close": 1.13,
       "conf_max": 1.28,
       "conf_min": 1.13,
       "delta_close_open": 0.0,
       "intraday_range": 0.15,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 10,
