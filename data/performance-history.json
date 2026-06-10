@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Pittsburgh Pirates",
       "pick": "OVER",
-      "line": 8.86,
-      "confidence": 1.28,
-      "odds": -113,
+      "line": 9.07,
+      "confidence": 1.038,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-10",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 1.13,
-      "conf_close": 1.28,
+      "conf_close": 1.038,
       "conf_max": 1.28,
-      "conf_min": 1.13,
-      "delta_close_open": 0.15,
-      "intraday_range": 0.15,
-      "pick_changes": 5
+      "conf_min": 1.038,
+      "delta_close_open": -0.092,
+      "intraday_range": 0.242,
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 10,
