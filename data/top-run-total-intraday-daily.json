@@ -100,7 +100,7 @@
   },
   {
     "date": "2026-06-09",
-    "snapshots": 70,
+    "snapshots": 71,
     "conf_open": 0.771,
     "conf_close": 1.008,
     "conf_max": 1.071,
@@ -111,7 +111,7 @@
   },
   {
     "date": "2026-06-10",
-    "snapshots": 6,
+    "snapshots": 9,
     "conf_open": 1.13,
     "conf_close": 1.13,
     "conf_max": 1.13,
