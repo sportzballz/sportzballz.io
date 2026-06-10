@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Pittsburgh Pirates",
       "pick": "OVER",
-      "line": 7.82,
+      "line": 8.5,
       "confidence": 1.13,
-      "odds": -113,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-10",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 1.13,
       "conf_close": 1.13,
       "conf_max": 1.13,
       "conf_min": 1.13,
       "delta_close_open": 0.0,
       "intraday_range": 0.0,
-      "pick_changes": 0
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 10,
@@ -156,11 +156,11 @@
     "losses": 5,
     "pending": 0,
     "win_rate": 66.7,
-    "plus_money_total": 0,
-    "plus_money_decided": 0,
-    "plus_money_wins": 0,
-    "plus_money_losses": 0,
-    "plus_money_win_rate": null,
+    "plus_money_total": 5,
+    "plus_money_decided": 5,
+    "plus_money_wins": 4,
+    "plus_money_losses": 1,
+    "plus_money_win_rate": 80.0,
     "segments": {
       "all_picks": {
         "total": 15,
@@ -199,10 +199,10 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
-        "decided": 0,
-        "wins": 0,
-        "losses": 0,
+        "total": 5,
+        "decided": 5,
+        "wins": 4,
+        "losses": 1,
         "profit": 0,
         "roi_pct": null,
         "stake_per_pick": 100.0
