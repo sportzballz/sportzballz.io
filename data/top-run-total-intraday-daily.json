@@ -122,7 +122,7 @@
   },
   {
     "date": "2026-06-11",
-    "snapshots": 15,
+    "snapshots": 18,
     "conf_open": 0.7,
     "conf_close": 0.905,
     "conf_max": 0.905,
