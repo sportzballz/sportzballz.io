@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Pittsburgh Pirates",
       "pick": "OVER",
-      "line": 9.27,
+      "line": 9.45,
       "confidence": 0.7,
-      "odds": -111,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-11",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.7,
       "conf_close": 0.7,
       "conf_max": 0.7,
       "conf_min": 0.7,
       "delta_close_open": 0.0,
       "intraday_range": 0.0,
-      "pick_changes": 0
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 11,
@@ -151,11 +151,11 @@
   {
     "date": "2026-06-10",
     "total_picks": 15,
-    "decided": 13,
-    "wins": 6,
-    "losses": 7,
-    "pending": 2,
-    "win_rate": 46.2,
+    "decided": 15,
+    "wins": 7,
+    "losses": 8,
+    "pending": 0,
+    "win_rate": 46.7,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -164,11 +164,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 13,
-        "wins": 6,
-        "losses": 7,
-        "profit": -411.94,
-        "roi_pct": -31.69,
+        "decided": 15,
+        "wins": 7,
+        "losses": 8,
+        "profit": -511.94,
+        "roi_pct": -34.13,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -209,11 +209,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 13,
+        "decided": 15,
         "wins": 8,
-        "losses": 5,
-        "profit": 237.23,
-        "roi_pct": 18.25,
+        "losses": 7,
+        "profit": 37.23,
+        "roi_pct": 2.48,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -238,7 +238,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-10",
-      "snapshots": 75,
+      "snapshots": 76,
       "conf_open": 1.13,
       "conf_close": 1.038,
       "conf_max": 1.28,
