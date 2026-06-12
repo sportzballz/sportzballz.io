@@ -81,22 +81,22 @@
       "winner": "Baltimore Orioles",
       "loser": "San Diego Padres",
       "pick": "OVER",
-      "line": 8.77,
-      "confidence": 0.919,
-      "odds": -107,
+      "line": 9.09,
+      "confidence": 1.069,
+      "odds": -117,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-12",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.919,
-      "conf_close": 0.919,
+      "conf_close": 1.069,
       "conf_max": 1.069,
       "conf_min": 0.919,
-      "delta_close_open": 0.0,
+      "delta_close_open": 0.15,
       "intraday_range": 0.15,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 11,
@@ -156,11 +156,11 @@
     "losses": 2,
     "pending": 0,
     "win_rate": 71.4,
-    "plus_money_total": 1,
-    "plus_money_decided": 1,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
     "plus_money_wins": 0,
-    "plus_money_losses": 1,
-    "plus_money_win_rate": 0.0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
         "total": 7,
@@ -199,10 +199,10 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
-        "decided": 1,
+        "total": 0,
+        "decided": 0,
         "wins": 0,
-        "losses": 1,
+        "losses": 0,
         "profit": -100.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
