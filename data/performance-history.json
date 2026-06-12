@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Chicago White Sox",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Miami Marlins",
       "pick": "OVER",
-      "line": 8.38,
-      "confidence": 0.8,
-      "odds": -109,
+      "line": 8.5,
+      "confidence": 0.773,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-12",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.919,
-      "conf_close": 0.8,
+      "conf_close": 0.773,
       "conf_max": 1.069,
       "conf_min": 0.769,
-      "delta_close_open": -0.119,
+      "delta_close_open": -0.146,
       "intraday_range": 0.3,
-      "pick_changes": 8
+      "pick_changes": 9
     },
     "intraday_top_run_total_impact": {
       "sample_days": 11,
