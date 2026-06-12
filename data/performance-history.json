@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-12",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Chicago White Sox",
+      "winner": "Baltimore Orioles",
+      "loser": "San Diego Padres",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.8,
-      "odds": -106,
+      "line": 9.88,
+      "confidence": 0.769,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-12",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.919,
-      "conf_close": 0.8,
+      "conf_close": 0.769,
       "conf_max": 1.069,
-      "conf_min": 0.8,
-      "delta_close_open": -0.119,
-      "intraday_range": 0.269,
-      "pick_changes": 6
+      "conf_min": 0.769,
+      "delta_close_open": -0.15,
+      "intraday_range": 0.3,
+      "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
       "sample_days": 11,
