@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Pittsburgh Pirates",
-      "loser": "Miami Marlins",
+      "winner": "Houston Astros",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 8.55,
-      "confidence": 0.923,
-      "odds": -114,
+      "line": 9.43,
+      "confidence": 0.839,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-12",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.919,
-      "conf_close": 0.923,
+      "conf_close": 0.839,
       "conf_max": 1.219,
       "conf_min": 0.769,
-      "delta_close_open": 0.004,
+      "delta_close_open": -0.08,
       "intraday_range": 0.45,
-      "pick_changes": 11
+      "pick_changes": 12
     },
     "intraday_top_run_total_impact": {
       "sample_days": 11,
