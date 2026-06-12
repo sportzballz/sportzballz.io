@@ -81,22 +81,22 @@
       "winner": "Baltimore Orioles",
       "loser": "San Diego Padres",
       "pick": "OVER",
-      "line": 8.73,
-      "confidence": 0.919,
-      "odds": -109,
+      "line": 8.77,
+      "confidence": 1.069,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-12",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 0.919,
-      "conf_close": 0.919,
-      "conf_max": 0.919,
+      "conf_close": 1.069,
+      "conf_max": 1.069,
       "conf_min": 0.919,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.15,
+      "intraday_range": 0.15,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 11,
