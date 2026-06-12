@@ -133,12 +133,12 @@
   },
   {
     "date": "2026-06-12",
-    "snapshots": 48,
+    "snapshots": 51,
     "conf_open": 0.919,
-    "conf_close": 0.839,
+    "conf_close": 0.78,
     "conf_max": 1.219,
     "conf_min": 0.769,
-    "delta_close_open": -0.08,
+    "delta_close_open": -0.139,
     "intraday_range": 0.45,
     "pick_changes": 12
   }
