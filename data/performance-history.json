@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 0,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "Houston Astros",
+      "winner": "Washington Nationals",
+      "loser": "Seattle Mariners",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 1.144,
-      "odds": -118,
+      "line": 9.7,
+      "confidence": 1.004,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-13",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 1.03,
-      "conf_close": 1.144,
+      "conf_close": 1.004,
       "conf_max": 1.48,
-      "conf_min": 1.03,
-      "delta_close_open": 0.114,
-      "intraday_range": 0.45,
-      "pick_changes": 3
+      "conf_min": 1.004,
+      "delta_close_open": -0.026,
+      "intraday_range": 0.476,
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 12,
