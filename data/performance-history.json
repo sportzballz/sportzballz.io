@@ -42,8 +42,8 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
-        "wins": 1,
+        "decided": 2,
+        "wins": 2,
         "losses": 0,
         "profit": 0.0,
         "roi_pct": 0.0,
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-13",
-      "snapshots": 60,
+      "snapshots": 63,
       "conf_open": 1.03,
       "conf_close": 1.004,
       "conf_max": 1.48,
