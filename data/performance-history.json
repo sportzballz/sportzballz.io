@@ -1,5 +1,154 @@
 [
   {
+    "date": "2026-06-15",
+    "total_picks": 8,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 8,
+    "win_rate": null,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 8,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 0,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 8,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Washington Nationals",
+      "loser": "Kansas City Royals",
+      "pick": "OVER",
+      "line": 9.0,
+      "confidence": 0.716,
+      "odds": -116,
+      "result": "PENDING",
+      "profit": 0.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-06-15",
+      "snapshots": 3,
+      "conf_open": 0.716,
+      "conf_close": 0.716,
+      "conf_max": 0.716,
+      "conf_min": 0.716,
+      "delta_close_open": 0.0,
+      "intraday_range": 0.0,
+      "pick_changes": 0
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 14,
+      "delta_buckets": {
+        "flat": {
+          "days": 4,
+          "wins": 1,
+          "losses": 3,
+          "profit": -209.09,
+          "win_rate_pct": 25.0
+        },
+        "down_big": {
+          "days": 3,
+          "wins": 3,
+          "losses": 0,
+          "profit": 269.54,
+          "win_rate_pct": 100.0
+        },
+        "up_big": {
+          "days": 7,
+          "wins": 3,
+          "losses": 4,
+          "profit": -137.57,
+          "win_rate_pct": 42.9
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 1,
+          "wins": 0,
+          "losses": 1,
+          "profit": -100.0,
+          "win_rate_pct": 0.0
+        },
+        "high_range": {
+          "days": 11,
+          "wins": 6,
+          "losses": 5,
+          "profit": 35.16,
+          "win_rate_pct": 54.5
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
     "date": "2026-06-14",
     "total_picks": 14,
     "decided": 14,
