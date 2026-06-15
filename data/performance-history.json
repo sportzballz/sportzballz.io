@@ -81,22 +81,22 @@
       "winner": "Cincinnati Reds",
       "loser": "New York Mets",
       "pick": "OVER",
-      "line": 9.5,
+      "line": 9.25,
       "confidence": 0.738,
-      "odds": -103,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-15",
-      "snapshots": 51,
+      "snapshots": 54,
       "conf_open": 0.716,
       "conf_close": 0.738,
       "conf_max": 0.823,
       "conf_min": 0.562,
       "delta_close_open": 0.022,
       "intraday_range": 0.261,
-      "pick_changes": 10
+      "pick_changes": 11
     },
     "intraday_top_run_total_impact": {
       "sample_days": 14,
