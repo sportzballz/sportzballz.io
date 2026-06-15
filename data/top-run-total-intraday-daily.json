@@ -166,13 +166,13 @@
   },
   {
     "date": "2026-06-15",
-    "snapshots": 15,
+    "snapshots": 18,
     "conf_open": 0.716,
-    "conf_close": 0.823,
+    "conf_close": 0.716,
     "conf_max": 0.823,
     "conf_min": 0.712,
-    "delta_close_open": 0.107,
+    "delta_close_open": 0.0,
     "intraday_range": 0.111,
-    "pick_changes": 2
+    "pick_changes": 3
   }
 ]
