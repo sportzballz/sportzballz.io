@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Tampa Bay Rays",
       "pick": "OVER",
-      "line": 8.17,
+      "line": 8.1,
       "confidence": 0.673,
-      "odds": -105,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-15",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.716,
       "conf_close": 0.673,
       "conf_max": 0.823,
       "conf_min": 0.562,
       "delta_close_open": -0.043,
       "intraday_range": 0.261,
-      "pick_changes": 6
+      "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
       "sample_days": 14,
