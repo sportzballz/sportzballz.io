@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 8,
     "win_rate": null,
-    "plus_money_total": 0,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Tampa Bay Rays",
+      "winner": "Cincinnati Reds",
+      "loser": "New York Mets",
       "pick": "OVER",
-      "line": 9.41,
-      "confidence": 0.673,
+      "line": 8.5,
+      "confidence": 0.562,
       "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-15",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.716,
-      "conf_close": 0.673,
+      "conf_close": 0.562,
       "conf_max": 0.823,
-      "conf_min": 0.673,
-      "delta_close_open": -0.043,
-      "intraday_range": 0.15,
-      "pick_changes": 4
+      "conf_min": 0.562,
+      "delta_close_open": -0.154,
+      "intraday_range": 0.261,
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 14,
