@@ -82,20 +82,20 @@
       "loser": "Chicago Cubs",
       "pick": "OVER",
       "line": 10.0,
-      "confidence": 0.848,
+      "confidence": 0.878,
       "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-16",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.7,
-      "conf_close": 0.848,
-      "conf_max": 0.85,
+      "conf_close": 0.878,
+      "conf_max": 0.878,
       "conf_min": 0.698,
-      "delta_close_open": 0.148,
-      "intraday_range": 0.152,
+      "delta_close_open": 0.178,
+      "intraday_range": 0.18,
       "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
