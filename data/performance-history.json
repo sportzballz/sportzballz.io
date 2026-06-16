@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 0,
+    "plus_money_total": 5,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 5,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "Colorado Rockies",
       "loser": "Chicago Cubs",
       "pick": "OVER",
-      "line": 9.55,
-      "confidence": 0.848,
-      "odds": -111,
+      "line": 10.0,
+      "confidence": 0.698,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-16",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.7,
-      "conf_close": 0.848,
+      "conf_close": 0.698,
       "conf_max": 0.85,
       "conf_min": 0.698,
-      "delta_close_open": 0.148,
+      "delta_close_open": -0.002,
       "intraday_range": 0.152,
-      "pick_changes": 6
+      "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
       "sample_days": 15,
