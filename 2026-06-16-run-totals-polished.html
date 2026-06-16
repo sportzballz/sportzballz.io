@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%E2%9A%BE%3C/text%3E%3C/svg%3E" rel="icon"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<title>SportzBallz | Run Total Picks</title>
+<meta content="SportzBallz MLB run total picks for 2026-06-16." name="description"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/>
+<link href="https://sportzballz.io/2026-06-16-run-totals-polished.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="SportzBallz" property="og:site_name"/>
+<meta content="SportzBallz Run Total Picks — 2026-06-16" property="og:title"/>
+<meta content="MLB totals leans built from confidence, pricing, weather and movement context." property="og:description"/>
+<meta content="https://sportzballz.io/2026-06-16-run-totals-polished.html" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<style>
+    :root { --bg:#0a1020; --panel:#101a33; --ink:#eaf0ff; --muted:#a7b7df; --line:#273a6b; --accent:#f59e0b; --accent2:#5cc9ff; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg, #0b1220 0%, #0a1020 100%);color:var(--ink);line-height:1.65}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+    header{background:linear-gradient(135deg, rgba(245,158,11,.20), rgba(92,201,255,.10));border:1px solid var(--line);border-radius:16px;padding:22px;margin-bottom:16px}
+    .kicker{font:600 12px/1.2 Inter,system-ui,sans-serif;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+    h1{margin:8px 0 10px;font-size:clamp(30px,5vw,46px);line-height:1.05}
+    .sub{color:var(--muted);font-family:Inter,system-ui,sans-serif;font-size:14px}
+    .header-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+    .reload-btn{display:inline-block;border:1px solid #4c6db0;background:#10203b;color:#dff2ff;border-radius:10px;padding:8px 12px;font:600 12px Inter,system-ui,sans-serif;cursor:pointer;text-decoration:none}
+    .ad-slot{background:rgba(255,255,255,.03);border:1px dashed #3b5a96;border-radius:12px;padding:12px 14px;margin:0 0 14px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .ad-label{font:700 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9cc4ff}
+    .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
+    .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
+    .pick-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 14px 0;box-shadow:0 8px 22px rgba(2,8,24,.32)}
+    .pick-head h2{margin:4px 0 8px;font-size:27px;line-height:1.15}
+    .seo-line{font:600 12px/1.3 Inter,system-ui,sans-serif;color:#a9c6ff;letter-spacing:.02em;margin-top:2px}
+    .pick-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .res{display:inline-flex;align-items:center;justify-content:center;padding:5px 9px;border-radius:999px;border:1px solid #35518f;font:700 11px/1 Inter,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#dce8ff;background:rgba(255,255,255,.04)}
+    .res-win{color:#7CFFB3;border-color:#2f8f57;background:rgba(52,211,153,.12)}
+    .res-loss{color:#ff9ca0;border-color:#a13d47;background:rgba(239,68,68,.14)}
+    .res-push{color:#fde68a;border-color:#d4a11d;background:rgba(212,161,29,.18)}
+    .res-pending{color:#cfe1ff;border-color:#3c5c97;background:rgba(59,130,246,.12)}
+    .res-inprogress{color:#fde68a;border-color:#f59e0b;background:rgba(245,158,11,.18)}
+    .pick-num{font:600 12px/1 Inter,system-ui,sans-serif;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
+    .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 12px;padding:10px 0 2px}
+    .meta-grid div{border:1px dashed #31508e;border-radius:10px;padding:8px 10px;background:rgba(255,255,255,.02)}
+    .meta-grid span{display:block;color:var(--muted);font:600 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
+    .meta-grid strong{font:600 15px/1.35 Inter,system-ui,sans-serif;color:#dce8ff}
+    .lede{font-size:18px;line-height:1.55;margin:12px 0 8px;color:#f2f6ff}
+    details{margin-top:8px;border-top:1px solid #264377;padding-top:8px}
+    summary{cursor:pointer;font:600 14px Inter,system-ui,sans-serif;color:#fbbf24}
+    ul{margin:10px 0 0 18px;padding:0}
+    li{margin:6px 0}
+    
+    .nav-toolbar { margin:14px 0 18px; display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:10px; align-items:start; }
+    .toolbar-group { border:1px solid #2d446f; border-radius:12px; padding:10px; background:#0f1a30; min-height:56px; display:flex; flex-direction:column; justify-content:flex-start; }
+    .toolbar-group summary { cursor:pointer; color:#e6efff; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; list-style:none; text-align:center; border:1px solid #375486; border-radius:10px; padding:10px 12px; background:#132241; }
+    .toolbar-group summary::-webkit-details-marker { display:none; }
+    .toolbar-group[open] summary { margin-bottom:8px; }
+    .toolbar-group summary a { color:#e6efff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; }
+    .nav-toolbar > .toolbar-group > summary { min-height:44px; display:flex; align-items:center; justify-content:center; }
+    .nav-toolbar > .toolbar-direct-link { min-height:44px; display:flex; align-items:center; justify-content:center; color:#e6efff; text-decoration:none; font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; border:1px solid #375486; border-radius:10px; padding:10px 12px; background:#132241; }
+    .nav-toolbar > .toolbar-direct-link:hover { border-color:var(--accent, #63d2ff); }
+    .toolbar-links { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+    .toolbar-links a { color:#e7f0ff; text-decoration:none; border:1px solid #355184; border-radius:8px; padding:8px 10px; font-size:13px; background:#12203d; }
+    .toolbar-links a:hover { border-color:var(--accent, #63d2ff); }
+    .archive-group { border:1px solid #2d446f; border-radius:10px; padding:10px 12px; background:#101c34; margin-bottom:10px; }
+    .archive-group summary { cursor:pointer; font-weight:700; color:#dfeeff; }
+    .archive-links { margin-top:10px; display:grid; gap:8px; }
+    .archive-links a { color:var(--ink, #ebf1ff); text-decoration:none; border:1px solid #355184; border-radius:8px; padding:8px 10px; background:#12203d; }
+    .archive-links a:hover { border-color:var(--accent, #63d2ff); }
+    .pill { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:#dff4ff; background:#1b3d67; border:1px solid #2f679f; border-radius:999px; padding:3px 7px; white-space:nowrap; }
+    @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
+
+    footer{margin-top:10px;color:var(--muted);font:12px Inter,system-ui,sans-serif;text-align:right}
+  </style>
+<style id="preferred-theme">
+    :root{--bg:#060b17!important;--panel:#0b1328!important;--ink:#e6f1ff!important;--muted:#93a7cc!important;--line:#28436d!important;--accent:#00d1ff!important;--accent2:#7cff7a!important}
+    body{background:radial-gradient(1200px 700px at 80% -10%, #1b3a7a 0%, transparent 55%), radial-gradient(900px 600px at 0% 0%, #0b4f66 0%, transparent 45%), #050a14!important}
+    .wrap{max-width:1320px!important}
+    header,.hero{background:linear-gradient(135deg,rgba(0,209,255,.14),rgba(124,255,122,.10))!important;border-color:#2f5489!important}
+    .pick-card,.card{border-radius:18px!important;border-color:#2d4f86!important;background:linear-gradient(180deg,#0a142a,#0b1730)!important;box-shadow:0 16px 40px rgba(0,0,0,.36)!important}
+    .meta-grid div,.tcard{background:rgba(255,255,255,.04)!important;border-color:#345d96!important}
+    .lede{font-size:18px!important;line-height:1.68!important;color:#f0f7ff!important}
+    h1,h2{letter-spacing:.02em!important}
+    .nav-toolbar .toolbar-group{background:rgba(11,19,40,.9)!important;border-color:#2d4f86!important}
+    .nav-toolbar .toolbar-group summary{background:linear-gradient(135deg,rgba(0,209,255,.20),rgba(124,255,122,.14))!important;border-color:#3f6daf!important}
+    .res-win{background:rgba(34,197,94,.18)!important;color:#86efac!important;border-color:#34d399!important}
+    .res-loss{background:rgba(239,68,68,.18)!important;color:#fca5a5!important;border-color:#fb7185!important}
+    .res-push{background:rgba(212,161,29,.25)!important;color:#fde68a!important;border-color:#d4a11d!important}
+    .res-pending{background:rgba(59,130,246,.18)!important;color:#bfdbfe!important;border-color:#60a5fa!important}
+    .res-inprogress{background:rgba(245,158,11,.25)!important;color:#fde68a!important;border-color:#f59e0b!important}
+    </style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<div class="header-row">
+<div>
+<div class="kicker">SportzBallz Totals Desk</div>
+<h1>Run Total Picks — 2026-06-16</h1>
+<div class="sub">Model: dutch • Updated 2026-06-16 05:25 AM</div>
+</div>
+<a class="reload-btn" data-reload="1" href="">Reload</a>
+</div>
+</header>
+<div class="nav-toolbar">
+<a class="toolbar-group toolbar-direct-link" href="https://sportzballz.io">⚾ Latest Daily Picks</a>
+<a class="toolbar-group toolbar-direct-link" href="/dashboard.html">📊 Performance Dashboard</a>
+<details class="toolbar-group">
+<summary>🗂️ Archive</summary>
+<details class="archive-group">
+<summary>2026-06-16 <span class="pill">Latest</span></summary>
+<div class="archive-links">
+<a href="/2026-06-16-polished.html">Daily Picks</a>
+<a href="/2026-06-16-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-16-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-15</summary>
+<div class="archive-links">
+<a href="/2026-06-15-polished.html">Daily Picks</a>
+<a href="/2026-06-15-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-15-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-14</summary>
+<div class="archive-links">
+<a href="/2026-06-14-polished.html">Daily Picks</a>
+<a href="/2026-06-14-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-14-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-13</summary>
+<div class="archive-links">
+<a href="/2026-06-13-polished.html">Daily Picks</a>
+<a href="/2026-06-13-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-13-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-12</summary>
+<div class="archive-links">
+<a href="/2026-06-12-polished.html">Daily Picks</a>
+<a href="/2026-06-12-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-12-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-11</summary>
+<div class="archive-links">
+<a href="/2026-06-11-polished.html">Daily Picks</a>
+<a href="/2026-06-11-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-11-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-10</summary>
+<div class="archive-links">
+<a href="/2026-06-10-polished.html">Daily Picks</a>
+<a href="/2026-06-10-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-10-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-09</summary>
+<div class="archive-links">
+<a href="/2026-06-09-polished.html">Daily Picks</a>
+<a href="/2026-06-09-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-09-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-08</summary>
+<div class="archive-links">
+<a href="/2026-06-08-polished.html">Daily Picks</a>
+<a href="/2026-06-08-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-08-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-07</summary>
+<div class="archive-links">
+<a href="/2026-06-07-polished.html">Daily Picks</a>
+<a href="/2026-06-07-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-07-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-06</summary>
+<div class="archive-links">
+<a href="/2026-06-06-polished.html">Daily Picks</a>
+<a href="/2026-06-06-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-06-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-05</summary>
+<div class="archive-links">
+<a href="/2026-06-05-polished.html">Daily Picks</a>
+<a href="/2026-06-05-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-05-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-04</summary>
+<div class="archive-links">
+<a href="/2026-06-04-polished.html">Daily Picks</a>
+<a href="/2026-06-04-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-04-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-03</summary>
+<div class="archive-links">
+<a href="/2026-06-03-polished.html">Daily Picks</a>
+<a href="/2026-06-03-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-03-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-02</summary>
+<div class="archive-links">
+<a href="/2026-06-02-polished.html">Daily Picks</a>
+<a href="/2026-06-02-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-02-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-06-01</summary>
+<div class="archive-links">
+<a href="/2026-06-01-polished.html">Daily Picks</a>
+<a href="/2026-06-01-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-06-01-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-31</summary>
+<div class="archive-links">
+<a href="/2026-05-31-polished.html">Daily Picks</a>
+<a href="/2026-05-31-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-31-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-30</summary>
+<div class="archive-links">
+<a href="/2026-05-30-polished.html">Daily Picks</a>
+<a href="/2026-05-30-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-30-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-29</summary>
+<div class="archive-links">
+<a href="/2026-05-29-polished.html">Daily Picks</a>
+<a href="/2026-05-29-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-29-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-28</summary>
+<div class="archive-links">
+<a href="/2026-05-28-polished.html">Daily Picks</a>
+<a href="/2026-05-28-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-28-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-27</summary>
+<div class="archive-links">
+<a href="/2026-05-27-polished.html">Daily Picks</a>
+<a href="/2026-05-27-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-27-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-26</summary>
+<div class="archive-links">
+<a href="/2026-05-26-polished.html">Daily Picks</a>
+<a href="/2026-05-26-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-26-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-25</summary>
+<div class="archive-links">
+<a href="/2026-05-25-polished.html">Daily Picks</a>
+<a href="/2026-05-25-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-25-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-24</summary>
+<div class="archive-links">
+<a href="/2026-05-24-polished.html">Daily Picks</a>
+<a href="/2026-05-24-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-24-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-23</summary>
+<div class="archive-links">
+<a href="/2026-05-23-polished.html">Daily Picks</a>
+<a href="/2026-05-23-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-23-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-22</summary>
+<div class="archive-links">
+<a href="/2026-05-22-polished.html">Daily Picks</a>
+<a href="/2026-05-22-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-22-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-21</summary>
+<div class="archive-links">
+<a href="/2026-05-21-polished.html">Daily Picks</a>
+<a href="/2026-05-21-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-21-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-20</summary>
+<div class="archive-links">
+<a href="/2026-05-20-polished.html">Daily Picks</a>
+<a href="/2026-05-20-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-20-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-19</summary>
+<div class="archive-links">
+<a href="/2026-05-19-polished.html">Daily Picks</a>
+<a href="/2026-05-19-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-19-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-18</summary>
+<div class="archive-links">
+<a href="/2026-05-18-polished.html">Daily Picks</a>
+<a href="/2026-05-18-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-18-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-17</summary>
+<div class="archive-links">
+<a href="/2026-05-17-polished.html">Daily Picks</a>
+<a href="/2026-05-17-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-17-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-16</summary>
+<div class="archive-links">
+<a href="/2026-05-16-polished.html">Daily Picks</a>
+<a href="/2026-05-16-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-16-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-15</summary>
+<div class="archive-links">
+<a href="/2026-05-15-polished.html">Daily Picks</a>
+<a href="/2026-05-15-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-15-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-14</summary>
+<div class="archive-links">
+<a href="/2026-05-14-polished.html">Daily Picks</a>
+<a href="/2026-05-14-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-14-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-13</summary>
+<div class="archive-links">
+<a href="/2026-05-13-polished.html">Daily Picks</a>
+<a href="/2026-05-13-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-13-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-12</summary>
+<div class="archive-links">
+<a href="/2026-05-12-polished.html">Daily Picks</a>
+<a href="/2026-05-12-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-12-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-11</summary>
+<div class="archive-links">
+<a href="/2026-05-11-polished.html">Daily Picks</a>
+<a href="/2026-05-11-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-11-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-10</summary>
+<div class="archive-links">
+<a href="/2026-05-10-polished.html">Daily Picks</a>
+<a href="/2026-05-10-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-10-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-09</summary>
+<div class="archive-links">
+<a href="/2026-05-09-polished.html">Daily Picks</a>
+<a href="/2026-05-09-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-09-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-08</summary>
+<div class="archive-links">
+<a href="/2026-05-08-polished.html">Daily Picks</a>
+<a href="/2026-05-08-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-08-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-07</summary>
+<div class="archive-links">
+<a href="/2026-05-07-polished.html">Daily Picks</a>
+<a href="/2026-05-07-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-07-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-06</summary>
+<div class="archive-links">
+<a href="/2026-05-06-polished.html">Daily Picks</a>
+<a href="/2026-05-06-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-06-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-05</summary>
+<div class="archive-links">
+<a href="/2026-05-05-polished.html">Daily Picks</a>
+<a href="/2026-05-05-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-05-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-04</summary>
+<div class="archive-links">
+<a href="/2026-05-04-polished.html">Daily Picks</a>
+<a href="/2026-05-04-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-04-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-03</summary>
+<div class="archive-links">
+<a href="/2026-05-03-polished.html">Daily Picks</a>
+<a href="/2026-05-03-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-03-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-02</summary>
+<div class="archive-links">
+<a href="/2026-05-02-polished.html">Daily Picks</a>
+<a href="/2026-05-02-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-02-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-05-01</summary>
+<div class="archive-links">
+<a href="/2026-05-01-polished.html">Daily Picks</a>
+<a href="/2026-05-01-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-05-01-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-30</summary>
+<div class="archive-links">
+<a href="/2026-04-30-polished.html">Daily Picks</a>
+<a href="/2026-04-30-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-30-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-29</summary>
+<div class="archive-links">
+<a href="/2026-04-29-polished.html">Daily Picks</a>
+<a href="/2026-04-29-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-29-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-28</summary>
+<div class="archive-links">
+<a href="/2026-04-28-polished.html">Daily Picks</a>
+<a href="/2026-04-28-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-28-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-27</summary>
+<div class="archive-links">
+<a href="/2026-04-27-polished.html">Daily Picks</a>
+<a href="/2026-04-27-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-27-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-26</summary>
+<div class="archive-links">
+<a href="/2026-04-26-polished.html">Daily Picks</a>
+<a href="/2026-04-26-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-26-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-25</summary>
+<div class="archive-links">
+<a href="/2026-04-25-polished.html">Daily Picks</a>
+<a href="/2026-04-25-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-25-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-24</summary>
+<div class="archive-links">
+<a href="/2026-04-24-polished.html">Daily Picks</a>
+<a href="/2026-04-24-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-24-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-23</summary>
+<div class="archive-links">
+<a href="/2026-04-23-polished.html">Daily Picks</a>
+<a href="/2026-04-23-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-23-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-22</summary>
+<div class="archive-links">
+<a href="/2026-04-22-polished.html">Daily Picks</a>
+<a href="/2026-04-22-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-22-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-21</summary>
+<div class="archive-links">
+<a href="/2026-04-21-polished.html">Daily Picks</a>
+<a href="/2026-04-21-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-21-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-20</summary>
+<div class="archive-links">
+<a href="/2026-04-20-polished.html">Daily Picks</a>
+<a href="/2026-04-20-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-20-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-19</summary>
+<div class="archive-links">
+<a href="/2026-04-19-polished.html">Daily Picks</a>
+<a href="/2026-04-19-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-19-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-18</summary>
+<div class="archive-links">
+<a href="/2026-04-18-polished.html">Daily Picks</a>
+<a href="/2026-04-18-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-18-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-17</summary>
+<div class="archive-links">
+<a href="/2026-04-17-polished.html">Daily Picks</a>
+<a href="/2026-04-17-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-17-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-16</summary>
+<div class="archive-links">
+<a href="/2026-04-16-polished.html">Daily Picks</a>
+<a href="/2026-04-16-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-16-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-15</summary>
+<div class="archive-links">
+<a href="/2026-04-15-polished.html">Daily Picks</a>
+<a href="/2026-04-15-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-15-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-14</summary>
+<div class="archive-links">
+<a href="/2026-04-14-polished.html">Daily Picks</a>
+<a href="/2026-04-14-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-14-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-13</summary>
+<div class="archive-links">
+<a href="/2026-04-13-polished.html">Daily Picks</a>
+<a href="/2026-04-13-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-13-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-12</summary>
+<div class="archive-links">
+<a href="/2026-04-12-polished.html">Daily Picks</a>
+<a href="/2026-04-12-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-12-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-11</summary>
+<div class="archive-links">
+<a href="/2026-04-11-polished.html">Daily Picks</a>
+<a href="/2026-04-11-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-11-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-10</summary>
+<div class="archive-links">
+<a href="/2026-04-10-polished.html">Daily Picks</a>
+<a href="/2026-04-10-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-10-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-09</summary>
+<div class="archive-links">
+<a href="/2026-04-09-polished.html">Daily Picks</a>
+<a href="/2026-04-09-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-09-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-08</summary>
+<div class="archive-links">
+<a href="/2026-04-08-polished.html">Daily Picks</a>
+<a href="/2026-04-08-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-08-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-07</summary>
+<div class="archive-links">
+<a href="/2026-04-07-polished.html">Daily Picks</a>
+<a href="/2026-04-07-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-07-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-06</summary>
+<div class="archive-links">
+<a href="/2026-04-06-polished.html">Daily Picks</a>
+<a href="/2026-04-06-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-06-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+<details class="archive-group">
+<summary>2026-04-05</summary>
+<div class="archive-links">
+<a href="/2026-04-05-polished.html">Daily Picks</a>
+<a href="/2026-04-05-plus-money-polished.html">Plus Money Picks</a>
+<a href="/2026-04-05-run-totals-polished.html">Run Total Picks</a>
+</div>
+</details>
+</details>
+</div>
+<section class="ad-slot" data-slot="run-totals-top">
+<div class="ad-label">Sponsored</div>
+<div class="ad-copy">Run Totals Sponsorship • Your brand could be here.</div>
+<a class="ad-cta" href="/media-kit.html">Advertise on SportzBallz</a>
+</section>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 1</div>
+<h2>Pittsburgh Pirates vs Athletics — OVER 10.5</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 10.5</strong></div>
+<div><span>Odds</span><strong>-120</strong></div>
+<div><span>Confidence</span><strong>0.7</strong></div>
+<div><span>Venue</span><strong>Sutter Health Park</strong></div>
+<div><span>Game Info</span><strong>Start: 9:40 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Mitch Keller vs Jack Perkins</strong></div>
+</div>
+<p class="lede">The over is the only sensible way to play this total because the environment is doing too much to ignore. A warm night with the wind pushing out at Sutter Health Park already nudges the game toward extra carry, and a number this high still leaves room if both starters hand the game over before the late innings settle in.<br/><br/>Pittsburgh's side of the equation works because Mitch Keller has not been efficient enough to trust as a full stopper, and the Pirates should also have chances against Jack Perkins after seeing the Athletics run wild in the opener. This is a lineup that can contribute without needing a barrage; a couple of crooked innings can cover its share.<br/><br/>The Athletics are comfortable playing fast, messy games in this park, and they just reminded everyone of that with 11 runs on Monday. Even if their bats cool a bit, Sacramento conditions and a vulnerable middle-inning script keep the scoring runway open. OVER 10.5 is high, but the game shape still supports it.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Mitch Keller vs Jack Perkins</li>
+<li><strong>Weather:</strong> 85.1°F, Wind 12.0 mph SW (out to CF), Humidity 43%, P.O.P. 0% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 10.5.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 2</div>
+<h2>Colorado Rockies vs Chicago Cubs — OVER 9.5</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 9.5</strong></div>
+<div><span>Odds</span><strong>-110</strong></div>
+<div><span>Confidence</span><strong>0.698</strong></div>
+<div><span>Venue</span><strong>Wrigley Field</strong></div>
+<div><span>Game Info</span><strong>Start: 8:05 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Ryan Feltner vs Edward Cabrera</strong></div>
+</div>
+<p class="lede">The over makes more sense than the side because Wrigley is set up to reward contact, not suppress it. With the wind blowing out toward right and both starters carrying enough volatility to allow traffic, 9.5 is demanding but still reachable in a park that can turn ordinary fly balls into inning-changing damage.<br/><br/>Colorado's contribution matters here because the Rockies do not need to be trustworthy to help an over. They just need to push Edward Cabrera into deep counts and turn free passes into extra-base chances. Their offense is inconsistent, but the conditions give even modest contact a better chance to play.<br/><br/>Chicago can do the heavier lifting if needed. Ryan Feltner has shown some better recent work, yet the Cubs already tagged him in this matchup once and are the more likely team to create sustained pressure. If one side reaches five or six runs on its own, the over becomes very live very quickly.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Ryan Feltner vs Edward Cabrera</li>
+<li><strong>Weather:</strong> 68.3°F, Wind 14.4 mph W (out to RF), Humidity 52%, P.O.P. 4% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 9.5.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 3</div>
+<h2>Cincinnati Reds vs New York Mets — OVER 9.5</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 9.5</strong></div>
+<div><span>Odds</span><strong>-113</strong></div>
+<div><span>Confidence</span><strong>0.527</strong></div>
+<div><span>Venue</span><strong>Great American Ball Park</strong></div>
+<div><span>Game Info</span><strong>Start: 7:10 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Brady Singer vs Kodai Senga</strong></div>
+</div>
+<p class="lede">The over is the stronger angle because this park asks only for a few mistakes to create a big scoring swing, and there are enough unknowns here to justify leaning into offense. Great American Ball Park does not need elite bats to look dangerous, and the return of Kodai Senga adds more uncertainty than security.<br/><br/>Cincinnati has the profile to help the total early if it forces Senga to work through real traffic in his first game back from a lumbar issue. Brady Singer is more stable than explosive, which can still be enough for an over in this setting because balls in play tend to matter more than spotless strikeout stuff.<br/><br/>The Mets can carry their half as well, even with Francisco Lindor still on the comeback path, because their lineup remains deep enough to punish a starter who lives in the zone too long. This total asks for pace, and the park, the pitching uncertainty, and the lineup depth all point that way.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Brady Singer vs Kodai Senga</li>
+<li><strong>Weather:</strong> 77.5°F, Wind 7.2 mph WSW (out to LF), Humidity 33%, P.O.P. 13% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 9.5.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 4</div>
+<h2>San Diego Padres vs St. Louis Cardinals — OVER 8.05</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 8.05</strong></div>
+<div><span>Odds</span><strong>-106</strong></div>
+<div><span>Confidence</span><strong>0.464</strong></div>
+<div><span>Venue</span><strong>Busch Stadium</strong></div>
+<div><span>Game Info</span><strong>Start: 7:45 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Michael King vs Andre Pallante</strong></div>
+</div>
+<p class="lede">The over is the better read because the total is sitting in the range where one lively middle stretch can break it open. Busch Stadium is not an automatic launching pad, but the wind is helping to center, and both offenses are capable of doing more than Monday's 3-0 opener suggested.<br/><br/>San Diego's path to the over starts with Michael King not needing to be bad for runs to show up. If the Padres score first and force Andre Pallante into traffic, this game can shift from a starter duel into a bullpen test faster than expected. Their lineup has enough top-end bats to create that pressure even after a quiet opener.<br/><br/>St. Louis is built to answer with contact and gap power rather than waiting for one huge swing, which helps on totals in this range. The Cardinals do not need to carry the whole number, only keep the pace moving. With weather assistance and two competent offenses, OVER 8.05 is reasonable.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Michael King vs Andre Pallante</li>
+<li><strong>Weather:</strong> 78.5°F, Wind 12.1 mph WSW (out to CF), Humidity 52%, P.O.P. 1% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 8.05.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 5</div>
+<h2>Cleveland Guardians vs Milwaukee Brewers — OVER 8.41</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 8.41</strong></div>
+<div><span>Odds</span><strong>-104</strong></div>
+<div><span>Confidence</span><strong>0.388</strong></div>
+<div><span>Venue</span><strong>American Family Field</strong></div>
+<div><span>Game Info</span><strong>Start: 7:40 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Slade Cecconi vs Robert Gasser</strong></div>
+</div>
+<p class="lede">The over fits because this number is still low enough for both teams to get there without needing a true slugfest. Milwaukee brings one of the better run-scoring profiles in the league, and Cleveland can still manufacture offense through contact and pressure even while playing without Jose Ramirez.<br/><br/>The Guardians' contribution is important because they do not need to be explosive to help this total. Robert Gasser is coming off a rough outing, and if Cleveland turns his command lapses into base runners, the game can get moving well before the bullpens arrive. Their speed element also makes ordinary singles more dangerous.<br/><br/>Milwaukee is the obvious over driver because the Brewers can score in bunches and keep innings alive with athleticism. Slade Cecconi has enough stuff to survive, but he has also been hittable enough to leave this total exposed. In a controlled-roof environment, OVER 8.41 still has room.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Slade Cecconi vs Robert Gasser</li>
+<li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+<li><strong>Total Movement:</strong> Total unchanged at 8.41.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 6</div>
+<h2>Washington Nationals vs Kansas City Royals — OVER 8.55</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 8.55</strong></div>
+<div><span>Odds</span><strong>-117</strong></div>
+<div><span>Confidence</span><strong>0.382</strong></div>
+<div><span>Venue</span><strong>Nationals Park</strong></div>
+<div><span>Game Info</span><strong>Start: 6:45 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Foster Griffin vs Michael Wacha</strong></div>
+</div>
+<p class="lede">The over is the lean because this game has more offense in it than the number fully prices. Warm conditions, two lineups with legitimate table-setters, and a pair of starters who can be solid without being overpowering all push this game toward a scoring pace that can clear the mid-eights.<br/><br/>Washington has become a better over team when its young hitters attack early in counts, and that has shown up during this recent surge. Foster Griffin has been useful, but he is still more pitchability than dominance, which leaves room for Kansas City to scratch out its share if Bobby Witt Jr. and company keep pressure on the bases.<br/><br/>The Royals have been inconsistent overall, yet they still have enough contact and veteran thump to matter against this type of pitching. If Michael Wacha gives up a couple of rallies, the Nationals can do the heavy lifting. Either way, OVER 8.55 is asking for a normal offensive night, not an extreme one.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Foster Griffin vs Michael Wacha</li>
+<li><strong>Weather:</strong> 81.9°F, Wind 7.2 mph S (out to CF), Humidity 26%, P.O.P. 1% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 8.55.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 7</div>
+<h2>New York Yankees vs Chicago White Sox — OVER 7.55</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 7.55</strong></div>
+<div><span>Odds</span><strong>-114</strong></div>
+<div><span>Confidence</span><strong>0.374</strong></div>
+<div><span>Venue</span><strong>Yankee Stadium</strong></div>
+<div><span>Game Info</span><strong>Start: 7:05 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Gerrit Cole vs Davis Martin</strong></div>
+</div>
+<p class="lede">The over is playable because the number is being pulled down by two starters with excellent current form, but the game environment still favors offense more than the total suggests. Yankee Stadium does not require sustained rallies to crack a modest number, and both lineups have enough pull-side damage to change the board quickly.<br/><br/>From the White Sox side, the question is not whether Davis Martin can pitch well again. It is whether he can do it cleanly through a Yankees order that keeps stacking left-right pressure and can turn one missed location into two runs. Chicago has also shown enough recent confidence at the plate to contribute rather than just survive.<br/><br/>New York's side is easier to see because Gerrit Cole is still building rhythm after his return, and even good Cole outings can come with one inning where the pitch count spikes. That is all an over this small may need. Eight runs is hardly an outlandish ask in this park.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Gerrit Cole vs Davis Martin</li>
+<li><strong>Weather:</strong> 72.5°F, Wind 11.9 mph S (out to LF), Humidity 44%, P.O.P. 0% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 7.55.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 8</div>
+<h2>Miami Marlins vs Philadelphia Phillies — OVER 8.05</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 8.05</strong></div>
+<div><span>Odds</span><strong>-106</strong></div>
+<div><span>Confidence</span><strong>0.366</strong></div>
+<div><span>Venue</span><strong>Citizens Bank Park</strong></div>
+<div><span>Game Info</span><strong>Start: 6:40 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Tyler Phillips vs Jesús Luzardo</strong></div>
+</div>
+<p class="lede">The over is the sharper angle because the number is modest enough for Citizens Bank Park and because Monday's 7-0 opener already showed how quickly the Phillies can create pace. Even with Tyler Phillips and Jesus Luzardo both capable of quality innings, the total does not need the starters to implode to get there.<br/><br/>Miami's half of the bet is the swing piece. The Marlins were quiet in the opener, but that often helps an over the next day because the market leans harder toward the pitchers while the lineup remains capable of better contact than it just showed. Phillips can help too if he keeps the game close long enough for later offense to matter.<br/><br/>Philadelphia is dangerous in this spot because Luzardo's presence will draw attention to run prevention, yet the Phillies can still win this total with one big inning and a few tack-on chances against the bullpen. OVER 8.05 is not asking for chaos, just honest offense in a friendly park.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Tyler Phillips vs Jesús Luzardo</li>
+<li><strong>Weather:</strong> 77.8°F, Wind 7.8 mph SSW (out to CF), Humidity 28%, P.O.P. 0% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 8.05.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 9</div>
+<h2>Los Angeles Dodgers vs Tampa Bay Rays — OVER 8.45</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 8.45</strong></div>
+<div><span>Odds</span><strong>-105</strong></div>
+<div><span>Confidence</span><strong>0.225</strong></div>
+<div><span>Venue</span><strong>UNIQLO Field at Dodger Stadium</strong></div>
+<div><span>Game Info</span><strong>Start: 10:10 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Justin Wrobleski vs Drew Rasmussen</strong></div>
+</div>
+<p class="lede">The over is still attractive because the number is being held down by two strong starters while the game itself has more ways to open up than that suggests. Los Angeles just won the opener 4-3, and another tight game early can still turn into an over once the deeper parts of the staffs get involved.<br/><br/>Tampa Bay's side matters because Drew Rasmussen has been excellent, but the Rays do not need him to fail for the over to live. Their lineup has enough right-handed thump to test Justin Wrobleski, especially with Wrobleski working on short rest after taking a comebacker in his last outing. That gives the road team a real scoring path.<br/><br/>The Dodgers are the bigger reason to like the total because their lineup can crack open almost any game by the sixth inning. Tampa Bay's bullpen looked taxed in the opener, and that late-game vulnerability is important with a total sitting below nine. OVER 8.45 remains the right way to attack it.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Justin Wrobleski vs Drew Rasmussen</li>
+<li><strong>Weather:</strong> 68.1°F, Wind 7.2 mph WSW (out to RF), Humidity 71%, P.O.P. 0% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 8.45.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 10</div>
+<h2>Minnesota Twins vs Texas Rangers — UNDER 8.09</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>UNDER 8.09</strong></div>
+<div><span>Odds</span><strong>-107</strong></div>
+<div><span>Confidence</span><strong>0.191</strong></div>
+<div><span>Venue</span><strong>Globe Life Field</strong></div>
+<div><span>Game Info</span><strong>Start: 8:05 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Zebby Matthews vs Kumar Rocker</strong></div>
+</div>
+<p class="lede">The under is the correct angle because this matchup is being played indoors and the total is already sitting in a range where competent starting pitching can control it. Monday's 4-2 opener reinforced the basic shape: both teams can threaten, but neither one is currently built to force a constant scoring sprint in this environment.<br/><br/>Minnesota's side supports the under because Zebby Matthews has at least flashed enough strike throwing to keep the game from snowballing. The Twins can hit a mistake, but they are not a relentless contact offense, and that matters when the total only asks the starters to hold structure for five or six innings.<br/><br/>Texas also helps the under because Kumar Rocker has the better pure stuff in the matchup and the Rangers are still searching for their fullest lineup. With Corey Seager recently absent and Globe Life taking weather out of the equation, this looks more like a game of isolated damage than inning-after-inning traffic. UNDER 8.09 is the cleaner read.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Zebby Matthews vs Kumar Rocker</li>
+<li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+<li><strong>Total Movement:</strong> Total unchanged at 8.09.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 11</div>
+<h2>Los Angeles Angels vs Arizona Diamondbacks — UNDER 8.5</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>UNDER 8.5</strong></div>
+<div><span>Odds</span><strong>-103</strong></div>
+<div><span>Confidence</span><strong>0.127</strong></div>
+<div><span>Venue</span><strong>Chase Field</strong></div>
+<div><span>Game Info</span><strong>Start: 9:40 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Reid Detmers vs Merrill Kelly</strong></div>
+</div>
+<p class="lede">The under fits because this number gives enough room for two decent starting efforts and a quieter run environment under the roof. Arizona won Monday's opener 4-3, and that scoreline is a useful reminder that this series does not need much to land in the seven-to-eight run band.<br/><br/>The Angels help the under if Reid Detmers controls the strikeout portion of the matchup. Los Angeles can score, but it is still too uneven an offense to trust for a full-game barrage, especially with so much of the heavy lifting falling on Mike Trout. If the Angels are chasing rather than ambushing, the pace stays manageable.<br/><br/>Arizona has the steadier offense, yet Merrill Kelly is also capable of steering this into a lower-event game when he gets early contact. With neither side guaranteed to post a huge number and Chase Field removing weather noise, UNDER 8.5 is the more disciplined position.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Reid Detmers vs Merrill Kelly</li>
+<li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+<li><strong>Total Movement:</strong> Total unchanged at 8.5.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 12</div>
+<h2>Houston Astros vs Detroit Tigers — UNDER 7.55</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>UNDER 7.55</strong></div>
+<div><span>Odds</span><strong>-103</strong></div>
+<div><span>Confidence</span><strong>0.048</strong></div>
+<div><span>Venue</span><strong>Daikin Park</strong></div>
+<div><span>Game Info</span><strong>Start: 8:10 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Hunter Brown vs Framber Valdez</strong></div>
+</div>
+<p class="lede">The under is the better look because the opener's 9-3 final is likely to keep public attention tilted toward offense, while this pitching matchup points in the opposite direction. Hunter Brown's return and Framber Valdez's visit back to Houston create a much more serious run-prevention setup than Monday's game offered.<br/><br/>Houston's side of the under hinges on Brown looking close to full strength. If he does, the Astros should be able to control count leverage and keep Detroit from stringing together the kind of damage it found in the opener, even after Colt Keith's huge night put the Tigers in headlines.<br/><br/>Detroit supports the under as well because Valdez knows this park, knows these hitters, and usually turns games into ground-ball work rather than home-run exchanges. A total this low always carries risk, but this is the kind of starter pairing that justifies it. UNDER 7.55 is still playable.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Hunter Brown vs Framber Valdez</li>
+<li><strong>Weather:</strong> 80.1°F, Wind 5.8 mph ESE (out to LF), Humidity 89%, P.O.P. 23% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 7.55.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 13</div>
+<h2>Atlanta Braves vs San Francisco Giants — OVER 8.95</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 8.95</strong></div>
+<div><span>Odds</span><strong>-108</strong></div>
+<div><span>Confidence</span><strong>0.023</strong></div>
+<div><span>Venue</span><strong>Truist Park</strong></div>
+<div><span>Game Info</span><strong>Start: 7:15 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Grant Holmes vs Adrian Houser</strong></div>
+</div>
+<p class="lede">The over is the right play because the total is asking for a solid offensive game, and Atlanta is capable of supplying most of that by itself. Truist Park does not need extreme conditions to score, and a matchup involving Adrian Houser against this Braves lineup immediately creates pressure on a number sitting just below nine.<br/><br/>San Francisco can do its part because Grant Holmes is more solid than dominant, and the Giants are at least good enough to keep innings alive with contact if Atlanta does not finish hitters. The road lineup does not need to erupt. Three or four runs may be enough if the Braves reach their usual power band.<br/><br/>Atlanta is the true engine here. After a frustrating finish in New York, the Braves get a softer pitching draw at home and should create repeated traffic. Once that happens, OVER 8.95 becomes much more about whether the Giants contribute enough around the edges, and they usually can.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Grant Holmes vs Adrian Houser</li>
+<li><strong>Weather:</strong> 73.6°F, Wind 2.8 mph SSW (in from LF), Humidity 88%, P.O.P. 34% (Open-Meteo fallback)</li>
+<li><strong>Total Movement:</strong> Total unchanged at 8.95.</li>
+</ul>
+</details>
+</article>
+<article class="pick-card">
+<div class="pick-head">
+<div class="pick-num">Run Total 14</div>
+<h2>Seattle Mariners vs Baltimore Orioles — OVER 7.5</h2>
+<span class="res res-pending">PENDING</span>
+</div>
+<div class="meta-grid">
+<div><span>Lean</span><strong>OVER 7.5</strong></div>
+<div><span>Odds</span><strong>-110</strong></div>
+<div><span>Confidence</span><strong>0.008</strong></div>
+<div><span>Venue</span><strong>T-Mobile Park</strong></div>
+<div><span>Game Info</span><strong>Start: 9:40 PM ET</strong></div>
+<div><span>Pitching Matchup</span><strong>Logan Gilbert vs Brandon Young</strong></div>
+</div>
+<p class="lede">The over is playable because 7.5 is a light number for two teams that just saw each other in a lively series last week and now meet again with both lineups carrying some familiarity. T-Mobile Park can mute offense, but totals this small can still go over on efficiency rather than volume.<br/><br/>Baltimore has enough to matter even against Logan Gilbert because Brandon Young's emergence has helped the Orioles play with more confidence across the roster. They do not need a huge outburst; a couple of run-scoring innings and some pressure against Seattle's middle relief would be enough to keep the pace moving.<br/><br/>Seattle's side is what makes the total attractive. The Mariners get a second look at Young after he shut them down recently, and that adjustment factor matters when a young pitcher is leaning on command and sequencing. At 7.5, one three-run inning from either club puts the over in excellent shape.</p>
+<details>
+<summary>Expanded total context</summary>
+<ul>
+<li><strong>Pitching Matchup:</strong> Logan Gilbert vs Brandon Young</li>
+<li><strong>Weather:</strong> Dome/retractable roof environment — external wind conditions not applicable.</li>
+<li><strong>Total Movement:</strong> Total unchanged at 7.5.</li>
+</ul>
+</details>
+</article>
+<footer>Published by SportzBallz.io</footer>
+</main>
+<script>
+    (() => {
+      try {
+        document.querySelectorAll('[data-reload="1"]').forEach((el) => {
+          el.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.reload();
+          });
+        });
+
+        const params = new URLSearchParams(window.location.search || '');
+        const isEmbed = params.get('embed') === '1';
+        if (isEmbed) {
+          document.querySelectorAll('.nav-toolbar').forEach((el) => el.remove());
+        }
+
+        if (!isEmbed && !document.querySelector('.sbz-to-top')) {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'sbz-to-top';
+          btn.textContent = 'Top';
+          btn.setAttribute('aria-label', 'Back to top');
+          btn.style.position = 'fixed';
+          btn.style.right = '16px';
+          btn.style.bottom = '16px';
+          btn.style.zIndex = '9999';
+          btn.style.border = '1px solid #4c6db0';
+          btn.style.borderRadius = '999px';
+          btn.style.padding = '9px 13px';
+          btn.style.background = '#10203b';
+          btn.style.color = '#dff2ff';
+          btn.style.font = '700 12px Inter,system-ui,sans-serif';
+          btn.style.cursor = 'pointer';
+          btn.style.boxShadow = '0 8px 20px rgba(0,0,0,.28)';
+          btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+          document.body.appendChild(btn);
+        }
+      } catch (_e) {}
+    })();
+  </script>
+<script>window.SBZ_HIT_ENDPOINT = "https://5pakmkcroalpibvk2y7did66pu0extmx.lambda-url.us-east-1.on.aws/";</script>
+<script data-cf-beacon='{"token": "8c9c5b7f6e6645048226e7f82858e7e9"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script>
+<script defer="" src="/assets/hit-counter.js"></script>
+</body>
+</html>
