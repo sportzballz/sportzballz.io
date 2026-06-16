@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Pittsburgh Pirates",
-      "loser": "Athletics",
+      "winner": "Colorado Rockies",
+      "loser": "Chicago Cubs",
       "pick": "OVER",
-      "line": 10.64,
-      "confidence": 0.85,
-      "odds": -116,
+      "line": 9.55,
+      "confidence": 0.848,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-16",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.7,
-      "conf_close": 0.85,
+      "conf_close": 0.848,
       "conf_max": 0.85,
       "conf_min": 0.698,
-      "delta_close_open": 0.15,
+      "delta_close_open": 0.148,
       "intraday_range": 0.152,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 15,
