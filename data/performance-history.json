@@ -2,11 +2,11 @@
   {
     "date": "2026-06-17",
     "total_picks": 15,
-    "decided": 4,
+    "decided": 5,
     "wins": 1,
-    "losses": 3,
-    "pending": 11,
-    "win_rate": 25.0,
+    "losses": 4,
+    "pending": 10,
+    "win_rate": 20.0,
     "plus_money_total": 2,
     "plus_money_decided": 2,
     "plus_money_wins": 1,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 4,
+        "decided": 5,
         "wins": 1,
-        "losses": 3,
-        "profit": -198.0,
-        "roi_pct": -49.5,
+        "losses": 4,
+        "profit": -298.0,
+        "roi_pct": -59.6,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 4,
+        "decided": 5,
         "wins": 3,
-        "losses": 1,
-        "profit": 185.73,
-        "roi_pct": 46.43,
+        "losses": 2,
+        "profit": 85.73,
+        "roi_pct": 17.15,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -81,22 +81,22 @@
       "winner": "Pittsburgh Pirates",
       "loser": "Athletics",
       "pick": "OVER",
-      "line": 10.18,
+      "line": 10.27,
       "confidence": 1.012,
-      "odds": -111,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-17",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 0.862,
       "conf_close": 1.012,
       "conf_max": 1.012,
       "conf_min": 0.862,
       "delta_close_open": 0.15,
       "intraday_range": 0.15,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 16,
