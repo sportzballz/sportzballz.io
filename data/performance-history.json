@@ -81,22 +81,22 @@
       "winner": "Pittsburgh Pirates",
       "loser": "Athletics",
       "pick": "OVER",
-      "line": 10.05,
-      "confidence": 0.862,
-      "odds": -115,
+      "line": 10.14,
+      "confidence": 1.012,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-17",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.862,
-      "conf_close": 0.862,
-      "conf_max": 0.862,
+      "conf_close": 1.012,
+      "conf_max": 1.012,
       "conf_min": 0.862,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.15,
+      "intraday_range": 0.15,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 16,
