@@ -42,11 +42,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 2,
-        "wins": 1,
+        "decided": 1,
+        "wins": 0,
         "losses": 1,
-        "profit": -35.9,
-        "roi_pct": -17.95,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-17",
-      "snapshots": 69,
+      "snapshots": 71,
       "conf_open": 0.862,
       "conf_close": 0.921,
       "conf_max": 1.012,
