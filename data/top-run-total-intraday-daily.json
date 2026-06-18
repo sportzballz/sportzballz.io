@@ -199,13 +199,13 @@
   },
   {
     "date": "2026-06-18",
-    "snapshots": 33,
+    "snapshots": 36,
     "conf_open": 0.863,
-    "conf_close": 1.013,
-    "conf_max": 1.013,
+    "conf_close": 1.194,
+    "conf_max": 1.194,
     "conf_min": 0.863,
-    "delta_close_open": 0.15,
-    "intraday_range": 0.15,
-    "pick_changes": 1
+    "delta_close_open": 0.331,
+    "intraday_range": 0.331,
+    "pick_changes": 2
   }
 ]
