@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Chicago White Sox",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Athletics",
       "pick": "OVER",
-      "line": 9.43,
-      "confidence": 0.862,
-      "odds": -105,
+      "line": 10.45,
+      "confidence": 0.921,
+      "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-17",
-      "snapshots": 66,
+      "snapshots": 69,
       "conf_open": 0.862,
-      "conf_close": 0.862,
+      "conf_close": 0.921,
       "conf_max": 1.012,
       "conf_min": 0.862,
-      "delta_close_open": 0.0,
+      "delta_close_open": 0.059,
       "intraday_range": 0.15,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 16,
