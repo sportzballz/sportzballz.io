@@ -81,22 +81,22 @@
       "winner": "New York Yankees",
       "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 9.82,
+      "line": 9.91,
       "confidence": 1.038,
-      "odds": -113,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-18",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 0.863,
       "conf_close": 1.038,
       "conf_max": 1.194,
       "conf_min": 0.863,
       "delta_close_open": 0.175,
       "intraday_range": 0.331,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 16,
