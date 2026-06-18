@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-18",
-    "total_picks": 8,
+    "total_picks": 7,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 8,
+    "pending": 7,
     "win_rate": null,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 8,
+        "total": 7,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 8,
+        "total": 7,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "New York Yankees",
       "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.863,
-      "odds": -117,
+      "line": 9.55,
+      "confidence": 1.013,
+      "odds": -118,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-18",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.863,
-      "conf_close": 0.863,
-      "conf_max": 0.863,
+      "conf_close": 1.013,
+      "conf_max": 1.013,
       "conf_min": 0.863,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.15,
+      "intraday_range": 0.15,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 16,
