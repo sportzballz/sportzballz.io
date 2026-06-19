@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Cincinnati Reds",
+      "winner": "St. Louis Cardinals",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 9.06,
-      "confidence": 1.254,
-      "odds": -113,
+      "line": 9.05,
+      "confidence": 1.096,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-19",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 1.01,
-      "conf_close": 1.254,
+      "conf_close": 1.096,
       "conf_max": 1.254,
       "conf_min": 0.86,
-      "delta_close_open": 0.244,
+      "delta_close_open": 0.086,
       "intraday_range": 0.394,
-      "pick_changes": 7
+      "pick_changes": 8
     },
     "intraday_top_run_total_impact": {
       "sample_days": 17,
