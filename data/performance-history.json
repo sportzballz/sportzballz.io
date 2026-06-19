@@ -81,22 +81,22 @@
       "winner": "New York Yankees",
       "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.64,
+      "line": 8.68,
       "confidence": 1.16,
-      "odds": -114,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-19",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 1.01,
       "conf_close": 1.16,
       "conf_max": 1.16,
       "conf_min": 0.86,
       "delta_close_open": 0.15,
       "intraday_range": 0.3,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 17,
