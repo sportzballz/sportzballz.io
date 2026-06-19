@@ -1387,3 +1387,5 @@
 {"timestamp_et": "2026-06-18 21:56:36", "date": "2026-06-18", "winner": "New York Yankees", "loser": "Chicago White Sox", "pick": "OVER", "line": 9.95, "confidence": 1.038, "odds": -110, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-06-18 22:53:02", "date": "2026-06-18", "winner": "New York Yankees", "loser": "Chicago White Sox", "pick": "OVER", "line": 9.95, "confidence": 1.038, "odds": -110, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-06-18 22:53:20", "date": "2026-06-18", "winner": "New York Yankees", "loser": "Chicago White Sox", "pick": "OVER", "line": 9.95, "confidence": 1.038, "odds": -110, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-06-18 23:51:17", "date": "2026-06-18", "winner": "New York Yankees", "loser": "Chicago White Sox", "pick": "OVER", "line": 9.95, "confidence": 1.038, "odds": -110, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-06-18 23:51:34", "date": "2026-06-18", "winner": "New York Yankees", "loser": "Chicago White Sox", "pick": "OVER", "line": 9.95, "confidence": 1.038, "odds": -110, "result": "LOSS", "profit": -100.0}
