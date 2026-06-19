@@ -210,7 +210,7 @@
   },
   {
     "date": "2026-06-19",
-    "snapshots": 60,
+    "snapshots": 63,
     "conf_open": 1.01,
     "conf_close": 1.104,
     "conf_max": 1.254,
