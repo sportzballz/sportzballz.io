@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 14,
     "win_rate": null,
-    "plus_money_total": 0,
+    "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 1,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "New York Yankees",
       "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.68,
-      "confidence": 1.16,
-      "odds": -112,
+      "line": 9.2,
+      "confidence": 1.01,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-19",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 1.01,
-      "conf_close": 1.16,
+      "conf_close": 1.01,
       "conf_max": 1.16,
       "conf_min": 0.86,
-      "delta_close_open": 0.15,
+      "delta_close_open": 0.0,
       "intraday_range": 0.3,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 17,
