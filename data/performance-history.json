@@ -82,20 +82,20 @@
       "loser": "Cincinnati Reds",
       "pick": "OVER",
       "line": 8.5,
-      "confidence": 1.01,
-      "odds": -114,
+      "confidence": 0.86,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-19",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 1.01,
-      "conf_close": 1.01,
+      "conf_close": 0.86,
       "conf_max": 1.01,
-      "conf_min": 1.01,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
+      "conf_min": 0.86,
+      "delta_close_open": -0.15,
+      "intraday_range": 0.15,
       "pick_changes": 0
     },
     "intraday_top_run_total_impact": {
