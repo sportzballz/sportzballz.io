@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-19",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "New York Yankees",
       "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.86,
+      "line": 8.59,
+      "confidence": 1.01,
       "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-19",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 1.01,
-      "conf_close": 0.86,
+      "conf_close": 1.01,
       "conf_max": 1.01,
       "conf_min": 0.86,
-      "delta_close_open": -0.15,
+      "delta_close_open": 0.0,
       "intraday_range": 0.15,
-      "pick_changes": 0
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 17,
