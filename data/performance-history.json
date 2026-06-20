@@ -2,11 +2,11 @@
   {
     "date": "2026-06-20",
     "total_picks": 14,
-    "decided": 2,
+    "decided": 3,
     "wins": 1,
-    "losses": 1,
-    "pending": 12,
-    "win_rate": 50.0,
+    "losses": 2,
+    "pending": 11,
+    "win_rate": 33.3,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 2,
+        "decided": 3,
         "wins": 1,
-        "losses": 1,
-        "profit": -100.0,
-        "roi_pct": -50.0,
+        "losses": 2,
+        "profit": -200.0,
+        "roi_pct": -66.67,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 2,
-        "wins": 1,
+        "decided": 3,
+        "wins": 2,
         "losses": 1,
-        "profit": -5.66,
-        "roi_pct": -2.83,
+        "profit": 79.81,
+        "roi_pct": 26.6,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "New York Mets",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.25,
-      "confidence": 0.864,
-      "odds": -107,
+      "line": 11.94,
+      "confidence": 0.716,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-20",
-      "snapshots": 48,
+      "snapshots": 51,
       "conf_open": 0.774,
-      "conf_close": 0.864,
+      "conf_close": 0.716,
       "conf_max": 1.016,
       "conf_min": 0.617,
-      "delta_close_open": 0.09,
+      "delta_close_open": -0.058,
       "intraday_range": 0.399,
-      "pick_changes": 8
+      "pick_changes": 9
     },
     "intraday_top_run_total_impact": {
       "sample_days": 18,
