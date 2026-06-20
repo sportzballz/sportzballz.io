@@ -1471,3 +1471,7 @@
 {"timestamp_et": "2026-06-20 05:25:12", "date": "2026-06-20", "winner": "New York Yankees", "loser": "Cincinnati Reds", "pick": "OVER", "line": 9.5, "confidence": 0.774, "odds": -101, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-06-20 05:25:13", "date": "2026-06-20", "winner": "New York Yankees", "loser": "Cincinnati Reds", "pick": "OVER", "line": 9.5, "confidence": 0.774, "odds": -101, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-06-20 05:25:26", "date": "2026-06-20", "winner": "New York Yankees", "loser": "Cincinnati Reds", "pick": "OVER", "line": 9.5, "confidence": 0.774, "odds": -101, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-20 07:00:41", "date": "2026-06-20", "winner": "Arizona Diamondbacks", "loser": "Minnesota Twins", "pick": "OVER", "line": 9.23, "confidence": 0.617, "odds": -112, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-20 07:00:41", "date": "2026-06-20", "winner": "Arizona Diamondbacks", "loser": "Minnesota Twins", "pick": "OVER", "line": 9.23, "confidence": 0.617, "odds": -112, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-20 07:00:55", "date": "2026-06-19", "winner": "New York Yankees", "loser": "Cincinnati Reds", "pick": "OVER", "line": 9.5, "confidence": 1.104, "odds": -107, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-06-20 07:00:55", "date": "2026-06-20", "winner": "Arizona Diamondbacks", "loser": "Minnesota Twins", "pick": "OVER", "line": 9.23, "confidence": 0.617, "odds": -112, "result": "PENDING", "profit": 0.0}

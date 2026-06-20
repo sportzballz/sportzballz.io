@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Cincinnati Reds",
+      "winner": "Arizona Diamondbacks",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.774,
-      "odds": -101,
+      "line": 9.23,
+      "confidence": 0.617,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-20",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.774,
-      "conf_close": 0.774,
+      "conf_close": 0.617,
       "conf_max": 0.774,
-      "conf_min": 0.774,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.617,
+      "delta_close_open": -0.157,
+      "intraday_range": 0.157,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 18,
@@ -151,11 +151,11 @@
   {
     "date": "2026-06-19",
     "total_picks": 14,
-    "decided": 10,
-    "wins": 6,
-    "losses": 4,
-    "pending": 4,
-    "win_rate": 60.0,
+    "decided": 14,
+    "wins": 9,
+    "losses": 5,
+    "pending": 0,
+    "win_rate": 64.3,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -164,11 +164,11 @@
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 10,
-        "wins": 6,
-        "losses": 4,
-        "profit": -351.22,
-        "roi_pct": -35.12,
+        "decided": 14,
+        "wins": 9,
+        "losses": 5,
+        "profit": -451.22,
+        "roi_pct": -32.23,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -191,11 +191,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 2,
-        "wins": 2,
+        "decided": 3,
+        "wins": 3,
         "losses": 0,
         "profit": 48.78,
-        "roi_pct": 24.39,
+        "roi_pct": 16.26,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -209,11 +209,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 10,
-        "wins": 4,
+        "decided": 14,
+        "wins": 8,
         "losses": 6,
-        "profit": -239.86,
-        "roi_pct": -23.99,
+        "profit": 119.66,
+        "roi_pct": 8.55,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -238,7 +238,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-19",
-      "snapshots": 76,
+      "snapshots": 77,
       "conf_open": 1.01,
       "conf_close": 1.104,
       "conf_max": 1.254,
