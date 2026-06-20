@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "New York Mets",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 7.5,
-      "confidence": 0.687,
-      "odds": -113,
+      "line": 10.5,
+      "confidence": 0.716,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-20",
-      "snapshots": 21,
+      "snapshots": 24,
       "conf_open": 0.774,
-      "conf_close": 0.687,
+      "conf_close": 0.716,
       "conf_max": 1.016,
       "conf_min": 0.617,
-      "delta_close_open": -0.087,
+      "delta_close_open": -0.058,
       "intraday_range": 0.399,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 18,
