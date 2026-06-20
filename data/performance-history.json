@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Arizona Diamondbacks",
-      "loser": "Minnesota Twins",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 9.23,
-      "confidence": 0.617,
-      "odds": -112,
+      "line": 10.5,
+      "confidence": 1.016,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-20",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.774,
-      "conf_close": 0.617,
-      "conf_max": 0.774,
+      "conf_close": 1.016,
+      "conf_max": 1.016,
       "conf_min": 0.617,
-      "delta_close_open": -0.157,
-      "intraday_range": 0.157,
-      "pick_changes": 1
+      "delta_close_open": 0.242,
+      "intraday_range": 0.399,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 18,
