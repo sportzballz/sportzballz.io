@@ -24,20 +24,20 @@
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 1,
+        "decided": 0,
         "wins": 0,
-        "losses": 1,
-        "profit": -100.0,
-        "roi_pct": -100.0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 1,
-        "wins": 1,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 0.0,
-        "roi_pct": 0.0,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
@@ -82,19 +82,19 @@
       "loser": "Colorado Rockies",
       "pick": "OVER",
       "line": 11.94,
-      "confidence": 0.716,
-      "odds": -107,
+      "confidence": 0.95,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-20",
-      "snapshots": 60,
+      "snapshots": 63,
       "conf_open": 0.774,
-      "conf_close": 0.716,
+      "conf_close": 0.95,
       "conf_max": 1.016,
       "conf_min": 0.617,
-      "delta_close_open": -0.058,
+      "delta_close_open": 0.176,
       "intraday_range": 0.399,
       "pick_changes": 9
     },
