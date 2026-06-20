@@ -221,13 +221,13 @@
   },
   {
     "date": "2026-06-20",
-    "snapshots": 33,
+    "snapshots": 36,
     "conf_open": 0.774,
     "conf_close": 0.716,
     "conf_max": 1.016,
     "conf_min": 0.617,
     "delta_close_open": -0.058,
     "intraday_range": 0.399,
-    "pick_changes": 5
+    "pick_changes": 6
   }
 ]

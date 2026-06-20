@@ -81,22 +81,22 @@
       "winner": "Pittsburgh Pirates",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 11.88,
+      "line": 11.8,
       "confidence": 0.716,
-      "odds": -112,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-20",
-      "snapshots": 33,
+      "snapshots": 36,
       "conf_open": 0.774,
       "conf_close": 0.716,
       "conf_max": 1.016,
       "conf_min": 0.617,
       "delta_close_open": -0.058,
       "intraday_range": 0.399,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 18,
