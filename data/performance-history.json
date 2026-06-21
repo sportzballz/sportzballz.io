@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "St. Louis Cardinals",
+      "winner": "Arizona Diamondbacks",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.646,
-      "odds": -113,
+      "line": 9.5,
+      "confidence": 0.698,
+      "odds": -100,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-21",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.796,
-      "conf_close": 0.646,
+      "conf_close": 0.698,
       "conf_max": 0.796,
       "conf_min": 0.646,
-      "delta_close_open": -0.15,
+      "delta_close_open": -0.098,
       "intraday_range": 0.15,
-      "pick_changes": 0
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 19,
