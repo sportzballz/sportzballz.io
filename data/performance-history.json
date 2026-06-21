@@ -2,11 +2,11 @@
   {
     "date": "2026-06-21",
     "total_picks": 14,
-    "decided": 8,
-    "wins": 6,
-    "losses": 2,
-    "pending": 6,
-    "win_rate": 75.0,
+    "decided": 10,
+    "wins": 7,
+    "losses": 3,
+    "pending": 4,
+    "win_rate": 70.0,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,38 +15,38 @@
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 8,
-        "wins": 6,
-        "losses": 2,
-        "profit": 272.32,
-        "roi_pct": 34.04,
+        "decided": 10,
+        "wins": 7,
+        "losses": 3,
+        "profit": 240.81,
+        "roi_pct": 24.08,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 68.49,
+        "roi_pct": 68.49,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
-        "wins": 1,
+        "decided": 2,
+        "wins": 2,
         "losses": 0,
-        "profit": 84.03,
-        "roi_pct": 84.03,
+        "profit": 152.53,
+        "roi_pct": 76.27,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 8,
-        "wins": 2,
-        "losses": 6,
-        "profit": -408.61,
-        "roi_pct": -51.08,
+        "decided": 10,
+        "wins": 3,
+        "losses": 7,
+        "profit": -414.27,
+        "roi_pct": -41.43,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-21",
-      "snapshots": 51,
+      "snapshots": 54,
       "conf_open": 0.796,
       "conf_close": 0.849,
       "conf_max": 0.972,
