@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-21",
-    "total_picks": 14,
+    "total_picks": 15,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 14,
+    "pending": 15,
     "win_rate": null,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Arizona Diamondbacks",
-      "loser": "Minnesota Twins",
+      "winner": "Chicago Cubs",
+      "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.698,
-      "odds": -100,
+      "line": 7.0,
+      "confidence": 0.972,
+      "odds": -119,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-21",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.796,
-      "conf_close": 0.698,
-      "conf_max": 0.796,
+      "conf_close": 0.972,
+      "conf_max": 0.972,
       "conf_min": 0.646,
-      "delta_close_open": -0.098,
-      "intraday_range": 0.15,
-      "pick_changes": 1
+      "delta_close_open": 0.176,
+      "intraday_range": 0.326,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 19,
