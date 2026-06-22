@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-22",
-    "total_picks": 12,
+    "total_picks": 13,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 12,
+    "pending": 13,
     "win_rate": null,
     "plus_money_total": 2,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 12,
+        "total": 13,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 12,
+        "total": 13,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Washington Nationals",
-      "pick": "UNDER",
-      "line": 8.5,
-      "confidence": 0.644,
-      "odds": -115,
+      "winner": "Milwaukee Brewers",
+      "loser": "Cincinnati Reds",
+      "pick": "OVER",
+      "line": 9.5,
+      "confidence": 0.95,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-22",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.555,
-      "conf_close": 0.644,
-      "conf_max": 0.754,
+      "conf_close": 0.95,
+      "conf_max": 0.95,
       "conf_min": 0.555,
-      "delta_close_open": 0.089,
-      "intraday_range": 0.199,
-      "pick_changes": 4
+      "delta_close_open": 0.395,
+      "intraday_range": 0.395,
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 20,
