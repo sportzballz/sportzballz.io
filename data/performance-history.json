@@ -82,20 +82,20 @@
       "loser": "Los Angeles Dodgers",
       "pick": "OVER",
       "line": 9.5,
-      "confidence": 0.604,
-      "odds": -105,
+      "confidence": 0.754,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-22",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.555,
-      "conf_close": 0.604,
-      "conf_max": 0.676,
+      "conf_close": 0.754,
+      "conf_max": 0.754,
       "conf_min": 0.555,
-      "delta_close_open": 0.049,
-      "intraday_range": 0.121,
+      "delta_close_open": 0.199,
+      "intraday_range": 0.199,
       "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
