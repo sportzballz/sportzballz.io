@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-22",
-    "total_picks": 10,
+    "total_picks": 11,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 10,
+    "pending": 11,
     "win_rate": null,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 10,
+        "total": 11,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 10,
+        "total": 11,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cleveland Guardians",
-      "loser": "Chicago White Sox",
+      "winner": "Minnesota Twins",
+      "loser": "Los Angeles Dodgers",
       "pick": "OVER",
-      "line": 7.82,
-      "confidence": 0.676,
-      "odds": -108,
+      "line": 9.5,
+      "confidence": 0.604,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-22",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.555,
-      "conf_close": 0.676,
+      "conf_close": 0.604,
       "conf_max": 0.676,
       "conf_min": 0.555,
-      "delta_close_open": 0.121,
+      "delta_close_open": 0.049,
       "intraday_range": 0.121,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 20,
