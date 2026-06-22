@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 13,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 0,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "Milwaukee Brewers",
       "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 9.58,
+      "line": 9.57,
       "confidence": 0.799,
-      "odds": -114,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-22",
-      "snapshots": 48,
+      "snapshots": 51,
       "conf_open": 0.555,
       "conf_close": 0.799,
       "conf_max": 0.95,
       "conf_min": 0.555,
       "delta_close_open": 0.244,
       "intraday_range": 0.395,
-      "pick_changes": 6
+      "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
       "sample_days": 20,
