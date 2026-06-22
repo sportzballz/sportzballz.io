@@ -81,22 +81,22 @@
       "winner": "Milwaukee Brewers",
       "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 9.5,
+      "line": 9.58,
       "confidence": 0.799,
-      "odds": -116,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-22",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.555,
       "conf_close": 0.799,
       "conf_max": 0.95,
       "conf_min": 0.555,
       "delta_close_open": 0.244,
       "intraday_range": 0.395,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 20,
