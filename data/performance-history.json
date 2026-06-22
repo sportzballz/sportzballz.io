@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Boston Red Sox",
-      "loser": "Colorado Rockies",
+      "winner": "Cleveland Guardians",
+      "loser": "Chicago White Sox",
       "pick": "OVER",
-      "line": 11.59,
-      "confidence": 0.555,
-      "odds": -116,
+      "line": 7.82,
+      "confidence": 0.676,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-22",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.555,
-      "conf_close": 0.555,
-      "conf_max": 0.555,
+      "conf_close": 0.676,
+      "conf_max": 0.676,
       "conf_min": 0.555,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.121,
+      "intraday_range": 0.121,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 20,
