@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Boston Red Sox",
-      "loser": "Colorado Rockies",
-      "pick": "OVER",
-      "line": 10.5,
-      "confidence": 0.62,
-      "odds": -114,
+      "winner": "Philadelphia Phillies",
+      "loser": "Washington Nationals",
+      "pick": "UNDER",
+      "line": 8.5,
+      "confidence": 0.619,
+      "odds": -101,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-23",
-      "snapshots": 18,
+      "snapshots": 21,
       "conf_open": 0.617,
-      "conf_close": 0.62,
+      "conf_close": 0.619,
       "conf_max": 0.62,
       "conf_min": 0.617,
-      "delta_close_open": 0.003,
+      "delta_close_open": 0.002,
       "intraday_range": 0.003,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 21,
