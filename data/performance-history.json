@@ -82,19 +82,19 @@
       "loser": "Colorado Rockies",
       "pick": "OVER",
       "line": 11.06,
-      "confidence": 0.77,
+      "confidence": 0.74,
       "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-23",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.617,
-      "conf_close": 0.77,
+      "conf_close": 0.74,
       "conf_max": 0.77,
       "conf_min": 0.617,
-      "delta_close_open": 0.153,
+      "delta_close_open": 0.123,
       "intraday_range": 0.153,
       "pick_changes": 9
     },
