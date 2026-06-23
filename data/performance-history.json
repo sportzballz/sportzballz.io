@@ -81,7 +81,7 @@
       "winner": "Detroit Tigers",
       "loser": "New York Yankees",
       "pick": "UNDER",
-      "line": 7.42,
+      "line": 7.43,
       "confidence": 0.709,
       "odds": -118,
       "result": "PENDING",
@@ -89,14 +89,14 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-23",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.617,
       "conf_close": 0.709,
       "conf_max": 0.709,
       "conf_min": 0.617,
       "delta_close_open": 0.092,
       "intraday_range": 0.092,
-      "pick_changes": 7
+      "pick_changes": 8
     },
     "intraday_top_run_total_impact": {
       "sample_days": 21,
