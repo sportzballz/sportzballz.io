@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Seattle Mariners",
-      "loser": "Pittsburgh Pirates",
+      "winner": "Boston Red Sox",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.617,
-      "odds": -116,
+      "line": 10.5,
+      "confidence": 0.62,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-23",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.617,
-      "conf_close": 0.617,
-      "conf_max": 0.617,
+      "conf_close": 0.62,
+      "conf_max": 0.62,
       "conf_min": 0.617,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 1
+      "delta_close_open": 0.003,
+      "intraday_range": 0.003,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 21,
