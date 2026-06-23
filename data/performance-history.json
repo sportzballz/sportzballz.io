@@ -81,22 +81,22 @@
       "winner": "Seattle Mariners",
       "loser": "Pittsburgh Pirates",
       "pick": "OVER",
-      "line": 8.27,
+      "line": 8.5,
       "confidence": 0.617,
-      "odds": -107,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-23",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.617,
       "conf_close": 0.617,
       "conf_max": 0.617,
       "conf_min": 0.617,
       "delta_close_open": 0.0,
       "intraday_range": 0.0,
-      "pick_changes": 0
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 21,
