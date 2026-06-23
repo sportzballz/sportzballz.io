@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Tampa Bay Rays",
-      "loser": "Kansas City Royals",
+      "winner": "Detroit Tigers",
+      "loser": "New York Yankees",
       "pick": "UNDER",
-      "line": 7.75,
-      "confidence": 0.623,
-      "odds": -112,
+      "line": 7.38,
+      "confidence": 0.709,
+      "odds": -117,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-23",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.617,
-      "conf_close": 0.623,
-      "conf_max": 0.623,
+      "conf_close": 0.709,
+      "conf_max": 0.709,
       "conf_min": 0.617,
-      "delta_close_open": 0.006,
-      "intraday_range": 0.006,
-      "pick_changes": 5
+      "delta_close_open": 0.092,
+      "intraday_range": 0.092,
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 21,
