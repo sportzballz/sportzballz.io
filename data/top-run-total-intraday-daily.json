@@ -254,13 +254,13 @@
   },
   {
     "date": "2026-06-23",
-    "snapshots": 27,
+    "snapshots": 30,
     "conf_open": 0.617,
-    "conf_close": 0.617,
-    "conf_max": 0.62,
+    "conf_close": 0.623,
+    "conf_max": 0.623,
     "conf_min": 0.617,
-    "delta_close_open": 0.0,
-    "intraday_range": 0.003,
-    "pick_changes": 4
+    "delta_close_open": 0.006,
+    "intraday_range": 0.006,
+    "pick_changes": 5
   }
 ]

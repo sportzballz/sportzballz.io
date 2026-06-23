@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 14,
     "win_rate": null,
-    "plus_money_total": 0,
+    "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 1,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Seattle Mariners",
-      "loser": "Pittsburgh Pirates",
-      "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.617,
-      "odds": -118,
+      "winner": "Tampa Bay Rays",
+      "loser": "Kansas City Royals",
+      "pick": "UNDER",
+      "line": 7.75,
+      "confidence": 0.623,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-23",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.617,
-      "conf_close": 0.617,
-      "conf_max": 0.62,
+      "conf_close": 0.623,
+      "conf_max": 0.623,
       "conf_min": 0.617,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.003,
-      "pick_changes": 4
+      "delta_close_open": 0.006,
+      "intraday_range": 0.006,
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 21,
