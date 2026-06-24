@@ -1769,3 +1769,7 @@
 {"timestamp_et": "2026-06-23 23:57:20", "date": "2026-06-23", "winner": "Boston Red Sox", "loser": "Colorado Rockies", "pick": "OVER", "line": 11.06, "confidence": 0.59, "odds": -109, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-06-23 23:57:21", "date": "2026-06-23", "winner": "Boston Red Sox", "loser": "Colorado Rockies", "pick": "OVER", "line": 11.06, "confidence": 0.59, "odds": -109, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-06-23 23:57:40", "date": "2026-06-23", "winner": "Boston Red Sox", "loser": "Colorado Rockies", "pick": "OVER", "line": 11.06, "confidence": 0.59, "odds": -109, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-06-24 05:02:23", "date": "2026-06-24", "winner": "Los Angeles Dodgers", "loser": "Minnesota Twins", "pick": "OVER", "line": 7.68, "confidence": 0.679, "odds": -110, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-24 05:02:24", "date": "2026-06-23", "winner": "Boston Red Sox", "loser": "Colorado Rockies", "pick": "OVER", "line": 11.06, "confidence": 0.59, "odds": -109, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-06-24 05:02:24", "date": "2026-06-24", "winner": "Los Angeles Dodgers", "loser": "Minnesota Twins", "pick": "OVER", "line": 7.68, "confidence": 0.679, "odds": -110, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-24 05:02:42", "date": "2026-06-24", "winner": "Los Angeles Dodgers", "loser": "Minnesota Twins", "pick": "OVER", "line": 7.68, "confidence": 0.679, "odds": -110, "result": "PENDING", "profit": 0.0}
