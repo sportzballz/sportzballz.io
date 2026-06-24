@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "St. Louis Cardinals",
-      "loser": "Arizona Diamondbacks",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.85,
-      "odds": -111,
+      "line": 8.0,
+      "confidence": 0.829,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-24",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.679,
-      "conf_close": 0.85,
+      "conf_close": 0.829,
       "conf_max": 0.85,
       "conf_min": 0.679,
-      "delta_close_open": 0.171,
+      "delta_close_open": 0.15,
       "intraday_range": 0.171,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 22,
