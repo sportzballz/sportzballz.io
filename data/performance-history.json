@@ -2,10 +2,10 @@
   {
     "date": "2026-06-24",
     "total_picks": 16,
-    "decided": 1,
+    "decided": 2,
     "wins": 0,
-    "losses": 1,
-    "pending": 15,
+    "losses": 2,
+    "pending": 14,
     "win_rate": 0.0,
     "plus_money_total": 1,
     "plus_money_decided": 0,
@@ -15,10 +15,10 @@
     "segments": {
       "all_picks": {
         "total": 16,
-        "decided": 1,
+        "decided": 2,
         "wins": 0,
-        "losses": 1,
-        "profit": -100.0,
+        "losses": 2,
+        "profit": -200.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 16,
-        "decided": 1,
-        "wins": 0,
+        "decided": 2,
+        "wins": 1,
         "losses": 1,
-        "profit": -100.0,
-        "roi_pct": -100.0,
+        "profit": -4.76,
+        "roi_pct": -2.38,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 8.05,
+      "line": 8.0,
       "confidence": 0.829,
-      "odds": -114,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-24",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.679,
       "conf_close": 0.829,
       "conf_max": 0.85,
       "conf_min": 0.679,
       "delta_close_open": 0.15,
       "intraday_range": 0.171,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 22,
