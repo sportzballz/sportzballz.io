@@ -81,22 +81,22 @@
       "winner": "Minnesota Twins",
       "loser": "Los Angeles Dodgers",
       "pick": "OVER",
-      "line": 8.0,
+      "line": 8.05,
       "confidence": 0.907,
-      "odds": -114,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-24",
-      "snapshots": 54,
+      "snapshots": 57,
       "conf_open": 0.679,
       "conf_close": 0.907,
       "conf_max": 0.907,
       "conf_min": 0.679,
       "delta_close_open": 0.228,
       "intraday_range": 0.228,
-      "pick_changes": 6
+      "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
       "sample_days": 22,
