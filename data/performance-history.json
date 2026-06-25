@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "San Francisco Giants",
-      "loser": "Athletics",
-      "pick": "UNDER",
-      "line": 8.5,
-      "confidence": 0.704,
-      "odds": -100,
+      "winner": "Chicago Cubs",
+      "loser": "New York Mets",
+      "pick": "OVER",
+      "line": 8.45,
+      "confidence": 0.625,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-25",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 0.704,
-      "conf_close": 0.704,
+      "conf_close": 0.625,
       "conf_max": 0.704,
-      "conf_min": 0.704,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.625,
+      "delta_close_open": -0.079,
+      "intraday_range": 0.079,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 23,
