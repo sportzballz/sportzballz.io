@@ -1845,3 +1845,6 @@
 {"timestamp_et": "2026-06-24 22:58:09", "date": "2026-06-24", "winner": "Minnesota Twins", "loser": "Los Angeles Dodgers", "pick": "OVER", "line": 8.05, "confidence": 0.907, "odds": -113, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-06-24 23:55:06", "date": "2026-06-24", "winner": "Minnesota Twins", "loser": "Los Angeles Dodgers", "pick": "OVER", "line": 8.05, "confidence": 0.907, "odds": -113, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-06-24 23:55:25", "date": "2026-06-24", "winner": "Minnesota Twins", "loser": "Los Angeles Dodgers", "pick": "OVER", "line": 8.05, "confidence": 0.907, "odds": -113, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-06-25 04:57:35", "date": "2026-06-25", "winner": "San Francisco Giants", "loser": "Athletics", "pick": "UNDER", "line": 8.5, "confidence": 0.704, "odds": -100, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-25 04:57:36", "date": "2026-06-25", "winner": "San Francisco Giants", "loser": "Athletics", "pick": "UNDER", "line": 8.5, "confidence": 0.704, "odds": -100, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-25 04:57:53", "date": "2026-06-25", "winner": "San Francisco Giants", "loser": "Athletics", "pick": "UNDER", "line": 8.5, "confidence": 0.704, "odds": -100, "result": "PENDING", "profit": 0.0}
