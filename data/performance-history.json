@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Pittsburgh Pirates",
-      "loser": "Cincinnati Reds",
+      "winner": "Texas Rangers",
+      "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 7.55,
-      "confidence": 0.677,
-      "odds": -114,
+      "line": 8.5,
+      "confidence": 0.726,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-26",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.677,
-      "conf_close": 0.677,
-      "conf_max": 0.677,
+      "conf_close": 0.726,
+      "conf_max": 0.726,
       "conf_min": 0.677,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.049,
+      "intraday_range": 0.049,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 24,
