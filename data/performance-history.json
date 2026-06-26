@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-25",
-    "total_picks": 9,
+    "total_picks": 8,
     "decided": 3,
     "wins": 1,
     "losses": 2,
-    "pending": 6,
+    "pending": 5,
     "win_rate": 33.3,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 9,
+        "total": 8,
         "decided": 3,
         "wins": 1,
         "losses": 2,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 9,
+        "total": 8,
         "decided": 3,
         "wins": 1,
         "losses": 2,
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-25",
-      "snapshots": 63,
+      "snapshots": 65,
       "conf_open": 0.704,
       "conf_close": 0.904,
       "conf_max": 0.925,
