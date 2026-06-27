@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "San Diego Padres",
+      "winner": "San Francisco Giants",
+      "loser": "Atlanta Braves",
       "pick": "UNDER",
-      "line": 7.86,
-      "confidence": 0.68,
+      "line": 7.68,
+      "confidence": 0.675,
       "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-27",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.68,
-      "conf_close": 0.68,
+      "conf_close": 0.675,
       "conf_max": 0.68,
-      "conf_min": 0.68,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.675,
+      "delta_close_open": -0.005,
+      "intraday_range": 0.005,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 25,
@@ -150,12 +150,12 @@
   },
   {
     "date": "2026-06-26",
-    "total_picks": 12,
-    "decided": 12,
-    "wins": 10,
-    "losses": 2,
+    "total_picks": 15,
+    "decided": 15,
+    "wins": 11,
+    "losses": 4,
     "pending": 0,
-    "win_rate": 83.3,
+    "win_rate": 73.3,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -163,12 +163,12 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 12,
-        "decided": 12,
-        "wins": 10,
-        "losses": 2,
-        "profit": -67.27,
-        "roi_pct": -5.61,
+        "total": 15,
+        "decided": 15,
+        "wins": 11,
+        "losses": 4,
+        "profit": -267.27,
+        "roi_pct": -17.82,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -208,12 +208,12 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 12,
-        "decided": 11,
-        "wins": 6,
-        "losses": 5,
-        "profit": 44.2,
-        "roi_pct": 4.02,
+        "total": 15,
+        "decided": 14,
+        "wins": 8,
+        "losses": 6,
+        "profit": 125.38,
+        "roi_pct": 8.96,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -238,7 +238,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-06-26",
-      "snapshots": 76,
+      "snapshots": 77,
       "conf_open": 0.677,
       "conf_close": 0.799,
       "conf_max": 0.827,
