@@ -1,12 +1,12 @@
 [
   {
-    "date": "2026-06-26",
+    "date": "2026-06-27",
     "total_picks": 15,
-    "decided": 12,
-    "wins": 10,
-    "losses": 2,
-    "pending": 3,
-    "win_rate": 83.3,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 15,
+    "win_rate": null,
     "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,6 +15,155 @@
     "segments": {
       "all_picks": {
         "total": 15,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 0,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 15,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Los Angeles Dodgers",
+      "loser": "San Diego Padres",
+      "pick": "UNDER",
+      "line": 7.86,
+      "confidence": 0.68,
+      "odds": -106,
+      "result": "PENDING",
+      "profit": 0.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-06-27",
+      "snapshots": 3,
+      "conf_open": 0.68,
+      "conf_close": 0.68,
+      "conf_max": 0.68,
+      "conf_min": 0.68,
+      "delta_close_open": 0.0,
+      "intraday_range": 0.0,
+      "pick_changes": 0
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 25,
+      "delta_buckets": {
+        "flat": {
+          "days": 6,
+          "wins": 2,
+          "losses": 4,
+          "profit": -221.37,
+          "win_rate_pct": 33.3
+        },
+        "down_big": {
+          "days": 3,
+          "wins": 3,
+          "losses": 0,
+          "profit": 269.54,
+          "win_rate_pct": 100.0
+        },
+        "up_big": {
+          "days": 16,
+          "wins": 3,
+          "losses": 13,
+          "profit": -1037.57,
+          "win_rate_pct": 18.8
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 1,
+          "wins": 0,
+          "losses": 1,
+          "profit": -100.0,
+          "win_rate_pct": 0.0
+        },
+        "high_range": {
+          "days": 22,
+          "wins": 7,
+          "losses": 15,
+          "profit": -877.12,
+          "win_rate_pct": 31.8
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "total_picks": 12,
+    "decided": 12,
+    "wins": 10,
+    "losses": 2,
+    "pending": 0,
+    "win_rate": 83.3,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 12,
         "decided": 12,
         "wins": 10,
         "losses": 2,
@@ -59,7 +208,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 15,
+        "total": 12,
         "decided": 11,
         "wins": 6,
         "losses": 5,
