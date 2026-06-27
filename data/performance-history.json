@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "San Francisco Giants",
-      "loser": "Atlanta Braves",
-      "pick": "UNDER",
-      "line": 7.68,
-      "confidence": 0.675,
-      "odds": -106,
+      "winner": "Toronto Blue Jays",
+      "loser": "Texas Rangers",
+      "pick": "OVER",
+      "line": 8.0,
+      "confidence": 0.625,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-27",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.68,
-      "conf_close": 0.675,
+      "conf_close": 0.625,
       "conf_max": 0.68,
-      "conf_min": 0.675,
-      "delta_close_open": -0.005,
-      "intraday_range": 0.005,
-      "pick_changes": 1
+      "conf_min": 0.625,
+      "delta_close_open": -0.055,
+      "intraday_range": 0.055,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 25,
