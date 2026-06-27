@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 0,
+    "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 2,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Toronto Blue Jays",
-      "loser": "Texas Rangers",
-      "pick": "OVER",
-      "line": 8.0,
-      "confidence": 0.687,
+      "winner": "San Francisco Giants",
+      "loser": "Atlanta Braves",
+      "pick": "UNDER",
+      "line": 7.5,
+      "confidence": 0.825,
       "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-27",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.68,
-      "conf_close": 0.687,
-      "conf_max": 0.687,
+      "conf_close": 0.825,
+      "conf_max": 0.825,
       "conf_min": 0.625,
-      "delta_close_open": 0.007,
-      "intraday_range": 0.062,
-      "pick_changes": 4
+      "delta_close_open": 0.145,
+      "intraday_range": 0.2,
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 25,
