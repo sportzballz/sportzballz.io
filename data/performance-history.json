@@ -7,7 +7,7 @@
     "losses": 3,
     "pending": 11,
     "win_rate": 25.0,
-    "plus_money_total": 2,
+    "plus_money_total": 3,
     "plus_money_decided": 1,
     "plus_money_wins": 0,
     "plus_money_losses": 1,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 3,
         "decided": 1,
         "wins": 0,
         "losses": 1,
@@ -83,13 +83,13 @@
       "pick": "UNDER",
       "line": 8.0,
       "confidence": 0.755,
-      "odds": -106,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-27",
-      "snapshots": 57,
+      "snapshots": 60,
       "conf_open": 0.68,
       "conf_close": 0.755,
       "conf_max": 0.825,
