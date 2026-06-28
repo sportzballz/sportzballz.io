@@ -81,22 +81,22 @@
       "winner": "Texas Rangers",
       "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 8.95,
+      "line": 8.91,
       "confidence": 0.706,
-      "odds": -104,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-28",
-      "snapshots": 18,
+      "snapshots": 21,
       "conf_open": 0.683,
       "conf_close": 0.706,
       "conf_max": 0.741,
       "conf_min": 0.533,
       "delta_close_open": 0.023,
       "intraday_range": 0.208,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 26,
