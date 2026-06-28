@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "New York Mets",
+      "winner": "Texas Rangers",
+      "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 8.23,
-      "confidence": 0.741,
-      "odds": -112,
+      "line": 8.95,
+      "confidence": 0.706,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-28",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.683,
-      "conf_close": 0.741,
+      "conf_close": 0.706,
       "conf_max": 0.741,
       "conf_min": 0.533,
-      "delta_close_open": 0.058,
+      "delta_close_open": 0.023,
       "intraday_range": 0.208,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 26,
