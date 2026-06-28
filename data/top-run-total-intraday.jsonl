@@ -2069,3 +2069,6 @@
 {"timestamp_et": "2026-06-27 22:55:16", "date": "2026-06-27", "winner": "Los Angeles Dodgers", "loser": "San Diego Padres", "pick": "UNDER", "line": 8.0, "confidence": 0.755, "odds": -107, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-06-27 23:55:10", "date": "2026-06-27", "winner": "Los Angeles Dodgers", "loser": "San Diego Padres", "pick": "UNDER", "line": 8.0, "confidence": 0.755, "odds": -107, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-06-27 23:55:30", "date": "2026-06-27", "winner": "Los Angeles Dodgers", "loser": "San Diego Padres", "pick": "UNDER", "line": 8.0, "confidence": 0.755, "odds": -107, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-06-28 05:03:54", "date": "2026-06-28", "winner": "Philadelphia Phillies", "loser": "New York Mets", "pick": "OVER", "line": 8.0, "confidence": 0.683, "odds": -110, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-28 05:03:55", "date": "2026-06-28", "winner": "Philadelphia Phillies", "loser": "New York Mets", "pick": "OVER", "line": 8.0, "confidence": 0.683, "odds": -110, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-06-28 05:04:14", "date": "2026-06-28", "winner": "Philadelphia Phillies", "loser": "New York Mets", "pick": "OVER", "line": 8.0, "confidence": 0.683, "odds": -110, "result": "PENDING", "profit": 0.0}
