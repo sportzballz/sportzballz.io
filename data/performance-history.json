@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-06-29",
-    "total_picks": 12,
+    "total_picks": 13,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 12,
+    "pending": 13,
     "win_rate": null,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 12,
+        "total": 13,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 12,
+        "total": 13,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -83,13 +83,13 @@
       "pick": "OVER",
       "line": 8.55,
       "confidence": 1.161,
-      "odds": -120,
+      "odds": -119,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-29",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 1.161,
       "conf_close": 1.161,
       "conf_max": 1.161,
