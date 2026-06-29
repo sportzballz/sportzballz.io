@@ -81,22 +81,22 @@
       "winner": "Miami Marlins",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 11.43,
+      "line": 11.5,
       "confidence": 1.042,
-      "odds": -104,
+      "odds": -102,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-29",
-      "snapshots": 34,
+      "snapshots": 37,
       "conf_open": 1.161,
       "conf_close": 1.042,
       "conf_max": 1.161,
       "conf_min": 1.011,
       "delta_close_open": -0.119,
       "intraday_range": 0.15,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 27,
