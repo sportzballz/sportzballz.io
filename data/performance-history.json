@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 13,
     "win_rate": null,
-    "plus_money_total": 1,
+    "plus_money_total": 0,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
+        "total": 0,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Pittsburgh Pirates",
-      "loser": "Philadelphia Phillies",
+      "winner": "Miami Marlins",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.55,
-      "confidence": 1.161,
-      "odds": -120,
+      "line": 11.43,
+      "confidence": 1.042,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-29",
-      "snapshots": 31,
+      "snapshots": 34,
       "conf_open": 1.161,
-      "conf_close": 1.161,
+      "conf_close": 1.042,
       "conf_max": 1.161,
       "conf_min": 1.011,
-      "delta_close_open": 0.0,
+      "delta_close_open": -0.119,
       "intraday_range": 0.15,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 27,
