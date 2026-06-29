@@ -82,20 +82,20 @@
       "loser": "Philadelphia Phillies",
       "pick": "OVER",
       "line": 8.5,
-      "confidence": 1.161,
-      "odds": -110,
+      "confidence": 1.011,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-29",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 1.161,
-      "conf_close": 1.161,
+      "conf_close": 1.011,
       "conf_max": 1.161,
-      "conf_min": 1.161,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
+      "conf_min": 1.011,
+      "delta_close_open": -0.15,
+      "intraday_range": 0.15,
       "pick_changes": 0
     },
     "intraday_top_run_total_impact": {
