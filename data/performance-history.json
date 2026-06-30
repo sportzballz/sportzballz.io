@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Athletics",
       "pick": "OVER",
-      "line": 11.05,
+      "line": 11.0,
       "confidence": 0.999,
-      "odds": -113,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-30",
-      "snapshots": 21,
+      "snapshots": 24,
       "conf_open": 0.849,
       "conf_close": 0.999,
       "conf_max": 1.149,
       "conf_min": 0.699,
       "delta_close_open": 0.15,
       "intraday_range": 0.45,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 28,
