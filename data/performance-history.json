@@ -82,19 +82,19 @@
       "loser": "Kansas City Royals",
       "pick": "OVER",
       "line": 10.5,
-      "confidence": 0.971,
+      "confidence": 0.821,
       "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-06-30",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.849,
-      "conf_close": 0.971,
+      "conf_close": 0.821,
       "conf_max": 1.149,
       "conf_min": 0.699,
-      "delta_close_open": 0.122,
+      "delta_close_open": -0.028,
       "intraday_range": 0.45,
       "pick_changes": 6
     },
