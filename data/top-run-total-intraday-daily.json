@@ -342,13 +342,13 @@
   },
   {
     "date": "2026-07-01",
-    "snapshots": 45,
+    "snapshots": 48,
     "conf_open": 1.062,
-    "conf_close": 1.418,
-    "conf_max": 1.418,
+    "conf_close": 1.421,
+    "conf_max": 1.421,
     "conf_min": 0.912,
-    "delta_close_open": 0.356,
-    "intraday_range": 0.506,
+    "delta_close_open": 0.359,
+    "intraday_range": 0.509,
     "pick_changes": 4
   }
 ]
