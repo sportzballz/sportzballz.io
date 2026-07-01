@@ -1,5 +1,154 @@
 [
   {
+    "date": "2026-07-01",
+    "total_picks": 12,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 12,
+    "win_rate": null,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 12,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 0,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 12,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Tampa Bay Rays",
+      "loser": "Kansas City Royals",
+      "pick": "OVER",
+      "line": 10.32,
+      "confidence": 1.062,
+      "odds": -111,
+      "result": "PENDING",
+      "profit": 0.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-07-01",
+      "snapshots": 3,
+      "conf_open": 1.062,
+      "conf_close": 1.062,
+      "conf_max": 1.062,
+      "conf_min": 1.062,
+      "delta_close_open": 0.0,
+      "intraday_range": 0.0,
+      "pick_changes": 0
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 29,
+      "delta_buckets": {
+        "flat": {
+          "days": 7,
+          "wins": 2,
+          "losses": 5,
+          "profit": -321.37,
+          "win_rate_pct": 28.6
+        },
+        "down_big": {
+          "days": 4,
+          "wins": 4,
+          "losses": 0,
+          "profit": 364.78,
+          "win_rate_pct": 100.0
+        },
+        "up_big": {
+          "days": 18,
+          "wins": 4,
+          "losses": 14,
+          "profit": -1046.66,
+          "win_rate_pct": 22.2
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 1,
+          "wins": 0,
+          "losses": 1,
+          "profit": -100.0,
+          "win_rate_pct": 0.0
+        },
+        "high_range": {
+          "days": 26,
+          "wins": 9,
+          "losses": 17,
+          "profit": -890.97,
+          "win_rate_pct": 34.6
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
     "date": "2026-06-30",
     "total_picks": 15,
     "decided": 11,
