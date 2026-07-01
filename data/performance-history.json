@@ -2,12 +2,12 @@
   {
     "date": "2026-07-01",
     "total_picks": 13,
-    "decided": 2,
-    "wins": 1,
-    "losses": 1,
-    "pending": 11,
+    "decided": 4,
+    "wins": 2,
+    "losses": 2,
+    "pending": 9,
     "win_rate": 50.0,
-    "plus_money_total": 1,
+    "plus_money_total": 2,
     "plus_money_decided": 1,
     "plus_money_wins": 0,
     "plus_money_losses": 1,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 13,
-        "decided": 2,
-        "wins": 1,
-        "losses": 1,
-        "profit": -34.21,
-        "roi_pct": -17.11,
+        "decided": 4,
+        "wins": 2,
+        "losses": 2,
+        "profit": -134.21,
+        "roi_pct": -33.55,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -42,15 +42,15 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
+        "decided": 2,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 2,
+        "profit": -200.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
+        "total": 2,
         "decided": 1,
         "wins": 0,
         "losses": 1,
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 13,
-        "decided": 2,
-        "wins": 1,
-        "losses": 1,
-        "profit": -9.09,
-        "roi_pct": -4.54,
+        "decided": 4,
+        "wins": 2,
+        "losses": 2,
+        "profit": -16.5,
+        "roi_pct": -4.12,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -82,20 +82,20 @@
       "loser": "Kansas City Royals",
       "pick": "OVER",
       "line": 10.5,
-      "confidence": 1.212,
+      "confidence": 1.418,
       "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-01",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 1.062,
-      "conf_close": 1.212,
-      "conf_max": 1.212,
+      "conf_close": 1.418,
+      "conf_max": 1.418,
       "conf_min": 0.912,
-      "delta_close_open": 0.15,
-      "intraday_range": 0.3,
+      "delta_close_open": 0.356,
+      "intraday_range": 0.506,
       "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
