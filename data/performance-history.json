@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Tampa Bay Rays",
-      "loser": "Kansas City Royals",
+      "winner": "Philadelphia Phillies",
+      "loser": "Pittsburgh Pirates",
       "pick": "OVER",
-      "line": 10.5,
-      "confidence": 0.919,
-      "odds": -107,
+      "line": 10.32,
+      "confidence": 0.982,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-02",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.919,
-      "conf_close": 0.919,
-      "conf_max": 0.919,
+      "conf_close": 0.982,
+      "conf_max": 0.982,
       "conf_min": 0.919,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.063,
+      "intraday_range": 0.063,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 30,
