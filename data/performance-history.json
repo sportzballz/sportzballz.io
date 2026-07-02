@@ -69,44 +69,44 @@
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 1,
+        "decided": 0,
         "wins": 0,
-        "losses": 1,
-        "profit": -100.0,
-        "roi_pct": -100.0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Pittsburgh Pirates",
+      "winner": "Tampa Bay Rays",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 10.5,
-      "confidence": 0.924,
-      "odds": -111,
-      "result": "LOSS",
-      "profit": -100.0
+      "line": 10.23,
+      "confidence": 0.95,
+      "odds": -108,
+      "result": "PENDING",
+      "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-02",
-      "snapshots": 44,
+      "snapshots": 47,
       "conf_open": 0.919,
-      "conf_close": 0.924,
+      "conf_close": 0.95,
       "conf_max": 0.982,
       "conf_min": 0.919,
-      "delta_close_open": 0.005,
+      "delta_close_open": 0.031,
       "intraday_range": 0.063,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 31,
+      "sample_days": 30,
       "delta_buckets": {
         "flat": {
-          "days": 8,
+          "days": 7,
           "wins": 2,
-          "losses": 6,
-          "profit": -421.37,
-          "win_rate_pct": 25.0
+          "losses": 5,
+          "profit": -321.37,
+          "win_rate_pct": 28.6
         },
         "down_big": {
           "days": 4,
@@ -125,10 +125,10 @@
       },
       "range_buckets": {
         "low_range": {
-          "days": 2,
+          "days": 1,
           "wins": 0,
-          "losses": 2,
-          "profit": -200.0,
+          "losses": 1,
+          "profit": -100.0,
           "win_rate_pct": 0.0
         },
         "high_range": {
