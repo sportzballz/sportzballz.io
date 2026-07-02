@@ -353,13 +353,13 @@
   },
   {
     "date": "2026-07-02",
-    "snapshots": 9,
+    "snapshots": 12,
     "conf_open": 0.919,
     "conf_close": 0.982,
     "conf_max": 0.982,
     "conf_min": 0.919,
     "delta_close_open": 0.063,
     "intraday_range": 0.063,
-    "pick_changes": 1
+    "pick_changes": 2
   }
 ]
