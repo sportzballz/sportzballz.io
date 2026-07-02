@@ -81,22 +81,22 @@
       "winner": "Tampa Bay Rays",
       "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 10.23,
+      "line": 10.18,
       "confidence": 0.95,
-      "odds": -108,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-02",
-      "snapshots": 53,
+      "snapshots": 56,
       "conf_open": 0.919,
       "conf_close": 0.95,
       "conf_max": 0.982,
       "conf_min": 0.919,
       "delta_close_open": 0.031,
       "intraday_range": 0.063,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 30,
