@@ -81,22 +81,22 @@
       "winner": "Milwaukee Brewers",
       "loser": "Arizona Diamondbacks",
       "pick": "OVER",
-      "line": 8.82,
+      "line": 8.55,
       "confidence": 0.921,
-      "odds": -109,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-03",
-      "snapshots": 18,
+      "snapshots": 21,
       "conf_open": 0.771,
       "conf_close": 0.921,
       "conf_max": 0.921,
       "conf_min": 0.771,
       "delta_close_open": 0.15,
       "intraday_range": 0.15,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 31,
