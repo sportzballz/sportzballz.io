@@ -81,22 +81,22 @@
       "winner": "San Francisco Giants",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 11.5,
+      "line": 12.0,
       "confidence": 1.253,
-      "odds": -108,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-03",
-      "snapshots": 54,
+      "snapshots": 57,
       "conf_open": 0.771,
       "conf_close": 1.253,
       "conf_max": 1.253,
       "conf_min": 0.771,
       "delta_close_open": 0.482,
       "intraday_range": 0.482,
-      "pick_changes": 8
+      "pick_changes": 9
     },
     "intraday_top_run_total_impact": {
       "sample_days": 31,
