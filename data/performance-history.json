@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "San Diego Padres",
       "pick": "OVER",
-      "line": 8.5,
+      "line": 8.17,
       "confidence": 0.922,
-      "odds": -118,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-03",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.771,
       "conf_close": 0.922,
       "conf_max": 0.922,
       "conf_min": 0.771,
       "delta_close_open": 0.151,
       "intraday_range": 0.151,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 31,
