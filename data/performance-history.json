@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "San Diego Padres",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 8.55,
-      "confidence": 0.893,
-      "odds": -116,
+      "line": 9.86,
+      "confidence": 1.008,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-04",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 0.893,
-      "conf_close": 0.893,
-      "conf_max": 0.893,
+      "conf_close": 1.008,
+      "conf_max": 1.008,
       "conf_min": 0.893,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.115,
+      "intraday_range": 0.115,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 32,
