@@ -82,20 +82,20 @@
       "loser": "Miami Marlins",
       "pick": "OVER",
       "line": 10.0,
-      "confidence": 0.92,
+      "confidence": 0.949,
       "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-05",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.915,
-      "conf_close": 0.92,
-      "conf_max": 0.92,
+      "conf_close": 0.949,
+      "conf_max": 0.949,
       "conf_min": 0.892,
-      "delta_close_open": 0.005,
-      "intraday_range": 0.028,
+      "delta_close_open": 0.034,
+      "intraday_range": 0.057,
       "pick_changes": 3
     },
     "intraday_top_run_total_impact": {

@@ -386,13 +386,13 @@
   },
   {
     "date": "2026-07-05",
-    "snapshots": 30,
+    "snapshots": 33,
     "conf_open": 0.915,
-    "conf_close": 0.92,
-    "conf_max": 0.92,
+    "conf_close": 0.949,
+    "conf_max": 0.949,
     "conf_min": 0.892,
-    "delta_close_open": 0.005,
-    "intraday_range": 0.028,
+    "delta_close_open": 0.034,
+    "intraday_range": 0.057,
     "pick_changes": 3
   }
 ]
