@@ -2,24 +2,24 @@
   {
     "date": "2026-07-05",
     "total_picks": 15,
-    "decided": 3,
-    "wins": 2,
-    "losses": 1,
-    "pending": 12,
-    "win_rate": 66.7,
-    "plus_money_total": 1,
-    "plus_money_decided": 1,
-    "plus_money_wins": 1,
+    "decided": 6,
+    "wins": 3,
+    "losses": 3,
+    "pending": 9,
+    "win_rate": 50.0,
+    "plus_money_total": 2,
+    "plus_money_decided": 2,
+    "plus_money_wins": 2,
     "plus_money_losses": 0,
     "plus_money_win_rate": 100.0,
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 3,
-        "wins": 2,
-        "losses": 1,
-        "profit": 23.0,
-        "roi_pct": 7.67,
+        "decided": 6,
+        "wins": 3,
+        "losses": 3,
+        "profit": 8.42,
+        "roi_pct": 1.4,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -42,29 +42,29 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
-        "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
-        "stake_per_pick": 100.0
-      },
-      "plus_money_picks": {
-        "total": 1,
         "decided": 1,
         "wins": 1,
         "losses": 0,
-        "profit": 123.0,
-        "roi_pct": 123.0,
+        "profit": 70.42,
+        "roi_pct": 70.42,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 2,
+        "decided": 2,
+        "wins": 2,
+        "losses": 0,
+        "profit": 238.0,
+        "roi_pct": 119.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 3,
-        "wins": 1,
-        "losses": 2,
-        "profit": -109.09,
-        "roi_pct": -36.36,
+        "decided": 6,
+        "wins": 3,
+        "losses": 3,
+        "profit": -19.99,
+        "roi_pct": -3.33,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-07-05",
-      "snapshots": 45,
+      "snapshots": 50,
       "conf_open": 0.915,
       "conf_close": 0.949,
       "conf_max": 0.949,
