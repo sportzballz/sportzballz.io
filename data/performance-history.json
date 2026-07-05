@@ -81,22 +81,22 @@
       "winner": "Athletics",
       "loser": "Miami Marlins",
       "pick": "OVER",
-      "line": 9.95,
-      "confidence": 0.892,
+      "line": 9.91,
+      "confidence": 0.92,
       "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-05",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.915,
-      "conf_close": 0.892,
-      "conf_max": 0.915,
+      "conf_close": 0.92,
+      "conf_max": 0.92,
       "conf_min": 0.892,
-      "delta_close_open": -0.023,
-      "intraday_range": 0.023,
-      "pick_changes": 1
+      "delta_close_open": 0.005,
+      "intraday_range": 0.028,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 33,
