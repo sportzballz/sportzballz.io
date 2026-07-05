@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-07-05",
-    "total_picks": 14,
+    "total_picks": 15,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 14,
+    "pending": 15,
     "win_rate": null,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "San Francisco Giants",
-      "loser": "Colorado Rockies",
+      "winner": "Athletics",
+      "loser": "Miami Marlins",
       "pick": "OVER",
-      "line": 13.0,
-      "confidence": 0.915,
-      "odds": -107,
+      "line": 9.95,
+      "confidence": 0.892,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-05",
-      "snapshots": 21,
+      "snapshots": 24,
       "conf_open": 0.915,
-      "conf_close": 0.915,
+      "conf_close": 0.892,
       "conf_max": 0.915,
-      "conf_min": 0.915,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.892,
+      "delta_close_open": -0.023,
+      "intraday_range": 0.023,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 33,
