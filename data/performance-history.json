@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "New York Mets",
+      "winner": "Philadelphia Phillies",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.741,
-      "odds": -107,
+      "line": 8.36,
+      "confidence": 1.129,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-06",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.953,
-      "conf_close": 0.741,
-      "conf_max": 0.953,
+      "conf_close": 1.129,
+      "conf_max": 1.129,
       "conf_min": 0.741,
-      "delta_close_open": -0.212,
-      "intraday_range": 0.212,
-      "pick_changes": 1
+      "delta_close_open": 0.176,
+      "intraday_range": 0.388,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 34,
