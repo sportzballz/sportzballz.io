@@ -81,22 +81,22 @@
       "winner": "Philadelphia Phillies",
       "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 8.36,
+      "line": 8.5,
       "confidence": 1.129,
-      "odds": -110,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-06",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.953,
       "conf_close": 1.129,
       "conf_max": 1.129,
       "conf_min": 0.741,
       "delta_close_open": 0.176,
       "intraday_range": 0.388,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 34,
