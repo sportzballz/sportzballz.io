@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Pittsburgh Pirates",
-      "loser": "Atlanta Braves",
+      "winner": "Washington Nationals",
+      "loser": "Houston Astros",
       "pick": "OVER",
-      "line": 8.0,
-      "confidence": 0.804,
-      "odds": -106,
+      "line": 9.09,
+      "confidence": 0.92,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-07",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.654,
-      "conf_close": 0.804,
-      "conf_max": 0.804,
+      "conf_close": 0.92,
+      "conf_max": 0.92,
       "conf_min": 0.654,
-      "delta_close_open": 0.15,
-      "intraday_range": 0.15,
-      "pick_changes": 1
+      "delta_close_open": 0.266,
+      "intraday_range": 0.266,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 35,
