@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Cincinnati Reds",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.797,
-      "odds": -106,
+      "line": 9.83,
+      "confidence": 0.688,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-07",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.654,
-      "conf_close": 0.797,
+      "conf_close": 0.688,
       "conf_max": 1.07,
       "conf_min": 0.654,
-      "delta_close_open": 0.143,
+      "delta_close_open": 0.034,
       "intraday_range": 0.416,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 35,
