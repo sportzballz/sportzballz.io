@@ -81,22 +81,22 @@
       "winner": "Pittsburgh Pirates",
       "loser": "Atlanta Braves",
       "pick": "OVER",
-      "line": 7.95,
-      "confidence": 0.654,
+      "line": 8.0,
+      "confidence": 0.804,
       "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-07",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 0.654,
-      "conf_close": 0.654,
-      "conf_max": 0.654,
+      "conf_close": 0.804,
+      "conf_max": 0.804,
       "conf_min": 0.654,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.15,
+      "intraday_range": 0.15,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 35,
