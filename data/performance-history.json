@@ -81,22 +81,22 @@
       "winner": "Washington Nationals",
       "loser": "Houston Astros",
       "pick": "OVER",
-      "line": 9.09,
-      "confidence": 1.07,
-      "odds": -117,
+      "line": 9.18,
+      "confidence": 0.92,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-07",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.654,
-      "conf_close": 1.07,
+      "conf_close": 0.92,
       "conf_max": 1.07,
       "conf_min": 0.654,
-      "delta_close_open": 0.416,
+      "delta_close_open": 0.266,
       "intraday_range": 0.416,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 35,
