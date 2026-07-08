@@ -408,13 +408,13 @@
   },
   {
     "date": "2026-07-07",
-    "snapshots": 66,
+    "snapshots": 69,
     "conf_open": 0.654,
-    "conf_close": 0.797,
+    "conf_close": 0.898,
     "conf_max": 1.07,
     "conf_min": 0.654,
-    "delta_close_open": 0.143,
+    "delta_close_open": 0.244,
     "intraday_range": 0.416,
-    "pick_changes": 8
+    "pick_changes": 9
   }
 ]
