@@ -82,19 +82,19 @@
       "loser": "Houston Astros",
       "pick": "OVER",
       "line": 9.64,
-      "confidence": 0.68,
+      "confidence": 0.83,
       "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-08",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.68,
-      "conf_close": 0.68,
+      "conf_close": 0.83,
       "conf_max": 0.83,
       "conf_min": 0.68,
-      "delta_close_open": 0.0,
+      "delta_close_open": 0.15,
       "intraday_range": 0.15,
       "pick_changes": 2
     },
