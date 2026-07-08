@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Washington Nationals",
-      "loser": "Houston Astros",
+      "winner": "New York Mets",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 9.64,
-      "confidence": 0.68,
-      "odds": -115,
+      "line": 9.0,
+      "confidence": 0.712,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-08",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.68,
-      "conf_close": 0.68,
+      "conf_close": 0.712,
       "conf_max": 0.83,
       "conf_min": 0.68,
-      "delta_close_open": 0.0,
+      "delta_close_open": 0.032,
       "intraday_range": 0.15,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 36,
