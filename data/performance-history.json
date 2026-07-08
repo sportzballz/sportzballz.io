@@ -81,22 +81,22 @@
       "winner": "Washington Nationals",
       "loser": "Houston Astros",
       "pick": "OVER",
-      "line": 9.05,
-      "confidence": 0.68,
-      "odds": -117,
+      "line": 9.59,
+      "confidence": 0.83,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-08",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.68,
-      "conf_close": 0.68,
-      "conf_max": 0.68,
+      "conf_close": 0.83,
+      "conf_max": 0.83,
       "conf_min": 0.68,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.15,
+      "intraday_range": 0.15,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 36,
@@ -158,9 +158,9 @@
     "win_rate": 62.5,
     "plus_money_total": 1,
     "plus_money_decided": 1,
-    "plus_money_wins": 1,
-    "plus_money_losses": 0,
-    "plus_money_win_rate": 100.0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 1,
+    "plus_money_win_rate": 0.0,
     "segments": {
       "all_picks": {
         "total": 16,
@@ -201,8 +201,8 @@
       "plus_money_picks": {
         "total": 1,
         "decided": 1,
-        "wins": 1,
-        "losses": 0,
+        "wins": 0,
+        "losses": 1,
         "profit": 122.0,
         "roi_pct": 122.0,
         "stake_per_pick": 100.0
@@ -210,8 +210,8 @@
       "run_total_picks": {
         "total": 16,
         "decided": 15,
-        "wins": 8,
-        "losses": 7,
+        "wins": 9,
+        "losses": 6,
         "profit": 45.07,
         "roi_pct": 3.0,
         "stake_per_pick": 100.0
