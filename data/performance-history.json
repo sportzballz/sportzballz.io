@@ -81,22 +81,22 @@
       "winner": "Kansas City Royals",
       "loser": "New York Mets",
       "pick": "OVER",
-      "line": 9.05,
+      "line": 9.09,
       "confidence": 0.98,
-      "odds": -117,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-09",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.679,
       "conf_close": 0.98,
       "conf_max": 0.98,
       "conf_min": 0.529,
       "delta_close_open": 0.301,
       "intraday_range": 0.451,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 36,
