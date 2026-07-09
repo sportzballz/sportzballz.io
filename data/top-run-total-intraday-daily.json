@@ -430,13 +430,13 @@
   },
   {
     "date": "2026-07-09",
-    "snapshots": 9,
+    "snapshots": 12,
     "conf_open": 0.679,
-    "conf_close": 0.679,
+    "conf_close": 0.529,
     "conf_max": 0.679,
-    "conf_min": 0.679,
-    "delta_close_open": 0.0,
-    "intraday_range": 0.0,
+    "conf_min": 0.529,
+    "delta_close_open": -0.15,
+    "intraday_range": 0.15,
     "pick_changes": 0
   }
 ]
