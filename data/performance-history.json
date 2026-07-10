@@ -81,22 +81,22 @@
       "winner": "Minnesota Twins",
       "loser": "Los Angeles Angels",
       "pick": "OVER",
-      "line": 9.18,
-      "confidence": 0.891,
-      "odds": -116,
+      "line": 9.5,
+      "confidence": 0.741,
+      "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-10",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.741,
-      "conf_close": 0.891,
+      "conf_close": 0.741,
       "conf_max": 0.891,
       "conf_min": 0.741,
-      "delta_close_open": 0.15,
+      "delta_close_open": 0.0,
       "intraday_range": 0.15,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 37,
