@@ -441,13 +441,13 @@
   },
   {
     "date": "2026-07-10",
-    "snapshots": 3,
+    "snapshots": 6,
     "conf_open": 0.741,
-    "conf_close": 0.741,
-    "conf_max": 0.741,
+    "conf_close": 0.891,
+    "conf_max": 0.891,
     "conf_min": 0.741,
-    "delta_close_open": 0.0,
-    "intraday_range": 0.0,
-    "pick_changes": 0
+    "delta_close_open": 0.15,
+    "intraday_range": 0.15,
+    "pick_changes": 1
   }
 ]
