@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-07-10",
-      "snapshots": 49,
+      "snapshots": 52,
       "conf_open": 0.741,
       "conf_close": 0.888,
       "conf_max": 0.891,
