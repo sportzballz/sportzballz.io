@@ -2,78 +2,78 @@
   {
     "date": "2026-07-10",
     "total_picks": 14,
-    "decided": 7,
-    "wins": 4,
-    "losses": 3,
-    "pending": 7,
-    "win_rate": 57.1,
+    "decided": 9,
+    "wins": 5,
+    "losses": 4,
+    "pending": 5,
+    "win_rate": 55.6,
     "plus_money_total": 1,
-    "plus_money_decided": 0,
-    "plus_money_wins": 0,
+    "plus_money_decided": 1,
+    "plus_money_wins": 1,
     "plus_money_losses": 0,
-    "plus_money_win_rate": null,
+    "plus_money_win_rate": 100.0,
     "segments": {
       "all_picks": {
         "total": 14,
-        "decided": 7,
-        "wins": 4,
-        "losses": 3,
-        "profit": -300.0,
-        "roi_pct": -42.86,
+        "decided": 9,
+        "wins": 5,
+        "losses": 4,
+        "profit": -278.0,
+        "roi_pct": -30.89,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
-        "stake_per_pick": 100.0
-      },
-      "top3_confidence_picks": {
-        "total": 3,
-        "decided": 2,
-        "wins": 2,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
         "profit": 0.0,
         "roi_pct": 0.0,
         "stake_per_pick": 100.0
       },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 3,
+        "wins": 2,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -33.33,
+        "stake_per_pick": 100.0
+      },
       "plus_money_picks": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 122.0,
+        "roi_pct": 122.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 7,
-        "wins": 3,
-        "losses": 4,
-        "profit": -117.85,
-        "roi_pct": -16.84,
+        "decided": 9,
+        "wins": 4,
+        "losses": 5,
+        "profit": -126.1,
+        "roi_pct": -14.01,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 91.74,
+        "roi_pct": 91.74,
         "stake_per_pick": 100.0
       }
     },
@@ -84,12 +84,12 @@
       "line": 7.5,
       "confidence": 0.846,
       "odds": -109,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "WIN",
+      "profit": 91.74
     },
     "intraday_top_run_total": {
       "date": "2026-07-10",
-      "snapshots": 65,
+      "snapshots": 67,
       "conf_open": 0.741,
       "conf_close": 0.846,
       "conf_max": 0.891,
@@ -99,7 +99,7 @@
       "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 37,
+      "sample_days": 38,
       "delta_buckets": {
         "flat": {
           "days": 9,
@@ -116,11 +116,11 @@
           "win_rate_pct": 100.0
         },
         "up_big": {
-          "days": 24,
-          "wins": 7,
+          "days": 25,
+          "wins": 8,
           "losses": 17,
-          "profit": -1074.37,
-          "win_rate_pct": 29.2
+          "profit": -982.63,
+          "win_rate_pct": 32.0
         }
       },
       "range_buckets": {
@@ -132,11 +132,11 @@
           "win_rate_pct": 33.3
         },
         "high_range": {
-          "days": 32,
-          "wins": 12,
+          "days": 33,
+          "wins": 13,
           "losses": 20,
-          "profit": -918.68,
-          "win_rate_pct": 37.5
+          "profit": -826.94,
+          "win_rate_pct": 39.4
         },
         "medium_range": {
           "days": 2,
