@@ -452,12 +452,12 @@
   },
   {
     "date": "2026-07-11",
-    "snapshots": 12,
+    "snapshots": 15,
     "conf_open": 0.801,
-    "conf_close": 1.101,
+    "conf_close": 0.951,
     "conf_max": 1.101,
     "conf_min": 0.801,
-    "delta_close_open": 0.3,
+    "delta_close_open": 0.15,
     "intraday_range": 0.3,
     "pick_changes": 1
   }
