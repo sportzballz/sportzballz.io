@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": 100.0,
-    "plus_money_total": 2,
+    "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -18,8 +18,8 @@
         "decided": 1,
         "wins": 1,
         "losses": 0,
-        "profit": 70.42,
-        "roi_pct": 70.42,
+        "profit": 69.93,
+        "roi_pct": 69.93,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 1,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-07-11",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.801,
       "conf_close": 1.191,
       "conf_max": 1.191,
