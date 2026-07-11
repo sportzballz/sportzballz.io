@@ -2,78 +2,78 @@
   {
     "date": "2026-07-11",
     "total_picks": 16,
-    "decided": 4,
-    "wins": 3,
-    "losses": 1,
-    "pending": 12,
-    "win_rate": 75.0,
+    "decided": 9,
+    "wins": 5,
+    "losses": 4,
+    "pending": 7,
+    "win_rate": 55.6,
     "plus_money_total": 1,
-    "plus_money_decided": 0,
-    "plus_money_wins": 0,
+    "plus_money_decided": 1,
+    "plus_money_wins": 1,
     "plus_money_losses": 0,
-    "plus_money_win_rate": null,
+    "plus_money_win_rate": 100.0,
     "segments": {
       "all_picks": {
         "total": 16,
-        "decided": 4,
-        "wins": 3,
-        "losses": 1,
-        "profit": -100.0,
-        "roi_pct": -25.0,
+        "decided": 9,
+        "wins": 5,
+        "losses": 4,
+        "profit": -228.98,
+        "roi_pct": -25.44,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 51.02,
+        "roi_pct": 51.02,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
-        "wins": 1,
-        "losses": 0,
-        "profit": 0.0,
-        "roi_pct": 0.0,
+        "decided": 3,
+        "wins": 2,
+        "losses": 1,
+        "profit": -48.98,
+        "roi_pct": -16.33,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 120.0,
+        "roi_pct": 120.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 16,
-        "decided": 4,
-        "wins": 1,
-        "losses": 3,
-        "profit": -208.26,
-        "roi_pct": -52.06,
+        "decided": 9,
+        "wins": 3,
+        "losses": 6,
+        "profit": -315.88,
+        "roi_pct": -35.1,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       }
     },
@@ -84,12 +84,12 @@
       "line": 9.0,
       "confidence": 1.191,
       "odds": -108,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "LOSS",
+      "profit": -100.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-11",
-      "snapshots": 57,
+      "snapshots": 60,
       "conf_open": 0.801,
       "conf_close": 1.191,
       "conf_max": 1.191,
@@ -99,7 +99,7 @@
       "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 38,
+      "sample_days": 39,
       "delta_buckets": {
         "flat": {
           "days": 9,
@@ -116,11 +116,11 @@
           "win_rate_pct": 100.0
         },
         "up_big": {
-          "days": 25,
+          "days": 26,
           "wins": 8,
-          "losses": 17,
-          "profit": -982.63,
-          "win_rate_pct": 32.0
+          "losses": 18,
+          "profit": -1082.63,
+          "win_rate_pct": 30.8
         }
       },
       "range_buckets": {
@@ -132,11 +132,11 @@
           "win_rate_pct": 33.3
         },
         "high_range": {
-          "days": 33,
+          "days": 34,
           "wins": 13,
-          "losses": 20,
-          "profit": -826.94,
-          "win_rate_pct": 39.4
+          "losses": 21,
+          "profit": -926.94,
+          "win_rate_pct": 38.2
         },
         "medium_range": {
           "days": 2,
