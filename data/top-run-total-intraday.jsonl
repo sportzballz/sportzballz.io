@@ -3098,3 +3098,6 @@
 {"timestamp_et": "2026-07-11 22:57:19", "date": "2026-07-11", "winner": "New York Yankees", "loser": "Washington Nationals", "pick": "OVER", "line": 9.0, "confidence": 1.191, "odds": -108, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-07-11 23:57:59", "date": "2026-07-11", "winner": "New York Yankees", "loser": "Washington Nationals", "pick": "OVER", "line": 9.0, "confidence": 1.191, "odds": -108, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-07-11 23:58:28", "date": "2026-07-11", "winner": "New York Yankees", "loser": "Washington Nationals", "pick": "OVER", "line": 9.0, "confidence": 1.191, "odds": -108, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-07-12 05:03:42", "date": "2026-07-12", "winner": "Texas Rangers", "loser": "Houston Astros", "pick": "OVER", "line": 8.5, "confidence": 0.534, "odds": -108, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-07-12 05:03:43", "date": "2026-07-12", "winner": "Texas Rangers", "loser": "Houston Astros", "pick": "OVER", "line": 8.5, "confidence": 0.534, "odds": -108, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-07-12 05:04:10", "date": "2026-07-12", "winner": "Texas Rangers", "loser": "Houston Astros", "pick": "OVER", "line": 8.5, "confidence": 0.534, "odds": -108, "result": "PENDING", "profit": 0.0}
