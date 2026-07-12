@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Boston Red Sox",
-      "loser": "New York Mets",
+      "winner": "Texas Rangers",
+      "loser": "Houston Astros",
       "pick": "OVER",
-      "line": 8.35,
-      "confidence": 0.579,
-      "odds": -104,
+      "line": 8.95,
+      "confidence": 0.684,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-12",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.534,
-      "conf_close": 0.579,
-      "conf_max": 0.579,
+      "conf_close": 0.684,
+      "conf_max": 0.684,
       "conf_min": 0.534,
-      "delta_close_open": 0.045,
-      "intraday_range": 0.045,
-      "pick_changes": 1
+      "delta_close_open": 0.15,
+      "intraday_range": 0.15,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 39,
@@ -156,11 +156,11 @@
     "losses": 8,
     "pending": 0,
     "win_rate": 50.0,
-    "plus_money_total": 0,
-    "plus_money_decided": 0,
-    "plus_money_wins": 0,
+    "plus_money_total": 1,
+    "plus_money_decided": 1,
+    "plus_money_wins": 1,
     "plus_money_losses": 0,
-    "plus_money_win_rate": null,
+    "plus_money_win_rate": 100.0,
     "segments": {
       "all_picks": {
         "total": 16,
@@ -199,9 +199,9 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
-        "decided": 0,
-        "wins": 0,
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
         "profit": 0,
         "roi_pct": null,
@@ -210,8 +210,8 @@
       "run_total_picks": {
         "total": 16,
         "decided": 16,
-        "wins": 7,
-        "losses": 9,
+        "wins": 8,
+        "losses": 8,
         "profit": -257.87,
         "roi_pct": -16.12,
         "stake_per_pick": 100.0
