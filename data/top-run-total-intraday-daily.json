@@ -463,12 +463,12 @@
   },
   {
     "date": "2026-07-12",
-    "snapshots": 15,
+    "snapshots": 18,
     "conf_open": 0.534,
-    "conf_close": 0.684,
+    "conf_close": 0.682,
     "conf_max": 0.684,
     "conf_min": 0.534,
-    "delta_close_open": 0.15,
+    "delta_close_open": 0.148,
     "intraday_range": 0.15,
     "pick_changes": 3
   }
