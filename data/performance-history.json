@@ -81,22 +81,22 @@
       "winner": "Texas Rangers",
       "loser": "Houston Astros",
       "pick": "OVER",
-      "line": 8.95,
+      "line": 9.0,
       "confidence": 0.684,
-      "odds": -105,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-12",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.534,
       "conf_close": 0.684,
       "conf_max": 0.684,
       "conf_min": 0.534,
       "delta_close_open": 0.15,
       "intraday_range": 0.15,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 39,
