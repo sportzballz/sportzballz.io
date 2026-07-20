@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Atlanta Braves",
-      "loser": "San Diego Padres",
+      "winner": "Boston Red Sox",
+      "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 9.36,
-      "confidence": 0.832,
-      "odds": -104,
+      "line": 8.64,
+      "confidence": 0.948,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-20",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.915,
-      "conf_close": 0.832,
+      "conf_close": 0.948,
       "conf_max": 0.948,
       "conf_min": 0.765,
-      "delta_close_open": -0.083,
+      "delta_close_open": 0.033,
       "intraday_range": 0.183,
-      "pick_changes": 8
+      "pick_changes": 9
     },
     "intraday_top_run_total_impact": {
       "sample_days": 44,
