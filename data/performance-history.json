@@ -1,20 +1,20 @@
 [
   {
-    "date": "2026-07-16",
-    "total_picks": 1,
+    "date": "2026-07-20",
+    "total_picks": 15,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 1,
+    "pending": 15,
     "win_rate": null,
-    "plus_money_total": 0,
+    "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 1,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -41,7 +41,7 @@
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
-        "total": 1,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 2,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 1,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,28 +78,475 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Mets",
-      "loser": "Philadelphia Phillies",
+      "winner": "Atlanta Braves",
+      "loser": "San Diego Padres",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.341,
-      "odds": -110,
+      "line": 9.42,
+      "confidence": 0.772,
+      "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
-      "date": "2026-07-16",
-      "snapshots": 6,
-      "conf_open": 0.341,
-      "conf_close": 0.341,
-      "conf_max": 0.341,
-      "conf_min": 0.341,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "date": "2026-07-20",
+      "snapshots": 39,
+      "conf_open": 0.915,
+      "conf_close": 0.772,
+      "conf_max": 0.915,
+      "conf_min": 0.765,
+      "delta_close_open": -0.143,
+      "intraday_range": 0.15,
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 40,
+      "sample_days": 44,
+      "delta_buckets": {
+        "flat": {
+          "days": 9,
+          "wins": 3,
+          "losses": 6,
+          "profit": -329.63,
+          "win_rate_pct": 33.3
+        },
+        "down_big": {
+          "days": 5,
+          "wins": 4,
+          "losses": 1,
+          "profit": 264.78,
+          "win_rate_pct": 80.0
+        },
+        "up_big": {
+          "days": 30,
+          "wins": 9,
+          "losses": 21,
+          "profit": -1291.72,
+          "win_rate_pct": 30.0
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 3,
+          "wins": 1,
+          "losses": 2,
+          "profit": -108.26,
+          "win_rate_pct": 33.3
+        },
+        "high_range": {
+          "days": 39,
+          "wins": 14,
+          "losses": 25,
+          "profit": -1236.03,
+          "win_rate_pct": 35.9
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-07-19",
+    "total_picks": 16,
+    "decided": 16,
+    "wins": 10,
+    "losses": 6,
+    "pending": 0,
+    "win_rate": 62.5,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 16,
+        "decided": 16,
+        "wins": 10,
+        "losses": 6,
+        "profit": -12.2,
+        "roi_pct": -0.76,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 69.93,
+        "roi_pct": 69.93,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 3,
+        "wins": 1,
+        "losses": 2,
+        "profit": -132.89,
+        "roi_pct": -44.3,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 0,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 6.0,
+        "roi_pct": 3.0,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 15,
+        "decided": 15,
+        "wins": 4,
+        "losses": 11,
+        "profit": -540.25,
+        "roi_pct": -36.02,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Washington Nationals",
+      "loser": "Athletics",
+      "pick": "OVER",
+      "line": 10.5,
+      "confidence": 0.892,
+      "odds": -116,
+      "result": "LOSS",
+      "profit": -100.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-07-19",
+      "snapshots": 69,
+      "conf_open": 0.767,
+      "conf_close": 0.892,
+      "conf_max": 0.892,
+      "conf_min": 0.742,
+      "delta_close_open": 0.125,
+      "intraday_range": 0.15,
+      "pick_changes": 5
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 44,
+      "delta_buckets": {
+        "flat": {
+          "days": 9,
+          "wins": 3,
+          "losses": 6,
+          "profit": -329.63,
+          "win_rate_pct": 33.3
+        },
+        "down_big": {
+          "days": 5,
+          "wins": 4,
+          "losses": 1,
+          "profit": 264.78,
+          "win_rate_pct": 80.0
+        },
+        "up_big": {
+          "days": 30,
+          "wins": 9,
+          "losses": 21,
+          "profit": -1291.72,
+          "win_rate_pct": 30.0
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 3,
+          "wins": 1,
+          "losses": 2,
+          "profit": -108.26,
+          "win_rate_pct": 33.3
+        },
+        "high_range": {
+          "days": 39,
+          "wins": 14,
+          "losses": 25,
+          "profit": -1236.03,
+          "win_rate_pct": 35.9
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-07-18",
+    "total_picks": 15,
+    "decided": 15,
+    "wins": 10,
+    "losses": 5,
+    "pending": 0,
+    "win_rate": 66.7,
+    "plus_money_total": 2,
+    "plus_money_decided": 2,
+    "plus_money_wins": 0,
+    "plus_money_losses": 2,
+    "plus_money_win_rate": 0.0,
+    "segments": {
+      "all_picks": {
+        "total": 15,
+        "decided": 15,
+        "wins": 10,
+        "losses": 5,
+        "profit": -600.0,
+        "roi_pct": -40.0,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 0.0,
+        "roi_pct": 0.0,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 3,
+        "wins": 2,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -33.33,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 2,
+        "decided": 2,
+        "wins": 0,
+        "losses": 2,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 15,
+        "decided": 15,
+        "wins": 7,
+        "losses": 8,
+        "profit": -169.13,
+        "roi_pct": -11.28,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Philadelphia Phillies",
+      "loser": "New York Mets",
+      "pick": "OVER",
+      "line": 8.5,
+      "confidence": 0.753,
+      "odds": -116,
+      "result": "LOSS",
+      "profit": -100.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-07-18",
+      "snapshots": 76,
+      "conf_open": 0.819,
+      "conf_close": 0.753,
+      "conf_max": 1.007,
+      "conf_min": 0.753,
+      "delta_close_open": -0.066,
+      "intraday_range": 0.254,
+      "pick_changes": 6
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 43,
+      "delta_buckets": {
+        "flat": {
+          "days": 9,
+          "wins": 3,
+          "losses": 6,
+          "profit": -329.63,
+          "win_rate_pct": 33.3
+        },
+        "down_big": {
+          "days": 5,
+          "wins": 4,
+          "losses": 1,
+          "profit": 264.78,
+          "win_rate_pct": 80.0
+        },
+        "up_big": {
+          "days": 29,
+          "wins": 9,
+          "losses": 20,
+          "profit": -1191.72,
+          "win_rate_pct": 31.0
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 3,
+          "wins": 1,
+          "losses": 2,
+          "profit": -108.26,
+          "win_rate_pct": 33.3
+        },
+        "high_range": {
+          "days": 38,
+          "wins": 14,
+          "losses": 24,
+          "profit": -1136.03,
+          "win_rate_pct": 36.8
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-07-17",
+    "total_picks": 10,
+    "decided": 10,
+    "wins": 6,
+    "losses": 4,
+    "pending": 0,
+    "win_rate": 60.0,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 10,
+        "decided": 10,
+        "wins": 6,
+        "losses": 4,
+        "profit": -400.0,
+        "roi_pct": -40.0,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 2,
+        "wins": 2,
+        "losses": 0,
+        "profit": 0.0,
+        "roi_pct": 0.0,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 0,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 10,
+        "decided": 10,
+        "wins": 2,
+        "losses": 8,
+        "profit": -424.72,
+        "roi_pct": -42.47,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Colorado Rockies",
+      "loser": "Cincinnati Reds",
+      "pick": "OVER",
+      "line": 12.5,
+      "confidence": 0.951,
+      "odds": -114,
+      "result": "LOSS",
+      "profit": -100.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-07-17",
+      "snapshots": 75,
+      "conf_open": 0.776,
+      "conf_close": 0.951,
+      "conf_max": 0.951,
+      "conf_min": 0.77,
+      "delta_close_open": 0.175,
+      "intraday_range": 0.181,
+      "pick_changes": 8
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 42,
       "delta_buckets": {
         "flat": {
           "days": 9,
@@ -116,11 +563,11 @@
           "win_rate_pct": 100.0
         },
         "up_big": {
-          "days": 27,
+          "days": 29,
           "wins": 9,
-          "losses": 18,
-          "profit": -991.72,
-          "win_rate_pct": 33.3
+          "losses": 20,
+          "profit": -1191.72,
+          "win_rate_pct": 31.0
         }
       },
       "range_buckets": {
@@ -132,11 +579,160 @@
           "win_rate_pct": 33.3
         },
         "high_range": {
-          "days": 35,
+          "days": 37,
           "wins": 14,
-          "losses": 21,
-          "profit": -836.03,
-          "win_rate_pct": 40.0
+          "losses": 23,
+          "profit": -1036.03,
+          "win_rate_pct": 37.8
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-07-16",
+    "total_picks": 1,
+    "decided": 1,
+    "wins": 1,
+    "losses": 0,
+    "pending": 0,
+    "win_rate": 100.0,
+    "plus_money_total": 1,
+    "plus_money_decided": 1,
+    "plus_money_wins": 1,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": 100.0,
+    "segments": {
+      "all_picks": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 111.0,
+        "roi_pct": 111.0,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 111.0,
+        "roi_pct": 111.0,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 111.0,
+        "roi_pct": 111.0,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 1,
+        "decided": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 111.0,
+        "roi_pct": 111.0,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "New York Mets",
+      "loser": "Philadelphia Phillies",
+      "pick": "OVER",
+      "line": 9.5,
+      "confidence": 0.791,
+      "odds": -113,
+      "result": "LOSS",
+      "profit": -100.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-07-16",
+      "snapshots": 68,
+      "conf_open": 0.341,
+      "conf_close": 0.791,
+      "conf_max": 0.941,
+      "conf_min": 0.341,
+      "delta_close_open": 0.45,
+      "intraday_range": 0.6,
+      "pick_changes": 0
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 41,
+      "delta_buckets": {
+        "flat": {
+          "days": 9,
+          "wins": 3,
+          "losses": 6,
+          "profit": -329.63,
+          "win_rate_pct": 33.3
+        },
+        "down_big": {
+          "days": 4,
+          "wins": 4,
+          "losses": 0,
+          "profit": 364.78,
+          "win_rate_pct": 100.0
+        },
+        "up_big": {
+          "days": 28,
+          "wins": 9,
+          "losses": 19,
+          "profit": -1091.72,
+          "win_rate_pct": 32.1
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 3,
+          "wins": 1,
+          "losses": 2,
+          "profit": -108.26,
+          "win_rate_pct": 33.3
+        },
+        "high_range": {
+          "days": 36,
+          "wins": 14,
+          "losses": 22,
+          "profit": -936.03,
+          "win_rate_pct": 38.9
         },
         "medium_range": {
           "days": 2,
