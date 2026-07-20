@@ -81,22 +81,22 @@
       "winner": "Boston Red Sox",
       "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 8.64,
+      "line": 8.59,
       "confidence": 0.948,
-      "odds": -117,
+      "odds": -119,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-20",
-      "snapshots": 54,
+      "snapshots": 57,
       "conf_open": 0.915,
       "conf_close": 0.948,
       "conf_max": 0.948,
       "conf_min": 0.765,
       "delta_close_open": 0.033,
       "intraday_range": 0.183,
-      "pick_changes": 9
+      "pick_changes": 10
     },
     "intraday_top_run_total_impact": {
       "sample_days": 44,
