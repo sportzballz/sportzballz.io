@@ -3529,3 +3529,6 @@
 {"timestamp_et": "2026-07-20 22:59:12", "date": "2026-07-20", "winner": "Boston Red Sox", "loser": "Baltimore Orioles", "pick": "OVER", "line": 8.59, "confidence": 0.948, "odds": -119, "result": "WIN", "profit": 84.03}
 {"timestamp_et": "2026-07-20 23:56:14", "date": "2026-07-20", "winner": "Boston Red Sox", "loser": "Baltimore Orioles", "pick": "OVER", "line": 8.59, "confidence": 0.948, "odds": -119, "result": "WIN", "profit": 84.03}
 {"timestamp_et": "2026-07-20 23:56:42", "date": "2026-07-20", "winner": "Boston Red Sox", "loser": "Baltimore Orioles", "pick": "OVER", "line": 8.59, "confidence": 0.948, "odds": -119, "result": "WIN", "profit": 84.03}
+{"timestamp_et": "2026-07-21 05:00:57", "date": "2026-07-21", "winner": "Los Angeles Dodgers", "loser": "Philadelphia Phillies", "pick": "OVER", "line": 8.5, "confidence": 0.758, "odds": -111, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-07-21 05:00:58", "date": "2026-07-21", "winner": "Los Angeles Dodgers", "loser": "Philadelphia Phillies", "pick": "OVER", "line": 8.5, "confidence": 0.758, "odds": -111, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-07-21 05:01:25", "date": "2026-07-21", "winner": "Los Angeles Dodgers", "loser": "Philadelphia Phillies", "pick": "OVER", "line": 8.5, "confidence": 0.758, "odds": -111, "result": "PENDING", "profit": 0.0}
