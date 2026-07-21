@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 14,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Los Angeles Dodgers",
+      "winner": "Boston Red Sox",
+      "loser": "Baltimore Orioles",
       "pick": "OVER",
-      "line": 9.81,
-      "confidence": 0.646,
-      "odds": -111,
+      "line": 9.5,
+      "confidence": 0.769,
+      "odds": -109,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-21",
-      "snapshots": 55,
+      "snapshots": 58,
       "conf_open": 0.758,
-      "conf_close": 0.646,
+      "conf_close": 0.769,
       "conf_max": 1.096,
       "conf_min": 0.574,
-      "delta_close_open": -0.112,
+      "delta_close_open": 0.011,
       "intraday_range": 0.522,
-      "pick_changes": 9
+      "pick_changes": 10
     },
     "intraday_top_run_total_impact": {
       "sample_days": 45,
