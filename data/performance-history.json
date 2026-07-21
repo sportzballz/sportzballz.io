@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Miami Marlins",
-      "loser": "Houston Astros",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Philadelphia Phillies",
       "pick": "OVER",
-      "line": 9.09,
-      "confidence": 0.874,
-      "odds": -116,
+      "line": 8.77,
+      "confidence": 0.908,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-21",
-      "snapshots": 25,
+      "snapshots": 28,
       "conf_open": 0.758,
-      "conf_close": 0.874,
+      "conf_close": 0.908,
       "conf_max": 1.058,
       "conf_min": 0.758,
-      "delta_close_open": 0.116,
+      "delta_close_open": 0.15,
       "intraday_range": 0.3,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 45,
