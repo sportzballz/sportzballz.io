@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Philadelphia Phillies",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.758,
-      "odds": -111,
+      "line": 8.82,
+      "confidence": 0.908,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-21",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.758,
-      "conf_close": 0.758,
-      "conf_max": 0.758,
+      "conf_close": 0.908,
+      "conf_max": 0.908,
       "conf_min": 0.758,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.15,
+      "intraday_range": 0.15,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 45,
