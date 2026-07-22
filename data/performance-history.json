@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Seattle Mariners",
-      "loser": "Cincinnati Reds",
-      "pick": "UNDER",
-      "line": 7.86,
-      "confidence": 0.78,
-      "odds": -102,
+      "winner": "Detroit Tigers",
+      "loser": "Chicago Cubs",
+      "pick": "OVER",
+      "line": 8.0,
+      "confidence": 0.737,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-22",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.78,
-      "conf_close": 0.78,
+      "conf_close": 0.737,
       "conf_max": 0.78,
-      "conf_min": 0.78,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.737,
+      "delta_close_open": -0.043,
+      "intraday_range": 0.043,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 45,
