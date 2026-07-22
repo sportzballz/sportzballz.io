@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Detroit Tigers",
-      "loser": "Chicago Cubs",
+      "winner": "Colorado Rockies",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 8.0,
-      "confidence": 0.737,
-      "odds": -108,
+      "line": 11.5,
+      "confidence": 0.823,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-22",
-      "snapshots": 21,
+      "snapshots": 24,
       "conf_open": 0.78,
-      "conf_close": 0.737,
-      "conf_max": 0.78,
+      "conf_close": 0.823,
+      "conf_max": 0.823,
       "conf_min": 0.737,
-      "delta_close_open": -0.043,
-      "intraday_range": 0.043,
-      "pick_changes": 1
+      "delta_close_open": 0.043,
+      "intraday_range": 0.086,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 45,
