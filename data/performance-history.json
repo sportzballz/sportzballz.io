@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "St. Louis Cardinals",
-      "loser": "Cincinnati Reds",
+      "winner": "Chicago White Sox",
+      "loser": "Houston Astros",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.5,
-      "odds": -103,
+      "line": 8.73,
+      "confidence": 0.442,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-24",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.593,
-      "conf_close": 0.5,
+      "conf_close": 0.442,
       "conf_max": 0.593,
-      "conf_min": 0.5,
-      "delta_close_open": -0.093,
-      "intraday_range": 0.093,
-      "pick_changes": 1
+      "conf_min": 0.442,
+      "delta_close_open": -0.151,
+      "intraday_range": 0.151,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 47,
