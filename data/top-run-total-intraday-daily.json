@@ -573,13 +573,13 @@
   },
   {
     "date": "2026-07-25",
-    "snapshots": 30,
+    "snapshots": 33,
     "conf_open": 0.497,
     "conf_close": 0.65,
     "conf_max": 0.65,
     "conf_min": 0.474,
     "delta_close_open": 0.153,
     "intraday_range": 0.176,
-    "pick_changes": 6
+    "pick_changes": 7
   }
 ]
