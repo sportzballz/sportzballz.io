@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Angels",
-      "loser": "San Francisco Giants",
-      "pick": "OVER",
-      "line": 8.91,
-      "confidence": 0.65,
-      "odds": -115,
+      "winner": "Seattle Mariners",
+      "loser": "Texas Rangers",
+      "pick": "UNDER",
+      "line": 7.2,
+      "confidence": 0.624,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-25",
-      "snapshots": 33,
+      "snapshots": 36,
       "conf_open": 0.497,
-      "conf_close": 0.65,
+      "conf_close": 0.624,
       "conf_max": 0.65,
       "conf_min": 0.474,
-      "delta_close_open": 0.153,
+      "delta_close_open": 0.127,
       "intraday_range": 0.176,
-      "pick_changes": 7
+      "pick_changes": 8
     },
     "intraday_top_run_total_impact": {
       "sample_days": 48,
