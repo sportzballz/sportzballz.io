@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Detroit Tigers",
-      "loser": "Kansas City Royals",
+      "winner": "Seattle Mariners",
+      "loser": "Texas Rangers",
       "pick": "UNDER",
-      "line": 8.05,
-      "confidence": 0.525,
-      "odds": -106,
+      "line": 7.5,
+      "confidence": 0.474,
+      "odds": -118,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-25",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.497,
-      "conf_close": 0.525,
+      "conf_close": 0.474,
       "conf_max": 0.529,
-      "conf_min": 0.497,
-      "delta_close_open": 0.028,
-      "intraday_range": 0.032,
-      "pick_changes": 3
+      "conf_min": 0.474,
+      "delta_close_open": -0.023,
+      "intraday_range": 0.055,
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 48,
