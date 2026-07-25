@@ -3824,3 +3824,6 @@
 {"timestamp_et": "2026-07-24 22:55:46", "date": "2026-07-24", "winner": "New York Yankees", "loser": "Philadelphia Phillies", "pick": "OVER", "line": 8.5, "confidence": 0.775, "odds": -117, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-07-24 23:57:19", "date": "2026-07-24", "winner": "New York Yankees", "loser": "Philadelphia Phillies", "pick": "OVER", "line": 8.5, "confidence": 0.775, "odds": -117, "result": "LOSS", "profit": -100.0}
 {"timestamp_et": "2026-07-24 23:57:48", "date": "2026-07-24", "winner": "New York Yankees", "loser": "Philadelphia Phillies", "pick": "OVER", "line": 8.5, "confidence": 0.775, "odds": -117, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-07-25 04:59:45", "date": "2026-07-25", "winner": "Baltimore Orioles", "loser": "Atlanta Braves", "pick": "OVER", "line": 9.0, "confidence": 0.497, "odds": -109, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-07-25 04:59:46", "date": "2026-07-25", "winner": "Baltimore Orioles", "loser": "Atlanta Braves", "pick": "OVER", "line": 9.0, "confidence": 0.497, "odds": -109, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-07-25 05:00:15", "date": "2026-07-25", "winner": "Baltimore Orioles", "loser": "Atlanta Braves", "pick": "OVER", "line": 9.0, "confidence": 0.497, "odds": -109, "result": "PENDING", "profit": 0.0}

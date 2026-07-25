@@ -1,5 +1,154 @@
 [
   {
+    "date": "2026-07-25",
+    "total_picks": 13,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 13,
+    "win_rate": null,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 13,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 0,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 13,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Baltimore Orioles",
+      "loser": "Atlanta Braves",
+      "pick": "OVER",
+      "line": 9.0,
+      "confidence": 0.497,
+      "odds": -109,
+      "result": "PENDING",
+      "profit": 0.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-07-25",
+      "snapshots": 3,
+      "conf_open": 0.497,
+      "conf_close": 0.497,
+      "conf_max": 0.497,
+      "conf_min": 0.497,
+      "delta_close_open": 0.0,
+      "intraday_range": 0.0,
+      "pick_changes": 0
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 48,
+      "delta_buckets": {
+        "flat": {
+          "days": 10,
+          "wins": 4,
+          "losses": 6,
+          "profit": -245.6,
+          "win_rate_pct": 40.0
+        },
+        "down_big": {
+          "days": 6,
+          "wins": 5,
+          "losses": 1,
+          "profit": 356.52,
+          "win_rate_pct": 83.3
+        },
+        "up_big": {
+          "days": 32,
+          "wins": 9,
+          "losses": 23,
+          "profit": -1491.72,
+          "win_rate_pct": 28.1
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 3,
+          "wins": 1,
+          "losses": 2,
+          "profit": -108.26,
+          "win_rate_pct": 33.3
+        },
+        "high_range": {
+          "days": 43,
+          "wins": 16,
+          "losses": 27,
+          "profit": -1260.26,
+          "win_rate_pct": 37.2
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
     "date": "2026-07-24",
     "total_picks": 15,
     "decided": 14,
