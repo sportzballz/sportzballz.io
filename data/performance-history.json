@@ -81,22 +81,22 @@
       "winner": "St. Louis Cardinals",
       "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 8.57,
+      "line": 8.56,
       "confidence": 0.674,
-      "odds": -107,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-25",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.497,
       "conf_close": 0.674,
       "conf_max": 0.674,
       "conf_min": 0.474,
       "delta_close_open": 0.177,
       "intraday_range": 0.2,
-      "pick_changes": 9
+      "pick_changes": 10
     },
     "intraday_top_run_total_impact": {
       "sample_days": 48,
