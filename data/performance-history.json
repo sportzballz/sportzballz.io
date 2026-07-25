@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Pittsburgh Pirates",
-      "loser": "Chicago Cubs",
-      "pick": "OVER",
-      "line": 7.91,
-      "confidence": 0.529,
-      "odds": -107,
+      "winner": "Detroit Tigers",
+      "loser": "Kansas City Royals",
+      "pick": "UNDER",
+      "line": 8.05,
+      "confidence": 0.525,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-25",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.497,
-      "conf_close": 0.529,
+      "conf_close": 0.525,
       "conf_max": 0.529,
       "conf_min": 0.497,
-      "delta_close_open": 0.032,
+      "delta_close_open": 0.028,
       "intraday_range": 0.032,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 48,
