@@ -24,20 +24,20 @@
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 1,
+        "decided": 0,
         "wins": 0,
-        "losses": 1,
-        "profit": -100.0,
-        "roi_pct": -100.0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 1,
-        "wins": 1,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 61.35,
-        "roi_pct": 61.35,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Seattle Mariners",
-      "loser": "Texas Rangers",
-      "pick": "UNDER",
-      "line": 7.2,
-      "confidence": 0.624,
-      "odds": -111,
+      "winner": "St. Louis Cardinals",
+      "loser": "Cincinnati Reds",
+      "pick": "OVER",
+      "line": 8.57,
+      "confidence": 0.491,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-25",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.497,
-      "conf_close": 0.624,
+      "conf_close": 0.491,
       "conf_max": 0.65,
       "conf_min": 0.474,
-      "delta_close_open": 0.127,
+      "delta_close_open": -0.006,
       "intraday_range": 0.176,
-      "pick_changes": 8
+      "pick_changes": 9
     },
     "intraday_top_run_total_impact": {
       "sample_days": 48,
