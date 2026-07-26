@@ -82,20 +82,20 @@
       "loser": "San Francisco Giants",
       "pick": "OVER",
       "line": 8.5,
-      "confidence": 0.649,
+      "confidence": 0.655,
       "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-26",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.595,
-      "conf_close": 0.649,
-      "conf_max": 0.649,
+      "conf_close": 0.655,
+      "conf_max": 0.655,
       "conf_min": 0.445,
-      "delta_close_open": 0.054,
-      "intraday_range": 0.204,
+      "delta_close_open": 0.06,
+      "intraday_range": 0.21,
       "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
