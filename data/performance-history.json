@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Detroit Tigers",
-      "loser": "Kansas City Royals",
-      "pick": "UNDER",
-      "line": 9.05,
-      "confidence": 0.445,
-      "odds": -107,
+      "winner": "Los Angeles Angels",
+      "loser": "San Francisco Giants",
+      "pick": "OVER",
+      "line": 8.5,
+      "confidence": 0.498,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-26",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.595,
-      "conf_close": 0.445,
+      "conf_close": 0.498,
       "conf_max": 0.595,
       "conf_min": 0.445,
-      "delta_close_open": -0.15,
+      "delta_close_open": -0.097,
       "intraday_range": 0.15,
-      "pick_changes": 0
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 49,
