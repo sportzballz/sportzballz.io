@@ -81,22 +81,22 @@
       "winner": "Boston Red Sox",
       "loser": "Athletics",
       "pick": "OVER",
-      "line": 9.19,
+      "line": 9.22,
       "confidence": 0.651,
-      "odds": -118,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-27",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.951,
       "conf_close": 0.651,
       "conf_max": 0.951,
       "conf_min": 0.651,
       "delta_close_open": -0.3,
       "intraday_range": 0.3,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 50,
