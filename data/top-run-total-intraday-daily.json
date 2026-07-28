@@ -606,13 +606,13 @@
   },
   {
     "date": "2026-07-28",
-    "snapshots": 39,
+    "snapshots": 42,
     "conf_open": 0.577,
-    "conf_close": 0.618,
+    "conf_close": 0.647,
     "conf_max": 0.678,
     "conf_min": 0.532,
-    "delta_close_open": 0.041,
+    "delta_close_open": 0.07,
     "intraday_range": 0.146,
-    "pick_changes": 11
+    "pick_changes": 12
   }
 ]
