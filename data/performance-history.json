@@ -81,7 +81,7 @@
       "winner": "Miami Marlins",
       "loser": "Philadelphia Phillies",
       "pick": "UNDER",
-      "line": 8.09,
+      "line": 8.05,
       "confidence": 0.653,
       "odds": -105,
       "result": "PENDING",
@@ -89,14 +89,14 @@
     },
     "intraday_top_run_total": {
       "date": "2026-07-28",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.577,
       "conf_close": 0.653,
       "conf_max": 0.653,
       "conf_min": 0.577,
       "delta_close_open": 0.076,
       "intraday_range": 0.076,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 50,
