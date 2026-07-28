@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Detroit Tigers",
-      "loser": "Baltimore Orioles",
-      "pick": "OVER",
-      "line": 9.18,
-      "confidence": 0.577,
-      "odds": -110,
+      "winner": "Miami Marlins",
+      "loser": "Philadelphia Phillies",
+      "pick": "UNDER",
+      "line": 8.09,
+      "confidence": 0.653,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-28",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 0.577,
-      "conf_close": 0.577,
-      "conf_max": 0.577,
+      "conf_close": 0.653,
+      "conf_max": 0.653,
       "conf_min": 0.577,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.076,
+      "intraday_range": 0.076,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 50,
