@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-07-28",
-    "total_picks": 11,
+    "total_picks": 12,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 11,
+    "pending": 12,
     "win_rate": null,
-    "plus_money_total": 0,
+    "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 11,
+        "total": 12,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 0,
+        "total": 1,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 11,
+        "total": 12,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Miami Marlins",
-      "loser": "Philadelphia Phillies",
-      "pick": "UNDER",
-      "line": 8.0,
-      "confidence": 0.653,
-      "odds": -112,
+      "winner": "Boston Red Sox",
+      "loser": "Athletics",
+      "pick": "OVER",
+      "line": 10.21,
+      "confidence": 0.532,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-28",
-      "snapshots": 33,
+      "snapshots": 36,
       "conf_open": 0.577,
-      "conf_close": 0.653,
+      "conf_close": 0.532,
       "conf_max": 0.678,
       "conf_min": 0.532,
-      "delta_close_open": 0.076,
+      "delta_close_open": -0.045,
       "intraday_range": 0.146,
-      "pick_changes": 9
+      "pick_changes": 10
     },
     "intraday_top_run_total_impact": {
       "sample_days": 50,
