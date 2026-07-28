@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "Chicago White Sox",
+      "winner": "Washington Nationals",
+      "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 7.56,
-      "confidence": 0.736,
-      "odds": -107,
+      "line": 9.5,
+      "confidence": 0.647,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-28",
-      "snapshots": 48,
+      "snapshots": 51,
       "conf_open": 0.577,
-      "conf_close": 0.736,
+      "conf_close": 0.647,
       "conf_max": 0.768,
       "conf_min": 0.532,
-      "delta_close_open": 0.159,
+      "delta_close_open": 0.07,
       "intraday_range": 0.236,
-      "pick_changes": 13
+      "pick_changes": 14
     },
     "intraday_top_run_total_impact": {
       "sample_days": 50,
