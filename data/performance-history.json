@@ -7,11 +7,11 @@
     "losses": 1,
     "pending": 14,
     "win_rate": 0.0,
-    "plus_money_total": 2,
-    "plus_money_decided": 0,
+    "plus_money_total": 3,
+    "plus_money_decided": 1,
     "plus_money_wins": 0,
-    "plus_money_losses": 0,
-    "plus_money_win_rate": null,
+    "plus_money_losses": 1,
+    "plus_money_win_rate": 0.0,
     "segments": {
       "all_picks": {
         "total": 15,
@@ -50,12 +50,12 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
-        "decided": 0,
+        "total": 3,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
@@ -82,19 +82,19 @@
       "loser": "Chicago White Sox",
       "pick": "OVER",
       "line": 7.56,
-      "confidence": 0.768,
-      "odds": -106,
+      "confidence": 0.736,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-28",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.577,
-      "conf_close": 0.768,
+      "conf_close": 0.736,
       "conf_max": 0.768,
       "conf_min": 0.532,
-      "delta_close_open": 0.191,
+      "delta_close_open": 0.159,
       "intraday_range": 0.236,
       "pick_changes": 13
     },
