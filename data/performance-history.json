@@ -2,11 +2,11 @@
   {
     "date": "2026-07-29",
     "total_picks": 16,
-    "decided": 0,
+    "decided": 2,
     "wins": 0,
-    "losses": 0,
-    "pending": 16,
-    "win_rate": null,
+    "losses": 2,
+    "pending": 14,
+    "win_rate": 0.0,
     "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 16,
-        "decided": 0,
+        "decided": 2,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 2,
+        "profit": -200.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 16,
-        "decided": 0,
+        "decided": 2,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 2,
+        "profit": -200.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Los Angeles Dodgers",
-      "loser": "Seattle Mariners",
+      "winner": "Boston Red Sox",
+      "loser": "Athletics",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.795,
-      "odds": -110,
+      "line": 10.5,
+      "confidence": 0.681,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-29",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.624,
-      "conf_close": 0.795,
+      "conf_close": 0.681,
       "conf_max": 0.795,
       "conf_min": 0.624,
-      "delta_close_open": 0.171,
+      "delta_close_open": 0.057,
       "intraday_range": 0.171,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 51,
