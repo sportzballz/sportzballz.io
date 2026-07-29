@@ -83,13 +83,13 @@
       "pick": "OVER",
       "line": 10.5,
       "confidence": 0.681,
-      "odds": -112,
+      "odds": -110,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-29",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.624,
       "conf_close": 0.681,
       "conf_max": 0.795,
