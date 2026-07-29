@@ -2,23 +2,23 @@
   {
     "date": "2026-07-29",
     "total_picks": 16,
-    "decided": 5,
+    "decided": 6,
     "wins": 0,
-    "losses": 5,
-    "pending": 11,
+    "losses": 6,
+    "pending": 10,
     "win_rate": 0.0,
     "plus_money_total": 4,
-    "plus_money_decided": 1,
+    "plus_money_decided": 2,
     "plus_money_wins": 0,
-    "plus_money_losses": 1,
+    "plus_money_losses": 2,
     "plus_money_win_rate": 0.0,
     "segments": {
       "all_picks": {
         "total": 16,
-        "decided": 5,
+        "decided": 6,
         "wins": 0,
-        "losses": 5,
-        "profit": -500.0,
+        "losses": 6,
+        "profit": -600.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
@@ -51,20 +51,20 @@
       },
       "plus_money_picks": {
         "total": 4,
-        "decided": 1,
+        "decided": 2,
         "wins": 0,
-        "losses": 1,
-        "profit": -100.0,
+        "losses": 2,
+        "profit": -200.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 16,
-        "decided": 5,
+        "decided": 6,
         "wins": 1,
-        "losses": 4,
-        "profit": -308.26,
-        "roi_pct": -61.65,
+        "losses": 5,
+        "profit": -408.26,
+        "roi_pct": -68.04,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -81,22 +81,22 @@
       "winner": "Chicago Cubs",
       "loser": "St. Louis Cardinals",
       "pick": "OVER",
-      "line": 8.2,
+      "line": 8.5,
       "confidence": 0.851,
-      "odds": -118,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-29",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.624,
       "conf_close": 0.851,
       "conf_max": 0.851,
       "conf_min": 0.624,
       "delta_close_open": 0.227,
       "intraday_range": 0.227,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 51,
