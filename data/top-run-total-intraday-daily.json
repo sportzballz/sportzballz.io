@@ -614,5 +614,16 @@
     "delta_close_open": 0.161,
     "intraday_range": 0.236,
     "pick_changes": 15
+  },
+  {
+    "date": "2026-07-29",
+    "snapshots": 3,
+    "conf_open": 0.624,
+    "conf_close": 0.624,
+    "conf_max": 0.624,
+    "conf_min": 0.624,
+    "delta_close_open": 0.0,
+    "intraday_range": 0.0,
+    "pick_changes": 0
   }
 ]
