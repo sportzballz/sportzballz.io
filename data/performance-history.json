@@ -42,11 +42,11 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
-        "wins": 1,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 96.15,
-        "roi_pct": 96.15,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Seattle Mariners",
       "pick": "OVER",
-      "line": 8.68,
-      "confidence": 0.705,
-      "odds": -114,
+      "line": 8.64,
+      "confidence": 0.855,
+      "odds": -116,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-30",
-      "snapshots": 48,
+      "snapshots": 51,
       "conf_open": 0.705,
-      "conf_close": 0.705,
+      "conf_close": 0.855,
       "conf_max": 0.855,
       "conf_min": 0.705,
-      "delta_close_open": 0.0,
+      "delta_close_open": 0.15,
       "intraday_range": 0.15,
-      "pick_changes": 7
+      "pick_changes": 8
     },
     "intraday_top_run_total_impact": {
       "sample_days": 52,
