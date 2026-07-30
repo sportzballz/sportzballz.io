@@ -628,13 +628,13 @@
   },
   {
     "date": "2026-07-30",
-    "snapshots": 21,
+    "snapshots": 24,
     "conf_open": 0.705,
     "conf_close": 0.705,
     "conf_max": 0.855,
     "conf_min": 0.705,
     "delta_close_open": 0.0,
     "intraday_range": 0.15,
-    "pick_changes": 3
+    "pick_changes": 4
   }
 ]
