@@ -81,22 +81,22 @@
       "winner": "Los Angeles Dodgers",
       "loser": "Seattle Mariners",
       "pick": "OVER",
-      "line": 8.55,
-      "confidence": 0.852,
-      "odds": -116,
+      "line": 8.5,
+      "confidence": 0.704,
+      "odds": -117,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-30",
-      "snapshots": 57,
+      "snapshots": 60,
       "conf_open": 0.705,
-      "conf_close": 0.852,
+      "conf_close": 0.704,
       "conf_max": 0.855,
-      "conf_min": 0.705,
-      "delta_close_open": 0.147,
-      "intraday_range": 0.15,
-      "pick_changes": 9
+      "conf_min": 0.704,
+      "delta_close_open": -0.001,
+      "intraday_range": 0.151,
+      "pick_changes": 10
     },
     "intraday_top_run_total_impact": {
       "sample_days": 52,
