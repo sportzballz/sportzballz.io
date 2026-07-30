@@ -82,19 +82,19 @@
       "loser": "Seattle Mariners",
       "pick": "OVER",
       "line": 8.68,
-      "confidence": 0.705,
+      "confidence": 0.855,
       "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-30",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.705,
-      "conf_close": 0.705,
+      "conf_close": 0.855,
       "conf_max": 0.855,
       "conf_min": 0.705,
-      "delta_close_open": 0.0,
+      "delta_close_open": 0.15,
       "intraday_range": 0.15,
       "pick_changes": 5
     },
