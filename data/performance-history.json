@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-07-31",
-    "total_picks": 13,
+    "total_picks": 12,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 12,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 12,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 1,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 12,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "Kansas City Royals",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 12.3,
+      "line": 12.0,
       "confidence": 0.827,
-      "odds": -107,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-31",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.555,
       "conf_close": 0.827,
       "conf_max": 0.827,
       "conf_min": 0.555,
       "delta_close_open": 0.272,
       "intraday_range": 0.272,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 52,
