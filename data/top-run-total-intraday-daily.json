@@ -639,13 +639,13 @@
   },
   {
     "date": "2026-07-31",
-    "snapshots": 6,
+    "snapshots": 9,
     "conf_open": 0.555,
-    "conf_close": 0.555,
-    "conf_max": 0.555,
+    "conf_close": 0.677,
+    "conf_max": 0.677,
     "conf_min": 0.555,
-    "delta_close_open": 0.0,
-    "intraday_range": 0.0,
-    "pick_changes": 0
+    "delta_close_open": 0.122,
+    "intraday_range": 0.122,
+    "pick_changes": 1
   }
 ]
