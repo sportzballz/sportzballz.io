@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-07-31",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 0.555,
       "conf_close": 0.555,
       "conf_max": 0.555,
