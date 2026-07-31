@@ -639,7 +639,7 @@
   },
   {
     "date": "2026-07-31",
-    "snapshots": 15,
+    "snapshots": 18,
     "conf_open": 0.555,
     "conf_close": 0.677,
     "conf_max": 0.677,
