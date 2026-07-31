@@ -1,12 +1,12 @@
 [
   {
     "date": "2026-07-31",
-    "total_picks": 13,
-    "decided": 0,
+    "total_picks": 14,
+    "decided": 1,
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "pending": 13,
-    "win_rate": null,
+    "win_rate": 0.0,
     "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -14,12 +14,12 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
-        "decided": 0,
+        "total": 14,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -59,12 +59,12 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
-        "decided": 0,
+        "total": 14,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "Colorado Rockies",
+      "winner": "Washington Nationals",
+      "loser": "Atlanta Braves",
       "pick": "OVER",
-      "line": 12.0,
-      "confidence": 0.827,
-      "odds": -105,
+      "line": 9.38,
+      "confidence": 0.762,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-31",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 0.555,
-      "conf_close": 0.827,
+      "conf_close": 0.762,
       "conf_max": 0.827,
       "conf_min": 0.555,
-      "delta_close_open": 0.272,
+      "delta_close_open": 0.207,
       "intraday_range": 0.272,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 52,
