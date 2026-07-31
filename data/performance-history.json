@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "Colorado Rockies",
+      "winner": "Washington Nationals",
+      "loser": "Atlanta Braves",
       "pick": "OVER",
-      "line": 12.0,
-      "confidence": 0.858,
-      "odds": -104,
+      "line": 9.36,
+      "confidence": 0.762,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-31",
-      "snapshots": 60,
+      "snapshots": 63,
       "conf_open": 0.555,
-      "conf_close": 0.858,
+      "conf_close": 0.762,
       "conf_max": 0.858,
       "conf_min": 0.555,
-      "delta_close_open": 0.303,
+      "delta_close_open": 0.207,
       "intraday_range": 0.303,
-      "pick_changes": 7
+      "pick_changes": 8
     },
     "intraday_top_run_total_impact": {
       "sample_days": 52,
