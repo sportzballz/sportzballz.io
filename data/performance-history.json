@@ -81,22 +81,22 @@
       "winner": "Kansas City Royals",
       "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 11.75,
+      "line": 12.3,
       "confidence": 0.827,
-      "odds": -110,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-07-31",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.555,
       "conf_close": 0.827,
       "conf_max": 0.827,
       "conf_min": 0.555,
       "delta_close_open": 0.272,
       "intraday_range": 0.272,
-      "pick_changes": 3
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 52,
