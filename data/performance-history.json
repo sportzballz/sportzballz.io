@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Mets",
-      "loser": "Miami Marlins",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Boston Red Sox",
       "pick": "OVER",
       "line": 9.0,
-      "confidence": 0.783,
-      "odds": -113,
+      "confidence": 0.833,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-01",
-      "snapshots": 48,
+      "snapshots": 51,
       "conf_open": 0.655,
-      "conf_close": 0.783,
+      "conf_close": 0.833,
       "conf_max": 0.856,
       "conf_min": 0.655,
-      "delta_close_open": 0.128,
+      "delta_close_open": 0.178,
       "intraday_range": 0.201,
-      "pick_changes": 10
+      "pick_changes": 11
     },
     "intraday_top_run_total_impact": {
       "sample_days": 53,
