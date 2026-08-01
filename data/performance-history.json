@@ -81,22 +81,22 @@
       "winner": "Cleveland Guardians",
       "loser": "Arizona Diamondbacks",
       "pick": "UNDER",
-      "line": 8.23,
+      "line": 8.25,
       "confidence": 0.805,
-      "odds": -109,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-01",
-      "snapshots": 27,
+      "snapshots": 30,
       "conf_open": 0.655,
       "conf_close": 0.805,
       "conf_max": 0.805,
       "conf_min": 0.655,
       "delta_close_open": 0.15,
       "intraday_range": 0.15,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 53,
