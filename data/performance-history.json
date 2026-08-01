@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cleveland Guardians",
-      "loser": "Arizona Diamondbacks",
-      "pick": "UNDER",
-      "line": 8.32,
-      "confidence": 0.655,
-      "odds": -111,
+      "winner": "Philadelphia Phillies",
+      "loser": "Baltimore Orioles",
+      "pick": "OVER",
+      "line": 8.18,
+      "confidence": 0.711,
+      "odds": -112,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-01",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.655,
-      "conf_close": 0.655,
-      "conf_max": 0.655,
+      "conf_close": 0.711,
+      "conf_max": 0.711,
       "conf_min": 0.655,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.056,
+      "intraday_range": 0.056,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 53,
@@ -151,11 +151,11 @@
   {
     "date": "2026-07-31",
     "total_picks": 15,
-    "decided": 9,
-    "wins": 4,
-    "losses": 5,
-    "pending": 6,
-    "win_rate": 44.4,
+    "decided": 15,
+    "wins": 7,
+    "losses": 8,
+    "pending": 0,
+    "win_rate": 46.7,
     "plus_money_total": 2,
     "plus_money_decided": 2,
     "plus_money_wins": 1,
@@ -164,38 +164,38 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 9,
-        "wins": 4,
-        "losses": 5,
-        "profit": -181.41,
-        "roi_pct": -20.16,
+        "decided": 15,
+        "wins": 7,
+        "losses": 8,
+        "profit": -284.55,
+        "roi_pct": -18.97,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 58.82,
+        "roi_pct": 58.82,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 2,
-        "wins": 1,
+        "decided": 3,
+        "wins": 2,
         "losses": 1,
-        "profit": 1.0,
-        "roi_pct": 0.5,
+        "profit": 59.82,
+        "roi_pct": 19.94,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -209,11 +209,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 9,
-        "wins": 4,
-        "losses": 5,
-        "profit": -115.26,
-        "roi_pct": -12.81,
+        "decided": 15,
+        "wins": 7,
+        "losses": 8,
+        "profit": -154.71,
+        "roi_pct": -10.31,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -238,7 +238,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-07-31",
-      "snapshots": 75,
+      "snapshots": 76,
       "conf_open": 0.555,
       "conf_close": 0.762,
       "conf_max": 0.858,
