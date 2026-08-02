@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-08-02",
-    "total_picks": 14,
+    "total_picks": 15,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 14,
+    "pending": 15,
     "win_rate": null,
-    "plus_money_total": 1,
+    "plus_money_total": 2,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 1,
+        "total": 2,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Baltimore Orioles",
-      "pick": "OVER",
+      "winner": "Cleveland Guardians",
+      "loser": "Arizona Diamondbacks",
+      "pick": "UNDER",
       "line": 7.86,
-      "confidence": 0.889,
-      "odds": -110,
+      "confidence": 0.631,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-02",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.739,
-      "conf_close": 0.889,
+      "conf_close": 0.631,
       "conf_max": 0.889,
       "conf_min": 0.622,
-      "delta_close_open": 0.15,
+      "delta_close_open": -0.108,
       "intraday_range": 0.267,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 54,
