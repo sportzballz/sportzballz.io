@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 3,
+    "plus_money_total": 4,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 3,
+        "total": 4,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -82,19 +82,19 @@
       "loser": "Washington Nationals",
       "pick": "OVER",
       "line": 8.91,
-      "confidence": 0.602,
-      "odds": -105,
+      "confidence": 0.605,
+      "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-02",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.739,
-      "conf_close": 0.602,
+      "conf_close": 0.605,
       "conf_max": 0.889,
       "conf_min": 0.602,
-      "delta_close_open": -0.137,
+      "delta_close_open": -0.134,
       "intraday_range": 0.287,
       "pick_changes": 4
     },
