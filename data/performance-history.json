@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Baltimore Orioles",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Boston Red Sox",
       "pick": "OVER",
-      "line": 7.82,
-      "confidence": 0.739,
-      "odds": -111,
+      "line": 9.0,
+      "confidence": 0.622,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-02",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 0.739,
-      "conf_close": 0.739,
+      "conf_close": 0.622,
       "conf_max": 0.739,
-      "conf_min": 0.739,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.622,
+      "delta_close_open": -0.117,
+      "intraday_range": 0.117,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 54,
