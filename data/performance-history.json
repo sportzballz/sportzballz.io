@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cleveland Guardians",
-      "loser": "Arizona Diamondbacks",
-      "pick": "UNDER",
-      "line": 7.86,
-      "confidence": 0.631,
-      "odds": -111,
+      "winner": "Atlanta Braves",
+      "loser": "Washington Nationals",
+      "pick": "OVER",
+      "line": 8.91,
+      "confidence": 0.602,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-02",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.739,
-      "conf_close": 0.631,
+      "conf_close": 0.602,
       "conf_max": 0.889,
-      "conf_min": 0.622,
-      "delta_close_open": -0.108,
-      "intraday_range": 0.267,
-      "pick_changes": 3
+      "conf_min": 0.602,
+      "delta_close_open": -0.137,
+      "intraday_range": 0.287,
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 54,
