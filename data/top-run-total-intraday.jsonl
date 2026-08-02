@@ -4404,3 +4404,5 @@
 {"timestamp_et": "2026-08-01 22:02:40", "date": "2026-08-01", "winner": "Los Angeles Dodgers", "loser": "Boston Red Sox", "pick": "OVER", "line": 9.0, "confidence": 0.833, "odds": -105, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-08-01 23:02:08", "date": "2026-08-01", "winner": "Los Angeles Dodgers", "loser": "Boston Red Sox", "pick": "OVER", "line": 9.0, "confidence": 0.833, "odds": -105, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-08-01 23:02:39", "date": "2026-08-01", "winner": "Los Angeles Dodgers", "loser": "Boston Red Sox", "pick": "OVER", "line": 9.0, "confidence": 0.833, "odds": -105, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-08-01 23:53:04", "date": "2026-08-01", "winner": "Los Angeles Dodgers", "loser": "Boston Red Sox", "pick": "OVER", "line": 9.0, "confidence": 0.833, "odds": -105, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-08-01 23:53:35", "date": "2026-08-01", "winner": "Los Angeles Dodgers", "loser": "Boston Red Sox", "pick": "OVER", "line": 9.0, "confidence": 0.833, "odds": -105, "result": "LOSS", "profit": -100.0}
