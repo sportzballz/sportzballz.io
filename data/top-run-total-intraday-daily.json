@@ -661,13 +661,13 @@
   },
   {
     "date": "2026-08-02",
-    "snapshots": 21,
+    "snapshots": 24,
     "conf_open": 0.739,
-    "conf_close": 0.605,
+    "conf_close": 0.623,
     "conf_max": 0.889,
     "conf_min": 0.602,
-    "delta_close_open": -0.134,
+    "delta_close_open": -0.116,
     "intraday_range": 0.287,
-    "pick_changes": 4
+    "pick_changes": 5
   }
 ]
