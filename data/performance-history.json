@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Washington Nationals",
+      "winner": "New York Yankees",
+      "loser": "St. Louis Cardinals",
       "pick": "OVER",
-      "line": 9.1,
-      "confidence": 0.462,
-      "odds": -116,
+      "line": 7.86,
+      "confidence": 0.711,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-03",
-      "snapshots": 18,
+      "snapshots": 21,
       "conf_open": 0.584,
-      "conf_close": 0.462,
-      "conf_max": 0.584,
+      "conf_close": 0.711,
+      "conf_max": 0.711,
       "conf_min": 0.462,
-      "delta_close_open": -0.122,
-      "intraday_range": 0.122,
-      "pick_changes": 3
+      "delta_close_open": 0.127,
+      "intraday_range": 0.249,
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 55,
