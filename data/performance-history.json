@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Washington Nationals",
+      "winner": "Tampa Bay Rays",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 8.92,
-      "confidence": 0.462,
+      "line": 11.5,
+      "confidence": 0.463,
       "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-03",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 0.584,
-      "conf_close": 0.462,
+      "conf_close": 0.463,
       "conf_max": 1.011,
       "conf_min": 0.462,
-      "delta_close_open": -0.122,
+      "delta_close_open": -0.121,
       "intraday_range": 0.549,
-      "pick_changes": 6
+      "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
       "sample_days": 55,
