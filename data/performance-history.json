@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "New York Yankees",
-      "loser": "St. Louis Cardinals",
+      "winner": "Milwaukee Brewers",
+      "loser": "Pittsburgh Pirates",
       "pick": "OVER",
-      "line": 7.86,
-      "confidence": 1.011,
-      "odds": -106,
+      "line": 8.5,
+      "confidence": 0.734,
+      "odds": -102,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-03",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.584,
-      "conf_close": 1.011,
+      "conf_close": 0.734,
       "conf_max": 1.011,
       "conf_min": 0.462,
-      "delta_close_open": 0.427,
+      "delta_close_open": 0.15,
       "intraday_range": 0.549,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 55,
