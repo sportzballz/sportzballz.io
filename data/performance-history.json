@@ -1,5 +1,154 @@
 [
   {
+    "date": "2026-08-03",
+    "total_picks": 5,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 5,
+    "win_rate": null,
+    "plus_money_total": 0,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 5,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 0,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 5,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Milwaukee Brewers",
+      "loser": "Pittsburgh Pirates",
+      "pick": "OVER",
+      "line": 8.45,
+      "confidence": 0.584,
+      "odds": -109,
+      "result": "PENDING",
+      "profit": 0.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-08-03",
+      "snapshots": 3,
+      "conf_open": 0.584,
+      "conf_close": 0.584,
+      "conf_max": 0.584,
+      "conf_min": 0.584,
+      "delta_close_open": 0.0,
+      "intraday_range": 0.0,
+      "pick_changes": 0
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 55,
+      "delta_buckets": {
+        "flat": {
+          "days": 11,
+          "wins": 4,
+          "losses": 7,
+          "profit": -345.6,
+          "win_rate_pct": 36.4
+        },
+        "down_big": {
+          "days": 7,
+          "wins": 5,
+          "losses": 2,
+          "profit": 256.52,
+          "win_rate_pct": 71.4
+        },
+        "up_big": {
+          "days": 37,
+          "wins": 9,
+          "losses": 28,
+          "profit": -1991.72,
+          "win_rate_pct": 24.3
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 3,
+          "wins": 1,
+          "losses": 2,
+          "profit": -108.26,
+          "win_rate_pct": 33.3
+        },
+        "high_range": {
+          "days": 50,
+          "wins": 16,
+          "losses": 34,
+          "profit": -1960.26,
+          "win_rate_pct": 32.0
+        },
+        "medium_range": {
+          "days": 2,
+          "wins": 1,
+          "losses": 1,
+          "profit": -12.28,
+          "win_rate_pct": 50.0
+        }
+      }
+    }
+  },
+  {
     "date": "2026-08-02",
     "total_picks": 15,
     "decided": 14,
