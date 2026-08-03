@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Milwaukee Brewers",
-      "loser": "Pittsburgh Pirates",
+      "winner": "Philadelphia Phillies",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.734,
-      "odds": -102,
+      "line": 8.92,
+      "confidence": 0.462,
+      "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-03",
-      "snapshots": 30,
+      "snapshots": 33,
       "conf_open": 0.584,
-      "conf_close": 0.734,
+      "conf_close": 0.462,
       "conf_max": 1.011,
       "conf_min": 0.462,
-      "delta_close_open": 0.15,
+      "delta_close_open": -0.122,
       "intraday_range": 0.549,
-      "pick_changes": 5
+      "pick_changes": 6
     },
     "intraday_top_run_total_impact": {
       "sample_days": 55,
