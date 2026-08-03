@@ -672,13 +672,13 @@
   },
   {
     "date": "2026-08-03",
-    "snapshots": 21,
+    "snapshots": 24,
     "conf_open": 0.584,
-    "conf_close": 0.711,
-    "conf_max": 0.711,
+    "conf_close": 1.011,
+    "conf_max": 1.011,
     "conf_min": 0.462,
-    "delta_close_open": 0.127,
-    "intraday_range": 0.249,
+    "delta_close_open": 0.427,
+    "intraday_range": 0.549,
     "pick_changes": 4
   }
 ]
