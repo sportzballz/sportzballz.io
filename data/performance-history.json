@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-08-04",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 14,
     "win_rate": null,
-    "plus_money_total": 6,
+    "plus_money_total": 7,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 6,
+        "total": 7,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Washington Nationals",
+      "winner": "Kansas City Royals",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 8.95,
-      "confidence": 0.848,
-      "odds": -105,
+      "line": 9.09,
+      "confidence": 0.971,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-04",
-      "snapshots": 18,
+      "snapshots": 21,
       "conf_open": 0.795,
-      "conf_close": 0.848,
-      "conf_max": 0.848,
+      "conf_close": 0.971,
+      "conf_max": 0.971,
       "conf_min": 0.682,
-      "delta_close_open": 0.053,
-      "intraday_range": 0.166,
-      "pick_changes": 3
+      "delta_close_open": 0.176,
+      "intraday_range": 0.289,
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 56,
