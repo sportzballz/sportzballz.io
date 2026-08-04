@@ -683,13 +683,13 @@
   },
   {
     "date": "2026-08-04",
-    "snapshots": 9,
+    "snapshots": 12,
     "conf_open": 0.795,
-    "conf_close": 0.821,
+    "conf_close": 0.682,
     "conf_max": 0.821,
-    "conf_min": 0.795,
-    "delta_close_open": 0.026,
-    "intraday_range": 0.026,
-    "pick_changes": 1
+    "conf_min": 0.682,
+    "delta_close_open": -0.113,
+    "intraday_range": 0.139,
+    "pick_changes": 2
   }
 ]
