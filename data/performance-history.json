@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "Minnesota Twins",
+      "winner": "New York Yankees",
+      "loser": "St. Louis Cardinals",
       "pick": "OVER",
-      "line": 9.09,
-      "confidence": 0.971,
-      "odds": -110,
+      "line": 8.41,
+      "confidence": 0.832,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-04",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.795,
-      "conf_close": 0.971,
+      "conf_close": 0.832,
       "conf_max": 0.971,
       "conf_min": 0.682,
-      "delta_close_open": 0.176,
+      "delta_close_open": 0.037,
       "intraday_range": 0.289,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 56,
