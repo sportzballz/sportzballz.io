@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Kansas City Royals",
-      "loser": "Minnesota Twins",
+      "winner": "Tampa Bay Rays",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.875,
-      "odds": -114,
+      "line": 11.5,
+      "confidence": 0.815,
+      "odds": -111,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-05",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.815,
-      "conf_close": 0.875,
+      "conf_close": 0.815,
       "conf_max": 0.875,
       "conf_min": 0.815,
-      "delta_close_open": 0.06,
+      "delta_close_open": 0.0,
       "intraday_range": 0.06,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 57,
