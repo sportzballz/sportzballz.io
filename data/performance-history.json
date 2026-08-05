@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Tampa Bay Rays",
-      "loser": "Colorado Rockies",
+      "winner": "Chicago Cubs",
+      "loser": "Los Angeles Dodgers",
       "pick": "OVER",
-      "line": 11.5,
-      "confidence": 0.815,
-      "odds": -111,
+      "line": 9.91,
+      "confidence": 0.857,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-05",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.815,
-      "conf_close": 0.815,
+      "conf_close": 0.857,
       "conf_max": 0.875,
       "conf_min": 0.815,
-      "delta_close_open": 0.0,
+      "delta_close_open": 0.042,
       "intraday_range": 0.06,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 57,
