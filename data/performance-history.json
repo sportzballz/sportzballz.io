@@ -69,37 +69,37 @@
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 1,
-        "wins": 1,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 94.34,
-        "roi_pct": 94.34,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "Chicago Cubs",
-      "loser": "Los Angeles Dodgers",
+      "winner": "Kansas City Royals",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 10.0,
-      "confidence": 0.707,
-      "odds": -106,
-      "result": "WIN",
-      "profit": 94.34
+      "line": 8.79,
+      "confidence": 0.844,
+      "odds": -113,
+      "result": "PENDING",
+      "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-05",
-      "snapshots": 54,
+      "snapshots": 57,
       "conf_open": 0.815,
-      "conf_close": 0.707,
+      "conf_close": 0.844,
       "conf_max": 0.875,
       "conf_min": 0.707,
-      "delta_close_open": -0.108,
+      "delta_close_open": 0.029,
       "intraday_range": 0.168,
-      "pick_changes": 8
+      "pick_changes": 9
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 58,
+      "sample_days": 57,
       "delta_buckets": {
         "flat": {
           "days": 11,
@@ -109,11 +109,11 @@
           "win_rate_pct": 36.4
         },
         "down_big": {
-          "days": 8,
-          "wins": 6,
+          "days": 7,
+          "wins": 5,
           "losses": 2,
-          "profit": 350.86,
-          "win_rate_pct": 75.0
+          "profit": 256.52,
+          "win_rate_pct": 71.4
         },
         "up_big": {
           "days": 39,
@@ -132,11 +132,11 @@
           "win_rate_pct": 33.3
         },
         "high_range": {
-          "days": 53,
-          "wins": 19,
+          "days": 52,
+          "wins": 18,
           "losses": 34,
-          "profit": -1679.77,
-          "win_rate_pct": 35.8
+          "profit": -1774.11,
+          "win_rate_pct": 34.6
         },
         "medium_range": {
           "days": 2,
