@@ -683,7 +683,7 @@
   },
   {
     "date": "2026-08-04",
-    "snapshots": 75,
+    "snapshots": 76,
     "conf_open": 0.795,
     "conf_close": 1.011,
     "conf_max": 1.161,
@@ -694,13 +694,13 @@
   },
   {
     "date": "2026-08-05",
-    "snapshots": 6,
+    "snapshots": 9,
     "conf_open": 0.815,
-    "conf_close": 0.815,
-    "conf_max": 0.815,
+    "conf_close": 0.875,
+    "conf_max": 0.875,
     "conf_min": 0.815,
-    "delta_close_open": 0.0,
-    "intraday_range": 0.0,
-    "pick_changes": 0
+    "delta_close_open": 0.06,
+    "intraday_range": 0.06,
+    "pick_changes": 1
   }
 ]

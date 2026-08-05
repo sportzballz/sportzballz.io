@@ -78,28 +78,28 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Tampa Bay Rays",
-      "loser": "Colorado Rockies",
+      "winner": "Kansas City Royals",
+      "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 11.5,
-      "confidence": 0.815,
-      "odds": -110,
+      "line": 9.0,
+      "confidence": 0.875,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-05",
-      "snapshots": 6,
+      "snapshots": 9,
       "conf_open": 0.815,
-      "conf_close": 0.815,
-      "conf_max": 0.815,
+      "conf_close": 0.875,
+      "conf_max": 0.875,
       "conf_min": 0.815,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.06,
+      "intraday_range": 0.06,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 56,
+      "sample_days": 57,
       "delta_buckets": {
         "flat": {
           "days": 11,
@@ -116,11 +116,11 @@
           "win_rate_pct": 71.4
         },
         "up_big": {
-          "days": 38,
-          "wins": 10,
+          "days": 39,
+          "wins": 11,
           "losses": 28,
-          "profit": -1896.48,
-          "win_rate_pct": 26.3
+          "profit": -1805.57,
+          "win_rate_pct": 28.2
         }
       },
       "range_buckets": {
@@ -132,11 +132,11 @@
           "win_rate_pct": 33.3
         },
         "high_range": {
-          "days": 51,
-          "wins": 17,
+          "days": 52,
+          "wins": 18,
           "losses": 34,
-          "profit": -1865.02,
-          "win_rate_pct": 33.3
+          "profit": -1774.11,
+          "win_rate_pct": 34.6
         },
         "medium_range": {
           "days": 2,
@@ -151,78 +151,78 @@
   {
     "date": "2026-08-04",
     "total_picks": 15,
-    "decided": 12,
-    "wins": 7,
-    "losses": 5,
-    "pending": 3,
-    "win_rate": 58.3,
+    "decided": 15,
+    "wins": 8,
+    "losses": 7,
+    "pending": 0,
+    "win_rate": 53.3,
     "plus_money_total": 6,
-    "plus_money_decided": 4,
-    "plus_money_wins": 1,
-    "plus_money_losses": 3,
-    "plus_money_win_rate": 25.0,
+    "plus_money_decided": 6,
+    "plus_money_wins": 2,
+    "plus_money_losses": 4,
+    "plus_money_win_rate": 33.3,
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 12,
-        "wins": 7,
-        "losses": 5,
-        "profit": -13.43,
-        "roi_pct": -1.12,
+        "decided": 15,
+        "wins": 8,
+        "losses": 7,
+        "profit": -105.43,
+        "roi_pct": -7.03,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 151.0,
+        "roi_pct": 151.0,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 2,
+        "decided": 3,
         "wins": 2,
-        "losses": 0,
-        "profit": 136.56,
-        "roi_pct": 68.28,
+        "losses": 1,
+        "profit": 36.56,
+        "roi_pct": 12.19,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
         "total": 6,
-        "decided": 4,
-        "wins": 1,
-        "losses": 3,
-        "profit": -170.0,
-        "roi_pct": -42.5,
+        "decided": 6,
+        "wins": 2,
+        "losses": 4,
+        "profit": -162.0,
+        "roi_pct": -27.0,
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 12,
-        "wins": 4,
+        "decided": 14,
+        "wins": 6,
         "losses": 8,
-        "profit": -433.12,
-        "roi_pct": -36.09,
+        "profit": -251.3,
+        "roi_pct": -17.95,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 90.91,
+        "roi_pct": 90.91,
         "stake_per_pick": 100.0
       }
     },
@@ -233,12 +233,12 @@
       "line": 11.5,
       "confidence": 1.011,
       "odds": -110,
-      "result": "PENDING",
-      "profit": 0.0
+      "result": "WIN",
+      "profit": 90.91
     },
     "intraday_top_run_total": {
       "date": "2026-08-04",
-      "snapshots": 75,
+      "snapshots": 76,
       "conf_open": 0.795,
       "conf_close": 1.011,
       "conf_max": 1.161,
@@ -248,7 +248,7 @@
       "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 56,
+      "sample_days": 57,
       "delta_buckets": {
         "flat": {
           "days": 11,
@@ -265,11 +265,11 @@
           "win_rate_pct": 71.4
         },
         "up_big": {
-          "days": 38,
-          "wins": 10,
+          "days": 39,
+          "wins": 11,
           "losses": 28,
-          "profit": -1896.48,
-          "win_rate_pct": 26.3
+          "profit": -1805.57,
+          "win_rate_pct": 28.2
         }
       },
       "range_buckets": {
@@ -281,11 +281,11 @@
           "win_rate_pct": 33.3
         },
         "high_range": {
-          "days": 51,
-          "wins": 17,
+          "days": 52,
+          "wins": 18,
           "losses": 34,
-          "profit": -1865.02,
-          "win_rate_pct": 33.3
+          "profit": -1774.11,
+          "win_rate_pct": 34.6
         },
         "medium_range": {
           "days": 2,
