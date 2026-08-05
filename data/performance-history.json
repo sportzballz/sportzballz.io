@@ -81,22 +81,22 @@
       "winner": "Kansas City Royals",
       "loser": "Minnesota Twins",
       "pick": "OVER",
-      "line": 8.5,
+      "line": 8.64,
       "confidence": 0.725,
-      "odds": -108,
+      "odds": -118,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-05",
-      "snapshots": 33,
+      "snapshots": 36,
       "conf_open": 0.815,
       "conf_close": 0.725,
       "conf_max": 0.875,
       "conf_min": 0.725,
       "delta_close_open": -0.09,
       "intraday_range": 0.15,
-      "pick_changes": 6
+      "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
       "sample_days": 57,
