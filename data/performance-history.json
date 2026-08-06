@@ -81,22 +81,22 @@
       "winner": "Philadelphia Phillies",
       "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 8.91,
+      "line": 8.95,
       "confidence": 0.769,
-      "odds": -106,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-06",
-      "snapshots": 24,
+      "snapshots": 27,
       "conf_open": 0.703,
       "conf_close": 0.769,
       "conf_max": 0.769,
       "conf_min": 0.703,
       "delta_close_open": 0.066,
       "intraday_range": 0.066,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 58,
