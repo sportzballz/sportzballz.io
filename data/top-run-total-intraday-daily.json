@@ -705,12 +705,12 @@
   },
   {
     "date": "2026-08-06",
-    "snapshots": 39,
+    "snapshots": 42,
     "conf_open": 0.703,
-    "conf_close": 0.857,
+    "conf_close": 0.706,
     "conf_max": 0.857,
     "conf_min": 0.703,
-    "delta_close_open": 0.154,
+    "delta_close_open": 0.003,
     "intraday_range": 0.154,
     "pick_changes": 4
   }
