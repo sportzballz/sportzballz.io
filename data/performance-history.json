@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Arizona Diamondbacks",
-      "loser": "San Diego Padres",
+      "winner": "Philadelphia Phillies",
+      "loser": "Washington Nationals",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.703,
-      "odds": -107,
+      "line": 8.86,
+      "confidence": 0.769,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-06",
-      "snapshots": 3,
+      "snapshots": 6,
       "conf_open": 0.703,
-      "conf_close": 0.703,
-      "conf_max": 0.703,
+      "conf_close": 0.769,
+      "conf_max": 0.769,
       "conf_min": 0.703,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.066,
+      "intraday_range": 0.066,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 58,
