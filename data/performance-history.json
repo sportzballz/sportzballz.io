@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-08-07",
-    "total_picks": 14,
+    "total_picks": 15,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 14,
+    "pending": 15,
     "win_rate": null,
     "plus_money_total": 2,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -82,19 +82,19 @@
       "loser": "Toronto Blue Jays",
       "pick": "OVER",
       "line": 9.88,
-      "confidence": 0.742,
+      "confidence": 0.892,
       "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-07",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.951,
-      "conf_close": 0.742,
+      "conf_close": 0.892,
       "conf_max": 1.101,
       "conf_min": 0.651,
-      "delta_close_open": -0.209,
+      "delta_close_open": -0.059,
       "intraday_range": 0.45,
       "pick_changes": 7
     },
