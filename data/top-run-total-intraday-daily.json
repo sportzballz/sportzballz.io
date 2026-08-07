@@ -716,12 +716,12 @@
   },
   {
     "date": "2026-08-07",
-    "snapshots": 24,
+    "snapshots": 27,
     "conf_open": 0.951,
-    "conf_close": 0.801,
+    "conf_close": 0.651,
     "conf_max": 1.101,
     "conf_min": 0.651,
-    "delta_close_open": -0.15,
+    "delta_close_open": -0.3,
     "intraday_range": 0.45,
     "pick_changes": 3
   }
