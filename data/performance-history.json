@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Boston Red Sox",
-      "loser": "Athletics",
+      "winner": "Philadelphia Phillies",
+      "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 9.5,
-      "confidence": 0.684,
-      "odds": 101,
+      "line": 9.88,
+      "confidence": 0.742,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-07",
-      "snapshots": 36,
+      "snapshots": 39,
       "conf_open": 0.951,
-      "conf_close": 0.684,
+      "conf_close": 0.742,
       "conf_max": 1.101,
       "conf_min": 0.651,
-      "delta_close_open": -0.267,
+      "delta_close_open": -0.209,
       "intraday_range": 0.45,
-      "pick_changes": 6
+      "pick_changes": 7
     },
     "intraday_top_run_total_impact": {
       "sample_days": 59,
