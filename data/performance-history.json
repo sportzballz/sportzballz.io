@@ -82,19 +82,19 @@
       "loser": "Toronto Blue Jays",
       "pick": "OVER",
       "line": 9.81,
-      "confidence": 0.892,
+      "confidence": 0.742,
       "odds": -104,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-07",
-      "snapshots": 48,
+      "snapshots": 51,
       "conf_open": 0.951,
-      "conf_close": 0.892,
+      "conf_close": 0.742,
       "conf_max": 1.101,
       "conf_min": 0.651,
-      "delta_close_open": -0.059,
+      "delta_close_open": -0.209,
       "intraday_range": 0.45,
       "pick_changes": 8
     },
