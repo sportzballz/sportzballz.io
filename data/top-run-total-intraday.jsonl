@@ -4858,3 +4858,7 @@
 {"timestamp_et": "2026-08-08 05:27:00", "date": "2026-08-08", "winner": "Chicago Cubs", "loser": "Kansas City Royals", "pick": "OVER", "line": 9.5, "confidence": 0.802, "odds": -113, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-08-08 05:27:01", "date": "2026-08-08", "winner": "Chicago Cubs", "loser": "Kansas City Royals", "pick": "OVER", "line": 9.5, "confidence": 0.802, "odds": -113, "result": "PENDING", "profit": 0.0}
 {"timestamp_et": "2026-08-08 05:27:34", "date": "2026-08-08", "winner": "Chicago Cubs", "loser": "Kansas City Royals", "pick": "OVER", "line": 9.5, "confidence": 0.802, "odds": -113, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-08-08 07:01:49", "date": "2026-08-08", "winner": "Chicago Cubs", "loser": "Kansas City Royals", "pick": "OVER", "line": 9.5, "confidence": 1.102, "odds": -114, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-08-08 07:01:50", "date": "2026-08-08", "winner": "Chicago Cubs", "loser": "Kansas City Royals", "pick": "OVER", "line": 9.5, "confidence": 1.102, "odds": -114, "result": "PENDING", "profit": 0.0}
+{"timestamp_et": "2026-08-08 07:02:22", "date": "2026-08-07", "winner": "Philadelphia Phillies", "loser": "Toronto Blue Jays", "pick": "OVER", "line": 9.81, "confidence": 0.742, "odds": -104, "result": "LOSS", "profit": -100.0}
+{"timestamp_et": "2026-08-08 07:02:23", "date": "2026-08-08", "winner": "Chicago Cubs", "loser": "Kansas City Royals", "pick": "OVER", "line": 9.5, "confidence": 1.102, "odds": -114, "result": "PENDING", "profit": 0.0}
