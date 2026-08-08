@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 15,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -82,19 +82,19 @@
       "loser": "Kansas City Royals",
       "pick": "OVER",
       "line": 10.0,
-      "confidence": 0.952,
-      "odds": -115,
+      "confidence": 0.95,
+      "odds": -114,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-08",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.802,
-      "conf_close": 0.952,
+      "conf_close": 0.95,
       "conf_max": 1.102,
       "conf_min": 0.676,
-      "delta_close_open": 0.15,
+      "delta_close_open": 0.148,
       "intraday_range": 0.426,
       "pick_changes": 2
     },
