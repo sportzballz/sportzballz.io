@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-08-09",
-    "total_picks": 12,
+    "total_picks": 14,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 12,
+    "pending": 14,
     "win_rate": null,
     "plus_money_total": 1,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 12,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 12,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Philadelphia Phillies",
-      "loser": "Toronto Blue Jays",
+      "winner": "Chicago Cubs",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.803,
-      "odds": -105,
+      "line": 10.36,
+      "confidence": 0.977,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-09",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.803,
-      "conf_close": 0.803,
-      "conf_max": 0.953,
+      "conf_close": 0.977,
+      "conf_max": 0.977,
       "conf_min": 0.803,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.15,
-      "pick_changes": 3
+      "delta_close_open": 0.174,
+      "intraday_range": 0.174,
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
       "sample_days": 61,
