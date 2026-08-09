@@ -81,22 +81,22 @@
       "winner": "Chicago Cubs",
       "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 10.36,
+      "line": 10.41,
       "confidence": 0.977,
-      "odds": -106,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-09",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.803,
       "conf_close": 0.977,
       "conf_max": 0.977,
       "conf_min": 0.803,
       "delta_close_open": 0.174,
       "intraday_range": 0.174,
-      "pick_changes": 4
+      "pick_changes": 5
     },
     "intraday_top_run_total_impact": {
       "sample_days": 61,
