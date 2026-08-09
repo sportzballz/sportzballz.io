@@ -4,19 +4,62 @@ on:
   push:
     branches:
     - main
+  schedule:
+    # 6:15 a.m. EDT / 5:15 a.m. EST. GitHub schedules are always UTC.
+    - cron: "15 10 * * *"
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: jakejarvis/s3-sync-action@master
+
+    - name: Set up Python
+      if: github.event_name != 'push'
+      uses: actions/setup-python@v5
       with:
-        args: --acl public-read --follow-symlinks --delete
+        python-version: "3.12"
+
+    - name: Generate the daily sports page
+      if: github.event_name != 'push'
+      env:
+        SITE_ROOT: ${{ github.workspace }}
+      run: |
+        git clone --depth 1 https://github.com/sportzballz/sportzpage.git "$RUNNER_TEMP/sportzpage-generator"
+        cd "$RUNNER_TEMP/sportzpage-generator"
+        python -m pip install .
+        EDITION_DATE="$(TZ=America/New_York date -d 'yesterday' +%F)"
+        daily-sports-page run --date "$EDITION_DATE" --build-dir build
+
+        mkdir -p "$SITE_ROOT/sportzpage/static"
+        cp build/index.html build/edition.json "$SITE_ROOT/sportzpage/"
+        cp -R static/css static/js "$SITE_ROOT/sportzpage/static/"
+
+    - name: Upload the main website
+      if: github.event_name == 'push'
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        # The generated sports page has its own deploy step so an ordinary
+        # site push can never delete the current daily edition.
+        args: --acl public-read --follow-symlinks --delete --exclude "sportzpage/*"
       env:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_WEBSITE_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+    - name: Upload the daily sports page
+      if: github.event_name != 'push'
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: us-east-1
+        AWS_S3_WEBSITE_BUCKET: ${{ secrets.AWS_S3_WEBSITE_BUCKET }}
+      run: |
+        aws s3 sync "$GITHUB_WORKSPACE/sportzpage" \
+          "s3://$AWS_S3_WEBSITE_BUCKET/sportzpage" \
+          --acl public-read \
+          --delete
 
     - name: Invalidate CloudFront cache
       continue-on-error: true
@@ -33,4 +76,4 @@ jobs:
 
         aws cloudfront create-invalidation \
           --distribution-id "$AWS_CF_DISTRIBUTION_ID" \
-          --paths "/*" || echo "CloudFront invalidation failed (non-blocking)."
+          --paths "/sportzpage/*" "/*" || echo "CloudFront invalidation failed (non-blocking)."
