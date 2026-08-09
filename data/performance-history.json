@@ -81,22 +81,22 @@
       "winner": "Philadelphia Phillies",
       "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 8.45,
+      "line": 8.5,
       "confidence": 0.803,
-      "odds": -110,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-09",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.803,
       "conf_close": 0.803,
       "conf_max": 0.953,
       "conf_min": 0.803,
       "delta_close_open": 0.0,
       "intraday_range": 0.15,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 61,
