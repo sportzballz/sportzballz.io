@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 9,
+        "total": 10,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Tampa Bay Rays",
-      "loser": "Athletics",
+      "winner": "Atlanta Braves",
+      "loser": "New York Mets",
       "pick": "OVER",
-      "line": 9.77,
-      "confidence": 0.702,
-      "odds": -114,
+      "line": 8.33,
+      "confidence": 0.769,
+      "odds": -113,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-10",
-      "snapshots": 54,
+      "snapshots": 57,
       "conf_open": 0.702,
-      "conf_close": 0.702,
-      "conf_max": 0.702,
+      "conf_close": 0.769,
+      "conf_max": 0.769,
       "conf_min": 0.702,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.067,
+      "intraday_range": 0.067,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 62,
