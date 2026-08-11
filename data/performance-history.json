@@ -81,22 +81,22 @@
       "winner": "Tampa Bay Rays",
       "loser": "Athletics",
       "pick": "OVER",
-      "line": 10.39,
+      "line": 10.44,
       "confidence": 0.894,
-      "odds": -107,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-11",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.744,
       "conf_close": 0.894,
       "conf_max": 0.894,
       "conf_min": 0.744,
       "delta_close_open": 0.15,
       "intraday_range": 0.15,
-      "pick_changes": 7
+      "pick_changes": 8
     },
     "intraday_top_run_total_impact": {
       "sample_days": 63,
