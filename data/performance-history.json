@@ -69,44 +69,44 @@
       },
       "top_run_total_confidence_pick": {
         "total": 1,
-        "decided": 1,
-        "wins": 1,
+        "decided": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 95.24,
-        "roi_pct": 95.24,
+        "profit": 0,
+        "roi_pct": null,
         "stake_per_pick": 100.0
       }
     },
     "top_run_total_pick": {
-      "winner": "Baltimore Orioles",
-      "loser": "Minnesota Twins",
+      "winner": "Cleveland Guardians",
+      "loser": "Detroit Tigers",
       "pick": "OVER",
-      "line": 8.83,
-      "confidence": 0.665,
-      "odds": -105,
-      "result": "WIN",
-      "profit": 95.24
+      "line": 8.17,
+      "confidence": 0.705,
+      "odds": -104,
+      "result": "PENDING",
+      "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-12",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.654,
-      "conf_close": 0.665,
-      "conf_max": 0.665,
+      "conf_close": 0.705,
+      "conf_max": 0.705,
       "conf_min": 0.654,
-      "delta_close_open": 0.011,
-      "intraday_range": 0.011,
-      "pick_changes": 3
+      "delta_close_open": 0.051,
+      "intraday_range": 0.051,
+      "pick_changes": 4
     },
     "intraday_top_run_total_impact": {
-      "sample_days": 64,
+      "sample_days": 63,
       "delta_buckets": {
         "flat": {
-          "days": 13,
-          "wins": 5,
+          "days": 12,
+          "wins": 4,
           "losses": 8,
-          "profit": -350.36,
-          "win_rate_pct": 38.5
+          "profit": -445.6,
+          "win_rate_pct": 33.3
         },
         "down_big": {
           "days": 8,
@@ -125,11 +125,11 @@
       },
       "range_buckets": {
         "low_range": {
-          "days": 5,
-          "wins": 3,
+          "days": 4,
+          "wins": 2,
           "losses": 2,
-          "profit": 75.48,
-          "win_rate_pct": 60.0
+          "profit": -19.76,
+          "win_rate_pct": 50.0
         },
         "high_range": {
           "days": 57,
