@@ -2,11 +2,11 @@
   {
     "date": "2026-08-12",
     "total_picks": 15,
-    "decided": 2,
-    "wins": 0,
+    "decided": 4,
+    "wins": 2,
     "losses": 2,
-    "pending": 13,
-    "win_rate": 0.0,
+    "pending": 11,
+    "win_rate": 50.0,
     "plus_money_total": 4,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,38 +15,38 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 2,
-        "wins": 0,
+        "decided": 4,
+        "wins": 2,
         "losses": 2,
-        "profit": -200.0,
-        "roi_pct": -100.0,
+        "profit": -87.56,
+        "roi_pct": -21.89,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 43.48,
+        "roi_pct": 43.48,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 43.48,
+        "roi_pct": 43.48,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 15,
-        "decided": 2,
-        "wins": 2,
+        "decided": 4,
+        "wins": 4,
         "losses": 0,
-        "profit": 190.48,
-        "roi_pct": 95.24,
+        "profit": 376.56,
+        "roi_pct": 94.14,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-08-12",
-      "snapshots": 51,
+      "snapshots": 54,
       "conf_open": 0.654,
       "conf_close": 0.691,
       "conf_max": 0.705,
