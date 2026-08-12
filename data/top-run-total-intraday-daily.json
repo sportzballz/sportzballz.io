@@ -771,13 +771,13 @@
   },
   {
     "date": "2026-08-12",
-    "snapshots": 48,
+    "snapshots": 51,
     "conf_open": 0.654,
-    "conf_close": 0.705,
+    "conf_close": 0.691,
     "conf_max": 0.705,
     "conf_min": 0.654,
-    "delta_close_open": 0.051,
+    "delta_close_open": 0.037,
     "intraday_range": 0.051,
-    "pick_changes": 4
+    "pick_changes": 5
   }
 ]
