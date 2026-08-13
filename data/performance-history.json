@@ -2,11 +2,11 @@
   {
     "date": "2026-08-13",
     "total_picks": 9,
-    "decided": 2,
+    "decided": 4,
     "wins": 1,
-    "losses": 1,
-    "pending": 7,
-    "win_rate": 50.0,
+    "losses": 3,
+    "pending": 5,
+    "win_rate": 25.0,
     "plus_money_total": 3,
     "plus_money_decided": 1,
     "plus_money_wins": 0,
@@ -15,38 +15,38 @@
     "segments": {
       "all_picks": {
         "total": 9,
-        "decided": 2,
+        "decided": 4,
         "wins": 1,
-        "losses": 1,
-        "profit": -0.99,
-        "roi_pct": -0.49,
+        "losses": 3,
+        "profit": -200.99,
+        "roi_pct": -50.25,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 64.52,
+        "roi_pct": 64.52,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -59,11 +59,11 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 9,
-        "decided": 2,
+        "total": 8,
+        "decided": 3,
         "wins": 0,
-        "losses": 2,
-        "profit": -200.0,
+        "losses": 3,
+        "profit": -300.0,
         "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-08-13",
-      "snapshots": 42,
+      "snapshots": 45,
       "conf_open": 0.697,
       "conf_close": 0.702,
       "conf_max": 0.856,
