@@ -7,7 +7,7 @@
     "losses": 0,
     "pending": 9,
     "win_rate": null,
-    "plus_money_total": 4,
+    "plus_money_total": 3,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 3,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -82,20 +82,20 @@
       "loser": "Chicago Cubs",
       "pick": "OVER",
       "line": 8.56,
-      "confidence": 0.706,
-      "odds": -116,
+      "confidence": 0.856,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-13",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.697,
-      "conf_close": 0.706,
-      "conf_max": 0.847,
+      "conf_close": 0.856,
+      "conf_max": 0.856,
       "conf_min": 0.697,
-      "delta_close_open": 0.009,
-      "intraday_range": 0.15,
+      "delta_close_open": 0.159,
+      "intraday_range": 0.159,
       "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
