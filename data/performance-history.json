@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-08-14",
-    "total_picks": 13,
+    "total_picks": 14,
     "decided": 1,
     "wins": 1,
     "losses": 0,
-    "pending": 12,
+    "pending": 13,
     "win_rate": 100.0,
     "plus_money_total": 0,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 1,
         "wins": 1,
         "losses": 0,
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-08-14",
-      "snapshots": 57,
+      "snapshots": 60,
       "conf_open": 0.709,
       "conf_close": 0.652,
       "conf_max": 0.709,
