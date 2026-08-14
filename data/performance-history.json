@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Chicago Cubs",
-      "loser": "St. Louis Cardinals",
+      "winner": "New York Yankees",
+      "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 8.06,
-      "confidence": 0.709,
-      "odds": -107,
+      "line": 8.0,
+      "confidence": 0.623,
+      "odds": -102,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-14",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.709,
-      "conf_close": 0.709,
+      "conf_close": 0.623,
       "conf_max": 0.709,
-      "conf_min": 0.709,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.623,
+      "delta_close_open": -0.086,
+      "intraday_range": 0.086,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 65,
