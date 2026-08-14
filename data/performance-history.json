@@ -81,22 +81,22 @@
       "winner": "New York Yankees",
       "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 8.0,
+      "line": 7.94,
       "confidence": 0.623,
-      "odds": -102,
+      "odds": -103,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-14",
-      "snapshots": 12,
+      "snapshots": 15,
       "conf_open": 0.709,
       "conf_close": 0.623,
       "conf_max": 0.709,
       "conf_min": 0.623,
       "delta_close_open": -0.086,
       "intraday_range": 0.086,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 65,
