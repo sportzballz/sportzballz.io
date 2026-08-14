@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-08-14",
-    "total_picks": 11,
+    "total_picks": 12,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 11,
+    "pending": 12,
     "win_rate": null,
     "plus_money_total": 2,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 11,
+        "total": 12,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 11,
+        "total": 12,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -81,22 +81,22 @@
       "winner": "New York Yankees",
       "loser": "Toronto Blue Jays",
       "pick": "OVER",
-      "line": 7.94,
+      "line": 8.0,
       "confidence": 0.623,
-      "odds": -103,
+      "odds": -101,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-14",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.709,
       "conf_close": 0.623,
       "conf_max": 0.709,
       "conf_min": 0.623,
       "delta_close_open": -0.086,
       "intraday_range": 0.086,
-      "pick_changes": 2
+      "pick_changes": 3
     },
     "intraday_top_run_total_impact": {
       "sample_days": 65,
