@@ -2,12 +2,12 @@
   {
     "date": "2026-08-15",
     "total_picks": 15,
-    "decided": 0,
+    "decided": 1,
     "wins": 0,
-    "losses": 0,
-    "pending": 15,
-    "win_rate": null,
-    "plus_money_total": 4,
+    "losses": 1,
+    "pending": 14,
+    "win_rate": 0.0,
+    "plus_money_total": 6,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -42,15 +42,15 @@
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 4,
+        "total": 6,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -82,19 +82,19 @@
       "loser": "Cleveland Guardians",
       "pick": "OVER",
       "line": 8.5,
-      "confidence": 0.591,
+      "confidence": 0.567,
       "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-15",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.527,
-      "conf_close": 0.591,
+      "conf_close": 0.567,
       "conf_max": 0.591,
       "conf_min": 0.527,
-      "delta_close_open": 0.064,
+      "delta_close_open": 0.04,
       "intraday_range": 0.064,
       "pick_changes": 1
     },
