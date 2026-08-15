@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-08-15",
-    "total_picks": 14,
+    "total_picks": 15,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 14,
+    "pending": 15,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 4,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 14,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 4,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 14,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Miami Marlins",
-      "loser": "Cincinnati Reds",
+      "winner": "San Diego Padres",
+      "loser": "Cleveland Guardians",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.527,
-      "odds": -122,
+      "line": 8.5,
+      "confidence": 0.591,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-15",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.527,
-      "conf_close": 0.527,
-      "conf_max": 0.527,
+      "conf_close": 0.591,
+      "conf_max": 0.591,
       "conf_min": 0.527,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "delta_close_open": 0.064,
+      "intraday_range": 0.064,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 66,
