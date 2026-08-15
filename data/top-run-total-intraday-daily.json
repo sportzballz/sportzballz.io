@@ -804,13 +804,13 @@
   },
   {
     "date": "2026-08-15",
-    "snapshots": 18,
+    "snapshots": 21,
     "conf_open": 0.527,
-    "conf_close": 0.567,
-    "conf_max": 0.591,
+    "conf_close": 0.671,
+    "conf_max": 0.671,
     "conf_min": 0.527,
-    "delta_close_open": 0.04,
-    "intraday_range": 0.064,
-    "pick_changes": 1
+    "delta_close_open": 0.144,
+    "intraday_range": 0.144,
+    "pick_changes": 2
   }
 ]
