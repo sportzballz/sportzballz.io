@@ -18,8 +18,8 @@
         "decided": 1,
         "wins": 1,
         "losses": 0,
-        "profit": 89.29,
-        "roi_pct": 89.29,
+        "profit": 86.21,
+        "roi_pct": 86.21,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -83,13 +83,13 @@
       "pick": "OVER",
       "line": 8.5,
       "confidence": 1.145,
-      "odds": -109,
+      "odds": -107,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-17",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.775,
       "conf_close": 1.145,
       "conf_max": 1.145,
