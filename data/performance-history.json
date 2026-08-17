@@ -18,8 +18,8 @@
         "decided": 1,
         "wins": 1,
         "losses": 0,
-        "profit": 86.21,
-        "roi_pct": 86.21,
+        "profit": 89.29,
+        "roi_pct": 89.29,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-08-17",
-      "snapshots": 51,
+      "snapshots": 54,
       "conf_open": 0.775,
       "conf_close": 1.145,
       "conf_max": 1.145,
