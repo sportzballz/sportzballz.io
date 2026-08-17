@@ -826,7 +826,7 @@
   },
   {
     "date": "2026-08-17",
-    "snapshots": 12,
+    "snapshots": 15,
     "conf_open": 0.775,
     "conf_close": 0.625,
     "conf_max": 0.775,
