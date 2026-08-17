@@ -81,22 +81,22 @@
       "winner": "Colorado Rockies",
       "loser": "Los Angeles Dodgers",
       "pick": "OVER",
-      "line": 10.5,
-      "confidence": 0.625,
-      "odds": -120,
+      "line": 11.0,
+      "confidence": 0.775,
+      "odds": -101,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-17",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.775,
-      "conf_close": 0.625,
+      "conf_close": 0.775,
       "conf_max": 0.775,
       "conf_min": 0.625,
-      "delta_close_open": -0.15,
+      "delta_close_open": 0.0,
       "intraday_range": 0.15,
-      "pick_changes": 1
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 68,
