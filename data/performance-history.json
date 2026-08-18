@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Athletics",
-      "loser": "Kansas City Royals",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Colorado Rockies",
       "pick": "OVER",
-      "line": 9.0,
-      "confidence": 0.809,
-      "odds": -108,
+      "line": 11.5,
+      "confidence": 0.837,
+      "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-18",
-      "snapshots": 45,
+      "snapshots": 48,
       "conf_open": 0.601,
-      "conf_close": 0.809,
-      "conf_max": 0.809,
+      "conf_close": 0.837,
+      "conf_max": 0.837,
       "conf_min": 0.601,
-      "delta_close_open": 0.208,
-      "intraday_range": 0.208,
-      "pick_changes": 1
+      "delta_close_open": 0.236,
+      "intraday_range": 0.236,
+      "pick_changes": 2
     },
     "intraday_top_run_total_impact": {
       "sample_days": 69,
