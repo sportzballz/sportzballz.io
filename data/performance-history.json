@@ -1,12 +1,161 @@
 [
   {
+    "date": "2026-08-18",
+    "total_picks": 13,
+    "decided": 0,
+    "wins": 0,
+    "losses": 0,
+    "pending": 13,
+    "win_rate": null,
+    "plus_money_total": 2,
+    "plus_money_decided": 0,
+    "plus_money_wins": 0,
+    "plus_money_losses": 0,
+    "plus_money_win_rate": null,
+    "segments": {
+      "all_picks": {
+        "total": 13,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "fade_best_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top3_confidence_picks": {
+        "total": 3,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "plus_money_picks": {
+        "total": 2,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "run_total_picks": {
+        "total": 13,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      },
+      "top_run_total_confidence_pick": {
+        "total": 1,
+        "decided": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0,
+        "roi_pct": null,
+        "stake_per_pick": 100.0
+      }
+    },
+    "top_run_total_pick": {
+      "winner": "Colorado Rockies",
+      "loser": "Los Angeles Dodgers",
+      "pick": "OVER",
+      "line": 11.5,
+      "confidence": 0.601,
+      "odds": -114,
+      "result": "PENDING",
+      "profit": 0.0
+    },
+    "intraday_top_run_total": {
+      "date": "2026-08-18",
+      "snapshots": 3,
+      "conf_open": 0.601,
+      "conf_close": 0.601,
+      "conf_max": 0.601,
+      "conf_min": 0.601,
+      "delta_close_open": 0.0,
+      "intraday_range": 0.0,
+      "pick_changes": 0
+    },
+    "intraday_top_run_total_impact": {
+      "sample_days": 69,
+      "delta_buckets": {
+        "flat": {
+          "days": 14,
+          "wins": 5,
+          "losses": 9,
+          "profit": -453.86,
+          "win_rate_pct": 35.7
+        },
+        "down_big": {
+          "days": 10,
+          "wins": 5,
+          "losses": 5,
+          "profit": -43.48,
+          "win_rate_pct": 50.0
+        },
+        "up_big": {
+          "days": 45,
+          "wins": 16,
+          "losses": 29,
+          "profit": -1446.17,
+          "win_rate_pct": 35.6
+        }
+      },
+      "range_buckets": {
+        "low_range": {
+          "days": 5,
+          "wins": 3,
+          "losses": 2,
+          "profit": 71.98,
+          "win_rate_pct": 60.0
+        },
+        "high_range": {
+          "days": 61,
+          "wins": 22,
+          "losses": 39,
+          "profit": -1903.21,
+          "win_rate_pct": 36.1
+        },
+        "medium_range": {
+          "days": 3,
+          "wins": 1,
+          "losses": 2,
+          "profit": -112.28,
+          "win_rate_pct": 33.3
+        }
+      }
+    }
+  },
+  {
     "date": "2026-08-17",
     "total_picks": 11,
     "decided": 11,
-    "wins": 7,
-    "losses": 4,
+    "wins": 6,
+    "losses": 5,
     "pending": 0,
-    "win_rate": 63.6,
+    "win_rate": 54.5,
     "plus_money_total": 3,
     "plus_money_decided": 3,
     "plus_money_wins": 1,
@@ -16,8 +165,8 @@
       "all_picks": {
         "total": 11,
         "decided": 11,
-        "wins": 7,
-        "losses": 4,
+        "wins": 6,
+        "losses": 5,
         "profit": 138.33,
         "roi_pct": 12.58,
         "stake_per_pick": 100.0
@@ -61,8 +210,8 @@
       "run_total_picks": {
         "total": 11,
         "decided": 11,
-        "wins": 8,
-        "losses": 3,
+        "wins": 9,
+        "losses": 2,
         "profit": 441.59,
         "roi_pct": 40.14,
         "stake_per_pick": 100.0
