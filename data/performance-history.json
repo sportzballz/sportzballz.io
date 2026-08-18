@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-08-18",
-    "total_picks": 13,
+    "total_picks": 15,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 13,
+    "pending": 15,
     "win_rate": null,
-    "plus_money_total": 2,
+    "plus_money_total": 5,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
     "plus_money_losses": 0,
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 13,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -50,7 +50,7 @@
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
-        "total": 2,
+        "total": 5,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 13,
+        "total": 15,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Colorado Rockies",
-      "loser": "Los Angeles Dodgers",
+      "winner": "Athletics",
+      "loser": "Kansas City Royals",
       "pick": "OVER",
-      "line": 11.5,
-      "confidence": 0.751,
-      "odds": -117,
+      "line": 9.0,
+      "confidence": 0.809,
+      "odds": -108,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-18",
-      "snapshots": 39,
+      "snapshots": 42,
       "conf_open": 0.601,
-      "conf_close": 0.751,
-      "conf_max": 0.751,
+      "conf_close": 0.809,
+      "conf_max": 0.809,
       "conf_min": 0.601,
-      "delta_close_open": 0.15,
-      "intraday_range": 0.15,
-      "pick_changes": 0
+      "delta_close_open": 0.208,
+      "intraday_range": 0.208,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 69,
