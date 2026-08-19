@@ -848,12 +848,12 @@
   },
   {
     "date": "2026-08-19",
-    "snapshots": 54,
+    "snapshots": 57,
     "conf_open": 0.966,
-    "conf_close": 0.813,
+    "conf_close": 0.963,
     "conf_max": 0.966,
     "conf_min": 0.773,
-    "delta_close_open": -0.153,
+    "delta_close_open": -0.003,
     "intraday_range": 0.193,
     "pick_changes": 2
   }
