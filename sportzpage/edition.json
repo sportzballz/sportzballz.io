@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-20-2003",
+    "id": "2026-08-20-2009",
     "type": "late",
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T20:03:41.519592Z",
-    "data_current_through": "2026-08-20T20:03:41.519592Z",
+    "generated_at": "2026-08-20T20:09:58.398645Z",
+    "data_current_through": "2026-08-20T20:09:58.398646Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -32,7 +32,9 @@
       "away_runs:1",
       "game_id:823424"
     ],
-    "ai_generated": false
+    "ai_generated": false,
+    "source_name": null,
+    "source_url": null
   },
   "secondary_stories": [
     {
@@ -56,7 +58,9 @@
         "away_runs:7",
         "game_id:824722"
       ],
-      "ai_generated": false
+      "ai_generated": false,
+      "source_name": null,
+      "source_url": null
     },
     {
       "headline": "Los Angeles Dodgers 6, Colorado Rockies 4",
@@ -79,7 +83,9 @@
         "away_runs:6",
         "game_id:824318"
       ],
-      "ai_generated": false
+      "ai_generated": false,
+      "source_name": null,
+      "source_url": null
     },
     {
       "headline": "Pittsburgh Pirates 4, Detroit Tigers 3",
@@ -102,7 +108,9 @@
         "away_runs:3",
         "game_id:823342"
       ],
-      "ai_generated": false
+      "ai_generated": false,
+      "source_name": null,
+      "source_url": null
     },
     {
       "headline": "Cincinnati Reds 5, St. Louis Cardinals 4",
@@ -125,7 +133,9 @@
         "away_runs:4",
         "game_id:824476"
       ],
-      "ai_generated": false
+      "ai_generated": false,
+      "source_name": null,
+      "source_url": null
     },
     {
       "headline": "San Francisco Giants 1, Cleveland Guardians 0",
@@ -148,7 +158,9 @@
         "away_runs:1",
         "game_id:824394"
       ],
-      "ai_generated": false
+      "ai_generated": false,
+      "source_name": null,
+      "source_url": null
     },
     {
       "headline": "Minnesota Twins 6, Atlanta Braves 4",
@@ -171,7 +183,9 @@
         "away_runs:4",
         "game_id:823664"
       ],
-      "ai_generated": false
+      "ai_generated": false,
+      "source_name": null,
+      "source_url": null
     }
   ],
   "games": [
@@ -14997,6 +15011,8 @@
         "game_id:823424"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 823424,
       "final_score": "PHI 4, MIA 1",
       "winning_pitcher": {
@@ -15053,6 +15069,8 @@
         "game_id:824722"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 824722,
       "final_score": "AZ 7, BOS 6",
       "winning_pitcher": {
@@ -15103,6 +15121,8 @@
         "game_id:824318"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 824318,
       "final_score": "LAD 6, COL 4",
       "winning_pitcher": {
@@ -15161,6 +15181,8 @@
         "game_id:823342"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 823342,
       "final_score": "PIT 4, DET 3",
       "winning_pitcher": {
@@ -15211,6 +15233,8 @@
         "game_id:824476"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 824476,
       "final_score": "CIN 5, STL 4",
       "winning_pitcher": {
@@ -15267,6 +15291,8 @@
         "game_id:824394"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 824394,
       "final_score": "SF 1, CLE 0",
       "winning_pitcher": {
@@ -15325,6 +15351,8 @@
         "game_id:823664"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 823664,
       "final_score": "MIN 6, ATL 4",
       "winning_pitcher": {
@@ -15381,6 +15409,8 @@
         "game_id:824155"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 824155,
       "final_score": "HOU 3, LAA 2",
       "winning_pitcher": {
@@ -15437,6 +15467,8 @@
         "game_id:824640"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 824640,
       "final_score": "CWS 3, CHC 0",
       "winning_pitcher": {
@@ -15495,6 +15527,8 @@
         "game_id:822937"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 822937,
       "final_score": "TB 7, TOR 6",
       "winning_pitcher": {
@@ -15551,6 +15585,8 @@
         "game_id:824801"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 824801,
       "final_score": "NYY 5, BAL 3",
       "winning_pitcher": {
@@ -15607,6 +15643,8 @@
         "game_id:822860"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 822860,
       "final_score": "WSH 6, TEX 0",
       "winning_pitcher": {
@@ -15657,6 +15695,8 @@
         "game_id:823587"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 823587,
       "final_score": "NYM 4, SD 2",
       "winning_pitcher": {
@@ -15713,6 +15753,8 @@
         "game_id:824076"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 824076,
       "final_score": "KC 9, ATH 7",
       "winning_pitcher": {
@@ -15761,6 +15803,8 @@
         "game_id:823748"
       ],
       "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
       "game_id": 823748,
       "final_score": "SEA 7, MIL 5",
       "winning_pitcher": {
@@ -15793,7 +15837,128 @@
       "tags": []
     }
   ],
-  "around_the_league": [],
+  "around_the_league": [
+    {
+      "headline": "The 10 biggest breakouts on the new Top 100 Prospects list",
+      "deck": "MLB Pipeline gave a full refresh to its Top 100 Prospects list last week -- and each team’s Top 30 -- now that the 2026 draftees have joined their respective organizations. That makes it as good a time as any to look at the biggest breakout players in Minor Leagues.",
+      "byline": "MLB.com",
+      "paragraphs": [
+        "MLB Pipeline gave a full refresh to its Top 100 Prospects list last week -- and each team’s Top 30 -- now that the 2026 draftees have joined their respective organizations. That makes it as good a time as any to look at the biggest breakout players in Minor Leagues."
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/biggest-breakouts-on-top-100-prospects-list-2026"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "MLB Pipeline gave a full refresh to its Top 100 Prospects list last week -- and each team’s Top 30 -- now that the 2026 draftees have joined their respective organizations. That makes it as good a time as any to look at the biggest breakout players in Minor Leagues."
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/biggest-breakouts-on-top-100-prospects-list-2026"
+    },
+    {
+      "headline": "Jensen to wear special cleats designed by kids from Children's Mercy",
+      "deck": "KANSAS CITY – The pair of cleats Carter Jensen is wearing this weekend are bright and colorful, just the way he likes them. The drawings are designed to bring a smile to your face, especially once you know the artists behind each one. For Players’ Weekend this year – a",
+      "byline": "Anne Rogers",
+      "paragraphs": [
+        "KANSAS CITY – The pair of cleats Carter Jensen is wearing this weekend are bright and colorful, just the way he likes them. The drawings are designed to bring a smile to your face, especially once you know the artists behind each one. For Players’ Weekend this year – a"
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/carter-jensen-to-wear-cleats-designed-by-kids-from-children-s-mercy"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "KANSAS CITY – The pair of cleats Carter Jensen is wearing this weekend are bright and colorful, just the way he likes them. The drawings are designed to bring a smile to your face, especially once you know the artists behind each one. For Players’ Weekend this year – a"
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/carter-jensen-to-wear-cleats-designed-by-kids-from-children-s-mercy"
+    },
+    {
+      "headline": "After years of being told 'women can't play baseball,' WPBL star Denae Benites is smashing dingers and having fun",
+      "deck": "It certainly didn’t look like Opening Day. Rolling wisps of fog hung over Robin Roberts Stadium in Springfield, Ill., and a cold rain fell on the bundled up crowd who were in attendance for the opening contest of the Women’s Professional Baseball League. They were there for baseball; they were",
+      "byline": "Michael Clair",
+      "paragraphs": [
+        "It certainly didn’t look like Opening Day. Rolling wisps of fog hung over Robin Roberts Stadium in Springfield, Ill., and a cold rain fell on the bundled up crowd who were in attendance for the opening contest of the Women’s Professional Baseball League. They were there for baseball; they were"
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/denae-benites-wpbl-home-run-superstar-finally-belongs"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "It certainly didn’t look like Opening Day. Rolling wisps of fog hung over Robin Roberts Stadium in Springfield, Ill., and a cold rain fell on the bundled up crowd who were in attendance for the opening contest of the Women’s Professional Baseball League. They were there for baseball; they were"
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/denae-benites-wpbl-home-run-superstar-finally-belongs"
+    },
+    {
+      "headline": "Kinley Rasmus, the 9th girl to ever pitch in LLWS, dominates on mound (and at SS)",
+      "deck": "Before their opening game of the Little League World Series on Wednesday night against Washington, Alabama's Kinley Rasmus -- the 25th girl to ever compete in the tournament -- talked about \"Fear the Bow.\" It's a mantra she and her Phenix City teammates came up with, referring to the big",
+      "byline": "Matt Monagan",
+      "paragraphs": [
+        "Before their opening game of the Little League World Series on Wednesday night against Washington, Alabama's Kinley Rasmus -- the 25th girl to ever compete in the tournament -- talked about \"Fear the Bow.\" It's a mantra she and her Phenix City teammates came up with, referring to the big"
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/alabama-female-little-leaguer-kinley-rasmus-strikes-out-eight"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "Before their opening game of the Little League World Series on Wednesday night against Washington, Alabama's Kinley Rasmus -- the 25th girl to ever compete in the tournament -- talked about \"Fear the Bow.\" It's a mantra she and her Phenix City teammates came up with, referring to the big"
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/alabama-female-little-leaguer-kinley-rasmus-strikes-out-eight"
+    },
+    {
+      "headline": "Reds rookie in position for feat not seen in 76 years",
+      "deck": "Reds rookie slugger Sal Stewart could be on a collision course with history. With a three-run homer in an Aug. 19 win over the Cardinals, Stewart upped his RBI total to a Major League-best 94, through Cincinnati's first 127 games of the season.",
+      "byline": "Thomas Harrigan",
+      "paragraphs": [
+        "Reds rookie slugger Sal Stewart could be on a collision course with history. With a three-run homer in an Aug. 19 win over the Cardinals, Stewart upped his RBI total to a Major League-best 94, through Cincinnati's first 127 games of the season."
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/most-rbis-by-a-rookie-in-a-single-season"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "Reds rookie slugger Sal Stewart could be on a collision course with history. With a three-run homer in an Aug. 19 win over the Cardinals, Stewart upped his RBI total to a Major League-best 94, through Cincinnati's first 127 games of the season."
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/most-rbis-by-a-rookie-in-a-single-season"
+    },
+    {
+      "headline": "Chappell Roan Night is coming to her hometown team -- and Chappell Roan approves",
+      "deck": "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Wednesday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are",
+      "byline": "Josh Jackson",
+      "paragraphs": [
+        "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Wednesday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are"
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/chappell-roan-night-coming-to-springfield-cardinals"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Wednesday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are"
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/chappell-roan-night-coming-to-springfield-cardinals"
+    }
+  ],
   "transactions": [
     {
       "transaction_id": "938489",
