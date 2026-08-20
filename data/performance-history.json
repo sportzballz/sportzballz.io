@@ -2,11 +2,11 @@
   {
     "date": "2026-08-20",
     "total_picks": 9,
-    "decided": 5,
-    "wins": 3,
+    "decided": 6,
+    "wins": 4,
     "losses": 2,
-    "pending": 4,
-    "win_rate": 60.0,
+    "pending": 3,
+    "win_rate": 66.7,
     "plus_money_total": 1,
     "plus_money_decided": 0,
     "plus_money_wins": 0,
@@ -15,11 +15,11 @@
     "segments": {
       "all_picks": {
         "total": 9,
-        "decided": 5,
-        "wins": 3,
+        "decided": 6,
+        "wins": 4,
         "losses": 2,
-        "profit": 19.99,
-        "roi_pct": 4.0,
+        "profit": 97.51,
+        "roi_pct": 16.25,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-08-20",
-      "snapshots": 62,
+      "snapshots": 65,
       "conf_open": 0.529,
       "conf_close": 0.68,
       "conf_max": 0.83,
