@@ -2,11 +2,11 @@
   {
     "date": "2026-08-19",
     "total_picks": 15,
-    "decided": 6,
-    "wins": 4,
+    "decided": 10,
+    "wins": 8,
     "losses": 2,
-    "pending": 9,
-    "win_rate": 66.7,
+    "pending": 5,
+    "win_rate": 80.0,
     "plus_money_total": 7,
     "plus_money_decided": 4,
     "plus_money_wins": 3,
@@ -15,38 +15,38 @@
     "segments": {
       "all_picks": {
         "total": 15,
-        "decided": 6,
-        "wins": 4,
+        "decided": 10,
+        "wins": 8,
         "losses": 2,
-        "profit": 247.94,
-        "roi_pct": 41.32,
+        "profit": 519.19,
+        "roi_pct": 51.92,
         "stake_per_pick": 100.0
       },
       "best_confidence_pick": {
         "total": 1,
-        "decided": 0,
-        "wins": 0,
+        "decided": 1,
+        "wins": 1,
         "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "profit": 51.81,
+        "roi_pct": 51.81,
         "stake_per_pick": 100.0
       },
       "fade_best_confidence_pick": {
         "total": 1,
-        "decided": 0,
+        "decided": 1,
         "wins": 0,
-        "losses": 0,
-        "profit": 0,
-        "roi_pct": null,
+        "losses": 1,
+        "profit": -100.0,
+        "roi_pct": -100.0,
         "stake_per_pick": 100.0
       },
       "top3_confidence_picks": {
         "total": 3,
-        "decided": 1,
-        "wins": 1,
+        "decided": 2,
+        "wins": 2,
         "losses": 0,
-        "profit": 100.0,
-        "roi_pct": 100.0,
+        "profit": 151.81,
+        "roi_pct": 75.91,
         "stake_per_pick": 100.0
       },
       "plus_money_picks": {
@@ -60,11 +60,11 @@
       },
       "run_total_picks": {
         "total": 14,
-        "decided": 6,
-        "wins": 2,
-        "losses": 4,
-        "profit": -214.24,
-        "roi_pct": -35.71,
+        "decided": 9,
+        "wins": 4,
+        "losses": 5,
+        "profit": -113.15,
+        "roi_pct": -12.57,
         "stake_per_pick": 100.0
       },
       "top_run_total_confidence_pick": {
@@ -89,7 +89,7 @@
     },
     "intraday_top_run_total": {
       "date": "2026-08-19",
-      "snapshots": 67,
+      "snapshots": 69,
       "conf_open": 0.966,
       "conf_close": 0.963,
       "conf_max": 0.966,
