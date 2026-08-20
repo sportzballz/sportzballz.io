@@ -859,13 +859,13 @@
   },
   {
     "date": "2026-08-20",
-    "snapshots": 12,
+    "snapshots": 15,
     "conf_open": 0.529,
-    "conf_close": 0.5,
-    "conf_max": 0.529,
+    "conf_close": 0.8,
+    "conf_max": 0.8,
     "conf_min": 0.5,
-    "delta_close_open": -0.029,
-    "intraday_range": 0.029,
+    "delta_close_open": 0.271,
+    "intraday_range": 0.3,
     "pick_changes": 1
   }
 ]
