@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-20-1955",
-    "type": "evening",
+    "id": "2026-08-20-2003",
+    "type": "late",
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T19:55:48.736752Z",
-    "data_current_through": "2026-08-20T19:55:48.736753Z",
+    "generated_at": "2026-08-20T20:03:41.519592Z",
+    "data_current_through": "2026-08-20T20:03:41.519592Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -16460,589 +16460,2375 @@
       "verified": true
     }
   ],
-  "team_game_leaders": [
+  "team_game_leaders": [],
+  "team_season_leaders": [
     {
-      "game_id": 823342,
-      "away_abbr": "DET",
-      "home_abbr": "PIT",
-      "performers": [
+      "team_id": 143,
+      "team_abbr": "PHI",
+      "team_name": "Philadelphia Phillies",
+      "batting": [
         {
-          "player_name": "McGonigle",
-          "player_id": 805808,
-          "team_abbr": "DET",
-          "stat_line": "1-for-3, 0 R, 2 RBI",
-          "role": "batter",
-          "game_id": 823342
-        },
-        {
-          "player_name": "Jobe",
-          "player_id": 695549,
-          "team_abbr": "DET",
-          "stat_line": "5.1 IP, 1 ER, 3 K",
-          "role": "pitcher",
-          "game_id": 823342
-        },
-        {
-          "player_name": "Flores Jr.",
-          "player_id": 804668,
-          "team_abbr": "PIT",
-          "stat_line": "2-for-2, 2 R, 2 RBI",
-          "role": "batter",
-          "game_id": 823342
-        },
-        {
-          "player_name": "Montgomery, M",
-          "player_id": 682254,
-          "team_abbr": "PIT",
-          "stat_line": "1.0 IP, 0 ER, 2 K (W)",
-          "role": "pitcher",
-          "game_id": 823342
-        }
-      ]
-    },
-    {
-      "game_id": 823587,
-      "away_abbr": "SD",
-      "home_abbr": "NYM",
-      "performers": [
-        {
-          "player_name": "Tatis Jr.",
-          "player_id": 665487,
-          "team_abbr": "SD",
-          "stat_line": "1-for-3, 0 R, 1 RBI",
-          "role": "batter",
-          "game_id": 823587
-        },
-        {
-          "player_name": "King, M",
-          "player_id": 650633,
-          "team_abbr": "SD",
-          "stat_line": "6.2 IP, 2 ER, 4 K (L)",
-          "role": "pitcher",
-          "game_id": 823587
-        },
-        {
-          "player_name": "Benge",
-          "player_id": 701807,
-          "team_abbr": "NYM",
-          "stat_line": "2-for-4, 1 R, 2 RBI",
-          "role": "batter",
-          "game_id": 823587
-        },
-        {
-          "player_name": "Lavender",
-          "player_id": 681320,
-          "team_abbr": "NYM",
-          "stat_line": "1.0 IP, 0 ER, 2 K (W)",
-          "role": "pitcher",
-          "game_id": 823587
-        }
-      ]
-    },
-    {
-      "game_id": 823664,
-      "away_abbr": "ATL",
-      "home_abbr": "MIN",
-      "performers": [
-        {
-          "player_name": "Thomas, L",
-          "player_id": 657041,
-          "team_abbr": "ATL",
-          "stat_line": "1-for-2, 1 R, 1 RBI",
-          "role": "batter",
-          "game_id": 823664
-        },
-        {
-          "player_name": "Smith-Shawver",
-          "player_id": 700363,
-          "team_abbr": "ATL",
-          "stat_line": "4.1 IP, 4 ER, 3 K",
-          "role": "pitcher",
-          "game_id": 823664
-        },
-        {
-          "player_name": "Clemens",
-          "player_id": 665019,
-          "team_abbr": "MIN",
-          "stat_line": "2-for-4, 1 R, 3 RBI",
-          "role": "batter",
-          "game_id": 823664
-        },
-        {
-          "player_name": "Gómez, Y",
-          "player_id": 672782,
-          "team_abbr": "MIN",
-          "stat_line": "1.0 IP, 0 ER, 1 K (S)",
-          "role": "pitcher",
-          "game_id": 823664
-        }
-      ]
-    },
-    {
-      "game_id": 824640,
-      "away_abbr": "CWS",
-      "home_abbr": "CHC",
-      "performers": [
-        {
-          "player_name": "Montgomery, B",
-          "player_id": 695731,
-          "team_abbr": "CWS",
-          "stat_line": "2-for-4, 0 R, 2 RBI",
-          "role": "batter",
-          "game_id": 824640
-        },
-        {
-          "player_name": "Urquidy",
-          "player_id": 664353,
-          "team_abbr": "CWS",
-          "stat_line": "6.0 IP, 0 ER, 8 K (W)",
-          "role": "pitcher",
-          "game_id": 824640
-        },
-        {
-          "player_name": "Taylor, T",
-          "player_id": 621438,
-          "team_abbr": "CHC",
-          "stat_line": "2-for-2, 0 R, 0 RBI",
-          "role": "batter",
-          "game_id": 824640
-        },
-        {
-          "player_name": "Holmes, C",
-          "player_id": 605280,
-          "team_abbr": "CHC",
-          "stat_line": "5.1 IP, 1 ER, 1 K (L)",
-          "role": "pitcher",
-          "game_id": 824640
-        }
-      ]
-    },
-    {
-      "game_id": 824722,
-      "away_abbr": "AZ",
-      "home_abbr": "BOS",
-      "performers": [
-        {
-          "player_name": "Moreno",
-          "player_id": 672515,
-          "team_abbr": "AZ",
-          "stat_line": "1-for-4, 1 R, 2 RBI",
-          "role": "batter",
-          "game_id": 824722
-        },
-        {
-          "player_name": "Loáisiga",
-          "player_id": 642528,
-          "team_abbr": "AZ",
-          "stat_line": "2.0 IP, 0 ER, 0 K (W)",
-          "role": "pitcher",
-          "game_id": 824722
-        },
-        {
-          "player_name": "Gasper",
-          "player_id": 681508,
-          "team_abbr": "BOS",
-          "stat_line": "1-for-3, 1 R, 3 RBI",
-          "role": "batter",
-          "game_id": 824722
-        },
-        {
-          "player_name": "Tolle",
-          "player_id": 801139,
-          "team_abbr": "BOS",
-          "stat_line": "5.0 IP, 3 ER, 6 K",
-          "role": "pitcher",
-          "game_id": 824722
-        }
-      ]
-    },
-    {
-      "game_id": 823424,
-      "away_abbr": "MIA",
-      "home_abbr": "PHI",
-      "performers": [
-        {
-          "player_name": "Sanoja",
-          "player_id": 691594,
-          "team_abbr": "MIA",
-          "stat_line": "3-for-3, 1 R, 1 RBI",
-          "role": "batter",
-          "game_id": 823424
-        },
-        {
-          "player_name": "Alcantara, S",
-          "player_id": 645261,
-          "team_abbr": "MIA",
-          "stat_line": "6.0 IP, 3 ER, 1 K (L)",
-          "role": "pitcher",
-          "game_id": 823424
-        },
-        {
-          "player_name": "Arraez",
+          "category": "avg",
+          "label": "AVG",
           "player_id": 650333,
-          "team_abbr": "PHI",
-          "stat_line": "2-for-4, 2 R, 2 RBI",
-          "role": "batter",
-          "game_id": 823424
+          "player_name": "Luis Arraez",
+          "value": ".319"
         },
         {
-          "player_name": "Nola, A",
-          "player_id": 605400,
-          "team_abbr": "PHI",
-          "stat_line": "7.0 IP, 1 ER, 8 K (W)",
-          "role": "pitcher",
-          "game_id": 823424
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 656941,
+          "player_name": "Kyle Schwarber",
+          "value": "37"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 656941,
+          "player_name": "Kyle Schwarber",
+          "value": "74"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 656941,
+          "player_name": "Kyle Schwarber",
+          "value": ".888"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 681082,
+          "player_name": "Bryson Stott",
+          "value": "23"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 661395,
+          "player_name": "Jhoan Duran",
+          "value": "1.79"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "value": "16"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "value": "187"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 661395,
+          "player_name": "Jhoan Duran",
+          "value": "28"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 554430,
+          "player_name": "Zack Wheeler",
+          "value": "1.01"
         }
       ]
     },
     {
-      "game_id": 824801,
-      "away_abbr": "NYY",
-      "home_abbr": "BAL",
-      "performers": [
+      "team_id": 109,
+      "team_abbr": "AZ",
+      "team_name": "Arizona Diamondbacks",
+      "batting": [
         {
-          "player_name": "Lombard Jr.",
-          "player_id": 806146,
-          "team_abbr": "NYY",
-          "stat_line": "2-for-3, 0 R, 2 RBI",
-          "role": "batter",
-          "game_id": 824801
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 672515,
+          "player_name": "Gabriel Moreno",
+          "value": ".307"
         },
         {
-          "player_name": "Headrick",
-          "player_id": 687396,
-          "team_abbr": "NYY",
-          "stat_line": "1.0 IP, 0 ER, 1 K (W)",
-          "role": "pitcher",
-          "game_id": 824801
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 606466,
+          "player_name": "Ketel Marte",
+          "value": "21"
         },
         {
-          "player_name": "Alonso",
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 606466,
+          "player_name": "Ketel Marte",
+          "value": "67"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 672515,
+          "player_name": "Gabriel Moreno",
+          "value": ".855"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 682998,
+          "player_name": "Corbin Carroll",
+          "value": "17"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 666661,
+          "player_name": "Juan Morillo",
+          "value": "2.32"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 593958,
+          "player_name": "Eduardo Rodriguez",
+          "value": "12"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 593958,
+          "player_name": "Eduardo Rodriguez",
+          "value": "106"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 805299,
+          "player_name": "Brandyn Garcia",
+          "value": "4"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 805299,
+          "player_name": "Brandyn Garcia",
+          "value": "0.83"
+        }
+      ]
+    },
+    {
+      "team_id": 133,
+      "team_abbr": "ATH",
+      "team_name": "Athletics",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 622268,
+          "player_name": "Donovan Walton",
+          "value": ".285"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 669127,
+          "player_name": "Shea Langeliers",
+          "value": "23"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 701762,
+          "player_name": "Nick Kurtz",
+          "value": "69"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 701762,
+          "player_name": "Nick Kurtz",
+          "value": ".879"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 703607,
+          "player_name": "Henry Bolte",
+          "value": "14"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 665622,
+          "player_name": "Luis Medina",
+          "value": "3.51"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 669372,
+          "player_name": "J.T. Ginn",
+          "value": "8"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 669372,
+          "player_name": "J.T. Ginn",
+          "value": "114"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 663687,
+          "player_name": "Hogan Harris",
+          "value": "12"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 669372,
+          "player_name": "J.T. Ginn",
+          "value": "1.22"
+        }
+      ]
+    },
+    {
+      "team_id": 144,
+      "team_abbr": "ATL",
+      "team_name": "Atlanta Braves",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 671739,
+          "player_name": "Michael Harris II",
+          "value": ".292"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 621566,
+          "player_name": "Matt Olson",
+          "value": "36"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 621566,
+          "player_name": "Matt Olson",
+          "value": "77"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 621566,
+          "player_name": "Matt Olson",
+          "value": ".881"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 660670,
+          "player_name": "Ronald Acuña Jr.",
+          "value": "16"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 663158,
+          "player_name": "Robert Suarez",
+          "value": "0.56"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 519242,
+          "player_name": "Chris Sale",
+          "value": "12"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 519242,
+          "player_name": "Chris Sale",
+          "value": "160"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 628452,
+          "player_name": "Raisel Iglesias",
+          "value": "25"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 669276,
+          "player_name": "Dylan Lee",
+          "value": "0.77"
+        }
+      ]
+    },
+    {
+      "team_id": 110,
+      "team_abbr": "BAL",
+      "team_name": "Baltimore Orioles",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 677942,
+          "player_name": "Blaze Alexander",
+          "value": ".312"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
           "player_id": 624413,
-          "team_abbr": "BAL",
-          "stat_line": "1-for-4, 1 R, 1 RBI",
-          "role": "batter",
-          "game_id": 824801
+          "player_name": "Pete Alonso",
+          "value": "29"
         },
         {
-          "player_name": "Bassitt",
-          "player_id": 605135,
-          "team_abbr": "BAL",
-          "stat_line": "5.2 IP, 3 ER, 6 K",
-          "role": "pitcher",
-          "game_id": 824801
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 624413,
+          "player_name": "Pete Alonso",
+          "value": "82"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 624413,
+          "player_name": "Pete Alonso",
+          "value": ".857"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 665750,
+          "player_name": "Leody Taveras",
+          "value": "10"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 666974,
+          "player_name": "Yennier Cano",
+          "value": "3.24"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 687064,
+          "player_name": "Brandon Young",
+          "value": "9"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 669358,
+          "player_name": "Shane Baz",
+          "value": "132"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 664854,
+          "player_name": "Ryan Helsley",
+          "value": "8"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 670329,
+          "player_name": "Rico Garcia",
+          "value": "0.93"
         }
       ]
     },
     {
-      "game_id": 824394,
-      "away_abbr": "SF",
-      "home_abbr": "CLE",
-      "performers": [
+      "team_id": 111,
+      "team_abbr": "BOS",
+      "team_name": "Boston Red Sox",
+      "batting": [
         {
-          "player_name": "Bericoto",
-          "player_id": 682674,
-          "team_abbr": "SF",
-          "stat_line": "1-for-3, 0 R, 1 RBI",
-          "role": "batter",
-          "game_id": 824394
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 575929,
+          "player_name": "Willson Contreras",
+          "value": ".284"
         },
         {
-          "player_name": "Houser",
-          "player_id": 605288,
-          "team_abbr": "SF",
-          "stat_line": "5.0 IP, 0 ER, 3 K (W)",
-          "role": "pitcher",
-          "game_id": 824394
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 575929,
+          "player_name": "Willson Contreras",
+          "value": "25"
         },
         {
-          "player_name": "Martínez, A",
-          "player_id": 682657,
-          "team_abbr": "CLE",
-          "stat_line": "2-for-4, 0 R, 0 RBI",
-          "role": "batter",
-          "game_id": 824394
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 575929,
+          "player_name": "Willson Contreras",
+          "value": "75"
         },
         {
-          "player_name": "Messick",
-          "player_id": 800048,
-          "team_abbr": "CLE",
-          "stat_line": "6.2 IP, 1 ER, 10 K (L)",
-          "role": "pitcher",
-          "game_id": 824394
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 575929,
+          "player_name": "Willson Contreras",
+          "value": ".927"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 680776,
+          "player_name": "Jarren Duran",
+          "value": "18"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 547973,
+          "player_name": "Aroldis Chapman",
+          "value": "1.94"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 543243,
+          "player_name": "Sonny Gray",
+          "value": "15"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 801139,
+          "player_name": "Payton Tolle",
+          "value": "134"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 547973,
+          "player_name": "Aroldis Chapman",
+          "value": "27"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 676477,
+          "player_name": "Garrett Whitlock",
+          "value": "0.89"
         }
       ]
     },
     {
-      "game_id": 824476,
-      "away_abbr": "STL",
-      "home_abbr": "CIN",
-      "performers": [
+      "team_id": 112,
+      "team_abbr": "CHC",
+      "team_name": "Chicago Cubs",
+      "batting": [
         {
-          "player_name": "Walker, J",
-          "player_id": 691023,
-          "team_abbr": "STL",
-          "stat_line": "1-for-4, 1 R, 2 RBI",
-          "role": "batter",
-          "game_id": 824476
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 699393,
+          "player_name": "Pedro Ramírez",
+          "value": ".285"
         },
         {
-          "player_name": "Liberatore",
-          "player_id": 669461,
-          "team_abbr": "STL",
-          "stat_line": "6.0 IP, 3 ER, 9 K (L)",
-          "role": "pitcher",
-          "game_id": 824476
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "value": "31"
         },
         {
-          "player_name": "Stewart, S",
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "value": "79"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "value": ".928"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "value": "31"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 676962,
+          "player_name": "Ben Brown",
+          "value": "1.85"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 684007,
+          "player_name": "Shota Imanaga",
+          "value": "8"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 592332,
+          "player_name": "Kevin Gausman",
+          "value": "143"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 657097,
+          "player_name": "Jacob Webb",
+          "value": "9"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 676962,
+          "player_name": "Ben Brown",
+          "value": "0.94"
+        }
+      ]
+    },
+    {
+      "team_id": 145,
+      "team_abbr": "CWS",
+      "team_name": "Chicago White Sox",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 545341,
+          "player_name": "Randal Grichuk",
+          "value": ".277"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 808959,
+          "player_name": "Munetaka Murakami",
+          "value": "29"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 678246,
+          "player_name": "Miguel Vargas",
+          "value": "72"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 808959,
+          "player_name": "Munetaka Murakami",
+          "value": ".896"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 803011,
+          "player_name": "Sam Antonacci",
+          "value": "16"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 691799,
+          "player_name": "Grant Taylor",
+          "value": "2.05"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 641743,
+          "player_name": "Anthony Kay",
+          "value": "9"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 680732,
+          "player_name": "Sean Burke",
+          "value": "154"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 691799,
+          "player_name": "Grant Taylor",
+          "value": "7"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 691799,
+          "player_name": "Grant Taylor",
+          "value": "1.02"
+        }
+      ]
+    },
+    {
+      "team_id": 113,
+      "team_abbr": "CIN",
+      "team_name": "Cincinnati Reds",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 694362,
+          "player_name": "Blake Dunn",
+          "value": ".282"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
           "player_id": 701398,
-          "team_abbr": "CIN",
-          "stat_line": "1-for-3, 1 R, 3 RBI",
-          "role": "batter",
-          "game_id": 824476
+          "player_name": "Sal Stewart",
+          "value": "27"
         },
         {
-          "player_name": "Moll",
-          "player_id": 594580,
-          "team_abbr": "CIN",
-          "stat_line": "1.0 IP, 0 ER, 1 K (W)",
-          "role": "pitcher",
-          "game_id": 824476
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 701398,
+          "player_name": "Sal Stewart",
+          "value": "96"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 682829,
+          "player_name": "Elly De La Cruz",
+          "value": ".810"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 682829,
+          "player_name": "Elly De La Cruz",
+          "value": "22"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 695505,
+          "player_name": "Chase Burns",
+          "value": "2.51"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 695505,
+          "player_name": "Chase Burns",
+          "value": "14"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 695505,
+          "player_name": "Chase Burns",
+          "value": "159"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 641941,
+          "player_name": "Emilio Pagán",
+          "value": "16"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 670062,
+          "player_name": "Julian Garcia",
+          "value": "0.98"
         }
       ]
     },
     {
-      "game_id": 822937,
-      "away_abbr": "TOR",
-      "home_abbr": "TB",
-      "performers": [
+      "team_id": 114,
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Guardians",
+      "batting": [
         {
-          "player_name": "McAdoo",
-          "player_id": 807727,
-          "team_abbr": "TOR",
-          "stat_line": "3-for-4, 1 R, 2 RBI",
-          "role": "batter",
-          "game_id": 822937
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 800050,
+          "player_name": "Chase DeLauter",
+          "value": ".285"
         },
         {
-          "player_name": "Scherzer",
-          "player_id": 453286,
-          "team_abbr": "TOR",
-          "stat_line": "4.0 IP, 7 ER, 1 K (L)",
-          "role": "pitcher",
-          "game_id": 822937
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 666176,
+          "player_name": "Jo Adell",
+          "value": "19"
         },
         {
-          "player_name": "Díaz, Y",
-          "player_id": 650490,
-          "team_abbr": "TB",
-          "stat_line": "1-for-3, 2 R, 2 RBI",
-          "role": "batter",
-          "game_id": 822937
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 666176,
+          "player_name": "Jo Adell",
+          "value": "73"
         },
         {
-          "player_name": "Rasmussen",
-          "player_id": 656876,
-          "team_abbr": "TB",
-          "stat_line": "5.0 IP, 5 ER, 5 K (W)",
-          "role": "pitcher",
-          "game_id": 822937
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 663993,
+          "player_name": "Nathaniel Lowe",
+          "value": ".808"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 608070,
+          "player_name": "José Ramírez",
+          "value": "29"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 671922,
+          "player_name": "Cade Smith",
+          "value": "2.21"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 656492,
+          "player_name": "Foster Griffin",
+          "value": "14"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 668909,
+          "player_name": "Gavin Williams",
+          "value": "201"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 671922,
+          "player_name": "Cade Smith",
+          "value": "32"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 670059,
+          "player_name": "Colin Holderman",
+          "value": "0.92"
         }
       ]
     },
     {
-      "game_id": 824076,
-      "away_abbr": "ATH",
-      "home_abbr": "KC",
-      "performers": [
+      "team_id": 115,
+      "team_abbr": "COL",
+      "team_name": "Colorado Rockies",
+      "batting": [
         {
-          "player_name": "Muncy",
-          "player_id": 691777,
-          "team_abbr": "ATH",
-          "stat_line": "2-for-4, 2 R, 2 RBI",
-          "role": "batter",
-          "game_id": 824076
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 664983,
+          "player_name": "Jake McCarthy",
+          "value": ".295"
         },
         {
-          "player_name": "Springs",
-          "player_id": 605488,
-          "team_abbr": "ATH",
-          "stat_line": "5.2 IP, 2 ER, 1 K",
-          "role": "pitcher",
-          "game_id": 824076
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 696100,
+          "player_name": "Hunter Goodman",
+          "value": "34"
         },
         {
-          "player_name": "Rave",
-          "player_id": 670231,
-          "team_abbr": "KC",
-          "stat_line": "1-for-3, 1 R, 3 RBI",
-          "role": "batter",
-          "game_id": 824076
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 696100,
+          "player_name": "Hunter Goodman",
+          "value": "69"
         },
         {
-          "player_name": "Kimbrel",
-          "player_id": 518886,
-          "team_abbr": "KC",
-          "stat_line": "1.0 IP, 0 ER, 1 K (W)",
-          "role": "pitcher",
-          "game_id": 824076
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 696100,
+          "player_name": "Hunter Goodman",
+          "value": ".861"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 664983,
+          "player_name": "Jake McCarthy",
+          "value": "22"
         }
-      ]
-    },
-    {
-      "game_id": 823748,
-      "away_abbr": "SEA",
-      "home_abbr": "MIL",
-      "performers": [
+      ],
+      "pitching": [
         {
-          "player_name": "Naylor, J",
-          "player_id": 647304,
-          "team_abbr": "SEA",
-          "stat_line": "3-for-5, 0 R, 2 RBI",
-          "role": "batter",
-          "game_id": 823748
+          "category": "era",
+          "label": "ERA",
+          "player_id": 657514,
+          "player_name": "Brennan Bernardino",
+          "value": "2.82"
         },
         {
-          "player_name": "Gilbert, L",
-          "player_id": 669302,
-          "team_abbr": "SEA",
-          "stat_line": "5.0 IP, 3 ER, 5 K (W)",
-          "role": "pitcher",
-          "game_id": 823748
+          "category": "wins",
+          "label": "W",
+          "player_id": 608372,
+          "player_name": "Tomoyuki Sugano",
+          "value": "12"
         },
         {
-          "player_name": "Ortiz, J",
-          "player_id": 687401,
-          "team_abbr": "MIL",
-          "stat_line": "2-for-3, 1 R, 4 RBI",
-          "role": "batter",
-          "game_id": 823748
-        },
-        {
-          "player_name": "Hall, D",
-          "player_id": 669084,
-          "team_abbr": "MIL",
-          "stat_line": "3.0 IP, 0 ER, 3 K",
-          "role": "pitcher",
-          "game_id": 823748
-        }
-      ]
-    },
-    {
-      "game_id": 822860,
-      "away_abbr": "WSH",
-      "home_abbr": "TEX",
-      "performers": [
-        {
-          "player_name": "Chaparro",
-          "player_id": 665953,
-          "team_abbr": "WSH",
-          "stat_line": "3-for-4, 3 R, 3 RBI",
-          "role": "batter",
-          "game_id": 822860
-        },
-        {
-          "player_name": "Cavalli",
-          "player_id": 676917,
-          "team_abbr": "WSH",
-          "stat_line": "6.0 IP, 0 ER, 11 K (W)",
-          "role": "pitcher",
-          "game_id": 822860
-        },
-        {
-          "player_name": "Seager",
-          "player_id": 608369,
-          "team_abbr": "TEX",
-          "stat_line": "2-for-4, 0 R, 0 RBI",
-          "role": "batter",
-          "game_id": 822860
-        },
-        {
-          "player_name": "Rocker",
-          "player_id": 677958,
-          "team_abbr": "TEX",
-          "stat_line": "5.0 IP, 2 ER, 3 K (L)",
-          "role": "pitcher",
-          "game_id": 822860
-        }
-      ]
-    },
-    {
-      "game_id": 824155,
-      "away_abbr": "LAA",
-      "home_abbr": "HOU",
-      "performers": [
-        {
-          "player_name": "Guzman, D",
-          "player_id": 694203,
-          "team_abbr": "LAA",
-          "stat_line": "1-for-4, 0 R, 2 RBI",
-          "role": "batter",
-          "game_id": 824155
-        },
-        {
-          "player_name": "Ureña",
-          "player_id": 700712,
-          "team_abbr": "LAA",
-          "stat_line": "5.0 IP, 3 ER, 7 K (L)",
-          "role": "pitcher",
-          "game_id": 824155
-        },
-        {
-          "player_name": "Vázquez, C",
-          "player_id": 543877,
-          "team_abbr": "HOU",
-          "stat_line": "1-for-2, 1 R, 1 RBI",
-          "role": "batter",
-          "game_id": 824155
-        },
-        {
-          "player_name": "Sousa",
-          "player_id": 656986,
-          "team_abbr": "HOU",
-          "stat_line": "1.1 IP, 0 ER, 1 K (W)",
-          "role": "pitcher",
-          "game_id": 824155
-        }
-      ]
-    },
-    {
-      "game_id": 824318,
-      "away_abbr": "LAD",
-      "home_abbr": "COL",
-      "performers": [
-        {
-          "player_name": "Hernández, E",
-          "player_id": 571771,
-          "team_abbr": "LAD",
-          "stat_line": "2-for-4, 1 R, 3 RBI",
-          "role": "batter",
-          "game_id": 824318
-        },
-        {
-          "player_name": "Hurt",
-          "player_id": 669165,
-          "team_abbr": "LAD",
-          "stat_line": "1.0 IP, 0 ER, 2 K (W)",
-          "role": "pitcher",
-          "game_id": 824318
-        },
-        {
-          "player_name": "Moniak",
-          "player_id": 666160,
-          "team_abbr": "COL",
-          "stat_line": "3-for-5, 1 R, 2 RBI",
-          "role": "batter",
-          "game_id": 824318
-        },
-        {
-          "player_name": "Freeland, K",
+          "category": "strikeOuts",
+          "label": "SO",
           "player_id": 607536,
-          "team_abbr": "COL",
-          "stat_line": "3.2 IP, 4 ER, 5 K",
-          "role": "pitcher",
-          "game_id": 824318
+          "player_name": "Kyle Freeland",
+          "value": "103"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 605447,
+          "player_name": "Jordan Romano",
+          "value": "12"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 657514,
+          "player_name": "Brennan Bernardino",
+          "value": "1.22"
+        }
+      ]
+    },
+    {
+      "team_id": 116,
+      "team_abbr": "DET",
+      "team_name": "Detroit Tigers",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 805808,
+          "player_name": "Kevin McGonigle",
+          "value": ".282"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 693307,
+          "player_name": "Dillon Dingler",
+          "value": "26"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 693307,
+          "player_name": "Dillon Dingler",
+          "value": "82"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 682985,
+          "player_name": "Riley Greene",
+          "value": ".816"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 805808,
+          "player_name": "Kevin McGonigle",
+          "value": "12"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 675512,
+          "player_name": "Troy Melton",
+          "value": "1.71"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 672456,
+          "player_name": "Keider Montero",
+          "value": "9"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 664285,
+          "player_name": "Framber Valdez",
+          "value": "111"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 445276,
+          "player_name": "Kenley Jansen",
+          "value": "16"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 621097,
+          "player_name": "Jacob Waguespack",
+          "value": "0.83"
+        }
+      ]
+    },
+    {
+      "team_id": 117,
+      "team_abbr": "HOU",
+      "team_name": "Houston Astros",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "value": ".317"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "value": "36"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "value": "88"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "value": "1.040"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 662139,
+          "player_name": "Daulton Varsho",
+          "value": "10"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 623352,
+          "player_name": "Josh Hader",
+          "value": "0.87"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 663567,
+          "player_name": "Peter Lambert",
+          "value": "8"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 663567,
+          "player_name": "Peter Lambert",
+          "value": "117"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 623352,
+          "player_name": "Josh Hader",
+          "value": "18"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 623352,
+          "player_name": "Josh Hader",
+          "value": "0.77"
+        }
+      ]
+    },
+    {
+      "team_id": 118,
+      "team_abbr": "KC",
+      "team_name": "Kansas City Royals",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 686475,
+          "player_name": "Tyler Tolbert",
+          "value": ".309"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 695506,
+          "player_name": "Jac Caglianone",
+          "value": "22"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 695506,
+          "player_name": "Jac Caglianone",
+          "value": "60"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 686475,
+          "player_name": "Tyler Tolbert",
+          "value": ".830"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 677951,
+          "player_name": "Bobby Witt Jr.",
+          "value": "33"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 677976,
+          "player_name": "Randy Dobnak",
+          "value": "1.58"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 702070,
+          "player_name": "Noah Cameron",
+          "value": "7"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 702070,
+          "player_name": "Noah Cameron",
+          "value": "126"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 668674,
+          "player_name": "Lucas Erceg",
+          "value": "12"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 663738,
+          "player_name": "Daniel Lynch IV",
+          "value": "1.02"
+        }
+      ]
+    },
+    {
+      "team_id": 108,
+      "team_abbr": "LAA",
+      "team_name": "Los Angeles Angels",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 685133,
+          "player_name": "Wade Meckler",
+          "value": ".286"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 545361,
+          "player_name": "Mike Trout",
+          "value": "20"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 687263,
+          "player_name": "Zach Neto",
+          "value": "54"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 545361,
+          "player_name": "Mike Trout",
+          "value": ".819"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 687263,
+          "player_name": "Zach Neto",
+          "value": "17"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 696519,
+          "player_name": "Samy Natera Jr.",
+          "value": "2.00"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 700712,
+          "player_name": "Walbert Ureña",
+          "value": "8"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 672282,
+          "player_name": "Reid Detmers",
+          "value": "167"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 690829,
+          "player_name": "Ben Joyce",
+          "value": "3"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 696519,
+          "player_name": "Samy Natera Jr.",
+          "value": "0.85"
+        }
+      ]
+    },
+    {
+      "team_id": 119,
+      "team_abbr": "LAD",
+      "team_name": "Los Angeles Dodgers",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 518692,
+          "player_name": "Freddie Freeman",
+          "value": ".303"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "value": "30"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "value": "80"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "value": ".942"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 681624,
+          "player_name": "Andy Pages",
+          "value": "12"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "value": "1.79"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 808967,
+          "player_name": "Yoshinobu Yamamoto",
+          "value": "12"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 808967,
+          "player_name": "Yoshinobu Yamamoto",
+          "value": "136"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 656945,
+          "player_name": "Tanner Scott",
+          "value": "18"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 607192,
+          "player_name": "Tyler Glasnow",
+          "value": "0.83"
+        }
+      ]
+    },
+    {
+      "team_id": 146,
+      "team_abbr": "MIA",
+      "team_name": "Miami Marlins",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 672640,
+          "player_name": "Otto Lopez",
+          "value": ".308"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 681715,
+          "player_name": "Heriberto Hernández",
+          "value": "18"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 672640,
+          "player_name": "Otto Lopez",
+          "value": "54"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 665052,
+          "player_name": "Griffin Conine",
+          "value": ".913"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 665923,
+          "player_name": "Esteury Ruiz",
+          "value": "29"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 669622,
+          "player_name": "Anthony Bender",
+          "value": "2.62"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 645261,
+          "player_name": "Sandy Alcantara",
+          "value": "13"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 691587,
+          "player_name": "Eury Pérez",
+          "value": "133"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 664126,
+          "player_name": "Pete Fairbanks",
+          "value": "18"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 669622,
+          "player_name": "Anthony Bender",
+          "value": "0.96"
+        }
+      ]
+    },
+    {
+      "team_id": 158,
+      "team_abbr": "MIL",
+      "team_name": "Milwaukee Brewers",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 683734,
+          "player_name": "Andrew Vaughn",
+          "value": ".303"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 641343,
+          "player_name": "Jake Bauers",
+          "value": "22"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 668930,
+          "player_name": "Brice Turang",
+          "value": "75"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 641343,
+          "player_name": "Jake Bauers",
+          "value": ".890"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 666152,
+          "player_name": "David Hamilton",
+          "value": "24"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "value": "1.75"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 676879,
+          "player_name": "Aaron Ashby",
+          "value": "13"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "value": "210"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 656730,
+          "player_name": "Trevor Megill",
+          "value": "22"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "value": "0.75"
+        }
+      ]
+    },
+    {
+      "team_id": 142,
+      "team_abbr": "MIN",
+      "team_name": "Minnesota Twins",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 680777,
+          "player_name": "Ryan Jeffers",
+          "value": ".283"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 621439,
+          "player_name": "Byron Buxton",
+          "value": "25"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 605137,
+          "player_name": "Josh Bell",
+          "value": "77"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 680777,
+          "player_name": "Ryan Jeffers",
+          "value": ".883"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 807712,
+          "player_name": "Luke Keaschall",
+          "value": "14"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 621345,
+          "player_name": "A.J. Minter",
+          "value": "1.99"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 671737,
+          "player_name": "Taj Bradley",
+          "value": "9"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 671737,
+          "player_name": "Taj Bradley",
+          "value": "158"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 672782,
+          "player_name": "Yoendrys Gómez",
+          "value": "20"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 621345,
+          "player_name": "A.J. Minter",
+          "value": "0.95"
+        }
+      ]
+    },
+    {
+      "team_id": 121,
+      "team_abbr": "NYM",
+      "team_name": "New York Mets",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 665742,
+          "player_name": "Juan Soto",
+          "value": ".283"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 665742,
+          "player_name": "Juan Soto",
+          "value": "21"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 666182,
+          "player_name": "Bo Bichette",
+          "value": "64"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 665742,
+          "player_name": "Juan Soto",
+          "value": ".947"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 701807,
+          "player_name": "Carson Benge",
+          "value": "18"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 650960,
+          "player_name": "Daniel Duarte",
+          "value": "0.84"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 690997,
+          "player_name": "Nolan McLean",
+          "value": "9"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 690997,
+          "player_name": "Nolan McLean",
+          "value": "162"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 642207,
+          "player_name": "Devin Williams",
+          "value": "16"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 650960,
+          "player_name": "Daniel Duarte",
+          "value": "0.61"
+        }
+      ]
+    },
+    {
+      "team_id": 147,
+      "team_abbr": "NYY",
+      "team_name": "New York Yankees",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 671277,
+          "player_name": "Luis García Jr.",
+          "value": ".275"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 700250,
+          "player_name": "Ben Rice",
+          "value": "34"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 671277,
+          "player_name": "Luis García Jr.",
+          "value": "79"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 592450,
+          "player_name": "Aaron Judge",
+          "value": ".908"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 665862,
+          "player_name": "Jazz Chisholm Jr.",
+          "value": "33"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 687396,
+          "player_name": "Brent Headrick",
+          "value": "1.55"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "value": "10"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "value": "189"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 670280,
+          "player_name": "David Bednar",
+          "value": "29"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "value": "0.94"
+        }
+      ]
+    },
+    {
+      "team_id": 134,
+      "team_abbr": "PIT",
+      "team_name": "Pittsburgh Pirates",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 693304,
+          "player_name": "Nick Gonzales",
+          "value": ".310"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 664040,
+          "player_name": "Brandon Lowe",
+          "value": "27"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 664040,
+          "player_name": "Brandon Lowe",
+          "value": "80"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 699013,
+          "player_name": "Esmerlyn Valdez",
+          "value": ".888"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 665833,
+          "player_name": "Oneil Cruz",
+          "value": "22"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 596133,
+          "player_name": "Luke Weaver",
+          "value": "2.25"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 677952,
+          "player_name": "Braxton Ashcraft",
+          "value": "13"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 694973,
+          "player_name": "Paul Skenes",
+          "value": "171"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 642397,
+          "player_name": "Gregory Soto",
+          "value": "14"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 596133,
+          "player_name": "Luke Weaver",
+          "value": "0.88"
+        }
+      ]
+    },
+    {
+      "team_id": 135,
+      "team_abbr": "SD",
+      "team_name": "San Diego Padres",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 669392,
+          "player_name": "Samad Taylor",
+          "value": ".330"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 592518,
+          "player_name": "Manny Machado",
+          "value": "24"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 592518,
+          "player_name": "Manny Machado",
+          "value": "71"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 669134,
+          "player_name": "Luis Campusano",
+          "value": ".904"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 665487,
+          "player_name": "Fernando Tatis Jr.",
+          "value": "28"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 695243,
+          "player_name": "Mason Miller",
+          "value": "0.86"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 592662,
+          "player_name": "Robbie Ray",
+          "value": "11"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 650633,
+          "player_name": "Michael King",
+          "value": "128"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 695243,
+          "player_name": "Mason Miller",
+          "value": "31"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 695243,
+          "player_name": "Mason Miller",
+          "value": "0.82"
+        }
+      ]
+    },
+    {
+      "team_id": 137,
+      "team_abbr": "SF",
+      "team_name": "San Francisco Giants",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 808982,
+          "player_name": "Jung Hoo Lee",
+          "value": ".293"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 646240,
+          "player_name": "Rafael Devers",
+          "value": "25"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 646240,
+          "player_name": "Rafael Devers",
+          "value": "69"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 646240,
+          "player_name": "Rafael Devers",
+          "value": ".790"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 669477,
+          "player_name": "Casey Schmitt",
+          "value": "9"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 681916,
+          "player_name": "Dylan Smith",
+          "value": "2.73"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 657277,
+          "player_name": "Logan Webb",
+          "value": "8"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 694738,
+          "player_name": "Landen Roupp",
+          "value": "130"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 681916,
+          "player_name": "Dylan Smith",
+          "value": "3"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 657277,
+          "player_name": "Logan Webb",
+          "value": "1.06"
+        }
+      ]
+    },
+    {
+      "team_id": 136,
+      "team_abbr": "SEA",
+      "team_name": "Seattle Mariners",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 668227,
+          "player_name": "Randy Arozarena",
+          "value": ".273"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 686527,
+          "player_name": "Dominic Canzone",
+          "value": "19"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 702284,
+          "player_name": "Cole Young",
+          "value": "56"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 686527,
+          "player_name": "Dominic Canzone",
+          "value": ".836"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 647304,
+          "player_name": "Josh Naylor",
+          "value": "25"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 642100,
+          "player_name": "Gabe Speier",
+          "value": "2.76"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 669302,
+          "player_name": "Logan Gilbert",
+          "value": "10"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 669302,
+          "player_name": "Logan Gilbert",
+          "value": "157"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 662253,
+          "player_name": "Andrés Muñoz",
+          "value": "23"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 669302,
+          "player_name": "Logan Gilbert",
+          "value": "1.01"
+        }
+      ]
+    },
+    {
+      "team_id": 138,
+      "team_abbr": "STL",
+      "team_name": "St. Louis Cardinals",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 676475,
+          "player_name": "Alec Burleson",
+          "value": ".288"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 691023,
+          "player_name": "Jordan Walker",
+          "value": "26"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 691023,
+          "player_name": "Jordan Walker",
+          "value": "94"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 691023,
+          "player_name": "Jordan Walker",
+          "value": ".854"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 691023,
+          "player_name": "Jordan Walker",
+          "value": "17"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 676617,
+          "player_name": "Riley O'Brien",
+          "value": "2.94"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 669467,
+          "player_name": "Andre Pallante",
+          "value": "12"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 669461,
+          "player_name": "Matthew Liberatore",
+          "value": "125"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 676617,
+          "player_name": "Riley O'Brien",
+          "value": "33"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 700669,
+          "player_name": "Gordon Graceffo",
+          "value": "1.10"
+        }
+      ]
+    },
+    {
+      "team_id": 139,
+      "team_abbr": "TB",
+      "team_name": "Tampa Bay Rays",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 802415,
+          "player_name": "Chandler Simpson",
+          "value": ".309"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 691406,
+          "player_name": "Junior Caminero",
+          "value": "35"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 691406,
+          "player_name": "Junior Caminero",
+          "value": "81"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 691406,
+          "player_name": "Junior Caminero",
+          "value": ".896"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 802415,
+          "player_name": "Chandler Simpson",
+          "value": "35"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 641329,
+          "player_name": "Bryan Baker",
+          "value": "1.44"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 656876,
+          "player_name": "Drew Rasmussen",
+          "value": "13"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 656876,
+          "player_name": "Drew Rasmussen",
+          "value": "138"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 641329,
+          "player_name": "Bryan Baker",
+          "value": "36"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 592155,
+          "player_name": "Cam Booser",
+          "value": "0.83"
+        }
+      ]
+    },
+    {
+      "team_id": 140,
+      "team_abbr": "TEX",
+      "team_name": "Texas Rangers",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 673962,
+          "player_name": "Josh Jung",
+          "value": ".294"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 592626,
+          "player_name": "Joc Pederson",
+          "value": "22"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 669394,
+          "player_name": "Jake Burger",
+          "value": "73"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 592626,
+          "player_name": "Joc Pederson",
+          "value": ".817"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 694497,
+          "player_name": "Evan Carter",
+          "value": "14"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 656641,
+          "player_name": "Jacob Latz",
+          "value": "1.77"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 543135,
+          "player_name": "Nathan Eovaldi",
+          "value": "10"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 669022,
+          "player_name": "MacKenzie Gore",
+          "value": "154"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 656641,
+          "player_name": "Jacob Latz",
+          "value": "24"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 656641,
+          "player_name": "Jacob Latz",
+          "value": "0.73"
+        }
+      ]
+    },
+    {
+      "team_id": 141,
+      "team_abbr": "TOR",
+      "team_name": "Toronto Blue Jays",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 676391,
+          "player_name": "Ernie Clement",
+          "value": ".285"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 672960,
+          "player_name": "Kazuma Okamoto",
+          "value": "26"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 672960,
+          "player_name": "Kazuma Okamoto",
+          "value": "74"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 672386,
+          "player_name": "Alejandro Kirk",
+          "value": ".788"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 665926,
+          "player_name": "Andrés Giménez",
+          "value": "19"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 686973,
+          "player_name": "Louis Varland",
+          "value": "1.24"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 667755,
+          "player_name": "José Soriano",
+          "value": "10"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 656302,
+          "player_name": "Dylan Cease",
+          "value": "201"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 686973,
+          "player_name": "Louis Varland",
+          "value": "28"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 686973,
+          "player_name": "Louis Varland",
+          "value": "0.98"
+        }
+      ]
+    },
+    {
+      "team_id": 120,
+      "team_abbr": "WSH",
+      "team_name": "Washington Nationals",
+      "batting": [
+        {
+          "category": "avg",
+          "label": "AVG",
+          "player_id": 660688,
+          "player_name": "Keibert Ruiz",
+          "value": ".279"
+        },
+        {
+          "category": "homeRuns",
+          "label": "HR",
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "value": "30"
+        },
+        {
+          "category": "rbi",
+          "label": "RBI",
+          "player_id": 682928,
+          "player_name": "CJ Abrams",
+          "value": "91"
+        },
+        {
+          "category": "ops",
+          "label": "OPS",
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "value": ".928"
+        },
+        {
+          "category": "stolenBases",
+          "label": "SB",
+          "player_id": 683083,
+          "player_name": "Nasim Nuñez",
+          "value": "40"
+        }
+      ],
+      "pitching": [
+        {
+          "category": "era",
+          "label": "ERA",
+          "player_id": 676571,
+          "player_name": "PJ Poulin",
+          "value": "2.70"
+        },
+        {
+          "category": "wins",
+          "label": "W",
+          "player_id": 676917,
+          "player_name": "Cade Cavalli",
+          "value": "11"
+        },
+        {
+          "category": "strikeOuts",
+          "label": "SO",
+          "player_id": 676917,
+          "player_name": "Cade Cavalli",
+          "value": "162"
+        },
+        {
+          "category": "saves",
+          "label": "SV",
+          "player_id": 690925,
+          "player_name": "Clayton Beeter",
+          "value": "12"
+        },
+        {
+          "category": "whip",
+          "label": "WHIP",
+          "player_id": 702021,
+          "player_name": "Will Dion",
+          "value": "1.05"
         }
       ]
     }
