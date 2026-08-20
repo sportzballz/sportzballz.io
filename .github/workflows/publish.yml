@@ -34,7 +34,7 @@ jobs:
 
         mkdir -p "$SITE_ROOT/sportzpage/static"
         cp build/index.html build/edition.json "$SITE_ROOT/sportzpage/"
-        cp -R static/css static/js "$SITE_ROOT/sportzpage/static/"
+        cp -R static/. "$SITE_ROOT/sportzpage/static/"
 
     - name: Upload the main website
       if: github.event_name == 'push'
