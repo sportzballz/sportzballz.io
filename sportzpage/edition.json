@@ -1,0 +1,6871 @@
+{
+  "edition": {
+    "id": "2026-08-20-1727",
+    "type": "evening",
+    "date": "2026-08-20",
+    "generated_at": "2026-08-20T17:27:45.410414Z",
+    "data_current_through": "2026-08-20T17:27:45.410414Z",
+    "timezone": "America/New_York",
+    "status": "draft"
+  },
+  "lead_story": {
+    "headline": "Philadelphia Phillies 4, Miami Marlins 1",
+    "deck": "Final: PHI 4, MIA 1",
+    "byline": "SportzBallz Staff",
+    "paragraphs": [
+      "The Philadelphia Phillies defeated the Miami Marlins 4–1. Aaron Nola earned the win. Jhoan Duran recorded the save."
+    ],
+    "source_data_references": [
+      "game:823424"
+    ],
+    "story_type": "lead",
+    "teams": [
+      "PHI",
+      "MIA"
+    ],
+    "players": [],
+    "facts_used": [
+      "home_runs:4",
+      "away_runs:1",
+      "game_id:823424"
+    ],
+    "ai_generated": false
+  },
+  "secondary_stories": [
+    {
+      "headline": "Arizona Diamondbacks 7, Boston Red Sox 6",
+      "deck": "Final: AZ 7, BOS 6",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Arizona Diamondbacks defeated the Boston Red Sox 7–6 in extra innings. Jonathan Loáisiga earned the win."
+      ],
+      "source_data_references": [
+        "game:824722"
+      ],
+      "story_type": "secondary",
+      "teams": [
+        "BOS",
+        "AZ"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:6",
+        "away_runs:7",
+        "game_id:824722"
+      ],
+      "ai_generated": false
+    },
+    {
+      "headline": "Los Angeles Dodgers 6, Colorado Rockies 4",
+      "deck": "Final: LAD 6, COL 4",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Los Angeles Dodgers defeated the Colorado Rockies 6–4 in extra innings. Kyle Hurt earned the win. Tanner Scott recorded the save."
+      ],
+      "source_data_references": [
+        "game:824318"
+      ],
+      "story_type": "secondary",
+      "teams": [
+        "COL",
+        "LAD"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:4",
+        "away_runs:6",
+        "game_id:824318"
+      ],
+      "ai_generated": false
+    },
+    {
+      "headline": "Pittsburgh Pirates 4, Detroit Tigers 3",
+      "deck": "Final: PIT 4, DET 3",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Pittsburgh Pirates defeated the Detroit Tigers 4–3 in walk-off fashion. Mason Montgomery earned the win."
+      ],
+      "source_data_references": [
+        "game:823342"
+      ],
+      "story_type": "secondary",
+      "teams": [
+        "PIT",
+        "DET"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:4",
+        "away_runs:3",
+        "game_id:823342"
+      ],
+      "ai_generated": false
+    },
+    {
+      "headline": "Cincinnati Reds 5, St. Louis Cardinals 4",
+      "deck": "Final: CIN 5, STL 4",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Cincinnati Reds defeated the St. Louis Cardinals 5–4. Sam Moll earned the win. Emilio Pagán recorded the save."
+      ],
+      "source_data_references": [
+        "game:824476"
+      ],
+      "story_type": "secondary",
+      "teams": [
+        "CIN",
+        "STL"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:5",
+        "away_runs:4",
+        "game_id:824476"
+      ],
+      "ai_generated": false
+    },
+    {
+      "headline": "San Francisco Giants 1, Cleveland Guardians 0",
+      "deck": "Final: SF 1, CLE 0",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The San Francisco Giants defeated the Cleveland Guardians 1–0. Adrian Houser earned the win. Dylan Smith recorded the save."
+      ],
+      "source_data_references": [
+        "game:824394"
+      ],
+      "story_type": "secondary",
+      "teams": [
+        "CLE",
+        "SF"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:0",
+        "away_runs:1",
+        "game_id:824394"
+      ],
+      "ai_generated": false
+    },
+    {
+      "headline": "Minnesota Twins 6, Atlanta Braves 4",
+      "deck": "Final: MIN 6, ATL 4",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Minnesota Twins defeated the Atlanta Braves 6–4. A.J. Minter earned the win. Yoendrys Gómez recorded the save."
+      ],
+      "source_data_references": [
+        "game:823664"
+      ],
+      "story_type": "secondary",
+      "teams": [
+        "MIN",
+        "ATL"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:6",
+        "away_runs:4",
+        "game_id:823664"
+      ],
+      "ai_generated": false
+    }
+  ],
+  "games": [
+    {
+      "game_id": 823342,
+      "game_date": "2026-08-19",
+      "game_time_et": "12:35 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Bottom",
+      "home": {
+        "team_id": 134,
+        "team_abbr": "PIT",
+        "team_name": "Pittsburgh Pirates",
+        "runs": 4,
+        "hits": 8,
+        "errors": 2
+      },
+      "away": {
+        "team_id": 116,
+        "team_abbr": "DET",
+        "team_name": "Detroit Tigers",
+        "runs": 3,
+        "hits": 7,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 2,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": 2
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 694973,
+        "name": "Paul Skenes",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 695549,
+        "name": "Jackson Jobe",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 682254,
+        "name": "Mason Montgomery",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 445276,
+        "name": "Kenley Jansen",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": null,
+      "venue_name": "PNC Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "SportsNet Pittsburgh",
+        "Detroit SportsNet",
+        "100.1 FM/KDKA-AM 1020",
+        "WXYT 97.1 FM"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [
+        "walk-off"
+      ],
+      "series_description": null,
+      "recap_anchor": "recap-823342",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 823587,
+      "game_date": "2026-08-19",
+      "game_time_et": "1:10 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Top",
+      "home": {
+        "team_id": 121,
+        "team_abbr": "NYM",
+        "team_name": "New York Mets",
+        "runs": 4,
+        "hits": 7,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 135,
+        "team_abbr": "SD",
+        "team_name": "San Diego Padres",
+        "runs": 2,
+        "hits": 5,
+        "errors": 1
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 2
+        },
+        {
+          "inning": 5,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 2
+        },
+        {
+          "inning": 9,
+          "away_runs": 1,
+          "home_runs": null
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 476594,
+        "name": "Robert Stock",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 650633,
+        "name": "Michael King",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 681320,
+        "name": "Nate Lavender",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 650633,
+        "name": "Michael King",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 673540,
+        "name": "Kodai Senga",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Citi Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "SNY",
+        "Padres.TV Presented by UC San Diego Health",
+        "Audacy Mets Radio WHSQ 880AM",
+        "KWFN 97.3",
+        "XEMO 860",
+        "Audacy App 92.3 HD2"
+      ],
+      "weather_description": "Sunny",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823587",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 823664,
+      "game_date": "2026-08-19",
+      "game_time_et": "1:40 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Top",
+      "home": {
+        "team_id": 142,
+        "team_abbr": "MIN",
+        "team_name": "Minnesota Twins",
+        "runs": 6,
+        "hits": 10,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 144,
+        "team_abbr": "ATL",
+        "team_name": "Atlanta Braves",
+        "runs": 4,
+        "hits": 7,
+        "errors": 1
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 1,
+          "home_runs": 3
+        },
+        {
+          "inning": 6,
+          "away_runs": 3,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 2
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": null
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 671737,
+        "name": "Taj Bradley",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 700363,
+        "name": "AJ Smith-Shawver",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 621345,
+        "name": "A.J. Minter",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 682989,
+        "name": "Victor Mederos",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 672782,
+        "name": "Yoendrys Gómez",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Target Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "BravesVision",
+        "680 AM/93.7 FM The Fan",
+        "TIBN",
+        "Twins.TV Presented by Progressive",
+        "WCCO 830",
+        "The Wolf 102.9 FM",
+        "Los Bravos",
+        "Audacy App"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823664",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 824640,
+      "game_date": "2026-08-19",
+      "game_time_et": "2:20 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Bottom",
+      "home": {
+        "team_id": 112,
+        "team_abbr": "CHC",
+        "team_name": "Chicago Cubs",
+        "runs": 0,
+        "hits": 2,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 145,
+        "team_abbr": "CWS",
+        "team_name": "Chicago White Sox",
+        "runs": 3,
+        "hits": 9,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 2,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": 0
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 605280,
+        "name": "Clay Holmes",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 656794,
+        "name": "Sean Newcomb",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 664353,
+        "name": "José Urquidy",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 605280,
+        "name": "Clay Holmes",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 691799,
+        "name": "Grant Taylor",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Wrigley Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "104.3 The Score",
+        "Marquee Sports Network",
+        "Chicago Sports Network",
+        "ESPN Chicago WMVP 1000 AM",
+        "TUDN",
+        "WPPN 106.7 / TUDN"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [
+        "shutout"
+      ],
+      "series_description": null,
+      "recap_anchor": "recap-824640",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 824722,
+      "game_date": "2026-08-19",
+      "game_time_et": "4:10 PM ET",
+      "status": "final",
+      "inning": 10,
+      "inning_state": "Bottom",
+      "home": {
+        "team_id": 111,
+        "team_abbr": "BOS",
+        "team_name": "Boston Red Sox",
+        "runs": 6,
+        "hits": 9,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 109,
+        "team_abbr": "AZ",
+        "team_name": "Arizona Diamondbacks",
+        "runs": 7,
+        "hits": 10,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 3,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 2,
+          "home_runs": 3
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 10,
+          "away_runs": 2,
+          "home_runs": 1
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 801139,
+        "name": "Payton Tolle",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 694297,
+        "name": "Brandon Pfaadt",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 642528,
+        "name": "Jonathan Loáisiga",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 663558,
+        "name": "Jovani Morán",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": null,
+      "venue_name": "Fenway Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "DBACKS.TV",
+        "Arizona Sports 98.7 FM",
+        "NESN",
+        "WEEI 93.7",
+        "WCCM 1490 AM (SP)",
+        "WESX 1230 AM (SP)",
+        "La Campesina 101.9 FM & 860 AM"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [
+        "extra-inning"
+      ],
+      "series_description": null,
+      "recap_anchor": "recap-824722",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 823424,
+      "game_date": "2026-08-19",
+      "game_time_et": "6:05 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Top",
+      "home": {
+        "team_id": 143,
+        "team_abbr": "PHI",
+        "team_name": "Philadelphia Phillies",
+        "runs": 4,
+        "hits": 10,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 146,
+        "team_abbr": "MIA",
+        "team_name": "Miami Marlins",
+        "runs": 1,
+        "hits": 7,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 2
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": null
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 605400,
+        "name": "Aaron Nola",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 645261,
+        "name": "Sandy Alcantara",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 605400,
+        "name": "Aaron Nola",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 645261,
+        "name": "Sandy Alcantara",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 661395,
+        "name": "Jhoan Duran",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Citizens Bank Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "NBCSP",
+        "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+        "560AM WQAM",
+        "94 WIP",
+        "iHeart App",
+        "WAQI 710"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823424",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 824801,
+      "game_date": "2026-08-19",
+      "game_time_et": "6:35 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Bottom",
+      "home": {
+        "team_id": 110,
+        "team_abbr": "BAL",
+        "team_name": "Baltimore Orioles",
+        "runs": 3,
+        "hits": 6,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 147,
+        "team_abbr": "NYY",
+        "team_name": "New York Yankees",
+        "runs": 5,
+        "hits": 10,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 2,
+          "away_runs": 2,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 1,
+          "home_runs": 1
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 2,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": 0
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 605135,
+        "name": "Chris Bassitt",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 701542,
+        "name": "Will Warren",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 687396,
+        "name": "Brent Headrick",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 676742,
+        "name": "Cam Sanders",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 670280,
+        "name": "David Bednar",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Oriole Park at Camden Yards",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "MASN",
+        "Amazon Prime Video",
+        "WFAN 660/101.9 FM",
+        "98 Rock 97.9 FM",
+        "MLB Network",
+        "WADO 1280",
+        "MLB Network",
+        "WBAL 1090 AM"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824801",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 824394,
+      "game_date": "2026-08-19",
+      "game_time_et": "6:40 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Bottom",
+      "home": {
+        "team_id": 114,
+        "team_abbr": "CLE",
+        "team_name": "Cleveland Guardians",
+        "runs": 0,
+        "hits": 6,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 137,
+        "team_abbr": "SF",
+        "team_name": "San Francisco Giants",
+        "runs": 1,
+        "hits": 7,
+        "errors": 1
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": 0
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 800048,
+        "name": "Parker Messick",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 683363,
+        "name": "Matt Wilkinson",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 605288,
+        "name": "Adrian Houser",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 800048,
+        "name": "Parker Messick",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 681916,
+        "name": "Dylan Smith",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Progressive Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "KNBR 680",
+        "WTAM 1100",
+        "NBCS BA",
+        "Guardians.TV Presented by Progressive",
+        "WMMS 100.7",
+        "1510 AM - KSFN",
+        "WARF 1350",
+        "Guardians Radio Network"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [
+        "shutout"
+      ],
+      "series_description": null,
+      "recap_anchor": "recap-824394",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 824476,
+      "game_date": "2026-08-19",
+      "game_time_et": "6:40 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Top",
+      "home": {
+        "team_id": 113,
+        "team_abbr": "CIN",
+        "team_name": "Cincinnati Reds",
+        "runs": 5,
+        "hits": 7,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 138,
+        "team_abbr": "STL",
+        "team_name": "St. Louis Cardinals",
+        "runs": 4,
+        "hits": 9,
+        "errors": 1
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 2,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 3
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 2
+        },
+        {
+          "inning": 9,
+          "away_runs": 2,
+          "home_runs": null
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 695505,
+        "name": "Chase Burns",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 669461,
+        "name": "Matthew Liberatore",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 594580,
+        "name": "Sam Moll",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 669461,
+        "name": "Matthew Liberatore",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 641941,
+        "name": "Emilio Pagán",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Great American Ball Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Reds.TV",
+        "Cardinals.TV Presented by bet365",
+        "KMOX 1120 AM/104.1 FM",
+        "WLW 700"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824476",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 822937,
+      "game_date": "2026-08-19",
+      "game_time_et": "6:40 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Top",
+      "home": {
+        "team_id": 139,
+        "team_abbr": "TB",
+        "team_name": "Tampa Bay Rays",
+        "runs": 7,
+        "hits": 8,
+        "errors": 1
+      },
+      "away": {
+        "team_id": 141,
+        "team_abbr": "TOR",
+        "team_name": "Toronto Blue Jays",
+        "runs": 6,
+        "hits": 9,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 2
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 1,
+          "home_runs": 5
+        },
+        {
+          "inning": 5,
+          "away_runs": 4,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": null
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 656876,
+        "name": "Drew Rasmussen",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 453286,
+        "name": "Max Scherzer",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 656876,
+        "name": "Drew Rasmussen",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 453286,
+        "name": "Max Scherzer",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 641329,
+        "name": "Bryan Baker",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Tropicana Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Sportsnet",
+        "Rays.TV",
+        "WDAE 95.7 FM",
+        "SN590 THE FAN",
+        "TVA Sports",
+        "WQBN/1300AM"
+      ],
+      "weather_description": "Dome",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-822937",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 824076,
+      "game_date": "2026-08-19",
+      "game_time_et": "7:40 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Top",
+      "home": {
+        "team_id": 118,
+        "team_abbr": "KC",
+        "team_name": "Kansas City Royals",
+        "runs": 9,
+        "hits": 11,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 133,
+        "team_abbr": "ATH",
+        "team_name": "Athletics",
+        "runs": 7,
+        "hits": 11,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 2,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 5,
+          "away_runs": 3,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 7
+        },
+        {
+          "inning": 9,
+          "away_runs": 2,
+          "home_runs": null
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 607625,
+        "name": "Seth Lugo",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 605488,
+        "name": "Jeffrey Springs",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 518886,
+        "name": "Craig Kimbrel",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 680723,
+        "name": "Drew Rom",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": null,
+      "venue_name": "Kauffman Stadium",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "NBCSCA",
+        "Royals.TV",
+        "96.5 The Fan",
+        "Talk 650 KSTE",
+        "Royals Radio Network",
+        "A's Cast"
+      ],
+      "weather_description": "Clear",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824076",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 823748,
+      "game_date": "2026-08-19",
+      "game_time_et": "7:40 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Bottom",
+      "home": {
+        "team_id": 158,
+        "team_abbr": "MIL",
+        "team_name": "Milwaukee Brewers",
+        "runs": 5,
+        "hits": 8,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 136,
+        "team_abbr": "SEA",
+        "team_name": "Seattle Mariners",
+        "runs": 7,
+        "hits": 10,
+        "errors": 2
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 4,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 3,
+          "home_runs": 2
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 2
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": 0
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 669160,
+        "name": "Dustin May",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 669302,
+        "name": "Logan Gilbert",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 669302,
+        "name": "Logan Gilbert",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 669160,
+        "name": "Dustin May",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 662253,
+        "name": "Andrés Muñoz",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "American Family Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Brewers.TV Presented by Potawatomi Sportsbook",
+        "Mariners.TV",
+        "Seattle Sports (710 AM)",
+        "WTMJ 620"
+      ],
+      "weather_description": "Partly Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823748",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 822860,
+      "game_date": "2026-08-20",
+      "game_time_et": "8:05 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Bottom",
+      "home": {
+        "team_id": 140,
+        "team_abbr": "TEX",
+        "team_name": "Texas Rangers",
+        "runs": 0,
+        "hits": 4,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 120,
+        "team_abbr": "WSH",
+        "team_name": "Washington Nationals",
+        "runs": 6,
+        "hits": 10,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 3,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": 0
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 677958,
+        "name": "Kumar Rocker",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 676917,
+        "name": "Cade Cavalli",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 676917,
+        "name": "Cade Cavalli",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 677958,
+        "name": "Kumar Rocker",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": null,
+      "venue_name": "Globe Life Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Rangers Sports Network, presented by Progressive",
+        "Nationals.TV",
+        "105.3 The Fan",
+        "WJFK 106.7 The Fan",
+        "KFLC 1270"
+      ],
+      "weather_description": "Roof Closed",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [
+        "shutout"
+      ],
+      "series_description": null,
+      "recap_anchor": "recap-822860",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 824155,
+      "game_date": "2026-08-20",
+      "game_time_et": "8:10 PM ET",
+      "status": "final",
+      "inning": 9,
+      "inning_state": "Top",
+      "home": {
+        "team_id": 117,
+        "team_abbr": "HOU",
+        "team_name": "Houston Astros",
+        "runs": 3,
+        "hits": 5,
+        "errors": 1
+      },
+      "away": {
+        "team_id": 108,
+        "team_abbr": "LAA",
+        "team_name": "Los Angeles Angels",
+        "runs": 2,
+        "hits": 5,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 1
+        },
+        {
+          "inning": 4,
+          "away_runs": 2,
+          "home_runs": 2
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": null
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 814490,
+        "name": "Ethan Pecko",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 700712,
+        "name": "Walbert Ureña",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 656986,
+        "name": "Bennett Sousa",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 700712,
+        "name": "Walbert Ureña",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 623352,
+        "name": "Josh Hader",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Daikin Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "KLAA 830",
+        "Space City Home Network",
+        "ABTV, presented by Pechanga Resort Casino",
+        "KBME 790 AM/94.5 FM HD-2",
+        "KLTN-TUDN 102.9 FM"
+      ],
+      "weather_description": "Roof Closed",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824155",
+      "batting_lines": {},
+      "pitching_lines": {}
+    },
+    {
+      "game_id": 824318,
+      "game_date": "2026-08-20",
+      "game_time_et": "8:40 PM ET",
+      "status": "final",
+      "inning": 10,
+      "inning_state": "Bottom",
+      "home": {
+        "team_id": 115,
+        "team_abbr": "COL",
+        "team_name": "Colorado Rockies",
+        "runs": 4,
+        "hits": 9,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 119,
+        "team_abbr": "LAD",
+        "team_name": "Los Angeles Dodgers",
+        "runs": 6,
+        "hits": 11,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 1,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 4,
+          "away_runs": 3,
+          "home_runs": 2
+        },
+        {
+          "inning": 5,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 6,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 7,
+          "away_runs": 0,
+          "home_runs": 2
+        },
+        {
+          "inning": 8,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 9,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 10,
+          "away_runs": 2,
+          "home_runs": 0
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 607536,
+        "name": "Kyle Freeland",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 808963,
+        "name": "Roki Sasaki",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": {
+        "player_id": 669165,
+        "name": "Kyle Hurt",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 623474,
+        "name": "Jimmy Herget",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 656945,
+        "name": "Tanner Scott",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "venue_name": "Coors Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "SportsNet LA",
+        "Rockies.TV",
+        "Dodgers Radio AM570",
+        "KOA 850 AM/94.1 FM ",
+        "KTNQ 1020",
+        "KNRV 1150"
+      ],
+      "weather_description": "Cloudy",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [
+        "extra-inning"
+      ],
+      "series_description": null,
+      "recap_anchor": "recap-824318",
+      "batting_lines": {},
+      "pitching_lines": {}
+    }
+  ],
+  "standings": {
+    "divisions": [
+      {
+        "division_id": 201,
+        "division_name": "",
+        "rows": [
+          {
+            "team_id": 139,
+            "team_abbr": "TB",
+            "team_name": "Rays",
+            "wins": 76,
+            "losses": 50,
+            "pct": 0.603,
+            "games_back": "-",
+            "last_10": "6-4",
+            "streak": "W1",
+            "home_record": "43-22",
+            "away_record": "33-28",
+            "run_differential": 49,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 147,
+            "team_abbr": "NYY",
+            "team_name": "Yankees",
+            "wins": 71,
+            "losses": 55,
+            "pct": 0.563,
+            "games_back": "5.0",
+            "last_10": "6-4",
+            "streak": "W3",
+            "home_record": "31-27",
+            "away_record": "40-28",
+            "run_differential": 89,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 111,
+            "team_abbr": "BOS",
+            "team_name": "Red Sox",
+            "wins": 68,
+            "losses": 59,
+            "pct": 0.535,
+            "games_back": "8.5",
+            "last_10": "4-6",
+            "streak": "L1",
+            "home_record": "31-32",
+            "away_record": "37-27",
+            "run_differential": 95,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 141,
+            "team_abbr": "TOR",
+            "team_name": "Blue Jays",
+            "wins": 62,
+            "losses": 66,
+            "pct": 0.484,
+            "games_back": "15.0",
+            "last_10": "6-4",
+            "streak": "L1",
+            "home_record": "33-33",
+            "away_record": "29-33",
+            "run_differential": -53,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 110,
+            "team_abbr": "BAL",
+            "team_name": "Orioles",
+            "wins": 61,
+            "losses": 66,
+            "pct": 0.48,
+            "games_back": "15.5",
+            "last_10": "5-5",
+            "streak": "L3",
+            "home_record": "32-32",
+            "away_record": "29-34",
+            "run_differential": -31,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          }
+        ]
+      },
+      {
+        "division_id": 202,
+        "division_name": "",
+        "rows": [
+          {
+            "team_id": 145,
+            "team_abbr": "CWS",
+            "team_name": "White Sox",
+            "wins": 66,
+            "losses": 60,
+            "pct": 0.524,
+            "games_back": "-",
+            "last_10": "6-4",
+            "streak": "W1",
+            "home_record": "37-24",
+            "away_record": "29-36",
+            "run_differential": 47,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 142,
+            "team_abbr": "MIN",
+            "team_name": "Twins",
+            "wins": 63,
+            "losses": 65,
+            "pct": 0.492,
+            "games_back": "4.0",
+            "last_10": "5-5",
+            "streak": "W3",
+            "home_record": "35-31",
+            "away_record": "28-34",
+            "run_differential": -41,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 114,
+            "team_abbr": "CLE",
+            "team_name": "Guardians",
+            "wins": 61,
+            "losses": 66,
+            "pct": 0.48,
+            "games_back": "5.5",
+            "last_10": "3-7",
+            "streak": "L1",
+            "home_record": "30-34",
+            "away_record": "31-32",
+            "run_differential": -26,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 116,
+            "team_abbr": "DET",
+            "team_name": "Tigers",
+            "wins": 61,
+            "losses": 66,
+            "pct": 0.48,
+            "games_back": "5.5",
+            "last_10": "4-6",
+            "streak": "L2",
+            "home_record": "32-31",
+            "away_record": "29-35",
+            "run_differential": 82,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 118,
+            "team_abbr": "KC",
+            "team_name": "Royals",
+            "wins": 54,
+            "losses": 74,
+            "pct": 0.422,
+            "games_back": "13.0",
+            "last_10": "5-5",
+            "streak": "W4",
+            "home_record": "32-30",
+            "away_record": "22-44",
+            "run_differential": -104,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          }
+        ]
+      },
+      {
+        "division_id": 200,
+        "division_name": "",
+        "rows": [
+          {
+            "team_id": 117,
+            "team_abbr": "HOU",
+            "team_name": "Astros",
+            "wins": 64,
+            "losses": 63,
+            "pct": 0.504,
+            "games_back": "-",
+            "last_10": "4-6",
+            "streak": "W1",
+            "home_record": "32-32",
+            "away_record": "32-31",
+            "run_differential": -31,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 140,
+            "team_abbr": "TEX",
+            "team_name": "Rangers",
+            "wins": 62,
+            "losses": 65,
+            "pct": 0.488,
+            "games_back": "2.0",
+            "last_10": "3-7",
+            "streak": "L1",
+            "home_record": "33-28",
+            "away_record": "29-37",
+            "run_differential": -48,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 136,
+            "team_abbr": "SEA",
+            "team_name": "Mariners",
+            "wins": 60,
+            "losses": 67,
+            "pct": 0.472,
+            "games_back": "4.0",
+            "last_10": "4-6",
+            "streak": "W1",
+            "home_record": "33-29",
+            "away_record": "27-38",
+            "run_differential": -43,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 108,
+            "team_abbr": "LAA",
+            "team_name": "Angels",
+            "wins": 50,
+            "losses": 77,
+            "pct": 0.394,
+            "games_back": "14.0",
+            "last_10": "5-5",
+            "streak": "L1",
+            "home_record": "29-36",
+            "away_record": "21-41",
+            "run_differential": -85,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 133,
+            "team_abbr": "ATH",
+            "team_name": "Athletics",
+            "wins": 49,
+            "losses": 78,
+            "pct": 0.386,
+            "games_back": "15.0",
+            "last_10": "3-7",
+            "streak": "L3",
+            "home_record": "23-40",
+            "away_record": "26-38",
+            "run_differential": -181,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          }
+        ]
+      },
+      {
+        "division_id": 204,
+        "division_name": "",
+        "rows": [
+          {
+            "team_id": 144,
+            "team_abbr": "ATL",
+            "team_name": "Braves",
+            "wins": 74,
+            "losses": 53,
+            "pct": 0.583,
+            "games_back": "-",
+            "last_10": "4-6",
+            "streak": "L3",
+            "home_record": "42-23",
+            "away_record": "32-30",
+            "run_differential": 110,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 143,
+            "team_abbr": "PHI",
+            "team_name": "Phillies",
+            "wins": 70,
+            "losses": 58,
+            "pct": 0.547,
+            "games_back": "4.5",
+            "last_10": "8-2",
+            "streak": "W6",
+            "home_record": "35-30",
+            "away_record": "35-28",
+            "run_differential": 15,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 146,
+            "team_abbr": "MIA",
+            "team_name": "Marlins",
+            "wins": 64,
+            "losses": 64,
+            "pct": 0.5,
+            "games_back": "10.5",
+            "last_10": "5-5",
+            "streak": "L3",
+            "home_record": "38-25",
+            "away_record": "26-39",
+            "run_differential": 14,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 120,
+            "team_abbr": "WSH",
+            "team_name": "Nationals",
+            "wins": 61,
+            "losses": 67,
+            "pct": 0.477,
+            "games_back": "13.5",
+            "last_10": "4-6",
+            "streak": "W1",
+            "home_record": "27-36",
+            "away_record": "34-31",
+            "run_differential": 19,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 121,
+            "team_abbr": "NYM",
+            "team_name": "Mets",
+            "wins": 58,
+            "losses": 70,
+            "pct": 0.453,
+            "games_back": "16.5",
+            "last_10": "7-3",
+            "streak": "W1",
+            "home_record": "30-35",
+            "away_record": "28-35",
+            "run_differential": -42,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          }
+        ]
+      },
+      {
+        "division_id": 205,
+        "division_name": "",
+        "rows": [
+          {
+            "team_id": 158,
+            "team_abbr": "MIL",
+            "team_name": "Brewers",
+            "wins": 78,
+            "losses": 49,
+            "pct": 0.614,
+            "games_back": "-",
+            "last_10": "5-5",
+            "streak": "L1",
+            "home_record": "42-23",
+            "away_record": "36-26",
+            "run_differential": 156,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 112,
+            "team_abbr": "CHC",
+            "team_name": "Cubs",
+            "wins": 74,
+            "losses": 54,
+            "pct": 0.578,
+            "games_back": "4.5",
+            "last_10": "6-4",
+            "streak": "L1",
+            "home_record": "38-27",
+            "away_record": "36-27",
+            "run_differential": 100,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 138,
+            "team_abbr": "STL",
+            "team_name": "Cardinals",
+            "wins": 65,
+            "losses": 63,
+            "pct": 0.508,
+            "games_back": "13.5",
+            "last_10": "6-4",
+            "streak": "L1",
+            "home_record": "32-34",
+            "away_record": "33-29",
+            "run_differential": 9,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 134,
+            "team_abbr": "PIT",
+            "team_name": "Pirates",
+            "wins": 63,
+            "losses": 66,
+            "pct": 0.488,
+            "games_back": "16.0",
+            "last_10": "5-5",
+            "streak": "W2",
+            "home_record": "34-32",
+            "away_record": "29-34",
+            "run_differential": 31,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 113,
+            "team_abbr": "CIN",
+            "team_name": "Reds",
+            "wins": 61,
+            "losses": 66,
+            "pct": 0.48,
+            "games_back": "17.0",
+            "last_10": "5-5",
+            "streak": "W1",
+            "home_record": "32-35",
+            "away_record": "29-31",
+            "run_differential": -88,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          }
+        ]
+      },
+      {
+        "division_id": 203,
+        "division_name": "",
+        "rows": [
+          {
+            "team_id": 119,
+            "team_abbr": "LAD",
+            "team_name": "Dodgers",
+            "wins": 77,
+            "losses": 51,
+            "pct": 0.602,
+            "games_back": "-",
+            "last_10": "7-3",
+            "streak": "W3",
+            "home_record": "37-26",
+            "away_record": "40-25",
+            "run_differential": 145,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 135,
+            "team_abbr": "SD",
+            "team_name": "Padres",
+            "wins": 68,
+            "losses": 60,
+            "pct": 0.531,
+            "games_back": "9.0",
+            "last_10": "7-3",
+            "streak": "L1",
+            "home_record": "37-26",
+            "away_record": "31-34",
+            "run_differential": 3,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 109,
+            "team_abbr": "AZ",
+            "team_name": "D-backs",
+            "wins": 67,
+            "losses": 61,
+            "pct": 0.523,
+            "games_back": "10.0",
+            "last_10": "5-5",
+            "streak": "W1",
+            "home_record": "36-27",
+            "away_record": "31-34",
+            "run_differential": 4,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 137,
+            "team_abbr": "SF",
+            "team_name": "Giants",
+            "wins": 52,
+            "losses": 74,
+            "pct": 0.413,
+            "games_back": "24.0",
+            "last_10": "3-7",
+            "streak": "W1",
+            "home_record": "29-33",
+            "away_record": "23-41",
+            "run_differential": -73,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          },
+          {
+            "team_id": 115,
+            "team_abbr": "COL",
+            "team_name": "Rockies",
+            "wins": 50,
+            "losses": 77,
+            "pct": 0.394,
+            "games_back": "26.5",
+            "last_10": "4-6",
+            "streak": "L3",
+            "home_record": "27-35",
+            "away_record": "23-42",
+            "run_differential": -122,
+            "wild_card_gb": null,
+            "eliminated": false,
+            "magic_number": null
+          }
+        ]
+      }
+    ],
+    "wild_cards": []
+  },
+  "league_leaders": {
+    "batting": {
+      "avg": [
+        {
+          "rank": 1,
+          "player_id": 672640,
+          "player_name": "Otto Lopez",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": ".334",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 650333,
+          "player_name": "Luis Arraez",
+          "team_abbr": "SAN",
+          "position": "",
+          "value": ".330",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 650490,
+          "player_name": "Yandy Díaz",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": ".322",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": ".318",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 693304,
+          "player_name": "Nick Gonzales",
+          "team_abbr": "PIT",
+          "position": "",
+          "value": ".308",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 669364,
+          "player_name": "Xavier Edwards",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": ".303",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 808982,
+          "player_name": "Jung Hoo Lee",
+          "team_abbr": "SAN",
+          "position": "",
+          "value": ".302",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 664983,
+          "player_name": "Jake McCarthy",
+          "team_abbr": "COL",
+          "position": "",
+          "value": ".301",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 669016,
+          "player_name": "Brandon Marsh",
+          "team_abbr": "PHI",
+          "position": "",
+          "value": ".301",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 687859,
+          "player_name": "Troy Johnston",
+          "team_abbr": "COL",
+          "position": "",
+          "value": ".301",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "obp": [
+        {
+          "rank": 1,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": ".426",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": ".410",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 665742,
+          "player_name": "Juan Soto",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": ".405",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 701762,
+          "player_name": "Nick Kurtz",
+          "team_abbr": "ATH",
+          "position": "",
+          "value": ".405",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": ".403",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 668804,
+          "player_name": "Bryan Reynolds",
+          "team_abbr": "PIT",
+          "position": "",
+          "value": ".400",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 650490,
+          "player_name": "Yandy Díaz",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": ".398",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 666018,
+          "player_name": "Jonathan Aranda",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": ".394",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 805808,
+          "player_name": "Kevin McGonigle",
+          "team_abbr": "DET",
+          "position": "",
+          "value": ".392",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 545361,
+          "player_name": "Mike Trout",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": ".390",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "slg": [
+        {
+          "rank": 1,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": ".633",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 700250,
+          "player_name": "Ben Rice",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": ".599",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 621439,
+          "player_name": "Byron Buxton",
+          "team_abbr": "MIN",
+          "position": "",
+          "value": ".575",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": ".575",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 665742,
+          "player_name": "Juan Soto",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": ".562",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 656941,
+          "player_name": "Kyle Schwarber",
+          "team_abbr": "PHI",
+          "position": "",
+          "value": ".560",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 691406,
+          "player_name": "Junior Caminero",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": ".555",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 671277,
+          "player_name": "Luis García Jr.",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": ".554",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": ".549",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 575929,
+          "player_name": "Willson Contreras",
+          "team_abbr": "BOS",
+          "position": "",
+          "value": ".542",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "ops": [
+        {
+          "rank": 1,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": "1.059",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": ".985",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 700250,
+          "player_name": "Ben Rice",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": ".971",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 665742,
+          "player_name": "Juan Soto",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": ".967",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": ".952",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 691406,
+          "player_name": "Junior Caminero",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": ".927",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 656941,
+          "player_name": "Kyle Schwarber",
+          "team_abbr": "PHI",
+          "position": "",
+          "value": ".927",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 575929,
+          "player_name": "Willson Contreras",
+          "team_abbr": "BOS",
+          "position": "",
+          "value": ".921",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": ".917",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 621439,
+          "player_name": "Byron Buxton",
+          "team_abbr": "MIN",
+          "position": "",
+          "value": ".903",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "hr": [
+        {
+          "rank": 1,
+          "player_id": 656941,
+          "player_name": "Kyle Schwarber",
+          "team_abbr": "PHI",
+          "position": "",
+          "value": "32",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": "31",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 700250,
+          "player_name": "Ben Rice",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": "29",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 691406,
+          "player_name": "Junior Caminero",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": "28",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "28",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 696100,
+          "player_name": "Hunter Goodman",
+          "team_abbr": "COL",
+          "position": "",
+          "value": "27",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 621439,
+          "player_name": "Byron Buxton",
+          "team_abbr": "MIN",
+          "position": "",
+          "value": "25",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 621566,
+          "player_name": "Matt Olson",
+          "team_abbr": "ATL",
+          "position": "",
+          "value": "25",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 695657,
+          "player_name": "Colson Montgomery",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "22",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 672960,
+          "player_name": "Kazuma Okamoto",
+          "team_abbr": "TOR",
+          "position": "",
+          "value": "22",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 691023,
+          "player_name": "Jordan Walker",
+          "team_abbr": "ST.",
+          "position": "",
+          "value": "22",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "rbi": [
+        {
+          "rank": 1,
+          "player_id": 691023,
+          "player_name": "Jordan Walker",
+          "team_abbr": "ST.",
+          "position": "",
+          "value": "74",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": "70",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 671277,
+          "player_name": "Luis García Jr.",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "68",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 700250,
+          "player_name": "Ben Rice",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": "68",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 682928,
+          "player_name": "CJ Abrams",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "67",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 676475,
+          "player_name": "Alec Burleson",
+          "team_abbr": "ST.",
+          "position": "",
+          "value": "67",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 701762,
+          "player_name": "Nick Kurtz",
+          "team_abbr": "ATH",
+          "position": "",
+          "value": "66",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 681624,
+          "player_name": "Andy Pages",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "66",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 624413,
+          "player_name": "Pete Alonso",
+          "team_abbr": "BAL",
+          "position": "",
+          "value": "65",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 701398,
+          "player_name": "Sal Stewart",
+          "team_abbr": "CIN",
+          "position": "",
+          "value": "65",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "r": [
+        {
+          "rank": 1,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "89",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 668804,
+          "player_name": "Bryan Reynolds",
+          "team_abbr": "PIT",
+          "position": "",
+          "value": "68",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 687263,
+          "player_name": "Zach Neto",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "67",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 668930,
+          "player_name": "Brice Turang",
+          "team_abbr": "MIL",
+          "position": "",
+          "value": "66",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": "65",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "65",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 621566,
+          "player_name": "Matt Olson",
+          "team_abbr": "ATL",
+          "position": "",
+          "value": "64",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 700250,
+          "player_name": "Ben Rice",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": "64",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 678246,
+          "player_name": "Miguel Vargas",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "64",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "63",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "h": [
+        {
+          "rank": 1,
+          "player_id": 672640,
+          "player_name": "Otto Lopez",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": "127",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 650333,
+          "player_name": "Luis Arraez",
+          "team_abbr": "SAN",
+          "position": "",
+          "value": "119",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": "111",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 650490,
+          "player_name": "Yandy Díaz",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": "111",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 669364,
+          "player_name": "Xavier Edwards",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": "107",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 676391,
+          "player_name": "Ernie Clement",
+          "team_abbr": "TOR",
+          "position": "",
+          "value": "106",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 691023,
+          "player_name": "Jordan Walker",
+          "team_abbr": "ST.",
+          "position": "",
+          "value": "105",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "104",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 693304,
+          "player_name": "Nick Gonzales",
+          "team_abbr": "PIT",
+          "position": "",
+          "value": "104",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 518692,
+          "player_name": "Freddie Freeman",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "103",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 665487,
+          "player_name": "Fernando Tatis Jr.",
+          "team_abbr": "SAN",
+          "position": "",
+          "value": "103",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 677951,
+          "player_name": "Bobby Witt Jr.",
+          "team_abbr": "KAN",
+          "position": "",
+          "value": "103",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "103",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "doubles": [
+        {
+          "rank": 1,
+          "player_id": 672640,
+          "player_name": "Otto Lopez",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": "26",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 646240,
+          "player_name": "Rafael Devers",
+          "team_abbr": "SAN",
+          "position": "",
+          "value": "25",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 621566,
+          "player_name": "Matt Olson",
+          "team_abbr": "ATL",
+          "position": "",
+          "value": "24",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 676475,
+          "player_name": "Alec Burleson",
+          "team_abbr": "ST.",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 676391,
+          "player_name": "Ernie Clement",
+          "team_abbr": "TOR",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 518692,
+          "player_name": "Freddie Freeman",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 663538,
+          "player_name": "Nico Hoerner",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 687859,
+          "player_name": "Troy Johnston",
+          "team_abbr": "COL",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 673962,
+          "player_name": "Josh Jung",
+          "team_abbr": "TEX",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 668930,
+          "player_name": "Brice Turang",
+          "team_abbr": "MIL",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "triples": [
+        {
+          "rank": 1,
+          "player_id": 682998,
+          "player_name": "Corbin Carroll",
+          "team_abbr": "ARI",
+          "position": "",
+          "value": "10",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 650333,
+          "player_name": "Luis Arraez",
+          "team_abbr": "SAN",
+          "position": "",
+          "value": "7",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 669364,
+          "player_name": "Xavier Edwards",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": "6",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 672640,
+          "player_name": "Otto Lopez",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": "6",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 664983,
+          "player_name": "Jake McCarthy",
+          "team_abbr": "COL",
+          "position": "",
+          "value": "6",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 802415,
+          "player_name": "Chandler Simpson",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": "6",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 665750,
+          "player_name": "Leody Taveras",
+          "team_abbr": "BAL",
+          "position": "",
+          "value": "5",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "4",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 607043,
+          "player_name": "Brandon Nimmo",
+          "team_abbr": "TEX",
+          "position": "",
+          "value": "4",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 681082,
+          "player_name": "Bryson Stott",
+          "team_abbr": "PHI",
+          "position": "",
+          "value": "4",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "sb": [
+        {
+          "rank": 1,
+          "player_id": 683083,
+          "player_name": "Nasim Nuñez",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "34",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 677951,
+          "player_name": "Bobby Witt Jr.",
+          "team_abbr": "KAN",
+          "position": "",
+          "value": "30",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 665862,
+          "player_name": "Jazz Chisholm Jr.",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": "26",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "24",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 608070,
+          "player_name": "José Ramírez",
+          "team_abbr": "CLE",
+          "position": "",
+          "value": "24",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 665487,
+          "player_name": "Fernando Tatis Jr.",
+          "team_abbr": "SAN",
+          "position": "",
+          "value": "23",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 676609,
+          "player_name": "José Caballero",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": "22",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 802415,
+          "player_name": "Chandler Simpson",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": "22",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 665833,
+          "player_name": "Oneil Cruz",
+          "team_abbr": "PIT",
+          "position": "",
+          "value": "21",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 804606,
+          "player_name": "Konnor Griffin",
+          "team_abbr": "PIT",
+          "position": "",
+          "value": "20",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 665923,
+          "player_name": "Esteury Ruiz",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": "20",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "bb": [
+        {
+          "rank": 1,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "79",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 701762,
+          "player_name": "Nick Kurtz",
+          "team_abbr": "ATH",
+          "position": "",
+          "value": "76",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 621493,
+          "player_name": "Taylor Ward",
+          "team_abbr": "BAL",
+          "position": "",
+          "value": "75",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 545361,
+          "player_name": "Mike Trout",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "67",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": "63",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 683737,
+          "player_name": "Michael Busch",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "63",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 668804,
+          "player_name": "Bryan Reynolds",
+          "team_abbr": "PIT",
+          "position": "",
+          "value": "62",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 547180,
+          "player_name": "Bryce Harper",
+          "team_abbr": "PHI",
+          "position": "",
+          "value": "60",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 805808,
+          "player_name": "Kevin McGonigle",
+          "team_abbr": "DET",
+          "position": "",
+          "value": "60",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "60",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "tb": [
+        {
+          "rank": 1,
+          "player_id": 670541,
+          "player_name": "Yordan Alvarez",
+          "team_abbr": "HOU",
+          "position": "",
+          "value": "221",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 695578,
+          "player_name": "James Wood",
+          "team_abbr": "WAS",
+          "position": "",
+          "value": "212",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 700250,
+          "player_name": "Ben Rice",
+          "team_abbr": "NEW",
+          "position": "",
+          "value": "202",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 621566,
+          "player_name": "Matt Olson",
+          "team_abbr": "ATL",
+          "position": "",
+          "value": "198",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 691406,
+          "player_name": "Junior Caminero",
+          "team_abbr": "TAM",
+          "position": "",
+          "value": "197",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 656941,
+          "player_name": "Kyle Schwarber",
+          "team_abbr": "PHI",
+          "position": "",
+          "value": "196",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 672640,
+          "player_name": "Otto Lopez",
+          "team_abbr": "MIA",
+          "position": "",
+          "value": "192",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 691718,
+          "player_name": "Pete Crow-Armstrong",
+          "team_abbr": "CHI",
+          "position": "",
+          "value": "190",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 691023,
+          "player_name": "Jordan Walker",
+          "team_abbr": "ST.",
+          "position": "",
+          "value": "190",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 660271,
+          "player_name": "Shohei Ohtani",
+          "team_abbr": "LOS",
+          "position": "",
+          "value": "184",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ]
+    },
+    "pitching": {
+      "so": [
+        {
+          "rank": 1,
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "team_abbr": "MIL",
+          "position": "P",
+          "value": "167",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 656302,
+          "player_name": "Dylan Cease",
+          "team_abbr": "TOR",
+          "position": "P",
+          "value": "148",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "144",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "137",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 666200,
+          "player_name": "Jesús Luzardo",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "136",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 668909,
+          "player_name": "Gavin Williams",
+          "team_abbr": "CLE",
+          "position": "P",
+          "value": "134",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 694973,
+          "player_name": "Paul Skenes",
+          "team_abbr": "PIT",
+          "position": "P",
+          "value": "130",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 677952,
+          "player_name": "Braxton Ashcraft",
+          "team_abbr": "PIT",
+          "position": "P",
+          "value": "128",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 657746,
+          "player_name": "Joe Ryan",
+          "team_abbr": "MIN",
+          "position": "P",
+          "value": "128",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 690997,
+          "player_name": "Nolan McLean",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "125",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "era": [
+        {
+          "rank": 1,
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "team_abbr": "MIL",
+          "position": "P",
+          "value": "1.62",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "2.05",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 519242,
+          "player_name": "Chris Sale",
+          "team_abbr": "ATL",
+          "position": "P",
+          "value": "2.20",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 593958,
+          "player_name": "Eduardo Rodriguez",
+          "team_abbr": "ARI",
+          "position": "P",
+          "value": "2.29",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 543243,
+          "player_name": "Sonny Gray",
+          "team_abbr": "BOS",
+          "position": "P",
+          "value": "2.54",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 695505,
+          "player_name": "Chase Burns",
+          "team_abbr": "CIN",
+          "position": "P",
+          "value": "2.54",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 656302,
+          "player_name": "Dylan Cease",
+          "team_abbr": "TOR",
+          "position": "P",
+          "value": "2.56",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 676974,
+          "player_name": "Max Meyer",
+          "team_abbr": "MIA",
+          "position": "P",
+          "value": "2.58",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "2.62",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 607259,
+          "player_name": "Nick Martinez",
+          "team_abbr": "TAM",
+          "position": "P",
+          "value": "2.65",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "wins": [
+        {
+          "rank": 1,
+          "player_id": 676879,
+          "player_name": "Aaron Ashby",
+          "team_abbr": "MIL",
+          "position": "P",
+          "value": "12",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 695505,
+          "player_name": "Chase Burns",
+          "team_abbr": "CIN",
+          "position": "P",
+          "value": "11",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 543243,
+          "player_name": "Sonny Gray",
+          "team_abbr": "BOS",
+          "position": "P",
+          "value": "11",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "11",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 645261,
+          "player_name": "Sandy Alcantara",
+          "team_abbr": "MIA",
+          "position": "P",
+          "value": "10",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 656492,
+          "player_name": "Foster Griffin",
+          "team_abbr": "WAS",
+          "position": "P",
+          "value": "10",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "team_abbr": "MIL",
+          "position": "P",
+          "value": "10",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 669467,
+          "player_name": "Andre Pallante",
+          "team_abbr": "ST.",
+          "position": "P",
+          "value": "10",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 554430,
+          "player_name": "Zack Wheeler",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "10",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 668909,
+          "player_name": "Gavin Williams",
+          "team_abbr": "CLE",
+          "position": "P",
+          "value": "10",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 680736,
+          "player_name": "Justin Wrobleski",
+          "team_abbr": "LOS",
+          "position": "P",
+          "value": "10",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "whip": [
+        {
+          "rank": 1,
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "team_abbr": "MIL",
+          "position": "P",
+          "value": "0.76",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 808967,
+          "player_name": "Yoshinobu Yamamoto",
+          "team_abbr": "LOS",
+          "position": "P",
+          "value": "0.91",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "0.94",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 656876,
+          "player_name": "Drew Rasmussen",
+          "team_abbr": "TAM",
+          "position": "P",
+          "value": "0.95",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 669302,
+          "player_name": "Logan Gilbert",
+          "team_abbr": "SEA",
+          "position": "P",
+          "value": "0.99",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 676106,
+          "player_name": "Emerson Hancock",
+          "team_abbr": "SEA",
+          "position": "P",
+          "value": "1.01",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 672456,
+          "player_name": "Keider Montero",
+          "team_abbr": "DET",
+          "position": "P",
+          "value": "1.01",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 594798,
+          "player_name": "Jacob deGrom",
+          "team_abbr": "TEX",
+          "position": "P",
+          "value": "1.01",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 656492,
+          "player_name": "Foster Griffin",
+          "team_abbr": "WAS",
+          "position": "P",
+          "value": "1.02",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 680736,
+          "player_name": "Justin Wrobleski",
+          "team_abbr": "LOS",
+          "position": "P",
+          "value": "1.02",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "saves": [
+        {
+          "rank": 1,
+          "player_id": 671922,
+          "player_name": "Cade Smith",
+          "team_abbr": "CLE",
+          "position": "P",
+          "value": "28",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 641329,
+          "player_name": "Bryan Baker",
+          "team_abbr": "TAM",
+          "position": "P",
+          "value": "25",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 695243,
+          "player_name": "Mason Miller",
+          "team_abbr": "SAN",
+          "position": "P",
+          "value": "25",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 661395,
+          "player_name": "Jhoan Duran",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "24",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 676617,
+          "player_name": "Riley O'Brien",
+          "team_abbr": "ST.",
+          "position": "P",
+          "value": "24",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 623149,
+          "player_name": "Paul Sewald",
+          "team_abbr": "ARI",
+          "position": "P",
+          "value": "22",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 547973,
+          "player_name": "Aroldis Chapman",
+          "team_abbr": "BOS",
+          "position": "P",
+          "value": "19",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 628452,
+          "player_name": "Raisel Iglesias",
+          "team_abbr": "ATL",
+          "position": "P",
+          "value": "19",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 686973,
+          "player_name": "Louis Varland",
+          "team_abbr": "TOR",
+          "position": "P",
+          "value": "19",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 670280,
+          "player_name": "David Bednar",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "18",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 656641,
+          "player_name": "Jacob Latz",
+          "team_abbr": "TEX",
+          "position": "P",
+          "value": "18",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "ip": [
+        {
+          "rank": 1,
+          "player_id": 645261,
+          "player_name": "Sandy Alcantara",
+          "team_abbr": "MIA",
+          "position": "P",
+          "value": "130.2",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "127.1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 608379,
+          "player_name": "Michael Wacha",
+          "team_abbr": "KAN",
+          "position": "P",
+          "value": "119.1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "118.2",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 669302,
+          "player_name": "Logan Gilbert",
+          "team_abbr": "SEA",
+          "position": "P",
+          "value": "114.0",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 593958,
+          "player_name": "Eduardo Rodriguez",
+          "team_abbr": "ARI",
+          "position": "P",
+          "value": "114.0",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 677952,
+          "player_name": "Braxton Ashcraft",
+          "team_abbr": "PIT",
+          "position": "P",
+          "value": "113.1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 668909,
+          "player_name": "Gavin Williams",
+          "team_abbr": "CLE",
+          "position": "P",
+          "value": "113.1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 676440,
+          "player_name": "Tanner Bibee",
+          "team_abbr": "CLE",
+          "position": "P",
+          "value": "113.0",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 592332,
+          "player_name": "Kevin Gausman",
+          "team_abbr": "TOR",
+          "position": "P",
+          "value": "112.1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "cg": [
+        {
+          "rank": 1,
+          "player_id": 645261,
+          "player_name": "Sandy Alcantara",
+          "team_abbr": "MIA",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 669372,
+          "player_name": "J.T. Ginn",
+          "team_abbr": "ATH",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 518876,
+          "player_name": "Merrill Kelly",
+          "team_abbr": "ARI",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 669923,
+          "player_name": "George Kirby",
+          "team_abbr": "SEA",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 663568,
+          "player_name": "Stephen Kolek",
+          "team_abbr": "KAN",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 669160,
+          "player_name": "Dustin May",
+          "team_abbr": "ST.",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "team_abbr": "MIL",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 641927,
+          "player_name": "Bailey Ober",
+          "team_abbr": "MIN",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 657277,
+          "player_name": "Logan Webb",
+          "team_abbr": "SAN",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "sho": [
+        {
+          "rank": 1,
+          "player_id": 645261,
+          "player_name": "Sandy Alcantara",
+          "team_abbr": "MIA",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 663568,
+          "player_name": "Stephen Kolek",
+          "team_abbr": "KAN",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 669160,
+          "player_name": "Dustin May",
+          "team_abbr": "ST.",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "team_abbr": "MIL",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 641927,
+          "player_name": "Bailey Ober",
+          "team_abbr": "MIN",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 1,
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "1",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "k9": [
+        {
+          "rank": 1,
+          "player_id": 656302,
+          "player_name": "Dylan Cease",
+          "team_abbr": "TOR",
+          "position": "P",
+          "value": "13.55",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 694819,
+          "player_name": "Jacob Misiorowski",
+          "team_abbr": "MIL",
+          "position": "P",
+          "value": "13.54",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 666200,
+          "player_name": "Jesús Luzardo",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "11.09",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 594798,
+          "player_name": "Jacob deGrom",
+          "team_abbr": "TEX",
+          "position": "P",
+          "value": "10.91",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 694973,
+          "player_name": "Paul Skenes",
+          "team_abbr": "PIT",
+          "position": "P",
+          "value": "10.80",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 519242,
+          "player_name": "Chris Sale",
+          "team_abbr": "ATL",
+          "position": "P",
+          "value": "10.74",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 668909,
+          "player_name": "Gavin Williams",
+          "team_abbr": "CLE",
+          "position": "P",
+          "value": "10.64",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 690997,
+          "player_name": "Nolan McLean",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "10.48",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 657746,
+          "player_name": "Joe Ryan",
+          "team_abbr": "MIN",
+          "position": "P",
+          "value": "10.44",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "10.39",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ],
+      "bb9": [
+        {
+          "rank": 1,
+          "player_id": 656876,
+          "player_name": "Drew Rasmussen",
+          "team_abbr": "TAM",
+          "position": "P",
+          "value": "1.54",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 2,
+          "player_id": 607259,
+          "player_name": "Nick Martinez",
+          "team_abbr": "TAM",
+          "position": "P",
+          "value": "1.62",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 3,
+          "player_id": 693433,
+          "player_name": "Bryan Woo",
+          "team_abbr": "SEA",
+          "position": "P",
+          "value": "1.73",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 4,
+          "player_id": 650911,
+          "player_name": "Cristopher Sánchez",
+          "team_abbr": "PHI",
+          "position": "P",
+          "value": "1.77",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 5,
+          "player_id": 680736,
+          "player_name": "Justin Wrobleski",
+          "team_abbr": "LOS",
+          "position": "P",
+          "value": "1.79",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 6,
+          "player_id": 669302,
+          "player_name": "Logan Gilbert",
+          "team_abbr": "SEA",
+          "position": "P",
+          "value": "1.89",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 7,
+          "player_id": 693645,
+          "player_name": "Cam Schlittler",
+          "team_abbr": "NEW",
+          "position": "P",
+          "value": "1.90",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 8,
+          "player_id": 669923,
+          "player_name": "George Kirby",
+          "team_abbr": "SEA",
+          "position": "P",
+          "value": "1.96",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 9,
+          "player_id": 594798,
+          "player_name": "Jacob deGrom",
+          "team_abbr": "TEX",
+          "position": "P",
+          "value": "1.97",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        },
+        {
+          "rank": 10,
+          "player_id": 694973,
+          "player_name": "Paul Skenes",
+          "team_abbr": "PIT",
+          "position": "P",
+          "value": "1.99",
+          "games_played": 2026,
+          "league": "MLB",
+          "qualified": true
+        }
+      ]
+    }
+  },
+  "game_recaps": [
+    {
+      "headline": "Philadelphia Phillies 4, Miami Marlins 1",
+      "deck": "Final: PHI 4, MIA 1",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Philadelphia Phillies defeated the Miami Marlins 4–1. Aaron Nola earned the win. Jhoan Duran recorded the save."
+      ],
+      "source_data_references": [
+        "game:823424"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "PHI",
+        "MIA"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:4",
+        "away_runs:1",
+        "game_id:823424"
+      ],
+      "ai_generated": false,
+      "game_id": 823424,
+      "final_score": "PHI 4, MIA 1",
+      "winning_pitcher": {
+        "player_id": 605400,
+        "name": "Aaron Nola",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 645261,
+        "name": "Sandy Alcantara",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 661395,
+        "name": "Jhoan Duran",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": []
+    },
+    {
+      "headline": "Arizona Diamondbacks 7, Boston Red Sox 6",
+      "deck": "Final: AZ 7, BOS 6",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Arizona Diamondbacks defeated the Boston Red Sox 7–6 in extra innings. Jonathan Loáisiga earned the win."
+      ],
+      "source_data_references": [
+        "game:824722"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "BOS",
+        "AZ"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:6",
+        "away_runs:7",
+        "game_id:824722"
+      ],
+      "ai_generated": false,
+      "game_id": 824722,
+      "final_score": "AZ 7, BOS 6",
+      "winning_pitcher": {
+        "player_id": 642528,
+        "name": "Jonathan Loáisiga",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 663558,
+        "name": "Jovani Morán",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": null,
+      "tags": [
+        "extra-inning"
+      ]
+    },
+    {
+      "headline": "Los Angeles Dodgers 6, Colorado Rockies 4",
+      "deck": "Final: LAD 6, COL 4",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Los Angeles Dodgers defeated the Colorado Rockies 6–4 in extra innings. Kyle Hurt earned the win. Tanner Scott recorded the save."
+      ],
+      "source_data_references": [
+        "game:824318"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "COL",
+        "LAD"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:4",
+        "away_runs:6",
+        "game_id:824318"
+      ],
+      "ai_generated": false,
+      "game_id": 824318,
+      "final_score": "LAD 6, COL 4",
+      "winning_pitcher": {
+        "player_id": 669165,
+        "name": "Kyle Hurt",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 623474,
+        "name": "Jimmy Herget",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 656945,
+        "name": "Tanner Scott",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": [
+        "extra-inning"
+      ]
+    },
+    {
+      "headline": "Pittsburgh Pirates 4, Detroit Tigers 3",
+      "deck": "Final: PIT 4, DET 3",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Pittsburgh Pirates defeated the Detroit Tigers 4–3 in walk-off fashion. Mason Montgomery earned the win."
+      ],
+      "source_data_references": [
+        "game:823342"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "PIT",
+        "DET"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:4",
+        "away_runs:3",
+        "game_id:823342"
+      ],
+      "ai_generated": false,
+      "game_id": 823342,
+      "final_score": "PIT 4, DET 3",
+      "winning_pitcher": {
+        "player_id": 682254,
+        "name": "Mason Montgomery",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 445276,
+        "name": "Kenley Jansen",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": null,
+      "tags": [
+        "walk-off"
+      ]
+    },
+    {
+      "headline": "Cincinnati Reds 5, St. Louis Cardinals 4",
+      "deck": "Final: CIN 5, STL 4",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Cincinnati Reds defeated the St. Louis Cardinals 5–4. Sam Moll earned the win. Emilio Pagán recorded the save."
+      ],
+      "source_data_references": [
+        "game:824476"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "CIN",
+        "STL"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:5",
+        "away_runs:4",
+        "game_id:824476"
+      ],
+      "ai_generated": false,
+      "game_id": 824476,
+      "final_score": "CIN 5, STL 4",
+      "winning_pitcher": {
+        "player_id": 594580,
+        "name": "Sam Moll",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 669461,
+        "name": "Matthew Liberatore",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 641941,
+        "name": "Emilio Pagán",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": []
+    },
+    {
+      "headline": "San Francisco Giants 1, Cleveland Guardians 0",
+      "deck": "Final: SF 1, CLE 0",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The San Francisco Giants defeated the Cleveland Guardians 1–0. Adrian Houser earned the win. Dylan Smith recorded the save."
+      ],
+      "source_data_references": [
+        "game:824394"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "CLE",
+        "SF"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:0",
+        "away_runs:1",
+        "game_id:824394"
+      ],
+      "ai_generated": false,
+      "game_id": 824394,
+      "final_score": "SF 1, CLE 0",
+      "winning_pitcher": {
+        "player_id": 605288,
+        "name": "Adrian Houser",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 800048,
+        "name": "Parker Messick",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 681916,
+        "name": "Dylan Smith",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": [
+        "shutout"
+      ]
+    },
+    {
+      "headline": "Minnesota Twins 6, Atlanta Braves 4",
+      "deck": "Final: MIN 6, ATL 4",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Minnesota Twins defeated the Atlanta Braves 6–4. A.J. Minter earned the win. Yoendrys Gómez recorded the save."
+      ],
+      "source_data_references": [
+        "game:823664"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "MIN",
+        "ATL"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:6",
+        "away_runs:4",
+        "game_id:823664"
+      ],
+      "ai_generated": false,
+      "game_id": 823664,
+      "final_score": "MIN 6, ATL 4",
+      "winning_pitcher": {
+        "player_id": 621345,
+        "name": "A.J. Minter",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 682989,
+        "name": "Victor Mederos",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 672782,
+        "name": "Yoendrys Gómez",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": []
+    },
+    {
+      "headline": "Houston Astros 3, Los Angeles Angels 2",
+      "deck": "Final: HOU 3, LAA 2",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Houston Astros defeated the Los Angeles Angels 3–2. Bennett Sousa earned the win. Josh Hader recorded the save."
+      ],
+      "source_data_references": [
+        "game:824155"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "HOU",
+        "LAA"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:3",
+        "away_runs:2",
+        "game_id:824155"
+      ],
+      "ai_generated": false,
+      "game_id": 824155,
+      "final_score": "HOU 3, LAA 2",
+      "winning_pitcher": {
+        "player_id": 656986,
+        "name": "Bennett Sousa",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 700712,
+        "name": "Walbert Ureña",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 623352,
+        "name": "Josh Hader",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": []
+    },
+    {
+      "headline": "Chicago White Sox 3, Chicago Cubs 0",
+      "deck": "Final: CWS 3, CHC 0",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Chicago White Sox defeated the Chicago Cubs 3–0. José Urquidy earned the win. Grant Taylor recorded the save."
+      ],
+      "source_data_references": [
+        "game:824640"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "CHC",
+        "CWS"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:0",
+        "away_runs:3",
+        "game_id:824640"
+      ],
+      "ai_generated": false,
+      "game_id": 824640,
+      "final_score": "CWS 3, CHC 0",
+      "winning_pitcher": {
+        "player_id": 664353,
+        "name": "José Urquidy",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 605280,
+        "name": "Clay Holmes",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 691799,
+        "name": "Grant Taylor",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": [
+        "shutout"
+      ]
+    },
+    {
+      "headline": "Tampa Bay Rays 7, Toronto Blue Jays 6",
+      "deck": "Final: TB 7, TOR 6",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Tampa Bay Rays defeated the Toronto Blue Jays 7–6. Drew Rasmussen earned the win. Bryan Baker recorded the save."
+      ],
+      "source_data_references": [
+        "game:822937"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "TB",
+        "TOR"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:7",
+        "away_runs:6",
+        "game_id:822937"
+      ],
+      "ai_generated": false,
+      "game_id": 822937,
+      "final_score": "TB 7, TOR 6",
+      "winning_pitcher": {
+        "player_id": 656876,
+        "name": "Drew Rasmussen",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 453286,
+        "name": "Max Scherzer",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 641329,
+        "name": "Bryan Baker",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": []
+    },
+    {
+      "headline": "New York Yankees 5, Baltimore Orioles 3",
+      "deck": "Final: NYY 5, BAL 3",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The New York Yankees defeated the Baltimore Orioles 5–3. Brent Headrick earned the win. David Bednar recorded the save."
+      ],
+      "source_data_references": [
+        "game:824801"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "BAL",
+        "NYY"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:3",
+        "away_runs:5",
+        "game_id:824801"
+      ],
+      "ai_generated": false,
+      "game_id": 824801,
+      "final_score": "NYY 5, BAL 3",
+      "winning_pitcher": {
+        "player_id": 687396,
+        "name": "Brent Headrick",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 676742,
+        "name": "Cam Sanders",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 670280,
+        "name": "David Bednar",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": []
+    },
+    {
+      "headline": "Washington Nationals 6, Texas Rangers 0",
+      "deck": "Final: WSH 6, TEX 0",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Washington Nationals defeated the Texas Rangers 6–0. Cade Cavalli earned the win."
+      ],
+      "source_data_references": [
+        "game:822860"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "TEX",
+        "WSH"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:0",
+        "away_runs:6",
+        "game_id:822860"
+      ],
+      "ai_generated": false,
+      "game_id": 822860,
+      "final_score": "WSH 6, TEX 0",
+      "winning_pitcher": {
+        "player_id": 676917,
+        "name": "Cade Cavalli",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 677958,
+        "name": "Kumar Rocker",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": null,
+      "tags": [
+        "shutout"
+      ]
+    },
+    {
+      "headline": "New York Mets 4, San Diego Padres 2",
+      "deck": "Final: NYM 4, SD 2",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The New York Mets defeated the San Diego Padres 4–2. Nate Lavender earned the win. Kodai Senga recorded the save."
+      ],
+      "source_data_references": [
+        "game:823587"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "NYM",
+        "SD"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:4",
+        "away_runs:2",
+        "game_id:823587"
+      ],
+      "ai_generated": false,
+      "game_id": 823587,
+      "final_score": "NYM 4, SD 2",
+      "winning_pitcher": {
+        "player_id": 681320,
+        "name": "Nate Lavender",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 650633,
+        "name": "Michael King",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 673540,
+        "name": "Kodai Senga",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": []
+    },
+    {
+      "headline": "Kansas City Royals 9, Athletics 7",
+      "deck": "Final: KC 9, ATH 7",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Kansas City Royals defeated the Athletics 9–7. Craig Kimbrel earned the win."
+      ],
+      "source_data_references": [
+        "game:824076"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "KC",
+        "ATH"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:9",
+        "away_runs:7",
+        "game_id:824076"
+      ],
+      "ai_generated": false,
+      "game_id": 824076,
+      "final_score": "KC 9, ATH 7",
+      "winning_pitcher": {
+        "player_id": 518886,
+        "name": "Craig Kimbrel",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 680723,
+        "name": "Drew Rom",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": null,
+      "tags": []
+    },
+    {
+      "headline": "Seattle Mariners 7, Milwaukee Brewers 5",
+      "deck": "Final: SEA 7, MIL 5",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Seattle Mariners defeated the Milwaukee Brewers 7–5. Logan Gilbert earned the win. Andrés Muñoz recorded the save."
+      ],
+      "source_data_references": [
+        "game:823748"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "MIL",
+        "SEA"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:5",
+        "away_runs:7",
+        "game_id:823748"
+      ],
+      "ai_generated": false,
+      "game_id": 823748,
+      "final_score": "SEA 7, MIL 5",
+      "winning_pitcher": {
+        "player_id": 669302,
+        "name": "Logan Gilbert",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 669160,
+        "name": "Dustin May",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 662253,
+        "name": "Andrés Muñoz",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": []
+    }
+  ],
+  "around_the_league": [],
+  "transactions": [
+    {
+      "transaction_id": "938418",
+      "team_abbr": "",
+      "team_name": "Cleveland Guardians",
+      "player_name": "Rhys Hoskins",
+      "player_id": 656555,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Cleveland Guardians placed 1B Rhys Hoskins on the 10-day injured list. Lower back inflammation.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938382",
+      "team_abbr": "",
+      "team_name": "New York Mets",
+      "player_name": "Jorge Polanco",
+      "player_id": 593871,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "New York Mets placed DH Jorge Polanco on the 10-day injured list. Left ankle bursitis.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938546",
+      "team_abbr": "",
+      "team_name": "Philadelphia Phillies",
+      "player_name": "Brian Keller",
+      "player_id": 662144,
+      "transaction_type": "dfa",
+      "effective_date": "2026-08-19",
+      "explanation": "Philadelphia Phillies designated RHP Brian Keller for assignment.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938440",
+      "team_abbr": "",
+      "team_name": "Houston Astros",
+      "player_name": "Brice Matthews",
+      "player_id": 694728,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Houston Astros transferred CF Brice Matthews from the 10-day injured list to the 60-day injured list. Left knee sprain.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938479",
+      "team_abbr": "",
+      "team_name": "Cincinnati Reds",
+      "player_name": "Ron Marinaccio",
+      "player_id": 676760,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "RHP Ron Marinaccio elected free agency.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938487",
+      "team_abbr": "",
+      "team_name": "Kansas City Royals",
+      "player_name": "Starling Marte",
+      "player_id": 516782,
+      "transaction_type": "released",
+      "effective_date": "2026-08-19",
+      "explanation": "Kansas City Royals released RF Starling Marte.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938404",
+      "team_abbr": "",
+      "team_name": "Boston Red Sox",
+      "player_name": "Isiah Kiner-Falefa",
+      "player_id": 643396,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Boston Red Sox sent 2B Isiah Kiner-Falefa on a rehab assignment to Worcester Red Sox.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938480",
+      "team_abbr": "",
+      "team_name": "Los Angeles Dodgers",
+      "player_name": "Jonathan Hernández",
+      "player_id": 642546,
+      "transaction_type": "dfa",
+      "effective_date": "2026-08-19",
+      "explanation": "Los Angeles Dodgers designated RHP Jonathan Hernández for assignment.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938389",
+      "team_abbr": "",
+      "team_name": "Chicago Cubs",
+      "player_name": "Jackson Cluff",
+      "player_id": 687714,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Chicago Cubs signed free agent SS Jackson Cluff to a minor league contract.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938416",
+      "team_abbr": "",
+      "team_name": "Toronto Blue Jays",
+      "player_name": "Matt Waldron",
+      "player_id": 663362,
+      "transaction_type": "dfa",
+      "effective_date": "2026-08-19",
+      "explanation": "Toronto Blue Jays designated RHP Matt Waldron for assignment.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938502",
+      "team_abbr": "",
+      "team_name": "Chicago Cubs",
+      "player_name": "Matt Shaw",
+      "player_id": 807713,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Chicago Cubs sent RF Matt Shaw on a rehab assignment to Iowa Cubs.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938526",
+      "team_abbr": "",
+      "team_name": "St. Louis Cardinals",
+      "player_name": "Bligh Madris",
+      "player_id": 676632,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "St. Louis Cardinals signed free agent OF Bligh Madris to a minor league contract.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938430",
+      "team_abbr": "",
+      "team_name": "Milwaukee Brewers",
+      "player_name": "Cooper Pratt",
+      "player_id": 806198,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Milwaukee Brewers activated SS Cooper Pratt from the 10-day injured list.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938441",
+      "team_abbr": "",
+      "team_name": "Toronto Blue Jays",
+      "player_name": "Joe Mantiply",
+      "player_id": 573009,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Toronto Blue Jays sent LHP Joe Mantiply on a rehab assignment to Dunedin Blue Jays.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938489",
+      "team_abbr": "",
+      "team_name": "Texas Rangers",
+      "player_name": "Marco Gonzales",
+      "player_id": 594835,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "LHP Marco Gonzales elected free agency.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938459",
+      "team_abbr": "",
+      "team_name": "San Francisco Giants",
+      "player_name": "Daniel Susac",
+      "player_id": 691740,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "San Francisco Giants transferred C Daniel Susac from the 10-day injured list to the 60-day injured list. Left knee patella fracture.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938482",
+      "team_abbr": "",
+      "team_name": "Colorado Rockies",
+      "player_name": "Jaden Hill",
+      "player_id": 677955,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Colorado Rockies activated RHP Jaden Hill from the 15-day injured list.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938503",
+      "team_abbr": "",
+      "team_name": "Seattle Mariners",
+      "player_name": "Luke Raley",
+      "player_id": 670042,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Seattle Mariners transferred RF Luke Raley from the 10-day injured list to the 60-day injured list. Left forearm strain.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938542",
+      "team_abbr": "",
+      "team_name": "Philadelphia Phillies",
+      "player_name": "Nestor Cortes",
+      "player_id": 641482,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Philadelphia Phillies signed free agent LHP Nestor Cortes.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938493",
+      "team_abbr": "",
+      "team_name": "Colorado Rockies",
+      "player_name": "Michael Lorenzen",
+      "player_id": 547179,
+      "transaction_type": "released",
+      "effective_date": "2026-08-19",
+      "explanation": "Colorado Rockies released RHP Michael Lorenzen.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938408",
+      "team_abbr": "",
+      "team_name": "Tampa Bay Rays",
+      "player_name": "Victor Mesa Jr.",
+      "player_id": 683748,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Tampa Bay Rays placed RF Victor Mesa Jr. on the 10-day injured list. Left hamstring strain.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938460",
+      "team_abbr": "",
+      "team_name": "San Francisco Giants",
+      "player_name": "Harrison Bader",
+      "player_id": 664056,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "San Francisco Giants transferred CF Harrison Bader from the 10-day injured list to the 60-day injured list. Left plantar fasciitis.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938483",
+      "team_abbr": "",
+      "team_name": "Colorado Rockies",
+      "player_name": "Parker Mushinski",
+      "player_id": 656786,
+      "transaction_type": "dfa",
+      "effective_date": "2026-08-19",
+      "explanation": "Colorado Rockies designated LHP Parker Mushinski for assignment.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938492",
+      "team_abbr": "",
+      "team_name": "Chicago Cubs",
+      "player_name": "Phil Maton",
+      "player_id": 664208,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Chicago Cubs transferred RHP Phil Maton from the 15-day injured list to the 60-day injured list. Right knee tendinitis.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938412",
+      "team_abbr": "",
+      "team_name": "Athletics",
+      "player_name": "Jeffrey Springs",
+      "player_id": 605488,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Athletics activated LHP Jeffrey Springs from the 15-day injured list.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938481",
+      "team_abbr": "",
+      "team_name": "Los Angeles Dodgers",
+      "player_name": "Brock Stewart",
+      "player_id": 592779,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Los Angeles Dodgers activated RHP Brock Stewart from the 15-day injured list.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938509",
+      "team_abbr": "",
+      "team_name": "Tampa Bay Rays",
+      "player_name": "Cole Sulser",
+      "player_id": 642121,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Tampa Bay Rays sent RHP Cole Sulser on a rehab assignment to Durham Bulls.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938448",
+      "team_abbr": "",
+      "team_name": "Cincinnati Reds",
+      "player_name": "Darius Vines",
+      "player_id": 670241,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Cincinnati Reds signed free agent RHP Darius Vines to a minor league contract.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938470",
+      "team_abbr": "",
+      "team_name": "Baltimore Orioles",
+      "player_name": "Samuel Basallo",
+      "player_id": 694212,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Baltimore Orioles activated C Samuel Basallo from the 10-day injured list.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938458",
+      "team_abbr": "",
+      "team_name": "San Francisco Giants",
+      "player_name": "Philip Abner",
+      "player_id": 691769,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "San Francisco Giants optioned LHP Philip Abner to Sacramento River Cats.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938415",
+      "team_abbr": "",
+      "team_name": "Columbus Clippers",
+      "player_name": "David Fry",
+      "player_id": 681807,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Cleveland Guardians recalled RF David Fry from Columbus Clippers.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938414",
+      "team_abbr": "",
+      "team_name": "Buffalo Bisons",
+      "player_name": "Brendan Cellucci",
+      "player_id": 676454,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Toronto Blue Jays selected the contract of LHP Brendan Cellucci from Buffalo Bisons.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938431",
+      "team_abbr": "",
+      "team_name": "Milwaukee Brewers",
+      "player_name": "Brandon Lockridge",
+      "player_id": 663604,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Milwaukee Brewers optioned LF Brandon Lockridge to Nashville Sounds.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938432",
+      "team_abbr": "",
+      "team_name": "Milwaukee Brewers",
+      "player_name": "Jihwan Bae",
+      "player_id": 678225,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Milwaukee Brewers sent CF Jihwan Bae outright to Nashville Sounds.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938438",
+      "team_abbr": "",
+      "team_name": "Sugar Land Space Cowboys",
+      "player_name": "Ethan Pecko",
+      "player_id": 814490,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Houston Astros selected the contract of RHP Ethan Pecko from Sugar Land Space Cowboys.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938485",
+      "team_abbr": "",
+      "team_name": "Colorado Rockies",
+      "player_name": "TJ Shook",
+      "player_id": 669298,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Colorado Rockies optioned RHP TJ Shook to Albuquerque Isotopes.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938457",
+      "team_abbr": "",
+      "team_name": "Arizona Diamondbacks",
+      "player_name": "Philip Abner",
+      "player_id": 691769,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "San Francisco Giants claimed LHP Philip Abner off waivers from Arizona Diamondbacks.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938456",
+      "team_abbr": "",
+      "team_name": "San Francisco Giants",
+      "player_name": "Reiver Sanmartin",
+      "player_id": 665665,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "San Francisco Giants optioned LHP Reiver Sanmartin to Sacramento River Cats.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938409",
+      "team_abbr": "",
+      "team_name": "Durham Bulls",
+      "player_name": "Kenny Piper",
+      "player_id": 700652,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Tampa Bay Rays recalled C Kenny Piper from Durham Bulls.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938545",
+      "team_abbr": "",
+      "team_name": "Philadelphia Phillies",
+      "player_name": "Nestor Cortes",
+      "player_id": 641482,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Philadelphia Phillies optioned LHP Nestor Cortes to Clearwater Threshers.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938463",
+      "team_abbr": "",
+      "team_name": "Rochester Red Wings",
+      "player_name": "Erik Tolman",
+      "player_id": 680899,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Washington Nationals selected the contract of LHP Erik Tolman from Rochester Red Wings.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938469",
+      "team_abbr": "",
+      "team_name": "Baltimore Orioles",
+      "player_name": "Jeremiah Jackson",
+      "player_id": 669236,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Baltimore Orioles optioned 2B Jeremiah Jackson to Norfolk Tides.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938380",
+      "team_abbr": "",
+      "team_name": "Syracuse Mets",
+      "player_name": "Eric Wagaman",
+      "player_id": 676572,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "New York Mets recalled 1B Eric Wagaman from Syracuse Mets.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938407",
+      "team_abbr": "",
+      "team_name": "Tampa Bay Rays",
+      "player_name": "Jesse Scholtens",
+      "player_id": 669947,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Tampa Bay Rays optioned RHP Jesse Scholtens to Durham Bulls.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938410",
+      "team_abbr": "",
+      "team_name": "Durham Bulls",
+      "player_name": "Chris Roycroft",
+      "player_id": 688297,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Tampa Bay Rays recalled RHP Chris Roycroft from Durham Bulls.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938501",
+      "team_abbr": "",
+      "team_name": "Seattle Mariners",
+      "player_name": "Josh Simpson",
+      "player_id": 681006,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Seattle Mariners optioned LHP Josh Simpson to Tacoma Rainiers.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938455",
+      "team_abbr": "",
+      "team_name": "Sacramento River Cats",
+      "player_name": "Matt Wilkinson",
+      "player_id": 683363,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "San Francisco Giants selected the contract of LHP Matt Wilkinson from Sacramento River Cats.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938381",
+      "team_abbr": "",
+      "team_name": "New York Mets",
+      "player_name": "Jack Weisenburger",
+      "player_id": 674073,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "New York Mets optioned RHP Jack Weisenburger to Syracuse Mets.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938379",
+      "team_abbr": "",
+      "team_name": "Syracuse Mets",
+      "player_name": "Chayce McDermott",
+      "player_id": 694646,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "New York Mets recalled RHP Chayce McDermott from Syracuse Mets.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938464",
+      "team_abbr": "",
+      "team_name": "Washington Nationals",
+      "player_name": "Yovanny Cruz",
+      "player_id": 672442,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Washington Nationals optioned RHP Yovanny Cruz to Rochester Red Wings.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938491",
+      "team_abbr": "",
+      "team_name": "New York Mets",
+      "player_name": "Gabriel Arias",
+      "player_id": 672356,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Chicago Cubs claimed 3B Gabriel Arias off waivers from New York Mets.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938411",
+      "team_abbr": "",
+      "team_name": "Athletics",
+      "player_name": "Seth Johnson",
+      "player_id": 686751,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Athletics optioned RHP Seth Johnson to Las Vegas Aviators.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938405",
+      "team_abbr": "",
+      "team_name": "New York Yankees",
+      "player_name": "Christian Bethancourt",
+      "player_id": 542194,
+      "transaction_type": "trade",
+      "effective_date": "2026-08-19",
+      "explanation": "New York Yankees traded C Christian Bethancourt to Pittsburgh Pirates for cash.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938484",
+      "team_abbr": "",
+      "team_name": "Albuquerque Isotopes",
+      "player_name": "Mark Manfredi",
+      "player_id": 815081,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Colorado Rockies selected the contract of LHP Mark Manfredi from Albuquerque Isotopes.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938439",
+      "team_abbr": "",
+      "team_name": "Houston Astros",
+      "player_name": "Miguel Ullola",
+      "player_id": 699044,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Houston Astros optioned RHP Miguel Ullola to Sugar Land Space Cowboys.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938500",
+      "team_abbr": "",
+      "team_name": "Tacoma Rainiers",
+      "player_name": "Jhonathan Díaz",
+      "player_id": 646242,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Seattle Mariners selected the contract of LHP Jhonathan Díaz from Tacoma Rainiers.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    }
+  ],
+  "injuries": [],
+  "historical_items": [
+    {
+      "year": 2009,
+      "headline": "Bologna takes the Italian Series in five games over T&A San Marino , with a 16 - 2 romp in the finale",
+      "description": "Bologna takes the Italian Series in five games over T&A San Marino , with a 16 - 2 romp in the finale. Claudio Liverziani goes 8 for 14 with eight walks and six RBI for a 1.537 OPS, winning MVP honors. Just over a week later, the Italian Baseball Federation will suspend Liverziani for a positive amphetamine test during the playoffs. Cliff Lee continues to dominate since the Phillies acquired him from Cleveland at the trading deadline . He pitches a two-hitter in an 8 - 1 win over Arizona , after taking a no-hitter into the 6th inning. It is his fourth win and second complete game in four starts since the trade.",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "headline": "Greg Colbrunn hits a pinch-hit home run in the Diamondbacks' 13 - 6 win over the Cubs ",
+      "description": "Greg Colbrunn hits a pinch-hit home run in the Diamondbacks' 13 - 6 win over the Cubs . Colbrunn's blast is the 13th round-tripper by a pinch-hitter for Arizona this year, breaking the National League mark set by the 1957 Redlegs . The Mariners rout the Yankees , 10 - 2, as OF Mike Cameron gets four hits (including two home runs) and drives home eight runs. OF Ichiro Suzuki stretches his hitting streak to 16 games, giving him three streaks of 15 or more games this year. He's the first major leaguer with three 15-game streaks in the same season since Milwaukee's Cecil Cooper in 1980 . The Orioles bounce back from a 6 - 1 deficit to defeat the Red Sox , 13 - 7. Jeff Conine has five hits for Baltimore. The Birds steal five bases on slow Hideo Nomo . Danny Almonte , pitching for the Bronx Little League entry, the Rolando Paulino All-Stars, hurls the first perfect game since 1957 in the Little League World Series , beating the eventual winner, Apopka, FL , 2 - 0. The Bronx team will win the following week, but all the victories will be stripped from them when an investigation proves a number of rules infractions, not the least of which is that Almonte is overage. His brother, who pitched the previous year, will also be shown to be too old.",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1990,
+      "headline": "Bobby Thigpen records his 40th save as the Chicago White Sox beat the Rangers , 4 - 2",
+      "description": "Bobby Thigpen records his 40th save as the Chicago White Sox beat the Rangers , 4 - 2. He becomes only the eighth reliever to reach this milestone in major league history. Dodger SS Jose Offerman leads off the bottom of the 1st with a home run off Dennis Martinez in his first major league at bat, but that is all the L.A. scoring as Montreal wins, 2 - 1. Offerman had not homered all season in the minors.",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1970,
+      "headline": "Fergie Jenkins homers and his teammates add another six as Chicago coasts over San Diego , 12 - 2",
+      "description": "Fergie Jenkins homers and his teammates add another six as Chicago coasts over San Diego , 12 - 2. Jim Hickman (2), Glenn Beckert , Johnny Callison , Joe Pepitone , and Billy Williams also hit round trippers for Chicago. Six of the Cub homers are solo shots and San Diego adds a solo homer: the seven solo homers by two teams sets a National League record and ties the major league mark set on April 29 , 1962 .",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1992,
+      "headline": "Tom Glavine (19-3) wins his 13th in a row, stopping the Expos , 4 - 2",
+      "description": "Tom Glavine (19-3) wins his 13th in a row, stopping the Expos , 4 - 2. Mike Stanton gets the last two outs. Jeff Blauser 's two-run homer off starter Chris Nabholz is the big blow. Mariners 2B Bret Boone makes his major league debut against the Orioles . By doing so, he becomes the first third-generation player in the major leagues, following in the footsteps of his grandfather Ray , and his father Bob . Boone goes 1 for 4 and drives in a run in Seattle's 10 - 8 victory.",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    }
+  ],
+  "team_game_leaders": [],
+  "generation_metadata": {
+    "pipeline_version": "0.1.0",
+    "python_version": "3.14.5",
+    "ai_provider": null,
+    "ai_model": null,
+    "ai_fallbacks": 15,
+    "total_duration_seconds": null,
+    "data_freshness": {
+      "live_scores_as_of": null,
+      "standings_as_of": null,
+      "schedule_as_of": null,
+      "league_leaders_as_of": null,
+      "transactions_as_of": null,
+      "injuries_as_of": null,
+      "historical_as_of": null,
+      "max_age_warnings": []
+    }
+  }
+}
