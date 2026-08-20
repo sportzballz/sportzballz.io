@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-20-2038",
+    "id": "2026-08-20-2041",
     "type": "late",
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T20:38:29.469916Z",
-    "data_current_through": "2026-08-20T20:38:29.469916Z",
+    "generated_at": "2026-08-20T20:41:52.816431Z",
+    "data_current_through": "2026-08-20T20:41:52.816431Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -15839,6 +15839,26 @@
   ],
   "around_the_league": [
     {
+      "headline": "Williams fans 11 to reach 200-K milestone for first time",
+      "deck": "CLEVELAND -- How you view the Guardians’ position in the revolving door that is the American League postseason picture depends on if you’re a glass-half-full or a glass-half-empty person. What we can all agree on is there is at least some time left this season. “I know where we're at,”",
+      "byline": "Tim Stebbins",
+      "paragraphs": [
+        "CLEVELAND -- How you view the Guardians’ position in the revolving door that is the American League postseason picture depends on if you’re a glass-half-full or a glass-half-empty person. What we can all agree on is there is at least some time left this season. “I know where we're at,”"
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/gavin-williams-strikes-out-11-against-giants"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "CLEVELAND -- How you view the Guardians’ position in the revolving door that is the American League postseason picture depends on if you’re a glass-half-full or a glass-half-empty person. What we can all agree on is there is at least some time left this season. “I know where we're at,”"
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/gavin-williams-strikes-out-11-against-giants"
+    },
+    {
       "headline": "The 10 biggest breakouts on the new Top 100 Prospects list",
       "deck": "MLB Pipeline gave a full refresh to its Top 100 Prospects list last week -- and each team’s Top 30 -- now that the 2026 draftees have joined their respective organizations. That makes it as good a time as any to look at the biggest breakout players in Minor Leagues.",
       "byline": "MLB.com",
@@ -15937,26 +15957,6 @@
       "ai_generated": false,
       "source_name": "MLB.com",
       "source_url": "https://www.mlb.com/news/chappell-roan-night-coming-to-springfield-cardinals"
-    },
-    {
-      "headline": "Dropped fly sparks Cards' wild 6-run rally in 9th to shock Reds",
-      "deck": "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible",
-      "byline": "Brenden Schaeffer",
-      "paragraphs": [
-        "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible"
-      ],
-      "source_data_references": [
-        "https://www.mlb.com/news/cardinals-six-run-ninth-inning-comeback-reds"
-      ],
-      "story_type": "editorial",
-      "teams": [],
-      "players": [],
-      "facts_used": [
-        "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible"
-      ],
-      "ai_generated": false,
-      "source_name": "MLB.com",
-      "source_url": "https://www.mlb.com/news/cardinals-six-run-ninth-inning-comeback-reds"
     }
   ],
   "transactions": [
