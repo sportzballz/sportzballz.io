@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-20-2029",
+    "id": "2026-08-20-2035",
     "type": "late",
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T20:29:30.224210Z",
-    "data_current_through": "2026-08-20T20:29:30.224210Z",
+    "generated_at": "2026-08-20T20:35:29.441330Z",
+    "data_current_through": "2026-08-20T20:35:29.441330Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -16580,27 +16580,108 @@
   "injuries": [],
   "historical_items": [
     {
-      "year": 2009,
-      "headline": "Bologna takes the Italian Series in five games over T&A San Marino , with a 16 - 2 romp in the finale",
-      "description": "Bologna takes the Italian Series in five games over T&A San Marino , with a 16 - 2 romp in the finale. Claudio Liverziani goes 8 for 14 with eight walks and six RBI for a 1.537 OPS, winning MVP honors. Just over a week later, the Italian Baseball Federation will suspend Liverziani for a positive amphetamine test during the playoffs. Cliff Lee continues to dominate since the Phillies acquired him from Cleveland at the trading deadline . He pitches a two-hitter in an 8 - 1 win over Arizona , after taking a no-hitter into the 6th inning. It is his fourth win and second complete game in four starts since the trade.",
+      "year": 1996,
+      "headline": "The Phils release Mitch Williams , who was 1-2 with Scranton-Wilkes-Barre ",
+      "description": "",
       "teams": [],
       "players": [],
       "source": "https://www.baseball-reference.com/bullpen/August_19",
       "verified": true
     },
     {
-      "year": 2001,
-      "headline": "Greg Colbrunn hits a pinch-hit home run in the Diamondbacks' 13 - 6 win over the Cubs ",
-      "description": "Greg Colbrunn hits a pinch-hit home run in the Diamondbacks' 13 - 6 win over the Cubs . Colbrunn's blast is the 13th round-tripper by a pinch-hitter for Arizona this year, breaking the National League mark set by the 1957 Redlegs . The Mariners rout the Yankees , 10 - 2, as OF Mike Cameron gets four hits (including two home runs) and drives home eight runs. OF Ichiro Suzuki stretches his hitting streak to 16 games, giving him three streaks of 15 or more games this year. He's the first major leaguer with three 15-game streaks in the same season since Milwaukee's Cecil Cooper in 1980 . The Orioles bounce back from a 6 - 1 deficit to defeat the Red Sox , 13 - 7. Jeff Conine has five hits for Baltimore. The Birds steal five bases on slow Hideo Nomo . Danny Almonte , pitching for the Bronx Little League entry, the Rolando Paulino All-Stars, hurls the first perfect game since 1957 in the Little League World Series , beating the eventual winner, Apopka, FL , 2 - 0. The Bronx team will win the following week, but all the victories will be stripped from them when an investigation proves a number of rules infractions, not the least of which is that Almonte is overage. His brother, who pitched the previous year, will also be shown to be too old.",
+      "year": 1931,
+      "headline": "Grove holds the Sox scoreless till the 9th, while the A's score in the 2nd, 3rd and 8th off Red Faber ",
+      "description": "",
       "teams": [],
       "players": [],
       "source": "https://www.baseball-reference.com/bullpen/August_19",
       "verified": true
     },
     {
-      "year": 1990,
-      "headline": "Bobby Thigpen records his 40th save as the Chicago White Sox beat the Rangers , 4 - 2",
-      "description": "Bobby Thigpen records his 40th save as the Chicago White Sox beat the Rangers , 4 - 2. He becomes only the eighth reliever to reach this milestone in major league history. Dodger SS Jose Offerman leads off the bottom of the 1st with a home run off Dennis Martinez in his first major league at bat, but that is all the L.A. scoring as Montreal wins, 2 - 1. Offerman had not homered all season in the minors.",
+      "year": 1901,
+      "headline": "Harper will end up at 23-13",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1965,
+      "headline": "The Dodgers win it in 15 innings, 6 - 5",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1900,
+      "headline": "In American League action, Rube Waddell throws two complete games as Milwaukee sweeps a doubleheader from t...",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1930,
+      "headline": "In RF, Klein waves to Wilson as he circles the bases",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1925,
+      "headline": "The Phils finally solve Reds righthander Pete Donohue , 5 - 4, after losing to him 20 straight times",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 2012,
+      "headline": "Yukari Isozaki scatters 7 hits in a complete game shutout to improve to 3-0, 0.33 in the Cup and take MVP h...",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 2007,
+      "headline": "Maddux aids his cause with two hits in two at-bats",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1945,
+      "headline": "The lidlifter goes to the Phils as well, 5 - 0, though they are mathematically eliminated from a first-plac...",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1931,
+      "headline": "The Giants score single runs in each of the last three innings to beat the Reds , 6 - 5",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "headline": "Assistant GM Randy Bush is named to take over in the interim but is not in line to succeed Hendry",
+      "description": "",
       "teams": [],
       "players": [],
       "source": "https://www.baseball-reference.com/bullpen/August_19",
@@ -16609,16 +16690,106 @@
     {
       "year": 1970,
       "headline": "Fergie Jenkins homers and his teammates add another six as Chicago coasts over San Diego , 12 - 2",
-      "description": "Fergie Jenkins homers and his teammates add another six as Chicago coasts over San Diego , 12 - 2. Jim Hickman (2), Glenn Beckert , Johnny Callison , Joe Pepitone , and Billy Williams also hit round trippers for Chicago. Six of the Cub homers are solo shots and San Diego adds a solo homer: the seven solo homers by two teams sets a National League record and ties the major league mark set on April 29 , 1962 .",
+      "description": "",
       "teams": [],
       "players": [],
       "source": "https://www.baseball-reference.com/bullpen/August_19",
       "verified": true
     },
     {
-      "year": 1992,
-      "headline": "Tom Glavine (19-3) wins his 13th in a row, stopping the Expos , 4 - 2",
-      "description": "Tom Glavine (19-3) wins his 13th in a row, stopping the Expos , 4 - 2. Mike Stanton gets the last two outs. Jeff Blauser 's two-run homer off starter Chris Nabholz is the big blow. Mariners 2B Bret Boone makes his major league debut against the Orioles . By doing so, he becomes the first third-generation player in the major leagues, following in the footsteps of his grandfather Ray , and his father Bob . Boone goes 1 for 4 and drives in a run in Seattle's 10 - 8 victory.",
+      "year": 1965,
+      "headline": "At Wrigley Field , Reds hurler Jim Maloney no-hits the Cubs , 1 - 0, with the only run scoring on a Leo Car...",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 2016,
+      "headline": "Springer goes 4 for 5 and José Altuve homers and has five RBIs for Houston as eight long balls are hit overall",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1950,
+      "headline": "Reliever Bob Rush loses to Murry Dickson ",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1950,
+      "headline": "Radio rights will add another $175,000 more",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 2012,
+      "headline": "Two innings later, Pedro Alvarez hits a solo homer off Barret Browning and Andrew McCutchen adds a two-run...",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "headline": "Danny Almonte , pitching for the Bronx Little League entry, the Rolando Paulino All-Stars, hurls the first...",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1958,
+      "headline": "Clemente also threw out Dale Long , who was attempting to move from first to third on Sam Taylor's single i...",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1950,
+      "headline": "Clyde McCullough adds a bases-loaded triple, sac fly, and two-run double, while Johnny Hopp homers",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1962,
+      "headline": "Cleveland Indians President Mike Wilson dies at age 74",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 2008,
+      "headline": "Tsuyoshi Nishioka goes 3 for 3 with three RBI",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_19",
+      "verified": true
+    },
+    {
+      "year": 1961,
+      "headline": "For the hapless Quakers, it is their 22nd loss in a row",
+      "description": "",
       "teams": [],
       "players": [],
       "source": "https://www.baseball-reference.com/bullpen/August_19",
