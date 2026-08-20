@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-20-2041",
+    "id": "2026-08-20-2124",
     "type": "late",
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T20:41:52.816431Z",
-    "data_current_through": "2026-08-20T20:41:52.816431Z",
+    "generated_at": "2026-08-20T21:24:49.561608Z",
+    "data_current_through": "2026-08-20T21:24:49.561609Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -1010,7 +1010,13 @@
       "boxscore_notes": [
         "HBP: Davis, H (by Jobe).",
         "Umpires: HP: Chris Conroy. 1B: Austin Jones. 2B: Ben May. 3B: John Tumpane. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 143,
+        "home_moneyline": -154,
+        "run_total": 8.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 823587,
@@ -1801,7 +1807,13 @@
       "boxscore_notes": [
         "HBP: Bogaerts (by Stock).",
         "Umpires: HP: Edwin Jimenez. 1B: Erich Bacchus. 2B: Chris Segal. 3B: Laz Diaz. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": -136,
+        "home_moneyline": 126,
+        "run_total": 8.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 823664,
@@ -2613,7 +2625,13 @@
       },
       "boxscore_notes": [
         "Umpires: HP: Carlos Torres. 1B: Nate Tomlinson. 2B: Bruce Dreckman. 3B: Mark Wegner. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": -108,
+        "home_moneyline": 100,
+        "run_total": 9.0,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 824640,
@@ -3345,7 +3363,13 @@
       },
       "boxscore_notes": [
         "Umpires: HP: Tom Hanahan. 1B: Ron Kulpa. 2B: Scott Barry. 3B: Manny Gonzalez. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 135,
+        "home_moneyline": -145,
+        "run_total": 7.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 824722,
@@ -4196,7 +4220,13 @@
       "boxscore_notes": [
         "HBP: Jones, Jah (by Garcia, B).",
         "Umpires: HP: Louie Krupa. 1B: Adam Beck. 2B: Dan Iassogna. 3B: D.J. Reyburn. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 148,
+        "home_moneyline": -159,
+        "run_total": 8.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 823424,
@@ -4846,7 +4876,13 @@
       },
       "boxscore_notes": [
         "Umpires: HP: Clint Vondrak. 1B: Todd Tichenor. 2B: Tyler Jones. 3B: Shane Livensparger. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 131,
+        "home_moneyline": -141,
+        "run_total": 9.0,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 824801,
@@ -5679,7 +5715,13 @@
       "boxscore_notes": [
         "HBP: Ramos, H (by Sanders); Caballero (by Sanders); Basallo (by Warren, W).",
         "Umpires: HP: Ryan Wills. 1B: Ryan Additon. 2B: Jonathan Parra. 3B: Will Little. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": -105,
+        "home_moneyline": -102,
+        "run_total": 9.0,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 824394,
@@ -6373,7 +6415,13 @@
       },
       "boxscore_notes": [
         "Umpires: HP: Stu Scheurwater. 1B: Steven Jaschinski. 2B: Rob Drake. 3B: Brock Ballou. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 206,
+        "home_moneyline": -223,
+        "run_total": 7.0,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 824476,
@@ -7122,7 +7170,13 @@
       "boxscore_notes": [
         "HBP: Wetherholt (by Pagán).",
         "Umpires: HP: Edwin Moscoso. 1B: Hunter Wendelstedt. 2B: Vic Carapazza. 3B: Nic Lentz. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 125,
+        "home_moneyline": -134,
+        "run_total": 8.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 822937,
@@ -7932,7 +7986,13 @@
       },
       "boxscore_notes": [
         "Umpires: HP: James Jean. 1B: Sean Barber. 2B: John Libka. 3B: James Hoye. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 179,
+        "home_moneyline": -193,
+        "run_total": 7.0,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 824076,
@@ -8655,7 +8715,13 @@
       "boxscore_notes": [
         "HBP: Caglianone (by Springs).",
         "Umpires: HP: Alex Tosi. 1B: Cory Blaser. 2B: Jansen Visconti. 3B: Andy Fletcher. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 169,
+        "home_moneyline": -182,
+        "run_total": 8.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 823748,
@@ -9404,7 +9470,13 @@
       "boxscore_notes": [
         "HBP: Arozarena (by May).",
         "Umpires: HP: Dexter Kelley. 1B: Quinn Wolcott. 2B: Ramon De Jesus. 3B: Adrian Johnson. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 108,
+        "home_moneyline": -116,
+        "run_total": 7.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 822860,
@@ -10127,7 +10199,13 @@
       },
       "boxscore_notes": [
         "Umpires: HP: Bill Miller. 1B: Chad Whitson. 2B: Brian Walsh. 3B: Chad Fairchild. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 108,
+        "home_moneyline": -116,
+        "run_total": 7.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 824155,
@@ -10937,7 +11015,13 @@
       "boxscore_notes": [
         "HBP: Trout (by Pecko).",
         "Umpires: HP: Mike Estabrook. 1B: Lance Barrett. 2B: Malachi Moore. 3B: Alfonso Márquez. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": 137,
+        "home_moneyline": -147,
+        "run_total": 8.5,
+        "provider": "DraftKings"
+      }
     },
     {
       "game_id": 824318,
@@ -11794,7 +11878,13 @@
       },
       "boxscore_notes": [
         "Umpires: HP: Dan Merzel. 1B: Dan Bellino. 2B: Mark Ripperger. 3B: Adam Hamari. "
-      ]
+      ],
+      "betting_line": {
+        "away_moneyline": -193,
+        "home_moneyline": 179,
+        "run_total": 11.5,
+        "provider": "DraftKings"
+      }
     }
   ],
   "standings": {
@@ -11899,14 +11989,14 @@
             "team_abbr": "CWS",
             "team_name": "White Sox",
             "wins": 66,
-            "losses": 60,
-            "pct": 0.524,
+            "losses": 61,
+            "pct": 0.52,
             "games_back": "-",
-            "last_10": "6-4",
-            "streak": "W1",
-            "home_record": "37-24",
+            "last_10": "5-5",
+            "streak": "L1",
+            "home_record": "37-25",
             "away_record": "29-36",
-            "run_differential": 47,
+            "run_differential": 45,
             "wild_card_gb": null,
             "eliminated": false,
             "magic_number": null
@@ -11918,7 +12008,7 @@
             "wins": 63,
             "losses": 65,
             "pct": 0.492,
-            "games_back": "4.0",
+            "games_back": "3.5",
             "last_10": "5-5",
             "streak": "W3",
             "home_record": "35-31",
@@ -11935,7 +12025,7 @@
             "wins": 62,
             "losses": 66,
             "pct": 0.484,
-            "games_back": "5.0",
+            "games_back": "4.5",
             "last_10": "4-6",
             "streak": "W1",
             "home_record": "31-34",
@@ -11952,7 +12042,7 @@
             "wins": 61,
             "losses": 66,
             "pct": 0.48,
-            "games_back": "5.5",
+            "games_back": "5.0",
             "last_10": "4-6",
             "streak": "L2",
             "home_record": "32-31",
@@ -11966,15 +12056,15 @@
             "team_id": 118,
             "team_abbr": "KC",
             "team_name": "Royals",
-            "wins": 54,
+            "wins": 55,
             "losses": 74,
-            "pct": 0.422,
-            "games_back": "13.0",
-            "last_10": "5-5",
-            "streak": "W4",
-            "home_record": "32-30",
+            "pct": 0.426,
+            "games_back": "12.0",
+            "last_10": "6-4",
+            "streak": "W5",
+            "home_record": "33-30",
             "away_record": "22-44",
-            "run_differential": -104,
+            "run_differential": -100,
             "wild_card_gb": null,
             "eliminated": false,
             "magic_number": null
@@ -12024,14 +12114,14 @@
             "team_abbr": "SEA",
             "team_name": "Mariners",
             "wins": 60,
-            "losses": 67,
-            "pct": 0.472,
-            "games_back": "4.0",
+            "losses": 68,
+            "pct": 0.469,
+            "games_back": "4.5",
             "last_10": "4-6",
-            "streak": "W1",
+            "streak": "L1",
             "home_record": "33-29",
-            "away_record": "27-38",
-            "run_differential": -43,
+            "away_record": "27-39",
+            "run_differential": -46,
             "wild_card_gb": null,
             "eliminated": false,
             "magic_number": null
@@ -12058,14 +12148,14 @@
             "team_abbr": "ATH",
             "team_name": "Athletics",
             "wins": 49,
-            "losses": 78,
-            "pct": 0.386,
-            "games_back": "15.0",
-            "last_10": "3-7",
-            "streak": "L3",
+            "losses": 79,
+            "pct": 0.383,
+            "games_back": "15.5",
+            "last_10": "2-8",
+            "streak": "L4",
             "home_record": "23-40",
-            "away_record": "26-38",
-            "run_differential": -181,
+            "away_record": "26-39",
+            "run_differential": -185,
             "wild_card_gb": null,
             "eliminated": false,
             "magic_number": null
@@ -12080,15 +12170,15 @@
             "team_id": 144,
             "team_abbr": "ATL",
             "team_name": "Braves",
-            "wins": 74,
+            "wins": 75,
             "losses": 53,
-            "pct": 0.583,
+            "pct": 0.586,
             "games_back": "-",
             "last_10": "4-6",
-            "streak": "L3",
+            "streak": "W1",
             "home_record": "42-23",
-            "away_record": "32-30",
-            "run_differential": 110,
+            "away_record": "33-30",
+            "run_differential": 112,
             "wild_card_gb": null,
             "eliminated": false,
             "magic_number": null
@@ -12100,7 +12190,7 @@
             "wins": 70,
             "losses": 58,
             "pct": 0.547,
-            "games_back": "4.5",
+            "games_back": "5.0",
             "last_10": "8-2",
             "streak": "W6",
             "home_record": "35-30",
@@ -12117,7 +12207,7 @@
             "wins": 64,
             "losses": 64,
             "pct": 0.5,
-            "games_back": "10.5",
+            "games_back": "11.0",
             "last_10": "5-5",
             "streak": "L3",
             "home_record": "38-25",
@@ -12134,7 +12224,7 @@
             "wins": 61,
             "losses": 67,
             "pct": 0.477,
-            "games_back": "13.5",
+            "games_back": "14.0",
             "last_10": "4-6",
             "streak": "W1",
             "home_record": "27-36",
@@ -12151,7 +12241,7 @@
             "wins": 58,
             "losses": 70,
             "pct": 0.453,
-            "games_back": "16.5",
+            "games_back": "17.0",
             "last_10": "7-3",
             "streak": "W1",
             "home_record": "30-35",
@@ -12171,15 +12261,15 @@
             "team_id": 158,
             "team_abbr": "MIL",
             "team_name": "Brewers",
-            "wins": 78,
+            "wins": 79,
             "losses": 49,
-            "pct": 0.614,
+            "pct": 0.617,
             "games_back": "-",
             "last_10": "5-5",
-            "streak": "L1",
-            "home_record": "42-23",
+            "streak": "W1",
+            "home_record": "43-23",
             "away_record": "36-26",
-            "run_differential": 156,
+            "run_differential": 159,
             "wild_card_gb": null,
             "eliminated": false,
             "magic_number": null
@@ -12191,7 +12281,7 @@
             "wins": 74,
             "losses": 54,
             "pct": 0.578,
-            "games_back": "4.5",
+            "games_back": "5.0",
             "last_10": "6-4",
             "streak": "L1",
             "home_record": "38-27",
@@ -12208,7 +12298,7 @@
             "wins": 66,
             "losses": 63,
             "pct": 0.512,
-            "games_back": "13.0",
+            "games_back": "13.5",
             "last_10": "7-3",
             "streak": "W1",
             "home_record": "32-34",
@@ -12225,7 +12315,7 @@
             "wins": 63,
             "losses": 66,
             "pct": 0.488,
-            "games_back": "16.0",
+            "games_back": "16.5",
             "last_10": "5-5",
             "streak": "W2",
             "home_record": "34-32",
@@ -12242,7 +12332,7 @@
             "wins": 61,
             "losses": 67,
             "pct": 0.477,
-            "games_back": "17.5",
+            "games_back": "18.0",
             "last_10": "4-6",
             "streak": "L1",
             "home_record": "32-36",
@@ -15961,28 +16051,6 @@
   ],
   "transactions": [
     {
-      "transaction_id": "938470",
-      "team_abbr": "BAL",
-      "team_name": "Baltimore Orioles",
-      "player_name": "Samuel Basallo",
-      "player_id": 694212,
-      "transaction_type": "activated",
-      "effective_date": "2026-08-19",
-      "explanation": "Baltimore Orioles activated C Samuel Basallo from the 10-day injured list.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938418",
-      "team_abbr": "CLE",
-      "team_name": "Cleveland Guardians",
-      "player_name": "Rhys Hoskins",
-      "player_id": 656555,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-19",
-      "explanation": "Cleveland Guardians placed 1B Rhys Hoskins on the 10-day injured list. Lower back inflammation.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
       "transaction_id": "938546",
       "team_abbr": "PHI",
       "team_name": "Philadelphia Phillies",
@@ -16027,6 +16095,17 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
+      "transaction_id": "938483",
+      "team_abbr": "COL",
+      "team_name": "Colorado Rockies",
+      "player_name": "Parker Mushinski",
+      "player_id": 656786,
+      "transaction_type": "dfa",
+      "effective_date": "2026-08-19",
+      "explanation": "Colorado Rockies designated LHP Parker Mushinski for assignment.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
       "transaction_id": "938492",
       "team_abbr": "CHC",
       "team_name": "Chicago Cubs",
@@ -16049,25 +16128,14 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938412",
-      "team_abbr": "ATH",
-      "team_name": "Athletics",
-      "player_name": "Jeffrey Springs",
-      "player_id": 605488,
-      "transaction_type": "activated",
+      "transaction_id": "938404",
+      "team_abbr": "BOS",
+      "team_name": "Boston Red Sox",
+      "player_name": "Isiah Kiner-Falefa",
+      "player_id": 643396,
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
-      "explanation": "Athletics activated LHP Jeffrey Springs from the 15-day injured list.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938481",
-      "team_abbr": "LAD",
-      "team_name": "Los Angeles Dodgers",
-      "player_name": "Brock Stewart",
-      "player_id": 592779,
-      "transaction_type": "activated",
-      "effective_date": "2026-08-19",
-      "explanation": "Los Angeles Dodgers activated RHP Brock Stewart from the 15-day injured list.",
+      "explanation": "Boston Red Sox sent 2B Isiah Kiner-Falefa on a rehab assignment to Worcester Red Sox.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16082,25 +16150,25 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938430",
-      "team_abbr": "MIL",
-      "team_name": "Milwaukee Brewers",
-      "player_name": "Cooper Pratt",
-      "player_id": 806198,
-      "transaction_type": "activated",
+      "transaction_id": "938448",
+      "team_abbr": "CIN",
+      "team_name": "Cincinnati Reds",
+      "player_name": "Darius Vines",
+      "player_id": 670241,
+      "transaction_type": "other",
       "effective_date": "2026-08-19",
-      "explanation": "Milwaukee Brewers activated SS Cooper Pratt from the 10-day injured list.",
+      "explanation": "Cincinnati Reds signed free agent RHP Darius Vines to a minor league contract.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938441",
-      "team_abbr": "TOR",
-      "team_name": "Toronto Blue Jays",
-      "player_name": "Joe Mantiply",
-      "player_id": 573009,
-      "transaction_type": "injury",
+      "transaction_id": "938470",
+      "team_abbr": "BAL",
+      "team_name": "Baltimore Orioles",
+      "player_name": "Samuel Basallo",
+      "player_id": 694212,
+      "transaction_type": "activated",
       "effective_date": "2026-08-19",
-      "explanation": "Toronto Blue Jays sent LHP Joe Mantiply on a rehab assignment to Dunedin Blue Jays.",
+      "explanation": "Baltimore Orioles activated C Samuel Basallo from the 10-day injured list.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16126,36 +16194,14 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938382",
-      "team_abbr": "NYM",
-      "team_name": "New York Mets",
-      "player_name": "Jorge Polanco",
-      "player_id": 593871,
+      "transaction_id": "938418",
+      "team_abbr": "CLE",
+      "team_name": "Cleveland Guardians",
+      "player_name": "Rhys Hoskins",
+      "player_id": 656555,
       "transaction_type": "injury",
       "effective_date": "2026-08-19",
-      "explanation": "New York Mets placed DH Jorge Polanco on the 10-day injured list. Left ankle bursitis.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938448",
-      "team_abbr": "CIN",
-      "team_name": "Cincinnati Reds",
-      "player_name": "Darius Vines",
-      "player_id": 670241,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Cincinnati Reds signed free agent RHP Darius Vines to a minor league contract.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938489",
-      "team_abbr": "TEX",
-      "team_name": "Texas Rangers",
-      "player_name": "Marco Gonzales",
-      "player_id": 594835,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "LHP Marco Gonzales elected free agency.",
+      "explanation": "Cleveland Guardians placed 1B Rhys Hoskins on the 10-day injured list. Lower back inflammation.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16214,28 +16260,6 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938483",
-      "team_abbr": "COL",
-      "team_name": "Colorado Rockies",
-      "player_name": "Parker Mushinski",
-      "player_id": 656786,
-      "transaction_type": "dfa",
-      "effective_date": "2026-08-19",
-      "explanation": "Colorado Rockies designated LHP Parker Mushinski for assignment.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938404",
-      "team_abbr": "BOS",
-      "team_name": "Boston Red Sox",
-      "player_name": "Isiah Kiner-Falefa",
-      "player_id": 643396,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-19",
-      "explanation": "Boston Red Sox sent 2B Isiah Kiner-Falefa on a rehab assignment to Worcester Red Sox.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
       "transaction_id": "938493",
       "team_abbr": "COL",
       "team_name": "Colorado Rockies",
@@ -16244,6 +16268,28 @@
       "transaction_type": "released",
       "effective_date": "2026-08-19",
       "explanation": "Colorado Rockies released RHP Michael Lorenzen.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938412",
+      "team_abbr": "ATH",
+      "team_name": "Athletics",
+      "player_name": "Jeffrey Springs",
+      "player_id": 605488,
+      "transaction_type": "activated",
+      "effective_date": "2026-08-19",
+      "explanation": "Athletics activated LHP Jeffrey Springs from the 15-day injured list.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938481",
+      "team_abbr": "LAD",
+      "team_name": "Los Angeles Dodgers",
+      "player_name": "Brock Stewart",
+      "player_id": 592779,
+      "transaction_type": "activated",
+      "effective_date": "2026-08-19",
+      "explanation": "Los Angeles Dodgers activated RHP Brock Stewart from the 15-day injured list.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16280,69 +16326,69 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938405",
-      "team_abbr": "NYY",
-      "team_name": "New York Yankees",
-      "player_name": "Christian Bethancourt",
-      "player_id": 542194,
-      "transaction_type": "trade",
-      "effective_date": "2026-08-19",
-      "explanation": "New York Yankees traded C Christian Bethancourt to Pittsburgh Pirates for cash.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938439",
-      "team_abbr": "HOU",
-      "team_name": "Houston Astros",
-      "player_name": "Miguel Ullola",
-      "player_id": 699044,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Houston Astros optioned RHP Miguel Ullola to Sugar Land Space Cowboys.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938431",
+      "transaction_id": "938430",
       "team_abbr": "MIL",
       "team_name": "Milwaukee Brewers",
-      "player_name": "Brandon Lockridge",
-      "player_id": 663604,
-      "transaction_type": "other",
+      "player_name": "Cooper Pratt",
+      "player_id": 806198,
+      "transaction_type": "activated",
       "effective_date": "2026-08-19",
-      "explanation": "Milwaukee Brewers optioned LF Brandon Lockridge to Nashville Sounds.",
+      "explanation": "Milwaukee Brewers activated SS Cooper Pratt from the 10-day injured list.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938407",
-      "team_abbr": "TB",
-      "team_name": "Tampa Bay Rays",
-      "player_name": "Jesse Scholtens",
-      "player_id": 669947,
-      "transaction_type": "other",
+      "transaction_id": "938441",
+      "team_abbr": "TOR",
+      "team_name": "Toronto Blue Jays",
+      "player_name": "Joe Mantiply",
+      "player_id": 573009,
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
-      "explanation": "Tampa Bay Rays optioned RHP Jesse Scholtens to Durham Bulls.",
+      "explanation": "Toronto Blue Jays sent LHP Joe Mantiply on a rehab assignment to Dunedin Blue Jays.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938381",
+      "transaction_id": "938382",
       "team_abbr": "NYM",
       "team_name": "New York Mets",
-      "player_name": "Jack Weisenburger",
-      "player_id": 674073,
-      "transaction_type": "other",
+      "player_name": "Jorge Polanco",
+      "player_id": 593871,
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
-      "explanation": "New York Mets optioned RHP Jack Weisenburger to Syracuse Mets.",
+      "explanation": "New York Mets placed DH Jorge Polanco on the 10-day injured list. Left ankle bursitis.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938455",
-      "team_abbr": "",
-      "team_name": "Sacramento River Cats",
-      "player_name": "Matt Wilkinson",
-      "player_id": 683363,
+      "transaction_id": "938489",
+      "team_abbr": "TEX",
+      "team_name": "Texas Rangers",
+      "player_name": "Marco Gonzales",
+      "player_id": 594835,
       "transaction_type": "other",
       "effective_date": "2026-08-19",
-      "explanation": "San Francisco Giants selected the contract of LHP Matt Wilkinson from Sacramento River Cats.",
+      "explanation": "LHP Marco Gonzales elected free agency.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938457",
+      "team_abbr": "AZ",
+      "team_name": "Arizona Diamondbacks",
+      "player_name": "Philip Abner",
+      "player_id": 691769,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "San Francisco Giants claimed LHP Philip Abner off waivers from Arizona Diamondbacks.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938491",
+      "team_abbr": "NYM",
+      "team_name": "New York Mets",
+      "player_name": "Gabriel Arias",
+      "player_id": 672356,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Chicago Cubs claimed 3B Gabriel Arias off waivers from New York Mets.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16357,25 +16403,69 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938438",
+      "transaction_id": "938415",
       "team_abbr": "",
-      "team_name": "Sugar Land Space Cowboys",
-      "player_name": "Ethan Pecko",
-      "player_id": 814490,
+      "team_name": "Columbus Clippers",
+      "player_name": "David Fry",
+      "player_id": 681807,
       "transaction_type": "other",
       "effective_date": "2026-08-19",
-      "explanation": "Houston Astros selected the contract of RHP Ethan Pecko from Sugar Land Space Cowboys.",
+      "explanation": "Cleveland Guardians recalled RF David Fry from Columbus Clippers.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938545",
-      "team_abbr": "PHI",
-      "team_name": "Philadelphia Phillies",
-      "player_name": "Nestor Cortes",
-      "player_id": 641482,
+      "transaction_id": "938405",
+      "team_abbr": "NYY",
+      "team_name": "New York Yankees",
+      "player_name": "Christian Bethancourt",
+      "player_id": 542194,
+      "transaction_type": "trade",
+      "effective_date": "2026-08-19",
+      "explanation": "New York Yankees traded C Christian Bethancourt to Pittsburgh Pirates for cash.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938410",
+      "team_abbr": "",
+      "team_name": "Durham Bulls",
+      "player_name": "Chris Roycroft",
+      "player_id": 688297,
       "transaction_type": "other",
       "effective_date": "2026-08-19",
-      "explanation": "Philadelphia Phillies optioned LHP Nestor Cortes to Clearwater Threshers.",
+      "explanation": "Tampa Bay Rays recalled RHP Chris Roycroft from Durham Bulls.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938501",
+      "team_abbr": "SEA",
+      "team_name": "Seattle Mariners",
+      "player_name": "Josh Simpson",
+      "player_id": 681006,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Seattle Mariners optioned LHP Josh Simpson to Tacoma Rainiers.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938439",
+      "team_abbr": "HOU",
+      "team_name": "Houston Astros",
+      "player_name": "Miguel Ullola",
+      "player_id": 699044,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Houston Astros optioned RHP Miguel Ullola to Sugar Land Space Cowboys.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938411",
+      "team_abbr": "ATH",
+      "team_name": "Athletics",
+      "player_name": "Seth Johnson",
+      "player_id": 686751,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Athletics optioned RHP Seth Johnson to Las Vegas Aviators.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16401,36 +16491,36 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938469",
-      "team_abbr": "BAL",
-      "team_name": "Baltimore Orioles",
-      "player_name": "Jeremiah Jackson",
-      "player_id": 669236,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Baltimore Orioles optioned 2B Jeremiah Jackson to Norfolk Tides.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938457",
-      "team_abbr": "AZ",
-      "team_name": "Arizona Diamondbacks",
-      "player_name": "Philip Abner",
-      "player_id": 691769,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "San Francisco Giants claimed LHP Philip Abner off waivers from Arizona Diamondbacks.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938410",
+      "transaction_id": "938484",
       "team_abbr": "",
-      "team_name": "Durham Bulls",
-      "player_name": "Chris Roycroft",
-      "player_id": 688297,
+      "team_name": "Albuquerque Isotopes",
+      "player_name": "Mark Manfredi",
+      "player_id": 815081,
       "transaction_type": "other",
       "effective_date": "2026-08-19",
-      "explanation": "Tampa Bay Rays recalled RHP Chris Roycroft from Durham Bulls.",
+      "explanation": "Colorado Rockies selected the contract of LHP Mark Manfredi from Albuquerque Isotopes.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938463",
+      "team_abbr": "",
+      "team_name": "Rochester Red Wings",
+      "player_name": "Erik Tolman",
+      "player_id": 680899,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Washington Nationals selected the contract of LHP Erik Tolman from Rochester Red Wings.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938438",
+      "team_abbr": "",
+      "team_name": "Sugar Land Space Cowboys",
+      "player_name": "Ethan Pecko",
+      "player_id": 814490,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Houston Astros selected the contract of RHP Ethan Pecko from Sugar Land Space Cowboys.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16445,28 +16535,6 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938501",
-      "team_abbr": "SEA",
-      "team_name": "Seattle Mariners",
-      "player_name": "Josh Simpson",
-      "player_id": 681006,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Seattle Mariners optioned LHP Josh Simpson to Tacoma Rainiers.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938491",
-      "team_abbr": "NYM",
-      "team_name": "New York Mets",
-      "player_name": "Gabriel Arias",
-      "player_id": 672356,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Chicago Cubs claimed 3B Gabriel Arias off waivers from New York Mets.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
       "transaction_id": "938379",
       "team_abbr": "",
       "team_name": "Syracuse Mets",
@@ -16475,17 +16543,6 @@
       "transaction_type": "other",
       "effective_date": "2026-08-19",
       "explanation": "New York Mets recalled RHP Chayce McDermott from Syracuse Mets.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938432",
-      "team_abbr": "MIL",
-      "team_name": "Milwaukee Brewers",
-      "player_name": "Jihwan Bae",
-      "player_id": 678225,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Milwaukee Brewers sent CF Jihwan Bae outright to Nashville Sounds.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16500,25 +16557,14 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938485",
-      "team_abbr": "COL",
-      "team_name": "Colorado Rockies",
-      "player_name": "TJ Shook",
-      "player_id": 669298,
+      "transaction_id": "938469",
+      "team_abbr": "BAL",
+      "team_name": "Baltimore Orioles",
+      "player_name": "Jeremiah Jackson",
+      "player_id": 669236,
       "transaction_type": "other",
       "effective_date": "2026-08-19",
-      "explanation": "Colorado Rockies optioned RHP TJ Shook to Albuquerque Isotopes.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938415",
-      "team_abbr": "",
-      "team_name": "Columbus Clippers",
-      "player_name": "David Fry",
-      "player_id": 681807,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Cleveland Guardians recalled RF David Fry from Columbus Clippers.",
+      "explanation": "Baltimore Orioles optioned 2B Jeremiah Jackson to Norfolk Tides.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
@@ -16533,28 +16579,6 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938411",
-      "team_abbr": "ATH",
-      "team_name": "Athletics",
-      "player_name": "Seth Johnson",
-      "player_id": 686751,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Athletics optioned RHP Seth Johnson to Las Vegas Aviators.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
-      "transaction_id": "938484",
-      "team_abbr": "",
-      "team_name": "Albuquerque Isotopes",
-      "player_name": "Mark Manfredi",
-      "player_id": 815081,
-      "transaction_type": "other",
-      "effective_date": "2026-08-19",
-      "explanation": "Colorado Rockies selected the contract of LHP Mark Manfredi from Albuquerque Isotopes.",
-      "source_timestamp": "2026-08-19T00:00:00"
-    },
-    {
       "transaction_id": "938380",
       "team_abbr": "",
       "team_name": "Syracuse Mets",
@@ -16566,14 +16590,80 @@
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
-      "transaction_id": "938463",
-      "team_abbr": "",
-      "team_name": "Rochester Red Wings",
-      "player_name": "Erik Tolman",
-      "player_id": 680899,
+      "transaction_id": "938432",
+      "team_abbr": "MIL",
+      "team_name": "Milwaukee Brewers",
+      "player_name": "Jihwan Bae",
+      "player_id": 678225,
       "transaction_type": "other",
       "effective_date": "2026-08-19",
-      "explanation": "Washington Nationals selected the contract of LHP Erik Tolman from Rochester Red Wings.",
+      "explanation": "Milwaukee Brewers sent CF Jihwan Bae outright to Nashville Sounds.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938455",
+      "team_abbr": "",
+      "team_name": "Sacramento River Cats",
+      "player_name": "Matt Wilkinson",
+      "player_id": 683363,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "San Francisco Giants selected the contract of LHP Matt Wilkinson from Sacramento River Cats.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938485",
+      "team_abbr": "COL",
+      "team_name": "Colorado Rockies",
+      "player_name": "TJ Shook",
+      "player_id": 669298,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Colorado Rockies optioned RHP TJ Shook to Albuquerque Isotopes.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938545",
+      "team_abbr": "PHI",
+      "team_name": "Philadelphia Phillies",
+      "player_name": "Nestor Cortes",
+      "player_id": 641482,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Philadelphia Phillies optioned LHP Nestor Cortes to Clearwater Threshers.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938407",
+      "team_abbr": "TB",
+      "team_name": "Tampa Bay Rays",
+      "player_name": "Jesse Scholtens",
+      "player_id": 669947,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Tampa Bay Rays optioned RHP Jesse Scholtens to Durham Bulls.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938381",
+      "team_abbr": "NYM",
+      "team_name": "New York Mets",
+      "player_name": "Jack Weisenburger",
+      "player_id": 674073,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "New York Mets optioned RHP Jack Weisenburger to Syracuse Mets.",
+      "source_timestamp": "2026-08-19T00:00:00"
+    },
+    {
+      "transaction_id": "938431",
+      "team_abbr": "MIL",
+      "team_name": "Milwaukee Brewers",
+      "player_name": "Brandon Lockridge",
+      "player_id": 663604,
+      "transaction_type": "other",
+      "effective_date": "2026-08-19",
+      "explanation": "Milwaukee Brewers optioned LF Brandon Lockridge to Nashville Sounds.",
       "source_timestamp": "2026-08-19T00:00:00"
     }
   ],
