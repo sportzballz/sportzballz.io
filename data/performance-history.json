@@ -82,20 +82,20 @@
       "loser": "Atlanta Braves",
       "pick": "OVER",
       "line": 8.5,
-      "confidence": 0.8,
+      "confidence": 0.83,
       "odds": -115,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-20",
-      "snapshots": 15,
+      "snapshots": 18,
       "conf_open": 0.529,
-      "conf_close": 0.8,
-      "conf_max": 0.8,
+      "conf_close": 0.83,
+      "conf_max": 0.83,
       "conf_min": 0.5,
-      "delta_close_open": 0.271,
-      "intraday_range": 0.3,
+      "delta_close_open": 0.301,
+      "intraday_range": 0.33,
       "pick_changes": 1
     },
     "intraday_top_run_total_impact": {

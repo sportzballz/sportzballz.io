@@ -58,6 +58,11 @@
     .ad-label{font:700 11px/1 Inter,system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#9cc4ff}
     .ad-copy{color:#d9e6ff;font:500 14px/1.3 Inter,system-ui,sans-serif}
     .ad-cta{display:inline-block;padding:7px 10px;border-radius:8px;border:1px solid #4c6db0;color:#dff2ff;text-decoration:none;font:600 12px Inter,system-ui,sans-serif}
+    .rmp-promo { margin:18px auto 0; text-align:center; }
+    .rmp-promo__label { display:block; margin-bottom:6px; color:var(--muted); font-size:10px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+    .rmp-promo__link { display:inline-block; width:min(100%,728px); border:1px solid #315385; border-radius:10px; overflow:hidden; box-shadow:0 12px 30px rgba(0,0,0,.28); line-height:0; }
+    .rmp-promo__link:hover, .rmp-promo__link:focus-visible { border-color:var(--accent); box-shadow:0 12px 34px rgba(0,209,255,.18); outline:none; }
+    .rmp-promo__image { display:block; width:100%; height:auto; }
     footer { margin-top:16px; color:var(--muted); font-size:12px; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
     .footer-links a { color:#c8dbff; text-decoration:none; margin-right:10px; }
     @media (max-width:1100px) { .nav-toolbar { grid-template-columns:1fr; } }
@@ -1313,10 +1318,17 @@
       </div>
     </section>
 
+    <aside class="rmp-promo" aria-label="Sponsored by Run My Pool">
+      <span class="rmp-promo__label">Sponsored</span>
+      <a class="rmp-promo__link" href="https://runmypool.net/?utm_source=sportzballz.io&amp;utm_medium=banner&amp;utm_campaign=cross-promotion" rel="sponsored" aria-label="Run your Survivor, Pick 'Em, or Squares pool with Run My Pool">
+        <img class="rmp-promo__image" src="/assets/runmypool-sportzballz-728x90.png" width="728" height="90" alt="Run My Pool — run your Survivor, Pick 'Em, or Squares pool like a pro. Start free." />
+      </a>
+    </aside>
+
     <section class="cards">
       <article class="card">
         <h2>Latest Daily Picks</h2>
-        <p>Last Updated: 26-Aug-20 11:13 AM</p>
+        <p>Last Updated: 26-Aug-20 11:27 AM</p>
         <div class="pick-tabs" role="tablist" aria-label="Pick type tabs">
           <button class="pick-tab active" data-target="panel-daily" role="tab" aria-selected="true">Money Line</button>
           <button class="pick-tab" data-target="panel-plus" role="tab" aria-selected="false">Plus Money</button>
@@ -1332,11 +1344,6 @@
         <section id="panel-totals" class="pick-panel" role="tabpanel">
           <iframe class="pick-embed" src="/2026-08-20-run-totals.html?embed=1" title="Run Total Picks"></iframe>
         </section>
-        <section class="ad-slot" data-slot="index-hero">
-      <div class="ad-label">Sponsored</div>
-      <div class="ad-copy">Homepage Sponsorship • Your brand could be here.</div>
-      <a class="ad-cta" href="/media-kit.html">Advertise on SportzBallz</a>
-    </section>
       </article>
 
     </section>
