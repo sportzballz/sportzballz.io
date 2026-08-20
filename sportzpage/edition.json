@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-20-2009",
+    "id": "2026-08-20-2013",
     "type": "late",
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T20:09:58.398645Z",
-    "data_current_through": "2026-08-20T20:09:58.398646Z",
+    "generated_at": "2026-08-20T20:13:02.999961Z",
+    "data_current_through": "2026-08-20T20:13:02.999961Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -15940,10 +15940,10 @@
     },
     {
       "headline": "Chappell Roan Night is coming to her hometown team -- and Chappell Roan approves",
-      "deck": "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Wednesday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are",
+      "deck": "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Thursday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are",
       "byline": "Josh Jackson",
       "paragraphs": [
-        "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Wednesday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are"
+        "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Thursday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are"
       ],
       "source_data_references": [
         "https://www.mlb.com/news/chappell-roan-night-coming-to-springfield-cardinals"
@@ -15952,7 +15952,7 @@
       "teams": [],
       "players": [],
       "facts_used": [
-        "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Wednesday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are"
+        "Hope they'll play \"Hot To Go\" at a Minor League Baseball game? You're probably about to get your wish. The Springfield Cardinals are paying tribute to a hometown kid made good with Chappell Roan Night on Thursday, Aug. 27. Roan was born in nearby Willard, Mo., and her roots are"
       ],
       "ai_generated": false,
       "source_name": "MLB.com",
@@ -15962,7 +15962,7 @@
   "transactions": [
     {
       "transaction_id": "938489",
-      "team_abbr": "",
+      "team_abbr": "TEX",
       "team_name": "Texas Rangers",
       "player_name": "Marco Gonzales",
       "player_id": 594835,
@@ -15973,7 +15973,7 @@
     },
     {
       "transaction_id": "938546",
-      "team_abbr": "",
+      "team_abbr": "PHI",
       "team_name": "Philadelphia Phillies",
       "player_name": "Brian Keller",
       "player_id": 662144,
@@ -15984,18 +15984,18 @@
     },
     {
       "transaction_id": "938440",
-      "team_abbr": "",
+      "team_abbr": "HOU",
       "team_name": "Houston Astros",
       "player_name": "Brice Matthews",
       "player_id": 694728,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Houston Astros transferred CF Brice Matthews from the 10-day injured list to the 60-day injured list. Left knee sprain.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938479",
-      "team_abbr": "",
+      "team_abbr": "CIN",
       "team_name": "Cincinnati Reds",
       "player_name": "Ron Marinaccio",
       "player_id": 676760,
@@ -16006,7 +16006,7 @@
     },
     {
       "transaction_id": "938483",
-      "team_abbr": "",
+      "team_abbr": "COL",
       "team_name": "Colorado Rockies",
       "player_name": "Parker Mushinski",
       "player_id": 656786,
@@ -16017,29 +16017,29 @@
     },
     {
       "transaction_id": "938404",
-      "team_abbr": "",
+      "team_abbr": "BOS",
       "team_name": "Boston Red Sox",
       "player_name": "Isiah Kiner-Falefa",
       "player_id": 643396,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Boston Red Sox sent 2B Isiah Kiner-Falefa on a rehab assignment to Worcester Red Sox.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938509",
-      "team_abbr": "",
+      "team_abbr": "TB",
       "team_name": "Tampa Bay Rays",
       "player_name": "Cole Sulser",
       "player_id": 642121,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Tampa Bay Rays sent RHP Cole Sulser on a rehab assignment to Durham Bulls.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938389",
-      "team_abbr": "",
+      "team_abbr": "CHC",
       "team_name": "Chicago Cubs",
       "player_name": "Jackson Cluff",
       "player_id": 687714,
@@ -16050,7 +16050,7 @@
     },
     {
       "transaction_id": "938416",
-      "team_abbr": "",
+      "team_abbr": "TOR",
       "team_name": "Toronto Blue Jays",
       "player_name": "Matt Waldron",
       "player_id": 663362,
@@ -16061,18 +16061,18 @@
     },
     {
       "transaction_id": "938502",
-      "team_abbr": "",
+      "team_abbr": "CHC",
       "team_name": "Chicago Cubs",
       "player_name": "Matt Shaw",
       "player_id": 807713,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Chicago Cubs sent RF Matt Shaw on a rehab assignment to Iowa Cubs.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938526",
-      "team_abbr": "",
+      "team_abbr": "STL",
       "team_name": "St. Louis Cardinals",
       "player_name": "Bligh Madris",
       "player_id": 676632,
@@ -16083,40 +16083,40 @@
     },
     {
       "transaction_id": "938459",
-      "team_abbr": "",
+      "team_abbr": "SF",
       "team_name": "San Francisco Giants",
       "player_name": "Daniel Susac",
       "player_id": 691740,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "San Francisco Giants transferred C Daniel Susac from the 10-day injured list to the 60-day injured list. Left knee patella fracture.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938482",
-      "team_abbr": "",
+      "team_abbr": "COL",
       "team_name": "Colorado Rockies",
       "player_name": "Jaden Hill",
       "player_id": 677955,
-      "transaction_type": "other",
+      "transaction_type": "activated",
       "effective_date": "2026-08-19",
       "explanation": "Colorado Rockies activated RHP Jaden Hill from the 15-day injured list.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938503",
-      "team_abbr": "",
+      "team_abbr": "SEA",
       "team_name": "Seattle Mariners",
       "player_name": "Luke Raley",
       "player_id": 670042,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Seattle Mariners transferred RF Luke Raley from the 10-day injured list to the 60-day injured list. Left forearm strain.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938542",
-      "team_abbr": "",
+      "team_abbr": "PHI",
       "team_name": "Philadelphia Phillies",
       "player_name": "Nestor Cortes",
       "player_id": 641482,
@@ -16127,51 +16127,51 @@
     },
     {
       "transaction_id": "938382",
-      "team_abbr": "",
+      "team_abbr": "NYM",
       "team_name": "New York Mets",
       "player_name": "Jorge Polanco",
       "player_id": 593871,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "New York Mets placed DH Jorge Polanco on the 10-day injured list. Left ankle bursitis.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938408",
-      "team_abbr": "",
+      "team_abbr": "TB",
       "team_name": "Tampa Bay Rays",
       "player_name": "Victor Mesa Jr.",
       "player_id": 683748,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Tampa Bay Rays placed RF Victor Mesa Jr. on the 10-day injured list. Left hamstring strain.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938460",
-      "team_abbr": "",
+      "team_abbr": "SF",
       "team_name": "San Francisco Giants",
       "player_name": "Harrison Bader",
       "player_id": 664056,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "San Francisco Giants transferred CF Harrison Bader from the 10-day injured list to the 60-day injured list. Left plantar fasciitis.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938492",
-      "team_abbr": "",
+      "team_abbr": "CHC",
       "team_name": "Chicago Cubs",
       "player_name": "Phil Maton",
       "player_id": 664208,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Chicago Cubs transferred RHP Phil Maton from the 15-day injured list to the 60-day injured list. Right knee tendinitis.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938487",
-      "team_abbr": "",
+      "team_abbr": "KC",
       "team_name": "Kansas City Royals",
       "player_name": "Starling Marte",
       "player_id": 516782,
@@ -16182,7 +16182,7 @@
     },
     {
       "transaction_id": "938493",
-      "team_abbr": "",
+      "team_abbr": "COL",
       "team_name": "Colorado Rockies",
       "player_name": "Michael Lorenzen",
       "player_id": 547179,
@@ -16193,29 +16193,29 @@
     },
     {
       "transaction_id": "938412",
-      "team_abbr": "",
+      "team_abbr": "ATH",
       "team_name": "Athletics",
       "player_name": "Jeffrey Springs",
       "player_id": 605488,
-      "transaction_type": "other",
+      "transaction_type": "activated",
       "effective_date": "2026-08-19",
       "explanation": "Athletics activated LHP Jeffrey Springs from the 15-day injured list.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938481",
-      "team_abbr": "",
+      "team_abbr": "LAD",
       "team_name": "Los Angeles Dodgers",
       "player_name": "Brock Stewart",
       "player_id": 592779,
-      "transaction_type": "other",
+      "transaction_type": "activated",
       "effective_date": "2026-08-19",
       "explanation": "Los Angeles Dodgers activated RHP Brock Stewart from the 15-day injured list.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938480",
-      "team_abbr": "",
+      "team_abbr": "LAD",
       "team_name": "Los Angeles Dodgers",
       "player_name": "Jonathan Hernández",
       "player_id": 642546,
@@ -16226,7 +16226,7 @@
     },
     {
       "transaction_id": "938448",
-      "team_abbr": "",
+      "team_abbr": "CIN",
       "team_name": "Cincinnati Reds",
       "player_name": "Darius Vines",
       "player_id": 670241,
@@ -16237,44 +16237,44 @@
     },
     {
       "transaction_id": "938470",
-      "team_abbr": "",
+      "team_abbr": "BAL",
       "team_name": "Baltimore Orioles",
       "player_name": "Samuel Basallo",
       "player_id": 694212,
-      "transaction_type": "other",
+      "transaction_type": "activated",
       "effective_date": "2026-08-19",
       "explanation": "Baltimore Orioles activated C Samuel Basallo from the 10-day injured list.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938430",
-      "team_abbr": "",
+      "team_abbr": "MIL",
       "team_name": "Milwaukee Brewers",
       "player_name": "Cooper Pratt",
       "player_id": 806198,
-      "transaction_type": "other",
+      "transaction_type": "activated",
       "effective_date": "2026-08-19",
       "explanation": "Milwaukee Brewers activated SS Cooper Pratt from the 10-day injured list.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938441",
-      "team_abbr": "",
+      "team_abbr": "TOR",
       "team_name": "Toronto Blue Jays",
       "player_name": "Joe Mantiply",
       "player_id": 573009,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Toronto Blue Jays sent LHP Joe Mantiply on a rehab assignment to Dunedin Blue Jays.",
       "source_timestamp": "2026-08-19T00:00:00"
     },
     {
       "transaction_id": "938418",
-      "team_abbr": "",
+      "team_abbr": "CLE",
       "team_name": "Cleveland Guardians",
       "player_name": "Rhys Hoskins",
       "player_id": 656555,
-      "transaction_type": "other",
+      "transaction_type": "injury",
       "effective_date": "2026-08-19",
       "explanation": "Cleveland Guardians placed 1B Rhys Hoskins on the 10-day injured list. Lower back inflammation.",
       "source_timestamp": "2026-08-19T00:00:00"
@@ -16303,7 +16303,7 @@
     },
     {
       "transaction_id": "938545",
-      "team_abbr": "",
+      "team_abbr": "PHI",
       "team_name": "Philadelphia Phillies",
       "player_name": "Nestor Cortes",
       "player_id": 641482,
@@ -16314,7 +16314,7 @@
     },
     {
       "transaction_id": "938457",
-      "team_abbr": "",
+      "team_abbr": "AZ",
       "team_name": "Arizona Diamondbacks",
       "player_name": "Philip Abner",
       "player_id": 691769,
@@ -16336,7 +16336,7 @@
     },
     {
       "transaction_id": "938491",
-      "team_abbr": "",
+      "team_abbr": "NYM",
       "team_name": "New York Mets",
       "player_name": "Gabriel Arias",
       "player_id": 672356,
@@ -16347,7 +16347,7 @@
     },
     {
       "transaction_id": "938432",
-      "team_abbr": "",
+      "team_abbr": "MIL",
       "team_name": "Milwaukee Brewers",
       "player_name": "Jihwan Bae",
       "player_id": 678225,
@@ -16358,7 +16358,7 @@
     },
     {
       "transaction_id": "938485",
-      "team_abbr": "",
+      "team_abbr": "COL",
       "team_name": "Colorado Rockies",
       "player_name": "TJ Shook",
       "player_id": 669298,
@@ -16391,7 +16391,7 @@
     },
     {
       "transaction_id": "938501",
-      "team_abbr": "",
+      "team_abbr": "SEA",
       "team_name": "Seattle Mariners",
       "player_name": "Josh Simpson",
       "player_id": 681006,
@@ -16402,7 +16402,7 @@
     },
     {
       "transaction_id": "938458",
-      "team_abbr": "",
+      "team_abbr": "SF",
       "team_name": "San Francisco Giants",
       "player_name": "Philip Abner",
       "player_id": 691769,
@@ -16424,7 +16424,7 @@
     },
     {
       "transaction_id": "938464",
-      "team_abbr": "",
+      "team_abbr": "WSH",
       "team_name": "Washington Nationals",
       "player_name": "Yovanny Cruz",
       "player_id": 672442,
@@ -16435,7 +16435,7 @@
     },
     {
       "transaction_id": "938431",
-      "team_abbr": "",
+      "team_abbr": "MIL",
       "team_name": "Milwaukee Brewers",
       "player_name": "Brandon Lockridge",
       "player_id": 663604,
@@ -16446,7 +16446,7 @@
     },
     {
       "transaction_id": "938469",
-      "team_abbr": "",
+      "team_abbr": "BAL",
       "team_name": "Baltimore Orioles",
       "player_name": "Jeremiah Jackson",
       "player_id": 669236,
@@ -16457,7 +16457,7 @@
     },
     {
       "transaction_id": "938411",
-      "team_abbr": "",
+      "team_abbr": "ATH",
       "team_name": "Athletics",
       "player_name": "Seth Johnson",
       "player_id": 686751,
@@ -16468,7 +16468,7 @@
     },
     {
       "transaction_id": "938405",
-      "team_abbr": "",
+      "team_abbr": "NYY",
       "team_name": "New York Yankees",
       "player_name": "Christian Bethancourt",
       "player_id": 542194,
@@ -16479,7 +16479,7 @@
     },
     {
       "transaction_id": "938439",
-      "team_abbr": "",
+      "team_abbr": "HOU",
       "team_name": "Houston Astros",
       "player_name": "Miguel Ullola",
       "player_id": 699044,
@@ -16523,7 +16523,7 @@
     },
     {
       "transaction_id": "938381",
-      "team_abbr": "",
+      "team_abbr": "NYM",
       "team_name": "New York Mets",
       "player_name": "Jack Weisenburger",
       "player_id": 674073,
@@ -16545,7 +16545,7 @@
     },
     {
       "transaction_id": "938456",
-      "team_abbr": "",
+      "team_abbr": "SF",
       "team_name": "San Francisco Giants",
       "player_name": "Reiver Sanmartin",
       "player_id": 665665,
@@ -16567,7 +16567,7 @@
     },
     {
       "transaction_id": "938407",
-      "team_abbr": "",
+      "team_abbr": "TB",
       "team_name": "Tampa Bay Rays",
       "player_name": "Jesse Scholtens",
       "player_id": 669947,
