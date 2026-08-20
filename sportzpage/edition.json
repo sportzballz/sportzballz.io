@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-20-2017",
+    "id": "2026-08-20-2025",
     "type": "late",
     "date": "2026-08-20",
-    "generated_at": "2026-08-20T20:17:04.484397Z",
-    "data_current_through": "2026-08-20T20:17:04.484397Z",
+    "generated_at": "2026-08-20T20:25:07.033878Z",
+    "data_current_through": "2026-08-20T20:25:07.033878Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -15879,26 +15879,6 @@
       "source_url": "https://www.mlb.com/news/carter-jensen-to-wear-cleats-designed-by-kids-from-children-s-mercy"
     },
     {
-      "headline": "After years of being told 'women can't play baseball,' WPBL star Denae Benites is smashing dingers and having fun",
-      "deck": "It certainly didn’t look like Opening Day. Rolling wisps of fog hung over Robin Roberts Stadium in Springfield, Ill., and a cold rain fell on the bundled up crowd who were in attendance for the opening contest of the Women’s Professional Baseball League. They were there for baseball; they were",
-      "byline": "Michael Clair",
-      "paragraphs": [
-        "It certainly didn’t look like Opening Day. Rolling wisps of fog hung over Robin Roberts Stadium in Springfield, Ill., and a cold rain fell on the bundled up crowd who were in attendance for the opening contest of the Women’s Professional Baseball League. They were there for baseball; they were"
-      ],
-      "source_data_references": [
-        "https://www.mlb.com/news/denae-benites-wpbl-home-run-superstar-finally-belongs"
-      ],
-      "story_type": "editorial",
-      "teams": [],
-      "players": [],
-      "facts_used": [
-        "It certainly didn’t look like Opening Day. Rolling wisps of fog hung over Robin Roberts Stadium in Springfield, Ill., and a cold rain fell on the bundled up crowd who were in attendance for the opening contest of the Women’s Professional Baseball League. They were there for baseball; they were"
-      ],
-      "ai_generated": false,
-      "source_name": "MLB.com",
-      "source_url": "https://www.mlb.com/news/denae-benites-wpbl-home-run-superstar-finally-belongs"
-    },
-    {
       "headline": "Kinley Rasmus, the 9th girl to ever pitch in LLWS, dominates on mound (and at SS)",
       "deck": "Before their opening game of the Little League World Series on Wednesday night against Washington, Alabama's Kinley Rasmus -- the 25th girl to ever compete in the tournament -- talked about \"Fear the Bow.\" It's a mantra she and her Phenix City teammates came up with, referring to the big",
       "byline": "Matt Monagan",
@@ -15957,6 +15937,26 @@
       "ai_generated": false,
       "source_name": "MLB.com",
       "source_url": "https://www.mlb.com/news/chappell-roan-night-coming-to-springfield-cardinals"
+    },
+    {
+      "headline": "Dropped fly sparks Cards' wild 6-run rally in 9th to shock Reds",
+      "deck": "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible",
+      "byline": "Brenden Schaeffer",
+      "paragraphs": [
+        "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible"
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/cardinals-six-run-ninth-inning-comeback-reds"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible"
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/cardinals-six-run-ninth-inning-comeback-reds"
     }
   ],
   "transactions": [
