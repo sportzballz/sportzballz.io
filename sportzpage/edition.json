@@ -1,27 +1,37 @@
 {
   "edition": {
-    "id": "2026-08-21-0800",
-    "type": "morning",
+    "id": "2026-08-21-1752",
+    "type": "evening",
     "date": "2026-08-21",
-    "generated_at": "2026-08-21T08:00:06.065712Z",
-    "data_current_through": "2026-08-21T08:00:06.065713Z",
+    "generated_at": "2026-08-21T17:52:31.573650Z",
+    "data_current_through": "2026-08-21T17:52:31.573650Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
   "lead_story": {
-    "headline": "Phillies Remain the Focus in Philadelphia",
-    "deck": "The Daily Sportz Page leads with the Phillies and covers the rest of Major League Baseball.",
+    "headline": "Atlanta Braves 2, Chicago White Sox 0",
+    "deck": "Final: ATL 2, CWS 0",
     "byline": "SportzBallz Staff",
     "paragraphs": [
-      "No Phillies game appeared in the current data window, so the front page turns to the club's next update while the full MLB report continues below."
+      "The Atlanta Braves defeated the Chicago White Sox 2–0 at Rate Field. Their biggest offensive inning came in the 3rd, when the Atlanta Braves scored 1 run.",
+      "ATL finished with 8 hits, while CWS collected 1. Riley, A led ATL with 2 hits and 2 RBI; Benintendi led CWS with 1 hit.",
+      "Grant Holmes earned the win. Anthony Kay took the loss. Raisel Iglesias recorded the save.",
+      "The game lasted 2:22; the announced crowd was 17,052."
     ],
-    "source_data_references": [],
+    "source_data_references": [
+      "game:824589"
+    ],
     "story_type": "lead",
     "teams": [
-      "PHI"
+      "CWS",
+      "ATL"
     ],
     "players": [],
-    "facts_used": [],
+    "facts_used": [
+      "home_runs:0",
+      "away_runs:2",
+      "game_id:824589"
+    ],
     "ai_generated": false,
     "source_name": null,
     "source_url": null
@@ -72,31 +82,6 @@
         "home_runs:3",
         "away_runs:18",
         "game_id:824153"
-      ],
-      "ai_generated": false,
-      "source_name": null,
-      "source_url": null
-    },
-    {
-      "headline": "Atlanta Braves 2, Chicago White Sox 0",
-      "deck": "Final: ATL 2, CWS 0",
-      "byline": "SportzBallz Staff",
-      "paragraphs": [
-        "The Atlanta Braves defeated the Chicago White Sox 2–0 at Rate Field. Their biggest offensive inning came in the 3rd, when the Atlanta Braves scored 1 run."
-      ],
-      "source_data_references": [
-        "game:824589"
-      ],
-      "story_type": "secondary",
-      "teams": [
-        "CWS",
-        "ATL"
-      ],
-      "players": [],
-      "facts_used": [
-        "home_runs:0",
-        "away_runs:2",
-        "game_id:824589"
       ],
       "ai_generated": false,
       "source_name": null,
@@ -172,6 +157,31 @@
         "home_runs:1",
         "away_runs:6",
         "game_id:824802"
+      ],
+      "ai_generated": false,
+      "source_name": null,
+      "source_url": null
+    },
+    {
+      "headline": "Milwaukee Brewers 7, Seattle Mariners 4",
+      "deck": "Final: MIL 7, SEA 4",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Milwaukee Brewers defeated the Seattle Mariners 7–4 at American Family Field. Their biggest offensive inning came in the 1st, when the Milwaukee Brewers scored 6 runs."
+      ],
+      "source_data_references": [
+        "game:823747"
+      ],
+      "story_type": "secondary",
+      "teams": [
+        "MIL",
+        "SEA"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:7",
+        "away_runs:4",
+        "game_id:823747"
       ],
       "ai_generated": false,
       "source_name": null,
@@ -10109,6 +10119,66 @@
   },
   "game_recaps": [
     {
+      "headline": "Atlanta Braves 2, Chicago White Sox 0",
+      "deck": "Final: ATL 2, CWS 0",
+      "byline": "SportzBallz Staff",
+      "paragraphs": [
+        "The Atlanta Braves defeated the Chicago White Sox 2–0 at Rate Field. Their biggest offensive inning came in the 3rd, when the Atlanta Braves scored 1 run.",
+        "ATL finished with 8 hits, while CWS collected 1. Riley, A led ATL with 2 hits and 2 RBI; Benintendi led CWS with 1 hit.",
+        "Grant Holmes earned the win. Anthony Kay took the loss. Raisel Iglesias recorded the save.",
+        "The game lasted 2:22; the announced crowd was 17,052."
+      ],
+      "source_data_references": [
+        "game:824589"
+      ],
+      "story_type": "game_recap",
+      "teams": [
+        "CWS",
+        "ATL"
+      ],
+      "players": [],
+      "facts_used": [
+        "home_runs:0",
+        "away_runs:2",
+        "game_id:824589"
+      ],
+      "ai_generated": false,
+      "source_name": null,
+      "source_url": null,
+      "game_id": 824589,
+      "final_score": "ATL 2, CWS 0",
+      "winning_pitcher": {
+        "player_id": 656550,
+        "name": "Grant Holmes",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "losing_pitcher": {
+        "player_id": 641743,
+        "name": "Anthony Kay",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "save_pitcher": {
+        "player_id": 628452,
+        "name": "Raisel Iglesias",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "tags": [
+        "shutout"
+      ]
+    },
+    {
       "headline": "St. Louis Cardinals 10, Cincinnati Reds 9",
       "deck": "Final: STL 10, CIN 9",
       "byline": "SportzBallz Staff",
@@ -10215,66 +10285,6 @@
       },
       "save_pitcher": null,
       "tags": []
-    },
-    {
-      "headline": "Atlanta Braves 2, Chicago White Sox 0",
-      "deck": "Final: ATL 2, CWS 0",
-      "byline": "SportzBallz Staff",
-      "paragraphs": [
-        "The Atlanta Braves defeated the Chicago White Sox 2–0 at Rate Field. Their biggest offensive inning came in the 3rd, when the Atlanta Braves scored 1 run.",
-        "ATL finished with 8 hits, while CWS collected 1. Riley, A led ATL with 2 hits and 2 RBI; Benintendi led CWS with 1 hit.",
-        "Grant Holmes earned the win. Anthony Kay took the loss. Raisel Iglesias recorded the save.",
-        "The game lasted 2:22; the announced crowd was 17,052."
-      ],
-      "source_data_references": [
-        "game:824589"
-      ],
-      "story_type": "game_recap",
-      "teams": [
-        "CWS",
-        "ATL"
-      ],
-      "players": [],
-      "facts_used": [
-        "home_runs:0",
-        "away_runs:2",
-        "game_id:824589"
-      ],
-      "ai_generated": false,
-      "source_name": null,
-      "source_url": null,
-      "game_id": 824589,
-      "final_score": "ATL 2, CWS 0",
-      "winning_pitcher": {
-        "player_id": 656550,
-        "name": "Grant Holmes",
-        "handedness": null,
-        "status": "probable",
-        "wins": null,
-        "losses": null,
-        "era": null
-      },
-      "losing_pitcher": {
-        "player_id": 641743,
-        "name": "Anthony Kay",
-        "handedness": null,
-        "status": "probable",
-        "wins": null,
-        "losses": null,
-        "era": null
-      },
-      "save_pitcher": {
-        "player_id": 628452,
-        "name": "Raisel Iglesias",
-        "handedness": null,
-        "status": "probable",
-        "wins": null,
-        "losses": null,
-        "era": null
-      },
-      "tags": [
-        "shutout"
-      ]
     },
     {
       "headline": "Texas Rangers 2, Washington Nationals 0",
@@ -10613,26 +10623,6 @@
   ],
   "around_the_league": [
     {
-      "headline": "Williams fans 11 to reach 200-K milestone for first time",
-      "deck": "CLEVELAND -- There have been games, Steven Kwan said, where he hasn’t had much to do in the outfield while Gavin Williams has been on the mound. The big right-hander with a propensity for racking up strikeouts has a knack for limiting balls in play. In those quiet moments, Kwan",
-      "byline": "Tim Stebbins",
-      "paragraphs": [
-        "CLEVELAND -- There have been games, Steven Kwan said, where he hasn’t had much to do in the outfield while Gavin Williams has been on the mound. The big right-hander with a propensity for racking up strikeouts has a knack for limiting balls in play. In those quiet moments, Kwan"
-      ],
-      "source_data_references": [
-        "https://www.mlb.com/news/gavin-williams-strikes-out-11-against-giants"
-      ],
-      "story_type": "editorial",
-      "teams": [],
-      "players": [],
-      "facts_used": [
-        "CLEVELAND -- There have been games, Steven Kwan said, where he hasn’t had much to do in the outfield while Gavin Williams has been on the mound. The big right-hander with a propensity for racking up strikeouts has a knack for limiting balls in play. In those quiet moments, Kwan"
-      ],
-      "ai_generated": false,
-      "source_name": "MLB.com",
-      "source_url": "https://www.mlb.com/news/gavin-williams-strikes-out-11-against-giants"
-    },
-    {
       "headline": "At 35, Cole still making history -- for himself and Yanks",
       "deck": "BALTIMORE -- Every pitcher wants to get ahead in the count. Gerrit Cole has never done it more than he did on Thursday. Cole threw 22 of 23 first-pitch strikes (95.7 percent) over six strong innings, striking out eight to lead the Yankees to their fourth consecutive victory, a 6-1",
       "byline": "Bryan Hoch",
@@ -10654,10 +10644,10 @@
     },
     {
       "headline": "One potential prospect callup for each team",
-      "deck": "In case you were hiding under a baseball rock last week, you noticed Cardinals’ prospect Joshua Báez made his big league debut against the Cubs in Chicago last Saturday. All he did was make history by becoming the first player in Major League history to homer in his first three",
+      "deck": "Unless you were hiding under a baseball rock last week, you noticed Cardinals’ prospect Joshua Báez made his big league debut against the Cubs in Chicago last Saturday. All he did was make history by becoming the first player in Major League history to homer in his first three plate",
       "byline": "Jonathan Mayo, Jim Callis and Sam Dykstra",
       "paragraphs": [
-        "In case you were hiding under a baseball rock last week, you noticed Cardinals’ prospect Joshua Báez made his big league debut against the Cubs in Chicago last Saturday. All he did was make history by becoming the first player in Major League history to homer in his first three"
+        "Unless you were hiding under a baseball rock last week, you noticed Cardinals’ prospect Joshua Báez made his big league debut against the Cubs in Chicago last Saturday. All he did was make history by becoming the first player in Major League history to homer in his first three plate"
       ],
       "source_data_references": [
         "https://www.mlb.com/news/one-potential-prospect-callup-for-each-team-2026"
@@ -10666,51 +10656,51 @@
       "teams": [],
       "players": [],
       "facts_used": [
-        "In case you were hiding under a baseball rock last week, you noticed Cardinals’ prospect Joshua Báez made his big league debut against the Cubs in Chicago last Saturday. All he did was make history by becoming the first player in Major League history to homer in his first three"
+        "Unless you were hiding under a baseball rock last week, you noticed Cardinals’ prospect Joshua Báez made his big league debut against the Cubs in Chicago last Saturday. All he did was make history by becoming the first player in Major League history to homer in his first three plate"
       ],
       "ai_generated": false,
       "source_name": "MLB.com",
       "source_url": "https://www.mlb.com/news/one-potential-prospect-callup-for-each-team-2026"
     },
     {
-      "headline": "Mariners to call up baseball's top-ranked pitching prospect (source)",
-      "deck": "Baseball’s top pitching prospect is heading to The Show. The Mariners are promoting left-handed pitcher Kade Anderson, sources told MLB.com’s Daniel Kramer, just in time for the stretch run of the season and a potential playoff push. The club has not confirmed the move.",
-      "byline": "Brent Maguire",
+      "headline": "The new batting stance that turned Benge's rookie season around",
+      "deck": "Turn on a Mets game these days, and it sure feels like Carson Benge is always in the middle of something. Between pulchritudinous catches in right field and a string of jaw-dropping outfield assists, the 23-year-old is making a rather compelling National League Rookie of the Year case. Benge's emergence",
+      "byline": "Jared Greenspan",
       "paragraphs": [
-        "Baseball’s top pitching prospect is heading to The Show. The Mariners are promoting left-handed pitcher Kade Anderson, sources told MLB.com’s Daniel Kramer, just in time for the stretch run of the season and a potential playoff push. The club has not confirmed the move."
+        "Turn on a Mets game these days, and it sure feels like Carson Benge is always in the middle of something. Between pulchritudinous catches in right field and a string of jaw-dropping outfield assists, the 23-year-old is making a rather compelling National League Rookie of the Year case. Benge's emergence"
       ],
       "source_data_references": [
-        "https://www.mlb.com/news/kade-anderson-mariners-callup"
+        "https://www.mlb.com/news/mets-carson-benge-batting-stance-change"
       ],
       "story_type": "editorial",
       "teams": [],
       "players": [],
       "facts_used": [
-        "Baseball’s top pitching prospect is heading to The Show. The Mariners are promoting left-handed pitcher Kade Anderson, sources told MLB.com’s Daniel Kramer, just in time for the stretch run of the season and a potential playoff push. The club has not confirmed the move."
+        "Turn on a Mets game these days, and it sure feels like Carson Benge is always in the middle of something. Between pulchritudinous catches in right field and a string of jaw-dropping outfield assists, the 23-year-old is making a rather compelling National League Rookie of the Year case. Benge's emergence"
       ],
       "ai_generated": false,
       "source_name": "MLB.com",
-      "source_url": "https://www.mlb.com/news/kade-anderson-mariners-callup"
+      "source_url": "https://www.mlb.com/news/mets-carson-benge-batting-stance-change"
     },
     {
-      "headline": "Reds rookie in position for feat not seen in 76 years",
-      "deck": "Reds rookie slugger Sal Stewart could be on a collision course with history. With a three-run homer in an Aug. 19 win over the Cardinals and two more RBIs vs. the Cards on Aug. 20, Stewart upped his RBI total to a Major League-best 96, through Cincinnati's first 128 games",
-      "byline": "Thomas Harrigan",
+      "headline": "How rare is a 15-HR year at Double-A as a teen? Cards prospect joins star-studded list",
+      "deck": "Dating back to 2006, just six players have hit 15 or home runs at Double-A before turning 20 years old. Rainiel Rodriguez became No. 6 on Thursday night, joining a list that includes Giancarlo Stanton, Fernando Tatis Jr., Jackson Chourio, Samuel Basallo and Leo De Vries (MLB’s No. 2 prospect).",
+      "byline": "Jesse Borek",
       "paragraphs": [
-        "Reds rookie slugger Sal Stewart could be on a collision course with history. With a three-run homer in an Aug. 19 win over the Cardinals and two more RBIs vs. the Cards on Aug. 20, Stewart upped his RBI total to a Major League-best 96, through Cincinnati's first 128 games"
+        "Dating back to 2006, just six players have hit 15 or home runs at Double-A before turning 20 years old. Rainiel Rodriguez became No. 6 on Thursday night, joining a list that includes Giancarlo Stanton, Fernando Tatis Jr., Jackson Chourio, Samuel Basallo and Leo De Vries (MLB’s No. 2 prospect)."
       ],
       "source_data_references": [
-        "https://www.mlb.com/news/most-rbis-by-a-rookie-in-a-single-season"
+        "https://www.mlb.com/news/cardinals-prospect-rainiel-rodriguez-15-homers-double-a-teenager"
       ],
       "story_type": "editorial",
       "teams": [],
       "players": [],
       "facts_used": [
-        "Reds rookie slugger Sal Stewart could be on a collision course with history. With a three-run homer in an Aug. 19 win over the Cardinals and two more RBIs vs. the Cards on Aug. 20, Stewart upped his RBI total to a Major League-best 96, through Cincinnati's first 128 games"
+        "Dating back to 2006, just six players have hit 15 or home runs at Double-A before turning 20 years old. Rainiel Rodriguez became No. 6 on Thursday night, joining a list that includes Giancarlo Stanton, Fernando Tatis Jr., Jackson Chourio, Samuel Basallo and Leo De Vries (MLB’s No. 2 prospect)."
       ],
       "ai_generated": false,
       "source_name": "MLB.com",
-      "source_url": "https://www.mlb.com/news/most-rbis-by-a-rookie-in-a-single-season"
+      "source_url": "https://www.mlb.com/news/cardinals-prospect-rainiel-rodriguez-15-homers-double-a-teenager"
     },
     {
       "headline": "deGrom reaches 2,000-K milestone in dominant performance, much-needed win",
@@ -10731,9 +10721,40 @@
       "ai_generated": false,
       "source_name": "MLB.com",
       "source_url": "https://www.mlb.com/news/jacob-degrom-reaches-2-000-career-strikeouts"
+    },
+    {
+      "headline": "Dropped final out leads to chaotic ending, with 10 ninth-inning runs",
+      "deck": "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible",
+      "byline": "Brenden Schaeffer",
+      "paragraphs": [
+        "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible"
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/cardinals-six-run-ninth-inning-comeback-reds"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible"
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/cardinals-six-run-ninth-inning-comeback-reds"
     }
   ],
   "transactions": [
+    {
+      "transaction_id": "938640",
+      "team_abbr": "NYY",
+      "team_name": "New York Yankees",
+      "player_name": "Cody Bellinger",
+      "player_id": 641355,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "New York Yankees sent LF Cody Bellinger on a rehab assignment to Scranton/Wilkes-Barre RailRiders.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
     {
       "transaction_id": "938618",
       "team_abbr": "PHI",
@@ -10765,72 +10786,6 @@
       "transaction_type": "injury",
       "effective_date": "2026-08-20",
       "explanation": "Seattle Mariners sent SS J.P. Crawford on a rehab assignment to Tacoma Rainiers.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938717",
-      "team_abbr": "AZ",
-      "team_name": "Arizona Diamondbacks",
-      "player_name": "Ketel Marte",
-      "player_id": 606466,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "Arizona Diamondbacks placed 2B Ketel Marte on the 10-day injured list. Left knee inflammation.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938667",
-      "team_abbr": "TOR",
-      "team_name": "Toronto Blue Jays",
-      "player_name": "Vladimir Guerrero Jr.",
-      "player_id": 665489,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "Toronto Blue Jays sent 1B Vladimir Guerrero Jr. on a rehab assignment to Dunedin Blue Jays.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938692",
-      "team_abbr": "HOU",
-      "team_name": "Houston Astros",
-      "player_name": "Nelson Velázquez",
-      "player_id": 676369,
-      "transaction_type": "dfa",
-      "effective_date": "2026-08-20",
-      "explanation": "Houston Astros designated LF Nelson Velázquez for assignment.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938603",
-      "team_abbr": "SF",
-      "team_name": "San Francisco Giants",
-      "player_name": "Keaton Winn",
-      "player_id": 676775,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "San Francisco Giants placed RHP Keaton Winn on the 15-day injured list retroactive to August 19, 2026. Right elbow neuritis.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938640",
-      "team_abbr": "NYY",
-      "team_name": "New York Yankees",
-      "player_name": "Cody Bellinger",
-      "player_id": 641355,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "New York Yankees sent LF Cody Bellinger on a rehab assignment to Scranton/Wilkes-Barre RailRiders.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938650",
-      "team_abbr": "NYM",
-      "team_name": "New York Mets",
-      "player_name": "Mark Vientos",
-      "player_id": 668901,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "New York Mets sent 1B Mark Vientos on a rehab assignment to Binghamton Rumble Ponies.",
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
@@ -10867,6 +10822,50 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
+      "transaction_id": "938667",
+      "team_abbr": "TOR",
+      "team_name": "Toronto Blue Jays",
+      "player_name": "Vladimir Guerrero Jr.",
+      "player_id": 665489,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "Toronto Blue Jays sent 1B Vladimir Guerrero Jr. on a rehab assignment to Dunedin Blue Jays.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938692",
+      "team_abbr": "HOU",
+      "team_name": "Houston Astros",
+      "player_name": "Nelson Velázquez",
+      "player_id": 676369,
+      "transaction_type": "dfa",
+      "effective_date": "2026-08-20",
+      "explanation": "Houston Astros designated LF Nelson Velázquez for assignment.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938603",
+      "team_abbr": "SF",
+      "team_name": "San Francisco Giants",
+      "player_name": "Keaton Winn",
+      "player_id": 676775,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "San Francisco Giants placed RHP Keaton Winn on the 15-day injured list retroactive to August 19, 2026. Right elbow neuritis.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938650",
+      "team_abbr": "NYM",
+      "team_name": "New York Mets",
+      "player_name": "Mark Vientos",
+      "player_id": 668901,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "New York Mets sent 1B Mark Vientos on a rehab assignment to Binghamton Rumble Ponies.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
       "transaction_id": "938663",
       "team_abbr": "TEX",
       "team_name": "Texas Rangers",
@@ -10875,6 +10874,39 @@
       "transaction_type": "injury",
       "effective_date": "2026-08-20",
       "explanation": "Texas Rangers sent RHP Jack Leiter on a rehab assignment to Frisco RoughRiders.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938604",
+      "team_abbr": "COL",
+      "team_name": "Colorado Rockies",
+      "player_name": "Tyler Freeman",
+      "player_id": 671289,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "Colorado Rockies sent RF Tyler Freeman on a rehab assignment to Albuquerque Isotopes.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938662",
+      "team_abbr": "LAA",
+      "team_name": "Los Angeles Angels",
+      "player_name": "Samy Natera Jr.",
+      "player_id": 696519,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "Los Angeles Angels placed LHP Samy Natera Jr. on the 15-day injured list retroactive to August 17, 2026. Low back muscle spasms.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938717",
+      "team_abbr": "AZ",
+      "team_name": "Arizona Diamondbacks",
+      "player_name": "Ketel Marte",
+      "player_id": 606466,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "Arizona Diamondbacks placed 2B Ketel Marte on the 10-day injured list. Left knee inflammation.",
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
@@ -10911,47 +10943,14 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
-      "transaction_id": "938604",
-      "team_abbr": "COL",
-      "team_name": "Colorado Rockies",
-      "player_name": "Tyler Freeman",
-      "player_id": 671289,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "Colorado Rockies sent RF Tyler Freeman on a rehab assignment to Albuquerque Isotopes.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938662",
-      "team_abbr": "LAA",
-      "team_name": "Los Angeles Angels",
-      "player_name": "Samy Natera Jr.",
-      "player_id": 696519,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "Los Angeles Angels placed LHP Samy Natera Jr. on the 15-day injured list retroactive to August 17, 2026. Low back muscle spasms.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938693",
+      "transaction_id": "938661",
       "team_abbr": "",
-      "team_name": "Sugar Land Space Cowboys",
-      "player_name": "Raynel Delgado",
-      "player_id": 669384,
+      "team_name": "Salt Lake Bees",
+      "player_name": "Sammy Peralta",
+      "player_id": 671111,
       "transaction_type": "other",
       "effective_date": "2026-08-20",
-      "explanation": "Houston Astros recalled 2B Raynel Delgado from Sugar Land Space Cowboys.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938730",
-      "team_abbr": "TEX",
-      "team_name": "Texas Rangers",
-      "player_name": "Austin Wynns",
-      "player_id": 642851,
-      "transaction_type": "other",
-      "effective_date": "2026-08-20",
-      "explanation": "Texas Rangers sent C Austin Wynns outright to Round Rock Express.",
+      "explanation": "Los Angeles Angels recalled LHP Sammy Peralta from Salt Lake Bees.",
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
@@ -10966,14 +10965,14 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
-      "transaction_id": "938661",
-      "team_abbr": "",
-      "team_name": "Salt Lake Bees",
-      "player_name": "Sammy Peralta",
-      "player_id": 671111,
+      "transaction_id": "938617",
+      "team_abbr": "AZ",
+      "team_name": "Arizona Diamondbacks",
+      "player_name": "Andrew Hoffmann",
+      "player_id": 694851,
       "transaction_type": "other",
       "effective_date": "2026-08-20",
-      "explanation": "Los Angeles Angels recalled LHP Sammy Peralta from Salt Lake Bees.",
+      "explanation": "Philadelphia Phillies claimed RHP Andrew Hoffmann off waivers from Arizona Diamondbacks.",
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
@@ -10988,14 +10987,25 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
-      "transaction_id": "938617",
-      "team_abbr": "AZ",
-      "team_name": "Arizona Diamondbacks",
-      "player_name": "Andrew Hoffmann",
-      "player_id": 694851,
+      "transaction_id": "938730",
+      "team_abbr": "TEX",
+      "team_name": "Texas Rangers",
+      "player_name": "Austin Wynns",
+      "player_id": 642851,
       "transaction_type": "other",
       "effective_date": "2026-08-20",
-      "explanation": "Philadelphia Phillies claimed RHP Andrew Hoffmann off waivers from Arizona Diamondbacks.",
+      "explanation": "Texas Rangers sent C Austin Wynns outright to Round Rock Express.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938693",
+      "team_abbr": "",
+      "team_name": "Sugar Land Space Cowboys",
+      "player_name": "Raynel Delgado",
+      "player_id": 669384,
+      "transaction_type": "other",
+      "effective_date": "2026-08-20",
+      "explanation": "Houston Astros recalled 2B Raynel Delgado from Sugar Land Space Cowboys.",
       "source_timestamp": "2026-08-20T00:00:00"
     }
   ],
