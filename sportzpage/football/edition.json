@@ -1,0 +1,526 @@
+{
+  "generated_at": "2026-08-21 15:22:21.786637-04:00",
+  "edition_date": "2026-08-20",
+  "season_label": "Preseason",
+  "lead": {
+    "headline": "Las Vegas Raiders Take the Day, 22-20",
+    "deck": "LV finished ahead of HOU in final action at Reliant Stadium.",
+    "paragraphs": [
+      "The Las Vegas Raiders came away with a 22-20 result over the Houston Texans, putting the defining score of the day at the top of The Daily Sportz Page's football edition.",
+      "The game was played at Reliant Stadium. The result offers an early checkpoint for both clubs as the NFL calendar moves toward the regular season.",
+      "The football page will follow the Eagles first when Philadelphia plays, turn next to the NFC East, and still keep the full league slate in view."
+    ],
+    "url": "https://www.espn.com/nfl/recap/_/gameId/401873286"
+  },
+  "scoreboard": [
+    {
+      "id": "401873286",
+      "name": "Las Vegas Raiders at Houston Texans",
+      "away": {
+        "abbr": "LV",
+        "name": "Las Vegas Raiders",
+        "score": "22",
+        "record": "1-1",
+        "winner": true
+      },
+      "home": {
+        "abbr": "HOU",
+        "name": "Houston Texans",
+        "score": "20",
+        "record": "0-2",
+        "winner": false
+      },
+      "status": "Final",
+      "completed": true,
+      "detail": "Final",
+      "time": "8:00 PM ET",
+      "venue": "Reliant Stadium",
+      "broadcast": "ESPN",
+      "odds": "",
+      "over_under": null,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873286"
+    },
+    {
+      "id": "401873285",
+      "name": "San Francisco 49ers at Los Angeles Chargers",
+      "away": {
+        "abbr": "SF",
+        "name": "San Francisco 49ers",
+        "score": "41",
+        "record": "1-1",
+        "winner": true
+      },
+      "home": {
+        "abbr": "LAC",
+        "name": "Los Angeles Chargers",
+        "score": "17",
+        "record": "1-1",
+        "winner": false
+      },
+      "status": "Final",
+      "completed": true,
+      "detail": "Final",
+      "time": "10:00 PM ET",
+      "venue": "SoFi Stadium",
+      "broadcast": "NFL Net",
+      "odds": "",
+      "over_under": null,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873285"
+    }
+  ],
+  "today_games": [
+    {
+      "id": "401873288",
+      "name": "New York Jets at Pittsburgh Steelers",
+      "away": {
+        "abbr": "NYJ",
+        "name": "New York Jets",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "home": {
+        "abbr": "PIT",
+        "name": "Pittsburgh Steelers",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/21 - 7:00 PM EDT",
+      "time": "7:00 PM ET",
+      "venue": "Acrisure Stadium",
+      "broadcast": "NFL Net",
+      "odds": "NYJ -1.5",
+      "over_under": 38.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873288"
+    },
+    {
+      "id": "401873287",
+      "name": "Carolina Panthers at Jacksonville Jaguars",
+      "away": {
+        "abbr": "CAR",
+        "name": "Carolina Panthers",
+        "score": "0",
+        "record": "1-1",
+        "winner": false
+      },
+      "home": {
+        "abbr": "JAX",
+        "name": "Jacksonville Jaguars",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/21 - 7:30 PM EDT",
+      "time": "7:30 PM ET",
+      "venue": "EverBank Stadium",
+      "broadcast": "ESPN Unlmtd",
+      "odds": "CAR -1.5",
+      "over_under": 37.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873287"
+    },
+    {
+      "id": "401873613",
+      "name": "Green Bay Packers at Denver Broncos",
+      "away": {
+        "abbr": "GB",
+        "name": "Green Bay Packers",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "home": {
+        "abbr": "DEN",
+        "name": "Denver Broncos",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/21 - 9:00 PM EDT",
+      "time": "9:00 PM ET",
+      "venue": "Empower Field at Mile High",
+      "broadcast": "NFL Net",
+      "odds": "DEN -6",
+      "over_under": 40.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873613"
+    }
+  ],
+  "standings": [
+    {
+      "name": "AFC East",
+      "rows": [
+        {
+          "abbr": "BUF",
+          "name": "Buffalo Bills",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+15"
+        },
+        {
+          "abbr": "NE",
+          "name": "New England Patriots",
+          "wins": "0",
+          "losses": "0",
+          "ties": "1",
+          "pct": ".500",
+          "diff": "0"
+        },
+        {
+          "abbr": "NYJ",
+          "name": "New York Jets",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-8"
+        },
+        {
+          "abbr": "MIA",
+          "name": "Miami Dolphins",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-13"
+        }
+      ]
+    },
+    {
+      "name": "AFC North",
+      "rows": [
+        {
+          "abbr": "PIT",
+          "name": "Pittsburgh Steelers",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+19"
+        },
+        {
+          "abbr": "BAL",
+          "name": "Baltimore Ravens",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+17"
+        },
+        {
+          "abbr": "CIN",
+          "name": "Cincinnati Bengals",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+2"
+        },
+        {
+          "abbr": "CLE",
+          "name": "Cleveland Browns",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-24"
+        }
+      ]
+    },
+    {
+      "name": "AFC South",
+      "rows": [
+        {
+          "abbr": "TEN",
+          "name": "Tennessee Titans",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+6"
+        },
+        {
+          "abbr": "JAX",
+          "name": "Jacksonville Jaguars",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+4"
+        },
+        {
+          "abbr": "IND",
+          "name": "Indianapolis Colts",
+          "wins": "0",
+          "losses": "0",
+          "ties": "1",
+          "pct": ".500",
+          "diff": "0"
+        },
+        {
+          "abbr": "HOU",
+          "name": "Houston Texans",
+          "wins": "0",
+          "losses": "2",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-22"
+        }
+      ]
+    },
+    {
+      "name": "AFC West",
+      "rows": [
+        {
+          "abbr": "DEN",
+          "name": "Denver Broncos",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+20"
+        },
+        {
+          "abbr": "LAC",
+          "name": "Los Angeles Chargers",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
+          "diff": "-4"
+        },
+        {
+          "abbr": "LV",
+          "name": "Las Vegas Raiders",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
+          "diff": "-11"
+        },
+        {
+          "abbr": "KC",
+          "name": "Kansas City Chiefs",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-8"
+        }
+      ]
+    },
+    {
+      "name": "NFC East",
+      "rows": [
+        {
+          "abbr": "DAL",
+          "name": "Dallas Cowboys",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+10"
+        },
+        {
+          "abbr": "WSH",
+          "name": "Washington Commanders",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+13"
+        },
+        {
+          "abbr": "NYG",
+          "name": "New York Giants",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-3"
+        },
+        {
+          "abbr": "PHI",
+          "name": "Philadelphia Eagles",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-17"
+        }
+      ]
+    },
+    {
+      "name": "NFC North",
+      "rows": [
+        {
+          "abbr": "MIN",
+          "name": "Minnesota Vikings",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+3"
+        },
+        {
+          "abbr": "CHI",
+          "name": "Chicago Bears",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+24"
+        },
+        {
+          "abbr": "DET",
+          "name": "Detroit Lions",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-2"
+        },
+        {
+          "abbr": "GB",
+          "name": "Green Bay Packers",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-19"
+        }
+      ]
+    },
+    {
+      "name": "NFC South",
+      "rows": [
+        {
+          "abbr": "TB",
+          "name": "Tampa Bay Buccaneers",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+8"
+        },
+        {
+          "abbr": "CAR",
+          "name": "Carolina Panthers",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
+          "diff": "-12"
+        },
+        {
+          "abbr": "NO",
+          "name": "New Orleans Saints",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-4"
+        },
+        {
+          "abbr": "ATL",
+          "name": "Atlanta Falcons",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-20"
+        }
+      ]
+    },
+    {
+      "name": "NFC West",
+      "rows": [
+        {
+          "abbr": "LAR",
+          "name": "Los Angeles Rams",
+          "wins": "1",
+          "losses": "0",
+          "ties": "0",
+          "pct": "1.000",
+          "diff": "+8"
+        },
+        {
+          "abbr": "SF",
+          "name": "San Francisco 49ers",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
+          "diff": "+18"
+        },
+        {
+          "abbr": "ARI",
+          "name": "Arizona Cardinals",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
+          "diff": "+10"
+        },
+        {
+          "abbr": "SEA",
+          "name": "Seattle Seahawks",
+          "wins": "0",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".000",
+          "diff": "-10"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "headline": "Massachusetts to investigate Cardinals exec's alleged betting",
+      "description": "A second investigation has been opened related to former Arizona Cardinals scout Ryan Gold's alleged betting activity.",
+      "url": "https://www.espn.com/nfl/story/_/id/49683212/massachusetts-investigate-cardinals-exec-alleged-betting"
+    },
+    {
+      "headline": "Why Brock Purdy is 'extremely happy' for Deebo to be back",
+      "description": "Why Brock Purdy is 'extremely happy' for Deebo to be back ",
+      "url": "https://www.espn.com/video/clip/_/id/49683048/why-brock-purdy-extremely-happy-deebo-back"
+    },
+    {
+      "headline": "Fantasy football buzz: What you need to know from Thursday's games",
+      "description": "Eric Moody goes over the big takeaways from Thursday's preseason games.",
+      "url": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis"
+    },
+    {
+      "headline": "Swagu has a message for Joe Burrow ahead of new season",
+      "description": "Swagu has a message for Joe Burrow ahead of new season",
+      "url": "https://www.espn.com/video/clip/_/id/49681388/swagu-message-joe-burrow-ahead-new-season"
+    },
+    {
+      "headline": "Why Swagu is picking Cousins as Raiders' starting QB, for now",
+      "description": "Why Swagu is picking Cousins as Raiders' starting QB, for now",
+      "url": "https://www.espn.com/video/clip/_/id/49681247/why-swagu-picking-cousins-raiders-starting-qb-now"
+    },
+    {
+      "headline": "Swagu can't fathom the lack of respect for Jalen Hurts",
+      "description": "Swagu can't fathom the lack of respect for Jalen Hurts",
+      "url": "https://www.espn.com/video/clip/_/id/49681063/swagu-fathom-lack-respect-jalen-hurts"
+    },
+    {
+      "headline": "Jordan Morgan gets his shot at the Packers' left tackle job -- finally",
+      "description": "The 2024 first-round pick is ready to step in to protect quarterback Jordan Love for Green Bay.",
+      "url": "https://www.espn.com/nfl/story/_/id/49681049/jordan-morgan-gets-shot-packers-left-tackle-job-finally"
+    },
+    {
+      "headline": "Field Yates' fantasy football PPR rankings: Top 160 for 2026",
+      "description": "Field provides his latest rankings for the upcoming season, which will be updated throughout the summer.",
+      "url": "https://www.espn.com/fantasy/football/story/_/id/48711830/2026-fantasy-football-rankings-ppr-field-yates"
+    }
+  ]
+}

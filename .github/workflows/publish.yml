@@ -15,27 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up Python
-      if: github.event_name != 'push'
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.12"
-
-    - name: Generate the daily sports page
-      if: github.event_name != 'push'
-      env:
-        SITE_ROOT: ${{ github.workspace }}
-      run: |
-        git clone --depth 1 https://github.com/sportzballz/sportzpage.git "$RUNNER_TEMP/sportzpage-generator"
-        cd "$RUNNER_TEMP/sportzpage-generator"
-        python -m pip install .
-        EDITION_DATE="$(TZ=America/New_York date -d 'yesterday' +%F)"
-        daily-sports-page run --date "$EDITION_DATE" --build-dir build
-
-        mkdir -p "$SITE_ROOT/sportzpage/static"
-        cp build/index.html build/edition.json "$SITE_ROOT/sportzpage/"
-        cp -R static/. "$SITE_ROOT/sportzpage/static/"
-
     - name: Upload the main website
       if: github.event_name == 'push'
       env:
@@ -44,8 +23,7 @@ jobs:
         AWS_DEFAULT_REGION: us-east-1
         AWS_S3_WEBSITE_BUCKET: ${{ secrets.AWS_S3_WEBSITE_BUCKET }}
       run: |
-        # The generated sports page has its own deploy step so an ordinary
-        # site push can never delete the current daily edition.
+        # The committed SportzPage is uploaded separately below.
         aws s3 sync "$GITHUB_WORKSPACE" \
           "s3://$AWS_S3_WEBSITE_BUCKET" \
           --acl public-read \
@@ -56,7 +34,6 @@ jobs:
           --exclude "sportzpage/*"
 
     - name: Upload the daily sports page
-      if: github.event_name != 'push'
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
