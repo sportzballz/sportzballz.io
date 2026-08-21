@@ -1,40 +1,40 @@
 {
   "edition": {
-    "id": "2026-08-21-1838",
+    "id": "2026-08-21-1858",
     "type": "evening",
     "date": "2026-08-21",
-    "generated_at": "2026-08-21T18:38:03.433649Z",
-    "data_current_through": "2026-08-21T18:38:03.433650Z",
+    "generated_at": "2026-08-21T18:59:01.617341Z",
+    "data_current_through": "2026-08-21T18:59:01.617343Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
   "lead_story": {
-    "headline": "Atlanta Braves 2, Chicago White Sox 0",
-    "deck": "Final: ATL 2, CWS 0",
+    "headline": "Grant Holmes Dominates as Atlanta Braves Hold Off White Sox",
+    "deck": "Grant Holmes pitches no-hitter into the seventh inning, Austin Riley hits two RBIs, and Atlanta secures a narrow victory over division rivals.",
     "byline": "SportzBallz Staff",
     "paragraphs": [
-      "The Atlanta Braves defeated the Chicago White Sox 2–0 at Rate Field. Their biggest offensive inning came in the 3rd, when the Atlanta Braves scored 1 run.",
-      "ATL finished with 8 hits, while CWS collected 1. Riley, A led ATL with 2 hits and 2 RBI; Benintendi led CWS with 1 hit.",
-      "Grant Holmes earned the win. Anthony Kay took the loss. Raisel Iglesias recorded the save.",
-      "The game lasted 2:22; the announced crowd was 17,052."
+      "In a dramatic contest that showcased the dominance of Grant Holmes on the mound, the Atlanta Braves held off the Chicago White Sox to secure a hard-fought 2-0 win. The right-hander from Milwaukee took the no-hitter into the seventh inning before allowing Andrew Benintendi to line a single with two outs, marking his first hit in the game.",
+      "Austin Riley played a crucial role for Atlanta, driving in two runs with his double and a single. In the third inning, he doubled off White Sox starter Anthony Kay, putting the Braves up 1-0. The victory extended Holmes' streak of not allowing a hit to 24 batters over three appearances, setting a franchise record.",
+      "Holmes continued his stellar performance in the seventh inning, retiring 18 of the first 20 White Sox batters before being relieved by Didier Fuentes. After two walks issued to Miguel Vargas and Andrew Benintendi, Holmes fended off further threats, striking out both hitters. The win came at the expense of Anthony Kay, who yielded two runs in six-plus innings despite walking one and striking out six."
     ],
     "source_data_references": [
-      "game:824589"
+      "game:824589",
+      "espn:401877087"
     ],
     "story_type": "lead",
     "teams": [
-      "CWS",
-      "ATL"
+      "ATL",
+      "CWS"
     ],
     "players": [],
     "facts_used": [
       "home_runs:0",
       "away_runs:2",
-      "game_id:824589"
+      "espn_game_id:401877087"
     ],
-    "ai_generated": false,
-    "source_name": null,
-    "source_url": null
+    "ai_generated": true,
+    "source_name": "ESPN recap",
+    "source_url": "https://www.espn.com/mlb/recap/_/gameId/401877087"
   },
   "secondary_stories": [
     {
@@ -191,6 +191,7 @@
   "games": [
     {
       "game_id": 824474,
+      "espn_game_id": "401816603",
       "game_date": "2026-08-20",
       "game_time_et": "12:40 PM ET",
       "status": "final",
@@ -1021,6 +1022,7 @@
     },
     {
       "game_id": 824395,
+      "espn_game_id": "401816602",
       "game_date": "2026-08-20",
       "game_time_et": "1:10 PM ET",
       "status": "final",
@@ -1793,6 +1795,7 @@
     },
     {
       "game_id": 822934,
+      "espn_game_id": "401816604",
       "game_date": "2026-08-20",
       "game_time_et": "1:10 PM ET",
       "status": "final",
@@ -2435,6 +2438,7 @@
     },
     {
       "game_id": 824074,
+      "espn_game_id": "401816606",
       "game_date": "2026-08-20",
       "game_time_et": "2:10 PM ET",
       "status": "final",
@@ -3138,6 +3142,7 @@
     },
     {
       "game_id": 824589,
+      "espn_game_id": "401877087",
       "game_date": "2026-08-20",
       "game_time_et": "2:10 PM ET",
       "status": "final",
@@ -3871,6 +3876,7 @@
     },
     {
       "game_id": 823747,
+      "espn_game_id": "401816608",
       "game_date": "2026-08-20",
       "game_time_et": "2:10 PM ET",
       "status": "final",
@@ -4601,6 +4607,7 @@
     },
     {
       "game_id": 824802,
+      "espn_game_id": "401816601",
       "game_date": "2026-08-20",
       "game_time_et": "6:35 PM ET",
       "status": "final",
@@ -5212,6 +5219,7 @@
     },
     {
       "game_id": 822861,
+      "espn_game_id": "401816609",
       "game_date": "2026-08-20",
       "game_time_et": "8:05 PM ET",
       "status": "final",
@@ -5986,6 +5994,7 @@
     },
     {
       "game_id": 824153,
+      "espn_game_id": "401816605",
       "game_date": "2026-08-20",
       "game_time_et": "8:10 PM ET",
       "status": "final",
@@ -6709,6 +6718,7 @@
     },
     {
       "game_id": 823746,
+      "espn_game_id": "401816617",
       "game_date": "2026-08-21",
       "game_time_et": "4:10 PM ET",
       "status": "scheduled",
@@ -6788,6 +6798,7 @@
     },
     {
       "game_id": 823420,
+      "espn_game_id": "401816611",
       "game_date": "2026-08-21",
       "game_time_et": "6:40 PM ET",
       "status": "scheduled",
@@ -6832,7 +6843,7 @@
         "94 WIP",
         "iHeart App"
       ],
-      "weather_description": null,
+      "weather_description": "Partly Cloudy",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -6853,6 +6864,7 @@
     },
     {
       "game_id": 823510,
+      "espn_game_id": "401816613",
       "game_date": "2026-08-21",
       "game_time_et": "7:05 PM ET",
       "status": "scheduled",
@@ -6927,6 +6939,7 @@
     },
     {
       "game_id": 824721,
+      "espn_game_id": "401816610",
       "game_date": "2026-08-21",
       "game_time_et": "7:10 PM ET",
       "status": "scheduled",
@@ -6981,7 +6994,7 @@
         "WESX 1230 AM (SP)",
         "WCCM 1490 AM (SP)"
       ],
-      "weather_description": null,
+      "weather_description": "Partly Cloudy",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -7002,6 +7015,7 @@
     },
     {
       "game_id": 823830,
+      "espn_game_id": "401816614",
       "game_date": "2026-08-21",
       "game_time_et": "7:10 PM ET",
       "status": "scheduled",
@@ -7075,6 +7089,7 @@
     },
     {
       "game_id": 824800,
+      "espn_game_id": "401816612",
       "game_date": "2026-08-21",
       "game_time_et": "7:15 PM ET",
       "status": "scheduled",
@@ -7149,6 +7164,7 @@
     },
     {
       "game_id": 824559,
+      "espn_game_id": "401816619",
       "game_date": "2026-08-21",
       "game_time_et": "7:40 PM ET",
       "status": "scheduled",
@@ -7223,6 +7239,7 @@
     },
     {
       "game_id": 824072,
+      "espn_game_id": "401816618",
       "game_date": "2026-08-21",
       "game_time_et": "8:10 PM ET",
       "status": "scheduled",
@@ -7297,6 +7314,7 @@
     },
     {
       "game_id": 824152,
+      "espn_game_id": "401816616",
       "game_date": "2026-08-21",
       "game_time_et": "8:10 PM ET",
       "status": "scheduled",
@@ -7371,6 +7389,7 @@
     },
     {
       "game_id": 822857,
+      "espn_game_id": "401816615",
       "game_date": "2026-08-21",
       "game_time_et": "8:15 PM ET",
       "status": "scheduled",
@@ -7444,6 +7463,7 @@
     },
     {
       "game_id": 824317,
+      "espn_game_id": "401816620",
       "game_date": "2026-08-21",
       "game_time_et": "8:40 PM ET",
       "status": "scheduled",
@@ -7519,6 +7539,7 @@
     },
     {
       "game_id": 825045,
+      "espn_game_id": "401816622",
       "game_date": "2026-08-21",
       "game_time_et": "9:40 PM ET",
       "status": "scheduled",
@@ -7592,6 +7613,7 @@
     },
     {
       "game_id": 823262,
+      "espn_game_id": "401816623",
       "game_date": "2026-08-21",
       "game_time_et": "9:40 PM ET",
       "status": "scheduled",
@@ -7660,6 +7682,7 @@
     },
     {
       "game_id": 823911,
+      "espn_game_id": "401816624",
       "game_date": "2026-08-21",
       "game_time_et": "10:10 PM ET",
       "status": "scheduled",
@@ -7733,6 +7756,7 @@
     },
     {
       "game_id": 823101,
+      "espn_game_id": "401816621",
       "game_date": "2026-08-21",
       "game_time_et": "10:10 PM ET",
       "status": "scheduled",
@@ -11172,32 +11196,32 @@
   },
   "game_recaps": [
     {
-      "headline": "Atlanta Braves 2, Chicago White Sox 0",
-      "deck": "Final: ATL 2, CWS 0",
+      "headline": "Grant Holmes Dominates as Atlanta Braves Hold Off White Sox",
+      "deck": "Grant Holmes pitches no-hitter into the seventh inning, Austin Riley hits two RBIs, and Atlanta secures a narrow victory over division rivals.",
       "byline": "SportzBallz Staff",
       "paragraphs": [
-        "The Atlanta Braves defeated the Chicago White Sox 2–0 at Rate Field. Their biggest offensive inning came in the 3rd, when the Atlanta Braves scored 1 run.",
-        "ATL finished with 8 hits, while CWS collected 1. Riley, A led ATL with 2 hits and 2 RBI; Benintendi led CWS with 1 hit.",
-        "Grant Holmes earned the win. Anthony Kay took the loss. Raisel Iglesias recorded the save.",
-        "The game lasted 2:22; the announced crowd was 17,052."
+        "In a dramatic contest that showcased the dominance of Grant Holmes on the mound, the Atlanta Braves held off the Chicago White Sox to secure a hard-fought 2-0 win. The right-hander from Milwaukee took the no-hitter into the seventh inning before allowing Andrew Benintendi to line a single with two outs, marking his first hit in the game.",
+        "Austin Riley played a crucial role for Atlanta, driving in two runs with his double and a single. In the third inning, he doubled off White Sox starter Anthony Kay, putting the Braves up 1-0. The victory extended Holmes' streak of not allowing a hit to 24 batters over three appearances, setting a franchise record.",
+        "Holmes continued his stellar performance in the seventh inning, retiring 18 of the first 20 White Sox batters before being relieved by Didier Fuentes. After two walks issued to Miguel Vargas and Andrew Benintendi, Holmes fended off further threats, striking out both hitters. The win came at the expense of Anthony Kay, who yielded two runs in six-plus innings despite walking one and striking out six."
       ],
       "source_data_references": [
-        "game:824589"
+        "game:824589",
+        "espn:401877087"
       ],
       "story_type": "game_recap",
       "teams": [
-        "CWS",
-        "ATL"
+        "ATL",
+        "CWS"
       ],
       "players": [],
       "facts_used": [
         "home_runs:0",
         "away_runs:2",
-        "game_id:824589"
+        "espn_game_id:401877087"
       ],
-      "ai_generated": false,
-      "source_name": null,
-      "source_url": null,
+      "ai_generated": true,
+      "source_name": "ESPN recap",
+      "source_url": "https://www.espn.com/mlb/recap/_/gameId/401877087",
       "game_id": 824589,
       "final_score": "ATL 2, CWS 0",
       "winning_pitcher": {
@@ -14542,7 +14566,7 @@
     "python_version": "3.14.5",
     "ai_provider": null,
     "ai_model": null,
-    "ai_fallbacks": 9,
+    "ai_fallbacks": 8,
     "total_duration_seconds": null,
     "data_freshness": {
       "live_scores_as_of": null,
