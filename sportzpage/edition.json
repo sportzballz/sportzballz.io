@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-21-1752",
+    "id": "2026-08-21-1756",
     "type": "evening",
     "date": "2026-08-21",
-    "generated_at": "2026-08-21T17:52:31.573650Z",
-    "data_current_through": "2026-08-21T17:52:31.573650Z",
+    "generated_at": "2026-08-21T17:56:04.375831Z",
+    "data_current_through": "2026-08-21T17:56:04.375831Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -1017,12 +1017,7 @@
         "HBP: Wetherholt (by Singer); Burleson (by Singer); Torres, B (by Burke, B).",
         "Umpires: HP: Hunter Wendelstedt. 1B: Vic Carapazza. 2B: Nic Lentz. 3B: Edwin Moscoso. "
       ],
-      "betting_line": {
-        "away_moneyline": -110,
-        "home_moneyline": 103,
-        "run_total": 9.0,
-        "provider": "DraftKings"
-      }
+      "betting_line": null
     },
     {
       "game_id": 824395,
@@ -1794,12 +1789,7 @@
       "boxscore_notes": [
         "Umpires: HP: Steven Jaschinski. 1B: Rob Drake. 2B: Brock Ballou. 3B: Stu Scheurwater. "
       ],
-      "betting_line": {
-        "away_moneyline": 191,
-        "home_moneyline": -206,
-        "run_total": 7.0,
-        "provider": "DraftKings"
-      }
+      "betting_line": null
     },
     {
       "game_id": 822934,
@@ -2441,12 +2431,7 @@
       "boxscore_notes": [
         "Umpires: HP: Sean Barber. 1B: John Libka. 2B: James Hoye. 3B: James Jean. "
       ],
-      "betting_line": {
-        "away_moneyline": 150,
-        "home_moneyline": -161,
-        "run_total": 7.5,
-        "provider": "DraftKings"
-      }
+      "betting_line": null
     },
     {
       "game_id": 824074,
@@ -3149,12 +3134,7 @@
       "boxscore_notes": [
         "Umpires: HP: Cory Blaser. 1B: John Bacon. 2B: Andy Fletcher. 3B: Alex Tosi. "
       ],
-      "betting_line": {
-        "away_moneyline": 116,
-        "home_moneyline": -124,
-        "run_total": 8.0,
-        "provider": "DraftKings"
-      }
+      "betting_line": null
     },
     {
       "game_id": 824589,
@@ -3887,12 +3867,7 @@
       "boxscore_notes": [
         "Umpires: HP: Ron Kulpa. 1B: Scott Barry. 2B: Manny Gonzalez. 3B: Tom Hanahan. "
       ],
-      "betting_line": {
-        "away_moneyline": -108,
-        "home_moneyline": 101,
-        "run_total": 8.5,
-        "provider": "DraftKings"
-      }
+      "betting_line": null
     },
     {
       "game_id": 823747,
@@ -4622,12 +4597,7 @@
         "HBP: Arozarena (by Gasser).",
         "Umpires: HP: Quinn Wolcott. 1B: Ramon De Jesus. 2B: Adrian Johnson. 3B: Dexter Kelley. "
       ],
-      "betting_line": {
-        "away_moneyline": 127,
-        "home_moneyline": -136,
-        "run_total": 8.0,
-        "provider": "DraftKings"
-      }
+      "betting_line": null
     },
     {
       "game_id": 824802,
@@ -5238,16 +5208,11 @@
       "boxscore_notes": [
         "Umpires: HP: Ryan Additon. 1B: Jonathan Parra. 2B: Will Little. 3B: Ryan Wills. "
       ],
-      "betting_line": {
-        "away_moneyline": -110,
-        "home_moneyline": 102,
-        "run_total": 7.5,
-        "provider": "DraftKings"
-      }
+      "betting_line": null
     },
     {
       "game_id": 822861,
-      "game_date": "2026-08-21",
+      "game_date": "2026-08-20",
       "game_time_et": "8:05 PM ET",
       "status": "final",
       "inning": 9,
@@ -6017,16 +5982,11 @@
       "boxscore_notes": [
         "Umpires: HP: Chad Whitson. 1B: Brian Walsh. 2B: Chad Fairchild. 3B: Bill Miller. "
       ],
-      "betting_line": {
-        "away_moneyline": 168,
-        "home_moneyline": -181,
-        "run_total": 7.5,
-        "provider": "DraftKings"
-      }
+      "betting_line": null
     },
     {
       "game_id": 824153,
-      "game_date": "2026-08-21",
+      "game_date": "2026-08-20",
       "game_time_et": "8:10 PM ET",
       "status": "final",
       "inning": 9,
@@ -6745,11 +6705,1104 @@
         "HBP: Meckler (by King, B).",
         "Umpires: HP: Lance Barrett. 1B: Malachi Moore. 2B: Alfonso Márquez. 3B: Mike Estabrook. "
       ],
+      "betting_line": null
+    },
+    {
+      "game_id": 823746,
+      "game_date": "2026-08-21",
+      "game_time_et": "4:10 PM ET",
+      "status": "scheduled",
+      "inning": 1,
+      "inning_state": "Top",
+      "home": {
+        "team_id": 158,
+        "team_abbr": "MIL",
+        "team_name": "Milwaukee Brewers",
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
+      },
+      "away": {
+        "team_id": 144,
+        "team_abbr": "ATL",
+        "team_name": "Atlanta Braves",
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
+      },
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": null,
+          "home_runs": null
+        }
+      ],
+      "home_probable_pitcher": {
+        "player_id": 694819,
+        "name": "Jacob Misiorowski",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 519242,
+        "name": "Chris Sale",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "American Family Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "680 AM/93.7 FM The Fan",
+        "Brewers.TV Presented by Potawatomi Sportsbook",
+        "BravesVision",
+        "WTMJ 620",
+        "Los Bravos"
+      ],
+      "weather_description": "Roof Closed",
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823746",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
       "betting_line": {
-        "away_moneyline": 169,
-        "home_moneyline": -182,
-        "run_total": 8.0,
+        "away_moneyline": 131,
+        "home_moneyline": -141,
+        "run_total": 6.0,
         "provider": "DraftKings"
+      }
+    },
+    {
+      "game_id": 823420,
+      "game_date": "2026-08-21",
+      "game_time_et": "6:40 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 143,
+        "team_abbr": "PHI",
+        "team_name": "Philadelphia Phillies",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 138,
+        "team_abbr": "STL",
+        "team_name": "St. Louis Cardinals",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 666200,
+        "name": "Jesús Luzardo",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": null,
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Citizens Bank Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "NBCSP",
+        "Cardinals.TV Presented by bet365",
+        "KMOX 1120 AM/104.1 FM",
+        "94 WIP",
+        "iHeart App"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823420",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 240,
+        "home_moneyline": -261,
+        "run_total": 8.0,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 823510,
+      "game_date": "2026-08-21",
+      "game_time_et": "7:05 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 147,
+        "team_abbr": "NYY",
+        "team_name": "New York Yankees",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 141,
+        "team_abbr": "TOR",
+        "team_name": "Toronto Blue Jays",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 693645,
+        "name": "Cam Schlittler",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 689254,
+        "name": "Mason Fluharty",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Yankee Stadium",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "YES",
+        "Sportsnet",
+        "SN590 THE FAN",
+        "TVA Sports",
+        "WFAN 660/101.9 FM",
+        "WADO 1280"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823510",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 179,
+        "home_moneyline": -193,
+        "run_total": 7.0,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 824721,
+      "game_date": "2026-08-21",
+      "game_time_et": "7:10 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 111,
+        "team_abbr": "BOS",
+        "team_name": "Boston Red Sox",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 137,
+        "team_abbr": "SF",
+        "team_name": "San Francisco Giants",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 543243,
+        "name": "Sonny Gray",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 657277,
+        "name": "Logan Webb",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Fenway Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "KNBR 680",
+        "NESN",
+        "NBCS BA",
+        "WEEI 93.7",
+        "1510 AM - KSFN",
+        "WESX 1230 AM (SP)",
+        "WCCM 1490 AM (SP)"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824721",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 158,
+        "home_moneyline": -170,
+        "run_total": 7.5,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 823830,
+      "game_date": "2026-08-21",
+      "game_time_et": "7:10 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 146,
+        "team_abbr": "MIA",
+        "team_name": "Miami Marlins",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 120,
+        "team_abbr": "WSH",
+        "team_name": "Washington Nationals",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 687473,
+        "name": "Ryan Gusto",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 695418,
+        "name": "Brad Lord",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "loanDepot park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Nationals.TV",
+        "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+        "WQAM 104.3",
+        "WJFK 106.7 The Fan",
+        "WAQI 710"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823830",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 130,
+        "home_moneyline": -140,
+        "run_total": 7.5,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 824800,
+      "game_date": "2026-08-21",
+      "game_time_et": "7:15 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 110,
+        "team_abbr": "BAL",
+        "team_name": "Baltimore Orioles",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 139,
+        "team_abbr": "TB",
+        "team_name": "Tampa Bay Rays",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 669432,
+        "name": "Trevor Rogers",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 642547,
+        "name": "Freddy Peralta",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Oriole Park at Camden Yards",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Apple TV",
+        "Apple TV",
+        "WDAE 95.7 FM",
+        "98 Rock 97.9 FM",
+        "WQBN/1300AM",
+        "WBAL 1090 AM"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824800",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 111,
+        "home_moneyline": -119,
+        "run_total": 8.0,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 824559,
+      "game_date": "2026-08-21",
+      "game_time_et": "7:40 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 145,
+        "team_abbr": "CWS",
+        "team_name": "Chicago White Sox",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 121,
+        "team_abbr": "NYM",
+        "team_name": "New York Mets",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 680732,
+        "name": "Sean Burke",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 640455,
+        "name": "Sean Manaea",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Rate Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Chicago Sports Network",
+        "WPIX",
+        "ESPN Chicago WMVP 1000 AM",
+        "Audacy Mets Radio WHSQ 880AM",
+        "107.9 La Ley",
+        "Audacy App 92.3 HD2"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824559",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 131,
+        "home_moneyline": -140,
+        "run_total": 8.0,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 824072,
+      "game_date": "2026-08-21",
+      "game_time_et": "8:10 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 118,
+        "team_abbr": "KC",
+        "team_name": "Kansas City Royals",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 116,
+        "team_abbr": "DET",
+        "team_name": "Detroit Tigers",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 702070,
+        "name": "Noah Cameron",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 675512,
+        "name": "Troy Melton",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Kauffman Stadium",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Detroit SportsNet",
+        "Royals.TV",
+        "KCTV5",
+        "WXYT 97.1 FM",
+        "96.5 The Fan",
+        "Royals Radio Network"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824072",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": -113,
+        "home_moneyline": 105,
+        "run_total": 8.5,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 824152,
+      "game_date": "2026-08-21",
+      "game_time_et": "8:10 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 117,
+        "team_abbr": "HOU",
+        "team_name": "Houston Astros",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 133,
+        "team_abbr": "ATH",
+        "team_name": "Athletics",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 669713,
+        "name": "Hayden Wesneski",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 669372,
+        "name": "J.T. Ginn",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Daikin Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "NBCSCA",
+        "Space City Home Network",
+        "KBME 790 AM/94.5 FM HD-2",
+        "Talk 650 KSTE",
+        "KLTN-TUDN 102.9 FM",
+        "A's Cast"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824152",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 165,
+        "home_moneyline": -177,
+        "run_total": 8.0,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 822857,
+      "game_date": "2026-08-21",
+      "game_time_et": "8:15 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 140,
+        "team_abbr": "TEX",
+        "team_name": "Texas Rangers",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 108,
+        "team_abbr": "LAA",
+        "team_name": "Los Angeles Angels",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 669022,
+        "name": "MacKenzie Gore",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 672282,
+        "name": "Reid Detmers",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Globe Life Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "KLAA 830",
+        "Apple TV",
+        "Apple TV",
+        "105.3 The Fan",
+        "KFLC 1270"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-822857",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 127,
+        "home_moneyline": -137,
+        "run_total": 7.5,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 824317,
+      "game_date": "2026-08-21",
+      "game_time_et": "8:40 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 115,
+        "team_abbr": "COL",
+        "team_name": "Colorado Rockies",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 114,
+        "team_abbr": "CLE",
+        "team_name": "Cleveland Guardians",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 685299,
+        "name": "Tanner Gordon",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 676282,
+        "name": "Joey Cantillo",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Coors Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Rockies.TV",
+        "Guardians.TV Presented by Progressive",
+        "WTAM 1100",
+        "WMMS 100.7",
+        "KOA 850 AM/94.1 FM ",
+        "Guardians Radio Network",
+        "KNRV 1150"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-824317",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": -153,
+        "home_moneyline": 142,
+        "run_total": 10.5,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 825045,
+      "game_date": "2026-08-21",
+      "game_time_et": "9:40 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 109,
+        "team_abbr": "AZ",
+        "team_name": "Arizona Diamondbacks",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 113,
+        "team_abbr": "CIN",
+        "team_name": "Cincinnati Reds",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 593958,
+        "name": "Eduardo Rodriguez",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 666157,
+        "name": "Nick Lodolo",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Chase Field",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Arizona Sports 98.7 FM",
+        "DBACKS.TV",
+        "Reds.TV",
+        "WLW 700",
+        "La Campesina 101.9 FM & 860 AM"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-825045",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 131,
+        "home_moneyline": -141,
+        "run_total": 8.5,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 823262,
+      "game_date": "2026-08-21",
+      "game_time_et": "9:40 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 135,
+        "team_abbr": "SD",
+        "team_name": "San Diego Padres",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 142,
+        "team_abbr": "MIN",
+        "team_name": "Minnesota Twins",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": null,
+      "away_probable_pitcher": {
+        "player_id": 687570,
+        "name": "Connor Prielipp",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "Petco Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "Twins.TV Presented by Progressive",
+        "Padres.TV Presented by UC San Diego Health",
+        "TIBN",
+        "WCCO 830",
+        "KWFN 97.3",
+        "The Wolf 102.9 FM",
+        "Audacy App",
+        "XEMO 860"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823262",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 107,
+        "home_moneyline": -115,
+        "run_total": 8.0,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 823911,
+      "game_date": "2026-08-21",
+      "game_time_et": "10:10 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 119,
+        "team_abbr": "LAD",
+        "team_name": "Los Angeles Dodgers",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 134,
+        "team_abbr": "PIT",
+        "team_name": "Pittsburgh Pirates",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 808967,
+        "name": "Yoshinobu Yamamoto",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 696149,
+        "name": "Bubba Chandler",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "UNIQLO Field at Dodger Stadium",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "SportsNet LA",
+        "SportsNet Pittsburgh",
+        "Dodgers Radio AM570",
+        "Sports Radio 93.7 KDKA The Fan",
+        "KTNQ 1020"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823911",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": 212,
+        "home_moneyline": -229,
+        "run_total": 8.0,
+        "provider": "ESPN"
+      }
+    },
+    {
+      "game_id": 823101,
+      "game_date": "2026-08-21",
+      "game_time_et": "10:10 PM ET",
+      "status": "scheduled",
+      "inning": null,
+      "inning_state": null,
+      "home": {
+        "team_id": 136,
+        "team_abbr": "SEA",
+        "team_name": "Seattle Mariners",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "away": {
+        "team_id": 112,
+        "team_abbr": "CHC",
+        "team_name": "Chicago Cubs",
+        "runs": null,
+        "hits": null,
+        "errors": null
+      },
+      "linescore": [],
+      "home_probable_pitcher": {
+        "player_id": 676106,
+        "name": "Emerson Hancock",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "away_probable_pitcher": {
+        "player_id": 571510,
+        "name": "Matthew Boyd",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
+      "winning_pitcher": null,
+      "losing_pitcher": null,
+      "save_pitcher": null,
+      "venue_name": "T-Mobile Park",
+      "venue_city": null,
+      "tv_broadcasts": [
+        "104.3 The Score",
+        "Marquee Sports Network",
+        "Mariners.TV",
+        "Seattle Sports (710 AM)",
+        "Mariners ES Radio",
+        "KING 5"
+      ],
+      "weather_description": null,
+      "postponement_reason": null,
+      "attendance": null,
+      "time_of_game": null,
+      "is_doubleheader": false,
+      "doubleheader_game_num": 1,
+      "tags": [],
+      "series_description": null,
+      "recap_anchor": "recap-823101",
+      "batting_lines": {},
+      "pitching_lines": {},
+      "boxscore_notes": [],
+      "betting_line": {
+        "away_moneyline": -102,
+        "home_moneyline": -105,
+        "run_total": 8.0,
+        "provider": "ESPN"
       }
     }
   ],
@@ -10723,24 +11776,24 @@
       "source_url": "https://www.mlb.com/news/jacob-degrom-reaches-2-000-career-strikeouts"
     },
     {
-      "headline": "Dropped final out leads to chaotic ending, with 10 ninth-inning runs",
-      "deck": "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible",
-      "byline": "Brenden Schaeffer",
+      "headline": "Baseball’s competitive balance issue, explained",
+      "deck": "MLB and the MLBPA held their first bargaining session on May 12 as both parties began working toward the next labor agreement. The CBA expires on Dec. 1. Competitive balance will be a focus during discussions, if not the primary issue. Here’s what you need to know about the state",
+      "byline": "Travis Sawchik",
       "paragraphs": [
-        "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible"
+        "MLB and the MLBPA held their first bargaining session on May 12 as both parties began working toward the next labor agreement. The CBA expires on Dec. 1. Competitive balance will be a focus during discussions, if not the primary issue. Here’s what you need to know about the state"
       ],
       "source_data_references": [
-        "https://www.mlb.com/news/cardinals-six-run-ninth-inning-comeback-reds"
+        "https://www.mlb.com/news/mlb-competitive-balance-issue-explained"
       ],
       "story_type": "editorial",
       "teams": [],
       "players": [],
       "facts_used": [
-        "CINCINNATI -- With the game on the line in the top of the ninth on Thursday afternoon, the Cardinals desperately needed a ball in the air. Pinch-hitter Everson Pereira couldn’t provide it, meaning that JJ Wetherholt simply lofting a routine fly ball thereafter was not supposed to have any tangible"
+        "MLB and the MLBPA held their first bargaining session on May 12 as both parties began working toward the next labor agreement. The CBA expires on Dec. 1. Competitive balance will be a focus during discussions, if not the primary issue. Here’s what you need to know about the state"
       ],
       "ai_generated": false,
       "source_name": "MLB.com",
-      "source_url": "https://www.mlb.com/news/cardinals-six-run-ninth-inning-comeback-reds"
+      "source_url": "https://www.mlb.com/news/mlb-competitive-balance-issue-explained"
     }
   ],
   "transactions": [
@@ -11012,93 +12065,102 @@
   "injuries": [],
   "historical_items": [
     {
-      "year": 1969,
-      "headline": "With an 8 - 5 win at Philadelphia , the Dodgers take first place in the National League West by a half game",
-      "description": "",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
-      "year": 1962,
-      "headline": "At Crosley Field , Frank Robinson connects for a grand slam in the 10th inning as the Reds defeat the Dodgers",
-      "description": "7 - 3",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
-      "year": 1938,
-      "headline": "At Union Terminal Tower, Frankie Pytlak and Hank Helf , catchers for the Indians , establish record for",
-      "description": "catching baseballs dropped from a high altitude",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
-      "year": 1971,
-      "headline": "Ferguson Jenkins wins his 20th, beating Houston , 3 - 2",
-      "description": "",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
-      "year": 1926,
-      "headline": "The Giants lose their fifth in six games, 6 - 2 in St. Louis ",
-      "description": "",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
-      "year": 2009,
-      "headline": "The Houston Astros beat the Florida Marlins , 4 - 1, allowing only 4 hits, thus ending the Marlins' 15-game",
-      "description": "streak of at least 10 hits every game, the first streak of that length since the 1937 St. Louis Browns set the record with 18 consecutive such games",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
-      "year": 2010,
-      "headline": "C Ronny Paulino of the Florida Marlins is suspended for 50 games for violating Major League Baseball 's PED",
-      "description": "policy",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
-      "year": 1947,
-      "headline": "The Boston Braves hit a million in attendance for the first time in their history and the fans get their",
-      "description": "money's worth in the 34-hit slugfest",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
-      "year": 2002,
-      "headline": "The Pirates shut out the Cardinals , 8 - 0, on a combined one-hitter hurled by Kris Benson (7 innings), Brian",
-      "description": "Boehringer (1), and Al Reyes (1)",
-      "teams": [],
-      "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
-      "verified": true
-    },
-    {
       "year": 1919,
-      "headline": "Wichita Jobbers OF Joe Wilhoit ( Western League ) fails to get a hit, ending a 69-game streak in which he",
-      "description": "collected 155 hits in 299 at bats for a .505 batting average",
+      "headline": "Phillies catcher Bert Adams ties a National League record for backstops as he records seven assists in one",
+      "description": "game",
       "teams": [],
       "players": [],
-      "source": "https://www.baseball-reference.com/bullpen/August_20",
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 1957,
+      "headline": "Masaichi Kaneda throws the fourth perfect game in Nippon Pro Baseball history as the Kokutetsu Swallows defeat",
+      "description": "the Chunichi Dragons , 1 - 0",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 1969,
+      "headline": "Jim Merritt pitches Cincinnati back into the National League West lead with a 5 - 3 win at St. Louis ",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 1975,
+      "headline": "The Reuschel brothers of the Cubs join forces to blank the Dodgers , 6 - 0",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 1905,
+      "headline": "The Giants run past the Pirates , 10 - 2, with Christy Mathewson defeating Deacon Phillippe ",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 1929,
+      "headline": "Cubs 1B Charlie Grimm is sidelined for the rest of the regular season with a hand injury, but he'll be okay",
+      "description": "for the World Series ",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "headline": "In spite of pitching a two-hitter against his former team, the Tigers , Houston's Justin Verlander ends up on",
+      "description": "the losing end of a 2 - 1 decision as both hits are solo homers, by John Hicks and Ronny Rodriguez ",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 1913,
+      "headline": "The Giants increase their National League lead to ten games by smoking Eddie Stack and the Cubs , 8 - 2",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "headline": "The International League 's Triple-A game between Rochester ( Orioles ) and Ottawa ( Expos ) features Tim",
+      "description": "Raines and his son Tim Jr. as opponents",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 1909,
+      "headline": "The Giants edge the Reds , 1 - 0, with Christy Mathewson winning this one",
+      "description": "",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
+      "verified": true
+    },
+    {
+      "year": 1983,
+      "headline": "On the same day, two minor leaguers, Vince Coleman and Donell Nixon , break Rickey Henderson 's single-season",
+      "description": "record by stealing their 131st base of the season",
+      "teams": [],
+      "players": [],
+      "source": "https://www.baseball-reference.com/bullpen/August_21",
       "verified": true
     }
   ],
