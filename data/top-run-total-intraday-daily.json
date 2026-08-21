@@ -870,13 +870,13 @@
   },
   {
     "date": "2026-08-21",
-    "snapshots": 9,
+    "snapshots": 12,
     "conf_open": 0.795,
-    "conf_close": 0.795,
+    "conf_close": 0.68,
     "conf_max": 0.795,
-    "conf_min": 0.795,
-    "delta_close_open": 0.0,
-    "intraday_range": 0.0,
-    "pick_changes": 0
+    "conf_min": 0.68,
+    "delta_close_open": -0.115,
+    "intraday_range": 0.115,
+    "pick_changes": 1
   }
 ]

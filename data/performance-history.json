@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-08-21",
-    "total_picks": 12,
+    "total_picks": 13,
     "decided": 0,
     "wins": 0,
     "losses": 0,
-    "pending": 12,
+    "pending": 13,
     "win_rate": null,
     "plus_money_total": 2,
     "plus_money_decided": 0,
@@ -14,7 +14,7 @@
     "plus_money_win_rate": null,
     "segments": {
       "all_picks": {
-        "total": 12,
+        "total": 13,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -59,7 +59,7 @@
         "stake_per_pick": 100.0
       },
       "run_total_picks": {
-        "total": 12,
+        "total": 13,
         "decided": 0,
         "wins": 0,
         "losses": 0,
@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Detroit Tigers",
-      "loser": "Kansas City Royals",
+      "winner": "Chicago White Sox",
+      "loser": "New York Mets",
       "pick": "OVER",
-      "line": 8.5,
-      "confidence": 0.795,
-      "odds": -102,
+      "line": 8.0,
+      "confidence": 0.68,
+      "odds": -105,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-21",
-      "snapshots": 9,
+      "snapshots": 12,
       "conf_open": 0.795,
-      "conf_close": 0.795,
+      "conf_close": 0.68,
       "conf_max": 0.795,
-      "conf_min": 0.795,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.68,
+      "delta_close_open": -0.115,
+      "intraday_range": 0.115,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 71,
