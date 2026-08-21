@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-21-1801",
+    "id": "2026-08-21-1824",
     "type": "evening",
     "date": "2026-08-21",
-    "generated_at": "2026-08-21T18:01:07.715893Z",
-    "data_current_through": "2026-08-21T18:01:07.715893Z",
+    "generated_at": "2026-08-21T18:24:33.964329Z",
+    "data_current_through": "2026-08-21T18:24:33.964330Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -6780,8 +6780,8 @@
       "pitching_lines": {},
       "boxscore_notes": [],
       "betting_line": {
-        "away_moneyline": 131,
-        "home_moneyline": -141,
+        "away_moneyline": 130,
+        "home_moneyline": -140,
         "run_total": 6.0,
         "provider": "DraftKings"
       }
@@ -7143,7 +7143,7 @@
       "betting_line": {
         "away_moneyline": 111,
         "home_moneyline": -119,
-        "run_total": 8.0,
+        "run_total": 7.5,
         "provider": "ESPN"
       }
     },
