@@ -1,10 +1,10 @@
 {
   "edition": {
-    "id": "2026-08-21-1759",
+    "id": "2026-08-21-1801",
     "type": "evening",
     "date": "2026-08-21",
-    "generated_at": "2026-08-21T17:59:06.991180Z",
-    "data_current_through": "2026-08-21T17:59:06.991180Z",
+    "generated_at": "2026-08-21T18:01:07.715893Z",
+    "data_current_through": "2026-08-21T18:01:07.715893Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
@@ -7810,7 +7810,7 @@
     "divisions": [
       {
         "division_id": 201,
-        "division_name": "",
+        "division_name": "AL East",
         "rows": [
           {
             "team_id": 139,
@@ -7901,7 +7901,7 @@
       },
       {
         "division_id": 202,
-        "division_name": "",
+        "division_name": "AL Central",
         "rows": [
           {
             "team_id": 145,
@@ -7992,7 +7992,7 @@
       },
       {
         "division_id": 200,
-        "division_name": "",
+        "division_name": "AL West",
         "rows": [
           {
             "team_id": 117,
@@ -8083,7 +8083,7 @@
       },
       {
         "division_id": 204,
-        "division_name": "",
+        "division_name": "NL East",
         "rows": [
           {
             "team_id": 144,
@@ -8174,7 +8174,7 @@
       },
       {
         "division_id": 205,
-        "division_name": "",
+        "division_name": "NL Central",
         "rows": [
           {
             "team_id": 158,
@@ -8265,7 +8265,7 @@
       },
       {
         "division_id": 203,
-        "division_name": "",
+        "division_name": "NL West",
         "rows": [
           {
             "team_id": 119,
