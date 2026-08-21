@@ -1,21 +1,21 @@
 {
   "edition": {
-    "id": "2026-08-21-1858",
-    "type": "evening",
+    "id": "2026-08-21-2055",
+    "type": "late",
     "date": "2026-08-21",
-    "generated_at": "2026-08-21T18:59:01.617341Z",
-    "data_current_through": "2026-08-21T18:59:01.617343Z",
+    "generated_at": "2026-08-21T20:56:12.552191Z",
+    "data_current_through": "2026-08-21T20:56:12.552191Z",
     "timezone": "America/New_York",
     "status": "draft"
   },
   "lead_story": {
-    "headline": "Grant Holmes Dominates as Atlanta Braves Hold Off White Sox",
-    "deck": "Grant Holmes pitches no-hitter into the seventh inning, Austin Riley hits two RBIs, and Atlanta secures a narrow victory over division rivals.",
+    "headline": "Braves Beat White Sox 2-0 in Thrilling Game, Grant Holmes Takes No-Hitter into 7th",
+    "deck": "Grant Holmes outduels Anthony Kay, Austin Riley steps up with RBIs as Atlanta edges out the White Sox in a tightly contested contest.",
     "byline": "SportzBallz Staff",
     "paragraphs": [
-      "In a dramatic contest that showcased the dominance of Grant Holmes on the mound, the Atlanta Braves held off the Chicago White Sox to secure a hard-fought 2-0 win. The right-hander from Milwaukee took the no-hitter into the seventh inning before allowing Andrew Benintendi to line a single with two outs, marking his first hit in the game.",
-      "Austin Riley played a crucial role for Atlanta, driving in two runs with his double and a single. In the third inning, he doubled off White Sox starter Anthony Kay, putting the Braves up 1-0. The victory extended Holmes' streak of not allowing a hit to 24 batters over three appearances, setting a franchise record.",
-      "Holmes continued his stellar performance in the seventh inning, retiring 18 of the first 20 White Sox batters before being relieved by Didier Fuentes. After two walks issued to Miguel Vargas and Andrew Benintendi, Holmes fended off further threats, striking out both hitters. The win came at the expense of Anthony Kay, who yielded two runs in six-plus innings despite walking one and striking out six."
+      "The Atlanta Braves snapped a three-game slide with a 2-0 victory over the Chicago White Sox, with Grant Holmes pitching a no-hitter into the seventh inning. Holmes, who entered the game with a record of 8-5, faced tough challenges but managed to keep the no-hitter intact until Andrew Benintendi's single in the seventh. Austin Riley played a pivotal role, driving in both runs with a double and a single, and Mauricio Dubón added a hit and a run.",
+      "The White Sox, led by Anthony Kay, who started with a 9-6 record, struggled to break through in six-plus innings. Their efforts were hampered by two base runners — Colson Montgomery walked with two outs in the second and Drew Romo walked with one out in the fifth. Despite these early opportunities, the White Sox couldn’t muster any offense off Holmes, who retired 18 of the first 20 batters he faced. In the seventh, Michael Harris II’s double chased Kay, and Riley’s single off Huascar Brazoban sent Harris to the plate, scoring the game’s only run. Riley added another in the seventh when he singled off the White Sox pitcher, giving the Braves a comfortable 2-0 lead.",
+      "In the pitching department, Didier Fuentes came in to relieve Holmes and struck out the side to strand two runners, securing the victory. Dylan Lee followed with a perfect eighth, and Raisel Iglesias completed the one-hitter with a clean ninth inning, earning his 26th save. Kay’s performance was notable, but he couldn’t overcome the no-hitter and a late surge from the Braves. The White Sox have dropped three of four games in their recent series."
     ],
     "source_data_references": [
       "game:824589",
@@ -6721,15 +6721,15 @@
       "espn_game_id": "401816617",
       "game_date": "2026-08-21",
       "game_time_et": "4:10 PM ET",
-      "status": "scheduled",
-      "inning": 1,
-      "inning_state": "Top",
+      "status": "in_progress",
+      "inning": 3,
+      "inning_state": "Bottom",
       "home": {
         "team_id": 158,
         "team_abbr": "MIL",
         "team_name": "Milwaukee Brewers",
-        "runs": 0,
-        "hits": 0,
+        "runs": 2,
+        "hits": 5,
         "errors": 0
       },
       "away": {
@@ -6737,14 +6737,24 @@
         "team_abbr": "ATL",
         "team_name": "Atlanta Braves",
         "runs": 0,
-        "hits": 0,
+        "hits": 2,
         "errors": 0
       },
       "linescore": [
         {
           "inning": 1,
-          "away_runs": null,
-          "home_runs": null
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 2,
+          "away_runs": 0,
+          "home_runs": 0
+        },
+        {
+          "inning": 3,
+          "away_runs": 0,
+          "home_runs": 2
         }
       ],
       "home_probable_pitcher": {
@@ -6790,8 +6800,8 @@
       "pitching_lines": {},
       "boxscore_notes": [],
       "betting_line": {
-        "away_moneyline": 130,
-        "home_moneyline": -140,
+        "away_moneyline": 127,
+        "home_moneyline": -137,
         "run_total": 6.0,
         "provider": "DraftKings"
       }
@@ -6802,25 +6812,31 @@
       "game_date": "2026-08-21",
       "game_time_et": "6:40 PM ET",
       "status": "scheduled",
-      "inning": null,
-      "inning_state": null,
+      "inning": 1,
+      "inning_state": "Top",
       "home": {
         "team_id": 143,
         "team_abbr": "PHI",
         "team_name": "Philadelphia Phillies",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
       "away": {
         "team_id": 138,
         "team_abbr": "STL",
         "team_name": "St. Louis Cardinals",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
-      "linescore": [],
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": null,
+          "home_runs": null
+        }
+      ],
       "home_probable_pitcher": {
         "player_id": 666200,
         "name": "Jesús Luzardo",
@@ -6830,7 +6846,15 @@
         "losses": null,
         "era": null
       },
-      "away_probable_pitcher": null,
+      "away_probable_pitcher": {
+        "player_id": 690928,
+        "name": "Hunter Dobbins",
+        "handedness": null,
+        "status": "probable",
+        "wins": null,
+        "losses": null,
+        "era": null
+      },
       "winning_pitcher": null,
       "losing_pitcher": null,
       "save_pitcher": null,
@@ -6856,10 +6880,10 @@
       "pitching_lines": {},
       "boxscore_notes": [],
       "betting_line": {
-        "away_moneyline": 240,
-        "home_moneyline": -261,
+        "away_moneyline": 227,
+        "home_moneyline": -246,
         "run_total": 8.0,
-        "provider": "ESPN"
+        "provider": "DraftKings"
       }
     },
     {
@@ -6868,25 +6892,31 @@
       "game_date": "2026-08-21",
       "game_time_et": "7:05 PM ET",
       "status": "scheduled",
-      "inning": null,
-      "inning_state": null,
+      "inning": 1,
+      "inning_state": "Top",
       "home": {
         "team_id": 147,
         "team_abbr": "NYY",
         "team_name": "New York Yankees",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
       "away": {
         "team_id": 141,
         "team_abbr": "TOR",
         "team_name": "Toronto Blue Jays",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
-      "linescore": [],
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": null,
+          "home_runs": null
+        }
+      ],
       "home_probable_pitcher": {
         "player_id": 693645,
         "name": "Cam Schlittler",
@@ -6918,7 +6948,7 @@
         "WFAN 660/101.9 FM",
         "WADO 1280"
       ],
-      "weather_description": null,
+      "weather_description": "Partly Cloudy",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -6943,25 +6973,31 @@
       "game_date": "2026-08-21",
       "game_time_et": "7:10 PM ET",
       "status": "scheduled",
-      "inning": null,
-      "inning_state": null,
+      "inning": 1,
+      "inning_state": "Top",
       "home": {
         "team_id": 111,
         "team_abbr": "BOS",
         "team_name": "Boston Red Sox",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
       "away": {
         "team_id": 137,
         "team_abbr": "SF",
         "team_name": "San Francisco Giants",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
-      "linescore": [],
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": null,
+          "home_runs": null
+        }
+      ],
       "home_probable_pitcher": {
         "player_id": 543243,
         "name": "Sonny Gray",
@@ -7007,8 +7043,8 @@
       "pitching_lines": {},
       "boxscore_notes": [],
       "betting_line": {
-        "away_moneyline": 158,
-        "home_moneyline": -170,
+        "away_moneyline": 163,
+        "home_moneyline": -176,
         "run_total": 7.5,
         "provider": "ESPN"
       }
@@ -7019,25 +7055,31 @@
       "game_date": "2026-08-21",
       "game_time_et": "7:10 PM ET",
       "status": "scheduled",
-      "inning": null,
-      "inning_state": null,
+      "inning": 1,
+      "inning_state": "Top",
       "home": {
         "team_id": 146,
         "team_abbr": "MIA",
         "team_name": "Miami Marlins",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
       "away": {
         "team_id": 120,
         "team_abbr": "WSH",
         "team_name": "Washington Nationals",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
-      "linescore": [],
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": null,
+          "home_runs": null
+        }
+      ],
       "home_probable_pitcher": {
         "player_id": 687473,
         "name": "Ryan Gusto",
@@ -7068,7 +7110,7 @@
         "WJFK 106.7 The Fan",
         "WAQI 710"
       ],
-      "weather_description": null,
+      "weather_description": "Roof Closed",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -7081,8 +7123,8 @@
       "pitching_lines": {},
       "boxscore_notes": [],
       "betting_line": {
-        "away_moneyline": 130,
-        "home_moneyline": -140,
+        "away_moneyline": 132,
+        "home_moneyline": -142,
         "run_total": 7.5,
         "provider": "ESPN"
       }
@@ -7093,25 +7135,31 @@
       "game_date": "2026-08-21",
       "game_time_et": "7:15 PM ET",
       "status": "scheduled",
-      "inning": null,
-      "inning_state": null,
+      "inning": 1,
+      "inning_state": "Top",
       "home": {
         "team_id": 110,
         "team_abbr": "BAL",
         "team_name": "Baltimore Orioles",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
       "away": {
         "team_id": 139,
         "team_abbr": "TB",
         "team_name": "Tampa Bay Rays",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
-      "linescore": [],
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": null,
+          "home_runs": null
+        }
+      ],
       "home_probable_pitcher": {
         "player_id": 669432,
         "name": "Trevor Rogers",
@@ -7143,7 +7191,7 @@
         "WQBN/1300AM",
         "WBAL 1090 AM"
       ],
-      "weather_description": null,
+      "weather_description": "Partly Cloudy",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -7156,8 +7204,8 @@
       "pitching_lines": {},
       "boxscore_notes": [],
       "betting_line": {
-        "away_moneyline": 111,
-        "home_moneyline": -119,
+        "away_moneyline": 110,
+        "home_moneyline": -118,
         "run_total": 7.5,
         "provider": "ESPN"
       }
@@ -7218,7 +7266,7 @@
         "107.9 La Ley",
         "Audacy App 92.3 HD2"
       ],
-      "weather_description": null,
+      "weather_description": "Partly Cloudy",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -7243,25 +7291,31 @@
       "game_date": "2026-08-21",
       "game_time_et": "8:10 PM ET",
       "status": "scheduled",
-      "inning": null,
-      "inning_state": null,
+      "inning": 1,
+      "inning_state": "Top",
       "home": {
         "team_id": 118,
         "team_abbr": "KC",
         "team_name": "Kansas City Royals",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
       "away": {
         "team_id": 116,
         "team_abbr": "DET",
         "team_name": "Detroit Tigers",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
-      "linescore": [],
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": null,
+          "home_runs": null
+        }
+      ],
       "home_probable_pitcher": {
         "player_id": 702070,
         "name": "Noah Cameron",
@@ -7293,7 +7347,7 @@
         "96.5 The Fan",
         "Royals Radio Network"
       ],
-      "weather_description": null,
+      "weather_description": "Partly Cloudy",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -7306,9 +7360,9 @@
       "pitching_lines": {},
       "boxscore_notes": [],
       "betting_line": {
-        "away_moneyline": -113,
-        "home_moneyline": 105,
-        "run_total": 8.5,
+        "away_moneyline": -103,
+        "home_moneyline": -104,
+        "run_total": 8.0,
         "provider": "ESPN"
       }
     },
@@ -7318,25 +7372,31 @@
       "game_date": "2026-08-21",
       "game_time_et": "8:10 PM ET",
       "status": "scheduled",
-      "inning": null,
-      "inning_state": null,
+      "inning": 1,
+      "inning_state": "Top",
       "home": {
         "team_id": 117,
         "team_abbr": "HOU",
         "team_name": "Houston Astros",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
       "away": {
         "team_id": 133,
         "team_abbr": "ATH",
         "team_name": "Athletics",
-        "runs": null,
-        "hits": null,
-        "errors": null
+        "runs": 0,
+        "hits": 0,
+        "errors": 0
       },
-      "linescore": [],
+      "linescore": [
+        {
+          "inning": 1,
+          "away_runs": null,
+          "home_runs": null
+        }
+      ],
       "home_probable_pitcher": {
         "player_id": 669713,
         "name": "Hayden Wesneski",
@@ -7368,7 +7428,7 @@
         "KLTN-TUDN 102.9 FM",
         "A's Cast"
       ],
-      "weather_description": null,
+      "weather_description": "Roof Closed",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -7442,7 +7502,7 @@
         "105.3 The Fan",
         "KFLC 1270"
       ],
-      "weather_description": null,
+      "weather_description": "Roof Closed",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -7518,7 +7578,7 @@
         "Guardians Radio Network",
         "KNRV 1150"
       ],
-      "weather_description": null,
+      "weather_description": "Partly Cloudy",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -7592,7 +7652,7 @@
         "WLW 700",
         "La Campesina 101.9 FM & 860 AM"
       ],
-      "weather_description": null,
+      "weather_description": "Roof Closed",
       "postponement_reason": null,
       "attendance": null,
       "time_of_game": null,
@@ -11196,13 +11256,13 @@
   },
   "game_recaps": [
     {
-      "headline": "Grant Holmes Dominates as Atlanta Braves Hold Off White Sox",
-      "deck": "Grant Holmes pitches no-hitter into the seventh inning, Austin Riley hits two RBIs, and Atlanta secures a narrow victory over division rivals.",
+      "headline": "Braves Beat White Sox 2-0 in Thrilling Game, Grant Holmes Takes No-Hitter into 7th",
+      "deck": "Grant Holmes outduels Anthony Kay, Austin Riley steps up with RBIs as Atlanta edges out the White Sox in a tightly contested contest.",
       "byline": "SportzBallz Staff",
       "paragraphs": [
-        "In a dramatic contest that showcased the dominance of Grant Holmes on the mound, the Atlanta Braves held off the Chicago White Sox to secure a hard-fought 2-0 win. The right-hander from Milwaukee took the no-hitter into the seventh inning before allowing Andrew Benintendi to line a single with two outs, marking his first hit in the game.",
-        "Austin Riley played a crucial role for Atlanta, driving in two runs with his double and a single. In the third inning, he doubled off White Sox starter Anthony Kay, putting the Braves up 1-0. The victory extended Holmes' streak of not allowing a hit to 24 batters over three appearances, setting a franchise record.",
-        "Holmes continued his stellar performance in the seventh inning, retiring 18 of the first 20 White Sox batters before being relieved by Didier Fuentes. After two walks issued to Miguel Vargas and Andrew Benintendi, Holmes fended off further threats, striking out both hitters. The win came at the expense of Anthony Kay, who yielded two runs in six-plus innings despite walking one and striking out six."
+        "The Atlanta Braves snapped a three-game slide with a 2-0 victory over the Chicago White Sox, with Grant Holmes pitching a no-hitter into the seventh inning. Holmes, who entered the game with a record of 8-5, faced tough challenges but managed to keep the no-hitter intact until Andrew Benintendi's single in the seventh. Austin Riley played a pivotal role, driving in both runs with a double and a single, and Mauricio Dubón added a hit and a run.",
+        "The White Sox, led by Anthony Kay, who started with a 9-6 record, struggled to break through in six-plus innings. Their efforts were hampered by two base runners — Colson Montgomery walked with two outs in the second and Drew Romo walked with one out in the fifth. Despite these early opportunities, the White Sox couldn’t muster any offense off Holmes, who retired 18 of the first 20 batters he faced. In the seventh, Michael Harris II’s double chased Kay, and Riley’s single off Huascar Brazoban sent Harris to the plate, scoring the game’s only run. Riley added another in the seventh when he singled off the White Sox pitcher, giving the Braves a comfortable 2-0 lead.",
+        "In the pitching department, Didier Fuentes came in to relieve Holmes and struck out the side to strand two runners, securing the victory. Dylan Lee followed with a perfect eighth, and Raisel Iglesias completed the one-hitter with a clean ninth inning, earning his 26th save. Kay’s performance was notable, but he couldn’t overcome the no-hitter and a late surge from the Braves. The White Sox have dropped three of four games in their recent series."
       ],
       "source_data_references": [
         "game:824589",
@@ -11720,6 +11780,26 @@
       "source_url": "https://www.mlb.com/news/gerrit-cole-faces-orioles-for-first-time-this-season"
     },
     {
+      "headline": "MLB continues tradition of awarding college scholarships to 12 Nike RBI Athletes",
+      "deck": "“RBI for RBI” Scholarships Awarded Based on Academic Success and Positive Community Involvement In 2026 the RBI for RBI Scholarship Program Is Providing 48 Students Over $235,000 in Scholarship Aid Major League Baseball has awarded the latest round of college scholarships to 12 incoming college freshmen, all of whom are",
+      "byline": "MLB.com",
+      "paragraphs": [
+        "“RBI for RBI” Scholarships Awarded Based on Academic Success and Positive Community Involvement In 2026 the RBI for RBI Scholarship Program Is Providing 48 Students Over $235,000 in Scholarship Aid Major League Baseball has awarded the latest round of college scholarships to 12 incoming college freshmen, all of whom are"
+      ],
+      "source_data_references": [
+        "https://www.mlb.com/news/mlb-continues-in-tradition-of-awarding-college-scholarships-to-12-nike-rbi-athletes"
+      ],
+      "story_type": "editorial",
+      "teams": [],
+      "players": [],
+      "facts_used": [
+        "“RBI for RBI” Scholarships Awarded Based on Academic Success and Positive Community Involvement In 2026 the RBI for RBI Scholarship Program Is Providing 48 Students Over $235,000 in Scholarship Aid Major League Baseball has awarded the latest round of college scholarships to 12 incoming college freshmen, all of whom are"
+      ],
+      "ai_generated": false,
+      "source_name": "MLB.com",
+      "source_url": "https://www.mlb.com/news/mlb-continues-in-tradition-of-awarding-college-scholarships-to-12-nike-rbi-athletes"
+    },
+    {
       "headline": "One potential prospect callup for each team",
       "deck": "Unless you were hiding under a baseball rock last week, you noticed Cardinals’ prospect Joshua Báez made his big league debut against the Cubs in Chicago last Saturday. All he did was make history by becoming the first player in Major League history to homer in his first three plate",
       "byline": "Jonathan Mayo, Jim Callis and Sam Dykstra",
@@ -11798,51 +11878,9 @@
       "ai_generated": false,
       "source_name": "MLB.com",
       "source_url": "https://www.mlb.com/news/jacob-degrom-reaches-2-000-career-strikeouts"
-    },
-    {
-      "headline": "Baseball’s competitive balance issue, explained",
-      "deck": "MLB and the MLBPA held their first bargaining session on May 12 as both parties began working toward the next labor agreement. The CBA expires on Dec. 1. Competitive balance will be a focus during discussions, if not the primary issue. Here’s what you need to know about the state",
-      "byline": "Travis Sawchik",
-      "paragraphs": [
-        "MLB and the MLBPA held their first bargaining session on May 12 as both parties began working toward the next labor agreement. The CBA expires on Dec. 1. Competitive balance will be a focus during discussions, if not the primary issue. Here’s what you need to know about the state"
-      ],
-      "source_data_references": [
-        "https://www.mlb.com/news/mlb-competitive-balance-issue-explained"
-      ],
-      "story_type": "editorial",
-      "teams": [],
-      "players": [],
-      "facts_used": [
-        "MLB and the MLBPA held their first bargaining session on May 12 as both parties began working toward the next labor agreement. The CBA expires on Dec. 1. Competitive balance will be a focus during discussions, if not the primary issue. Here’s what you need to know about the state"
-      ],
-      "ai_generated": false,
-      "source_name": "MLB.com",
-      "source_url": "https://www.mlb.com/news/mlb-competitive-balance-issue-explained"
     }
   ],
   "transactions": [
-    {
-      "transaction_id": "938640",
-      "team_abbr": "NYY",
-      "team_name": "New York Yankees",
-      "player_name": "Cody Bellinger",
-      "player_id": 641355,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "New York Yankees sent LF Cody Bellinger on a rehab assignment to Scranton/Wilkes-Barre RailRiders.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938618",
-      "team_abbr": "PHI",
-      "team_name": "Philadelphia Phillies",
-      "player_name": "Andrew Hoffmann",
-      "player_id": 694851,
-      "transaction_type": "other",
-      "effective_date": "2026-08-20",
-      "explanation": "Philadelphia Phillies optioned RHP Andrew Hoffmann to Lehigh Valley IronPigs.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
     {
       "transaction_id": "938728",
       "team_abbr": "STL",
@@ -11863,17 +11901,6 @@
       "transaction_type": "injury",
       "effective_date": "2026-08-20",
       "explanation": "Seattle Mariners sent SS J.P. Crawford on a rehab assignment to Tacoma Rainiers.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938726",
-      "team_abbr": "PIT",
-      "team_name": "Pittsburgh Pirates",
-      "player_name": "Owen Prince",
-      "player_id": 836141,
-      "transaction_type": "other",
-      "effective_date": "2026-08-20",
-      "explanation": "Pittsburgh Pirates signed free agent OF Owen Prince to a minor league contract.",
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
@@ -11899,6 +11926,17 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
+      "transaction_id": "938704",
+      "team_abbr": "AZ",
+      "team_name": "Arizona Diamondbacks",
+      "player_name": "Santiago Espinal",
+      "player_id": 669289,
+      "transaction_type": "other",
+      "effective_date": "2026-08-20",
+      "explanation": "Arizona Diamondbacks signed free agent 3B Santiago Espinal to a minor league contract.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
       "transaction_id": "938667",
       "team_abbr": "TOR",
       "team_name": "Toronto Blue Jays",
@@ -11907,6 +11945,83 @@
       "transaction_type": "injury",
       "effective_date": "2026-08-20",
       "explanation": "Toronto Blue Jays sent 1B Vladimir Guerrero Jr. on a rehab assignment to Dunedin Blue Jays.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938660",
+      "team_abbr": "DET",
+      "team_name": "Detroit Tigers",
+      "player_name": "James Outman",
+      "player_id": 681546,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "Detroit Tigers sent CF James Outman on a rehab assignment to Toledo Mud Hens.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938716",
+      "team_abbr": "AZ",
+      "team_name": "Arizona Diamondbacks",
+      "player_name": "Ketel Marte",
+      "player_id": 606466,
+      "transaction_type": "other",
+      "effective_date": "2026-08-20",
+      "explanation": "Arizona Diamondbacks activated 2B Ketel Marte from the restricted list.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938618",
+      "team_abbr": "PHI",
+      "team_name": "Philadelphia Phillies",
+      "player_name": "Andrew Hoffmann",
+      "player_id": 694851,
+      "transaction_type": "other",
+      "effective_date": "2026-08-20",
+      "explanation": "Philadelphia Phillies optioned RHP Andrew Hoffmann to Lehigh Valley IronPigs.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938662",
+      "team_abbr": "LAA",
+      "team_name": "Los Angeles Angels",
+      "player_name": "Samy Natera Jr.",
+      "player_id": 696519,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "Los Angeles Angels placed LHP Samy Natera Jr. on the 15-day injured list retroactive to August 17, 2026. Low back muscle spasms.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938604",
+      "team_abbr": "COL",
+      "team_name": "Colorado Rockies",
+      "player_name": "Tyler Freeman",
+      "player_id": 671289,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "Colorado Rockies sent RF Tyler Freeman on a rehab assignment to Albuquerque Isotopes.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938726",
+      "team_abbr": "PIT",
+      "team_name": "Pittsburgh Pirates",
+      "player_name": "Owen Prince",
+      "player_id": 836141,
+      "transaction_type": "other",
+      "effective_date": "2026-08-20",
+      "explanation": "Pittsburgh Pirates signed free agent OF Owen Prince to a minor league contract.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938717",
+      "team_abbr": "AZ",
+      "team_name": "Arizona Diamondbacks",
+      "player_name": "Ketel Marte",
+      "player_id": 606466,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "Arizona Diamondbacks placed 2B Ketel Marte on the 10-day injured list. Left knee inflammation.",
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
@@ -11943,6 +12058,17 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
+      "transaction_id": "938640",
+      "team_abbr": "NYY",
+      "team_name": "New York Yankees",
+      "player_name": "Cody Bellinger",
+      "player_id": 641355,
+      "transaction_type": "injury",
+      "effective_date": "2026-08-20",
+      "explanation": "New York Yankees sent LF Cody Bellinger on a rehab assignment to Scranton/Wilkes-Barre RailRiders.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
       "transaction_id": "938663",
       "team_abbr": "TEX",
       "team_name": "Texas Rangers",
@@ -11954,102 +12080,14 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
-      "transaction_id": "938604",
-      "team_abbr": "COL",
-      "team_name": "Colorado Rockies",
-      "player_name": "Tyler Freeman",
-      "player_id": 671289,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "Colorado Rockies sent RF Tyler Freeman on a rehab assignment to Albuquerque Isotopes.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938662",
-      "team_abbr": "LAA",
-      "team_name": "Los Angeles Angels",
-      "player_name": "Samy Natera Jr.",
-      "player_id": 696519,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "Los Angeles Angels placed LHP Samy Natera Jr. on the 15-day injured list retroactive to August 17, 2026. Low back muscle spasms.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938717",
-      "team_abbr": "AZ",
-      "team_name": "Arizona Diamondbacks",
-      "player_name": "Ketel Marte",
-      "player_id": 606466,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "Arizona Diamondbacks placed 2B Ketel Marte on the 10-day injured list. Left knee inflammation.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938704",
-      "team_abbr": "AZ",
-      "team_name": "Arizona Diamondbacks",
-      "player_name": "Santiago Espinal",
-      "player_id": 669289,
-      "transaction_type": "other",
-      "effective_date": "2026-08-20",
-      "explanation": "Arizona Diamondbacks signed free agent 3B Santiago Espinal to a minor league contract.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938660",
-      "team_abbr": "DET",
-      "team_name": "Detroit Tigers",
-      "player_name": "James Outman",
-      "player_id": 681546,
-      "transaction_type": "injury",
-      "effective_date": "2026-08-20",
-      "explanation": "Detroit Tigers sent CF James Outman on a rehab assignment to Toledo Mud Hens.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938716",
-      "team_abbr": "AZ",
-      "team_name": "Arizona Diamondbacks",
-      "player_name": "Ketel Marte",
-      "player_id": 606466,
-      "transaction_type": "other",
-      "effective_date": "2026-08-20",
-      "explanation": "Arizona Diamondbacks activated 2B Ketel Marte from the restricted list.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938661",
+      "transaction_id": "938693",
       "team_abbr": "",
-      "team_name": "Salt Lake Bees",
-      "player_name": "Sammy Peralta",
-      "player_id": 671111,
+      "team_name": "Sugar Land Space Cowboys",
+      "player_name": "Raynel Delgado",
+      "player_id": 669384,
       "transaction_type": "other",
       "effective_date": "2026-08-20",
-      "explanation": "Los Angeles Angels recalled LHP Sammy Peralta from Salt Lake Bees.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938602",
-      "team_abbr": "",
-      "team_name": "Sacramento River Cats",
-      "player_name": "Reiver Sanmartin",
-      "player_id": 665665,
-      "transaction_type": "other",
-      "effective_date": "2026-08-20",
-      "explanation": "San Francisco Giants recalled LHP Reiver Sanmartin from Sacramento River Cats.",
-      "source_timestamp": "2026-08-20T00:00:00"
-    },
-    {
-      "transaction_id": "938617",
-      "team_abbr": "AZ",
-      "team_name": "Arizona Diamondbacks",
-      "player_name": "Andrew Hoffmann",
-      "player_id": 694851,
-      "transaction_type": "other",
-      "effective_date": "2026-08-20",
-      "explanation": "Philadelphia Phillies claimed RHP Andrew Hoffmann off waivers from Arizona Diamondbacks.",
+      "explanation": "Houston Astros recalled 2B Raynel Delgado from Sugar Land Space Cowboys.",
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
@@ -12064,6 +12102,39 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
+      "transaction_id": "938617",
+      "team_abbr": "AZ",
+      "team_name": "Arizona Diamondbacks",
+      "player_name": "Andrew Hoffmann",
+      "player_id": 694851,
+      "transaction_type": "other",
+      "effective_date": "2026-08-20",
+      "explanation": "Philadelphia Phillies claimed RHP Andrew Hoffmann off waivers from Arizona Diamondbacks.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938772",
+      "team_abbr": "TB",
+      "team_name": "Tampa Bay Rays",
+      "player_name": "Logan Driscoll",
+      "player_id": 686482,
+      "transaction_type": "trade",
+      "effective_date": "2026-08-20",
+      "explanation": "Tampa Bay Rays traded C Logan Driscoll to Miami Marlins for cash.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
+      "transaction_id": "938661",
+      "team_abbr": "",
+      "team_name": "Salt Lake Bees",
+      "player_name": "Sammy Peralta",
+      "player_id": 671111,
+      "transaction_type": "other",
+      "effective_date": "2026-08-20",
+      "explanation": "Los Angeles Angels recalled LHP Sammy Peralta from Salt Lake Bees.",
+      "source_timestamp": "2026-08-20T00:00:00"
+    },
+    {
       "transaction_id": "938730",
       "team_abbr": "TEX",
       "team_name": "Texas Rangers",
@@ -12075,14 +12146,14 @@
       "source_timestamp": "2026-08-20T00:00:00"
     },
     {
-      "transaction_id": "938693",
+      "transaction_id": "938602",
       "team_abbr": "",
-      "team_name": "Sugar Land Space Cowboys",
-      "player_name": "Raynel Delgado",
-      "player_id": 669384,
+      "team_name": "Sacramento River Cats",
+      "player_name": "Reiver Sanmartin",
+      "player_id": 665665,
       "transaction_type": "other",
       "effective_date": "2026-08-20",
-      "explanation": "Houston Astros recalled 2B Raynel Delgado from Sugar Land Space Cowboys.",
+      "explanation": "San Francisco Giants recalled LHP Reiver Sanmartin from Sacramento River Cats.",
       "source_timestamp": "2026-08-20T00:00:00"
     }
   ],
