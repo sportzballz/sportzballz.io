@@ -3,7 +3,17 @@ name: Baseball production
 on:
   workflow_dispatch:
   schedule:
-    - cron: "25 10 * * *"
+    # Mirrors com.openclaw.baseball-runs in America/New_York.
+    - cron: "50 4,6,9,11,21,22 * * *"
+      timezone: "America/New_York"
+    - cron: "20 5,12,14,16,18,20 * * *"
+      timezone: "America/New_York"
+    - cron: "50 12-20 * * *"
+      timezone: "America/New_York"
+    - cron: "30 13,15,17,19 * * *"
+      timezone: "America/New_York"
+    - cron: "45 23 * * *"
+      timezone: "America/New_York"
 
 permissions:
   contents: read
