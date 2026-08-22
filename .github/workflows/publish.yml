@@ -1,13 +1,9 @@
-name: Upload Website
+name: Legacy SportzPage manual upload
 
-on:
-  push:
-    branches:
-    - main
-  schedule:
-    # 6:15 a.m. EDT / 5:15 a.m. EST. GitHub schedules are always UTC.
-    - cron: "15 10 * * *"
-  workflow_dispatch:
+# Production publishing is owned by baseball-production.yml. Keep this legacy
+# SportzPage-only uploader available for an explicit emergency/manual run, but
+# never let a repository push or timer overwrite generated production HTML.
+on: workflow_dispatch
 
 jobs:
   deploy:
