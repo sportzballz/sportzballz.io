@@ -78,25 +78,25 @@
       }
     },
     "top_run_total_pick": {
-      "winner": "Cleveland Guardians",
-      "loser": "Colorado Rockies",
+      "winner": "Arizona Diamondbacks",
+      "loser": "Cincinnati Reds",
       "pick": "OVER",
-      "line": 11.0,
-      "confidence": 0.642,
-      "odds": -114,
+      "line": 8.0,
+      "confidence": 0.597,
+      "odds": -106,
       "result": "PENDING",
       "profit": 0.0
     },
     "intraday_top_run_total": {
       "date": "2026-08-22",
-      "snapshots": 4,
+      "snapshots": 7,
       "conf_open": 0.642,
-      "conf_close": 0.642,
+      "conf_close": 0.597,
       "conf_max": 0.642,
-      "conf_min": 0.642,
-      "delta_close_open": 0.0,
-      "intraday_range": 0.0,
-      "pick_changes": 0
+      "conf_min": 0.597,
+      "delta_close_open": -0.045,
+      "intraday_range": 0.045,
+      "pick_changes": 1
     },
     "intraday_top_run_total_impact": {
       "sample_days": 72,

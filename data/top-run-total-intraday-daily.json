@@ -881,13 +881,13 @@
   },
   {
     "date": "2026-08-22",
-    "snapshots": 4,
+    "snapshots": 7,
     "conf_open": 0.642,
-    "conf_close": 0.642,
+    "conf_close": 0.597,
     "conf_max": 0.642,
-    "conf_min": 0.642,
-    "delta_close_open": 0.0,
-    "intraday_range": 0.0,
-    "pick_changes": 0
+    "conf_min": 0.597,
+    "delta_close_open": -0.045,
+    "intraday_range": 0.045,
+    "pick_changes": 1
   }
 ]
