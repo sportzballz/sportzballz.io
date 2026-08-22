@@ -1,99 +1,43 @@
 {
-  "generated_at": "2026-08-21 16:56:13.206602-04:00",
-  "edition_date": "2026-08-20",
+  "generated_at": "2026-08-22 04:02:00.112506-04:00",
+  "edition_date": "2026-08-21",
   "season_label": "Preseason",
   "lead": {
-    "headline": "Las Vegas Raiders Take the Day, 22-20",
-    "deck": "LV finished ahead of HOU in final action at Reliant Stadium.",
+    "headline": "New York Jets Take the Day, 17-0",
+    "deck": "NYJ finished ahead of PIT in final action at Acrisure Stadium.",
     "paragraphs": [
-      "The Las Vegas Raiders came away with a 22-20 result over the Houston Texans, putting the defining score of the day at the top of The Daily Sportz Page's football edition.",
-      "The game was played at Reliant Stadium. The result offers an early checkpoint for both clubs as the NFL calendar moves toward the regular season.",
+      "The New York Jets came away with a 17-0 result over the Pittsburgh Steelers, putting the defining score of the day at the top of The Daily Sports Page's football edition.",
+      "The game was played at Acrisure Stadium. The result offers an early checkpoint for both clubs as the NFL calendar moves toward the regular season.",
       "The football page will follow the Eagles first when Philadelphia plays, turn next to the NFC East, and still keep the full league slate in view."
     ],
-    "url": "https://www.espn.com/nfl/recap/_/gameId/401873286"
+    "url": "https://www.espn.com/nfl/recap/_/gameId/401873288"
   },
   "scoreboard": [
-    {
-      "id": "401873286",
-      "name": "Las Vegas Raiders at Houston Texans",
-      "away": {
-        "abbr": "LV",
-        "name": "Las Vegas Raiders",
-        "score": "22",
-        "record": "1-1",
-        "winner": true
-      },
-      "home": {
-        "abbr": "HOU",
-        "name": "Houston Texans",
-        "score": "20",
-        "record": "0-2",
-        "winner": false
-      },
-      "status": "Final",
-      "completed": true,
-      "detail": "Final",
-      "time": "8:00 PM ET",
-      "venue": "Reliant Stadium",
-      "broadcast": "ESPN",
-      "odds": "",
-      "over_under": null,
-      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873286"
-    },
-    {
-      "id": "401873285",
-      "name": "San Francisco 49ers at Los Angeles Chargers",
-      "away": {
-        "abbr": "SF",
-        "name": "San Francisco 49ers",
-        "score": "41",
-        "record": "1-1",
-        "winner": true
-      },
-      "home": {
-        "abbr": "LAC",
-        "name": "Los Angeles Chargers",
-        "score": "17",
-        "record": "1-1",
-        "winner": false
-      },
-      "status": "Final",
-      "completed": true,
-      "detail": "Final",
-      "time": "10:00 PM ET",
-      "venue": "SoFi Stadium",
-      "broadcast": "NFL Net",
-      "odds": "",
-      "over_under": null,
-      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873285"
-    }
-  ],
-  "today_games": [
     {
       "id": "401873288",
       "name": "New York Jets at Pittsburgh Steelers",
       "away": {
         "abbr": "NYJ",
         "name": "New York Jets",
-        "score": "0",
-        "record": "0-1",
-        "winner": false
+        "score": "17",
+        "record": "1-1",
+        "winner": true
       },
       "home": {
         "abbr": "PIT",
         "name": "Pittsburgh Steelers",
         "score": "0",
-        "record": "1-0",
+        "record": "1-1",
         "winner": false
       },
-      "status": "Scheduled",
-      "completed": false,
-      "detail": "8/21 - 7:00 PM EDT",
+      "status": "Final",
+      "completed": true,
+      "detail": "Final",
       "time": "7:00 PM ET",
       "venue": "Acrisure Stadium",
       "broadcast": "NFL Net",
-      "odds": "NYJ -1.5",
-      "over_under": 37.5,
+      "odds": "",
+      "over_under": null,
       "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873288"
     },
     {
@@ -102,25 +46,25 @@
       "away": {
         "abbr": "CAR",
         "name": "Carolina Panthers",
-        "score": "0",
-        "record": "1-1",
-        "winner": false
+        "score": "34",
+        "record": "2-1",
+        "winner": true
       },
       "home": {
         "abbr": "JAX",
         "name": "Jacksonville Jaguars",
-        "score": "0",
-        "record": "1-0",
+        "score": "17",
+        "record": "1-1",
         "winner": false
       },
-      "status": "Scheduled",
-      "completed": false,
-      "detail": "8/21 - 7:30 PM EDT",
+      "status": "Final",
+      "completed": true,
+      "detail": "Final",
       "time": "7:30 PM ET",
       "venue": "EverBank Stadium",
       "broadcast": "ESPN Unlmtd",
-      "odds": "CAR -1.5",
-      "over_under": 37.5,
+      "odds": "",
+      "over_under": null,
       "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873287"
     },
     {
@@ -129,26 +73,298 @@
       "away": {
         "abbr": "GB",
         "name": "Green Bay Packers",
+        "score": "33",
+        "record": "1-1",
+        "winner": true
+      },
+      "home": {
+        "abbr": "DEN",
+        "name": "Denver Broncos",
+        "score": "13",
+        "record": "1-1",
+        "winner": false
+      },
+      "status": "Final",
+      "completed": true,
+      "detail": "Final",
+      "time": "9:00 PM ET",
+      "venue": "Empower Field at Mile High",
+      "broadcast": "NFL Net",
+      "odds": "",
+      "over_under": null,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873613"
+    }
+  ],
+  "today_games": [
+    {
+      "id": "401873601",
+      "name": "Washington Commanders at Detroit Lions",
+      "away": {
+        "abbr": "WSH",
+        "name": "Washington Commanders",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "home": {
+        "abbr": "DET",
+        "name": "Detroit Lions",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 12:00 PM EDT",
+      "time": "12:00 PM ET",
+      "venue": "Ford Field",
+      "broadcast": "Lions TV Network, WUSA9",
+      "odds": "DET -1.5",
+      "over_under": 36.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873601"
+    },
+    {
+      "id": "401873294",
+      "name": "Buffalo Bills at Cleveland Browns",
+      "away": {
+        "abbr": "BUF",
+        "name": "Buffalo Bills",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "home": {
+        "abbr": "CLE",
+        "name": "Cleveland Browns",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 1:00 PM EDT",
+      "time": "1:00 PM ET",
+      "venue": "Huntington Bank Field",
+      "broadcast": "NFL Net",
+      "odds": "CLE -3",
+      "over_under": 36.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873294"
+    },
+    {
+      "id": "401873295",
+      "name": "Atlanta Falcons at Indianapolis Colts",
+      "away": {
+        "abbr": "ATL",
+        "name": "Atlanta Falcons",
         "score": "0",
         "record": "0-1",
         "winner": false
       },
       "home": {
-        "abbr": "DEN",
-        "name": "Denver Broncos",
+        "abbr": "IND",
+        "name": "Indianapolis Colts",
+        "score": "0",
+        "record": "0-0-1",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 1:00 PM EDT",
+      "time": "1:00 PM ET",
+      "venue": "Lucas Oil Stadium",
+      "broadcast": "CBS4",
+      "odds": "IND -3.5",
+      "over_under": 36.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873295"
+    },
+    {
+      "id": "401873291",
+      "name": "Baltimore Ravens at Minnesota Vikings",
+      "away": {
+        "abbr": "BAL",
+        "name": "Baltimore Ravens",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "home": {
+        "abbr": "MIN",
+        "name": "Minnesota Vikings",
         "score": "0",
         "record": "1-0",
         "winner": false
       },
       "status": "Scheduled",
       "completed": false,
-      "detail": "8/21 - 9:00 PM EDT",
-      "time": "9:00 PM ET",
-      "venue": "Empower Field at Mile High",
+      "detail": "8/22 - 1:00 PM EDT",
+      "time": "1:00 PM ET",
+      "venue": "U.S. Bank Stadium",
+      "broadcast": "ESPN Unlmtd",
+      "odds": "MIN -3.5",
+      "over_under": 36.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873291"
+    },
+    {
+      "id": "401873290",
+      "name": "New Orleans Saints at Los Angeles Rams",
+      "away": {
+        "abbr": "NO",
+        "name": "New Orleans Saints",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "home": {
+        "abbr": "LAR",
+        "name": "Los Angeles Rams",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 4:00 PM EDT",
+      "time": "4:00 PM ET",
+      "venue": "SoFi Stadium",
+      "broadcast": "ESPN Unlmtd",
+      "odds": "NO -1.5",
+      "over_under": 37.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873290"
+    },
+    {
+      "id": "401873292",
+      "name": "New York Giants at Miami Dolphins",
+      "away": {
+        "abbr": "NYG",
+        "name": "New York Giants",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "home": {
+        "abbr": "MIA",
+        "name": "Miami Dolphins",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 4:00 PM EDT",
+      "time": "4:00 PM ET",
+      "venue": "Hard Rock Stadium",
       "broadcast": "NFL Net",
-      "odds": "DEN -6.5",
-      "over_under": 40.5,
-      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873613"
+      "odds": "NYG -3",
+      "over_under": 36.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873292"
+    },
+    {
+      "id": "401873289",
+      "name": "Chicago Bears at Cincinnati Bengals",
+      "away": {
+        "abbr": "CHI",
+        "name": "Chicago Bears",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "home": {
+        "abbr": "CIN",
+        "name": "Cincinnati Bengals",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 7:00 PM EDT",
+      "time": "7:00 PM ET",
+      "venue": "Paycor Stadium",
+      "broadcast": "Bengals Preseason TV Network",
+      "odds": "CHI -1.5",
+      "over_under": 36.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873289"
+    },
+    {
+      "id": "401873293",
+      "name": "Philadelphia Eagles at New England Patriots",
+      "away": {
+        "abbr": "PHI",
+        "name": "Philadelphia Eagles",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "home": {
+        "abbr": "NE",
+        "name": "New England Patriots",
+        "score": "0",
+        "record": "0-0-1",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 7:00 PM EDT",
+      "time": "7:00 PM ET",
+      "venue": "Gillette Stadium",
+      "broadcast": "NFL Net",
+      "odds": "PHI -1.5",
+      "over_under": 36.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873293"
+    },
+    {
+      "id": "401873296",
+      "name": "Kansas City Chiefs at Tampa Bay Buccaneers",
+      "away": {
+        "abbr": "KC",
+        "name": "Kansas City Chiefs",
+        "score": "0",
+        "record": "0-1",
+        "winner": false
+      },
+      "home": {
+        "abbr": "TB",
+        "name": "Tampa Bay Buccaneers",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 7:30 PM EDT",
+      "time": "7:30 PM ET",
+      "venue": "Raymond James Stadium",
+      "broadcast": "ESPN Unlmtd",
+      "odds": "TB -5.5",
+      "over_under": 36.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401873296"
+    },
+    {
+      "id": "401874101",
+      "name": "Dallas Cowboys at Arizona Cardinals",
+      "away": {
+        "abbr": "DAL",
+        "name": "Dallas Cowboys",
+        "score": "0",
+        "record": "1-0",
+        "winner": false
+      },
+      "home": {
+        "abbr": "ARI",
+        "name": "Arizona Cardinals",
+        "score": "0",
+        "record": "1-1",
+        "winner": false
+      },
+      "status": "Scheduled",
+      "completed": false,
+      "detail": "8/22 - 10:00 PM EDT",
+      "time": "10:00 PM ET",
+      "venue": "State Farm Stadium",
+      "broadcast": "NFL Net",
+      "odds": "ARI -1.5",
+      "over_under": 37.5,
+      "recap_url": "https://www.espn.com/nfl/recap/_/gameId/401874101"
     }
   ],
   "standings": [
@@ -165,6 +381,15 @@
           "diff": "+15"
         },
         {
+          "abbr": "NYJ",
+          "name": "New York Jets",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
+          "diff": "+9"
+        },
+        {
           "abbr": "NE",
           "name": "New England Patriots",
           "wins": "0",
@@ -172,15 +397,6 @@
           "ties": "1",
           "pct": ".500",
           "diff": "0"
-        },
-        {
-          "abbr": "NYJ",
-          "name": "New York Jets",
-          "wins": "0",
-          "losses": "1",
-          "ties": "0",
-          "pct": ".000",
-          "diff": "-8"
         },
         {
           "abbr": "MIA",
@@ -197,15 +413,6 @@
       "name": "AFC North",
       "rows": [
         {
-          "abbr": "PIT",
-          "name": "Pittsburgh Steelers",
-          "wins": "1",
-          "losses": "0",
-          "ties": "0",
-          "pct": "1.000",
-          "diff": "+19"
-        },
-        {
           "abbr": "BAL",
           "name": "Baltimore Ravens",
           "wins": "1",
@@ -221,6 +428,15 @@
           "losses": "0",
           "ties": "0",
           "pct": "1.000",
+          "diff": "+2"
+        },
+        {
+          "abbr": "PIT",
+          "name": "Pittsburgh Steelers",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
           "diff": "+2"
         },
         {
@@ -250,10 +466,10 @@
           "abbr": "JAX",
           "name": "Jacksonville Jaguars",
           "wins": "1",
-          "losses": "0",
+          "losses": "1",
           "ties": "0",
-          "pct": "1.000",
-          "diff": "+4"
+          "pct": ".500",
+          "diff": "-13"
         },
         {
           "abbr": "IND",
@@ -279,15 +495,6 @@
       "name": "AFC West",
       "rows": [
         {
-          "abbr": "DEN",
-          "name": "Denver Broncos",
-          "wins": "1",
-          "losses": "0",
-          "ties": "0",
-          "pct": "1.000",
-          "diff": "+20"
-        },
-        {
           "abbr": "LAC",
           "name": "Los Angeles Chargers",
           "wins": "1",
@@ -304,6 +511,15 @@
           "ties": "0",
           "pct": ".500",
           "diff": "-11"
+        },
+        {
+          "abbr": "DEN",
+          "name": "Denver Broncos",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
+          "diff": "0"
         },
         {
           "abbr": "KC",
@@ -379,6 +595,15 @@
           "diff": "+24"
         },
         {
+          "abbr": "GB",
+          "name": "Green Bay Packers",
+          "wins": "1",
+          "losses": "1",
+          "ties": "0",
+          "pct": ".500",
+          "diff": "+1"
+        },
+        {
           "abbr": "DET",
           "name": "Detroit Lions",
           "wins": "0",
@@ -386,15 +611,6 @@
           "ties": "0",
           "pct": ".000",
           "diff": "-2"
-        },
-        {
-          "abbr": "GB",
-          "name": "Green Bay Packers",
-          "wins": "0",
-          "losses": "1",
-          "ties": "0",
-          "pct": ".000",
-          "diff": "-19"
         }
       ]
     },
@@ -413,11 +629,11 @@
         {
           "abbr": "CAR",
           "name": "Carolina Panthers",
-          "wins": "1",
+          "wins": "2",
           "losses": "1",
           "ties": "0",
-          "pct": ".500",
-          "diff": "-12"
+          "pct": ".667",
+          "diff": "+5"
         },
         {
           "abbr": "NO",
@@ -483,44 +699,44 @@
   ],
   "news": [
     {
-      "headline": "Seahawks WR Jake Bobo suffers 'serious' knee injury, coach says",
-      "description": "Seahawks wideout Jake Bobo appeared to suffer a \"serious knee injury during Friday's practice against the Titans, coach Mike Macdonald told reporters.",
-      "url": "https://www.espn.com/nfl/story/_/id/49683636/seahawks-wr-jake-bobo-suffers-serious-knee-injury-says-coach"
+      "headline": "Broncos' Bo Nix throws for TD in return from ankle injury",
+      "description": "Broncos quarterback Bo Nix, who underwent two offseason surgeries to repair a fractured right ankle, made his first preseason appearance Friday night, playing 14 snaps and finishing 6-of-9 passing for 76 yards and a touchdown.",
+      "url": "https://www.espn.com/nfl/story/_/id/49687942/broncos-qb-bo-nix-throws-td-preseason-return-ankle-surgery"
     },
     {
-      "headline": "Massachusetts to investigate Cardinals exec's alleged betting",
-      "description": "A second investigation has been opened related to former Arizona Cardinals scout Ryan Gold's alleged betting activity.",
-      "url": "https://www.espn.com/nfl/story/_/id/49683212/massachusetts-investigate-cardinals-exec-alleged-betting"
+      "headline": "2026 NFL preseason Week 2: Game takeaways, analysis",
+      "description": "Week 2 of the NFL preseason is underway, and our NFL Nation reporters are tackling the biggest looming roster questions coming off each game.",
+      "url": "https://www.espn.com/nfl/story/_/id/49664649/2026-nfl-preseason-week-2-takeaways-analysis-roster-questions"
     },
     {
-      "headline": "Why Brock Purdy is 'extremely happy' for Deebo to be back",
-      "description": "Why Brock Purdy is 'extremely happy' for Deebo to be back ",
-      "url": "https://www.espn.com/video/clip/_/id/49683048/why-brock-purdy-extremely-happy-deebo-back"
+      "headline": "2026 fantasy football rankings: PPR leagues",
+      "description": "Fantasy football rankings for the upcoming season, for PPR leagues, as well as IDP and dynasty setups.",
+      "url": "https://www.espn.com/fantasy/football/story/_/page/FFPreseasonRank26main/fantasy-football-rankings-2026-draft-ppr"
     },
     {
-      "headline": "Fantasy football buzz: What you need to know from Thursday's games",
-      "description": "Eric Moody goes over the big takeaways from Thursday's preseason games.",
-      "url": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis"
+      "headline": "Bo Nix shines in return from broken ankle, but Broncos fall to Packers 33-13",
+      "description": "\u2014 Bo Nix 's 21-yard touchdown toss to R.J. Harvey two plays after hooking up with new speedster ",
+      "url": "http://www.espn.com/nfl/recap?gameId=401873613"
     },
     {
-      "headline": "Swagu has a message for Joe Burrow ahead of new season",
-      "description": "Swagu has a message for Joe Burrow ahead of new season",
-      "url": "https://www.espn.com/video/clip/_/id/49681388/swagu-message-joe-burrow-ahead-new-season"
+      "headline": "Green Bay Packers vs. Denver Broncos: Game Highlights",
+      "description": "Green Bay Packers vs. Denver Broncos: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/49687337/game-highlights"
     },
     {
-      "headline": "Why Swagu is picking Cousins as Raiders' starting QB, for now",
-      "description": "Why Swagu is picking Cousins as Raiders' starting QB, for now",
-      "url": "https://www.espn.com/video/clip/_/id/49681247/why-swagu-picking-cousins-raiders-starting-qb-now"
+      "headline": "Steelers QBs Howard, Allar sputter in preseason dud vs. Jets",
+      "description": "Eight days after helping the offense light up the scoreboard with 28 points, young Steelers quarterbacks Will Howard and Drew Allar combined to throw two interceptions, take four sacks and score zero points in a 17-0 preseason loss to the Jets on Friday.",
+      "url": "https://www.espn.com/nfl/story/_/id/49687242/steelers-qbs-howard-drew-allar-fail-move-offense-preseason-loss-jets"
     },
     {
-      "headline": "Swagu can't fathom the lack of respect for Jalen Hurts",
-      "description": "Swagu can't fathom the lack of respect for Jalen Hurts",
-      "url": "https://www.espn.com/video/clip/_/id/49681063/swagu-fathom-lack-respect-jalen-hurts"
+      "headline": "Carolina Panthers vs. Jacksonville Jaguars: Game Highlights",
+      "description": "Carolina Panthers vs. Jacksonville Jaguars: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/49687000/game-highlights"
     },
     {
-      "headline": "Jordan Morgan gets his shot at the Packers' left tackle job -- finally",
-      "description": "The 2024 first-round pick is ready to step in to protect quarterback Jordan Love for Green Bay.",
-      "url": "https://www.espn.com/nfl/story/_/id/49681049/jordan-morgan-gets-shot-packers-left-tackle-job-finally"
+      "headline": "Bryce Young and the Panthers find better footing in a 34-17 victory at the Jaguars",
+      "description": "Bryce Young had much more success in his second game of the preseason, going 5 of 6 for 49 yards passing and setting up a touchdown in the Carolina Panthers' 34-17 victory over the Jacksonville Jaguars on Friday night.",
+      "url": "http://www.espn.com/nfl/recap?gameId=401873287"
     }
   ]
 }
