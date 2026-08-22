@@ -2,6 +2,12 @@ name: Baseball production
 
 on:
   workflow_dispatch:
+    inputs:
+      purge_lede_cache:
+        description: "Regenerate all ledes for today instead of restoring the daily cache"
+        required: false
+        default: false
+        type: boolean
   schedule:
     # Mirrors com.openclaw.baseball-runs in America/New_York.
     - cron: "50 4,6,9,11,21,22 * * *"
@@ -60,6 +66,11 @@ jobs:
         run: |
           mkdir -p platform/build/lede-cache
           test -s "platform/build/lede-cache/$TODAY.json" || cp "live-site/data/lede-cache/$TODAY.json" "platform/build/lede-cache/$TODAY.json" || true
+      - name: Purge today's generated ledes
+        if: github.event_name == 'workflow_dispatch' && inputs.purge_lede_cache
+        env:
+          TODAY: ${{ steps.date.outputs.today }}
+        run: rm -f "platform/build/lede-cache/$TODAY.json"
       - name: Generate production site
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
