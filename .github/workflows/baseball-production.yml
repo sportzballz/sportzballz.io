@@ -53,6 +53,8 @@ jobs:
       - name: Generate production site
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CACHED_MATCHUP_METRICS_ONLY: "true"
+          CACHED_METRICS_WEIGHT: "10.0"
         working-directory: platform
         run: >-
           python scripts/run_shadow.py
