@@ -1,12 +1,12 @@
 {
-  "sample_days": 71,
+  "sample_days": 72,
   "delta_buckets": {
     "flat": {
-      "days": 14,
+      "days": 15,
       "wins": 5,
-      "losses": 9,
-      "profit": -453.86,
-      "win_rate_pct": 35.7
+      "losses": 10,
+      "profit": -553.86,
+      "win_rate_pct": 33.3
     },
     "down_big": {
       "days": 10,
@@ -32,11 +32,11 @@
       "win_rate_pct": 60.0
     },
     "high_range": {
-      "days": 63,
+      "days": 64,
       "wins": 23,
-      "losses": 40,
-      "profit": -1916.25,
-      "win_rate_pct": 36.5
+      "losses": 41,
+      "profit": -2016.25,
+      "win_rate_pct": 35.9
     },
     "medium_range": {
       "days": 3,
