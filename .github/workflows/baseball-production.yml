@@ -9,8 +9,10 @@ on:
         default: false
         type: boolean
   schedule:
-    # Publish hourly, offset from the top of the hour to reduce scheduler load.
-    - cron: "17 * * * *"
+    # GitHub cron is UTC. These cover both EST and EDT; schedule_gate below
+    # keeps only 7:00 AM, 10:00 AM, and each half-hour from noon to 11:30 PM ET.
+    - cron: "0 11,12,14,15 * * *"
+    - cron: "0,30 0-4,16-23 * * *"
 
 permissions:
   contents: read
@@ -20,7 +22,30 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  schedule_gate:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.window.outputs.should_run }}
+    steps:
+      - id: window
+        name: Check Eastern publication window
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" != "schedule" ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          eastern_hour=$(TZ=America/New_York date +%H)
+          if [[ "$eastern_hour" == "07" || "$eastern_hour" == "10" || ( "$eastern_hour" -ge 12 && "$eastern_hour" -le 23 ) ]]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
   generate-and-publish:
+    needs: schedule_gate
+    if: needs.schedule_gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
